@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface StorageImportConfig extends cdktf.TerraformMetaArguments {
   /**
   * The capacity of a storage in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#capacity StorageImport#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#capacity StorageImport#capacity}
   */
   readonly capacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#id StorageImport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#id StorageImport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,45 +23,45 @@ export interface StorageImportConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#labels StorageImport#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#labels StorageImport#labels}
   */
   readonly labels?: string[];
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#name StorageImport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#name StorageImport#name}
   */
   readonly name: string;
   /**
   * ID of the storage backup that will be used to create a new storage from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#storage_backup_id StorageImport#storage_backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#storage_backup_id StorageImport#storage_backup_id}
   */
   readonly storageBackupId: string;
   /**
   * (one of storage, storage_high, storage_insane)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#storage_type StorageImport#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#storage_type StorageImport#storage_type}
   */
   readonly storageType?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#timeouts StorageImport#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#timeouts StorageImport#timeouts}
   */
   readonly timeouts?: StorageImportTimeouts;
 }
 export interface StorageImportTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#create StorageImport#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#create StorageImport#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#delete StorageImport#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#delete StorageImport#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#update StorageImport#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#update StorageImport#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class StorageImportTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import gridscale_storage_import}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import gridscale_storage_import}
 */
 export class StorageImport extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class StorageImport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageImport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageImport to import
-  * @param importFromId The id of the existing StorageImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageImport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class StorageImport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/storage_import gridscale_storage_import} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/storage_import gridscale_storage_import} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class StorageImport extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_storage_import',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

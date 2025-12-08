@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgClusterInformationV1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#metadata DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#metadata DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgClusterInformationV1ManifestMetadata;
   /**
   * ClusterInformationSpec contains the values of describing the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#spec DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#spec DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgClusterInformationV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgClusterInformationV1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#annotations DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#annotations DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#labels DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#labels DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#name DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#name DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,31 +187,31 @@ export interface DataK8SCrdProjectcalicoOrgClusterInformationV1ManifestSpec {
   /**
   * CalicoVersion is the version of Calico that the cluster is running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#calico_version DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#calico_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#calico_version DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#calico_version}
   */
   readonly calicoVersion?: string;
   /**
   * ClusterGUID is the GUID of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#cluster_guid DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#cluster_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#cluster_guid DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#cluster_guid}
   */
   readonly clusterGuid?: string;
   /**
   * ClusterType describes the type of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#cluster_type DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#cluster_type DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * DatastoreReady is used during significant datastore migrations to signal to components such as Felix that it should wait before accessing the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#datastore_ready DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#datastore_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#datastore_ready DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#datastore_ready}
   */
   readonly datastoreReady?: boolean | cdktf.IResolvable;
   /**
   * Variant declares which variant of Calico should be active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#variant DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#variant DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest#variant}
   */
   readonly variant?: string;
 }
@@ -421,7 +421,7 @@ export class DataK8SCrdProjectcalicoOrgClusterInformationV1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest k8s_crd_projectcalico_org_cluster_information_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest k8s_crd_projectcalico_org_cluster_information_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -437,7 +437,7 @@ export class DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -449,7 +449,7 @@ export class DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest k8s_crd_projectcalico_org_cluster_information_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_cluster_information_v1_manifest k8s_crd_projectcalico_org_cluster_information_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,8 +460,8 @@ export class DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest extends cdkt
       terraformResourceType: 'k8s_crd_projectcalico_org_cluster_information_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

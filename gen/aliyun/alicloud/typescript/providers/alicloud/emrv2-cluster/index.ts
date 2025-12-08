@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,124 +8,124 @@ import * as cdktf from 'cdktf';
 
 export interface Emrv2ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#applications Emrv2Cluster#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#applications Emrv2Cluster#applications}
   */
   readonly applications: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#cluster_name Emrv2Cluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#cluster_name Emrv2Cluster#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#cluster_type Emrv2Cluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#cluster_type Emrv2Cluster#cluster_type}
   */
   readonly clusterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#deletion_protection Emrv2Cluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#deletion_protection Emrv2Cluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#deploy_mode Emrv2Cluster#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#deploy_mode Emrv2Cluster#deploy_mode}
   */
   readonly deployMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#id Emrv2Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#id Emrv2Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#log_collect_strategy Emrv2Cluster#log_collect_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#log_collect_strategy Emrv2Cluster#log_collect_strategy}
   */
   readonly logCollectStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#payment_type Emrv2Cluster#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#payment_type Emrv2Cluster#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#release_version Emrv2Cluster#release_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#release_version Emrv2Cluster#release_version}
   */
   readonly releaseVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#resource_group_id Emrv2Cluster#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#resource_group_id Emrv2Cluster#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#security_mode Emrv2Cluster#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#security_mode Emrv2Cluster#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#tags Emrv2Cluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#tags Emrv2Cluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * application_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#application_configs Emrv2Cluster#application_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#application_configs Emrv2Cluster#application_configs}
   */
   readonly applicationConfigs?: Emrv2ClusterApplicationConfigs[] | cdktf.IResolvable;
   /**
   * bootstrap_scripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#bootstrap_scripts Emrv2Cluster#bootstrap_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#bootstrap_scripts Emrv2Cluster#bootstrap_scripts}
   */
   readonly bootstrapScripts?: Emrv2ClusterBootstrapScripts[] | cdktf.IResolvable;
   /**
   * node_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_attributes Emrv2Cluster#node_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_attributes Emrv2Cluster#node_attributes}
   */
   readonly nodeAttributes: Emrv2ClusterNodeAttributes[] | cdktf.IResolvable;
   /**
   * node_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_groups Emrv2Cluster#node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_groups Emrv2Cluster#node_groups}
   */
   readonly nodeGroups: Emrv2ClusterNodeGroups[] | cdktf.IResolvable;
   /**
   * subscription_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#subscription_config Emrv2Cluster#subscription_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#subscription_config Emrv2Cluster#subscription_config}
   */
   readonly subscriptionConfig?: Emrv2ClusterSubscriptionConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#timeouts Emrv2Cluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#timeouts Emrv2Cluster#timeouts}
   */
   readonly timeouts?: Emrv2ClusterTimeouts;
 }
 export interface Emrv2ClusterApplicationConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#application_name Emrv2Cluster#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#application_name Emrv2Cluster#application_name}
   */
   readonly applicationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#config_description Emrv2Cluster#config_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#config_description Emrv2Cluster#config_description}
   */
   readonly configDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#config_file_name Emrv2Cluster#config_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#config_file_name Emrv2Cluster#config_file_name}
   */
   readonly configFileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#config_item_key Emrv2Cluster#config_item_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#config_item_key Emrv2Cluster#config_item_key}
   */
   readonly configItemKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#config_item_value Emrv2Cluster#config_item_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#config_item_value Emrv2Cluster#config_item_value}
   */
   readonly configItemValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#config_scope Emrv2Cluster#config_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#config_scope Emrv2Cluster#config_scope}
   */
   readonly configScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_id Emrv2Cluster#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_id Emrv2Cluster#node_group_id}
   */
   readonly nodeGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_name Emrv2Cluster#node_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_name Emrv2Cluster#node_group_name}
   */
   readonly nodeGroupName?: string;
 }
@@ -432,31 +432,31 @@ export class Emrv2ClusterApplicationConfigsList extends cdktf.ComplexList {
 }
 export interface Emrv2ClusterBootstrapScriptsNodeSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_id Emrv2Cluster#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_id Emrv2Cluster#node_group_id}
   */
   readonly nodeGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_ids Emrv2Cluster#node_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_ids Emrv2Cluster#node_group_ids}
   */
   readonly nodeGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_name Emrv2Cluster#node_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_name Emrv2Cluster#node_group_name}
   */
   readonly nodeGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_names Emrv2Cluster#node_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_names Emrv2Cluster#node_group_names}
   */
   readonly nodeGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_types Emrv2Cluster#node_group_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_types Emrv2Cluster#node_group_types}
   */
   readonly nodeGroupTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_names Emrv2Cluster#node_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_names Emrv2Cluster#node_names}
   */
   readonly nodeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_select_type Emrv2Cluster#node_select_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_select_type Emrv2Cluster#node_select_type}
   */
   readonly nodeSelectType: string;
 }
@@ -711,33 +711,33 @@ export class Emrv2ClusterBootstrapScriptsNodeSelectorOutputReference extends cdk
 }
 export interface Emrv2ClusterBootstrapScripts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#execution_fail_strategy Emrv2Cluster#execution_fail_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#execution_fail_strategy Emrv2Cluster#execution_fail_strategy}
   */
   readonly executionFailStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#execution_moment Emrv2Cluster#execution_moment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#execution_moment Emrv2Cluster#execution_moment}
   */
   readonly executionMoment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#priority Emrv2Cluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#priority Emrv2Cluster#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#script_args Emrv2Cluster#script_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#script_args Emrv2Cluster#script_args}
   */
   readonly scriptArgs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#script_name Emrv2Cluster#script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#script_name Emrv2Cluster#script_name}
   */
   readonly scriptName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#script_path Emrv2Cluster#script_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#script_path Emrv2Cluster#script_path}
   */
   readonly scriptPath: string;
   /**
   * node_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_selector Emrv2Cluster#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_selector Emrv2Cluster#node_selector}
   */
   readonly nodeSelector: Emrv2ClusterBootstrapScriptsNodeSelector;
 }
@@ -1009,39 +1009,39 @@ export class Emrv2ClusterBootstrapScriptsList extends cdktf.ComplexList {
 }
 export interface Emrv2ClusterNodeAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#data_disk_encrypted Emrv2Cluster#data_disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#data_disk_encrypted Emrv2Cluster#data_disk_encrypted}
   */
   readonly dataDiskEncrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#data_disk_kms_key_id Emrv2Cluster#data_disk_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#data_disk_kms_key_id Emrv2Cluster#data_disk_kms_key_id}
   */
   readonly dataDiskKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#key_pair_name Emrv2Cluster#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#key_pair_name Emrv2Cluster#key_pair_name}
   */
   readonly keyPairName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#ram_role Emrv2Cluster#ram_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#ram_role Emrv2Cluster#ram_role}
   */
   readonly ramRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#security_group_id Emrv2Cluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#security_group_id Emrv2Cluster#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#system_disk_encrypted Emrv2Cluster#system_disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#system_disk_encrypted Emrv2Cluster#system_disk_encrypted}
   */
   readonly systemDiskEncrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#system_disk_kms_key_id Emrv2Cluster#system_disk_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#system_disk_kms_key_id Emrv2Cluster#system_disk_kms_key_id}
   */
   readonly systemDiskKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#vpc_id Emrv2Cluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#vpc_id Emrv2Cluster#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#zone_id Emrv2Cluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#zone_id Emrv2Cluster#zone_id}
   */
   readonly zoneId: string;
 }
@@ -1374,11 +1374,11 @@ export class Emrv2ClusterNodeAttributesList extends cdktf.ComplexList {
 }
 export interface Emrv2ClusterNodeGroupsAckConfigCustomAnnotations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
   */
   readonly value?: string;
 }
@@ -1520,11 +1520,11 @@ export class Emrv2ClusterNodeGroupsAckConfigCustomAnnotationsList extends cdktf.
 }
 export interface Emrv2ClusterNodeGroupsAckConfigCustomLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
   */
   readonly value?: string;
 }
@@ -1666,11 +1666,11 @@ export class Emrv2ClusterNodeGroupsAckConfigCustomLabelsList extends cdktf.Compl
 }
 export interface Emrv2ClusterNodeGroupsAckConfigNodeSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
   */
   readonly value?: string;
 }
@@ -1812,19 +1812,19 @@ export class Emrv2ClusterNodeGroupsAckConfigNodeSelectorsList extends cdktf.Comp
 }
 export interface Emrv2ClusterNodeGroupsAckConfigPvcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#data_disk_size Emrv2Cluster#data_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#data_disk_size Emrv2Cluster#data_disk_size}
   */
   readonly dataDiskSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#data_disk_storage_class Emrv2Cluster#data_disk_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#data_disk_storage_class Emrv2Cluster#data_disk_storage_class}
   */
   readonly dataDiskStorageClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#name Emrv2Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#name Emrv2Cluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#path Emrv2Cluster#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#path Emrv2Cluster#path}
   */
   readonly path: string;
 }
@@ -2015,19 +2015,19 @@ export class Emrv2ClusterNodeGroupsAckConfigPvcsList extends cdktf.ComplexList {
 }
 export interface Emrv2ClusterNodeGroupsAckConfigTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#effect Emrv2Cluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#effect Emrv2Cluster#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#operator Emrv2Cluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#operator Emrv2Cluster#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
   */
   readonly value?: string;
 }
@@ -2230,11 +2230,11 @@ export class Emrv2ClusterNodeGroupsAckConfigTolerationsList extends cdktf.Comple
 }
 export interface Emrv2ClusterNodeGroupsAckConfigVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#name Emrv2Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#name Emrv2Cluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#path Emrv2Cluster#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#path Emrv2Cluster#path}
   */
   readonly path: string;
 }
@@ -2373,15 +2373,15 @@ export class Emrv2ClusterNodeGroupsAckConfigVolumeMountsList extends cdktf.Compl
 }
 export interface Emrv2ClusterNodeGroupsAckConfigVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#name Emrv2Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#name Emrv2Cluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#path Emrv2Cluster#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#path Emrv2Cluster#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#type Emrv2Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#type Emrv2Cluster#type}
   */
   readonly type: string;
 }
@@ -2546,85 +2546,85 @@ export class Emrv2ClusterNodeGroupsAckConfigVolumesList extends cdktf.ComplexLis
 }
 export interface Emrv2ClusterNodeGroupsAckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#ack_instance_id Emrv2Cluster#ack_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#ack_instance_id Emrv2Cluster#ack_instance_id}
   */
   readonly ackInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#limit_cpu Emrv2Cluster#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#limit_cpu Emrv2Cluster#limit_cpu}
   */
   readonly limitCpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#limit_memory Emrv2Cluster#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#limit_memory Emrv2Cluster#limit_memory}
   */
   readonly limitMemory: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#namespace Emrv2Cluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#namespace Emrv2Cluster#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_affinity Emrv2Cluster#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_affinity Emrv2Cluster#node_affinity}
   */
   readonly nodeAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#pod_affinity Emrv2Cluster#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#pod_affinity Emrv2Cluster#pod_affinity}
   */
   readonly podAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#pod_anti_affinity Emrv2Cluster#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#pod_anti_affinity Emrv2Cluster#pod_anti_affinity}
   */
   readonly podAntiAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#pre_start_command Emrv2Cluster#pre_start_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#pre_start_command Emrv2Cluster#pre_start_command}
   */
   readonly preStartCommand?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#request_cpu Emrv2Cluster#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#request_cpu Emrv2Cluster#request_cpu}
   */
   readonly requestCpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#request_memory Emrv2Cluster#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#request_memory Emrv2Cluster#request_memory}
   */
   readonly requestMemory: number;
   /**
   * custom_annotations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#custom_annotations Emrv2Cluster#custom_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#custom_annotations Emrv2Cluster#custom_annotations}
   */
   readonly customAnnotations?: Emrv2ClusterNodeGroupsAckConfigCustomAnnotations[] | cdktf.IResolvable;
   /**
   * custom_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#custom_labels Emrv2Cluster#custom_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#custom_labels Emrv2Cluster#custom_labels}
   */
   readonly customLabels?: Emrv2ClusterNodeGroupsAckConfigCustomLabels[] | cdktf.IResolvable;
   /**
   * node_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_selectors Emrv2Cluster#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_selectors Emrv2Cluster#node_selectors}
   */
   readonly nodeSelectors?: Emrv2ClusterNodeGroupsAckConfigNodeSelectors[] | cdktf.IResolvable;
   /**
   * pvcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#pvcs Emrv2Cluster#pvcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#pvcs Emrv2Cluster#pvcs}
   */
   readonly pvcs?: Emrv2ClusterNodeGroupsAckConfigPvcs[] | cdktf.IResolvable;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#tolerations Emrv2Cluster#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#tolerations Emrv2Cluster#tolerations}
   */
   readonly tolerations?: Emrv2ClusterNodeGroupsAckConfigTolerations[] | cdktf.IResolvable;
   /**
   * volume_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#volume_mounts Emrv2Cluster#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#volume_mounts Emrv2Cluster#volume_mounts}
   */
   readonly volumeMounts?: Emrv2ClusterNodeGroupsAckConfigVolumeMounts[] | cdktf.IResolvable;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#volumes Emrv2Cluster#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#volumes Emrv2Cluster#volumes}
   */
   readonly volumes?: Emrv2ClusterNodeGroupsAckConfigVolumes[] | cdktf.IResolvable;
 }
@@ -3154,11 +3154,11 @@ export class Emrv2ClusterNodeGroupsAckConfigOutputReference extends cdktf.Comple
 }
 export interface Emrv2ClusterNodeGroupsAutoScalingPolicyConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#max_capacity Emrv2Cluster#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#max_capacity Emrv2Cluster#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#min_capacity Emrv2Cluster#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#min_capacity Emrv2Cluster#min_capacity}
   */
   readonly minCapacity?: number;
 }
@@ -3271,11 +3271,11 @@ export class Emrv2ClusterNodeGroupsAutoScalingPolicyConstraintsOutputReference e
 }
 export interface Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerConditionsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#key Emrv2Cluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#value Emrv2Cluster#value}
   */
   readonly value?: string;
 }
@@ -3417,25 +3417,25 @@ export class Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerCo
 }
 export interface Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#comparison_operator Emrv2Cluster#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#comparison_operator Emrv2Cluster#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#metric_name Emrv2Cluster#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#metric_name Emrv2Cluster#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#statistics Emrv2Cluster#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#statistics Emrv2Cluster#statistics}
   */
   readonly statistics: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#threshold Emrv2Cluster#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#threshold Emrv2Cluster#threshold}
   */
   readonly threshold: number;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#tags Emrv2Cluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#tags Emrv2Cluster#tags}
   */
   readonly tags?: Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerConditionsTags[] | cdktf.IResolvable;
 }
@@ -3655,11 +3655,11 @@ export class Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerCo
 }
 export interface Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerTimeConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#end_time Emrv2Cluster#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#end_time Emrv2Cluster#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#start_time Emrv2Cluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#start_time Emrv2Cluster#start_time}
   */
   readonly startTime?: string;
 }
@@ -3804,31 +3804,31 @@ export class Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerTi
 }
 export interface Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#condition_logic_operator Emrv2Cluster#condition_logic_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#condition_logic_operator Emrv2Cluster#condition_logic_operator}
   */
   readonly conditionLogicOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#cool_down_interval Emrv2Cluster#cool_down_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#cool_down_interval Emrv2Cluster#cool_down_interval}
   */
   readonly coolDownInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#evaluation_count Emrv2Cluster#evaluation_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#evaluation_count Emrv2Cluster#evaluation_count}
   */
   readonly evaluationCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#time_window Emrv2Cluster#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#time_window Emrv2Cluster#time_window}
   */
   readonly timeWindow: number;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#conditions Emrv2Cluster#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#conditions Emrv2Cluster#conditions}
   */
   readonly conditions?: Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerConditions[] | cdktf.IResolvable;
   /**
   * time_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#time_constraints Emrv2Cluster#time_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#time_constraints Emrv2Cluster#time_constraints}
   */
   readonly timeConstraints?: Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerTimeConstraints[] | cdktf.IResolvable;
 }
@@ -4051,27 +4051,27 @@ export class Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTriggerOu
 }
 export interface Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesTimeTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#end_time Emrv2Cluster#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#end_time Emrv2Cluster#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#launch_expiration_time Emrv2Cluster#launch_expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#launch_expiration_time Emrv2Cluster#launch_expiration_time}
   */
   readonly launchExpirationTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#launch_time Emrv2Cluster#launch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#launch_time Emrv2Cluster#launch_time}
   */
   readonly launchTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#recurrence_type Emrv2Cluster#recurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#recurrence_type Emrv2Cluster#recurrence_type}
   */
   readonly recurrenceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#recurrence_value Emrv2Cluster#recurrence_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#recurrence_value Emrv2Cluster#recurrence_value}
   */
   readonly recurrenceValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#start_time Emrv2Cluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#start_time Emrv2Cluster#start_time}
   */
   readonly startTime?: string;
 }
@@ -4297,39 +4297,39 @@ export class Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesTimeTriggerOutpu
 }
 export interface Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#activity_type Emrv2Cluster#activity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#activity_type Emrv2Cluster#activity_type}
   */
   readonly activityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#adjustment_type Emrv2Cluster#adjustment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#adjustment_type Emrv2Cluster#adjustment_type}
   */
   readonly adjustmentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#adjustment_value Emrv2Cluster#adjustment_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#adjustment_value Emrv2Cluster#adjustment_value}
   */
   readonly adjustmentValue: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#min_adjustment_value Emrv2Cluster#min_adjustment_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#min_adjustment_value Emrv2Cluster#min_adjustment_value}
   */
   readonly minAdjustmentValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#rule_name Emrv2Cluster#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#rule_name Emrv2Cluster#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#trigger_type Emrv2Cluster#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#trigger_type Emrv2Cluster#trigger_type}
   */
   readonly triggerType: string;
   /**
   * metrics_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#metrics_trigger Emrv2Cluster#metrics_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#metrics_trigger Emrv2Cluster#metrics_trigger}
   */
   readonly metricsTrigger?: Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesMetricsTrigger;
   /**
   * time_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#time_trigger Emrv2Cluster#time_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#time_trigger Emrv2Cluster#time_trigger}
   */
   readonly timeTrigger?: Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRulesTimeTrigger;
 }
@@ -4638,13 +4638,13 @@ export interface Emrv2ClusterNodeGroupsAutoScalingPolicy {
   /**
   * constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#constraints Emrv2Cluster#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#constraints Emrv2Cluster#constraints}
   */
   readonly constraints?: Emrv2ClusterNodeGroupsAutoScalingPolicyConstraints;
   /**
   * scaling_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#scaling_rules Emrv2Cluster#scaling_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#scaling_rules Emrv2Cluster#scaling_rules}
   */
   readonly scalingRules?: Emrv2ClusterNodeGroupsAutoScalingPolicyScalingRules[] | cdktf.IResolvable;
 }
@@ -4757,15 +4757,15 @@ export class Emrv2ClusterNodeGroupsAutoScalingPolicyOutputReference extends cdkt
 }
 export interface Emrv2ClusterNodeGroupsCostOptimizedConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#on_demand_base_capacity Emrv2Cluster#on_demand_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#on_demand_base_capacity Emrv2Cluster#on_demand_base_capacity}
   */
   readonly onDemandBaseCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#on_demand_percentage_above_base_capacity Emrv2Cluster#on_demand_percentage_above_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#on_demand_percentage_above_base_capacity Emrv2Cluster#on_demand_percentage_above_base_capacity}
   */
   readonly onDemandPercentageAboveBaseCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#spot_instance_pools Emrv2Cluster#spot_instance_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#spot_instance_pools Emrv2Cluster#spot_instance_pools}
   */
   readonly spotInstancePools: number;
 }
@@ -4898,19 +4898,19 @@ export class Emrv2ClusterNodeGroupsCostOptimizedConfigOutputReference extends cd
 }
 export interface Emrv2ClusterNodeGroupsDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#category Emrv2Cluster#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#category Emrv2Cluster#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#count Emrv2Cluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#count Emrv2Cluster#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#performance_level Emrv2Cluster#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#performance_level Emrv2Cluster#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#size Emrv2Cluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#size Emrv2Cluster#size}
   */
   readonly size: number;
 }
@@ -5107,11 +5107,11 @@ export class Emrv2ClusterNodeGroupsDataDisksList extends cdktf.ComplexList {
 }
 export interface Emrv2ClusterNodeGroupsPrivatePoolOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#match_criteria Emrv2Cluster#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#match_criteria Emrv2Cluster#match_criteria}
   */
   readonly matchCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#private_pool_ids Emrv2Cluster#private_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#private_pool_ids Emrv2Cluster#private_pool_ids}
   */
   readonly privatePoolIds?: string[];
 }
@@ -5224,11 +5224,11 @@ export class Emrv2ClusterNodeGroupsPrivatePoolOptionsOutputReference extends cdk
 }
 export interface Emrv2ClusterNodeGroupsSpotBidPrices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#bid_price Emrv2Cluster#bid_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#bid_price Emrv2Cluster#bid_price}
   */
   readonly bidPrice: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#instance_type Emrv2Cluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#instance_type Emrv2Cluster#instance_type}
   */
   readonly instanceType: string;
 }
@@ -5367,27 +5367,27 @@ export class Emrv2ClusterNodeGroupsSpotBidPricesList extends cdktf.ComplexList {
 }
 export interface Emrv2ClusterNodeGroupsSubscriptionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_pay_order Emrv2Cluster#auto_pay_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_pay_order Emrv2Cluster#auto_pay_order}
   */
   readonly autoPayOrder?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_renew Emrv2Cluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_renew Emrv2Cluster#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_renew_duration Emrv2Cluster#auto_renew_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_renew_duration Emrv2Cluster#auto_renew_duration}
   */
   readonly autoRenewDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_renew_duration_unit Emrv2Cluster#auto_renew_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_renew_duration_unit Emrv2Cluster#auto_renew_duration_unit}
   */
   readonly autoRenewDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#payment_duration Emrv2Cluster#payment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#payment_duration Emrv2Cluster#payment_duration}
   */
   readonly paymentDuration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#payment_duration_unit Emrv2Cluster#payment_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#payment_duration_unit Emrv2Cluster#payment_duration_unit}
   */
   readonly paymentDurationUnit: string;
 }
@@ -5610,19 +5610,19 @@ export class Emrv2ClusterNodeGroupsSubscriptionConfigOutputReference extends cdk
 }
 export interface Emrv2ClusterNodeGroupsSystemDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#category Emrv2Cluster#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#category Emrv2Cluster#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#count Emrv2Cluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#count Emrv2Cluster#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#performance_level Emrv2Cluster#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#performance_level Emrv2Cluster#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#size Emrv2Cluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#size Emrv2Cluster#size}
   */
   readonly size: number;
 }
@@ -5787,103 +5787,103 @@ export class Emrv2ClusterNodeGroupsSystemDiskOutputReference extends cdktf.Compl
 }
 export interface Emrv2ClusterNodeGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#additional_security_group_ids Emrv2Cluster#additional_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#additional_security_group_ids Emrv2Cluster#additional_security_group_ids}
   */
   readonly additionalSecurityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#deployment_set_strategy Emrv2Cluster#deployment_set_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#deployment_set_strategy Emrv2Cluster#deployment_set_strategy}
   */
   readonly deploymentSetStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#graceful_shutdown Emrv2Cluster#graceful_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#graceful_shutdown Emrv2Cluster#graceful_shutdown}
   */
   readonly gracefulShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#instance_types Emrv2Cluster#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#instance_types Emrv2Cluster#instance_types}
   */
   readonly instanceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_count Emrv2Cluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_count Emrv2Cluster#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_name Emrv2Cluster#node_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_name Emrv2Cluster#node_group_name}
   */
   readonly nodeGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_group_type Emrv2Cluster#node_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_group_type Emrv2Cluster#node_group_type}
   */
   readonly nodeGroupType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#node_resize_strategy Emrv2Cluster#node_resize_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#node_resize_strategy Emrv2Cluster#node_resize_strategy}
   */
   readonly nodeResizeStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#payment_type Emrv2Cluster#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#payment_type Emrv2Cluster#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#spot_instance_remedy Emrv2Cluster#spot_instance_remedy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#spot_instance_remedy Emrv2Cluster#spot_instance_remedy}
   */
   readonly spotInstanceRemedy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#spot_strategy Emrv2Cluster#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#spot_strategy Emrv2Cluster#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#vswitch_ids Emrv2Cluster#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#vswitch_ids Emrv2Cluster#vswitch_ids}
   */
   readonly vswitchIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#with_public_ip Emrv2Cluster#with_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#with_public_ip Emrv2Cluster#with_public_ip}
   */
   readonly withPublicIp?: boolean | cdktf.IResolvable;
   /**
   * ack_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#ack_config Emrv2Cluster#ack_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#ack_config Emrv2Cluster#ack_config}
   */
   readonly ackConfig?: Emrv2ClusterNodeGroupsAckConfig;
   /**
   * auto_scaling_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_scaling_policy Emrv2Cluster#auto_scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_scaling_policy Emrv2Cluster#auto_scaling_policy}
   */
   readonly autoScalingPolicy?: Emrv2ClusterNodeGroupsAutoScalingPolicy;
   /**
   * cost_optimized_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#cost_optimized_config Emrv2Cluster#cost_optimized_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#cost_optimized_config Emrv2Cluster#cost_optimized_config}
   */
   readonly costOptimizedConfig?: Emrv2ClusterNodeGroupsCostOptimizedConfig;
   /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#data_disks Emrv2Cluster#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#data_disks Emrv2Cluster#data_disks}
   */
   readonly dataDisks: Emrv2ClusterNodeGroupsDataDisks[] | cdktf.IResolvable;
   /**
   * private_pool_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#private_pool_options Emrv2Cluster#private_pool_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#private_pool_options Emrv2Cluster#private_pool_options}
   */
   readonly privatePoolOptions?: Emrv2ClusterNodeGroupsPrivatePoolOptions;
   /**
   * spot_bid_prices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#spot_bid_prices Emrv2Cluster#spot_bid_prices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#spot_bid_prices Emrv2Cluster#spot_bid_prices}
   */
   readonly spotBidPrices?: Emrv2ClusterNodeGroupsSpotBidPrices[] | cdktf.IResolvable;
   /**
   * subscription_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#subscription_config Emrv2Cluster#subscription_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#subscription_config Emrv2Cluster#subscription_config}
   */
   readonly subscriptionConfig?: Emrv2ClusterNodeGroupsSubscriptionConfig;
   /**
   * system_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#system_disk Emrv2Cluster#system_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#system_disk Emrv2Cluster#system_disk}
   */
   readonly systemDisk: Emrv2ClusterNodeGroupsSystemDisk;
 }
@@ -6561,27 +6561,27 @@ export class Emrv2ClusterNodeGroupsList extends cdktf.ComplexList {
 }
 export interface Emrv2ClusterSubscriptionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_pay_order Emrv2Cluster#auto_pay_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_pay_order Emrv2Cluster#auto_pay_order}
   */
   readonly autoPayOrder?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_renew Emrv2Cluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_renew Emrv2Cluster#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_renew_duration Emrv2Cluster#auto_renew_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_renew_duration Emrv2Cluster#auto_renew_duration}
   */
   readonly autoRenewDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#auto_renew_duration_unit Emrv2Cluster#auto_renew_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#auto_renew_duration_unit Emrv2Cluster#auto_renew_duration_unit}
   */
   readonly autoRenewDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#payment_duration Emrv2Cluster#payment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#payment_duration Emrv2Cluster#payment_duration}
   */
   readonly paymentDuration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#payment_duration_unit Emrv2Cluster#payment_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#payment_duration_unit Emrv2Cluster#payment_duration_unit}
   */
   readonly paymentDurationUnit: string;
 }
@@ -6804,11 +6804,11 @@ export class Emrv2ClusterSubscriptionConfigOutputReference extends cdktf.Complex
 }
 export interface Emrv2ClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#create Emrv2Cluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#create Emrv2Cluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#delete Emrv2Cluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#delete Emrv2Cluster#delete}
   */
   readonly delete?: string;
 }
@@ -6931,7 +6931,7 @@ export class Emrv2ClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster alicloud_emrv2_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster alicloud_emrv2_cluster}
 */
 export class Emrv2Cluster extends cdktf.TerraformResource {
 
@@ -6947,7 +6947,7 @@ export class Emrv2Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Emrv2Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Emrv2Cluster to import
-  * @param importFromId The id of the existing Emrv2Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Emrv2Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Emrv2Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6959,7 +6959,7 @@ export class Emrv2Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/emrv2_cluster alicloud_emrv2_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emrv2_cluster alicloud_emrv2_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6970,8 +6970,8 @@ export class Emrv2Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_emrv2_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

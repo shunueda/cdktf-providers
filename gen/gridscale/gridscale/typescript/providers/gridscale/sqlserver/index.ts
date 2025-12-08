@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SqlserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#id Sqlserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#id Sqlserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,50 +17,50 @@ export interface SqlserverConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#labels Sqlserver#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#labels Sqlserver#labels}
   */
   readonly labels?: string[];
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#name Sqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#name Sqlserver#name}
   */
   readonly name: string;
   /**
   * The UUID of the network that the service is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#network_uuid Sqlserver#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#network_uuid Sqlserver#network_uuid}
   */
   readonly networkUuid?: string;
   /**
   * Performance class of MS SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#performance_class Sqlserver#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#performance_class Sqlserver#performance_class}
   */
   readonly performanceClass: string;
   /**
   * The MS SQL Server release of this instance.\n
   * 				For convenience, please use gscloud https://github.com/gridscale/gscloud to get the list of available MS SQL Server releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#release Sqlserver#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#release Sqlserver#release}
   */
   readonly release: string;
   /**
   * Security zone UUID linked to MS SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#security_zone_uuid Sqlserver#security_zone_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#security_zone_uuid Sqlserver#security_zone_uuid}
   */
   readonly securityZoneUuid?: string;
   /**
   * s3_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#s3_backup Sqlserver#s3_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#s3_backup Sqlserver#s3_backup}
   */
   readonly s3Backup?: SqlserverS3Backup;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#timeouts Sqlserver#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#timeouts Sqlserver#timeouts}
   */
   readonly timeouts?: SqlserverTimeouts;
 }
@@ -153,31 +153,31 @@ export interface SqlserverS3Backup {
   /**
   * Access key used to authenticate against Object Storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#backup_access_key Sqlserver#backup_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#backup_access_key Sqlserver#backup_access_key}
   */
   readonly backupAccessKey: string;
   /**
   * Object Storage bucket to upload backups to and restore backups from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#backup_bucket Sqlserver#backup_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#backup_bucket Sqlserver#backup_bucket}
   */
   readonly backupBucket: string;
   /**
   * Retention (in seconds) for local originals of backups. (0 for immediate removal once uploaded to Object Storage (default), higher values for delayed removal after the given time and once uploaded to Object Storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#backup_retention Sqlserver#backup_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#backup_retention Sqlserver#backup_retention}
   */
   readonly backupRetention?: number;
   /**
   * Secret key used to authenticate against Object Storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#backup_secret_key Sqlserver#backup_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#backup_secret_key Sqlserver#backup_secret_key}
   */
   readonly backupSecretKey: string;
   /**
   * Object Storage server URL the bucket is located on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#backup_server_url Sqlserver#backup_server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#backup_server_url Sqlserver#backup_server_url}
   */
   readonly backupServerUrl?: string;
 }
@@ -368,15 +368,15 @@ export class SqlserverS3BackupOutputReference extends cdktf.ComplexObject {
 }
 export interface SqlserverTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#create Sqlserver#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#create Sqlserver#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#delete Sqlserver#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#delete Sqlserver#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#update Sqlserver#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#update Sqlserver#update}
   */
   readonly update?: string;
 }
@@ -528,7 +528,7 @@ export class SqlserverTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver gridscale_sqlserver}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver gridscale_sqlserver}
 */
 export class Sqlserver extends cdktf.TerraformResource {
 
@@ -544,7 +544,7 @@ export class Sqlserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sqlserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sqlserver to import
-  * @param importFromId The id of the existing Sqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sqlserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -556,7 +556,7 @@ export class Sqlserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/sqlserver gridscale_sqlserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/sqlserver gridscale_sqlserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -567,8 +567,8 @@ export class Sqlserver extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_sqlserver',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

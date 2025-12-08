@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface NasAccessPointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#access_group NasAccessPoint#access_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#access_group NasAccessPoint#access_group}
   */
   readonly accessGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#access_point_name NasAccessPoint#access_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#access_point_name NasAccessPoint#access_point_name}
   */
   readonly accessPointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#enabled_ram NasAccessPoint#enabled_ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#enabled_ram NasAccessPoint#enabled_ram}
   */
   readonly enabledRam?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#file_system_id NasAccessPoint#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#file_system_id NasAccessPoint#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#id NasAccessPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#id NasAccessPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#root_path NasAccessPoint#root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#root_path NasAccessPoint#root_path}
   */
   readonly rootPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#vpc_id NasAccessPoint#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#vpc_id NasAccessPoint#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#vswitch_id NasAccessPoint#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#vswitch_id NasAccessPoint#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * posix_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#posix_user NasAccessPoint#posix_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#posix_user NasAccessPoint#posix_user}
   */
   readonly posixUser?: NasAccessPointPosixUser;
   /**
   * root_path_permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#root_path_permission NasAccessPoint#root_path_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#root_path_permission NasAccessPoint#root_path_permission}
   */
   readonly rootPathPermission?: NasAccessPointRootPathPermission;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#timeouts NasAccessPoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#timeouts NasAccessPoint#timeouts}
   */
   readonly timeouts?: NasAccessPointTimeouts;
 }
 export interface NasAccessPointPosixUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#posix_group_id NasAccessPoint#posix_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#posix_group_id NasAccessPoint#posix_group_id}
   */
   readonly posixGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#posix_user_id NasAccessPoint#posix_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#posix_user_id NasAccessPoint#posix_user_id}
   */
   readonly posixUserId?: number;
 }
@@ -185,15 +185,15 @@ export class NasAccessPointPosixUserOutputReference extends cdktf.ComplexObject 
 }
 export interface NasAccessPointRootPathPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#owner_group_id NasAccessPoint#owner_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#owner_group_id NasAccessPoint#owner_group_id}
   */
   readonly ownerGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#owner_user_id NasAccessPoint#owner_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#owner_user_id NasAccessPoint#owner_user_id}
   */
   readonly ownerUserId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#permission NasAccessPoint#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#permission NasAccessPoint#permission}
   */
   readonly permission?: string;
 }
@@ -335,15 +335,15 @@ export class NasAccessPointRootPathPermissionOutputReference extends cdktf.Compl
 }
 export interface NasAccessPointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#create NasAccessPoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#create NasAccessPoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#delete NasAccessPoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#delete NasAccessPoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#update NasAccessPoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#update NasAccessPoint#update}
   */
   readonly update?: string;
 }
@@ -495,7 +495,7 @@ export class NasAccessPointTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point alicloud_nas_access_point}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point alicloud_nas_access_point}
 */
 export class NasAccessPoint extends cdktf.TerraformResource {
 
@@ -511,7 +511,7 @@ export class NasAccessPoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NasAccessPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NasAccessPoint to import
-  * @param importFromId The id of the existing NasAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NasAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NasAccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -523,7 +523,7 @@ export class NasAccessPoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_access_point alicloud_nas_access_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_access_point alicloud_nas_access_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,8 +534,8 @@ export class NasAccessPoint extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_nas_access_point',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

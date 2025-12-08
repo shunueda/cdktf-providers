@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface EbsEnterpriseSnapshotPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#desc EbsEnterpriseSnapshotPolicy#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#desc EbsEnterpriseSnapshotPolicy#desc}
   */
   readonly desc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#enterprise_snapshot_policy_name EbsEnterpriseSnapshotPolicy#enterprise_snapshot_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#enterprise_snapshot_policy_name EbsEnterpriseSnapshotPolicy#enterprise_snapshot_policy_name}
   */
   readonly enterpriseSnapshotPolicyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#id EbsEnterpriseSnapshotPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#id EbsEnterpriseSnapshotPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#resource_group_id EbsEnterpriseSnapshotPolicy#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#resource_group_id EbsEnterpriseSnapshotPolicy#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#status EbsEnterpriseSnapshotPolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#status EbsEnterpriseSnapshotPolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#tags EbsEnterpriseSnapshotPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#tags EbsEnterpriseSnapshotPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#target_type EbsEnterpriseSnapshotPolicy#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#target_type EbsEnterpriseSnapshotPolicy#target_type}
   */
   readonly targetType: string;
   /**
   * cross_region_copy_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#cross_region_copy_info EbsEnterpriseSnapshotPolicy#cross_region_copy_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#cross_region_copy_info EbsEnterpriseSnapshotPolicy#cross_region_copy_info}
   */
   readonly crossRegionCopyInfo?: EbsEnterpriseSnapshotPolicyCrossRegionCopyInfo;
   /**
   * retain_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#retain_rule EbsEnterpriseSnapshotPolicy#retain_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#retain_rule EbsEnterpriseSnapshotPolicy#retain_rule}
   */
   readonly retainRule: EbsEnterpriseSnapshotPolicyRetainRule;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#schedule EbsEnterpriseSnapshotPolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#schedule EbsEnterpriseSnapshotPolicy#schedule}
   */
   readonly schedule: EbsEnterpriseSnapshotPolicySchedule;
   /**
   * special_retain_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#special_retain_rules EbsEnterpriseSnapshotPolicy#special_retain_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#special_retain_rules EbsEnterpriseSnapshotPolicy#special_retain_rules}
   */
   readonly specialRetainRules?: EbsEnterpriseSnapshotPolicySpecialRetainRules;
   /**
   * storage_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#storage_rule EbsEnterpriseSnapshotPolicy#storage_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#storage_rule EbsEnterpriseSnapshotPolicy#storage_rule}
   */
   readonly storageRule?: EbsEnterpriseSnapshotPolicyStorageRule;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#timeouts EbsEnterpriseSnapshotPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#timeouts EbsEnterpriseSnapshotPolicy#timeouts}
   */
   readonly timeouts?: EbsEnterpriseSnapshotPolicyTimeouts;
 }
 export interface EbsEnterpriseSnapshotPolicyCrossRegionCopyInfoRegions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#region_id EbsEnterpriseSnapshotPolicy#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#region_id EbsEnterpriseSnapshotPolicy#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#retain_days EbsEnterpriseSnapshotPolicy#retain_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#retain_days EbsEnterpriseSnapshotPolicy#retain_days}
   */
   readonly retainDays?: number;
 }
@@ -226,13 +226,13 @@ export class EbsEnterpriseSnapshotPolicyCrossRegionCopyInfoRegionsList extends c
 }
 export interface EbsEnterpriseSnapshotPolicyCrossRegionCopyInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#enabled EbsEnterpriseSnapshotPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#enabled EbsEnterpriseSnapshotPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * regions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#regions EbsEnterpriseSnapshotPolicy#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#regions EbsEnterpriseSnapshotPolicy#regions}
   */
   readonly regions?: EbsEnterpriseSnapshotPolicyCrossRegionCopyInfoRegions[] | cdktf.IResolvable;
 }
@@ -345,15 +345,15 @@ export class EbsEnterpriseSnapshotPolicyCrossRegionCopyInfoOutputReference exten
 }
 export interface EbsEnterpriseSnapshotPolicyRetainRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#number EbsEnterpriseSnapshotPolicy#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#number EbsEnterpriseSnapshotPolicy#number}
   */
   readonly number?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#time_interval EbsEnterpriseSnapshotPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#time_interval EbsEnterpriseSnapshotPolicy#time_interval}
   */
   readonly timeInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#time_unit EbsEnterpriseSnapshotPolicy#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#time_unit EbsEnterpriseSnapshotPolicy#time_unit}
   */
   readonly timeUnit?: string;
 }
@@ -495,7 +495,7 @@ export class EbsEnterpriseSnapshotPolicyRetainRuleOutputReference extends cdktf.
 }
 export interface EbsEnterpriseSnapshotPolicySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#cron_expression EbsEnterpriseSnapshotPolicy#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#cron_expression EbsEnterpriseSnapshotPolicy#cron_expression}
   */
   readonly cronExpression: string;
 }
@@ -576,15 +576,15 @@ export class EbsEnterpriseSnapshotPolicyScheduleOutputReference extends cdktf.Co
 }
 export interface EbsEnterpriseSnapshotPolicySpecialRetainRulesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#special_period_unit EbsEnterpriseSnapshotPolicy#special_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#special_period_unit EbsEnterpriseSnapshotPolicy#special_period_unit}
   */
   readonly specialPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#time_interval EbsEnterpriseSnapshotPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#time_interval EbsEnterpriseSnapshotPolicy#time_interval}
   */
   readonly timeInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#time_unit EbsEnterpriseSnapshotPolicy#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#time_unit EbsEnterpriseSnapshotPolicy#time_unit}
   */
   readonly timeUnit?: string;
 }
@@ -758,13 +758,13 @@ export class EbsEnterpriseSnapshotPolicySpecialRetainRulesRulesList extends cdkt
 }
 export interface EbsEnterpriseSnapshotPolicySpecialRetainRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#enabled EbsEnterpriseSnapshotPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#enabled EbsEnterpriseSnapshotPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#rules EbsEnterpriseSnapshotPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#rules EbsEnterpriseSnapshotPolicy#rules}
   */
   readonly rules?: EbsEnterpriseSnapshotPolicySpecialRetainRulesRules[] | cdktf.IResolvable;
 }
@@ -877,7 +877,7 @@ export class EbsEnterpriseSnapshotPolicySpecialRetainRulesOutputReference extend
 }
 export interface EbsEnterpriseSnapshotPolicyStorageRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#enable_immediate_access EbsEnterpriseSnapshotPolicy#enable_immediate_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#enable_immediate_access EbsEnterpriseSnapshotPolicy#enable_immediate_access}
   */
   readonly enableImmediateAccess?: boolean | cdktf.IResolvable;
 }
@@ -961,15 +961,15 @@ export class EbsEnterpriseSnapshotPolicyStorageRuleOutputReference extends cdktf
 }
 export interface EbsEnterpriseSnapshotPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#create EbsEnterpriseSnapshotPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#create EbsEnterpriseSnapshotPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#delete EbsEnterpriseSnapshotPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#delete EbsEnterpriseSnapshotPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#update EbsEnterpriseSnapshotPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#update EbsEnterpriseSnapshotPolicy#update}
   */
   readonly update?: string;
 }
@@ -1121,7 +1121,7 @@ export class EbsEnterpriseSnapshotPolicyTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy alicloud_ebs_enterprise_snapshot_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy alicloud_ebs_enterprise_snapshot_policy}
 */
 export class EbsEnterpriseSnapshotPolicy extends cdktf.TerraformResource {
 
@@ -1137,7 +1137,7 @@ export class EbsEnterpriseSnapshotPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbsEnterpriseSnapshotPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbsEnterpriseSnapshotPolicy to import
-  * @param importFromId The id of the existing EbsEnterpriseSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbsEnterpriseSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbsEnterpriseSnapshotPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1149,7 +1149,7 @@ export class EbsEnterpriseSnapshotPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_enterprise_snapshot_policy alicloud_ebs_enterprise_snapshot_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_enterprise_snapshot_policy alicloud_ebs_enterprise_snapshot_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1160,8 +1160,8 @@ export class EbsEnterpriseSnapshotPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ebs_enterprise_snapshot_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

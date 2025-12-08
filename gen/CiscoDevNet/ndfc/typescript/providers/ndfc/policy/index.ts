@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deploy policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#deploy Policy#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#deploy Policy#deploy}
   */
   readonly deploy?: boolean | cdktf.IResolvable;
   /**
   * Description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#description Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#description Policy#description}
   */
   readonly description?: string;
   /**
   * Policy Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#entity_name Policy#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#entity_name Policy#entity_name}
   */
   readonly entityName: string;
   /**
   * Type of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#entity_type Policy#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#entity_type Policy#entity_type}
   */
   readonly entityType: string;
   /**
   * Policy Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#is_policy_group Policy#is_policy_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#is_policy_group Policy#is_policy_group}
   */
   readonly isPolicyGroup?: boolean | cdktf.IResolvable;
   /**
   * List of name value pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#policy_parameters Policy#policy_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#policy_parameters Policy#policy_parameters}
   */
   readonly policyParameters?: { [key: string]: string };
   /**
   * Priority of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#priority Policy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#priority Policy#priority}
   */
   readonly priority?: number;
   /**
   * Serial numbers of the device. Use only one device for policy. Multiple devices can be in the list if this is a  policygroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#serial_numbers Policy#serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#serial_numbers Policy#serial_numbers}
   */
   readonly serialNumbers: string[];
   /**
   * Source of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#source Policy#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#source Policy#source}
   */
   readonly source?: string;
   /**
   * Name of the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#template_name Policy#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#template_name Policy#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy ndfc_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy ndfc_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/policy ndfc_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/policy ndfc_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_policy',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

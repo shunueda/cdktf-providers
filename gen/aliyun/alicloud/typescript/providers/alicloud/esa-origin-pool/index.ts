@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface EsaOriginPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#enabled EsaOriginPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#enabled EsaOriginPool#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#id EsaOriginPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#id EsaOriginPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#origin_pool_name EsaOriginPool#origin_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#origin_pool_name EsaOriginPool#origin_pool_name}
   */
   readonly originPoolName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#site_id EsaOriginPool#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#site_id EsaOriginPool#site_id}
   */
   readonly siteId: string;
   /**
   * origins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#origins EsaOriginPool#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#origins EsaOriginPool#origins}
   */
   readonly origins?: EsaOriginPoolOrigins[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#timeouts EsaOriginPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#timeouts EsaOriginPool#timeouts}
   */
   readonly timeouts?: EsaOriginPoolTimeouts;
 }
 export interface EsaOriginPoolOriginsAuthConf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#access_key EsaOriginPool#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#access_key EsaOriginPool#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#auth_type EsaOriginPool#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#auth_type EsaOriginPool#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#region EsaOriginPool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#region EsaOriginPool#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#secret_key EsaOriginPool#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#secret_key EsaOriginPool#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#version EsaOriginPool#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#version EsaOriginPool#version}
   */
   readonly version?: string;
 }
@@ -257,33 +257,33 @@ export class EsaOriginPoolOriginsAuthConfOutputReference extends cdktf.ComplexOb
 }
 export interface EsaOriginPoolOrigins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#address EsaOriginPool#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#address EsaOriginPool#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#enabled EsaOriginPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#enabled EsaOriginPool#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#header EsaOriginPool#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#header EsaOriginPool#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#name EsaOriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#name EsaOriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#type EsaOriginPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#type EsaOriginPool#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#weight EsaOriginPool#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#weight EsaOriginPool#weight}
   */
   readonly weight?: number;
   /**
   * auth_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#auth_conf EsaOriginPool#auth_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#auth_conf EsaOriginPool#auth_conf}
   */
   readonly authConf?: EsaOriginPoolOriginsAuthConf;
 }
@@ -578,15 +578,15 @@ export class EsaOriginPoolOriginsList extends cdktf.ComplexList {
 }
 export interface EsaOriginPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#create EsaOriginPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#create EsaOriginPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#delete EsaOriginPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#delete EsaOriginPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#update EsaOriginPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#update EsaOriginPool#update}
   */
   readonly update?: string;
 }
@@ -738,7 +738,7 @@ export class EsaOriginPoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool alicloud_esa_origin_pool}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool alicloud_esa_origin_pool}
 */
 export class EsaOriginPool extends cdktf.TerraformResource {
 
@@ -754,7 +754,7 @@ export class EsaOriginPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaOriginPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaOriginPool to import
-  * @param importFromId The id of the existing EsaOriginPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaOriginPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaOriginPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -766,7 +766,7 @@ export class EsaOriginPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_pool alicloud_esa_origin_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_pool alicloud_esa_origin_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -777,8 +777,8 @@ export class EsaOriginPool extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_origin_pool',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

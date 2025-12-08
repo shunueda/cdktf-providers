@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STemporalIoTemporalNamespaceV1Beta1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#metadata DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#metadata DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8STemporalIoTemporalNamespaceV1Beta1ManifestMetadata;
   /**
   * TemporalNamespaceSpec defines the desired state of Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#spec DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#spec DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STemporalIoTemporalNamespaceV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#annotations DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#annotations DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#labels DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#labels DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#name DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#name DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#namespace DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#namespace DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecArchivalHi
   /**
   * EnableRead allows temporal to read from the archived Event History.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enable_read DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enable_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enable_read DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enable_read}
   */
   readonly enableRead: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the archival is enabled by default for all namespaces or for a particular namespace (depends if it's for a TemporalCluster or a TemporalNamespace).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enabled DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enabled DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Path is ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#path DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#path DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Paused defines if the archival is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#paused DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#paused DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#paused}
   */
   readonly paused: boolean | cdktf.IResolvable;
 }
@@ -411,25 +411,25 @@ export interface DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecArchivalVi
   /**
   * EnableRead allows temporal to read from the archived Event History.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enable_read DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enable_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enable_read DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enable_read}
   */
   readonly enableRead: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the archival is enabled by default for all namespaces or for a particular namespace (depends if it's for a TemporalCluster or a TemporalNamespace).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enabled DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#enabled DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Path is ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#path DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#path DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Paused defines if the archival is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#paused DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#paused DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#paused}
   */
   readonly paused: boolean | cdktf.IResolvable;
 }
@@ -603,13 +603,13 @@ export interface DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecArchival {
   /**
   * History is the config for this namespace history archival.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#history DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#history DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#history}
   */
   readonly history?: DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecArchivalHistory;
   /**
   * Visibility is the config for this namespace visibility archival.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#visibility DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#visibility DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#visibility}
   */
   readonly visibility?: DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecArchivalVisibility;
 }
@@ -734,13 +734,13 @@ export interface DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecClusterRef
   /**
   * The name of the temporal object to reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#name DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#name DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The namespace of the temporal object to reference. Defaults to the namespace of the requested resource if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#namespace DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#namespace DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -865,65 +865,65 @@ export interface DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpec {
   /**
   * The name of active Temporal Cluster. Only applicable if the namespace is a global namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#active_cluster_name DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#active_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#active_cluster_name DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#active_cluster_name}
   */
   readonly activeClusterName?: string;
   /**
   * AllowDeletion makes the controller delete the Temporal namespace if the CRD is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#allow_deletion DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#allow_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#allow_deletion DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#allow_deletion}
   */
   readonly allowDeletion?: boolean | cdktf.IResolvable;
   /**
   * Archival is a per-namespace archival configuration. If not set, the default cluster configuration is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#archival DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#archival}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#archival DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#archival}
   */
   readonly archival?: DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecArchival;
   /**
   * Reference to the temporal cluster the namespace will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#cluster_ref DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#cluster_ref DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#cluster_ref}
   */
   readonly clusterRef: DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecClusterRef;
   /**
   * List of clusters names to which the namespace can fail over. Only applicable if the namespace is a global namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#clusters DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#clusters DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#clusters}
   */
   readonly clusters?: string[];
   /**
   * Data is a key-value map for any customized purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#data DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#data DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * Namespace description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#description DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#description DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
   * IsGlobalNamespace defines whether the namespace is a global namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#is_global_namespace DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#is_global_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#is_global_namespace DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#is_global_namespace}
   */
   readonly isGlobalNamespace?: boolean | cdktf.IResolvable;
   /**
   * Namespace owner email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#owner_email DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#owner_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#owner_email DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#owner_email}
   */
   readonly ownerEmail?: string;
   /**
   * RetentionPeriod to apply on closed workflow executions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#retention_period DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#retention_period DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#retention_period}
   */
   readonly retentionPeriod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#security_token DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#security_token DataK8STemporalIoTemporalNamespaceV1Beta1Manifest#security_token}
   */
   readonly securityToken?: string;
 }
@@ -1301,7 +1301,7 @@ export class DataK8STemporalIoTemporalNamespaceV1Beta1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest k8s_temporal_io_temporal_namespace_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest k8s_temporal_io_temporal_namespace_v1beta1_manifest}
 */
 export class DataK8STemporalIoTemporalNamespaceV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1317,7 +1317,7 @@ export class DataK8STemporalIoTemporalNamespaceV1Beta1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8STemporalIoTemporalNamespaceV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STemporalIoTemporalNamespaceV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8STemporalIoTemporalNamespaceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STemporalIoTemporalNamespaceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STemporalIoTemporalNamespaceV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1329,7 +1329,7 @@ export class DataK8STemporalIoTemporalNamespaceV1Beta1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest k8s_temporal_io_temporal_namespace_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_namespace_v1beta1_manifest k8s_temporal_io_temporal_namespace_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1340,8 +1340,8 @@ export class DataK8STemporalIoTemporalNamespaceV1Beta1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_temporal_io_temporal_namespace_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

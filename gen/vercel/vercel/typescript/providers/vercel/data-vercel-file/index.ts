@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/file
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVercelFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the file on your filesystem. Note that the path is relative to the root of the terraform files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/file#path DataVercelFile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/file#path DataVercelFile#path}
   */
   readonly path: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/file vercel_file}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/file vercel_file}
 */
 export class DataVercelFile extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataVercelFile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelFile to import
-  * @param importFromId The id of the existing DataVercelFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataVercelFile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/file vercel_file} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/file vercel_file} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataVercelFile extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_file',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

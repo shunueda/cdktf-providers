@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface CloudSsoUserProvisioningConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#deletion_strategy CloudSsoUserProvisioning#deletion_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#deletion_strategy CloudSsoUserProvisioning#deletion_strategy}
   */
   readonly deletionStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#description CloudSsoUserProvisioning#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#description CloudSsoUserProvisioning#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#directory_id CloudSsoUserProvisioning#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#directory_id CloudSsoUserProvisioning#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#duplication_strategy CloudSsoUserProvisioning#duplication_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#duplication_strategy CloudSsoUserProvisioning#duplication_strategy}
   */
   readonly duplicationStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#id CloudSsoUserProvisioning#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#id CloudSsoUserProvisioning#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#principal_id CloudSsoUserProvisioning#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#principal_id CloudSsoUserProvisioning#principal_id}
   */
   readonly principalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#principal_type CloudSsoUserProvisioning#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#principal_type CloudSsoUserProvisioning#principal_type}
   */
   readonly principalType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#target_id CloudSsoUserProvisioning#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#target_id CloudSsoUserProvisioning#target_id}
   */
   readonly targetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#target_type CloudSsoUserProvisioning#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#target_type CloudSsoUserProvisioning#target_type}
   */
   readonly targetType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#timeouts CloudSsoUserProvisioning#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#timeouts CloudSsoUserProvisioning#timeouts}
   */
   readonly timeouts?: CloudSsoUserProvisioningTimeouts;
 }
@@ -135,15 +135,15 @@ export class CloudSsoUserProvisioningUserProvisioningStatisticsList extends cdkt
 }
 export interface CloudSsoUserProvisioningTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#create CloudSsoUserProvisioning#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#create CloudSsoUserProvisioning#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#delete CloudSsoUserProvisioning#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#delete CloudSsoUserProvisioning#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#update CloudSsoUserProvisioning#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#update CloudSsoUserProvisioning#update}
   */
   readonly update?: string;
 }
@@ -295,7 +295,7 @@ export class CloudSsoUserProvisioningTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning alicloud_cloud_sso_user_provisioning}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning alicloud_cloud_sso_user_provisioning}
 */
 export class CloudSsoUserProvisioning extends cdktf.TerraformResource {
 
@@ -311,7 +311,7 @@ export class CloudSsoUserProvisioning extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudSsoUserProvisioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudSsoUserProvisioning to import
-  * @param importFromId The id of the existing CloudSsoUserProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudSsoUserProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudSsoUserProvisioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class CloudSsoUserProvisioning extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_user_provisioning alicloud_cloud_sso_user_provisioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_user_provisioning alicloud_cloud_sso_user_provisioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class CloudSsoUserProvisioning extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_sso_user_provisioning',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

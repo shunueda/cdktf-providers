@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IpHotspotUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#___path___ IpHotspotUser#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#___path___ IpHotspotUser#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#___skip___ IpHotspotUser#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#___skip___ IpHotspotUser#___skip___}
   */
   readonly skip?: string;
   /**
   * IP address, when specified client will get the address from the HotSpot one-to-one NAT translations. Address does not restrict HotSpot login only from this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#address IpHotspotUser#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#address IpHotspotUser#address}
   */
   readonly address?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#comment IpHotspotUser#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#comment IpHotspotUser#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#disabled IpHotspotUser#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#disabled IpHotspotUser#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * HotSpot client's e-mail, informational value for the HotSpot user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#email IpHotspotUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#email IpHotspotUser#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#id IpHotspotUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#id IpHotspotUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,67 +49,67 @@ export interface IpHotspotUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximal amount of bytes that can be received from the user. User is disconnected from HotSpot after the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#limit_bytes_in IpHotspotUser#limit_bytes_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#limit_bytes_in IpHotspotUser#limit_bytes_in}
   */
   readonly limitBytesIn?: number;
   /**
   * Maximal amount of bytes that can be transmitted from the user. User is disconnected from HotSpot after the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#limit_bytes_out IpHotspotUser#limit_bytes_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#limit_bytes_out IpHotspotUser#limit_bytes_out}
   */
   readonly limitBytesOut?: number;
   /**
   * (limit-bytes-in+limit-bytes-out). User is disconnected from HotSpot after the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#limit_bytes_total IpHotspotUser#limit_bytes_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#limit_bytes_total IpHotspotUser#limit_bytes_total}
   */
   readonly limitBytesTotal?: number;
   /**
   * Uptime limit for the HotSpot client, user is disconnected from HotSpot as soon as uptime is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#limit_uptime IpHotspotUser#limit_uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#limit_uptime IpHotspotUser#limit_uptime}
   */
   readonly limitUptime?: number;
   /**
   * Client is allowed to login only from the specified MAC-address. If value is 00:00:00:00:00:00, any mac address is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#mac_address IpHotspotUser#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#mac_address IpHotspotUser#mac_address}
   */
   readonly macAddress?: number;
   /**
   * HotSpot login page username, when MAC-address authentication is used name is configured as client's MAC-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#name IpHotspotUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#name IpHotspotUser#name}
   */
   readonly name: string;
   /**
   * User password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#password IpHotspotUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#password IpHotspotUser#password}
   */
   readonly password?: string;
   /**
   * User profile configured in `/ip hotspot user profile`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#profile IpHotspotUser#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#profile IpHotspotUser#profile}
   */
   readonly profile?: string;
   /**
   * Routes added to HotSpot gateway when client is connected. The route format dst-address gateway metric (for example, `192.168.1.0/24 192.168.0.1 1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#routes IpHotspotUser#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#routes IpHotspotUser#routes}
   */
   readonly routes?: string;
   /**
   * HotSpot server's name to which user is allowed login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#server IpHotspotUser#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#server IpHotspotUser#server}
   */
   readonly server?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user routeros_ip_hotspot_user}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user routeros_ip_hotspot_user}
 */
 export class IpHotspotUser extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class IpHotspotUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpHotspotUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpHotspotUser to import
-  * @param importFromId The id of the existing IpHotspotUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpHotspotUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpHotspotUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class IpHotspotUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_user routeros_ip_hotspot_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_user routeros_ip_hotspot_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class IpHotspotUser extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_hotspot_user',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

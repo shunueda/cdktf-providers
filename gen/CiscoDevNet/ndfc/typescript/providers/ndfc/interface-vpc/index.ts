@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface InterfaceVpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deploy the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#deploy InterfaceVpc#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#deploy InterfaceVpc#deploy}
   */
   readonly deploy?: boolean | cdktf.IResolvable;
   /**
   * interfaces to configure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#interfaces InterfaceVpc#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#interfaces InterfaceVpc#interfaces}
   */
   readonly interfaces: { [key: string]: InterfaceVpcInterfaces } | cdktf.IResolvable;
   /**
@@ -28,13 +28,13 @@ export interface InterfaceVpcConfig extends cdktf.TerraformMetaArguments {
   *     * `int_vpc_trunk_host`"
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#policy InterfaceVpc#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#policy InterfaceVpc#policy}
   */
   readonly policy?: string;
   /**
   * Serial number of switch to configure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#serial_number InterfaceVpc#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#serial_number InterfaceVpc#serial_number}
   */
   readonly serialNumber?: string;
 }
@@ -42,145 +42,145 @@ export interface InterfaceVpcInterfaces {
   /**
   * Enable or disable the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#admin_state InterfaceVpc#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#admin_state InterfaceVpc#admin_state}
   */
   readonly adminState?: boolean | cdktf.IResolvable;
   /**
   * Enable spanning-tree bpduguard: true='enable', false='disable', no='return to default settings'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#bpdu_guard InterfaceVpc#bpdu_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#bpdu_guard InterfaceVpc#bpdu_guard}
   */
   readonly bpduGuard?: string;
   /**
   * Netflow is supported only if it is enabled on fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#copy_po_description InterfaceVpc#copy_po_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#copy_po_description InterfaceVpc#copy_po_description}
   */
   readonly copyPoDescription?: boolean | cdktf.IResolvable;
   /**
   * Name of the Interface. Example: `vPC0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#interface_name InterfaceVpc#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#interface_name InterfaceVpc#interface_name}
   */
   readonly interfaceName: string;
   /**
   * MTU for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#mtu InterfaceVpc#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#mtu InterfaceVpc#mtu}
   */
   readonly mtu?: string;
   /**
   * Netflow is supported only if it is enabled on fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#netflow InterfaceVpc#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#netflow InterfaceVpc#netflow}
   */
   readonly netflow?: boolean | cdktf.IResolvable;
   /**
   * Provide the Layer 2 Monitor Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#netflow_monitor InterfaceVpc#netflow_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#netflow_monitor InterfaceVpc#netflow_monitor}
   */
   readonly netflowMonitor?: string;
   /**
   * Netflow sampler name, applicable to N7K only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#netflow_sampler InterfaceVpc#netflow_sampler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#netflow_sampler InterfaceVpc#netflow_sampler}
   */
   readonly netflowSampler?: string;
   /**
   * Allowed vlans for the ethernet interface. Allowed values are `none`, `all` or VLAN ranges (1-200,500-2000,3000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer1_allowed_vlans InterfaceVpc#peer1_allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer1_allowed_vlans InterfaceVpc#peer1_allowed_vlans}
   */
   readonly peer1AllowedVlans?: string;
   /**
   * Member interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer1_member_interfaces InterfaceVpc#peer1_member_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer1_member_interfaces InterfaceVpc#peer1_member_interfaces}
   */
   readonly peer1MemberInterfaces: string;
   /**
   * Set native VLAN for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer1_native_vlan InterfaceVpc#peer1_native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer1_native_vlan InterfaceVpc#peer1_native_vlan}
   */
   readonly peer1NativeVlan?: number;
   /**
   * Interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer1_po_description InterfaceVpc#peer1_po_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer1_po_description InterfaceVpc#peer1_po_description}
   */
   readonly peer1PoDescription?: string;
   /**
   * Additional CLI for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer1_po_freeform_config InterfaceVpc#peer1_po_freeform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer1_po_freeform_config InterfaceVpc#peer1_po_freeform_config}
   */
   readonly peer1PoFreeformConfig?: string;
   /**
   * Port channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer1_port_channel_id InterfaceVpc#peer1_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer1_port_channel_id InterfaceVpc#peer1_port_channel_id}
   */
   readonly peer1PortChannelId: number;
   /**
   * Allowed vlans for the ethernet interface. Allowed values are `none`, `all` or VLAN ranges (1-200,500-2000,3000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer2_allowed_vlans InterfaceVpc#peer2_allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer2_allowed_vlans InterfaceVpc#peer2_allowed_vlans}
   */
   readonly peer2AllowedVlans?: string;
   /**
   * Member interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer2_member_interfaces InterfaceVpc#peer2_member_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer2_member_interfaces InterfaceVpc#peer2_member_interfaces}
   */
   readonly peer2MemberInterfaces?: string;
   /**
   * Set native VLAN for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer2_native_vlan InterfaceVpc#peer2_native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer2_native_vlan InterfaceVpc#peer2_native_vlan}
   */
   readonly peer2NativeVlan?: number;
   /**
   * Interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer2_po_description InterfaceVpc#peer2_po_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer2_po_description InterfaceVpc#peer2_po_description}
   */
   readonly peer2PoDescription?: string;
   /**
   * Additional CLI for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer2_po_freeform_config InterfaceVpc#peer2_po_freeform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer2_po_freeform_config InterfaceVpc#peer2_po_freeform_config}
   */
   readonly peer2PoFreeformConfig?: string;
   /**
   * Port channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#peer2_port_channel_id InterfaceVpc#peer2_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#peer2_port_channel_id InterfaceVpc#peer2_port_channel_id}
   */
   readonly peer2PortChannelId?: number;
   /**
   * Enable spanning-tree edge port behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#port_type_fast InterfaceVpc#port_type_fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#port_type_fast InterfaceVpc#port_type_fast}
   */
   readonly portTypeFast?: boolean | cdktf.IResolvable;
   /**
   * Port-channel mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#portchannel_mode InterfaceVpc#portchannel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#portchannel_mode InterfaceVpc#portchannel_mode}
   */
   readonly portchannelMode?: string;
   /**
   * Serial number of switch to configure. This field cannot be specified if `serial_number` is specified at resource level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#serial_number InterfaceVpc#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#serial_number InterfaceVpc#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Interface speed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#speed InterfaceVpc#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#speed InterfaceVpc#speed}
   */
   readonly speed?: string;
 }
@@ -957,7 +957,7 @@ export class InterfaceVpcInterfacesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc ndfc_interface_vpc}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc ndfc_interface_vpc}
 */
 export class InterfaceVpc extends cdktf.TerraformResource {
 
@@ -973,7 +973,7 @@ export class InterfaceVpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceVpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceVpc to import
-  * @param importFromId The id of the existing InterfaceVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceVpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -985,7 +985,7 @@ export class InterfaceVpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vpc ndfc_interface_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vpc ndfc_interface_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -996,8 +996,8 @@ export class InterfaceVpc extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_interface_vpc',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

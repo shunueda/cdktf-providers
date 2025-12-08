@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#metadata DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#metadata DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestMetadata;
   /**
   * ClusterSetSpec defines the desired state of ClusterSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#spec DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#spec DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#annotations DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#annotations DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#labels DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#labels DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#name DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#name DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#namespace DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#namespace DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestSpecLea
   /**
   * Identify a leader cluster in the ClusterSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Name of the Secret resource in the member cluster, which stores the token to access the leader cluster's API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#secret DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#secret DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#secret}
   */
   readonly secret?: string;
   /**
   * API server endpoint of the leader cluster. E.g. 'https://172.18.0.1:6443', 'https://example.com:6443'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#server DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#server DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#server}
   */
   readonly server?: string;
 }
@@ -407,19 +407,19 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestSpec {
   /**
   * ClusterID identifies the local cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Leaders include leader clusters known to the member clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#leaders DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#leaders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#leaders DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#leaders}
   */
   readonly leaders: DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestSpecLeaders[] | cdktf.IResolvable;
   /**
   * The leader cluster Namespace in which the ClusterSet is defined. Used in a member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#namespace DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#namespace DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -565,7 +565,7 @@ export class DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest k8s_multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest k8s_multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest}
 */
 export class DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -581,7 +581,7 @@ export class DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest extends cd
   * Generates CDKTF code for importing a DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -593,7 +593,7 @@ export class DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest k8s_multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest k8s_multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -604,8 +604,8 @@ export class DataK8SMulticlusterCrdAntreaIoClusterSetV1Alpha2Manifest extends cd
       terraformResourceType: 'k8s_multicluster_crd_antrea_io_cluster_set_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

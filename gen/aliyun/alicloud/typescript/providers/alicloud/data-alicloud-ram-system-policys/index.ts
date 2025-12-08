@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudRamSystemPolicysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys#id DataAlicloudRamSystemPolicys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys#id DataAlicloudRamSystemPolicys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys#ids DataAlicloudRamSystemPolicys#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys#ids DataAlicloudRamSystemPolicys#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys#name_regex DataAlicloudRamSystemPolicys#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys#name_regex DataAlicloudRamSystemPolicys#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys#output_file DataAlicloudRamSystemPolicys#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys#output_file DataAlicloudRamSystemPolicys#output_file}
   */
   readonly outputFile?: string;
 }
@@ -134,7 +134,7 @@ export class DataAlicloudRamSystemPolicysPolicysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys alicloud_ram_system_policys}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys alicloud_ram_system_policys}
 */
 export class DataAlicloudRamSystemPolicys extends cdktf.TerraformDataSource {
 
@@ -150,7 +150,7 @@ export class DataAlicloudRamSystemPolicys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudRamSystemPolicys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudRamSystemPolicys to import
-  * @param importFromId The id of the existing DataAlicloudRamSystemPolicys that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudRamSystemPolicys that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudRamSystemPolicys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -162,7 +162,7 @@ export class DataAlicloudRamSystemPolicys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ram_system_policys alicloud_ram_system_policys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ram_system_policys alicloud_ram_system_policys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -173,8 +173,8 @@ export class DataAlicloudRamSystemPolicys extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ram_system_policys',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

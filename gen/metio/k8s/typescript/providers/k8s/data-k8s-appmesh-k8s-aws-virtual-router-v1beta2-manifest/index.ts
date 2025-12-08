@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestMetadata;
   /**
   * VirtualRouterSpec defines the desired state of VirtualRouter refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_VirtualRouterSpec.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#spec DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#spec DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#labels DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#labels DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecListenersPo
   /**
   * The port used for the port mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * The protocol used for the port mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#protocol DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#protocol DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -344,7 +344,7 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecListeners {
   /**
   * The port mapping information for the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port_mapping DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port_mapping DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port_mapping}
   */
   readonly portMapping: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecListenersPortMapping;
 }
@@ -459,13 +459,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecMeshRef {
   /**
   * Name is the name of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * UID is the UID of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#uid DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#uid DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#uid}
   */
   readonly uid: string;
 }
@@ -584,13 +584,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * Name is the name of VirtualNode CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualNode CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -712,25 +712,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * Specifies the targeted port of the weighted object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Amazon Resource Name to AppMesh VirtualNode object to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
   */
   readonly virtualNodeArn?: string;
   /**
   * Reference to Kubernetes VirtualNode CR in cluster to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
   */
   readonly virtualNodeRef?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteActionWeightedTargetsVirtualNodeRef;
   /**
   * The relative weight of the weighted target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -932,7 +932,7 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * An object that represents the targets that traffic is routed to when a request matches the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
   */
   readonly weightedTargets: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteActionWeightedTargets[] | cdktf.IResolvable;
 }
@@ -1025,13 +1025,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * The end of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#end DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#end DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#end}
   */
   readonly end: number;
   /**
   * The start of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#start DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#start DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#start}
   */
   readonly start: number;
 }
@@ -1150,31 +1150,31 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must begin with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * An object that represents the range of values to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#range DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#range DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#range}
   */
   readonly range?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteMatchMetadataMatchRange;
   /**
   * The value sent by the client must include the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -1386,19 +1386,19 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * Specify True to match anything except the match criteria. The default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#invert DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#invert DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * An object that represents the data to match from the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteMatchMetadataMatch;
   /**
   * The name of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -1571,25 +1571,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * An object that represents the data to match from the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteMatchMetadata[] | cdktf.IResolvable;
   /**
   * The method name to match from the request. If you specify a name, you must also specify a serviceName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#method_name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#method_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#method_name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#method_name}
   */
   readonly methodName?: string;
   /**
   * Specifies the port to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * The fully qualified domain name for the service to match from the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#service_name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#service_name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -1772,13 +1772,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -1895,27 +1895,27 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRoute
 }
 export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#grpc_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#grpc_retry_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#grpc_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#grpc_retry_events}
   */
   readonly grpcRetryEvents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_retry_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_retry_events}
   */
   readonly httpRetryEvents?: string[];
   /**
   * The maximum number of retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#max_retries DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#max_retries DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#max_retries}
   */
   readonly maxRetries: number;
   /**
   * An object that represents a duration of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_retry_timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_retry_timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_retry_timeout}
   */
   readonly perRetryTimeout: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteRetryPolicyPerRetryTimeout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_retry_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_retry_events}
   */
   readonly tcpRetryEvents?: string[];
 }
@@ -2121,13 +2121,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -2246,13 +2246,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -2371,13 +2371,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * An object that represents idle timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
   */
   readonly idle?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteTimeoutIdle;
   /**
   * An object that represents per request timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_request DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_request DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_request}
   */
   readonly perRequest?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteTimeoutPerRequest;
 }
@@ -2502,25 +2502,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcR
   /**
   * An object that represents the action to take if a match is determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
   */
   readonly action: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteAction;
   /**
   * An object that represents the criteria for determining a request match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteMatch;
   /**
   * An object that represents a retry policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#retry_policy DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#retry_policy DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteRetryPolicy;
   /**
   * An object that represents a grpc timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
   */
   readonly timeout?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRouteTimeout;
 }
@@ -2697,13 +2697,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * Name is the name of VirtualNode CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualNode CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2825,25 +2825,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * Specifies the targeted port of the weighted object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Amazon Resource Name to AppMesh VirtualNode object to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
   */
   readonly virtualNodeArn?: string;
   /**
   * Reference to Kubernetes VirtualNode CR in cluster to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
   */
   readonly virtualNodeRef?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteActionWeightedTargetsVirtualNodeRef;
   /**
   * The relative weight of the weighted target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3045,7 +3045,7 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * An object that represents the targets that traffic is routed to when a request matches the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
   */
   readonly weightedTargets: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteActionWeightedTargets[] | cdktf.IResolvable;
 }
@@ -3138,13 +3138,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * The end of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#end DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#end DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#end}
   */
   readonly end: number;
   /**
   * The start of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#start DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#start DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#start}
   */
   readonly start: number;
 }
@@ -3263,31 +3263,31 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must begin with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * An object that represents the range of values to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#range DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#range DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#range}
   */
   readonly range?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatchHeadersMatchRange;
   /**
   * The value sent by the client must include the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -3499,19 +3499,19 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * Specify True to match anything except the match criteria. The default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#invert DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#invert DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * The HeaderMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatchHeadersMatch;
   /**
   * A name for the HTTP header in the client request that will be matched on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -3684,13 +3684,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -3813,7 +3813,7 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2Rout
 }
 export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatchQueryParametersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
   */
   readonly exact?: string;
 }
@@ -3909,11 +3909,11 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * The QueryMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatchQueryParametersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -4057,43 +4057,43 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * An object that represents the client request headers to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#headers DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#headers DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatchHeaders[] | cdktf.IResolvable;
   /**
   * The client request method to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#method DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#method DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#method}
   */
   readonly method?: string;
   /**
   * The client specified Path to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#path}
   */
   readonly path?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatchPath;
   /**
   * Specifies the port to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Specifies the prefix to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The client specified queryParameters to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#query_parameters}
   */
   readonly queryParameters?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatchQueryParameters[] | cdktf.IResolvable;
   /**
   * The client request scheme to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#scheme DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#scheme DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4363,13 +4363,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -4486,23 +4486,23 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2Rout
 }
 export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_retry_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_retry_events}
   */
   readonly httpRetryEvents?: string[];
   /**
   * The maximum number of retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#max_retries DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#max_retries DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#max_retries}
   */
   readonly maxRetries: number;
   /**
   * An object that represents a duration of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_retry_timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_retry_timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_retry_timeout}
   */
   readonly perRetryTimeout: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteRetryPolicyPerRetryTimeout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_retry_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_retry_events}
   */
   readonly tcpRetryEvents?: string[];
 }
@@ -4679,13 +4679,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -4804,13 +4804,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -4929,13 +4929,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * An object that represents idle timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
   */
   readonly idle?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteTimeoutIdle;
   /**
   * An object that represents per request timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_request DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_request DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_request}
   */
   readonly perRequest?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteTimeoutPerRequest;
 }
@@ -5060,25 +5060,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2
   /**
   * An object that represents the action to take if a match is determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
   */
   readonly action: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteAction;
   /**
   * An object that represents the criteria for determining a request match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteMatch;
   /**
   * An object that represents a retry policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#retry_policy DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#retry_policy DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteRetryPolicy;
   /**
   * An object that represents a http timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
   */
   readonly timeout?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2RouteTimeout;
 }
@@ -5255,13 +5255,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * Name is the name of VirtualNode CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualNode CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5383,25 +5383,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * Specifies the targeted port of the weighted object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Amazon Resource Name to AppMesh VirtualNode object to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
   */
   readonly virtualNodeArn?: string;
   /**
   * Reference to Kubernetes VirtualNode CR in cluster to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
   */
   readonly virtualNodeRef?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteActionWeightedTargetsVirtualNodeRef;
   /**
   * The relative weight of the weighted target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5603,7 +5603,7 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * An object that represents the targets that traffic is routed to when a request matches the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
   */
   readonly weightedTargets: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteActionWeightedTargets[] | cdktf.IResolvable;
 }
@@ -5696,13 +5696,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * The end of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#end DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#end DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#end}
   */
   readonly end: number;
   /**
   * The start of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#start DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#start DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#start}
   */
   readonly start: number;
 }
@@ -5821,31 +5821,31 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must begin with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * An object that represents the range of values to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#range DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#range DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#range}
   */
   readonly range?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatchHeadersMatchRange;
   /**
   * The value sent by the client must include the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -6057,19 +6057,19 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * Specify True to match anything except the match criteria. The default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#invert DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#invert DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * The HeaderMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatchHeadersMatch;
   /**
   * A name for the HTTP header in the client request that will be matched on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -6242,13 +6242,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#regex DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -6371,7 +6371,7 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRoute
 }
 export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatchQueryParametersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#exact}
   */
   readonly exact?: string;
 }
@@ -6467,11 +6467,11 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * The QueryMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatchQueryParametersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -6615,43 +6615,43 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * An object that represents the client request headers to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#headers DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#headers DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatchHeaders[] | cdktf.IResolvable;
   /**
   * The client request method to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#method DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#method DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#method}
   */
   readonly method?: string;
   /**
   * The client specified Path to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#path}
   */
   readonly path?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatchPath;
   /**
   * Specifies the port to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Specifies the prefix to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The client specified queryParameters to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#query_parameters}
   */
   readonly queryParameters?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatchQueryParameters[] | cdktf.IResolvable;
   /**
   * The client request scheme to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#scheme DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#scheme DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -6921,13 +6921,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -7044,23 +7044,23 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRoute
 }
 export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_retry_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_retry_events}
   */
   readonly httpRetryEvents?: string[];
   /**
   * The maximum number of retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#max_retries DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#max_retries DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#max_retries}
   */
   readonly maxRetries: number;
   /**
   * An object that represents a duration of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_retry_timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_retry_timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_retry_timeout}
   */
   readonly perRetryTimeout: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteRetryPolicyPerRetryTimeout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_retry_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_retry_events DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_retry_events}
   */
   readonly tcpRetryEvents?: string[];
 }
@@ -7237,13 +7237,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -7362,13 +7362,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -7487,13 +7487,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * An object that represents idle timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
   */
   readonly idle?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteTimeoutIdle;
   /**
   * An object that represents per request timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_request DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#per_request DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#per_request}
   */
   readonly perRequest?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteTimeoutPerRequest;
 }
@@ -7618,25 +7618,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpR
   /**
   * An object that represents the action to take if a match is determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
   */
   readonly action: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteAction;
   /**
   * An object that represents the criteria for determining a request match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteMatch;
   /**
   * An object that represents a retry policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#retry_policy DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#retry_policy DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteRetryPolicy;
   /**
   * An object that represents a http timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
   */
   readonly timeout?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRouteTimeout;
 }
@@ -7813,13 +7813,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRo
   /**
   * Name is the name of VirtualNode CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualNode CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7941,25 +7941,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRo
   /**
   * Specifies the targeted port of the weighted object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Amazon Resource Name to AppMesh VirtualNode object to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_arn}
   */
   readonly virtualNodeArn?: string;
   /**
   * Reference to Kubernetes VirtualNode CR in cluster to associate with the weighted target. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#virtual_node_ref}
   */
   readonly virtualNodeRef?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRouteActionWeightedTargetsVirtualNodeRef;
   /**
   * The relative weight of the weighted target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weight DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -8161,7 +8161,7 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRo
   /**
   * An object that represents the targets that traffic is routed to when a request matches the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#weighted_targets DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#weighted_targets}
   */
   readonly weightedTargets: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRouteActionWeightedTargets[] | cdktf.IResolvable;
 }
@@ -8254,7 +8254,7 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRo
   /**
   * Specifies the port to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#port}
   */
   readonly port?: number;
 }
@@ -8350,13 +8350,13 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRo
   /**
   * A unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#unit DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#unit}
   */
   readonly unit: string;
   /**
   * A number of time units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#value}
   */
   readonly value: number;
 }
@@ -8475,7 +8475,7 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRo
   /**
   * An object that represents idle timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#idle DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#idle}
   */
   readonly idle?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRouteTimeoutIdle;
 }
@@ -8571,19 +8571,19 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRo
   /**
   * The action to take if a match is determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#action DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#action}
   */
   readonly action: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRouteAction;
   /**
   * An object that represents the criteria for determining a request match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRouteMatch;
   /**
   * An object that represents a tcp timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#timeout DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#timeout}
   */
   readonly timeout?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRouteTimeout;
 }
@@ -8734,37 +8734,37 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutes {
   /**
   * An object that represents the specification of a gRPC route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#grpc_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#grpc_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#grpc_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#grpc_route}
   */
   readonly grpcRoute?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesGrpcRoute;
   /**
   * An object that represents the specification of an HTTP/2 route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http2_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http2_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http2_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http2_route}
   */
   readonly http2Route?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttp2Route;
   /**
   * An object that represents the specification of an HTTP route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#http_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#http_route}
   */
   readonly httpRoute?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesHttpRoute;
   /**
   * Route's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * The priority for the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#priority DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#priority DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#priority}
   */
   readonly priority?: number;
   /**
   * An object that represents the specification of a TCP route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#tcp_route DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#tcp_route}
   */
   readonly tcpRoute?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutesTcpRoute;
 }
@@ -9024,25 +9024,25 @@ export interface DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpec {
   /**
   * AWSName is the AppMesh VirtualRouter object's name. If unspecified or empty, it defaults to be '${name}_${namespace}' of k8s VirtualRouter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#aws_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#aws_name}
   */
   readonly awsName?: string;
   /**
   * The listeners that the virtual router is expected to receive inbound traffic from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#listeners DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#listeners DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#listeners}
   */
   readonly listeners?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecListeners[] | cdktf.IResolvable;
   /**
   * A reference to k8s Mesh CR that this VirtualRouter belongs to. The admission controller populates it using Meshes's selector, and prevents users from setting this field. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#mesh_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#mesh_ref}
   */
   readonly meshRef?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecMeshRef;
   /**
   * The routes associated with VirtualRouter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#routes DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#routes DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest#routes}
   */
   readonly routes?: DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecRoutes[] | cdktf.IResolvable;
 }
@@ -9223,7 +9223,7 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_router_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_router_v1beta2_manifest}
 */
 export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -9239,7 +9239,7 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9251,7 +9251,7 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_router_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_virtual_router_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_router_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9262,8 +9262,8 @@ export class DataK8SAppmeshK8SAwsVirtualRouterV1Beta2Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_appmesh_k8s_aws_virtual_router_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

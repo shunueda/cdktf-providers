@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface InterfaceEthernetSwitchCrsConfig extends cdktf.TerraformMetaArg
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#___path___ InterfaceEthernetSwitchCrs#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#___path___ InterfaceEthernetSwitchCrs#___path___}
   */
   readonly path?: string;
   /**
   * The bridge type defines which VLAN tag is used as Lookup-VID. Lookup-VID serves as the VLAN key for all VLAN-based lookups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#bridge_type InterfaceEthernetSwitchCrs#bridge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#bridge_type InterfaceEthernetSwitchCrs#bridge_type}
   */
   readonly bridgeType?: string;
   /**
   * Protocols that are excluded from Ingress Port Policing. (arp, dhcpv4, dhcpv6, eapol, igmp, mld, nd, pppoe-discovery, ripv1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#bypass_ingress_port_policing_for InterfaceEthernetSwitchCrs#bypass_ingress_port_policing_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#bypass_ingress_port_policing_for InterfaceEthernetSwitchCrs#bypass_ingress_port_policing_for}
   */
   readonly bypassIngressPortPolicingFor?: string[];
   /**
   * Protocols that are excluded from Policy rule security check. (arp, dhcpv4, dhcpv6, eapol, igmp, mld, nd, pppoe-discovery, ripv1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#bypass_l2_security_check_filter_for InterfaceEthernetSwitchCrs#bypass_l2_security_check_filter_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#bypass_l2_security_check_filter_for InterfaceEthernetSwitchCrs#bypass_l2_security_check_filter_for}
   */
   readonly bypassL2SecurityCheckFilterFor?: string[];
   /**
   * Protocols that are excluded from Ingress VLAN filtering. These protocols are not dropped if they have invalid VLAN. (arp, dhcpv4, dhcpv6,eapol, igmp, mld, nd, pppoe-discovery, ripv1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#bypass_vlan_ingress_filter_for InterfaceEthernetSwitchCrs#bypass_vlan_ingress_filter_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#bypass_vlan_ingress_filter_for InterfaceEthernetSwitchCrs#bypass_vlan_ingress_filter_for}
   */
   readonly bypassVlanIngressFilterFor?: string[];
   /**
   * Ports that drop invalid and other port VLAN ID frames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#drop_if_invalid_or_src_port_not_member_of_vlan_on_ports InterfaceEthernetSwitchCrs#drop_if_invalid_or_src_port_not_member_of_vlan_on_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#drop_if_invalid_or_src_port_not_member_of_vlan_on_ports InterfaceEthernetSwitchCrs#drop_if_invalid_or_src_port_not_member_of_vlan_on_ports}
   */
   readonly dropIfInvalidOrSrcPortNotMemberOfVlanOnPorts?: string[];
   /**
   * Ports which drop frames if no MAC-based, Protocol-based VLAN assignment or Ingress VLAN Translation is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#drop_if_no_vlan_assignment_on_ports InterfaceEthernetSwitchCrs#drop_if_no_vlan_assignment_on_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#drop_if_no_vlan_assignment_on_ports InterfaceEthernetSwitchCrs#drop_if_no_vlan_assignment_on_ports}
   */
   readonly dropIfNoVlanAssignmentOnPorts?: string[];
   /**
   * The first egress mirroring analyzer port or trunk and mirroring format:analyzer-configured - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the analyzer port.modified - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the egress port.original - Traffic is mirrored without any change to the original incoming packet format. But the service VLAN tag is stripped in the edge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#egress_mirror0 InterfaceEthernetSwitchCrs#egress_mirror0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#egress_mirror0 InterfaceEthernetSwitchCrs#egress_mirror0}
   */
   readonly egressMirror0?: string[];
   /**
   * The second egress mirroring analyzer port or trunk and mirroring format:analyzer-configured - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the analyzer port.modified - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the egress port.original - Traffic is mirrored without any change to the original incoming packet format. But the service VLAN tag is stripped in the edge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#egress_mirror1 InterfaceEthernetSwitchCrs#egress_mirror1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#egress_mirror1 InterfaceEthernetSwitchCrs#egress_mirror1}
   */
   readonly egressMirror1?: string[];
   /**
   * Proportion of egress mirrored packets compared to all packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#egress_mirror_ratio InterfaceEthernetSwitchCrs#egress_mirror_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#egress_mirror_ratio InterfaceEthernetSwitchCrs#egress_mirror_ratio}
   */
   readonly egressMirrorRatio?: string;
   /**
   * Analyzer port used for FDB-based mirroring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#fdb_uses InterfaceEthernetSwitchCrs#fdb_uses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#fdb_uses InterfaceEthernetSwitchCrs#fdb_uses}
   */
   readonly fdbUses?: string;
   /**
   * Whether to allow forwarding VLANs that are not members of the VLAN table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#forward_unknown_vlan InterfaceEthernetSwitchCrs#forward_unknown_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#forward_unknown_vlan InterfaceEthernetSwitchCrs#forward_unknown_vlan}
   */
   readonly forwardUnknownVlan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#id InterfaceEthernetSwitchCrs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#id InterfaceEthernetSwitchCrs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,101 +89,101 @@ export interface InterfaceEthernetSwitchCrsConfig extends cdktf.TerraformMetaArg
   /**
   * The first ingress mirroring analyzer port or trunk and mirroring format:analyzer-configured - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the analyzer port.modified - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the egress port.original - Traffic is mirrored without any change to the original incoming packet format. But the service VLAN tag is stripped in the edge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#ingress_mirror0 InterfaceEthernetSwitchCrs#ingress_mirror0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#ingress_mirror0 InterfaceEthernetSwitchCrs#ingress_mirror0}
   */
   readonly ingressMirror0?: string[];
   /**
   * The second ingress mirroring analyzer port or trunk and mirroring format:analyzer-configured - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the analyzer port.modified - The packet is the same as the packet to the destination. VLAN format is modified based on the VLAN configurations of the egress port.original - Traffic is mirrored without any change to the original incoming packet format. But the service VLAN tag is stripped in the edge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#ingress_mirror1 InterfaceEthernetSwitchCrs#ingress_mirror1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#ingress_mirror1 InterfaceEthernetSwitchCrs#ingress_mirror1}
   */
   readonly ingressMirror1?: string[];
   /**
   * The proportion of ingress mirrored packets compared to all packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#ingress_mirror_ratio InterfaceEthernetSwitchCrs#ingress_mirror_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#ingress_mirror_ratio InterfaceEthernetSwitchCrs#ingress_mirror_ratio}
   */
   readonly ingressMirrorRatio?: string;
   /**
   * Globally enables or disables MAC level isolation. Once enabled, the switch will check the source and destination MAC address entries and their isolation-profile from the unicast forwarding table. By default, the switch will learn MAC addresses and place them into a promiscuous isolation profile. Other isolation profiles can be used when creating static unicast entries. If the source or destination MAC address is located on a promiscuous isolation profile, the packet is forwarded. If both source and destination MAC addresses are located on the same community1 or community2 isolation profile, the packet is forwarded. The packet is dropped when the source and destination MAC address isolation profile is isolated, or when the source and destination MAC address isolation profiles are from different communities (e.g. source MAC address is community1 and destination MAC address is community2). When MAC level isolation is globally disabled, the isolation is bypassed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#mac_level_isolation InterfaceEthernetSwitchCrs#mac_level_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#mac_level_isolation InterfaceEthernetSwitchCrs#mac_level_isolation}
   */
   readonly macLevelIsolation?: boolean | cdktf.IResolvable;
   /**
   * When a packet is applied to both ingress and egress mirroring, only ingress mirroring is performed on the packet, if this setting is disabled. If this setting is enabled both mirroring types are applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#mirror_egress_if_ingress_mirrored InterfaceEthernetSwitchCrs#mirror_egress_if_ingress_mirrored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#mirror_egress_if_ingress_mirrored InterfaceEthernetSwitchCrs#mirror_egress_if_ingress_mirrored}
   */
   readonly mirrorEgressIfIngressMirrored?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#mirror_tx_on_mirror_port InterfaceEthernetSwitchCrs#mirror_tx_on_mirror_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#mirror_tx_on_mirror_port InterfaceEthernetSwitchCrs#mirror_tx_on_mirror_port}
   */
   readonly mirrorTxOnMirrorPort?: boolean | cdktf.IResolvable;
   /**
   * Remarked drop precedence in mirrored packets. This QoS attribute is used for mirrored packet enqueuing or dropping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#mirrored_packet_drop_precedence InterfaceEthernetSwitchCrs#mirrored_packet_drop_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#mirrored_packet_drop_precedence InterfaceEthernetSwitchCrs#mirrored_packet_drop_precedence}
   */
   readonly mirroredPacketDropPrecedence?: string;
   /**
   * Remarked priority in mirrored packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#mirrored_packet_qos_priority InterfaceEthernetSwitchCrs#mirrored_packet_qos_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#mirrored_packet_qos_priority InterfaceEthernetSwitchCrs#mirrored_packet_qos_priority}
   */
   readonly mirroredPacketQosPriority?: number;
   /**
   * Lookup mode for IPv4 multicast bridging.dst-mac-and-vid-always - For all packet types lookup key is the destination MAC and VLAN ID.dst-ip-and-vid-for-ipv4 - For IPv4 packets lookup key is the destination IP and VLAN ID. For other packet types, the lookup key is the destination MAC and VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#multicast_lookup_mode InterfaceEthernetSwitchCrs#multicast_lookup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#multicast_lookup_mode InterfaceEthernetSwitchCrs#multicast_lookup_mode}
   */
   readonly multicastLookupMode?: string;
   /**
   * Name of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#name InterfaceEthernetSwitchCrs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#name InterfaceEthernetSwitchCrs#name}
   */
   readonly name: string;
   /**
   * Enable or disable to override existing entry which has the lowest aging value when UFDB is full.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#override_existing_when_ufdb_full InterfaceEthernetSwitchCrs#override_existing_when_ufdb_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#override_existing_when_ufdb_full InterfaceEthernetSwitchCrs#override_existing_when_ufdb_full}
   */
   readonly overrideExistingWhenUfdbFull?: boolean | cdktf.IResolvable;
   /**
   * Timeout for Unicast FDB entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#unicast_fdb_timeout InterfaceEthernetSwitchCrs#unicast_fdb_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#unicast_fdb_timeout InterfaceEthernetSwitchCrs#unicast_fdb_timeout}
   */
   readonly unicastFdbTimeout?: string;
   /**
   * Lookup and learning mode for packets with invalid VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#unknown_vlan_lookup_mode InterfaceEthernetSwitchCrs#unknown_vlan_lookup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#unknown_vlan_lookup_mode InterfaceEthernetSwitchCrs#unknown_vlan_lookup_mode}
   */
   readonly unknownVlanLookupMode?: string;
   /**
   * Whether to use customer VLAN ID for 1:1 VLAN switching lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#use_cvid_in_one2one_vlan_lookup InterfaceEthernetSwitchCrs#use_cvid_in_one2one_vlan_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#use_cvid_in_one2one_vlan_lookup InterfaceEthernetSwitchCrs#use_cvid_in_one2one_vlan_lookup}
   */
   readonly useCvidInOne2OneVlanLookup?: boolean | cdktf.IResolvable;
   /**
   * Whether to use service VLAN ID for 1:1 VLAN switching lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#use_svid_in_one2one_vlan_lookup InterfaceEthernetSwitchCrs#use_svid_in_one2one_vlan_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#use_svid_in_one2one_vlan_lookup InterfaceEthernetSwitchCrs#use_svid_in_one2one_vlan_lookup}
   */
   readonly useSvidInOne2OneVlanLookup?: boolean | cdktf.IResolvable;
   /**
   * Analyzer port used for VLAN-based mirroring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#vlan_uses InterfaceEthernetSwitchCrs#vlan_uses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#vlan_uses InterfaceEthernetSwitchCrs#vlan_uses}
   */
   readonly vlanUses?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs routeros_interface_ethernet_switch_crs}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs routeros_interface_ethernet_switch_crs}
 */
 export class InterfaceEthernetSwitchCrs extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class InterfaceEthernetSwitchCrs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetSwitchCrs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitchCrs to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitchCrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitchCrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitchCrs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class InterfaceEthernetSwitchCrs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs routeros_interface_ethernet_switch_crs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs routeros_interface_ethernet_switch_crs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class InterfaceEthernetSwitchCrs extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ethernet_switch_crs',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

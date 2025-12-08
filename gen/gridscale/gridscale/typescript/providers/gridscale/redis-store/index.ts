@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RedisStoreConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#id RedisStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#id RedisStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,44 +17,44 @@ export interface RedisStoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#labels RedisStore#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#labels RedisStore#labels}
   */
   readonly labels?: string[];
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#name RedisStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#name RedisStore#name}
   */
   readonly name: string;
   /**
   * The UUID of the network that the service is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#network_uuid RedisStore#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#network_uuid RedisStore#network_uuid}
   */
   readonly networkUuid?: string;
   /**
   * Performance class of Redis store service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#performance_class RedisStore#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#performance_class RedisStore#performance_class}
   */
   readonly performanceClass: string;
   /**
   * The RedisStore release of this instance.\n
   * 				For convenience, please use gscloud https://github.com/gridscale/gscloud to get the list of available Redis store service releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#release RedisStore#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#release RedisStore#release}
   */
   readonly release: string;
   /**
   * Security zone UUID linked to Redis store service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#security_zone_uuid RedisStore#security_zone_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#security_zone_uuid RedisStore#security_zone_uuid}
   */
   readonly securityZoneUuid?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#timeouts RedisStore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#timeouts RedisStore#timeouts}
   */
   readonly timeouts?: RedisStoreTimeouts;
 }
@@ -145,15 +145,15 @@ export class RedisStoreListenPortList extends cdktf.ComplexList {
 }
 export interface RedisStoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#create RedisStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#create RedisStore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#delete RedisStore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#delete RedisStore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#update RedisStore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#update RedisStore#update}
   */
   readonly update?: string;
 }
@@ -305,7 +305,7 @@ export class RedisStoreTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store gridscale_redis_store}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store gridscale_redis_store}
 */
 export class RedisStore extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class RedisStore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisStore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisStore to import
-  * @param importFromId The id of the existing RedisStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class RedisStore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/redis_store gridscale_redis_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/redis_store gridscale_redis_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class RedisStore extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_redis_store',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

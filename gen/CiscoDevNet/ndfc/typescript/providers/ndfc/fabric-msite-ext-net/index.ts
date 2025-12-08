@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,373 +10,373 @@ export interface FabricMsiteExtNetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable only, when IP Authorization is enabled in the AAA Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#aaa_remote_ip_enabled FabricMsiteExtNet#aaa_remote_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#aaa_remote_ip_enabled FabricMsiteExtNet#aaa_remote_ip_enabled}
   */
   readonly aaaRemoteIpEnabled?: boolean | cdktf.IResolvable;
   /**
   * AAA Configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#aaa_server_conf FabricMsiteExtNet#aaa_server_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#aaa_server_conf FabricMsiteExtNet#aaa_server_conf}
   */
   readonly aaaServerConf?: string;
   /**
   * Allow onboarding of this fabric to Nexus Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#allow_nxc FabricMsiteExtNet#allow_nxc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#allow_nxc FabricMsiteExtNet#allow_nxc}
   */
   readonly allowNxc?: boolean | cdktf.IResolvable;
   /**
   * 1-4294967295 | 1-65535.0-65535. It is a good practice to have a unique ASN for each Fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#bgp_as FabricMsiteExtNet#bgp_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#bgp_as FabricMsiteExtNet#bgp_as}
   */
   readonly bgpAs: string;
   /**
   * Additional CLIs required during device bootup/login e.g. AAA/Radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#bootstrap_conf FabricMsiteExtNet#bootstrap_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#bootstrap_conf FabricMsiteExtNet#bootstrap_conf}
   */
   readonly bootstrapConf?: string;
   /**
   * Additional CLIs required during device bootup/login e.g. AAA/Radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#bootstrap_conf_xe FabricMsiteExtNet#bootstrap_conf_xe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#bootstrap_conf_xe FabricMsiteExtNet#bootstrap_conf_xe}
   */
   readonly bootstrapConfXe?: string;
   /**
   * Automatic IP Assignment For POAP (For NX-OS and IOS XE (Cat9K) Switches Only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#bootstrap_enable FabricMsiteExtNet#bootstrap_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#bootstrap_enable FabricMsiteExtNet#bootstrap_enable}
   */
   readonly bootstrapEnable?: boolean | cdktf.IResolvable;
   /**
   * "DHCPv4 Multi Subnet Scope - lines with # prefix are ignored here"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#bootstrap_multisubnet FabricMsiteExtNet#bootstrap_multisubnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#bootstrap_multisubnet FabricMsiteExtNet#bootstrap_multisubnet}
   */
   readonly bootstrapMultisubnet?: string;
   /**
   * Enable CDP on management interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#cdp_enable FabricMsiteExtNet#cdp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#cdp_enable FabricMsiteExtNet#cdp_enable}
   */
   readonly cdpEnable?: boolean | cdktf.IResolvable;
   /**
   * Address range to assign P2P DCI Links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#dci_subnet_range FabricMsiteExtNet#dci_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#dci_subnet_range FabricMsiteExtNet#dci_subnet_range}
   */
   readonly dciSubnetRange?: string;
   /**
   * Target Mask for Subnet Range (Min:8, Max:31)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#dci_subnet_target_mask FabricMsiteExtNet#dci_subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#dci_subnet_target_mask FabricMsiteExtNet#dci_subnet_target_mask}
   */
   readonly dciSubnetTargetMask?: number;
   /**
   * This flag does configuration save and deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#deploy FabricMsiteExtNet#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#deploy FabricMsiteExtNet#deploy}
   */
   readonly deploy: boolean | cdktf.IResolvable;
   /**
   * Disable all deployments in this fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#deployment_freeze FabricMsiteExtNet#deployment_freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#deployment_freeze FabricMsiteExtNet#deployment_freeze}
   */
   readonly deploymentFreeze?: boolean | cdktf.IResolvable;
   /**
   * This fields shows the actual status of the deployment. It can be one of the following: Deployment pending Deployment successful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#deployment_status FabricMsiteExtNet#deployment_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#deployment_status FabricMsiteExtNet#deployment_status}
   */
   readonly deploymentStatus?: string;
   /**
   * Automatic IP Assignment For POAP From Local DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#dhcp_enable FabricMsiteExtNet#dhcp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#dhcp_enable FabricMsiteExtNet#dhcp_enable}
   */
   readonly dhcpEnable?: boolean | cdktf.IResolvable;
   /**
   * End Address For Switch POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#dhcp_end FabricMsiteExtNet#dhcp_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#dhcp_end FabricMsiteExtNet#dhcp_end}
   */
   readonly dhcpEnd?: string;
   /**
   * DHCP Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#dhcp_ipv6_enable FabricMsiteExtNet#dhcp_ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#dhcp_ipv6_enable FabricMsiteExtNet#dhcp_ipv6_enable}
   */
   readonly dhcpIpv6Enable?: string;
   /**
   * Start Address For Switch POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#dhcp_start FabricMsiteExtNet#dhcp_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#dhcp_start FabricMsiteExtNet#dhcp_start}
   */
   readonly dhcpStart?: string;
   /**
   * Domain name for DHCP server PnP block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#domain_name FabricMsiteExtNet#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#domain_name FabricMsiteExtNet#domain_name}
   */
   readonly domainName?: string;
   /**
   * Include AAA configs from Advanced tab during device bootup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#enable_aaa FabricMsiteExtNet#enable_aaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#enable_aaa FabricMsiteExtNet#enable_aaa}
   */
   readonly enableAaa?: boolean | cdktf.IResolvable;
   /**
   * Enable Netflow on VTEPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#enable_netflow FabricMsiteExtNet#enable_netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#enable_netflow FabricMsiteExtNet#enable_netflow}
   */
   readonly enableNetflow?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTPS NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#enable_nxapi FabricMsiteExtNet#enable_nxapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#enable_nxapi FabricMsiteExtNet#enable_nxapi}
   */
   readonly enableNxapi?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTP NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#enable_nxapi_http FabricMsiteExtNet#enable_nxapi_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#enable_nxapi_http FabricMsiteExtNet#enable_nxapi_http}
   */
   readonly enableNxapiHttp?: boolean | cdktf.IResolvable;
   /**
   * Backup hourly only if there is any config deployment since last backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#enable_real_time_backup FabricMsiteExtNet#enable_real_time_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#enable_real_time_backup FabricMsiteExtNet#enable_real_time_backup}
   */
   readonly enableRealTimeBackup?: boolean | cdktf.IResolvable;
   /**
   * Valid for NX-OS only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#enable_rt_intf_stats FabricMsiteExtNet#enable_rt_intf_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#enable_rt_intf_stats FabricMsiteExtNet#enable_rt_intf_stats}
   */
   readonly enableRtIntfStats?: boolean | cdktf.IResolvable;
   /**
   * Backup at the specified time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#enable_scheduled_backup FabricMsiteExtNet#enable_scheduled_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#enable_scheduled_backup FabricMsiteExtNet#enable_scheduled_backup}
   */
   readonly enableScheduledBackup?: boolean | cdktf.IResolvable;
   /**
   * External Fabric Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#ext_fabric_type FabricMsiteExtNet#ext_fabric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#ext_fabric_type FabricMsiteExtNet#ext_fabric_type}
   */
   readonly extFabricType?: string;
   /**
   * Additional supported CLIs for all same OS (e.g. all NxOS or IOS-XE, etc) switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#fabric_freeform FabricMsiteExtNet#fabric_freeform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#fabric_freeform FabricMsiteExtNet#fabric_freeform}
   */
   readonly fabricFreeform?: string;
   /**
   * Fabric name to be created, updated or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#fabric_name FabricMsiteExtNet#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#fabric_name FabricMsiteExtNet#fabric_name}
   */
   readonly fabricName: string;
   /**
   * Enable Precision Time Protocol (PTP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#feature_ptp FabricMsiteExtNet#feature_ptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#feature_ptp FabricMsiteExtNet#feature_ptp}
   */
   readonly featurePtp?: boolean | cdktf.IResolvable;
   /**
   * Template Family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#ff FabricMsiteExtNet#ff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#ff FabricMsiteExtNet#ff}
   */
   readonly ff?: string;
   /**
   * Enable POAP over Inband Interface (Pre-req: Inband Mgmt Knob should be Enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#inband_enable FabricMsiteExtNet#inband_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#inband_enable FabricMsiteExtNet#inband_enable}
   */
   readonly inbandEnable?: boolean | cdktf.IResolvable;
   /**
   * Import switches with inband connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#inband_mgmt FabricMsiteExtNet#inband_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#inband_mgmt FabricMsiteExtNet#inband_mgmt}
   */
   readonly inbandMgmt?: boolean | cdktf.IResolvable;
   /**
   * Time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#intf_stat_load_interval FabricMsiteExtNet#intf_stat_load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#intf_stat_load_interval FabricMsiteExtNet#intf_stat_load_interval}
   */
   readonly intfStatLoadInterval?: number;
   /**
   * If enabled, fabric is only monitored. No configuration will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#is_read_only FabricMsiteExtNet#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#is_read_only FabricMsiteExtNet#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Underlay Routing Loopback IP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#loopback0_ip_range FabricMsiteExtNet#loopback0_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#loopback0_ip_range FabricMsiteExtNet#loopback0_ip_range}
   */
   readonly loopback0IpRange?: string;
   /**
   * Default Gateway For Management VRF On The Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#mgmt_gw FabricMsiteExtNet#mgmt_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#mgmt_gw FabricMsiteExtNet#mgmt_gw}
   */
   readonly mgmtGw?: string;
   /**
   * Switch Mgmt IP Subnet Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#mgmt_prefix FabricMsiteExtNet#mgmt_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#mgmt_prefix FabricMsiteExtNet#mgmt_prefix}
   */
   readonly mgmtPrefix?: number;
   /**
   * Switch Mgmt IPv6 Subnet Prefix (Min:64, Max:126)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#mgmt_v6prefix FabricMsiteExtNet#mgmt_v6prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#mgmt_v6prefix FabricMsiteExtNet#mgmt_v6prefix}
   */
   readonly mgmtV6Prefix?: number;
   /**
   * Enable MPLS Handoff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#mpls_handoff FabricMsiteExtNet#mpls_handoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#mpls_handoff FabricMsiteExtNet#mpls_handoff}
   */
   readonly mplsHandoff?: boolean | cdktf.IResolvable;
   /**
   * (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#mpls_lb_id FabricMsiteExtNet#mpls_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#mpls_lb_id FabricMsiteExtNet#mpls_lb_id}
   */
   readonly mplsLbId?: number;
   /**
   * MPLS Loopback IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#mpls_loopback_ip_range FabricMsiteExtNet#mpls_loopback_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#mpls_loopback_ip_range FabricMsiteExtNet#mpls_loopback_ip_range}
   */
   readonly mplsLoopbackIpRange?: string;
   /**
   * One or Multiple Netflow Exporters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#netflow_exporter_list FabricMsiteExtNet#netflow_exporter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#netflow_exporter_list FabricMsiteExtNet#netflow_exporter_list}
   */
   readonly netflowExporterList?: string;
   /**
   * One or Multiple Netflow Monitors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#netflow_monitor_list FabricMsiteExtNet#netflow_monitor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#netflow_monitor_list FabricMsiteExtNet#netflow_monitor_list}
   */
   readonly netflowMonitorList?: string;
   /**
   * One or Multiple Netflow Records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#netflow_record_list FabricMsiteExtNet#netflow_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#netflow_record_list FabricMsiteExtNet#netflow_record_list}
   */
   readonly netflowRecordList?: string;
   /**
   * One or multiple netflow Samplers. Applicable to N7K only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#netflow_sampler_list FabricMsiteExtNet#netflow_sampler_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#netflow_sampler_list FabricMsiteExtNet#netflow_sampler_list}
   */
   readonly netflowSamplerList?: string;
   /**
   * NX-API HTTP Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#nxapi_http_port FabricMsiteExtNet#nxapi_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#nxapi_http_port FabricMsiteExtNet#nxapi_http_port}
   */
   readonly nxapiHttpPort?: number;
   /**
   * NX-API HTTPS Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#nxapi_https_port FabricMsiteExtNet#nxapi_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#nxapi_https_port FabricMsiteExtNet#nxapi_https_port}
   */
   readonly nxapiHttpsPort?: number;
   /**
   * VRF to be used to reach Nexus Cloud, enter 'management' for management VRF and 'default' for default VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#nxc_dest_vrf FabricMsiteExtNet#nxc_dest_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#nxc_dest_vrf FabricMsiteExtNet#nxc_dest_vrf}
   */
   readonly nxcDestVrf?: string;
   /**
   * Proxy port number, default is 8080
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#nxc_proxy_port FabricMsiteExtNet#nxc_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#nxc_proxy_port FabricMsiteExtNet#nxc_proxy_port}
   */
   readonly nxcProxyPort?: number;
   /**
   * IPv4 or IPv6 address, or DNS name of the proxy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#nxc_proxy_server FabricMsiteExtNet#nxc_proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#nxc_proxy_server FabricMsiteExtNet#nxc_proxy_server}
   */
   readonly nxcProxyServer?: string;
   /**
   * Source interface for communication to Nexus Cloud, mandatory if Destination VRF is not management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#nxc_src_intf FabricMsiteExtNet#nxc_src_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#nxc_src_intf FabricMsiteExtNet#nxc_src_intf}
   */
   readonly nxcSrcIntf?: string;
   /**
   * If enabled, Fabric NxCloud Settings will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#overwrite_global_nxc FabricMsiteExtNet#overwrite_global_nxc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#overwrite_global_nxc FabricMsiteExtNet#overwrite_global_nxc}
   */
   readonly overwriteGlobalNxc?: boolean | cdktf.IResolvable;
   /**
   * Enable Performance Monitoring (For NX-OS and IOS XE Switches Only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#pm_enable FabricMsiteExtNet#pm_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#pm_enable FabricMsiteExtNet#pm_enable}
   */
   readonly pmEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable Plug n Play (Automatic IP Assignment) for Cat9K switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#pnp_enable FabricMsiteExtNet#pnp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#pnp_enable FabricMsiteExtNet#pnp_enable}
   */
   readonly pnpEnable?: boolean | cdktf.IResolvable;
   /**
   * Default Power Supply Mode For Bootstrapped NX-OS Switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#power_redundancy_mode FabricMsiteExtNet#power_redundancy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#power_redundancy_mode FabricMsiteExtNet#power_redundancy_mode}
   */
   readonly powerRedundancyMode?: string;
   /**
   * Multiple Independent PTP Clocking Subdomains on a Single Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#ptp_domain_id FabricMsiteExtNet#ptp_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#ptp_domain_id FabricMsiteExtNet#ptp_domain_id}
   */
   readonly ptpDomainId?: number;
   /**
   * (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#ptp_lb_id FabricMsiteExtNet#ptp_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#ptp_lb_id FabricMsiteExtNet#ptp_lb_id}
   */
   readonly ptpLbId?: number;
   /**
   * Time (UTC) in 24hr format. (00:00 to 23:59)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#scheduled_time FabricMsiteExtNet#scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#scheduled_time FabricMsiteExtNet#scheduled_time}
   */
   readonly scheduledTime?: string;
   /**
   * Configure NDFC as a receiver for SNMP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#snmp_server_host_trap FabricMsiteExtNet#snmp_server_host_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#snmp_server_host_trap FabricMsiteExtNet#snmp_server_host_trap}
   */
   readonly snmpServerHostTrap?: boolean | cdktf.IResolvable;
   /**
   * Per Border Dot1q Range For VRF Lite Connectivity (Min:2, Max:4093)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#subinterface_range FabricMsiteExtNet#subinterface_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#subinterface_range FabricMsiteExtNet#subinterface_range}
   */
   readonly subinterfaceRange?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net ndfc_fabric_msite_ext_net}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net ndfc_fabric_msite_ext_net}
 */
 export class FabricMsiteExtNet extends cdktf.TerraformResource {
 
@@ -392,7 +392,7 @@ export class FabricMsiteExtNet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricMsiteExtNet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricMsiteExtNet to import
-  * @param importFromId The id of the existing FabricMsiteExtNet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricMsiteExtNet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricMsiteExtNet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class FabricMsiteExtNet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_msite_ext_net ndfc_fabric_msite_ext_net} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_msite_ext_net ndfc_fabric_msite_ext_net} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class FabricMsiteExtNet extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_fabric_msite_ext_net',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

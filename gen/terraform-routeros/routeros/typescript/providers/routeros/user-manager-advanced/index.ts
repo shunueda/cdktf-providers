@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UserManagerAdvancedConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#___path___ UserManagerAdvanced#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#___path___ UserManagerAdvanced#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#id UserManagerAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#id UserManagerAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface UserManagerAdvancedConfig extends cdktf.TerraformMetaArguments 
   /**
   * An option whether to enable PayPal functionality for User Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#paypal_allow UserManagerAdvanced#paypal_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#paypal_allow UserManagerAdvanced#paypal_allow}
   */
   readonly paypalAllow?: boolean | cdktf.IResolvable;
   /**
   * The currency related to price setting in which users will be billed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#paypal_currency UserManagerAdvanced#paypal_currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#paypal_currency UserManagerAdvanced#paypal_currency}
   */
   readonly paypalCurrency?: string;
   /**
   * The password of the PayPal API account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#paypal_password UserManagerAdvanced#paypal_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#paypal_password UserManagerAdvanced#paypal_password}
   */
   readonly paypalPassword?: string;
   /**
   * The signature of the PayPal API account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#paypal_signature UserManagerAdvanced#paypal_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#paypal_signature UserManagerAdvanced#paypal_signature}
   */
   readonly paypalSignature?: string;
   /**
   * An option whether to use PayPal's sandbox environment for testing purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#paypal_use_sandbox UserManagerAdvanced#paypal_use_sandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#paypal_use_sandbox UserManagerAdvanced#paypal_use_sandbox}
   */
   readonly paypalUseSandbox?: boolean | cdktf.IResolvable;
   /**
   * The username of the PayPal API account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#paypal_user UserManagerAdvanced#paypal_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#paypal_user UserManagerAdvanced#paypal_user}
   */
   readonly paypalUser?: string;
   /**
   * The password for accessing `/um/PRIVATE/` section over HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#web_private_password UserManagerAdvanced#web_private_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#web_private_password UserManagerAdvanced#web_private_password}
   */
   readonly webPrivatePassword?: string;
   /**
   * The username for accessing `/um/PRIVATE/` section over HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#web_private_username UserManagerAdvanced#web_private_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#web_private_username UserManagerAdvanced#web_private_username}
   */
   readonly webPrivateUsername?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced routeros_user_manager_advanced}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced routeros_user_manager_advanced}
 */
 export class UserManagerAdvanced extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class UserManagerAdvanced extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagerAdvanced resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagerAdvanced to import
-  * @param importFromId The id of the existing UserManagerAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagerAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagerAdvanced to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class UserManagerAdvanced extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_advanced routeros_user_manager_advanced} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_advanced routeros_user_manager_advanced} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class UserManagerAdvanced extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_user_manager_advanced',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

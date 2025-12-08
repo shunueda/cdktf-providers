@@ -63,25 +63,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -264,67 +264,67 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#allow_privilege_escalation DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#allow_privilege_escalation DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#capabilities DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#capabilities DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsDatabaseSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#privileged DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#privileged DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#proc_mount DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#proc_mount DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#read_only_root_filesystem DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#read_only_root_filesystem DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsDatabaseSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsDatabaseSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsDatabaseSecurityContextWindowsOptions;
 }
@@ -710,13 +710,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#add DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#add DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#drop DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#drop DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -841,25 +841,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#level DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#level DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#role DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#role DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -1042,13 +1042,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#localhost_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#localhost_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -1170,25 +1170,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -1371,67 +1371,67 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#allow_privilege_escalation DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#allow_privilege_escalation DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#capabilities DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#capabilities DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsGrafanaSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#privileged DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#privileged DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#proc_mount DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#proc_mount DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#read_only_root_filesystem DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#read_only_root_filesystem DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsGrafanaSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsGrafanaSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsGrafanaSecurityContextWindowsOptions;
 }
@@ -1817,25 +1817,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#level DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#level DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#role DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#role DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -2018,13 +2018,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#localhost_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#localhost_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -2146,13 +2146,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#value DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#value DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -2293,25 +2293,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -2494,61 +2494,61 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#fs_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#fs_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#fs_group_change_policy DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#fs_group_change_policy DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#supplemental_groups DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#supplemental_groups DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#sysctls DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#sysctls DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#sysctls}
   */
   readonly sysctls?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsPodSecurityContextWindowsOptions;
 }
@@ -2905,13 +2905,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#add DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#add DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#drop DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#drop DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -3036,25 +3036,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#level DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#level DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#role DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#role DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -3237,13 +3237,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#localhost_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#localhost_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -3365,25 +3365,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#gmsa_credential_spec_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#host_process DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -3566,67 +3566,67 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#allow_privilege_escalation DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#allow_privilege_escalation DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#capabilities DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#capabilities DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsStorageSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#privileged DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#privileged DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#proc_mount DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#proc_mount DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#read_only_root_filesystem DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#read_only_root_filesystem DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_non_root DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#run_as_user DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#se_linux_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsStorageSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#seccomp_profile DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsStorageSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#windows_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsStorageSecurityContextWindowsOptions;
 }
@@ -4012,49 +4012,49 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOpt
   /**
   * Security Context to apply to the agent proxy container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#agent_proxy_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#agent_proxy_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#agent_proxy_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#agent_proxy_security_context}
   */
   readonly agentProxySecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsAgentProxySecurityContext;
   /**
   * Security Context to apply to the auth proxy container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#auth_proxy_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#auth_proxy_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#auth_proxy_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#auth_proxy_security_context}
   */
   readonly authProxySecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsAuthProxySecurityContext;
   /**
   * Security Context to apply to the Cryostat application container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#core_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#core_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#core_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#core_security_context}
   */
   readonly coreSecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsCoreSecurityContext;
   /**
   * Security Context to apply to the JFR Data Source container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#data_source_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#data_source_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#data_source_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#data_source_security_context}
   */
   readonly dataSourceSecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsDataSourceSecurityContext;
   /**
   * Security Context to apply to the database container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#database_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#database_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#database_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#database_security_context}
   */
   readonly databaseSecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsDatabaseSecurityContext;
   /**
   * Security Context to apply to the Grafana container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#grafana_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#grafana_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#grafana_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#grafana_security_context}
   */
   readonly grafanaSecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsGrafanaSecurityContext;
   /**
   * Security Context to apply to the Cryostat pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#pod_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#pod_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsPodSecurityContext;
   /**
   * Security Context to apply to the storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#storage_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#storage_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#storage_security_context DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#storage_security_context}
   */
   readonly storageSecurityContext?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptionsStorageSecurityContext;
 }
@@ -4353,25 +4353,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOpti
   /**
   * Annotations to add to the service during its creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * HTTP port number for the Cryostat agent API service. Defaults to 8282.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#http_port DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#http_port DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * Labels to add to the service during its creation. The labels with keys 'app' and 'component' are reserved for use by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Type of service to create. Defaults to 'ClusterIP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -4554,25 +4554,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOpti
   /**
   * Annotations to add to the service during its creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * HTTP port number for the Cryostat application service. Defaults to 8181.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#http_port DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#http_port DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * Labels to add to the service during its creation. The labels with keys 'app' and 'component' are reserved for use by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Type of service to create. Defaults to 'ClusterIP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -4755,25 +4755,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOpti
   /**
   * Annotations to add to the service during its creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * HTTP port number for the cryostat-reports service. Defaults to 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#http_port DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#http_port DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * Labels to add to the service during its creation. The labels with keys 'app' and 'component' are reserved for use by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Type of service to create. Defaults to 'ClusterIP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_type DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -4956,19 +4956,19 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOpti
   /**
   * Specification for the service responsible for agents to communicate with Cryostat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#agent_config DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#agent_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#agent_config DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#agent_config}
   */
   readonly agentConfig?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOptionsAgentConfig;
   /**
   * Specification for the service responsible for the Cryostat application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#core_config DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#core_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#core_config DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#core_config}
   */
   readonly coreConfig?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOptionsCoreConfig;
   /**
   * Specification for the service responsible for the cryostat-reports sidecars.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#reports_config DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#reports_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#reports_config DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#reports_config}
   */
   readonly reportsConfig?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOptionsReportsConfig;
 }
@@ -5122,19 +5122,19 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * When enabled, Cryostat will use EmptyDir volumes instead of a Persistent Volume Claim. Any PVC configurations will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#enabled DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#enabled DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Unless specified, the emptyDir volume will be mounted on the same storage medium backing the node. Setting this field to 'Memory' will mount the emptyDir on a tmpfs (RAM-backed filesystem).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#medium DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#medium DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#medium}
   */
   readonly medium?: string;
   /**
   * The maximum memory limit for the emptyDir. Default is unbounded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#size_limit DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#size_limit DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -5288,19 +5288,19 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#api_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#api_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#kind DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#kind DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -5448,25 +5448,25 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#api_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#api_group DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#kind DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#kind DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#namespace DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#namespace DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5643,7 +5643,7 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -5758,19 +5758,19 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#claims DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#claims DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvcSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#limits DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#limits DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#requests DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#requests DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5924,19 +5924,19 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#key DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#key DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#operator DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#operator DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#values DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#values DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6106,13 +6106,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#match_expressions DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#match_expressions DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvcSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#match_labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#match_labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6237,49 +6237,49 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#access_modes DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#access_modes DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#data_source DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#data_source DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#data_source}
   */
   readonly dataSource?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvcSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#data_source_ref DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#data_source_ref DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvcSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#resources DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#resources DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#resources}
   */
   readonly resources?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvcSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#selector DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#selector DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#selector}
   */
   readonly selector?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvcSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#storage_class_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#storage_class_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#volume_mode DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#volume_mode DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#volume_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#volume_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -6578,19 +6578,19 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * Annotations to add to the Persistent Volume Claim during its creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#annotations DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to add to the Persistent Volume Claim during its creation. The label with key 'app' is reserved for use by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#labels DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Spec for a Persistent Volume Claim, whose options will override the defaults used by the operator. Unless overriden, the PVC will be created with the default Storage Class and 500MiB of storage. Once the operator has created the PVC, changes to this field have no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#spec DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvcSpec;
 }
@@ -6744,13 +6744,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOpti
   /**
   * Configuration for an EmptyDir to be created by the operator instead of a PVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#empty_dir DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#empty_dir DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsEmptyDir;
   /**
   * Configuration for the Persistent Volume Claim to be created by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#pvc DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#pvc DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#pvc}
   */
   readonly pvc?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptionsPvc;
 }
@@ -6875,13 +6875,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecTargetConne
   /**
   * The maximum number of target connections to cache. Use '-1' for an unlimited cache size (TTL expiration only). Defaults to '-1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_cache_size DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_cache_size DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_cache_size}
   */
   readonly targetCacheSize?: number;
   /**
   * The time to live (in seconds) for cached target connections. Defaults to '10'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_cache_ttl DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_cache_ttl DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_cache_ttl}
   */
   readonly targetCacheTtl?: number;
 }
@@ -7006,31 +7006,31 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecTargetDisco
   /**
   * When true, the Cryostat application will disable the built-in discovery mechanisms. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#disable_built_in_discovery DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#disable_built_in_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#disable_built_in_discovery DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#disable_built_in_discovery}
   */
   readonly disableBuiltInDiscovery?: boolean | cdktf.IResolvable;
   /**
   * When false and discoveryPortNames is empty, the Cryostat application will use the default port name jfr-jmx to look for JMX connectable targets. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#disable_built_in_port_names DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#disable_built_in_port_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#disable_built_in_port_names DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#disable_built_in_port_names}
   */
   readonly disableBuiltInPortNames?: boolean | cdktf.IResolvable;
   /**
   * When false and discoveryPortNumbers is empty, the Cryostat application will use the default port number 9091 to look for JMX connectable targets. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#disable_built_in_port_numbers DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#disable_built_in_port_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#disable_built_in_port_numbers DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#disable_built_in_port_numbers}
   */
   readonly disableBuiltInPortNumbers?: boolean | cdktf.IResolvable;
   /**
   * List of port names that the Cryostat application should look for in order to consider a target as JMX connectable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#discovery_port_names DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#discovery_port_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#discovery_port_names DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#discovery_port_names}
   */
   readonly discoveryPortNames?: string[];
   /**
   * List of port numbers that the Cryostat application should look for in order to consider a target as JMX connectable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#discovery_port_numbers DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#discovery_port_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#discovery_port_numbers DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#discovery_port_numbers}
   */
   readonly discoveryPortNumbers?: string[];
 }
@@ -7242,13 +7242,13 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecTrustedCert
   /**
   * Key within secret containing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#certificate_key DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#certificate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#certificate_key DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#certificate_key}
   */
   readonly certificateKey?: string;
   /**
   * Name of secret in the local namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#secret_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#secret_name DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -7392,97 +7392,97 @@ export interface DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpec {
   /**
   * Additional configuration options for the authorization proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#authorization_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#authorization_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#authorization_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#authorization_options}
   */
   readonly authorizationOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecAuthorizationOptions;
   /**
   * Options to configure the Cryostat application's database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#database_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#database_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#database_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#database_options}
   */
   readonly databaseOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecDatabaseOptions;
   /**
   * Use cert-manager to secure in-cluster communication between Cryostat components. Requires cert-manager to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#enable_cert_manager DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#enable_cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#enable_cert_manager DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#enable_cert_manager}
   */
   readonly enableCertManager?: boolean | cdktf.IResolvable;
   /**
   * List of Flight Recorder Event Templates to preconfigure in Cryostat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#event_templates DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#event_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#event_templates DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#event_templates}
   */
   readonly eventTemplates?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecEventTemplates[] | cdktf.IResolvable;
   /**
   * Options to control how the operator exposes the application outside of the cluster, such as using an Ingress or Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#network_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#network_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#network_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#network_options}
   */
   readonly networkOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecNetworkOptions;
   /**
   * Options to configure the Cryostat deployments and pods metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#operand_metadata DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#operand_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#operand_metadata DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#operand_metadata}
   */
   readonly operandMetadata?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecOperandMetadata;
   /**
   * Options to configure Cryostat Automated Report Analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#report_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#report_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#report_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#report_options}
   */
   readonly reportOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecReportOptions;
   /**
   * Resource requirements for the Cryostat deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#resources DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#resources DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#resources}
   */
   readonly resources?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecResources;
   /**
   * Options to configure scheduling for the Cryostat deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#scheduling_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#scheduling_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#scheduling_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#scheduling_options}
   */
   readonly schedulingOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSchedulingOptions;
   /**
   * Options to configure the Security Contexts for the Cryostat application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#security_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#security_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#security_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#security_options}
   */
   readonly securityOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecSecurityOptions;
   /**
   * Options to customize the services created for the Cryostat application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#service_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#service_options}
   */
   readonly serviceOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecServiceOptions;
   /**
   * Options to customize the storage provisioned for the database and object storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#storage_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#storage_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#storage_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#storage_options}
   */
   readonly storageOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecStorageOptions;
   /**
   * Options to customize the target connections cache for the Cryostat application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_connection_cache_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_connection_cache_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_connection_cache_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_connection_cache_options}
   */
   readonly targetConnectionCacheOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecTargetConnectionCacheOptions;
   /**
   * Options to configure the Cryostat application's target discovery mechanisms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_discovery_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_discovery_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_discovery_options DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_discovery_options}
   */
   readonly targetDiscoveryOptions?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecTargetDiscoveryOptions;
   /**
   * List of namespaces whose workloads Cryostat should be permitted to access and profile. Defaults to this Cryostat's namespace. Warning: All Cryostat users will be able to create and manage recordings for workloads in the listed namespaces. More details: https://github.com/cryostatio/cryostat-operator/blob/v3.0.0/docs/config.md#data-isolation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_namespaces DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#target_namespaces DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#target_namespaces}
   */
   readonly targetNamespaces?: string[];
   /**
   * List of TLS certificates to trust when connecting to targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#trusted_cert_secrets DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#trusted_cert_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cryostat_io_cryostat_v1beta2_manifest#trusted_cert_secrets DataK8SOperatorCryostatIoCryostatV1Beta2Manifest#trusted_cert_secrets}
   */
   readonly trustedCertSecrets?: DataK8SOperatorCryostatIoCryostatV1Beta2ManifestSpecTrustedCertSecrets[] | cdktf.IResolvable;
 }

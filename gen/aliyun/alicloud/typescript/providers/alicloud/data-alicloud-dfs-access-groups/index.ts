@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDfsAccessGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#id DataAlicloudDfsAccessGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#id DataAlicloudDfsAccessGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#ids DataAlicloudDfsAccessGroups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#ids DataAlicloudDfsAccessGroups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#limit DataAlicloudDfsAccessGroups#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#limit DataAlicloudDfsAccessGroups#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#name_regex DataAlicloudDfsAccessGroups#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#name_regex DataAlicloudDfsAccessGroups#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#order_by DataAlicloudDfsAccessGroups#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#order_by DataAlicloudDfsAccessGroups#order_by}
   */
   readonly orderBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#order_type DataAlicloudDfsAccessGroups#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#order_type DataAlicloudDfsAccessGroups#order_type}
   */
   readonly orderType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#output_file DataAlicloudDfsAccessGroups#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#output_file DataAlicloudDfsAccessGroups#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#start_offset DataAlicloudDfsAccessGroups#start_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#start_offset DataAlicloudDfsAccessGroups#start_offset}
   */
   readonly startOffset?: number;
 }
@@ -155,7 +155,7 @@ export class DataAlicloudDfsAccessGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups alicloud_dfs_access_groups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups alicloud_dfs_access_groups}
 */
 export class DataAlicloudDfsAccessGroups extends cdktf.TerraformDataSource {
 
@@ -171,7 +171,7 @@ export class DataAlicloudDfsAccessGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudDfsAccessGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDfsAccessGroups to import
-  * @param importFromId The id of the existing DataAlicloudDfsAccessGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDfsAccessGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDfsAccessGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DataAlicloudDfsAccessGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_access_groups alicloud_dfs_access_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_access_groups alicloud_dfs_access_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DataAlicloudDfsAccessGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_dfs_access_groups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,114 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface GpdbStreamingJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#account GpdbStreamingJob#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#account GpdbStreamingJob#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#consistency GpdbStreamingJob#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#consistency GpdbStreamingJob#consistency}
   */
   readonly consistency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#data_source_id GpdbStreamingJob#data_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#data_source_id GpdbStreamingJob#data_source_id}
   */
   readonly dataSourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#db_instance_id GpdbStreamingJob#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#db_instance_id GpdbStreamingJob#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#dest_columns GpdbStreamingJob#dest_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#dest_columns GpdbStreamingJob#dest_columns}
   */
   readonly destColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#dest_database GpdbStreamingJob#dest_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#dest_database GpdbStreamingJob#dest_database}
   */
   readonly destDatabase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#dest_schema GpdbStreamingJob#dest_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#dest_schema GpdbStreamingJob#dest_schema}
   */
   readonly destSchema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#dest_table GpdbStreamingJob#dest_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#dest_table GpdbStreamingJob#dest_table}
   */
   readonly destTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#error_limit_count GpdbStreamingJob#error_limit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#error_limit_count GpdbStreamingJob#error_limit_count}
   */
   readonly errorLimitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#fallback_offset GpdbStreamingJob#fallback_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#fallback_offset GpdbStreamingJob#fallback_offset}
   */
   readonly fallbackOffset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#group_name GpdbStreamingJob#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#group_name GpdbStreamingJob#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#id GpdbStreamingJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#id GpdbStreamingJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#job_config GpdbStreamingJob#job_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#job_config GpdbStreamingJob#job_config}
   */
   readonly jobConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#job_description GpdbStreamingJob#job_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#job_description GpdbStreamingJob#job_description}
   */
   readonly jobDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#job_name GpdbStreamingJob#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#job_name GpdbStreamingJob#job_name}
   */
   readonly jobName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#match_columns GpdbStreamingJob#match_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#match_columns GpdbStreamingJob#match_columns}
   */
   readonly matchColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#mode GpdbStreamingJob#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#mode GpdbStreamingJob#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#password GpdbStreamingJob#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#password GpdbStreamingJob#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#src_columns GpdbStreamingJob#src_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#src_columns GpdbStreamingJob#src_columns}
   */
   readonly srcColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#try_run GpdbStreamingJob#try_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#try_run GpdbStreamingJob#try_run}
   */
   readonly tryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#update_columns GpdbStreamingJob#update_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#update_columns GpdbStreamingJob#update_columns}
   */
   readonly updateColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#write_mode GpdbStreamingJob#write_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#write_mode GpdbStreamingJob#write_mode}
   */
   readonly writeMode?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#timeouts GpdbStreamingJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#timeouts GpdbStreamingJob#timeouts}
   */
   readonly timeouts?: GpdbStreamingJobTimeouts;
 }
 export interface GpdbStreamingJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#create GpdbStreamingJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#create GpdbStreamingJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#delete GpdbStreamingJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#delete GpdbStreamingJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#update GpdbStreamingJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#update GpdbStreamingJob#update}
   */
   readonly update?: string;
 }
@@ -267,7 +267,7 @@ export class GpdbStreamingJobTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job alicloud_gpdb_streaming_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job alicloud_gpdb_streaming_job}
 */
 export class GpdbStreamingJob extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class GpdbStreamingJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpdbStreamingJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpdbStreamingJob to import
-  * @param importFromId The id of the existing GpdbStreamingJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpdbStreamingJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpdbStreamingJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class GpdbStreamingJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_streaming_job alicloud_gpdb_streaming_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_job alicloud_gpdb_streaming_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class GpdbStreamingJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gpdb_streaming_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

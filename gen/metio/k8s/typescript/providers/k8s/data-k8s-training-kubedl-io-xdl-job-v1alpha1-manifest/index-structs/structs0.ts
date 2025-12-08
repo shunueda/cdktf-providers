@@ -3,25 +3,25 @@ export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#annotations DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#annotations DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,23 +196,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecCronPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#concurrency_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#concurrency_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#deadline DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#deadline DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#deadline}
   */
   readonly deadline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#history_limit DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#history_limit DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#history_limit}
   */
   readonly historyLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#schedule DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#schedule DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#schedule}
   */
   readonly schedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#suspend DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#suspend DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
 }
@@ -419,19 +419,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecCronPolicyOutputRe
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecSchedulingPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#min_available DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#min_available DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#min_available}
   */
   readonly minAvailable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#priority DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#priority DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#priority_class_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#priority_class_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#queue DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#queue DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#queue}
   */
   readonly queue?: string;
 }
@@ -612,15 +612,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecSchedulingPolicyOu
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsSpotReplicaSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#priority_class_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#priority_class_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#spot_replica_number DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#spot_replica_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#spot_replica_number DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#spot_replica_number}
   */
   readonly spotReplicaNumber?: number;
 }
@@ -772,23 +772,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsSpo
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#annotations DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#annotations DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#finalizers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#finalizers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -998,15 +998,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1174,15 +1174,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1350,11 +1350,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_fields DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_fields DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1477,11 +1477,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preference DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preference DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#weight DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#weight DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1620,15 +1620,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1796,15 +1796,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1972,11 +1972,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_fields DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_fields DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2121,7 +2121,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#node_selector_terms DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#node_selector_terms DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2212,11 +2212,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2339,15 +2339,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2515,11 +2515,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2642,15 +2642,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2818,11 +2818,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2945,19 +2945,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3135,11 +3135,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_affinity_term DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_affinity_term DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#weight DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#weight DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3278,15 +3278,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3454,11 +3454,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3581,15 +3581,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3757,11 +3757,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3884,19 +3884,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4096,11 +4096,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4223,15 +4223,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4399,11 +4399,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4526,15 +4526,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4702,11 +4702,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4829,19 +4829,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5019,11 +5019,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_affinity_term DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_affinity_term DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#weight DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#weight DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5162,15 +5162,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5338,11 +5338,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5465,15 +5465,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5641,11 +5641,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5768,19 +5768,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespace_selector DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#namespaces DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5980,11 +5980,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6107,15 +6107,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#node_affinity DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#node_affinity DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_affinity DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_affinity DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_anti_affinity DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pod_anti_affinity DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecAffinityPodAntiAffinity;
 }
@@ -6267,15 +6267,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6424,11 +6424,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6548,15 +6548,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6705,15 +6705,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6862,19 +6862,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -7055,15 +7055,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvValueFrom;
 }
@@ -7234,11 +7234,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7361,11 +7361,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7488,15 +7488,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#prefix DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#prefix DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvFromSecretRef;
 }
@@ -7670,7 +7670,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7764,11 +7764,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7907,23 +7907,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8130,11 +8130,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8254,15 +8254,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -8414,7 +8414,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8508,11 +8508,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8651,23 +8651,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8874,11 +8874,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8998,15 +8998,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -9158,11 +9158,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#post_start DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#post_start DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pre_stop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pre_stop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecyclePreStop;
 }
@@ -9285,7 +9285,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9379,11 +9379,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9522,23 +9522,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9745,11 +9745,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -9869,39 +9869,39 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10227,23 +10227,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_ip DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_ip DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#protocol DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#protocol DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -10472,7 +10472,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10566,11 +10566,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -10709,23 +10709,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10932,11 +10932,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -11056,39 +11056,39 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11414,11 +11414,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11541,11 +11541,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#add DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#add DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#drop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#drop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -11668,19 +11668,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -11861,11 +11861,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -11985,19 +11985,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -12178,47 +12178,47 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#allow_privilege_escalation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#allow_privilege_escalation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#capabilities DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#capabilities DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#privileged DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#privileged DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#proc_mount DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#proc_mount DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only_root_filesystem DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only_root_filesystem DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -12602,7 +12602,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12696,11 +12696,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -12839,23 +12839,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13062,11 +13062,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -13186,39 +13186,39 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -13544,11 +13544,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#device_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#device_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -13687,27 +13687,27 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_propagation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_propagation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path_expr DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path_expr DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -13962,91 +13962,91 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#args DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#args DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env}
   */
   readonly env?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image_pull_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image_pull_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#lifecycle DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#lifecycle DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#liveness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#liveness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#ports DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#ports DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#readiness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#readiness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#startup_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#startup_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin_once DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin_once DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tty DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tty DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_devices DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_devices DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_mounts DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_mounts DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#working_dir DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#working_dir DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -14768,11 +14768,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecDnsConfigOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14917,15 +14917,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecDnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#nameservers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#nameservers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#options}
   */
   readonly options?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#searches DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#searches DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -15077,15 +15077,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15234,11 +15234,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -15358,15 +15358,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -15515,15 +15515,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15672,19 +15672,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -15865,15 +15865,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -16044,11 +16044,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16171,11 +16171,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16298,15 +16298,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#prefix DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#prefix DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -16480,7 +16480,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -16574,11 +16574,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -16717,23 +16717,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -16940,11 +16940,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -17064,15 +17064,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -17224,7 +17224,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17318,11 +17318,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -17461,23 +17461,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17684,11 +17684,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -17808,15 +17808,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -17968,11 +17968,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#post_start DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#post_start DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pre_stop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pre_stop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -18095,7 +18095,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18189,11 +18189,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -18332,23 +18332,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -18555,11 +18555,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -18679,39 +18679,39 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -19037,23 +19037,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_ip DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_ip DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#protocol DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#protocol DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -19282,7 +19282,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19376,11 +19376,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -19519,23 +19519,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19742,11 +19742,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -19866,39 +19866,39 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -20224,11 +20224,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -20351,11 +20351,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#add DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#add DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#drop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#drop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -20478,19 +20478,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -20671,11 +20671,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -20795,19 +20795,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -20988,47 +20988,47 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#allow_privilege_escalation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#allow_privilege_escalation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#capabilities DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#capabilities DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#privileged DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#privileged DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#proc_mount DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#proc_mount DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only_root_filesystem DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only_root_filesystem DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -21412,7 +21412,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21506,11 +21506,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -21649,23 +21649,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21872,11 +21872,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -21996,39 +21996,39 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -22354,11 +22354,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#device_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#device_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -22497,27 +22497,27 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_propagation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#mount_propagation DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path_expr DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#sub_path_expr DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -22772,95 +22772,95 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#args DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#args DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env}
   */
   readonly env?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#env_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image_pull_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#image_pull_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#lifecycle DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#lifecycle DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#liveness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#liveness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#ports DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#ports DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#readiness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#readiness_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#startup_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#startup_probe DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin_once DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#stdin_once DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#target_container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#target_container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#termination_message_policy DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tty DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tty DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_devices DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_devices DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_mounts DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#volume_mounts DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#working_dir DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#working_dir DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -23611,11 +23611,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#hostnames DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#hostnames DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#ip DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#ip DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -23760,7 +23760,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23876,15 +23876,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24033,11 +24033,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -24157,15 +24157,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -24314,15 +24314,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24471,19 +24471,19 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_key_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -24664,15 +24664,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value_from DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvValueFrom;
 }
@@ -24843,11 +24843,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24970,11 +24970,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25097,15 +25097,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#config_map_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#prefix DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#prefix DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -25279,7 +25279,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25373,11 +25373,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -25516,23 +25516,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25739,11 +25739,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -25863,15 +25863,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -26023,7 +26023,7 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -26117,11 +26117,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -26260,23 +26260,23 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -26483,11 +26483,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -26607,15 +26607,15 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -26767,11 +26767,11 @@ export class DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTem
 }
 export interface DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#post_start DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#post_start DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pre_stop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xdl_job_v1alpha1_manifest#pre_stop DataK8STrainingKubedlIoXdlJobV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8STrainingKubedlIoXdlJobV1Alpha1ManifestSpecXdlReplicaSpecsTemplateSpecInitContainersLifecyclePreStop;
 }

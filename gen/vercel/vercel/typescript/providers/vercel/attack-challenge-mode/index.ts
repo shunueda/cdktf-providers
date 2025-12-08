@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/attack_challenge_mode
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/attack_challenge_mode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AttackChallengeModeConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether Attack Challenge Mode is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/attack_challenge_mode#enabled AttackChallengeMode#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/attack_challenge_mode#enabled AttackChallengeMode#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The ID of the Project to toggle Attack Challenge Mode on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/attack_challenge_mode#project_id AttackChallengeMode#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/attack_challenge_mode#project_id AttackChallengeMode#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the team the Project exists under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/attack_challenge_mode#team_id AttackChallengeMode#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/attack_challenge_mode#team_id AttackChallengeMode#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/attack_challenge_mode vercel_attack_challenge_mode}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/attack_challenge_mode vercel_attack_challenge_mode}
 */
 export class AttackChallengeMode extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AttackChallengeMode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AttackChallengeMode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttackChallengeMode to import
-  * @param importFromId The id of the existing AttackChallengeMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/attack_challenge_mode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttackChallengeMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/attack_challenge_mode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttackChallengeMode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AttackChallengeMode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/attack_challenge_mode vercel_attack_challenge_mode} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/attack_challenge_mode vercel_attack_challenge_mode} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AttackChallengeMode extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_attack_challenge_mode',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SPgv2PerconaComPerconaPgRestoreV2ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#metadata}
   */
   readonly metadata: DataK8SPgv2PerconaComPerconaPgRestoreV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#spec DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#spec DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#spec}
   */
   readonly spec: DataK8SPgv2PerconaComPerconaPgRestoreV2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SPgv2PerconaComPerconaPgRestoreV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#annotations DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#annotations DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#labels DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#labels DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#name DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#name DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#namespace DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#namespace DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export interface DataK8SPgv2PerconaComPerconaPgRestoreV2ManifestSpec {
   /**
   * Command line options to include when running the pgBackRest restore command. https://pgbackrest.org/command.html#command-restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#options DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#options DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#options}
   */
   readonly options?: string[];
   /**
   * The name of the PerconaPGCluster to perform restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#pg_cluster DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#pg_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#pg_cluster DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#pg_cluster}
   */
   readonly pgCluster: string;
   /**
   * The name of the pgBackRest repo within the source PostgresCluster that contains the backups that should be utilized to perform a pgBackRest restore when initializing the data source for the new PostgresCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#repo_name DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#repo_name DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest#repo_name}
   */
   readonly repoName: string;
 }
@@ -375,7 +375,7 @@ export class DataK8SPgv2PerconaComPerconaPgRestoreV2ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest k8s_pgv2_percona_com_percona_pg_restore_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest k8s_pgv2_percona_com_percona_pg_restore_v2_manifest}
 */
 export class DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest extends cdktf.TerraformDataSource {
 
@@ -391,7 +391,7 @@ export class DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest to import
-  * @param importFromId The id of the existing DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -403,7 +403,7 @@ export class DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest k8s_pgv2_percona_com_percona_pg_restore_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pgv2_percona_com_percona_pg_restore_v2_manifest k8s_pgv2_percona_com_percona_pg_restore_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -414,8 +414,8 @@ export class DataK8SPgv2PerconaComPerconaPgRestoreV2Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_pgv2_percona_com_percona_pg_restore_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

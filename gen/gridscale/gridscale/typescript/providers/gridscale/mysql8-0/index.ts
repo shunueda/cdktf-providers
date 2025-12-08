@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Mysql80Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#id Mysql80#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#id Mysql80#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,74 +17,74 @@ export interface Mysql80Config extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#labels Mysql80#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#labels Mysql80#labels}
   */
   readonly labels?: string[];
   /**
   * Maximum CPU core count. The MySQL instance's CPU core count will be autoscaled based on the workload. The number of cores stays between 1 and `max_core_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#max_core_count Mysql80#max_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#max_core_count Mysql80#max_core_count}
   */
   readonly maxCoreCount?: number;
   /**
   * Server Timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#mysql_default_time_zone Mysql80#mysql_default_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#mysql_default_time_zone Mysql80#mysql_default_time_zone}
   */
   readonly mysqlDefaultTimeZone?: string;
   /**
   * Max Allowed Packet Size. Format: xM (where x is an integer, M stands for unit: k(kB), M(MB), G(GB)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#mysql_max_allowed_packet Mysql80#mysql_max_allowed_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#mysql_max_allowed_packet Mysql80#mysql_max_allowed_packet}
   */
   readonly mysqlMaxAllowedPacket?: string;
   /**
   * Max Connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#mysql_max_connections Mysql80#mysql_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#mysql_max_connections Mysql80#mysql_max_connections}
   */
   readonly mysqlMaxConnections?: number;
   /**
   * SQL Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#mysql_sql_mode Mysql80#mysql_sql_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#mysql_sql_mode Mysql80#mysql_sql_mode}
   */
   readonly mysqlSqlMode?: string;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#name Mysql80#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#name Mysql80#name}
   */
   readonly name: string;
   /**
   * The UUID of the network that the service is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#network_uuid Mysql80#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#network_uuid Mysql80#network_uuid}
   */
   readonly networkUuid?: string;
   /**
   * Performance class of MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#performance_class Mysql80#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#performance_class Mysql80#performance_class}
   */
   readonly performanceClass: string;
   /**
   * The MySQL release of this instance.\n
   * 				For convenience, please use gscloud https://github.com/gridscale/gscloud to get the list of available MySQL service releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#release Mysql80#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#release Mysql80#release}
   */
   readonly release: string;
   /**
   * Security zone UUID linked to MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#security_zone_uuid Mysql80#security_zone_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#security_zone_uuid Mysql80#security_zone_uuid}
   */
   readonly securityZoneUuid?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#timeouts Mysql80#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#timeouts Mysql80#timeouts}
   */
   readonly timeouts?: Mysql80Timeouts;
 }
@@ -175,15 +175,15 @@ export class Mysql80ListenPortList extends cdktf.ComplexList {
 }
 export interface Mysql80Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#create Mysql80#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#create Mysql80#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#delete Mysql80#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#delete Mysql80#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#update Mysql80#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#update Mysql80#update}
   */
   readonly update?: string;
 }
@@ -335,7 +335,7 @@ export class Mysql80TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0 gridscale_mysql8_0}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0 gridscale_mysql8_0}
 */
 export class Mysql80 extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class Mysql80 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mysql80 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mysql80 to import
-  * @param importFromId The id of the existing Mysql80 that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mysql80 that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mysql80 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class Mysql80 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql8_0 gridscale_mysql8_0} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql8_0 gridscale_mysql8_0} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class Mysql80 extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_mysql8_0',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

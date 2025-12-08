@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IpHotspotWalledGardenIpConfig extends cdktf.TerraformMetaArgume
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#___path___ IpHotspotWalledGardenIp#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#___path___ IpHotspotWalledGardenIp#___path___}
   */
   readonly path?: string;
   /**
   * Action to perform, when packet matches the rule allow - allow access to the web-page without authorization deny - the authorization is required to access the web-page reject - the authorization is required to access the resource, ICMP reject message will be sent to client, when packet will match the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#action IpHotspotWalledGardenIp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#action IpHotspotWalledGardenIp#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#comment IpHotspotWalledGardenIp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#comment IpHotspotWalledGardenIp#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#disabled IpHotspotWalledGardenIp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#disabled IpHotspotWalledGardenIp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Destination IP address, IP address of the WEB-server. Ignored if dst-host is already specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#dst_address IpHotspotWalledGardenIp#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#dst_address IpHotspotWalledGardenIp#dst_address}
   */
   readonly dstAddress?: string;
   /**
   * Destination IP address list. Ignored if dst-host is already specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#dst_address_list IpHotspotWalledGardenIp#dst_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#dst_address_list IpHotspotWalledGardenIp#dst_address_list}
   */
   readonly dstAddressList?: string;
   /**
   * Domain name of the destination web-server. When this parameter is specified dynamic entry is added to Walled Garden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#dst_host IpHotspotWalledGardenIp#dst_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#dst_host IpHotspotWalledGardenIp#dst_host}
   */
   readonly dstHost?: string;
   /**
   * TCP port number, client sends request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#dst_port IpHotspotWalledGardenIp#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#dst_port IpHotspotWalledGardenIp#dst_port}
   */
   readonly dstPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#id IpHotspotWalledGardenIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#id IpHotspotWalledGardenIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,31 +61,31 @@ export interface IpHotspotWalledGardenIpConfig extends cdktf.TerraformMetaArgume
   /**
   * IP protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#protocol IpHotspotWalledGardenIp#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#protocol IpHotspotWalledGardenIp#protocol}
   */
   readonly protocol?: string;
   /**
   * Name of the HotSpot server, rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#server IpHotspotWalledGardenIp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#server IpHotspotWalledGardenIp#server}
   */
   readonly server?: string;
   /**
   * Source address of the user, usually IP address of the HotSpot client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#src_address IpHotspotWalledGardenIp#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#src_address IpHotspotWalledGardenIp#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Source IP address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#src_address_list IpHotspotWalledGardenIp#src_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#src_address_list IpHotspotWalledGardenIp#src_address_list}
   */
   readonly srcAddressList?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip routeros_ip_hotspot_walled_garden_ip}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip routeros_ip_hotspot_walled_garden_ip}
 */
 export class IpHotspotWalledGardenIp extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class IpHotspotWalledGardenIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpHotspotWalledGardenIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpHotspotWalledGardenIp to import
-  * @param importFromId The id of the existing IpHotspotWalledGardenIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpHotspotWalledGardenIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpHotspotWalledGardenIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class IpHotspotWalledGardenIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_hotspot_walled_garden_ip routeros_ip_hotspot_walled_garden_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_hotspot_walled_garden_ip routeros_ip_hotspot_walled_garden_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class IpHotspotWalledGardenIp extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_hotspot_walled_garden_ip',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

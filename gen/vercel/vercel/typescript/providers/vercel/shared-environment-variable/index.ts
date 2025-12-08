@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SharedEnvironmentVariableConfig extends cdktf.TerraformMetaArgu
   /**
   * Whether the shared environment variable should be applied to all custom environments in the linked projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#apply_to_all_custom_environments SharedEnvironmentVariable#apply_to_all_custom_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#apply_to_all_custom_environments SharedEnvironmentVariable#apply_to_all_custom_environments}
   */
   readonly applyToAllCustomEnvironments?: boolean | cdktf.IResolvable;
   /**
   * A comment explaining what the environment variable is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#comment SharedEnvironmentVariable#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#comment SharedEnvironmentVariable#comment}
   */
   readonly comment?: string;
   /**
   * The name of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#key SharedEnvironmentVariable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#key SharedEnvironmentVariable#key}
   */
   readonly key: string;
   /**
   * The ID of the Vercel project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#project_ids SharedEnvironmentVariable#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#project_ids SharedEnvironmentVariable#project_ids}
   */
   readonly projectIds: string[];
   /**
   * Whether the Environment Variable is sensitive or not. (May be affected by a [team-wide environment variable policy](https://vercel.com/docs/projects/environment-variables/sensitive-environment-variables#environment-variables-policy))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#sensitive SharedEnvironmentVariable#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#sensitive SharedEnvironmentVariable#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * The environments that the Environment Variable should be present on. Valid targets are either `production`, `preview`, or `development`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#target SharedEnvironmentVariable#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#target SharedEnvironmentVariable#target}
   */
   readonly target?: string[];
   /**
   * The ID of the Vercel team. Shared environment variables require a team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#team_id SharedEnvironmentVariable#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#team_id SharedEnvironmentVariable#team_id}
   */
   readonly teamId?: string;
   /**
   * The value of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#value SharedEnvironmentVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#value SharedEnvironmentVariable#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable vercel_shared_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable vercel_shared_environment_variable}
 */
 export class SharedEnvironmentVariable extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class SharedEnvironmentVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SharedEnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SharedEnvironmentVariable to import
-  * @param importFromId The id of the existing SharedEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SharedEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SharedEnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class SharedEnvironmentVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/shared_environment_variable vercel_shared_environment_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable vercel_shared_environment_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class SharedEnvironmentVariable extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_shared_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

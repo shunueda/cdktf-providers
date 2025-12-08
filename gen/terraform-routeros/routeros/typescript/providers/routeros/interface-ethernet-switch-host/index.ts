@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface InterfaceEthernetSwitchHostConfig extends cdktf.TerraformMetaAr
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#___path___ InterfaceEthernetSwitchHost#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#___path___ InterfaceEthernetSwitchHost#___path___}
   */
   readonly path?: string;
   /**
   * Whether to send a frame copy to switch CPU port from a frame with matching MAC destination address (matching destination or source address for CRS3xx series switches).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#copy_to_cpu InterfaceEthernetSwitchHost#copy_to_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#copy_to_cpu InterfaceEthernetSwitchHost#copy_to_cpu}
   */
   readonly copyToCpu?: boolean | cdktf.IResolvable;
   /**
   * Whether to drop a frame with matching MAC source address received on a certain port (matching destination or source address for CRS3xx series switches).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#drop InterfaceEthernetSwitchHost#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#drop InterfaceEthernetSwitchHost#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#id InterfaceEthernetSwitchHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#id InterfaceEthernetSwitchHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface InterfaceEthernetSwitchHostConfig extends cdktf.TerraformMetaAr
   /**
   * Host's MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#mac_address InterfaceEthernetSwitchHost#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#mac_address InterfaceEthernetSwitchHost#mac_address}
   */
   readonly macAddress: string;
   /**
   * Whether to send a frame copy to mirror-target port from a frame with matching MAC destination address (matching destination or source address for CRS3xx series switches).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#mirror InterfaceEthernetSwitchHost#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#mirror InterfaceEthernetSwitchHost#mirror}
   */
   readonly mirror?: boolean | cdktf.IResolvable;
   /**
   * Name of the interface, static MAC address can be mapped to more that one port, including switch CPU port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#ports InterfaceEthernetSwitchHost#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#ports InterfaceEthernetSwitchHost#ports}
   */
   readonly ports: string[];
   /**
   * Whether to redirect a frame to switch CPU port from a frame with matching MAC destination address (matching destination or source address for CRS3xx series switches).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#redirect_to_cpu InterfaceEthernetSwitchHost#redirect_to_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#redirect_to_cpu InterfaceEthernetSwitchHost#redirect_to_cpu}
   */
   readonly redirectToCpu?: boolean | cdktf.IResolvable;
   /**
   * Whether the static host MAC address lookup is used with shared-VLAN-learning (SVL) or independent-VLAN-learning (IVL). The SVL mode is used for those VLAN entries that do not support IVL or IVL is disabled (independent-learning=no).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#share_vlan_learned InterfaceEthernetSwitchHost#share_vlan_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#share_vlan_learned InterfaceEthernetSwitchHost#share_vlan_learned}
   */
   readonly shareVlanLearned?: boolean | cdktf.IResolvable;
   /**
   * Name of the switch to which the MAC address is going to be assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#switch InterfaceEthernetSwitchHost#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#switch InterfaceEthernetSwitchHost#switch}
   */
   readonly switch: string;
   /**
   * VLAN ID for the statically added MAC address entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#vlan_id InterfaceEthernetSwitchHost#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#vlan_id InterfaceEthernetSwitchHost#vlan_id}
   */
   readonly vlanId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host routeros_interface_ethernet_switch_host}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host routeros_interface_ethernet_switch_host}
 */
 export class InterfaceEthernetSwitchHost extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class InterfaceEthernetSwitchHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetSwitchHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitchHost to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitchHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitchHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitchHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class InterfaceEthernetSwitchHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_host routeros_interface_ethernet_switch_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_host routeros_interface_ethernet_switch_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class InterfaceEthernetSwitchHost extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ethernet_switch_host',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

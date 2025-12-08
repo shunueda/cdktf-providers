@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestConfig extends cdktf.Terrafo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#metadata DataK8STheketchIoAppV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#metadata DataK8STheketchIoAppV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8STheketchIoAppV1Beta1ManifestMetadata;
   /**
   * AppSpec defines the desired state of App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#spec DataK8STheketchIoAppV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#spec DataK8STheketchIoAppV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STheketchIoAppV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#annotations DataK8STheketchIoAppV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#annotations DataK8STheketchIoAppV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#labels DataK8STheketchIoAppV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#labels DataK8STheketchIoAppV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,11 +185,11 @@ export class DataK8STheketchIoAppV1Beta1ManifestMetadataOutputReference extends 
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecAnnotationsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
   */
   readonly kind?: string;
 }
@@ -312,19 +312,19 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecAnnotationsTargetOutputRefer
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecAnnotations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#apply DataK8STheketchIoAppV1Beta1Manifest#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#apply DataK8STheketchIoAppV1Beta1Manifest#apply}
   */
   readonly apply?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#deployment_version DataK8STheketchIoAppV1Beta1Manifest#deployment_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#deployment_version DataK8STheketchIoAppV1Beta1Manifest#deployment_version}
   */
   readonly deploymentVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#process_name DataK8STheketchIoAppV1Beta1Manifest#process_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#process_name DataK8STheketchIoAppV1Beta1Manifest#process_name}
   */
   readonly processName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#target DataK8STheketchIoAppV1Beta1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#target DataK8STheketchIoAppV1Beta1Manifest#target}
   */
   readonly target?: DataK8STheketchIoAppV1Beta1ManifestSpecAnnotationsTarget;
 }
@@ -529,45 +529,45 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecCanary {
   /**
   * Active shows if canary deployment is active for this application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#active DataK8STheketchIoAppV1Beta1Manifest#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#active DataK8STheketchIoAppV1Beta1Manifest#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * CurrentStep is the count for current step for a canary deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#current_step DataK8STheketchIoAppV1Beta1Manifest#current_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#current_step DataK8STheketchIoAppV1Beta1Manifest#current_step}
   */
   readonly currentStep?: number;
   /**
   * NextScheduledTime holds time of the next step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#next_scheduled_time DataK8STheketchIoAppV1Beta1Manifest#next_scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#next_scheduled_time DataK8STheketchIoAppV1Beta1Manifest#next_scheduled_time}
   */
   readonly nextScheduledTime?: string;
   /**
   * Started holds time when canary started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#started DataK8STheketchIoAppV1Beta1Manifest#started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#started DataK8STheketchIoAppV1Beta1Manifest#started}
   */
   readonly started?: string;
   /**
   * A Duration represents the elapsed time between two instants as an int64 nanosecond count. The representation limits the largest representable duration to approximately 290 years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#step_time_interval DataK8STheketchIoAppV1Beta1Manifest#step_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#step_time_interval DataK8STheketchIoAppV1Beta1Manifest#step_time_interval}
   */
   readonly stepTimeInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#step_weight DataK8STheketchIoAppV1Beta1Manifest#step_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#step_weight DataK8STheketchIoAppV1Beta1Manifest#step_weight}
   */
   readonly stepWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#steps DataK8STheketchIoAppV1Beta1Manifest#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#steps DataK8STheketchIoAppV1Beta1Manifest#steps}
   */
   readonly steps?: number;
   /**
   * Target map of processes and target units value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#target DataK8STheketchIoAppV1Beta1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#target DataK8STheketchIoAppV1Beta1Manifest#target}
   */
   readonly target?: { [key: string]: string };
 }
@@ -864,11 +864,11 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecCanaryOutputReference extend
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsExposedPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#protocol DataK8STheketchIoAppV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#protocol DataK8STheketchIoAppV1Beta1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -1009,7 +1009,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsImagePullSecr
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1127,7 +1127,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#command DataK8STheketchIoAppV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#command DataK8STheketchIoAppV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1223,13 +1223,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#service DataK8STheketchIoAppV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#service DataK8STheketchIoAppV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -1351,13 +1351,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -1498,31 +1498,31 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#http_headers DataK8STheketchIoAppV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#http_headers DataK8STheketchIoAppV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#scheme DataK8STheketchIoAppV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#scheme DataK8STheketchIoAppV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1731,13 +1731,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -1859,61 +1859,61 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#exec DataK8STheketchIoAppV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#exec DataK8STheketchIoAppV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#failure_threshold DataK8STheketchIoAppV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#failure_threshold DataK8STheketchIoAppV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#grpc DataK8STheketchIoAppV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#grpc DataK8STheketchIoAppV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#http_get DataK8STheketchIoAppV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#http_get DataK8STheketchIoAppV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#initial_delay_seconds DataK8STheketchIoAppV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#initial_delay_seconds DataK8STheketchIoAppV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#period_seconds DataK8STheketchIoAppV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#period_seconds DataK8STheketchIoAppV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#success_threshold DataK8STheketchIoAppV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#success_threshold DataK8STheketchIoAppV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#tcp_socket DataK8STheketchIoAppV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#tcp_socket DataK8STheketchIoAppV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#termination_grace_period_seconds DataK8STheketchIoAppV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#termination_grace_period_seconds DataK8STheketchIoAppV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#timeout_seconds DataK8STheketchIoAppV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#timeout_seconds DataK8STheketchIoAppV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2270,7 +2270,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#command DataK8STheketchIoAppV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#command DataK8STheketchIoAppV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2366,13 +2366,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#service DataK8STheketchIoAppV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#service DataK8STheketchIoAppV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -2494,13 +2494,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -2641,31 +2641,31 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#http_headers DataK8STheketchIoAppV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#http_headers DataK8STheketchIoAppV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#scheme DataK8STheketchIoAppV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#scheme DataK8STheketchIoAppV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2874,13 +2874,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -3002,61 +3002,61 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#exec DataK8STheketchIoAppV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#exec DataK8STheketchIoAppV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#failure_threshold DataK8STheketchIoAppV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#failure_threshold DataK8STheketchIoAppV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#grpc DataK8STheketchIoAppV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#grpc DataK8STheketchIoAppV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#http_get DataK8STheketchIoAppV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#http_get DataK8STheketchIoAppV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#initial_delay_seconds DataK8STheketchIoAppV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#initial_delay_seconds DataK8STheketchIoAppV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#period_seconds DataK8STheketchIoAppV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#period_seconds DataK8STheketchIoAppV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#success_threshold DataK8STheketchIoAppV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#success_threshold DataK8STheketchIoAppV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#tcp_socket DataK8STheketchIoAppV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#tcp_socket DataK8STheketchIoAppV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#termination_grace_period_seconds DataK8STheketchIoAppV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#termination_grace_period_seconds DataK8STheketchIoAppV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#timeout_seconds DataK8STheketchIoAppV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#timeout_seconds DataK8STheketchIoAppV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -3413,7 +3413,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#command DataK8STheketchIoAppV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#command DataK8STheketchIoAppV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3509,13 +3509,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#service DataK8STheketchIoAppV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#service DataK8STheketchIoAppV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -3637,13 +3637,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -3784,31 +3784,31 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#http_headers DataK8STheketchIoAppV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#http_headers DataK8STheketchIoAppV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#scheme DataK8STheketchIoAppV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#scheme DataK8STheketchIoAppV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4017,13 +4017,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host DataK8STheketchIoAppV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -4145,61 +4145,61 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#exec DataK8STheketchIoAppV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#exec DataK8STheketchIoAppV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#failure_threshold DataK8STheketchIoAppV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#failure_threshold DataK8STheketchIoAppV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#grpc DataK8STheketchIoAppV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#grpc DataK8STheketchIoAppV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#http_get DataK8STheketchIoAppV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#http_get DataK8STheketchIoAppV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#initial_delay_seconds DataK8STheketchIoAppV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#initial_delay_seconds DataK8STheketchIoAppV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#period_seconds DataK8STheketchIoAppV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#period_seconds DataK8STheketchIoAppV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#success_threshold DataK8STheketchIoAppV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#success_threshold DataK8STheketchIoAppV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#tcp_socket DataK8STheketchIoAppV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#tcp_socket DataK8STheketchIoAppV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#termination_grace_period_seconds DataK8STheketchIoAppV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#termination_grace_period_seconds DataK8STheketchIoAppV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#timeout_seconds DataK8STheketchIoAppV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#timeout_seconds DataK8STheketchIoAppV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4556,19 +4556,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHeal
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#liveness_probe DataK8STheketchIoAppV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#liveness_probe DataK8STheketchIoAppV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckLivenessProbe;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#readiness_probe DataK8STheketchIoAppV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#readiness_probe DataK8STheketchIoAppV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckReadinessProbe;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#startup_probe DataK8STheketchIoAppV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#startup_probe DataK8STheketchIoAppV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheckStartupProbe;
 }
@@ -4722,13 +4722,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHook
   /**
   * Before contains commands that are executed after a unit is restarted. Commands listed in this hook run once per unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#after DataK8STheketchIoAppV1Beta1Manifest#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#after DataK8STheketchIoAppV1Beta1Manifest#after}
   */
   readonly after?: string[];
   /**
   * Before contains commands that are executed before a unit is restarted. Commands listed in this hook run once per unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#before DataK8STheketchIoAppV1Beta1Manifest#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#before DataK8STheketchIoAppV1Beta1Manifest#before}
   */
   readonly before?: string[];
 }
@@ -4853,7 +4853,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHook
   /**
   * Restart describes commands to run during different stages of the application deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#restart DataK8STheketchIoAppV1Beta1Manifest#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#restart DataK8STheketchIoAppV1Beta1Manifest#restart}
   */
   readonly restart?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHooksRestart;
 }
@@ -4949,25 +4949,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlKube
   /**
   * Name is a descriptive name for the port. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Port is the port that will be exposed on a Kubernetes service. If omitted, the target_port value is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#port DataK8STheketchIoAppV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Protocol defines the port protocol. The accepted values are TCP and UDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#protocol DataK8STheketchIoAppV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#protocol DataK8STheketchIoAppV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * TargetPort is the port that the process is listening on. If omitted, the port value is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#target_port DataK8STheketchIoAppV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#target_port DataK8STheketchIoAppV1Beta1Manifest#target_port}
   */
   readonly targetPort?: number;
 }
@@ -5170,7 +5170,7 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlKubernet
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlKubernetesProcesses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#ports DataK8STheketchIoAppV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#ports DataK8STheketchIoAppV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlKubernetesProcessesPorts[] | cdktf.IResolvable;
 }
@@ -5266,7 +5266,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlKube
   /**
   * Processes configure which ports are exposed on each process of the application deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#processes DataK8STheketchIoAppV1Beta1Manifest#processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#processes DataK8STheketchIoAppV1Beta1Manifest#processes}
   */
   readonly processes?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlKubernetesProcesses;
 }
@@ -5362,19 +5362,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYaml {
   /**
   * Healthcheck describes readiness and liveness probes of the application deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#healthcheck DataK8STheketchIoAppV1Beta1Manifest#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#healthcheck DataK8STheketchIoAppV1Beta1Manifest#healthcheck}
   */
   readonly healthcheck?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHealthcheck;
   /**
   * Hooks allow to run commands during different stages of the application deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#hooks DataK8STheketchIoAppV1Beta1Manifest#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#hooks DataK8STheketchIoAppV1Beta1Manifest#hooks}
   */
   readonly hooks?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlHooks;
   /**
   * Kubernetes contains specific configurations for Kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#kubernetes DataK8STheketchIoAppV1Beta1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#kubernetes DataK8STheketchIoAppV1Beta1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYamlKubernetes;
 }
@@ -5528,13 +5528,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsLabels {
   /**
   * Name of the label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of the label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -5675,13 +5675,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesEnv 
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -5822,7 +5822,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesReso
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -5937,19 +5937,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesReso
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#claims DataK8STheketchIoAppV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#claims DataK8STheketchIoAppV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#limits DataK8STheketchIoAppV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#limits DataK8STheketchIoAppV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#requests DataK8STheketchIoAppV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#requests DataK8STheketchIoAppV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6103,13 +6103,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecu
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#add DataK8STheketchIoAppV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#add DataK8STheketchIoAppV1Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#drop DataK8STheketchIoAppV1Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#drop DataK8STheketchIoAppV1Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6234,25 +6234,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecu
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#level DataK8STheketchIoAppV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#level DataK8STheketchIoAppV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#role DataK8STheketchIoAppV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#role DataK8STheketchIoAppV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6435,13 +6435,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecu
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#localhost_profile DataK8STheketchIoAppV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#localhost_profile DataK8STheketchIoAppV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -6563,25 +6563,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecu
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec_name DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec_name DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host_process DataK8STheketchIoAppV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host_process DataK8STheketchIoAppV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user_name DataK8STheketchIoAppV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user_name DataK8STheketchIoAppV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6764,67 +6764,67 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecu
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#allow_privilege_escalation DataK8STheketchIoAppV1Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#allow_privilege_escalation DataK8STheketchIoAppV1Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#capabilities DataK8STheketchIoAppV1Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#capabilities DataK8STheketchIoAppV1Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#privileged DataK8STheketchIoAppV1Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#privileged DataK8STheketchIoAppV1Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#proc_mount DataK8STheketchIoAppV1Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#proc_mount DataK8STheketchIoAppV1Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only_root_filesystem DataK8STheketchIoAppV1Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only_root_filesystem DataK8STheketchIoAppV1Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_group DataK8STheketchIoAppV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_group DataK8STheketchIoAppV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_non_root DataK8STheketchIoAppV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_non_root DataK8STheketchIoAppV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user DataK8STheketchIoAppV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user DataK8STheketchIoAppV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#se_linux_options DataK8STheketchIoAppV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#se_linux_options DataK8STheketchIoAppV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#seccomp_profile DataK8STheketchIoAppV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#seccomp_profile DataK8STheketchIoAppV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#windows_options DataK8STheketchIoAppV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#windows_options DataK8STheketchIoAppV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecurityContextWindowsOptions;
 }
@@ -7210,37 +7210,37 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mount_path DataK8STheketchIoAppV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mount_path DataK8STheketchIoAppV1Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mount_propagation DataK8STheketchIoAppV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mount_propagation DataK8STheketchIoAppV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#sub_path DataK8STheketchIoAppV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#sub_path DataK8STheketchIoAppV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#sub_path_expr DataK8STheketchIoAppV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#sub_path_expr DataK8STheketchIoAppV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -7497,25 +7497,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#partition DataK8STheketchIoAppV1Beta1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#partition DataK8STheketchIoAppV1Beta1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_id DataK8STheketchIoAppV1Beta1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_id DataK8STheketchIoAppV1Beta1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -7695,37 +7695,37 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#caching_mode DataK8STheketchIoAppV1Beta1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#caching_mode DataK8STheketchIoAppV1Beta1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#disk_name DataK8STheketchIoAppV1Beta1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#disk_name DataK8STheketchIoAppV1Beta1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#disk_uri DataK8STheketchIoAppV1Beta1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#disk_uri DataK8STheketchIoAppV1Beta1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -7960,19 +7960,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#share_name DataK8STheketchIoAppV1Beta1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#share_name DataK8STheketchIoAppV1Beta1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -8120,7 +8120,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8216,37 +8216,37 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#monitors DataK8STheketchIoAppV1Beta1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#monitors DataK8STheketchIoAppV1Beta1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_file DataK8STheketchIoAppV1Beta1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_file DataK8STheketchIoAppV1Beta1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8484,7 +8484,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8580,25 +8580,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_id DataK8STheketchIoAppV1Beta1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_id DataK8STheketchIoAppV1Beta1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -8778,19 +8778,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -8960,25 +8960,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
   */
   readonly items?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9161,7 +9161,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9257,31 +9257,31 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#driver DataK8STheketchIoAppV1Beta1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#driver DataK8STheketchIoAppV1Beta1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#node_publish_secret_ref DataK8STheketchIoAppV1Beta1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#node_publish_secret_ref DataK8STheketchIoAppV1Beta1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_attributes DataK8STheketchIoAppV1Beta1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_attributes DataK8STheketchIoAppV1Beta1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -9490,13 +9490,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#field_path DataK8STheketchIoAppV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#field_path DataK8STheketchIoAppV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9618,19 +9618,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#container_name DataK8STheketchIoAppV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#container_name DataK8STheketchIoAppV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#divisor DataK8STheketchIoAppV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#divisor DataK8STheketchIoAppV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#resource DataK8STheketchIoAppV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#resource DataK8STheketchIoAppV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9781,25 +9781,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#field_ref DataK8STheketchIoAppV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#field_ref DataK8STheketchIoAppV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#resource_field_ref DataK8STheketchIoAppV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#resource_field_ref DataK8STheketchIoAppV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -10001,13 +10001,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
   */
   readonly items?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -10132,13 +10132,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#medium DataK8STheketchIoAppV1Beta1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#medium DataK8STheketchIoAppV1Beta1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#size_limit DataK8STheketchIoAppV1Beta1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#size_limit DataK8STheketchIoAppV1Beta1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -10263,19 +10263,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#api_group DataK8STheketchIoAppV1Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#api_group DataK8STheketchIoAppV1Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -10423,25 +10423,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#api_group DataK8STheketchIoAppV1Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#api_group DataK8STheketchIoAppV1Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#namespace DataK8STheketchIoAppV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#namespace DataK8STheketchIoAppV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10618,7 +10618,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -10733,19 +10733,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#claims DataK8STheketchIoAppV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#claims DataK8STheketchIoAppV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplateSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#limits DataK8STheketchIoAppV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#limits DataK8STheketchIoAppV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#requests DataK8STheketchIoAppV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#requests DataK8STheketchIoAppV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10899,19 +10899,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#operator DataK8STheketchIoAppV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#operator DataK8STheketchIoAppV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#values DataK8STheketchIoAppV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#values DataK8STheketchIoAppV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11081,13 +11081,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#match_expressions DataK8STheketchIoAppV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#match_expressions DataK8STheketchIoAppV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#match_labels DataK8STheketchIoAppV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#match_labels DataK8STheketchIoAppV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11212,49 +11212,49 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#access_modes DataK8STheketchIoAppV1Beta1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#access_modes DataK8STheketchIoAppV1Beta1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#data_source DataK8STheketchIoAppV1Beta1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#data_source DataK8STheketchIoAppV1Beta1Manifest#data_source}
   */
   readonly dataSource?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#data_source_ref DataK8STheketchIoAppV1Beta1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#data_source_ref DataK8STheketchIoAppV1Beta1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#resources DataK8STheketchIoAppV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#resources DataK8STheketchIoAppV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#selector DataK8STheketchIoAppV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#selector DataK8STheketchIoAppV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_class_name DataK8STheketchIoAppV1Beta1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_class_name DataK8STheketchIoAppV1Beta1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_mode DataK8STheketchIoAppV1Beta1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_mode DataK8STheketchIoAppV1Beta1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_name DataK8STheketchIoAppV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_name DataK8STheketchIoAppV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -11553,13 +11553,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#metadata DataK8STheketchIoAppV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#metadata DataK8STheketchIoAppV1Beta1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#spec DataK8STheketchIoAppV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#spec DataK8STheketchIoAppV1Beta1Manifest#spec}
   */
   readonly spec: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -11681,7 +11681,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_claim_template DataK8STheketchIoAppV1Beta1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_claim_template DataK8STheketchIoAppV1Beta1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeralVolumeClaimTemplate;
 }
@@ -11777,31 +11777,31 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#lun DataK8STheketchIoAppV1Beta1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#lun DataK8STheketchIoAppV1Beta1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#target_ww_ns DataK8STheketchIoAppV1Beta1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#target_ww_ns DataK8STheketchIoAppV1Beta1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#wwids DataK8STheketchIoAppV1Beta1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#wwids DataK8STheketchIoAppV1Beta1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -12013,7 +12013,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12109,31 +12109,31 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#driver DataK8STheketchIoAppV1Beta1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#driver DataK8STheketchIoAppV1Beta1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#options DataK8STheketchIoAppV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#options DataK8STheketchIoAppV1Beta1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesFlexVolumeSecretRef;
 }
@@ -12342,13 +12342,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#dataset_name DataK8STheketchIoAppV1Beta1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#dataset_name DataK8STheketchIoAppV1Beta1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#dataset_uuid DataK8STheketchIoAppV1Beta1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#dataset_uuid DataK8STheketchIoAppV1Beta1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -12473,25 +12473,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#partition DataK8STheketchIoAppV1Beta1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#partition DataK8STheketchIoAppV1Beta1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#pd_name DataK8STheketchIoAppV1Beta1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#pd_name DataK8STheketchIoAppV1Beta1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -12671,19 +12671,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#directory DataK8STheketchIoAppV1Beta1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#directory DataK8STheketchIoAppV1Beta1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#repository DataK8STheketchIoAppV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#repository DataK8STheketchIoAppV1Beta1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#revision DataK8STheketchIoAppV1Beta1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#revision DataK8STheketchIoAppV1Beta1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -12834,19 +12834,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#endpoints DataK8STheketchIoAppV1Beta1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#endpoints DataK8STheketchIoAppV1Beta1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -12994,13 +12994,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -13122,7 +13122,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13218,67 +13218,67 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#chap_auth_discovery DataK8STheketchIoAppV1Beta1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#chap_auth_discovery DataK8STheketchIoAppV1Beta1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#chap_auth_session DataK8STheketchIoAppV1Beta1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#chap_auth_session DataK8STheketchIoAppV1Beta1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#initiator_name DataK8STheketchIoAppV1Beta1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#initiator_name DataK8STheketchIoAppV1Beta1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#iqn DataK8STheketchIoAppV1Beta1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#iqn DataK8STheketchIoAppV1Beta1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#iscsi_interface DataK8STheketchIoAppV1Beta1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#iscsi_interface DataK8STheketchIoAppV1Beta1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#lun DataK8STheketchIoAppV1Beta1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#lun DataK8STheketchIoAppV1Beta1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#portals DataK8STheketchIoAppV1Beta1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#portals DataK8STheketchIoAppV1Beta1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#target_portal DataK8STheketchIoAppV1Beta1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#target_portal DataK8STheketchIoAppV1Beta1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -13655,19 +13655,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#server DataK8STheketchIoAppV1Beta1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#server DataK8STheketchIoAppV1Beta1Manifest#server}
   */
   readonly server: string;
 }
@@ -13815,13 +13815,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#claim_name DataK8STheketchIoAppV1Beta1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#claim_name DataK8STheketchIoAppV1Beta1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -13943,13 +13943,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#pd_id DataK8STheketchIoAppV1Beta1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#pd_id DataK8STheketchIoAppV1Beta1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -14071,19 +14071,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_id DataK8STheketchIoAppV1Beta1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_id DataK8STheketchIoAppV1Beta1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -14234,19 +14234,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -14416,19 +14416,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
   */
   readonly items?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14582,13 +14582,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#field_path DataK8STheketchIoAppV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#field_path DataK8STheketchIoAppV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -14710,19 +14710,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#container_name DataK8STheketchIoAppV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#container_name DataK8STheketchIoAppV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#divisor DataK8STheketchIoAppV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#divisor DataK8STheketchIoAppV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#resource DataK8STheketchIoAppV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#resource DataK8STheketchIoAppV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -14873,25 +14873,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#field_ref DataK8STheketchIoAppV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#field_ref DataK8STheketchIoAppV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#resource_field_ref DataK8STheketchIoAppV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#resource_field_ref DataK8STheketchIoAppV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -15093,7 +15093,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
   */
   readonly items?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -15189,19 +15189,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -15371,19 +15371,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
   */
   readonly items?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15537,19 +15537,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#audience DataK8STheketchIoAppV1Beta1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#audience DataK8STheketchIoAppV1Beta1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#expiration_seconds DataK8STheketchIoAppV1Beta1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#expiration_seconds DataK8STheketchIoAppV1Beta1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -15700,25 +15700,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#config_map DataK8STheketchIoAppV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#config_map DataK8STheketchIoAppV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#downward_api DataK8STheketchIoAppV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#downward_api DataK8STheketchIoAppV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret DataK8STheketchIoAppV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret DataK8STheketchIoAppV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#service_account_token DataK8STheketchIoAppV1Beta1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#service_account_token DataK8STheketchIoAppV1Beta1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSourcesServiceAccountToken;
 }
@@ -15923,13 +15923,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#sources DataK8STheketchIoAppV1Beta1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#sources DataK8STheketchIoAppV1Beta1Manifest#sources}
   */
   readonly sources?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -16054,37 +16054,37 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#group DataK8STheketchIoAppV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#group DataK8STheketchIoAppV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#registry DataK8STheketchIoAppV1Beta1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#registry DataK8STheketchIoAppV1Beta1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#tenant DataK8STheketchIoAppV1Beta1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#tenant DataK8STheketchIoAppV1Beta1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume DataK8STheketchIoAppV1Beta1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume DataK8STheketchIoAppV1Beta1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -16319,7 +16319,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16415,49 +16415,49 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#image DataK8STheketchIoAppV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#image DataK8STheketchIoAppV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#keyring DataK8STheketchIoAppV1Beta1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#keyring DataK8STheketchIoAppV1Beta1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#monitors DataK8STheketchIoAppV1Beta1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#monitors DataK8STheketchIoAppV1Beta1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#pool DataK8STheketchIoAppV1Beta1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#pool DataK8STheketchIoAppV1Beta1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16750,7 +16750,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16846,61 +16846,61 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#gateway DataK8STheketchIoAppV1Beta1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#gateway DataK8STheketchIoAppV1Beta1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#protection_domain DataK8STheketchIoAppV1Beta1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#protection_domain DataK8STheketchIoAppV1Beta1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
   */
   readonly secretRef: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#ssl_enabled DataK8STheketchIoAppV1Beta1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#ssl_enabled DataK8STheketchIoAppV1Beta1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_mode DataK8STheketchIoAppV1Beta1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_mode DataK8STheketchIoAppV1Beta1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_pool DataK8STheketchIoAppV1Beta1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_pool DataK8STheketchIoAppV1Beta1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#system DataK8STheketchIoAppV1Beta1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#system DataK8STheketchIoAppV1Beta1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_name DataK8STheketchIoAppV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_name DataK8STheketchIoAppV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -17248,19 +17248,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#key DataK8STheketchIoAppV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#mode DataK8STheketchIoAppV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#path DataK8STheketchIoAppV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -17430,25 +17430,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#default_mode DataK8STheketchIoAppV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#items DataK8STheketchIoAppV1Beta1Manifest#items}
   */
   readonly items?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#optional DataK8STheketchIoAppV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -17631,7 +17631,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17727,31 +17727,31 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#read_only DataK8STheketchIoAppV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_ref DataK8STheketchIoAppV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_name DataK8STheketchIoAppV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_name DataK8STheketchIoAppV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_namespace DataK8STheketchIoAppV1Beta1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_namespace DataK8STheketchIoAppV1Beta1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -17963,25 +17963,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_type DataK8STheketchIoAppV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_policy_id DataK8STheketchIoAppV1Beta1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_policy_id DataK8STheketchIoAppV1Beta1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_policy_name DataK8STheketchIoAppV1Beta1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_policy_name DataK8STheketchIoAppV1Beta1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_path DataK8STheketchIoAppV1Beta1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_path DataK8STheketchIoAppV1Beta1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -18161,181 +18161,181 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolu
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#aws_elastic_block_store DataK8STheketchIoAppV1Beta1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#aws_elastic_block_store DataK8STheketchIoAppV1Beta1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#azure_disk DataK8STheketchIoAppV1Beta1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#azure_disk DataK8STheketchIoAppV1Beta1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#azure_file DataK8STheketchIoAppV1Beta1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#azure_file DataK8STheketchIoAppV1Beta1Manifest#azure_file}
   */
   readonly azureFile?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#cephfs DataK8STheketchIoAppV1Beta1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#cephfs DataK8STheketchIoAppV1Beta1Manifest#cephfs}
   */
   readonly cephfs?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#cinder DataK8STheketchIoAppV1Beta1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#cinder DataK8STheketchIoAppV1Beta1Manifest#cinder}
   */
   readonly cinder?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#config_map DataK8STheketchIoAppV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#config_map DataK8STheketchIoAppV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#csi DataK8STheketchIoAppV1Beta1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#csi DataK8STheketchIoAppV1Beta1Manifest#csi}
   */
   readonly csi?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#downward_api DataK8STheketchIoAppV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#downward_api DataK8STheketchIoAppV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#empty_dir DataK8STheketchIoAppV1Beta1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#empty_dir DataK8STheketchIoAppV1Beta1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#ephemeral DataK8STheketchIoAppV1Beta1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#ephemeral DataK8STheketchIoAppV1Beta1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fc DataK8STheketchIoAppV1Beta1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fc DataK8STheketchIoAppV1Beta1Manifest#fc}
   */
   readonly fc?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#flex_volume DataK8STheketchIoAppV1Beta1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#flex_volume DataK8STheketchIoAppV1Beta1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#flocker DataK8STheketchIoAppV1Beta1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#flocker DataK8STheketchIoAppV1Beta1Manifest#flocker}
   */
   readonly flocker?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#gce_persistent_disk DataK8STheketchIoAppV1Beta1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#gce_persistent_disk DataK8STheketchIoAppV1Beta1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#git_repo DataK8STheketchIoAppV1Beta1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#git_repo DataK8STheketchIoAppV1Beta1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#glusterfs DataK8STheketchIoAppV1Beta1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#glusterfs DataK8STheketchIoAppV1Beta1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host_path DataK8STheketchIoAppV1Beta1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host_path DataK8STheketchIoAppV1Beta1Manifest#host_path}
   */
   readonly hostPath?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#iscsi DataK8STheketchIoAppV1Beta1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#iscsi DataK8STheketchIoAppV1Beta1Manifest#iscsi}
   */
   readonly iscsi?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#nfs DataK8STheketchIoAppV1Beta1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#nfs DataK8STheketchIoAppV1Beta1Manifest#nfs}
   */
   readonly nfs?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#persistent_volume_claim DataK8STheketchIoAppV1Beta1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#persistent_volume_claim DataK8STheketchIoAppV1Beta1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#photon_persistent_disk DataK8STheketchIoAppV1Beta1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#photon_persistent_disk DataK8STheketchIoAppV1Beta1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#portworx_volume DataK8STheketchIoAppV1Beta1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#portworx_volume DataK8STheketchIoAppV1Beta1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#projected DataK8STheketchIoAppV1Beta1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#projected DataK8STheketchIoAppV1Beta1Manifest#projected}
   */
   readonly projected?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#quobyte DataK8STheketchIoAppV1Beta1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#quobyte DataK8STheketchIoAppV1Beta1Manifest#quobyte}
   */
   readonly quobyte?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#rbd DataK8STheketchIoAppV1Beta1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#rbd DataK8STheketchIoAppV1Beta1Manifest#rbd}
   */
   readonly rbd?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#scale_io DataK8STheketchIoAppV1Beta1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#scale_io DataK8STheketchIoAppV1Beta1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret DataK8STheketchIoAppV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret DataK8STheketchIoAppV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storageos DataK8STheketchIoAppV1Beta1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storageos DataK8STheketchIoAppV1Beta1Manifest#storageos}
   */
   readonly storageos?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#vsphere_volume DataK8STheketchIoAppV1Beta1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#vsphere_volume DataK8STheketchIoAppV1Beta1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumesVsphereVolume;
 }
@@ -19291,45 +19291,45 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcesses {
   /**
   * Commands executed on startup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#cmd DataK8STheketchIoAppV1Beta1Manifest#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#cmd DataK8STheketchIoAppV1Beta1Manifest#cmd}
   */
   readonly cmd: string[];
   /**
   * Env is a list of environment variables to set in pods created for the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#env DataK8STheketchIoAppV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#env DataK8STheketchIoAppV1Beta1Manifest#env}
   */
   readonly env?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesEnv[] | cdktf.IResolvable;
   /**
   * Name of the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#resources DataK8STheketchIoAppV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#resources DataK8STheketchIoAppV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesResources;
   /**
   * Security options the process should run with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#security_context DataK8STheketchIoAppV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#security_context DataK8STheketchIoAppV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesSecurityContext;
   /**
   * Units is a number of replicas of the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#units DataK8STheketchIoAppV1Beta1Manifest#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#units DataK8STheketchIoAppV1Beta1Manifest#units}
   */
   readonly units?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_mounts DataK8STheketchIoAppV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_mounts DataK8STheketchIoAppV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volumes DataK8STheketchIoAppV1Beta1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volumes DataK8STheketchIoAppV1Beta1Manifest#volumes}
   */
   readonly volumes?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesVolumes[] | cdktf.IResolvable;
 }
@@ -19642,7 +19642,7 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcessesList ext
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsRoutingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#weight DataK8STheketchIoAppV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#weight DataK8STheketchIoAppV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -19733,41 +19733,41 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsRoutingSettingsOu
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecDeployments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#exposed_ports DataK8STheketchIoAppV1Beta1Manifest#exposed_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#exposed_ports DataK8STheketchIoAppV1Beta1Manifest#exposed_ports}
   */
   readonly exposedPorts?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsExposedPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#image DataK8STheketchIoAppV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#image DataK8STheketchIoAppV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
   * ImagePullSecrets contains a list of secrets to pull the image of this deployment. If this list is defined, app.Spec.DockerRegistrySpec is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#image_pull_secrets DataK8STheketchIoAppV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#image_pull_secrets DataK8STheketchIoAppV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsImagePullSecrets[] | cdktf.IResolvable;
   /**
   * KetchYamlData describes certain aspects of the application deployment being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#ketch_yaml DataK8STheketchIoAppV1Beta1Manifest#ketch_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#ketch_yaml DataK8STheketchIoAppV1Beta1Manifest#ketch_yaml}
   */
   readonly ketchYaml?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsKetchYaml;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#labels DataK8STheketchIoAppV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#labels DataK8STheketchIoAppV1Beta1Manifest#labels}
   */
   readonly labels?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsLabels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#processes DataK8STheketchIoAppV1Beta1Manifest#processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#processes DataK8STheketchIoAppV1Beta1Manifest#processes}
   */
   readonly processes?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsProcesses[] | cdktf.IResolvable;
   /**
   * RoutingSettings contains a weight of the current deployment used to route incoming traffic. If an application has two deployments with corresponding weights of 30 and 70, then 3 of 10 incoming requests will be sent to the first deployment (approximately).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#routing_settings DataK8STheketchIoAppV1Beta1Manifest#routing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#routing_settings DataK8STheketchIoAppV1Beta1Manifest#routing_settings}
   */
   readonly routingSettings?: DataK8STheketchIoAppV1Beta1ManifestSpecDeploymentsRoutingSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#version DataK8STheketchIoAppV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#version DataK8STheketchIoAppV1Beta1Manifest#version}
   */
   readonly version: number;
 }
@@ -20082,7 +20082,7 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecDockerRegistry {
   /**
   * SecretName is added to the 'imagePullSecrets' list of each application pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -20178,13 +20178,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -20323,17 +20323,17 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecEnvList extends cdktf.Comple
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecIngressCnames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * SecretName if provided must contain an SSL certificate that will be used to serve this cname. Currently, the secret must be in the app's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secret_name DataK8STheketchIoAppV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#secure DataK8STheketchIoAppV1Beta1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#secure DataK8STheketchIoAppV1Beta1Manifest#secure}
   */
   readonly secure: boolean | cdktf.IResolvable;
 }
@@ -20501,21 +20501,21 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecIngressCnamesList extends cd
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecIngressController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#class_name DataK8STheketchIoAppV1Beta1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#class_name DataK8STheketchIoAppV1Beta1Manifest#class_name}
   */
   readonly className?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#cluster_issuer DataK8STheketchIoAppV1Beta1Manifest#cluster_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#cluster_issuer DataK8STheketchIoAppV1Beta1Manifest#cluster_issuer}
   */
   readonly clusterIssuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#service_endpoint DataK8STheketchIoAppV1Beta1Manifest#service_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#service_endpoint DataK8STheketchIoAppV1Beta1Manifest#service_endpoint}
   */
   readonly serviceEndpoint?: string;
   /**
   * IngressControllerType is a type of an ingress controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -20698,19 +20698,19 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecIngress {
   /**
   * Cnames is a list of additional cnames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#cnames DataK8STheketchIoAppV1Beta1Manifest#cnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#cnames DataK8STheketchIoAppV1Beta1Manifest#cnames}
   */
   readonly cnames?: DataK8STheketchIoAppV1Beta1ManifestSpecIngressCnames[] | cdktf.IResolvable;
   /**
   * Controller is the ingress controller the app is using
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#controller DataK8STheketchIoAppV1Beta1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#controller DataK8STheketchIoAppV1Beta1Manifest#controller}
   */
   readonly controller?: DataK8STheketchIoAppV1Beta1ManifestSpecIngressController;
   /**
   * GenerateDefaultCname if set the application will have a default cname <app-name>.<ServiceEndpoint>.shipa.cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#generate_default_cname DataK8STheketchIoAppV1Beta1Manifest#generate_default_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#generate_default_cname DataK8STheketchIoAppV1Beta1Manifest#generate_default_cname}
   */
   readonly generateDefaultCname: boolean | cdktf.IResolvable;
 }
@@ -20859,11 +20859,11 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecIngressOutputReference exten
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecLabelsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#api_version DataK8STheketchIoAppV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#kind DataK8STheketchIoAppV1Beta1Manifest#kind}
   */
   readonly kind?: string;
 }
@@ -20986,19 +20986,19 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecLabelsTargetOutputReference 
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#apply DataK8STheketchIoAppV1Beta1Manifest#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#apply DataK8STheketchIoAppV1Beta1Manifest#apply}
   */
   readonly apply?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#deployment_version DataK8STheketchIoAppV1Beta1Manifest#deployment_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#deployment_version DataK8STheketchIoAppV1Beta1Manifest#deployment_version}
   */
   readonly deploymentVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#process_name DataK8STheketchIoAppV1Beta1Manifest#process_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#process_name DataK8STheketchIoAppV1Beta1Manifest#process_name}
   */
   readonly processName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#target DataK8STheketchIoAppV1Beta1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#target DataK8STheketchIoAppV1Beta1Manifest#target}
   */
   readonly target?: DataK8STheketchIoAppV1Beta1ManifestSpecLabelsTarget;
 }
@@ -21203,25 +21203,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextSeLinuxOp
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#level DataK8STheketchIoAppV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#level DataK8STheketchIoAppV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#role DataK8STheketchIoAppV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#role DataK8STheketchIoAppV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#user DataK8STheketchIoAppV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -21404,13 +21404,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextSeccompPr
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#localhost_profile DataK8STheketchIoAppV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#localhost_profile DataK8STheketchIoAppV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -21532,13 +21532,13 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextSysctls {
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#value DataK8STheketchIoAppV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -21679,25 +21679,25 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextWindowsOp
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec_name DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#gmsa_credential_spec_name DataK8STheketchIoAppV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#host_process DataK8STheketchIoAppV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#host_process DataK8STheketchIoAppV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user_name DataK8STheketchIoAppV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user_name DataK8STheketchIoAppV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -21880,61 +21880,61 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContext {
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_group DataK8STheketchIoAppV1Beta1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_group DataK8STheketchIoAppV1Beta1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_group_change_policy DataK8STheketchIoAppV1Beta1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#fs_group_change_policy DataK8STheketchIoAppV1Beta1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_group DataK8STheketchIoAppV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_group DataK8STheketchIoAppV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_non_root DataK8STheketchIoAppV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_non_root DataK8STheketchIoAppV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user DataK8STheketchIoAppV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#run_as_user DataK8STheketchIoAppV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#se_linux_options DataK8STheketchIoAppV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#se_linux_options DataK8STheketchIoAppV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#seccomp_profile DataK8STheketchIoAppV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#seccomp_profile DataK8STheketchIoAppV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#supplemental_groups DataK8STheketchIoAppV1Beta1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#supplemental_groups DataK8STheketchIoAppV1Beta1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#sysctls DataK8STheketchIoAppV1Beta1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#sysctls DataK8STheketchIoAppV1Beta1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#windows_options DataK8STheketchIoAppV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#windows_options DataK8STheketchIoAppV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -22289,19 +22289,19 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContextOutputReferen
 }
 export interface DataK8STheketchIoAppV1Beta1ManifestSpecVolumeClaimTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#access_modes DataK8STheketchIoAppV1Beta1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#access_modes DataK8STheketchIoAppV1Beta1Manifest#access_modes}
   */
   readonly accessModes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#name DataK8STheketchIoAppV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storage DataK8STheketchIoAppV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storage DataK8STheketchIoAppV1Beta1Manifest#storage}
   */
   readonly storage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_class_name DataK8STheketchIoAppV1Beta1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#storage_class_name DataK8STheketchIoAppV1Beta1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -22497,65 +22497,65 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpec {
   /**
   * Annotations is a list of annotations that will be applied to Services/Deployments/Pods/Gateways/Ingresses/IngressRoutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#annotations DataK8STheketchIoAppV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#annotations DataK8STheketchIoAppV1Beta1Manifest#annotations}
   */
   readonly annotations?: DataK8STheketchIoAppV1Beta1ManifestSpecAnnotations[] | cdktf.IResolvable;
   /**
   * BuildPacks is a list of build packs to use when building from source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#build_packs DataK8STheketchIoAppV1Beta1Manifest#build_packs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#build_packs DataK8STheketchIoAppV1Beta1Manifest#build_packs}
   */
   readonly buildPacks?: string[];
   /**
   * Builder is the name of the builder used to build source code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#builder DataK8STheketchIoAppV1Beta1Manifest#builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#builder DataK8STheketchIoAppV1Beta1Manifest#builder}
   */
   readonly builder?: string;
   /**
   * Canary contains a configuration which will be required for canary deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#canary DataK8STheketchIoAppV1Beta1Manifest#canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#canary DataK8STheketchIoAppV1Beta1Manifest#canary}
   */
   readonly canary?: DataK8STheketchIoAppV1Beta1ManifestSpecCanary;
   /**
   * Deployments is a list of running deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#deployments DataK8STheketchIoAppV1Beta1Manifest#deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#deployments DataK8STheketchIoAppV1Beta1Manifest#deployments}
   */
   readonly deployments: DataK8STheketchIoAppV1Beta1ManifestSpecDeployments[] | cdktf.IResolvable;
   /**
   * DeploymentsCount is incremented every time a new deployment is added to Deployments and used as a version for new deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#deployments_count DataK8STheketchIoAppV1Beta1Manifest#deployments_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#deployments_count DataK8STheketchIoAppV1Beta1Manifest#deployments_count}
   */
   readonly deploymentsCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#description DataK8STheketchIoAppV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#description DataK8STheketchIoAppV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
   * DockerRegistry contains docker registry configuration of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#docker_registry DataK8STheketchIoAppV1Beta1Manifest#docker_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#docker_registry DataK8STheketchIoAppV1Beta1Manifest#docker_registry}
   */
   readonly dockerRegistry?: DataK8STheketchIoAppV1Beta1ManifestSpecDockerRegistry;
   /**
   * List of environment variables of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#env DataK8STheketchIoAppV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#env DataK8STheketchIoAppV1Beta1Manifest#env}
   */
   readonly env?: DataK8STheketchIoAppV1Beta1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * Extensions can be used by third-parties to keep additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#extensions DataK8STheketchIoAppV1Beta1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#extensions DataK8STheketchIoAppV1Beta1Manifest#extensions}
   */
   readonly extensions?: { [key: string]: string };
   /**
   * ID is an additional unique identifier of this application besides the app's name if needed. Ketch internally doesn't rely on this field, so it can be anything useful for a user. Ketch uses either this ID or the app name and adds 'app=<ID or name>' label to all pods. ID is preferred and used if set, otherwise the label will be 'app=<app-name>'. Thus, istio time series will have 'destination_app=<ID or name>' label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#id DataK8STheketchIoAppV1Beta1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#id DataK8STheketchIoAppV1Beta1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22564,47 +22564,47 @@ export interface DataK8STheketchIoAppV1Beta1ManifestSpec {
   /**
   * Ingress contains configuration of entrypoints to access the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#ingress DataK8STheketchIoAppV1Beta1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#ingress DataK8STheketchIoAppV1Beta1Manifest#ingress}
   */
   readonly ingress: DataK8STheketchIoAppV1Beta1ManifestSpecIngress;
   /**
   * Labels is a list of labels that will be applied to Services/Deployments/Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#labels DataK8STheketchIoAppV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#labels DataK8STheketchIoAppV1Beta1Manifest#labels}
   */
   readonly labels?: DataK8STheketchIoAppV1Beta1ManifestSpecLabels[] | cdktf.IResolvable;
   /**
   * Namespace sets the namespace in which the app is run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#namespace DataK8STheketchIoAppV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#namespace DataK8STheketchIoAppV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * SecurityContext specifies security settings for a pod/app, which get applied to all containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#security_context DataK8STheketchIoAppV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#security_context DataK8STheketchIoAppV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8STheketchIoAppV1Beta1ManifestSpecSecurityContext;
   /**
   * ServiceAccountName specifies a service account name to be used for this application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#service_account_name DataK8STheketchIoAppV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#service_account_name DataK8STheketchIoAppV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * Type specifies whether an app should be a deployment or a statefulset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#type DataK8STheketchIoAppV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#version DataK8STheketchIoAppV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#version DataK8STheketchIoAppV1Beta1Manifest#version}
   */
   readonly version?: string;
   /**
   * VolumeClaimTemplates is a list of an app's volumeClaimTemplates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_claim_templates DataK8STheketchIoAppV1Beta1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#volume_claim_templates DataK8STheketchIoAppV1Beta1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates?: DataK8STheketchIoAppV1Beta1ManifestSpecVolumeClaimTemplates[] | cdktf.IResolvable;
 }
@@ -23211,7 +23211,7 @@ export class DataK8STheketchIoAppV1Beta1ManifestSpecOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest k8s_theketch_io_app_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest k8s_theketch_io_app_v1beta1_manifest}
 */
 export class DataK8STheketchIoAppV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -23227,7 +23227,7 @@ export class DataK8STheketchIoAppV1Beta1Manifest extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataK8STheketchIoAppV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STheketchIoAppV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8STheketchIoAppV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STheketchIoAppV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STheketchIoAppV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -23239,7 +23239,7 @@ export class DataK8STheketchIoAppV1Beta1Manifest extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_app_v1beta1_manifest k8s_theketch_io_app_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_app_v1beta1_manifest k8s_theketch_io_app_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -23250,8 +23250,8 @@ export class DataK8STheketchIoAppV1Beta1Manifest extends cdktf.TerraformDataSour
       terraformResourceType: 'k8s_theketch_io_app_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

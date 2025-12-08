@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#metadata DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#metadata DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestMetadata;
   /**
   * Specification of the numa information of the worker node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#spec DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#spec DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#annotations DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#annotations DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#labels DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#labels DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#name DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#name DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,15 +185,15 @@ export class DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestMetadataOutputR
 }
 export interface DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpecCpuDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#core DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#core DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#core}
   */
   readonly core?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#numa DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#numa DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#numa}
   */
   readonly numa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#socket DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#socket DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#socket}
   */
   readonly socket?: number;
 }
@@ -345,11 +345,11 @@ export class DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpecCpuDetailOu
 }
 export interface DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpecNumares {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#allocatable DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#allocatable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#allocatable DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#allocatable}
   */
   readonly allocatable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#capacity DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#capacity DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#capacity}
   */
   readonly capacity?: number;
 }
@@ -474,25 +474,25 @@ export interface DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpec {
   /**
   * Specifies the cpu topology info Key is cpu id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#cpu_detail DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#cpu_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#cpu_detail DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#cpu_detail}
   */
   readonly cpuDetail?: DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpecCpuDetail;
   /**
   * Specifies the numa info for the resource Key is resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#numares DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#numares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#numares DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#numares}
   */
   readonly numares?: DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpecNumares;
   /**
   * Specifies the policy of the manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#policies DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#policies DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#policies}
   */
   readonly policies?: { [key: string]: string };
   /**
   * Specifies the reserved resource of the node Key is resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#res_reserved DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#res_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#res_reserved DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest#res_reserved}
   */
   readonly resReserved?: { [key: string]: string };
 }
@@ -673,7 +673,7 @@ export class DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest k8s_nodeinfo_volcano_sh_numatopology_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest k8s_nodeinfo_volcano_sh_numatopology_v1alpha1_manifest}
 */
 export class DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -689,7 +689,7 @@ export class DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -701,7 +701,7 @@ export class DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest k8s_nodeinfo_volcano_sh_numatopology_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nodeinfo_volcano_sh_numatopology_v1alpha1_manifest k8s_nodeinfo_volcano_sh_numatopology_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -712,8 +712,8 @@ export class DataK8SNodeinfoVolcanoShNumatopologyV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_nodeinfo_volcano_sh_numatopology_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

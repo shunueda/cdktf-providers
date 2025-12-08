@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/custom_environment
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/custom_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVercelCustomEnvironmentConfig extends cdktf.TerraformMetaAr
   /**
   * The name of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/custom_environment#name DataVercelCustomEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/custom_environment#name DataVercelCustomEnvironment#name}
   */
   readonly name: string;
   /**
   * The ID of the existing Vercel Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/custom_environment#project_id DataVercelCustomEnvironment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/custom_environment#project_id DataVercelCustomEnvironment#project_id}
   */
   readonly projectId: string;
   /**
   * The team ID to add the project to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/custom_environment#team_id DataVercelCustomEnvironment#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/custom_environment#team_id DataVercelCustomEnvironment#team_id}
   */
   readonly teamId?: string;
 }
@@ -87,7 +87,7 @@ export class DataVercelCustomEnvironmentBranchTrackingOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/custom_environment vercel_custom_environment}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/custom_environment vercel_custom_environment}
 */
 export class DataVercelCustomEnvironment extends cdktf.TerraformDataSource {
 
@@ -103,7 +103,7 @@ export class DataVercelCustomEnvironment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelCustomEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelCustomEnvironment to import
-  * @param importFromId The id of the existing DataVercelCustomEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/custom_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelCustomEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/custom_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelCustomEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class DataVercelCustomEnvironment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/custom_environment vercel_custom_environment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/custom_environment vercel_custom_environment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,8 +126,8 @@ export class DataVercelCustomEnvironment extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_custom_environment',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

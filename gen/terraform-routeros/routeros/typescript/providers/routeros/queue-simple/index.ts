@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface QueueSimpleConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#___path___ QueueSimple#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#___path___ QueueSimple#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#___skip___ QueueSimple#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#___skip___ QueueSimple#___skip___}
   */
   readonly skip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#bucket_size QueueSimple#bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#bucket_size QueueSimple#bucket_size}
   */
   readonly bucketSize?: string;
   /**
   * Maximal upload/download data rate which can be reached while the burst is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#burst_limit QueueSimple#burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#burst_limit QueueSimple#burst_limit}
   */
   readonly burstLimit?: string;
   /**
   * When average data rate is below this value - burst is allowed, as soon as average data rate reach this value - burst is denied (basically this is burst on/off switch). For optimal burst behavior this value should above `limit-at` value and below `max-limit` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#burst_threshold QueueSimple#burst_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#burst_threshold QueueSimple#burst_threshold}
   */
   readonly burstThreshold?: string;
   /**
   * Period of time, in seconds, over which the average upload/download data rate is calculated. This is NOT the time of actual burst.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#burst_time QueueSimple#burst_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#burst_time QueueSimple#burst_time}
   */
   readonly burstTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#comment QueueSimple#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#comment QueueSimple#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#disabled QueueSimple#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#disabled QueueSimple#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Allows to select only specific stream (from target address to this destination address) for limitation explain what is target and what is dst and what is upload and what not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#dst QueueSimple#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#dst QueueSimple#dst}
   */
   readonly dst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#id QueueSimple#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#id QueueSimple#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,93 +65,93 @@ export interface QueueSimpleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Normal upload/download data rate that is guaranteed to a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#limit_at QueueSimple#limit_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#limit_at QueueSimple#limit_at}
   */
   readonly limitAt?: string;
   /**
   * Maximal upload/download data rate that is allowed for a target to reach to reach what.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#max_limit QueueSimple#max_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#max_limit QueueSimple#max_limit}
   */
   readonly maxLimit?: string;
   /**
   * Queue name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#name QueueSimple#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#name QueueSimple#name}
   */
   readonly name: string;
   /**
   * Allows to use marked packets from `/ip firewall mangle`. Take look at this packet flow diagram. You need to make sure that packets are marked before the simple queues (before global-in HTB queue).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#packet_marks QueueSimple#packet_marks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#packet_marks QueueSimple#packet_marks}
   */
   readonly packetMarks?: string[];
   /**
   * Assigns this queue as a child queue for selected target. Target queue can be HTB queue or any other previously created queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#parent QueueSimple#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#parent QueueSimple#parent}
   */
   readonly parent?: string;
   /**
   * Prioritize one child queue over other child queue. Does not work on parent queues (if queue has at least one child). One is the highest, eight is the lowest priority. Child queue with higher priority will have chance to reach its `max-limit` before child with lower priority. Priority have nothing to do with bursts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#priority QueueSimple#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#priority QueueSimple#priority}
   */
   readonly priority?: string;
   /**
   * Choose the type of the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#queue QueueSimple#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#queue QueueSimple#queue}
   */
   readonly queue?: string;
   /**
   * List of IP address ranges that will be limited by this queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#target QueueSimple#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#target QueueSimple#target}
   */
   readonly target: string[];
   /**
   * Allow to specify time when particular queue will be active. Router must have correct time settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#time QueueSimple#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#time QueueSimple#time}
   */
   readonly time?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_bucket_size QueueSimple#total_bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_bucket_size QueueSimple#total_bucket_size}
   */
   readonly totalBucketSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_burst_limit QueueSimple#total_burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_burst_limit QueueSimple#total_burst_limit}
   */
   readonly totalBurstLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_burst_threshold QueueSimple#total_burst_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_burst_threshold QueueSimple#total_burst_threshold}
   */
   readonly totalBurstThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_burst_time QueueSimple#total_burst_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_burst_time QueueSimple#total_burst_time}
   */
   readonly totalBurstTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_limit_at QueueSimple#total_limit_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_limit_at QueueSimple#total_limit_at}
   */
   readonly totalLimitAt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_max_limit QueueSimple#total_max_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_max_limit QueueSimple#total_max_limit}
   */
   readonly totalMaxLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_priority QueueSimple#total_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_priority QueueSimple#total_priority}
   */
   readonly totalPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#total_queue QueueSimple#total_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#total_queue QueueSimple#total_queue}
   */
   readonly totalQueue?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple routeros_queue_simple}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple routeros_queue_simple}
 */
 export class QueueSimple extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class QueueSimple extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueueSimple resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueueSimple to import
-  * @param importFromId The id of the existing QueueSimple that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueueSimple that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueueSimple to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class QueueSimple extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/queue_simple routeros_queue_simple} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/queue_simple routeros_queue_simple} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class QueueSimple extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_queue_simple',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

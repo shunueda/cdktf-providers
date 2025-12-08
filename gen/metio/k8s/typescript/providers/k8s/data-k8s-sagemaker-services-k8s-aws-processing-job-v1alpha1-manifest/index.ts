@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestMetadata;
   /**
   * ProcessingJobSpec defines the desired state of ProcessingJob. An Amazon SageMaker processing job that is used to analyze data and evaluate models. For more information, see Process Data and Evaluate Models (https://docs.aws.amazon.com/sagemaker/latest/dg/processing-job.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestMetadata
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecAppSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#container_arguments DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#container_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#container_arguments DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#container_arguments}
   */
   readonly containerArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#container_entrypoint DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#container_entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#container_entrypoint DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#container_entrypoint}
   */
   readonly containerEntrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#image_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#image_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#image_uri}
   */
   readonly imageUri?: string;
 }
@@ -377,15 +377,15 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecAppS
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecExperimentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#experiment_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#experiment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#experiment_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#experiment_name}
   */
   readonly experimentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#trial_component_display_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#trial_component_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#trial_component_display_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#trial_component_display_name}
   */
   readonly trialComponentDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#trial_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#trial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#trial_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#trial_name}
   */
   readonly trialName?: string;
 }
@@ -537,11 +537,11 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecExpe
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecNetworkConfigVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -664,17 +664,17 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecNetw
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktf.IResolvable;
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC. For more information, see Give SageMaker Access to Resources in your Amazon VPC (https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#vpc_config}
   */
   readonly vpcConfig?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecNetworkConfigVpcConfig;
 }
@@ -828,45 +828,45 @@ export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpec
   /**
   * The name of the data catalog used in Athena query execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#catalog DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#catalog DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#catalog}
   */
   readonly catalog?: string;
   /**
   * The name of the database used in the Athena query execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#database DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#database DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The compression used for Athena query results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_compression DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_compression DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_compression}
   */
   readonly outputCompression?: string;
   /**
   * The data storage format for Athena query results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_format DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_format DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_format}
   */
   readonly outputFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_s3_uri}
   */
   readonly outputS3Uri?: string;
   /**
   * The SQL query statements, to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#query_string DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#query_string DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#query_string}
   */
   readonly queryString?: string;
   /**
   * The name of the workgroup in which the Athena query is being started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#work_group DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#work_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#work_group DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#work_group}
   */
   readonly workGroup?: string;
 }
@@ -1165,49 +1165,49 @@ export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpec
   /**
   * The Redshift cluster Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#cluster_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#cluster_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#cluster_role_arn DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#cluster_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#cluster_role_arn DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#cluster_role_arn}
   */
   readonly clusterRoleArn?: string;
   /**
   * The name of the Redshift database used in Redshift query execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#database DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#database DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * The database user name used in Redshift query execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#db_user DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#db_user DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#db_user}
   */
   readonly dbUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The compression used for Redshift query results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_compression DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_compression DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_compression}
   */
   readonly outputCompression?: string;
   /**
   * The data storage format for Redshift query results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_format DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_format DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_format}
   */
   readonly outputFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_s3_uri}
   */
   readonly outputS3Uri?: string;
   /**
   * The SQL query statements to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#query_string DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#query_string DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#query_string}
   */
   readonly queryString?: string;
 }
@@ -1535,25 +1535,25 @@ export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpec
   /**
   * Configuration for Athena Dataset Definition input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#athena_dataset_definition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#athena_dataset_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#athena_dataset_definition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#athena_dataset_definition}
   */
   readonly athenaDatasetDefinition?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingInputsDatasetDefinitionAthenaDatasetDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#data_distribution_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#data_distribution_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#data_distribution_type}
   */
   readonly dataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#input_mode}
   */
   readonly inputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
   * Configuration for Redshift Dataset Definition input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#redshift_dataset_definition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#redshift_dataset_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#redshift_dataset_definition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#redshift_dataset_definition}
   */
   readonly redshiftDatasetDefinition?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingInputsDatasetDefinitionRedshiftDatasetDefinition;
 }
@@ -1763,27 +1763,27 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingInputsS3Input {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_compression_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_compression_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_compression_type}
   */
   readonly s3CompressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_data_type}
   */
   readonly s3DataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_input_mode DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_input_mode DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2022,23 +2022,23 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingInputs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#app_managed DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#app_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#app_managed DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#app_managed}
   */
   readonly appManaged?: boolean | cdktf.IResolvable;
   /**
   * Configuration for Dataset Definition inputs. The Dataset Definition input must specify exactly one of either AthenaDatasetDefinition or RedshiftDatasetDefinition types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#dataset_definition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#dataset_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#dataset_definition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#dataset_definition}
   */
   readonly datasetDefinition?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingInputsDatasetDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#input_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#input_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#input_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#input_name}
   */
   readonly inputName?: string;
   /**
   * Configuration for downloading input data from Amazon S3 into the processing container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_input DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_input DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_input}
   */
   readonly s3Input?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingInputsS3Input;
 }
@@ -2241,7 +2241,7 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfigOutputsFeatureStoreOutput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#feature_group_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#feature_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#feature_group_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#feature_group_name}
   */
   readonly featureGroupName?: string;
 }
@@ -2335,15 +2335,15 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfigOutputsS3Output {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_upload_mode DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_upload_mode DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_upload_mode}
   */
   readonly s3UploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2495,23 +2495,23 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfigOutputs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#app_managed DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#app_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#app_managed DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#app_managed}
   */
   readonly appManaged?: boolean | cdktf.IResolvable;
   /**
   * Configuration for processing job outputs in Amazon SageMaker Feature Store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#feature_store_output DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#feature_store_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#feature_store_output DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#feature_store_output}
   */
   readonly featureStoreOutput?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfigOutputsFeatureStoreOutput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#output_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#output_name}
   */
   readonly outputName?: string;
   /**
   * Configuration for uploading output data to Amazon S3 from the processing container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_output DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#s3_output DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#s3_output}
   */
   readonly s3Output?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfigOutputsS3Output;
 }
@@ -2714,11 +2714,11 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#outputs DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#outputs DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfigOutputs[] | cdktf.IResolvable;
 }
@@ -2841,19 +2841,19 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingResourcesClusterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -3036,7 +3036,7 @@ export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpec
   /**
   * Configuration for the cluster used to run a processing job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#cluster_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#cluster_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingResourcesClusterConfig;
 }
@@ -3130,7 +3130,7 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProc
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecStoppingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
 }
@@ -3224,11 +3224,11 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecStop
 }
 export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3375,67 +3375,67 @@ export interface DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpec
   /**
   * Configures the processing job to run a specified Docker container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#app_specification DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#app_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#app_specification DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#app_specification}
   */
   readonly appSpecification: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecAppSpecification;
   /**
   * The environment variables to set in the Docker container. Up to 100 key and values entries in the map are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Associates a SageMaker job as a trial component with an experiment and trial. Specified when you call the following APIs: * CreateProcessingJob (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateProcessingJob.html) * CreateTrainingJob (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateTrainingJob.html) * CreateTransformJob (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateTransformJob.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#experiment_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#experiment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#experiment_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#experiment_config}
   */
   readonly experimentConfig?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecExperimentConfig;
   /**
   * Networking options for a processing job, such as whether to allow inbound and outbound network calls to and from processing containers, and the VPC subnets and security groups to use for VPC-enabled processing jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#network_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#network_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#network_config}
   */
   readonly networkConfig?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecNetworkConfig;
   /**
   * An array of inputs configuring the data to download into the processing container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_inputs DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_inputs DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_inputs}
   */
   readonly processingInputs?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingInputs[] | cdktf.IResolvable;
   /**
   * The name of the processing job. The name must be unique within an Amazon Web Services Region in the Amazon Web Services account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_job_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_job_name DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_job_name}
   */
   readonly processingJobName: string;
   /**
   * Output configuration for the processing job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_output_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_output_config DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_output_config}
   */
   readonly processingOutputConfig?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingOutputConfig;
   /**
   * Identifies the resources, ML compute instances, and ML storage volumes to deploy for a processing job. In distributed training, you specify more than one instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_resources DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#processing_resources DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#processing_resources}
   */
   readonly processingResources: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecProcessingResources;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to perform tasks on your behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
   * The time limit for how long the processing job is allowed to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#stopping_condition}
   */
   readonly stoppingCondition?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecStoppingCondition;
   /**
   * (Optional) An array of key-value pairs. For more information, see Using Cost Allocation Tags (https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html#allocation-whatURL) in the Amazon Web Services Billing and Cost Management User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -3807,7 +3807,7 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3823,7 +3823,7 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3835,7 +3835,7 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3846,8 +3846,8 @@ export class DataK8SSagemakerServicesK8SAwsProcessingJobV1Alpha1Manifest extends
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_processing_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

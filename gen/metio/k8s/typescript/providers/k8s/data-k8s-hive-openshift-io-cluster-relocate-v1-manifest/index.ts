@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoClusterRelocateV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoClusterRelocateV1ManifestMetadata;
   /**
   * ClusterRelocateSpec defines the relocation of clusters from one Hive instance to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#spec DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#spec DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHiveOpenshiftIoClusterRelocateV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#labels DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#labels DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#name DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#name DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpecClusterDeplo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#key DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#key DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#operator DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#operator DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#values DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#values DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpecClusterDeplo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpecClusterDeploymentSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,13 +532,13 @@ export interface DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpecKubeconfigSe
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#name DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#name DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace where the secret lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -657,13 +657,13 @@ export interface DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpec {
   /**
   * ClusterDeploymentSelector is a LabelSelector indicating which clusters will be relocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#cluster_deployment_selector DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#cluster_deployment_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#cluster_deployment_selector DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#cluster_deployment_selector}
   */
   readonly clusterDeploymentSelector: DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpecClusterDeploymentSelector;
   /**
   * KubeconfigSecretRef is a reference to the secret containing the kubeconfig for the destination Hive instance. The kubeconfig must be in a data field where the key is 'kubeconfig'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#kubeconfig_secret_ref DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#kubeconfig_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#kubeconfig_secret_ref DataK8SHiveOpenshiftIoClusterRelocateV1Manifest#kubeconfig_secret_ref}
   */
   readonly kubeconfigSecretRef: DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpecKubeconfigSecretRef;
 }
@@ -780,7 +780,7 @@ export class DataK8SHiveOpenshiftIoClusterRelocateV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest k8s_hive_openshift_io_cluster_relocate_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest k8s_hive_openshift_io_cluster_relocate_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoClusterRelocateV1Manifest extends cdktf.TerraformDataSource {
 
@@ -796,7 +796,7 @@ export class DataK8SHiveOpenshiftIoClusterRelocateV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoClusterRelocateV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoClusterRelocateV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterRelocateV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterRelocateV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoClusterRelocateV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -808,7 +808,7 @@ export class DataK8SHiveOpenshiftIoClusterRelocateV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest k8s_hive_openshift_io_cluster_relocate_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_relocate_v1_manifest k8s_hive_openshift_io_cluster_relocate_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -819,8 +819,8 @@ export class DataK8SHiveOpenshiftIoClusterRelocateV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_hive_openshift_io_cluster_relocate_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

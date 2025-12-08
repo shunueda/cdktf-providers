@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface YundunDbauditInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#description YundunDbauditInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#description YundunDbauditInstance#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#id YundunDbauditInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#id YundunDbauditInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#period YundunDbauditInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#period YundunDbauditInstance#period}
   */
   readonly period: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#plan_code YundunDbauditInstance#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#plan_code YundunDbauditInstance#plan_code}
   */
   readonly planCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#resource_group_id YundunDbauditInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#resource_group_id YundunDbauditInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#tags YundunDbauditInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#tags YundunDbauditInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#vswitch_id YundunDbauditInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#vswitch_id YundunDbauditInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#timeouts YundunDbauditInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#timeouts YundunDbauditInstance#timeouts}
   */
   readonly timeouts?: YundunDbauditInstanceTimeouts;
 }
 export interface YundunDbauditInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#create YundunDbauditInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#create YundunDbauditInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#update YundunDbauditInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#update YundunDbauditInstance#update}
   */
   readonly update?: string;
 }
@@ -174,7 +174,7 @@ export class YundunDbauditInstanceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance alicloud_yundun_dbaudit_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance alicloud_yundun_dbaudit_instance}
 */
 export class YundunDbauditInstance extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class YundunDbauditInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YundunDbauditInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YundunDbauditInstance to import
-  * @param importFromId The id of the existing YundunDbauditInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YundunDbauditInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YundunDbauditInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class YundunDbauditInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/yundun_dbaudit_instance alicloud_yundun_dbaudit_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/yundun_dbaudit_instance alicloud_yundun_dbaudit_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class YundunDbauditInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_yundun_dbaudit_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

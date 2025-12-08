@@ -3,25 +3,25 @@ export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#annotations DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#annotations DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,15 +196,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestMetadata
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -353,11 +353,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#api_version DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#api_version DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -477,15 +477,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#divisor DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#divisor DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -634,15 +634,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -791,19 +791,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFromSecretKeyRef;
 }
@@ -984,15 +984,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvValueFrom;
 }
@@ -1163,11 +1163,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1290,11 +1290,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1417,15 +1417,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#prefix DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#prefix DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvFromSecretRef;
 }
@@ -1599,7 +1599,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1693,11 +1693,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -1836,23 +1836,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2059,7 +2059,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -2150,11 +2150,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -2274,19 +2274,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStartTcpSocket;
 }
@@ -2467,7 +2467,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2561,11 +2561,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -2704,23 +2704,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2927,7 +2927,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -3018,11 +3018,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -3142,19 +3142,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStopTcpSocket;
 }
@@ -3335,11 +3335,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#post_start DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#post_start DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pre_stop DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pre_stop DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecyclePreStop;
 }
@@ -3462,7 +3462,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3556,11 +3556,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -3680,11 +3680,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -3823,23 +3823,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4046,11 +4046,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -4170,43 +4170,43 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4561,23 +4561,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_ip DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_ip DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#protocol DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#protocol DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -4806,7 +4806,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4900,11 +4900,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -5024,11 +5024,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -5167,23 +5167,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5390,11 +5390,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -5514,43 +5514,43 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5905,11 +5905,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#restart_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#restart_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -6048,11 +6048,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#request DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#request DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -6194,15 +6194,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#claims DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#claims DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#limits DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#limits DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#requests DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#requests DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6354,11 +6354,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#localhost_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#localhost_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -6478,11 +6478,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#add DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#add DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#drop DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#drop DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6605,19 +6605,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#level DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#level DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#role DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#role DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#user DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#user DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6798,11 +6798,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#localhost_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#localhost_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -6922,19 +6922,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#gmsa_credential_spec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#gmsa_credential_spec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#gmsa_credential_spec_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#gmsa_credential_spec_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_process DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_process DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_user_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_user_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -7115,51 +7115,51 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#allow_privilege_escalation DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#allow_privilege_escalation DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#app_armor_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#app_armor_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#capabilities DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#capabilities DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#privileged DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#privileged DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#proc_mount DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#proc_mount DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#read_only_root_filesystem DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#read_only_root_filesystem DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_group DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_group DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_non_root DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_non_root DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_user DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#run_as_user DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#se_linux_options DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#se_linux_options DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seccomp_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seccomp_profile DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#windows_options DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#windows_options DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContextWindowsOptions;
 }
@@ -7572,7 +7572,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7666,11 +7666,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7790,11 +7790,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -7933,23 +7933,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8156,11 +8156,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -8280,43 +8280,43 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8671,11 +8671,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#device_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#device_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -8814,31 +8814,31 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mount_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mount_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mount_propagation DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mount_propagation DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#read_only DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#read_only DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#recursive_read_only DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#recursive_read_only DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sub_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sub_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sub_path_expr DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sub_path_expr DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -9122,99 +9122,99 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#args DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#args DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#env DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#env DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#env}
   */
   readonly env?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#env_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#env_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#image DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#image DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#image_pull_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#image_pull_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#lifecycle DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#lifecycle DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#liveness_probe DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#liveness_probe DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#ports DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#ports DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#readiness_probe DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#readiness_probe DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resize_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resize_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resources DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resources DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#restart_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#restart_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#security_context DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#security_context DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#startup_probe DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#startup_probe DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stdin DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stdin DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stdin_once DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stdin_once DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_message_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_message_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_message_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_message_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tty DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tty DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#volume_devices DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#volume_devices DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#volume_mounts DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#volume_mounts DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAdditionalContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#working_dir DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#working_dir DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -9994,15 +9994,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAddi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10170,15 +10170,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10346,11 +10346,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_fields DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_fields DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -10473,11 +10473,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preference DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preference DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#weight DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#weight DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -10616,15 +10616,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10792,15 +10792,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10968,11 +10968,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_fields DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_fields DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -11117,7 +11117,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#node_selector_terms DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#node_selector_terms DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -11208,11 +11208,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -11335,15 +11335,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11511,11 +11511,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11638,15 +11638,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11814,11 +11814,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11941,27 +11941,27 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12197,11 +12197,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_affinity_term DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_affinity_term DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#weight DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#weight DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -12340,15 +12340,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12516,11 +12516,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12643,15 +12643,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12819,11 +12819,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12946,27 +12946,27 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13224,11 +13224,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -13351,15 +13351,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13527,11 +13527,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13654,15 +13654,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13830,11 +13830,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13957,27 +13957,27 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -14213,11 +14213,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_affinity_term DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_affinity_term DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#weight DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#weight DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -14356,15 +14356,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14532,11 +14532,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14659,15 +14659,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14835,11 +14835,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14962,27 +14962,27 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#label_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mismatch_label_keys DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespace_selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#namespaces DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#topology_key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -15240,11 +15240,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -15367,15 +15367,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#node_affinity DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#node_affinity DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_affinity DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_affinity DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_anti_affinity DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pod_anti_affinity DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -15527,15 +15527,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAffi
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleDownPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: number;
 }
@@ -15700,15 +15700,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#policies DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#policies DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#policies}
   */
   readonly policies?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleDownPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#select_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#select_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stabilization_window_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stabilization_window_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -15860,15 +15860,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleUpPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: number;
 }
@@ -16033,15 +16033,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleUp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#policies DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#policies DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#policies}
   */
   readonly policies?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleUpPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#select_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#select_policy DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stabilization_window_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#stabilization_window_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -16193,11 +16193,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehavior {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scale_down DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scale_down DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scale_down}
   */
   readonly scaleDown?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleDown;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scale_up DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scale_up DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scale_up}
   */
   readonly scaleUp?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehaviorScaleUp;
 }
@@ -16320,15 +16320,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsMetricSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#operator DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#values DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16496,11 +16496,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsMetricSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_expressions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#match_labels DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16623,11 +16623,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#selector DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsMetricSelector;
 }
@@ -16747,19 +16747,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#average_utilization DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#average_utilization DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#average_value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#average_value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16937,11 +16937,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#metric DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#metric DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#metric}
   */
   readonly metric: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#target DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#target DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#target}
   */
   readonly target: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPodsTarget;
 }
@@ -17058,11 +17058,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pods DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pods DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pods}
   */
   readonly pods?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetricsPods;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -17204,27 +17204,27 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#behavior DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#behavior DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#behavior}
   */
   readonly behavior?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerBehavior;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_replicas DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_replicas DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#metrics DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#metrics DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#metrics}
   */
   readonly metrics?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAutoscalerMetrics[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#min_replicas DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#min_replicas DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#target_cpu_utilization DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#target_cpu_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#target_cpu_utilization DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#target_cpu_utilization}
   */
   readonly targetCpuUtilization?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#target_memory_utilization DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#target_memory_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#target_memory_utilization DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#target_memory_utilization}
   */
   readonly targetMemoryUtilization?: number;
 }
@@ -17463,15 +17463,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecAuto
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecConfigService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#extensions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#extensions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#extensions}
   */
   readonly extensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pipelines DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pipelines DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pipelines}
   */
   readonly pipelines: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#telemetry DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#telemetry DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#telemetry}
   */
   readonly telemetry?: { [key: string]: string };
 }
@@ -17620,27 +17620,27 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecConf
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#connectors DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#connectors DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#connectors}
   */
   readonly connectors?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exporters DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exporters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exporters DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exporters}
   */
   readonly exporters: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#extensions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#extensions DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#extensions}
   */
   readonly extensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#processors DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#processors DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#processors}
   */
   readonly processors?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#receivers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#receivers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#receivers}
   */
   readonly receivers: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
   */
   readonly service: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecConfigService;
 }
@@ -17870,11 +17870,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecConf
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecConfigmaps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mountpath DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mountpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#mountpath DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#mountpath}
   */
   readonly mountpath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -18013,11 +18013,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecConf
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDaemonSetUpdateStrategyRollingUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_surge DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_surge DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_unavailable DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_unavailable DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -18140,11 +18140,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDaem
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDaemonSetUpdateStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#rolling_update DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#rolling_update DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDaemonSetUpdateStrategyRollingUpdate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -18267,11 +18267,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDaem
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDeploymentUpdateStrategyRollingUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_surge DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_surge DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_unavailable DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#max_unavailable DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -18394,11 +18394,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDepl
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDeploymentUpdateStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#rolling_update DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#rolling_update DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDeploymentUpdateStrategyRollingUpdate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -18521,15 +18521,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecDepl
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18678,11 +18678,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvV
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#api_version DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#api_version DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -18802,15 +18802,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvV
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#divisor DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#divisor DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -18959,15 +18959,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvV
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19116,19 +19116,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvV
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -19309,15 +19309,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvV
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvValueFrom;
 }
@@ -19488,11 +19488,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvL
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19615,11 +19615,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvF
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19742,15 +19742,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvF
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#prefix DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#prefix DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvFromSecretRef;
 }
@@ -19924,7 +19924,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecEnvF
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngressRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination}
   */
   readonly termination?: string;
 }
@@ -20018,11 +20018,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngr
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngressTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#hosts DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#hosts DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -20167,31 +20167,31 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngr
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#annotations DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#annotations DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#hostname DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#hostname DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#ingress_class_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#ingress_class_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#route DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#route DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#route}
   */
   readonly route?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngressRoute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#rule_type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#rule_type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#rule_type}
   */
   readonly ruleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tls DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tls DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngressTls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#type DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -20459,15 +20459,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecIngr
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20616,11 +20616,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#api_version DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#api_version DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -20740,15 +20740,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#divisor DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#divisor DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -20897,15 +20897,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#key DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21054,19 +21054,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#resource_field_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_key_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -21247,15 +21247,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value_from DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvValueFrom;
 }
@@ -21426,11 +21426,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21553,11 +21553,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#optional DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21680,15 +21680,15 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#config_map_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#prefix DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#prefix DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#secret_ref DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersEnvFromSecretRef;
 }
@@ -21862,7 +21862,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21956,11 +21956,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -22099,23 +22099,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22322,7 +22322,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -22413,11 +22413,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -22537,19 +22537,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -22730,7 +22730,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22824,11 +22824,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -22967,23 +22967,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -23190,7 +23190,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -23281,11 +23281,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -23405,19 +23405,19 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#sleep DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -23598,11 +23598,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#post_start DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#post_start DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pre_stop DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#pre_stop DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLifecyclePreStop;
 }
@@ -23725,7 +23725,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23819,11 +23819,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -23943,11 +23943,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -24086,23 +24086,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24309,11 +24309,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -24433,43 +24433,43 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -24824,23 +24824,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#container_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_ip DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_ip DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host_port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#protocol DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#protocol DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -25069,7 +25069,7 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#command DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25163,11 +25163,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#service DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -25287,11 +25287,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#name DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#value DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -25430,23 +25430,23 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_headers DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#path DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#scheme DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25653,11 +25653,11 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#host DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#port DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -25777,43 +25777,43 @@ export class DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInit
 }
 export interface DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#exec DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#failure_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#grpc DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#http_get DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#initial_delay_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#success_threshold DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#tcp_socket DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1ManifestSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#termination_grace_period_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/opentelemetry_io_open_telemetry_collector_v1beta1_manifest#timeout_seconds DataK8SOpentelemetryIoOpenTelemetryCollectorV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }

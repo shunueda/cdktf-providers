@@ -257,6 +257,8 @@ Object.defineProperty(exports, 'crEeSyncRule', { get: function () { return requi
 Object.defineProperty(exports, 'crEndpointAclPolicy', { get: function () { return require('./cr-endpoint-acl-policy'); } });
 Object.defineProperty(exports, 'crNamespace', { get: function () { return require('./cr-namespace'); } });
 Object.defineProperty(exports, 'crRepo', { get: function () { return require('./cr-repo'); } });
+Object.defineProperty(exports, 'crScanRule', { get: function () { return require('./cr-scan-rule'); } });
+Object.defineProperty(exports, 'crStorageDomainRoutingRule', { get: function () { return require('./cr-storage-domain-routing-rule'); } });
 Object.defineProperty(exports, 'crVpcEndpointLinkedVpc', { get: function () { return require('./cr-vpc-endpoint-linked-vpc'); } });
 Object.defineProperty(exports, 'csApplication', { get: function () { return require('./cs-application'); } });
 Object.defineProperty(exports, 'csAutoscalingConfig', { get: function () { return require('./cs-autoscaling-config'); } });
@@ -876,6 +878,8 @@ Object.defineProperty(exports, 'rdsParameterGroup', { get: function () { return 
 Object.defineProperty(exports, 'rdsServiceLinkedRole', { get: function () { return require('./rds-service-linked-role'); } });
 Object.defineProperty(exports, 'rdsUpgradeDbInstance', { get: function () { return require('./rds-upgrade-db-instance'); } });
 Object.defineProperty(exports, 'rdsWhitelistTemplate', { get: function () { return require('./rds-whitelist-template'); } });
+Object.defineProperty(exports, 'realtimeComputeDeployment', { get: function () { return require('./realtime-compute-deployment'); } });
+Object.defineProperty(exports, 'realtimeComputeJob', { get: function () { return require('./realtime-compute-job'); } });
 Object.defineProperty(exports, 'realtimeComputeVvpInstance', { get: function () { return require('./realtime-compute-vvp-instance'); } });
 Object.defineProperty(exports, 'redisTairInstance', { get: function () { return require('./redis-tair-instance'); } });
 Object.defineProperty(exports, 'reservedInstance', { get: function () { return require('./reserved-instance'); } });

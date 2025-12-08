@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#action OssBucketReplication#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#action OssBucketReplication#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#bucket OssBucketReplication#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#bucket OssBucketReplication#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#historical_object_replication OssBucketReplication#historical_object_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#historical_object_replication OssBucketReplication#historical_object_replication}
   */
   readonly historicalObjectReplication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#id OssBucketReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#id OssBucketReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#sync_role OssBucketReplication#sync_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#sync_role OssBucketReplication#sync_role}
   */
   readonly syncRole?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#destination OssBucketReplication#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#destination OssBucketReplication#destination}
   */
   readonly destination: OssBucketReplicationDestination;
   /**
   * encryption_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#encryption_configuration OssBucketReplication#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#encryption_configuration OssBucketReplication#encryption_configuration}
   */
   readonly encryptionConfiguration?: OssBucketReplicationEncryptionConfiguration;
   /**
   * prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#prefix_set OssBucketReplication#prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#prefix_set OssBucketReplication#prefix_set}
   */
   readonly prefixSet?: OssBucketReplicationPrefixSet;
   /**
   * progress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#progress OssBucketReplication#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#progress OssBucketReplication#progress}
   */
   readonly progress?: OssBucketReplicationProgress;
   /**
   * rtc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#rtc OssBucketReplication#rtc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#rtc OssBucketReplication#rtc}
   */
   readonly rtc?: OssBucketReplicationRtc;
   /**
   * source_selection_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#source_selection_criteria OssBucketReplication#source_selection_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#source_selection_criteria OssBucketReplication#source_selection_criteria}
   */
   readonly sourceSelectionCriteria?: OssBucketReplicationSourceSelectionCriteria;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#timeouts OssBucketReplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#timeouts OssBucketReplication#timeouts}
   */
   readonly timeouts?: OssBucketReplicationTimeouts;
 }
 export interface OssBucketReplicationDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#bucket OssBucketReplication#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#bucket OssBucketReplication#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#location OssBucketReplication#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#location OssBucketReplication#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#transfer_type OssBucketReplication#transfer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#transfer_type OssBucketReplication#transfer_type}
   */
   readonly transferType?: string;
 }
@@ -219,7 +219,7 @@ export class OssBucketReplicationDestinationOutputReference extends cdktf.Comple
 }
 export interface OssBucketReplicationEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#replica_kms_key_id OssBucketReplication#replica_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#replica_kms_key_id OssBucketReplication#replica_kms_key_id}
   */
   readonly replicaKmsKeyId: string;
 }
@@ -300,7 +300,7 @@ export class OssBucketReplicationEncryptionConfigurationOutputReference extends 
 }
 export interface OssBucketReplicationPrefixSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#prefixes OssBucketReplication#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#prefixes OssBucketReplication#prefixes}
   */
   readonly prefixes: string[];
 }
@@ -440,7 +440,7 @@ export class OssBucketReplicationProgressOutputReference extends cdktf.ComplexOb
 }
 export interface OssBucketReplicationRtc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#enabled OssBucketReplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#enabled OssBucketReplication#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -526,7 +526,7 @@ export class OssBucketReplicationRtcOutputReference extends cdktf.ComplexObject 
 }
 export interface OssBucketReplicationSourceSelectionCriteriaSseKmsEncryptedObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#status OssBucketReplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#status OssBucketReplication#status}
   */
   readonly status?: string;
 }
@@ -612,7 +612,7 @@ export interface OssBucketReplicationSourceSelectionCriteria {
   /**
   * sse_kms_encrypted_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#sse_kms_encrypted_objects OssBucketReplication#sse_kms_encrypted_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#sse_kms_encrypted_objects OssBucketReplication#sse_kms_encrypted_objects}
   */
   readonly sseKmsEncryptedObjects?: OssBucketReplicationSourceSelectionCriteriaSseKmsEncryptedObjects;
 }
@@ -696,7 +696,7 @@ export class OssBucketReplicationSourceSelectionCriteriaOutputReference extends 
 }
 export interface OssBucketReplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#delete OssBucketReplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#delete OssBucketReplication#delete}
   */
   readonly delete?: string;
 }
@@ -790,7 +790,7 @@ export class OssBucketReplicationTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication alicloud_oss_bucket_replication}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication alicloud_oss_bucket_replication}
 */
 export class OssBucketReplication extends cdktf.TerraformResource {
 
@@ -806,7 +806,7 @@ export class OssBucketReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucketReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucketReplication to import
-  * @param importFromId The id of the existing OssBucketReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucketReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucketReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -818,7 +818,7 @@ export class OssBucketReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_replication alicloud_oss_bucket_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_replication alicloud_oss_bucket_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -829,8 +829,8 @@ export class OssBucketReplication extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_replication',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

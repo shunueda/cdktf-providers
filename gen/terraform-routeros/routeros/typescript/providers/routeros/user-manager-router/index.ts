@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface UserManagerRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#___path___ UserManagerRouter#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#___path___ UserManagerRouter#___path___}
   */
   readonly path?: string;
   /**
   * IP address of the RADIUS client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#address UserManagerRouter#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#address UserManagerRouter#address}
   */
   readonly address: string;
   /**
   * Port number of CoA (Change of Authorization) communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#coa_port UserManagerRouter#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#coa_port UserManagerRouter#coa_port}
   */
   readonly coaPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#disabled UserManagerRouter#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#disabled UserManagerRouter#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#id UserManagerRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#id UserManagerRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,19 +39,19 @@ export interface UserManagerRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the RADIUS client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#name UserManagerRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#name UserManagerRouter#name}
   */
   readonly name: string;
   /**
   * The shared secret to secure communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#shared_secret UserManagerRouter#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#shared_secret UserManagerRouter#shared_secret}
   */
   readonly sharedSecret?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router routeros_user_manager_router}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router routeros_user_manager_router}
 */
 export class UserManagerRouter extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class UserManagerRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagerRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagerRouter to import
-  * @param importFromId The id of the existing UserManagerRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagerRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagerRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class UserManagerRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_router routeros_user_manager_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_router routeros_user_manager_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class UserManagerRouter extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_user_manager_router',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCenTransitRouterMulticastDomainPeerMembersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#ids DataAlicloudCenTransitRouterMulticastDomainPeerMembers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#ids DataAlicloudCenTransitRouterMulticastDomainPeerMembers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#output_file DataAlicloudCenTransitRouterMulticastDomainPeerMembers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#output_file DataAlicloudCenTransitRouterMulticastDomainPeerMembers#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#peer_transit_router_multicast_domains DataAlicloudCenTransitRouterMulticastDomainPeerMembers#peer_transit_router_multicast_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#peer_transit_router_multicast_domains DataAlicloudCenTransitRouterMulticastDomainPeerMembers#peer_transit_router_multicast_domains}
   */
   readonly peerTransitRouterMulticastDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#resource_id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#resource_id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#resource_type DataAlicloudCenTransitRouterMulticastDomainPeerMembers#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#resource_type DataAlicloudCenTransitRouterMulticastDomainPeerMembers#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#transit_router_attachment_id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#transit_router_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#transit_router_attachment_id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#transit_router_attachment_id}
   */
   readonly transitRouterAttachmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#transit_router_multicast_domain_id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#transit_router_multicast_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#transit_router_multicast_domain_id DataAlicloudCenTransitRouterMulticastDomainPeerMembers#transit_router_multicast_domain_id}
   */
   readonly transitRouterMulticastDomainId: string;
 }
@@ -140,7 +140,7 @@ export class DataAlicloudCenTransitRouterMulticastDomainPeerMembersMembersList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members alicloud_cen_transit_router_multicast_domain_peer_members}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members alicloud_cen_transit_router_multicast_domain_peer_members}
 */
 export class DataAlicloudCenTransitRouterMulticastDomainPeerMembers extends cdktf.TerraformDataSource {
 
@@ -156,7 +156,7 @@ export class DataAlicloudCenTransitRouterMulticastDomainPeerMembers extends cdkt
   * Generates CDKTF code for importing a DataAlicloudCenTransitRouterMulticastDomainPeerMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCenTransitRouterMulticastDomainPeerMembers to import
-  * @param importFromId The id of the existing DataAlicloudCenTransitRouterMulticastDomainPeerMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCenTransitRouterMulticastDomainPeerMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCenTransitRouterMulticastDomainPeerMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class DataAlicloudCenTransitRouterMulticastDomainPeerMembers extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members alicloud_cen_transit_router_multicast_domain_peer_members} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_multicast_domain_peer_members alicloud_cen_transit_router_multicast_domain_peer_members} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class DataAlicloudCenTransitRouterMulticastDomainPeerMembers extends cdkt
       terraformResourceType: 'alicloud_cen_transit_router_multicast_domain_peer_members',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

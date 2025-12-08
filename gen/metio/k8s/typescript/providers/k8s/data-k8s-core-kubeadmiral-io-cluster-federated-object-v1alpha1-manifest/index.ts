@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestMetadata;
   /**
   * Spec defines the desired behavior of the FederatedObject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,19 +185,19 @@ export class DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestMetad
 }
 export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecFollows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#group DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#group DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#kind DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#kind DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#namespace DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#namespace DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -394,15 +394,15 @@ export class DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecF
 }
 export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecOverridesClustersPatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#op DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#op DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#path DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#path DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -575,13 +575,13 @@ export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestS
   /**
   * Cluster is the name of the member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#cluster}
   */
   readonly cluster: string;
   /**
   * Patches is the list of override patches for the member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#patches DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#patches DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecOverridesClustersPatches[] | cdktf.IResolvable;
 }
@@ -725,13 +725,13 @@ export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestS
   /**
   * Override is the list of member clusters and their respective override patches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#clusters DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#clusters DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#clusters}
   */
   readonly clusters: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecOverridesClusters[] | cdktf.IResolvable;
   /**
   * Controller identifies the controller responsible for this override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#controller DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#controller DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#controller}
   */
   readonly controller: string;
 }
@@ -872,7 +872,7 @@ export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestS
   /**
   * Cluster is the name of the member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#cluster}
   */
   readonly cluster: string;
 }
@@ -987,13 +987,13 @@ export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestS
   /**
   * Controller identifies the controller responsible for this placement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#controller DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#controller DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#controller}
   */
   readonly controller: string;
   /**
   * Placement is the list of member clusters that the Kubernetes object should be propagated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#placement DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#placement DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#placement}
   */
   readonly placement: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecPlacementsPlacement[] | cdktf.IResolvable;
 }
@@ -1134,25 +1134,25 @@ export interface DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestS
   /**
   * Follows defines other objects, or 'leaders', that the Kubernetes object should follow during propagation, i.e. the Kubernetes object should be propagated to all member clusters that its 'leaders' are placed in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#follows DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#follows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#follows DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#follows}
   */
   readonly follows?: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecFollows[] | cdktf.IResolvable;
   /**
   * Overrides describe the overrides that should be applied to the base template of the Kubernetes object before it is propagated to individual member clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#overrides DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#overrides DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#overrides}
   */
   readonly overrides?: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecOverrides[] | cdktf.IResolvable;
   /**
   * Placements describe the member clusters that the Kubernetes object will be propagated to, which is a union of all the listed clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#placements DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#placements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#placements DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#placements}
   */
   readonly placements?: DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecPlacements[] | cdktf.IResolvable;
   /**
   * Template is the base template of the Kubernetes object to be propagated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#template DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#template DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest#template}
   */
   readonly template: { [key: string]: string };
 }
@@ -1330,7 +1330,7 @@ export class DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest}
 */
 export class DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1346,7 +1346,7 @@ export class DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1358,7 +1358,7 @@ export class DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1369,8 +1369,8 @@ export class DataK8SCoreKubeadmiralIoClusterFederatedObjectV1Alpha1Manifest exte
       terraformResourceType: 'k8s_core_kubeadmiral_io_cluster_federated_object_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

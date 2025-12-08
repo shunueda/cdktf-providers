@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#metadata DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#metadata DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestMetadata;
   /**
   * TaskSpec defines the desired state of Task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#spec DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#spec DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#annotations DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#annotations DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#labels DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#labels DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#name DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#name DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#namespace DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#namespace DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionAuthSe
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#name DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#name DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#namespace DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#namespace DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * HostScheme determines whether to use http or https for intelAMT calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#host_scheme DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#host_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#host_scheme DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#host_scheme}
   */
   readonly hostScheme?: string;
   /**
   * Port that intelAMT will use for calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
   */
   readonly port: number;
 }
@@ -478,13 +478,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * CipherSuite that ipmitool will use for calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#cipher_suite DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#cipher_suite DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#cipher_suite}
   */
   readonly cipherSuite?: string;
   /**
   * Port that ipmitool will use for calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -609,7 +609,7 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * Port that redfish will use for calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
   */
   readonly port: number;
 }
@@ -702,13 +702,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * CustomRequestPayload must be in json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#custom_request_payload DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#custom_request_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#custom_request_payload DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#custom_request_payload}
   */
   readonly customRequestPayload?: string;
   /**
   * DotPath is the path to the json object where the bmclib RequestPayload{} struct will be embedded. For example: object.data.body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#dot_path DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#dot_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#dot_path DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#dot_path}
   */
   readonly dotPath?: string;
 }
@@ -833,13 +833,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * PrefixSigDisabled determines whether the algorithm will be prefixed to the signature. Example: sha256=abc123
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#prefix_sig_disabled DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#prefix_sig_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#prefix_sig_disabled DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#prefix_sig_disabled}
   */
   readonly prefixSigDisabled?: boolean | cdktf.IResolvable;
   /**
   * Secrets are a map of algorithms to secrets used for signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#secrets DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#secrets DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#secrets}
   */
   readonly secrets?: { [key: string]: string };
 }
@@ -964,31 +964,31 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * HTTPContentType is the content type to use for the rpc request notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#http_content_type DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#http_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#http_content_type DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#http_content_type}
   */
   readonly httpContentType?: string;
   /**
   * HTTPMethod is the HTTP method to use for the rpc request notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#http_method DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#http_method DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#http_method}
   */
   readonly httpMethod?: string;
   /**
   * StaticHeaders are predefined headers that will be added to every request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#static_headers DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#static_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#static_headers DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#static_headers}
   */
   readonly staticHeaders?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * TimestampFormat is the time format for the timestamp header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#timestamp_format DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#timestamp_format DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * TimestampHeader is the header name that should contain the timestamp. Example: X-BMCLIB-Timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#timestamp_header DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#timestamp_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#timestamp_header DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#timestamp_header}
   */
   readonly timestampHeader?: string;
 }
@@ -1200,19 +1200,19 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * AppendAlgoToHeaderDisabled decides whether to append the algorithm to the signature header or not. Example: X-BMCLIB-Signature becomes X-BMCLIB-Signature-256 When set to true, a header will be added for each algorithm. Example: X-BMCLIB-Signature-256 and X-BMCLIB-Signature-512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#append_algo_to_header_disabled DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#append_algo_to_header_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#append_algo_to_header_disabled DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#append_algo_to_header_disabled}
   */
   readonly appendAlgoToHeaderDisabled?: boolean | cdktf.IResolvable;
   /**
   * HeaderName is the header name that should contain the signature(s). Example: X-BMCLIB-Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#header_name DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#header_name DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#header_name}
   */
   readonly headerName?: string;
   /**
   * IncludedPayloadHeaders are headers whose values will be included in the signature payload. Example: X-BMCLIB-My-Custom-Header All headers will be deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#included_payload_headers DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#included_payload_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#included_payload_headers DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#included_payload_headers}
   */
   readonly includedPayloadHeaders?: string[];
 }
@@ -1366,37 +1366,37 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * ConsumerURL is the URL where an rpc consumer/listener is running and to which we will send and receive all notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#consumer_url DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#consumer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#consumer_url DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#consumer_url}
   */
   readonly consumerUrl: string;
   /**
   * Experimental options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#experimental DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#experimental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#experimental DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#experimental}
   */
   readonly experimental?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsRpcExperimental;
   /**
   * HMAC is the options used to create a HMAC signature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#hmac DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#hmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#hmac DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#hmac}
   */
   readonly hmac?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsRpcHmac;
   /**
   * LogNotificationsDisabled determines whether responses from rpc consumer/listeners will be logged or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#log_notifications_disabled DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#log_notifications_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#log_notifications_disabled DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#log_notifications_disabled}
   */
   readonly logNotificationsDisabled?: boolean | cdktf.IResolvable;
   /**
   * Request is the options used to create the rpc HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#request DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#request DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#request}
   */
   readonly request?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsRpcRequest;
   /**
   * Signature is the options used for adding an HMAC signature to an HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#signature DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#signature DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#signature}
   */
   readonly signature?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsRpcSignature;
 }
@@ -1634,25 +1634,25 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProvid
   /**
   * IntelAMT contains the options to customize the IntelAMT provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#intel_amt DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#intel_amt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#intel_amt DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#intel_amt}
   */
   readonly intelAmt?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsIntelAmt;
   /**
   * IPMITOOL contains the options to customize the Ipmitool provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#ipmitool DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#ipmitool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#ipmitool DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#ipmitool}
   */
   readonly ipmitool?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsIpmitool;
   /**
   * Redfish contains the options to customize the Redfish provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#redfish DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#redfish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#redfish DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#redfish}
   */
   readonly redfish?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsRedfish;
   /**
   * RPC contains the options to customize the RPC provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#rpc DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#rpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#rpc DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#rpc}
   */
   readonly rpc?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptionsRpc;
 }
@@ -1835,31 +1835,31 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnection {
   /**
   * AuthSecretRef is the SecretReference that contains authentication information of the Machine. The Secret must contain username and password keys. This is optional as it is not required when using the RPC provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#auth_secret_ref DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#auth_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#auth_secret_ref DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#auth_secret_ref}
   */
   readonly authSecretRef?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionAuthSecretRef;
   /**
   * Host is the host IP address or hostname of the Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#host DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#host DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * InsecureTLS specifies trusted TLS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#insecure_tls DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#insecure_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#insecure_tls DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#insecure_tls}
   */
   readonly insecureTls: boolean | cdktf.IResolvable;
   /**
   * Port is the port number for connecting with the Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#port DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * ProviderOptions contains provider specific options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#provider_options DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#provider_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#provider_options DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#provider_options}
   */
   readonly providerOptions?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnectionProviderOptions;
 }
@@ -2065,13 +2065,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecTaskOneTimeBootD
   /**
   * Devices represents the boot devices, in order for setting one time boot. Currently only the first device in the slice is used to set one time boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#device DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#device DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#device}
   */
   readonly device: string[];
   /**
   * EFIBoot instructs the machine to use EFI boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#efi_boot DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#efi_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#efi_boot DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#efi_boot}
   */
   readonly efiBoot?: boolean | cdktf.IResolvable;
 }
@@ -2191,13 +2191,13 @@ export class DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecTaskOneTimeBootDevic
 }
 export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecTaskVirtualMediaAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#kind DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#kind DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * mediaURL represents the URL of the image to be inserted into the virtual media, or empty to eject media.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#media_url DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#media_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#media_url DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#media_url}
   */
   readonly mediaUrl?: string;
 }
@@ -2319,19 +2319,19 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecTask {
   /**
   * OneTimeBootDeviceAction represents a baseboard management one time set boot device operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#one_time_boot_device_action DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#one_time_boot_device_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#one_time_boot_device_action DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#one_time_boot_device_action}
   */
   readonly oneTimeBootDeviceAction?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecTaskOneTimeBootDeviceAction;
   /**
   * PowerAction represents a baseboard management power operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#power_action DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#power_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#power_action DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#power_action}
   */
   readonly powerAction?: string;
   /**
   * VirtualMediaAction represents a baseboard management virtual media insert/eject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#virtual_media_action DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#virtual_media_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#virtual_media_action DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#virtual_media_action}
   */
   readonly virtualMediaAction?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecTaskVirtualMediaAction;
 }
@@ -2485,13 +2485,13 @@ export interface DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpec {
   /**
   * Connection represents the Machine connectivity information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#connection DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#connection DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#connection}
   */
   readonly connection?: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecConnection;
   /**
   * Task defines the specific action to be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#task DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#task DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest#task}
   */
   readonly task: DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecTask;
 }
@@ -2611,7 +2611,7 @@ export class DataK8SBmcTinkerbellOrgTaskV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest k8s_bmc_tinkerbell_org_task_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest k8s_bmc_tinkerbell_org_task_v1alpha1_manifest}
 */
 export class DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2627,7 +2627,7 @@ export class DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2639,7 +2639,7 @@ export class DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest k8s_bmc_tinkerbell_org_task_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bmc_tinkerbell_org_task_v1alpha1_manifest k8s_bmc_tinkerbell_org_task_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2650,8 +2650,8 @@ export class DataK8SBmcTinkerbellOrgTaskV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_bmc_tinkerbell_org_task_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

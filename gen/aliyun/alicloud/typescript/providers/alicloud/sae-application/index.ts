@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,340 +8,340 @@ import * as cdktf from 'cdktf';
 
 export interface SaeApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#acr_assume_role_arn SaeApplication#acr_assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#acr_assume_role_arn SaeApplication#acr_assume_role_arn}
   */
   readonly acrAssumeRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#acr_instance_id SaeApplication#acr_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#acr_instance_id SaeApplication#acr_instance_id}
   */
   readonly acrInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#app_description SaeApplication#app_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#app_description SaeApplication#app_description}
   */
   readonly appDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#app_name SaeApplication#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#app_name SaeApplication#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#auto_config SaeApplication#auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#auto_config SaeApplication#auto_config}
   */
   readonly autoConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#auto_enable_application_scaling_rule SaeApplication#auto_enable_application_scaling_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#auto_enable_application_scaling_rule SaeApplication#auto_enable_application_scaling_rule}
   */
   readonly autoEnableApplicationScalingRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#batch_wait_time SaeApplication#batch_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#batch_wait_time SaeApplication#batch_wait_time}
   */
   readonly batchWaitTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#change_order_desc SaeApplication#change_order_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#change_order_desc SaeApplication#change_order_desc}
   */
   readonly changeOrderDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#command SaeApplication#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#command SaeApplication#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#command_args SaeApplication#command_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#command_args SaeApplication#command_args}
   */
   readonly commandArgs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#command_args_v2 SaeApplication#command_args_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#command_args_v2 SaeApplication#command_args_v2}
   */
   readonly commandArgsV2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#config_map_mount_desc SaeApplication#config_map_mount_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#config_map_mount_desc SaeApplication#config_map_mount_desc}
   */
   readonly configMapMountDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#cpu SaeApplication#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#cpu SaeApplication#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#custom_host_alias SaeApplication#custom_host_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#custom_host_alias SaeApplication#custom_host_alias}
   */
   readonly customHostAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#deploy SaeApplication#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#deploy SaeApplication#deploy}
   */
   readonly deploy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#edas_container_version SaeApplication#edas_container_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#edas_container_version SaeApplication#edas_container_version}
   */
   readonly edasContainerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#enable_ahas SaeApplication#enable_ahas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#enable_ahas SaeApplication#enable_ahas}
   */
   readonly enableAhas?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#enable_grey_tag_route SaeApplication#enable_grey_tag_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#enable_grey_tag_route SaeApplication#enable_grey_tag_route}
   */
   readonly enableGreyTagRoute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#envs SaeApplication#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#envs SaeApplication#envs}
   */
   readonly envs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#id SaeApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#id SaeApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#image_pull_secrets SaeApplication#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#image_pull_secrets SaeApplication#image_pull_secrets}
   */
   readonly imagePullSecrets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#image_url SaeApplication#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#image_url SaeApplication#image_url}
   */
   readonly imageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#jar_start_args SaeApplication#jar_start_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#jar_start_args SaeApplication#jar_start_args}
   */
   readonly jarStartArgs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#jar_start_options SaeApplication#jar_start_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#jar_start_options SaeApplication#jar_start_options}
   */
   readonly jarStartOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#jdk SaeApplication#jdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#jdk SaeApplication#jdk}
   */
   readonly jdk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#liveness SaeApplication#liveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#liveness SaeApplication#liveness}
   */
   readonly liveness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#memory SaeApplication#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#memory SaeApplication#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#micro_registration SaeApplication#micro_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#micro_registration SaeApplication#micro_registration}
   */
   readonly microRegistration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#min_ready_instance_ratio SaeApplication#min_ready_instance_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#min_ready_instance_ratio SaeApplication#min_ready_instance_ratio}
   */
   readonly minReadyInstanceRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#min_ready_instances SaeApplication#min_ready_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#min_ready_instances SaeApplication#min_ready_instances}
   */
   readonly minReadyInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#mount_desc SaeApplication#mount_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#mount_desc SaeApplication#mount_desc}
   */
   readonly mountDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#mount_host SaeApplication#mount_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#mount_host SaeApplication#mount_host}
   */
   readonly mountHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#namespace_id SaeApplication#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#namespace_id SaeApplication#namespace_id}
   */
   readonly namespaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#nas_id SaeApplication#nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#nas_id SaeApplication#nas_id}
   */
   readonly nasId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#oss_ak_id SaeApplication#oss_ak_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#oss_ak_id SaeApplication#oss_ak_id}
   */
   readonly ossAkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#oss_ak_secret SaeApplication#oss_ak_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#oss_ak_secret SaeApplication#oss_ak_secret}
   */
   readonly ossAkSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#oss_mount_descs SaeApplication#oss_mount_descs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#oss_mount_descs SaeApplication#oss_mount_descs}
   */
   readonly ossMountDescs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#package_type SaeApplication#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#package_type SaeApplication#package_type}
   */
   readonly packageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#package_url SaeApplication#package_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#package_url SaeApplication#package_url}
   */
   readonly packageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#package_version SaeApplication#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#package_version SaeApplication#package_version}
   */
   readonly packageVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#php SaeApplication#php}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#php SaeApplication#php}
   */
   readonly php?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#php_arms_config_location SaeApplication#php_arms_config_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#php_arms_config_location SaeApplication#php_arms_config_location}
   */
   readonly phpArmsConfigLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#php_config SaeApplication#php_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#php_config SaeApplication#php_config}
   */
   readonly phpConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#php_config_location SaeApplication#php_config_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#php_config_location SaeApplication#php_config_location}
   */
   readonly phpConfigLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#post_start SaeApplication#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#post_start SaeApplication#post_start}
   */
   readonly postStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#pre_stop SaeApplication#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#pre_stop SaeApplication#pre_stop}
   */
   readonly preStop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#programming_language SaeApplication#programming_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#programming_language SaeApplication#programming_language}
   */
   readonly programmingLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#readiness SaeApplication#readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#readiness SaeApplication#readiness}
   */
   readonly readiness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#replicas SaeApplication#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#replicas SaeApplication#replicas}
   */
   readonly replicas: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#security_group_id SaeApplication#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#security_group_id SaeApplication#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#sls_configs SaeApplication#sls_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#sls_configs SaeApplication#sls_configs}
   */
   readonly slsConfigs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#status SaeApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#status SaeApplication#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#tags SaeApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#tags SaeApplication#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#termination_grace_period_seconds SaeApplication#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#termination_grace_period_seconds SaeApplication#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#timezone SaeApplication#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#timezone SaeApplication#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#tomcat_config SaeApplication#tomcat_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#tomcat_config SaeApplication#tomcat_config}
   */
   readonly tomcatConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#update_strategy SaeApplication#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#update_strategy SaeApplication#update_strategy}
   */
   readonly updateStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#version_id SaeApplication#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#version_id SaeApplication#version_id}
   */
   readonly versionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#vpc_id SaeApplication#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#vpc_id SaeApplication#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#vswitch_id SaeApplication#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#vswitch_id SaeApplication#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#war_start_options SaeApplication#war_start_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#war_start_options SaeApplication#war_start_options}
   */
   readonly warStartOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#web_container SaeApplication#web_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#web_container SaeApplication#web_container}
   */
   readonly webContainer?: string;
   /**
   * config_map_mount_desc_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#config_map_mount_desc_v2 SaeApplication#config_map_mount_desc_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#config_map_mount_desc_v2 SaeApplication#config_map_mount_desc_v2}
   */
   readonly configMapMountDescV2?: SaeApplicationConfigMapMountDescV2[] | cdktf.IResolvable;
   /**
   * custom_host_alias_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#custom_host_alias_v2 SaeApplication#custom_host_alias_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#custom_host_alias_v2 SaeApplication#custom_host_alias_v2}
   */
   readonly customHostAliasV2?: SaeApplicationCustomHostAliasV2[] | cdktf.IResolvable;
   /**
   * kafka_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#kafka_configs SaeApplication#kafka_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#kafka_configs SaeApplication#kafka_configs}
   */
   readonly kafkaConfigs?: SaeApplicationKafkaConfigs;
   /**
   * liveness_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#liveness_v2 SaeApplication#liveness_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#liveness_v2 SaeApplication#liveness_v2}
   */
   readonly livenessV2?: SaeApplicationLivenessV2;
   /**
   * nas_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#nas_configs SaeApplication#nas_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#nas_configs SaeApplication#nas_configs}
   */
   readonly nasConfigs?: SaeApplicationNasConfigs[] | cdktf.IResolvable;
   /**
   * oss_mount_descs_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#oss_mount_descs_v2 SaeApplication#oss_mount_descs_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#oss_mount_descs_v2 SaeApplication#oss_mount_descs_v2}
   */
   readonly ossMountDescsV2?: SaeApplicationOssMountDescsV2[] | cdktf.IResolvable;
   /**
   * post_start_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#post_start_v2 SaeApplication#post_start_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#post_start_v2 SaeApplication#post_start_v2}
   */
   readonly postStartV2?: SaeApplicationPostStartV2;
   /**
   * pre_stop_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#pre_stop_v2 SaeApplication#pre_stop_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#pre_stop_v2 SaeApplication#pre_stop_v2}
   */
   readonly preStopV2?: SaeApplicationPreStopV2;
   /**
   * pvtz_discovery_svc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#pvtz_discovery_svc SaeApplication#pvtz_discovery_svc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#pvtz_discovery_svc SaeApplication#pvtz_discovery_svc}
   */
   readonly pvtzDiscoverySvc?: SaeApplicationPvtzDiscoverySvc;
   /**
   * readiness_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#readiness_v2 SaeApplication#readiness_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#readiness_v2 SaeApplication#readiness_v2}
   */
   readonly readinessV2?: SaeApplicationReadinessV2;
   /**
   * tomcat_config_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#tomcat_config_v2 SaeApplication#tomcat_config_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#tomcat_config_v2 SaeApplication#tomcat_config_v2}
   */
   readonly tomcatConfigV2?: SaeApplicationTomcatConfigV2;
   /**
   * update_strategy_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#update_strategy_v2 SaeApplication#update_strategy_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#update_strategy_v2 SaeApplication#update_strategy_v2}
   */
   readonly updateStrategyV2?: SaeApplicationUpdateStrategyV2;
 }
 export interface SaeApplicationConfigMapMountDescV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#config_map_id SaeApplication#config_map_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#config_map_id SaeApplication#config_map_id}
   */
   readonly configMapId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#key SaeApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#key SaeApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#mount_path SaeApplication#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#mount_path SaeApplication#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -515,11 +515,11 @@ export class SaeApplicationConfigMapMountDescV2List extends cdktf.ComplexList {
 }
 export interface SaeApplicationCustomHostAliasV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#host_name SaeApplication#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#host_name SaeApplication#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#ip SaeApplication#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#ip SaeApplication#ip}
   */
   readonly ip?: string;
 }
@@ -664,15 +664,15 @@ export class SaeApplicationCustomHostAliasV2List extends cdktf.ComplexList {
 }
 export interface SaeApplicationKafkaConfigsKafkaConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#kafka_topic SaeApplication#kafka_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#kafka_topic SaeApplication#kafka_topic}
   */
   readonly kafkaTopic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#log_dir SaeApplication#log_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#log_dir SaeApplication#log_dir}
   */
   readonly logDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#log_type SaeApplication#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#log_type SaeApplication#log_type}
   */
   readonly logType?: string;
 }
@@ -846,17 +846,17 @@ export class SaeApplicationKafkaConfigsKafkaConfigsList extends cdktf.ComplexLis
 }
 export interface SaeApplicationKafkaConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#kafka_endpoint SaeApplication#kafka_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#kafka_endpoint SaeApplication#kafka_endpoint}
   */
   readonly kafkaEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#kafka_instance_id SaeApplication#kafka_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#kafka_instance_id SaeApplication#kafka_instance_id}
   */
   readonly kafkaInstanceId?: string;
   /**
   * kafka_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#kafka_configs SaeApplication#kafka_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#kafka_configs SaeApplication#kafka_configs}
   */
   readonly kafkaConfigs?: SaeApplicationKafkaConfigsKafkaConfigs[] | cdktf.IResolvable;
 }
@@ -998,7 +998,7 @@ export class SaeApplicationKafkaConfigsOutputReference extends cdktf.ComplexObje
 }
 export interface SaeApplicationLivenessV2Exec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#command SaeApplication#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#command SaeApplication#command}
   */
   readonly command?: string[];
 }
@@ -1082,23 +1082,23 @@ export class SaeApplicationLivenessV2ExecOutputReference extends cdktf.ComplexOb
 }
 export interface SaeApplicationLivenessV2HttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#is_contain_key_word SaeApplication#is_contain_key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#is_contain_key_word SaeApplication#is_contain_key_word}
   */
   readonly isContainKeyWord?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#key_word SaeApplication#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#key_word SaeApplication#key_word}
   */
   readonly keyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#path SaeApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#path SaeApplication#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#port SaeApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#port SaeApplication#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#scheme SaeApplication#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#scheme SaeApplication#scheme}
   */
   readonly scheme?: string;
 }
@@ -1298,7 +1298,7 @@ export class SaeApplicationLivenessV2HttpGetOutputReference extends cdktf.Comple
 }
 export interface SaeApplicationLivenessV2TcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#port SaeApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#port SaeApplication#port}
   */
   readonly port?: number;
 }
@@ -1382,37 +1382,37 @@ export class SaeApplicationLivenessV2TcpSocketOutputReference extends cdktf.Comp
 }
 export interface SaeApplicationLivenessV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#failure_threshold SaeApplication#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#failure_threshold SaeApplication#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#initial_delay_seconds SaeApplication#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#initial_delay_seconds SaeApplication#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#period_seconds SaeApplication#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#period_seconds SaeApplication#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#timeout_seconds SaeApplication#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#timeout_seconds SaeApplication#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#exec SaeApplication#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#exec SaeApplication#exec}
   */
   readonly exec?: SaeApplicationLivenessV2Exec;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#http_get SaeApplication#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#http_get SaeApplication#http_get}
   */
   readonly httpGet?: SaeApplicationLivenessV2HttpGet;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#tcp_socket SaeApplication#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#tcp_socket SaeApplication#tcp_socket}
   */
   readonly tcpSocket?: SaeApplicationLivenessV2TcpSocket;
 }
@@ -1670,23 +1670,23 @@ export class SaeApplicationLivenessV2OutputReference extends cdktf.ComplexObject
 }
 export interface SaeApplicationNasConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#mount_domain SaeApplication#mount_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#mount_domain SaeApplication#mount_domain}
   */
   readonly mountDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#mount_path SaeApplication#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#mount_path SaeApplication#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#nas_id SaeApplication#nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#nas_id SaeApplication#nas_id}
   */
   readonly nasId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#nas_path SaeApplication#nas_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#nas_path SaeApplication#nas_path}
   */
   readonly nasPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#read_only SaeApplication#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#read_only SaeApplication#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1918,19 +1918,19 @@ export class SaeApplicationNasConfigsList extends cdktf.ComplexList {
 }
 export interface SaeApplicationOssMountDescsV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#bucket_name SaeApplication#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#bucket_name SaeApplication#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#bucket_path SaeApplication#bucket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#bucket_path SaeApplication#bucket_path}
   */
   readonly bucketPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#mount_path SaeApplication#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#mount_path SaeApplication#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#read_only SaeApplication#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#read_only SaeApplication#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -2133,7 +2133,7 @@ export class SaeApplicationOssMountDescsV2List extends cdktf.ComplexList {
 }
 export interface SaeApplicationPostStartV2Exec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#command SaeApplication#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#command SaeApplication#command}
   */
   readonly command?: string[];
 }
@@ -2219,7 +2219,7 @@ export interface SaeApplicationPostStartV2 {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#exec SaeApplication#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#exec SaeApplication#exec}
   */
   readonly exec?: SaeApplicationPostStartV2Exec;
 }
@@ -2303,7 +2303,7 @@ export class SaeApplicationPostStartV2OutputReference extends cdktf.ComplexObjec
 }
 export interface SaeApplicationPreStopV2Exec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#command SaeApplication#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#command SaeApplication#command}
   */
   readonly command?: string[];
 }
@@ -2389,7 +2389,7 @@ export interface SaeApplicationPreStopV2 {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#exec SaeApplication#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#exec SaeApplication#exec}
   */
   readonly exec?: SaeApplicationPreStopV2Exec;
 }
@@ -2473,11 +2473,11 @@ export class SaeApplicationPreStopV2OutputReference extends cdktf.ComplexObject 
 }
 export interface SaeApplicationPvtzDiscoverySvcPortProtocols {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#port SaeApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#port SaeApplication#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#protocol SaeApplication#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#protocol SaeApplication#protocol}
   */
   readonly protocol?: string;
 }
@@ -2622,21 +2622,21 @@ export class SaeApplicationPvtzDiscoverySvcPortProtocolsList extends cdktf.Compl
 }
 export interface SaeApplicationPvtzDiscoverySvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#enable SaeApplication#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#enable SaeApplication#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#namespace_id SaeApplication#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#namespace_id SaeApplication#namespace_id}
   */
   readonly namespaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#service_name SaeApplication#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#service_name SaeApplication#service_name}
   */
   readonly serviceName?: string;
   /**
   * port_protocols block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#port_protocols SaeApplication#port_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#port_protocols SaeApplication#port_protocols}
   */
   readonly portProtocols?: SaeApplicationPvtzDiscoverySvcPortProtocols[] | cdktf.IResolvable;
 }
@@ -2807,7 +2807,7 @@ export class SaeApplicationPvtzDiscoverySvcOutputReference extends cdktf.Complex
 }
 export interface SaeApplicationReadinessV2Exec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#command SaeApplication#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#command SaeApplication#command}
   */
   readonly command?: string[];
 }
@@ -2891,23 +2891,23 @@ export class SaeApplicationReadinessV2ExecOutputReference extends cdktf.ComplexO
 }
 export interface SaeApplicationReadinessV2HttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#is_contain_key_word SaeApplication#is_contain_key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#is_contain_key_word SaeApplication#is_contain_key_word}
   */
   readonly isContainKeyWord?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#key_word SaeApplication#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#key_word SaeApplication#key_word}
   */
   readonly keyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#path SaeApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#path SaeApplication#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#port SaeApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#port SaeApplication#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#scheme SaeApplication#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#scheme SaeApplication#scheme}
   */
   readonly scheme?: string;
 }
@@ -3107,7 +3107,7 @@ export class SaeApplicationReadinessV2HttpGetOutputReference extends cdktf.Compl
 }
 export interface SaeApplicationReadinessV2TcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#port SaeApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#port SaeApplication#port}
   */
   readonly port?: number;
 }
@@ -3191,41 +3191,41 @@ export class SaeApplicationReadinessV2TcpSocketOutputReference extends cdktf.Com
 }
 export interface SaeApplicationReadinessV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#failure_threshold SaeApplication#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#failure_threshold SaeApplication#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#initial_delay_seconds SaeApplication#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#initial_delay_seconds SaeApplication#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#period_seconds SaeApplication#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#period_seconds SaeApplication#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#success_threshold SaeApplication#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#success_threshold SaeApplication#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#timeout_seconds SaeApplication#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#timeout_seconds SaeApplication#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#exec SaeApplication#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#exec SaeApplication#exec}
   */
   readonly exec?: SaeApplicationReadinessV2Exec;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#http_get SaeApplication#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#http_get SaeApplication#http_get}
   */
   readonly httpGet?: SaeApplicationReadinessV2HttpGet;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#tcp_socket SaeApplication#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#tcp_socket SaeApplication#tcp_socket}
   */
   readonly tcpSocket?: SaeApplicationReadinessV2TcpSocket;
 }
@@ -3512,23 +3512,23 @@ export class SaeApplicationReadinessV2OutputReference extends cdktf.ComplexObjec
 }
 export interface SaeApplicationTomcatConfigV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#context_path SaeApplication#context_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#context_path SaeApplication#context_path}
   */
   readonly contextPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#max_threads SaeApplication#max_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#max_threads SaeApplication#max_threads}
   */
   readonly maxThreads?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#port SaeApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#port SaeApplication#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#uri_encoding SaeApplication#uri_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#uri_encoding SaeApplication#uri_encoding}
   */
   readonly uriEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#use_body_encoding_for_uri SaeApplication#use_body_encoding_for_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#use_body_encoding_for_uri SaeApplication#use_body_encoding_for_uri}
   */
   readonly useBodyEncodingForUri?: string;
 }
@@ -3728,15 +3728,15 @@ export class SaeApplicationTomcatConfigV2OutputReference extends cdktf.ComplexOb
 }
 export interface SaeApplicationUpdateStrategyV2BatchUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#batch SaeApplication#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#batch SaeApplication#batch}
   */
   readonly batch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#batch_wait_time SaeApplication#batch_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#batch_wait_time SaeApplication#batch_wait_time}
   */
   readonly batchWaitTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#release_type SaeApplication#release_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#release_type SaeApplication#release_type}
   */
   readonly releaseType?: string;
 }
@@ -3878,13 +3878,13 @@ export class SaeApplicationUpdateStrategyV2BatchUpdateOutputReference extends cd
 }
 export interface SaeApplicationUpdateStrategyV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#type SaeApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#type SaeApplication#type}
   */
   readonly type?: string;
   /**
   * batch_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#batch_update SaeApplication#batch_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#batch_update SaeApplication#batch_update}
   */
   readonly batchUpdate?: SaeApplicationUpdateStrategyV2BatchUpdate;
 }
@@ -3997,7 +3997,7 @@ export class SaeApplicationUpdateStrategyV2OutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application alicloud_sae_application}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application alicloud_sae_application}
 */
 export class SaeApplication extends cdktf.TerraformResource {
 
@@ -4013,7 +4013,7 @@ export class SaeApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SaeApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SaeApplication to import
-  * @param importFromId The id of the existing SaeApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SaeApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SaeApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4025,7 +4025,7 @@ export class SaeApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application alicloud_sae_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application alicloud_sae_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4036,8 +4036,8 @@ export class SaeApplication extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sae_application',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

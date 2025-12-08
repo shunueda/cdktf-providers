@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceCatalogPortfolioConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#description ServiceCatalogPortfolio#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#description ServiceCatalogPortfolio#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#id ServiceCatalogPortfolio#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#id ServiceCatalogPortfolio#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#portfolio_name ServiceCatalogPortfolio#portfolio_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#portfolio_name ServiceCatalogPortfolio#portfolio_name}
   */
   readonly portfolioName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#provider_name ServiceCatalogPortfolio#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#provider_name ServiceCatalogPortfolio#provider_name}
   */
   readonly providerName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#timeouts ServiceCatalogPortfolio#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#timeouts ServiceCatalogPortfolio#timeouts}
   */
   readonly timeouts?: ServiceCatalogPortfolioTimeouts;
 }
 export interface ServiceCatalogPortfolioTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#create ServiceCatalogPortfolio#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#create ServiceCatalogPortfolio#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#delete ServiceCatalogPortfolio#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#delete ServiceCatalogPortfolio#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#update ServiceCatalogPortfolio#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#update ServiceCatalogPortfolio#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ServiceCatalogPortfolioTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio alicloud_service_catalog_portfolio}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio alicloud_service_catalog_portfolio}
 */
 export class ServiceCatalogPortfolio extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ServiceCatalogPortfolio extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceCatalogPortfolio resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceCatalogPortfolio to import
-  * @param importFromId The id of the existing ServiceCatalogPortfolio that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceCatalogPortfolio that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceCatalogPortfolio to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ServiceCatalogPortfolio extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_portfolio alicloud_service_catalog_portfolio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_portfolio alicloud_service_catalog_portfolio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ServiceCatalogPortfolio extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_service_catalog_portfolio',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPkgCrossplaneIoProviderRevisionV1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#metadata DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#metadata DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#metadata}
   */
   readonly metadata: DataK8SPkgCrossplaneIoProviderRevisionV1ManifestMetadata;
   /**
   * ProviderRevisionSpec specifies configuration for a ProviderRevision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#spec DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#spec DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#spec}
   */
   readonly spec?: DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SPkgCrossplaneIoProviderRevisionV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#annotations DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#annotations DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#labels DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#labels DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpecControllerC
   /**
   * Name of the ControllerConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -280,7 +280,7 @@ export interface DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpecPackagePull
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -398,19 +398,19 @@ export interface DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpecRuntimeConf
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#api_version DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#api_version DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#kind DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#kind DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the RuntimeConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -561,73 +561,73 @@ export interface DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpec {
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#common_labels DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#common_labels DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * ControllerConfigRef references a ControllerConfig resource that will be used to configure the packaged controller Deployment. Deprecated: Use RuntimeConfigReference instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#controller_config_ref DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#controller_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#controller_config_ref DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#controller_config_ref}
   */
   readonly controllerConfigRef?: DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpecControllerConfigRef;
   /**
   * DesiredState of the PackageRevision. Can be either Active or Inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#desired_state DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#desired_state DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#desired_state}
   */
   readonly desiredState: string;
   /**
   * IgnoreCrossplaneConstraints indicates to the package manager whether to honor Crossplane version constrains specified by the package. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#ignore_crossplane_constraints DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#ignore_crossplane_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#ignore_crossplane_constraints DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#ignore_crossplane_constraints}
   */
   readonly ignoreCrossplaneConstraints?: boolean | cdktf.IResolvable;
   /**
   * Package image used by install Pod to extract package contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#image DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#image DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#image}
   */
   readonly image: string;
   /**
   * PackagePullPolicy defines the pull policy for the package. It is also applied to any images pulled for the package, such as a provider's controller image. Default is IfNotPresent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#package_pull_policy DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#package_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#package_pull_policy DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#package_pull_policy}
   */
   readonly packagePullPolicy?: string;
   /**
   * PackagePullSecrets are named secrets in the same namespace that can be used to fetch packages from private registries. They are also applied to any images pulled for the package, such as a provider's controller image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#package_pull_secrets DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#package_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#package_pull_secrets DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#package_pull_secrets}
   */
   readonly packagePullSecrets?: DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpecPackagePullSecrets[] | cdktf.IResolvable;
   /**
   * Revision number. Indicates when the revision will be garbage collected based on the parent's RevisionHistoryLimit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#revision DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#revision DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#revision}
   */
   readonly revision: number;
   /**
   * RuntimeConfigRef references a RuntimeConfig resource that will be used to configure the package runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#runtime_config_ref DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#runtime_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#runtime_config_ref DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#runtime_config_ref}
   */
   readonly runtimeConfigRef?: DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpecRuntimeConfigRef;
   /**
   * SkipDependencyResolution indicates to the package manager whether to skip resolving dependencies for a package. Setting this value to true may have unintended consequences. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#skip_dependency_resolution DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#skip_dependency_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#skip_dependency_resolution DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#skip_dependency_resolution}
   */
   readonly skipDependencyResolution?: boolean | cdktf.IResolvable;
   /**
   * TLSClientSecretName is the name of the TLS Secret that stores client certificates of the Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#tls_client_secret_name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#tls_client_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#tls_client_secret_name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#tls_client_secret_name}
   */
   readonly tlsClientSecretName?: string;
   /**
   * TLSServerSecretName is the name of the TLS Secret that stores server certificates of the Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#tls_server_secret_name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#tls_server_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#tls_server_secret_name DataK8SPkgCrossplaneIoProviderRevisionV1Manifest#tls_server_secret_name}
   */
   readonly tlsServerSecretName?: string;
 }
@@ -1031,7 +1031,7 @@ export class DataK8SPkgCrossplaneIoProviderRevisionV1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest k8s_pkg_crossplane_io_provider_revision_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest k8s_pkg_crossplane_io_provider_revision_v1_manifest}
 */
 export class DataK8SPkgCrossplaneIoProviderRevisionV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1047,7 +1047,7 @@ export class DataK8SPkgCrossplaneIoProviderRevisionV1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SPkgCrossplaneIoProviderRevisionV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPkgCrossplaneIoProviderRevisionV1Manifest to import
-  * @param importFromId The id of the existing DataK8SPkgCrossplaneIoProviderRevisionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPkgCrossplaneIoProviderRevisionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPkgCrossplaneIoProviderRevisionV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1059,7 +1059,7 @@ export class DataK8SPkgCrossplaneIoProviderRevisionV1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest k8s_pkg_crossplane_io_provider_revision_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_provider_revision_v1_manifest k8s_pkg_crossplane_io_provider_revision_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1070,8 +1070,8 @@ export class DataK8SPkgCrossplaneIoProviderRevisionV1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_pkg_crossplane_io_provider_revision_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/routes
+// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioRoutesConfig extends cdktf.TerraformMetaArguments {
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/routes#group_id DataCriblioRoutes#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/routes#group_id DataCriblioRoutes#group_id}
   */
   readonly groupId: string;
 }
@@ -304,7 +304,7 @@ export class DataCriblioRoutesRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/routes criblio_routes}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/routes criblio_routes}
 */
 export class DataCriblioRoutes extends cdktf.TerraformDataSource {
 
@@ -320,7 +320,7 @@ export class DataCriblioRoutes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioRoutes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioRoutes to import
-  * @param importFromId The id of the existing DataCriblioRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioRoutes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class DataCriblioRoutes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/routes criblio_routes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/routes criblio_routes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class DataCriblioRoutes extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_routes',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.33',
-        providerVersionConstraint: '1.20.33'
+        providerVersion: '1.20.48',
+        providerVersionConstraint: '1.20.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lakehouse_dataset_connection
+// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/lakehouse_dataset_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LakehouseDatasetConnectionConfig extends cdktf.TerraformMetaArg
   /**
   * The ID of the dataset within the lakehouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lakehouse_dataset_connection#lake_dataset_id LakehouseDatasetConnection#lake_dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/lakehouse_dataset_connection#lake_dataset_id LakehouseDatasetConnection#lake_dataset_id}
   */
   readonly lakeDatasetId: string;
   /**
   * The ID of the lakehouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lakehouse_dataset_connection#lakehouse_id LakehouseDatasetConnection#lakehouse_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/lakehouse_dataset_connection#lakehouse_id LakehouseDatasetConnection#lakehouse_id}
   */
   readonly lakehouseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lakehouse_dataset_connection#request_body LakehouseDatasetConnection#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/lakehouse_dataset_connection#request_body LakehouseDatasetConnection#request_body}
   */
   readonly requestBody?: LakehouseDatasetConnectionRequestBody;
 }
@@ -85,7 +85,7 @@ export class LakehouseDatasetConnectionRequestBodyOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lakehouse_dataset_connection criblio_lakehouse_dataset_connection}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/lakehouse_dataset_connection criblio_lakehouse_dataset_connection}
 */
 export class LakehouseDatasetConnection extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class LakehouseDatasetConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LakehouseDatasetConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LakehouseDatasetConnection to import
-  * @param importFromId The id of the existing LakehouseDatasetConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lakehouse_dataset_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LakehouseDatasetConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/lakehouse_dataset_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LakehouseDatasetConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class LakehouseDatasetConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lakehouse_dataset_connection criblio_lakehouse_dataset_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/lakehouse_dataset_connection criblio_lakehouse_dataset_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class LakehouseDatasetConnection extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_lakehouse_dataset_connection',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.33',
-        providerVersionConstraint: '1.20.33'
+        providerVersion: '1.20.48',
+        providerVersionConstraint: '1.20.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

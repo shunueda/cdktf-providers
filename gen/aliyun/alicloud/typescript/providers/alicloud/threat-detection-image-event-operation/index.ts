@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionImageEventOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#conditions ThreatDetectionImageEventOperation#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#conditions ThreatDetectionImageEventOperation#conditions}
   */
   readonly conditions: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#event_key ThreatDetectionImageEventOperation#event_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#event_key ThreatDetectionImageEventOperation#event_key}
   */
   readonly eventKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#event_name ThreatDetectionImageEventOperation#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#event_name ThreatDetectionImageEventOperation#event_name}
   */
   readonly eventName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#event_type ThreatDetectionImageEventOperation#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#event_type ThreatDetectionImageEventOperation#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#id ThreatDetectionImageEventOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#id ThreatDetectionImageEventOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#note ThreatDetectionImageEventOperation#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#note ThreatDetectionImageEventOperation#note}
   */
   readonly note?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#operation_code ThreatDetectionImageEventOperation#operation_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#operation_code ThreatDetectionImageEventOperation#operation_code}
   */
   readonly operationCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#scenarios ThreatDetectionImageEventOperation#scenarios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#scenarios ThreatDetectionImageEventOperation#scenarios}
   */
   readonly scenarios?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#source ThreatDetectionImageEventOperation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#source ThreatDetectionImageEventOperation#source}
   */
   readonly source?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#timeouts ThreatDetectionImageEventOperation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#timeouts ThreatDetectionImageEventOperation#timeouts}
   */
   readonly timeouts?: ThreatDetectionImageEventOperationTimeouts;
 }
 export interface ThreatDetectionImageEventOperationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#create ThreatDetectionImageEventOperation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#create ThreatDetectionImageEventOperation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#delete ThreatDetectionImageEventOperation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#delete ThreatDetectionImageEventOperation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#update ThreatDetectionImageEventOperation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#update ThreatDetectionImageEventOperation#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class ThreatDetectionImageEventOperationTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation alicloud_threat_detection_image_event_operation}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation alicloud_threat_detection_image_event_operation}
 */
 export class ThreatDetectionImageEventOperation extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class ThreatDetectionImageEventOperation extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ThreatDetectionImageEventOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionImageEventOperation to import
-  * @param importFromId The id of the existing ThreatDetectionImageEventOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionImageEventOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionImageEventOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class ThreatDetectionImageEventOperation extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_image_event_operation alicloud_threat_detection_image_event_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_image_event_operation alicloud_threat_detection_image_event_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class ThreatDetectionImageEventOperation extends cdktf.TerraformResource 
       terraformResourceType: 'alicloud_threat_detection_image_event_operation',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

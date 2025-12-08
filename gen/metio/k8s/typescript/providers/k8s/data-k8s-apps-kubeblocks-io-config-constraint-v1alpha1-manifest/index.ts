@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestMetadata;
   /**
   * ConfigConstraintSpec defines the desired state of ConfigConstraint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecConf
   /**
   * Hold a string that contains a script written in CUE language that defines a list of configuration items. Each item is detailed with its name, default value, description, type (e.g. string, integer, float), and constraints (permissible values or the valid range of values). CUE (Configure, Unify, Execute) is a declarative language designed for defining and validating complex data configurations. It is particularly useful in environments like K8s where complex configurations and validation rules are common. This script functions as a validator for user-provided configurations, ensuring compliance with the established specifications and constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#cue DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#cue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#cue DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#cue}
   */
   readonly cue?: string;
   /**
   * Generated from the 'cue' field and transformed into a JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#schema DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#schema DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#schema}
   */
   readonly schema?: { [key: string]: string };
 }
@@ -318,13 +318,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDown
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -446,19 +446,19 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDown
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -609,25 +609,25 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDown
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDownwardApiOptionsItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mode DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mode DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#path DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#path DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDownwardApiOptionsItemsResourceFieldRef;
 }
@@ -829,13 +829,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDown
   /**
   * Specifies the namespace for the ConfigMap. If not specified, it defaults to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the reference to the ConfigMap containing the scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
   */
   readonly scriptConfigMapRef: string;
 }
@@ -957,31 +957,31 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDown
   /**
   * Specifies the command to be triggered when changes are detected in Downward API volume files. It relies on the inotify mechanism in the config-manager sidecar to monitor file changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Represents a list of files under the Downward API volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#items DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#items DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#items}
   */
   readonly items: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDownwardApiOptionsItems[] | cdktf.IResolvable;
   /**
   * Specifies the mount point of the Downward API volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mount_point DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mount_point DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mount_point}
   */
   readonly mountPoint: string;
   /**
   * Specifies the name of the field. It must be a string of maximum length 63. The name should match the regex pattern '^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * ScriptConfig object specifies a ConfigMap that contains script files that should be mounted inside the pod. The scripts are mounted as volumes and can be referenced and executed by the DownwardAction to perform specific tasks or configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config}
   */
   readonly scriptConfig?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDownwardApiOptionsScriptConfig;
 }
@@ -1206,7 +1206,7 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecForm
   /**
   * A string that describes the name of the ini section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#section_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#section_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
 }
@@ -1302,13 +1302,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecForm
   /**
   * The config file format. Valid values are 'ini', 'xml', 'yaml', 'json', 'hcl', 'dotenv', 'properties' and 'toml'. Each format has its own characteristics and use cases. - ini: is a text-based content with a structure and syntax comprising key–value pairs for properties, reference wiki: https://en.wikipedia.org/wiki/INI_file - xml: refers to wiki: https://en.wikipedia.org/wiki/XML - yaml: supports for complex data types and structures. - json: refers to wiki: https://en.wikipedia.org/wiki/JSON - hcl: The HashiCorp Configuration Language (HCL) is a configuration language authored by HashiCorp, reference url: https://www.linode.com/docs/guides/introduction-to-hcl/ - dotenv: is a plain text file with simple key–value pairs, reference wiki: https://en.wikipedia.org/wiki/Configuration_file#MS-DOS - properties: a file extension mainly used in Java, reference wiki: https://en.wikipedia.org/wiki/.properties - toml: refers to wiki: https://en.wikipedia.org/wiki/TOML - props-plus: a file extension mainly used in Java, supports CamelCase(e.g: brokerMaxConnectionsPerIp)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#format DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#format DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#format}
   */
   readonly format: string;
   /**
   * Holds options specific to the 'ini' file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#ini_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#ini_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#ini_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#ini_config}
   */
   readonly iniConfig?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecFormatterConfigIniConfig;
 }
@@ -1430,7 +1430,7 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * The name of the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#process_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#process_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#process_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#process_name}
   */
   readonly processName?: string;
 }
@@ -1526,13 +1526,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * Specifies the namespace for the ConfigMap. If not specified, it defaults to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the reference to the ConfigMap containing the scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
   */
   readonly scriptConfigMapRef: string;
 }
@@ -1654,25 +1654,25 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * Indicates whether the tool image should be used as the container image for a sidecar. This is useful for large tool images, such as those for C++ tools, which may depend on numerous libraries (e.g., *.so files). If enabled, the tool image is deployed as a sidecar container image. Examples: ```yaml toolsSetup:: mountPoint: /kb_tools toolConfigs: - name: kb-tools asContainerImage: true image: apecloud/oceanbase:4.2.0.0-100010032023083021 ``` generated containers: ```yaml initContainers: - name: install-config-manager-tool image: apecloud/kubeblocks-tools:${version} command: - cp - /bin/config_render - /opt/tools volumemounts: - name: kb-tools mountpath: /opt/tools containers: - name: config-manager image: apecloud/oceanbase:4.2.0.0-100010032023083021 imagePullPolicy: IfNotPresent command: - /opt/tools/reloader - --log-level - info - --operator-update-enable - --tcp - '9901' - --config - /opt/config-manager/config-manager.yaml volumemounts: - name: kb-tools mountpath: /opt/tools ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#as_container_image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#as_container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#as_container_image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#as_container_image}
   */
   readonly asContainerImage?: boolean | cdktf.IResolvable;
   /**
   * Specifies the command to be executed by the init container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the tool container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Specifies the name of the init container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1877,13 +1877,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * Specifies the directory path in the container where the tools-related files are to be copied. This field is typically used with an emptyDir volume to ensure a temporary, empty directory is provided at pod creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mount_point DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mount_point DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mount_point}
   */
   readonly mountPoint: string;
   /**
   * Specifies a list of settings of init containers that prepare tools for dynamic reload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tool_configs DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tool_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tool_configs DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tool_configs}
   */
   readonly toolConfigs?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptionsShellTriggerToolsSetupToolConfigs[] | cdktf.IResolvable;
 }
@@ -2005,37 +2005,37 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * Specifies a Go template string for formatting batch input data. It's used when 'batchReload' is 'True' to format data passed into STDIN of the script. The template accesses key-value pairs of updated parameters via the '$' variable. This allows for custom formatting of the input data. Example template: ```yaml batchParamsFormatterTemplate: |- {{- range $pKey, $pValue := $ }} {{ printf '%s:%s' $pKey $pValue }} {{- end }} ``` This example generates batch input data in a key:value format, sorted by keys. ``` key1:value1 key2:value2 key3:value3 ``` If not specified, the default format is key=value, sorted by keys, for each updated parameter. ``` key1=value1 key2=value2 key3=value3 ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#batch_params_formatter_template DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#batch_params_formatter_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#batch_params_formatter_template DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#batch_params_formatter_template}
   */
   readonly batchParamsFormatterTemplate?: string;
   /**
   * Controls whether parameter updates are processed individually or collectively in a batch: - 'True': Processes all changes in one batch reload. - 'False': Processes each change individually. Defaults to 'False' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#batch_reload DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#batch_reload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#batch_reload DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#batch_reload}
   */
   readonly batchReload?: boolean | cdktf.IResolvable;
   /**
   * Specifies the command to execute in order to reload the process. It should be a valid shell command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * ScriptConfig object specifies a ConfigMap that contains script files that should be mounted inside the pod. The scripts are mounted as volumes and can be referenced and executed by the dynamic reload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config}
   */
   readonly scriptConfig?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptionsShellTriggerScriptConfig;
   /**
   * Determines the synchronization mode of parameter updates with 'config-manager'. - 'True': Executes reload actions synchronously, pausing until completion. - 'False': Executes reload actions asynchronously, without waiting for completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#sync DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#sync DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#sync}
   */
   readonly sync?: boolean | cdktf.IResolvable;
   /**
   * Specifies the tools container image used by ShellTrigger for dynamic reload. If the dynamic reload action is triggered by a ShellTrigger, this field is required. This image must contain all necessary tools for executing the ShellTrigger scripts. Usually the specified image is referenced by the init container, which is then responsible for copy the tools from the image to a bin volume. This ensures that the tools are available to the 'config-manager' sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tools_setup DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tools_setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tools_setup DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tools_setup}
   */
   readonly toolsSetup?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptionsShellTriggerToolsSetup;
 }
@@ -2273,19 +2273,19 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * Specifies the namespace for the ConfigMap. If not specified, it defaults to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the reference to the ConfigMap containing the scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
   */
   readonly scriptConfigMapRef: string;
   /**
   * Determines whether parameter updates should be synchronized with the 'config-manager'. Specifies the controller's reload strategy: - If set to 'True', the controller executes the reload action in synchronous mode, pausing execution until the reload completes. - If set to 'False', the controller executes the reload action in asynchronous mode, updating the ConfigMap without waiting for the reload process to finish.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#sync DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#sync DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#sync}
   */
   readonly sync?: boolean | cdktf.IResolvable;
 }
@@ -2436,13 +2436,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * Identifies the name of the process to which the Unix signal will be sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#process_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#process_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#process_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#process_name}
   */
   readonly processName: string;
   /**
   * Specifies a valid Unix signal to be sent. For a comprehensive list of all Unix signals, see: ../../pkg/configuration/configmap/handler.go:allUnixSignals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#signal DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#signal DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#signal}
   */
   readonly signal: string;
 }
@@ -2561,25 +2561,25 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecRelo
   /**
   * Automatically perform the reload when specified conditions are met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#auto_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#auto_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#auto_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#auto_trigger}
   */
   readonly autoTrigger?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptionsAutoTrigger;
   /**
   * Allows to execute a custom shell script to reload the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#shell_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#shell_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#shell_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#shell_trigger}
   */
   readonly shellTrigger?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptionsShellTrigger;
   /**
   * Enables reloading process using a Go template script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tpl_script_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tpl_script_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tpl_script_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tpl_script_trigger}
   */
   readonly tplScriptTrigger?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptionsTplScriptTrigger;
   /**
   * Used to trigger a reload by sending a specific Unix signal to the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#unix_signal_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#unix_signal_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#unix_signal_trigger DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#unix_signal_trigger}
   */
   readonly unixSignalTrigger?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptionsUnixSignalTrigger;
 }
@@ -2762,13 +2762,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecScri
   /**
   * Specifies the namespace for the ConfigMap. If not specified, it defaults to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the reference to the ConfigMap containing the scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_config_map_ref DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_config_map_ref}
   */
   readonly scriptConfigMapRef: string;
 }
@@ -2912,19 +2912,19 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecSele
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#key DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#key DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#operator DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#operator DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#values DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#values DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3094,13 +3094,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecSele
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#match_expressions DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#match_expressions DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#match_labels DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#match_labels DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3225,25 +3225,25 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecTool
   /**
   * Indicates whether the tool image should be used as the container image for a sidecar. This is useful for large tool images, such as those for C++ tools, which may depend on numerous libraries (e.g., *.so files). If enabled, the tool image is deployed as a sidecar container image. Examples: ```yaml toolsSetup:: mountPoint: /kb_tools toolConfigs: - name: kb-tools asContainerImage: true image: apecloud/oceanbase:4.2.0.0-100010032023083021 ``` generated containers: ```yaml initContainers: - name: install-config-manager-tool image: apecloud/kubeblocks-tools:${version} command: - cp - /bin/config_render - /opt/tools volumemounts: - name: kb-tools mountpath: /opt/tools containers: - name: config-manager image: apecloud/oceanbase:4.2.0.0-100010032023083021 imagePullPolicy: IfNotPresent command: - /opt/tools/reloader - --log-level - info - --operator-update-enable - --tcp - '9901' - --config - /opt/config-manager/config-manager.yaml volumemounts: - name: kb-tools mountpath: /opt/tools ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#as_container_image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#as_container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#as_container_image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#as_container_image}
   */
   readonly asContainerImage?: boolean | cdktf.IResolvable;
   /**
   * Specifies the command to be executed by the init container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#command DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the tool container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#image DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Specifies the name of the init container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3448,13 +3448,13 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecTool
   /**
   * Specifies the directory path in the container where the tools-related files are to be copied. This field is typically used with an emptyDir volume to ensure a temporary, empty directory is provided at pod creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mount_point DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#mount_point DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#mount_point}
   */
   readonly mountPoint: string;
   /**
   * Specifies a list of settings of init containers that prepare tools for dynamic reload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tool_configs DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tool_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tool_configs DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tool_configs}
   */
   readonly toolConfigs?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecToolsImageSpecToolConfigs[] | cdktf.IResolvable;
 }
@@ -3576,79 +3576,79 @@ export interface DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpec {
   /**
   * Specifies the top-level key in the 'configurationSchema.cue' that organizes the validation rules for parameters. This key must exist within the CUE script defined in 'configurationSchema.cue'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#cfg_schema_top_level_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#cfg_schema_top_level_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#cfg_schema_top_level_name DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#cfg_schema_top_level_name}
   */
   readonly cfgSchemaTopLevelName?: string;
   /**
   * Defines a list of parameters including their names, default values, descriptions, types, and constraints (permissible values or the range of valid values).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#configuration_schema DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#configuration_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#configuration_schema DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#configuration_schema}
   */
   readonly configurationSchema?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecConfigurationSchema;
   /**
   * Specifies a list of actions to execute specified commands based on Pod labels. It utilizes the K8s Downward API to mount label information as a volume into the pod. The 'config-manager' sidecar container watches for changes in the role label and dynamically invoke registered commands (usually execute some SQL statements) when a change is detected. It is designed for scenarios where: - Replicas with different roles have different configurations, such as Redis primary & secondary replicas. - After a role switch (e.g., from secondary to primary), some changes in configuration are needed to reflect the new role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#downward_api_options DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#downward_api_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#downward_api_options DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#downward_api_options}
   */
   readonly downwardApiOptions?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecDownwardApiOptions[] | cdktf.IResolvable;
   /**
   * Indicates whether to consolidate dynamic reload and restart actions into a single restart. - If true, updates requiring both actions will result in only a restart, merging the actions. - If false, updates will trigger both actions executed sequentially: first dynamic reload, then restart. This flag allows for more efficient handling of configuration changes by potentially eliminating an unnecessary reload step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#dynamic_action_can_be_merged DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#dynamic_action_can_be_merged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#dynamic_action_can_be_merged DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#dynamic_action_can_be_merged}
   */
   readonly dynamicActionCanBeMerged?: boolean | cdktf.IResolvable;
   /**
   * List dynamic parameters. Modifications to these parameters trigger a configuration reload without requiring a process restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#dynamic_parameters DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#dynamic_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#dynamic_parameters DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#dynamic_parameters}
   */
   readonly dynamicParameters?: string[];
   /**
   * Specifies the format of the configuration file and any associated parameters that are specific to the chosen format. Supported formats include 'ini', 'xml', 'yaml', 'json', 'hcl', 'dotenv', 'properties', and 'toml'. Each format may have its own set of parameters that can be configured. For instance, when using the 'ini' format, you can specify the section name. Example: ``` formatterConfig: format: ini iniConfig: sectionName: mysqld ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#formatter_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#formatter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#formatter_config DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#formatter_config}
   */
   readonly formatterConfig: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecFormatterConfig;
   /**
   * Lists the parameters that cannot be modified once set. Attempting to change any of these parameters will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#immutable_parameters DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#immutable_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#immutable_parameters DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#immutable_parameters}
   */
   readonly immutableParameters?: string[];
   /**
   * Specifies the dynamic reload action supported by the engine. When set, the controller executes the method defined here to execute hot parameter updates. Dynamic reloading is triggered only if both of the following conditions are met: 1. The modified parameters are listed in the 'dynamicParameters' field. If 'reloadStaticParamsBeforeRestart' is set to true, modifications to 'staticParameters' can also trigger a reload. 2. 'reloadOptions' is set. If 'reloadOptions' is not set or the modified parameters are not listed in 'dynamicParameters', dynamic reloading will not be triggered. Example: ```yaml reloadOptions: tplScriptTrigger: namespace: kb-system scriptConfigMapRef: mysql-reload-script sync: true ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#reload_options DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#reload_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#reload_options DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#reload_options}
   */
   readonly reloadOptions?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecReloadOptions;
   /**
   * Configures whether the dynamic reload specified in 'reloadOptions' applies only to dynamic parameters or to all parameters (including static parameters). - false (default): Only modifications to the dynamic parameters listed in 'dynamicParameters' will trigger a dynamic reload. - true: Modifications to both dynamic parameters listed in 'dynamicParameters' and static parameters listed in 'staticParameters' will trigger a dynamic reload. The 'true' option is for certain engines that require static parameters to be set via SQL statements before they can take effect on restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#reload_static_params_before_restart DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#reload_static_params_before_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#reload_static_params_before_restart DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#reload_static_params_before_restart}
   */
   readonly reloadStaticParamsBeforeRestart?: boolean | cdktf.IResolvable;
   /**
   * A list of ScriptConfig Object. Each ScriptConfig object specifies a ConfigMap that contains script files that should be mounted inside the pod. The scripts are mounted as volumes and can be referenced and executed by the dynamic reload and DownwardAction to perform specific tasks or configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_configs DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#script_configs DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#script_configs}
   */
   readonly scriptConfigs?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecScriptConfigs[] | cdktf.IResolvable;
   /**
   * Used to match labels on the pod to determine whether a dynamic reload should be performed. In some scenarios, only specific pods (e.g., primary replicas) need to undergo a dynamic reload. The 'selector' allows you to specify label selectors to target the desired pods for the reload process. If the 'selector' is not specified or is nil, all pods managed by the workload will be considered for the dynamic reload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#selector DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#selector DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecSelector;
   /**
   * List static parameters. Modifications to any of these parameters require a restart of the process to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#static_parameters DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#static_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#static_parameters DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#static_parameters}
   */
   readonly staticParameters?: string[];
   /**
   * Specifies the tools container image used by ShellTrigger for dynamic reload. If the dynamic reload action is triggered by a ShellTrigger, this field is required. This image must contain all necessary tools for executing the ShellTrigger scripts. Usually the specified image is referenced by the init container, which is then responsible for copy the tools from the image to a bin volume. This ensures that the tools are available to the 'config-manager' sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tools_image_spec DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tools_image_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#tools_image_spec DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest#tools_image_spec}
   */
   readonly toolsImageSpec?: DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecToolsImageSpec;
 }
@@ -4087,7 +4087,7 @@ export class DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest k8s_apps_kubeblocks_io_config_constraint_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest k8s_apps_kubeblocks_io_config_constraint_v1alpha1_manifest}
 */
 export class DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4103,7 +4103,7 @@ export class DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4115,7 +4115,7 @@ export class DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest k8s_apps_kubeblocks_io_config_constraint_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_config_constraint_v1alpha1_manifest k8s_apps_kubeblocks_io_config_constraint_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4126,8 +4126,8 @@ export class DataK8SAppsKubeblocksIoConfigConstraintV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_apps_kubeblocks_io_config_constraint_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

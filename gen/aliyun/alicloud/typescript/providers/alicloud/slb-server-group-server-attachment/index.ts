@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface SlbServerGroupServerAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#description SlbServerGroupServerAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#description SlbServerGroupServerAttachment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#id SlbServerGroupServerAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#id SlbServerGroupServerAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#port SlbServerGroupServerAttachment#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#port SlbServerGroupServerAttachment#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#server_group_id SlbServerGroupServerAttachment#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#server_group_id SlbServerGroupServerAttachment#server_group_id}
   */
   readonly serverGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#server_id SlbServerGroupServerAttachment#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#server_id SlbServerGroupServerAttachment#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#type SlbServerGroupServerAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#type SlbServerGroupServerAttachment#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#weight SlbServerGroupServerAttachment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#weight SlbServerGroupServerAttachment#weight}
   */
   readonly weight?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#timeouts SlbServerGroupServerAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#timeouts SlbServerGroupServerAttachment#timeouts}
   */
   readonly timeouts?: SlbServerGroupServerAttachmentTimeouts;
 }
 export interface SlbServerGroupServerAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#create SlbServerGroupServerAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#create SlbServerGroupServerAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#delete SlbServerGroupServerAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#delete SlbServerGroupServerAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -174,7 +174,7 @@ export class SlbServerGroupServerAttachmentTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment alicloud_slb_server_group_server_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment alicloud_slb_server_group_server_attachment}
 */
 export class SlbServerGroupServerAttachment extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class SlbServerGroupServerAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbServerGroupServerAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbServerGroupServerAttachment to import
-  * @param importFromId The id of the existing SlbServerGroupServerAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbServerGroupServerAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbServerGroupServerAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class SlbServerGroupServerAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_group_server_attachment alicloud_slb_server_group_server_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/slb_server_group_server_attachment alicloud_slb_server_group_server_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class SlbServerGroupServerAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_slb_server_group_server_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

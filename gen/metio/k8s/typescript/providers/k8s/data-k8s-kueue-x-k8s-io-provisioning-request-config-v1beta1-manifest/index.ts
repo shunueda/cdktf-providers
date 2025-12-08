@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#metadata DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#metadata DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1ManifestMetadata;
   /**
   * ProvisioningRequestConfigSpec defines the desired state of ProvisioningRequestConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#spec DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#spec DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#annotations DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#annotations DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#labels DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#labels DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#name DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#name DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1ManifestSpec 
   /**
   * managedResources contains the list of resources managed by the autoscaling. If empty, all resources are considered managed. If not empty, the ProvisioningRequest will contain only the podsets that are requesting at least one of them. If none of the workloads podsets is requesting at least a managed resource, the workload is considered ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#managed_resources DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#managed_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#managed_resources DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#managed_resources}
   */
   readonly managedResources?: string[];
   /**
   * Parameters contains all other parameters classes may require.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#parameters DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#parameters DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * ProvisioningClassName describes the different modes of provisioning the resources. Check autoscaling.x-k8s.io ProvisioningRequestSpec.ProvisioningClassName for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#provisioning_class_name DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#provisioning_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#provisioning_class_name DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest#provisioning_class_name}
   */
   readonly provisioningClassName: string;
 }
@@ -348,7 +348,7 @@ export class DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest k8s_kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest k8s_kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest}
 */
 export class DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -364,7 +364,7 @@ export class DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest extends 
   * Generates CDKTF code for importing a DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +376,7 @@ export class DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest k8s_kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest k8s_kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +387,8 @@ export class DataK8SKueueXK8SIoProvisioningRequestConfigV1Beta1Manifest extends 
       terraformResourceType: 'k8s_kueue_x_k8s_io_provisioning_request_config_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

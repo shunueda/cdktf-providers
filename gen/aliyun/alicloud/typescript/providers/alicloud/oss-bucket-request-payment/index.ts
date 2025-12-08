@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketRequestPaymentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#bucket OssBucketRequestPayment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#bucket OssBucketRequestPayment#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#id OssBucketRequestPayment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#id OssBucketRequestPayment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#payer OssBucketRequestPayment#payer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#payer OssBucketRequestPayment#payer}
   */
   readonly payer?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#timeouts OssBucketRequestPayment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#timeouts OssBucketRequestPayment#timeouts}
   */
   readonly timeouts?: OssBucketRequestPaymentTimeouts;
 }
 export interface OssBucketRequestPaymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#create OssBucketRequestPayment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#create OssBucketRequestPayment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#delete OssBucketRequestPayment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#delete OssBucketRequestPayment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#update OssBucketRequestPayment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#update OssBucketRequestPayment#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class OssBucketRequestPaymentTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment alicloud_oss_bucket_request_payment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment alicloud_oss_bucket_request_payment}
 */
 export class OssBucketRequestPayment extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class OssBucketRequestPayment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucketRequestPayment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucketRequestPayment to import
-  * @param importFromId The id of the existing OssBucketRequestPayment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucketRequestPayment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucketRequestPayment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class OssBucketRequestPayment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_request_payment alicloud_oss_bucket_request_payment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_request_payment alicloud_oss_bucket_request_payment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class OssBucketRequestPayment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_request_payment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

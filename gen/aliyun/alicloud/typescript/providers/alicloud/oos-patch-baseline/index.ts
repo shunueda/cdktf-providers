@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface OosPatchBaselineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#approval_rules OosPatchBaseline#approval_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#approval_rules OosPatchBaseline#approval_rules}
   */
   readonly approvalRules: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#approved_patches OosPatchBaseline#approved_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#approved_patches OosPatchBaseline#approved_patches}
   */
   readonly approvedPatches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#approved_patches_enable_non_security OosPatchBaseline#approved_patches_enable_non_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#approved_patches_enable_non_security OosPatchBaseline#approved_patches_enable_non_security}
   */
   readonly approvedPatchesEnableNonSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#description OosPatchBaseline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#description OosPatchBaseline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#id OosPatchBaseline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#id OosPatchBaseline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#operation_system OosPatchBaseline#operation_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#operation_system OosPatchBaseline#operation_system}
   */
   readonly operationSystem: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#patch_baseline_name OosPatchBaseline#patch_baseline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#patch_baseline_name OosPatchBaseline#patch_baseline_name}
   */
   readonly patchBaselineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#rejected_patches OosPatchBaseline#rejected_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#rejected_patches OosPatchBaseline#rejected_patches}
   */
   readonly rejectedPatches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#rejected_patches_action OosPatchBaseline#rejected_patches_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#rejected_patches_action OosPatchBaseline#rejected_patches_action}
   */
   readonly rejectedPatchesAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#resource_group_id OosPatchBaseline#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#resource_group_id OosPatchBaseline#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#sources OosPatchBaseline#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#sources OosPatchBaseline#sources}
   */
   readonly sources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#tags OosPatchBaseline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#tags OosPatchBaseline#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#timeouts OosPatchBaseline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#timeouts OosPatchBaseline#timeouts}
   */
   readonly timeouts?: OosPatchBaselineTimeouts;
 }
 export interface OosPatchBaselineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#create OosPatchBaseline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#create OosPatchBaseline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#delete OosPatchBaseline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#delete OosPatchBaseline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#update OosPatchBaseline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#update OosPatchBaseline#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class OosPatchBaselineTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline alicloud_oos_patch_baseline}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline alicloud_oos_patch_baseline}
 */
 export class OosPatchBaseline extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class OosPatchBaseline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OosPatchBaseline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OosPatchBaseline to import
-  * @param importFromId The id of the existing OosPatchBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OosPatchBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OosPatchBaseline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class OosPatchBaseline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_patch_baseline alicloud_oos_patch_baseline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oos_patch_baseline alicloud_oos_patch_baseline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class OosPatchBaseline extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oos_patch_baseline',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

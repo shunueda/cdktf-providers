@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface DataWorksDwResourceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#auto_renew DataWorksDwResourceGroup#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#auto_renew DataWorksDwResourceGroup#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#default_vpc_id DataWorksDwResourceGroup#default_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#default_vpc_id DataWorksDwResourceGroup#default_vpc_id}
   */
   readonly defaultVpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#default_vswitch_id DataWorksDwResourceGroup#default_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#default_vswitch_id DataWorksDwResourceGroup#default_vswitch_id}
   */
   readonly defaultVswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#id DataWorksDwResourceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#id DataWorksDwResourceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#payment_duration DataWorksDwResourceGroup#payment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#payment_duration DataWorksDwResourceGroup#payment_duration}
   */
   readonly paymentDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#payment_duration_unit DataWorksDwResourceGroup#payment_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#payment_duration_unit DataWorksDwResourceGroup#payment_duration_unit}
   */
   readonly paymentDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#payment_type DataWorksDwResourceGroup#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#payment_type DataWorksDwResourceGroup#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#remark DataWorksDwResourceGroup#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#remark DataWorksDwResourceGroup#remark}
   */
   readonly remark: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#resource_group_id DataWorksDwResourceGroup#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#resource_group_id DataWorksDwResourceGroup#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#resource_group_name DataWorksDwResourceGroup#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#resource_group_name DataWorksDwResourceGroup#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#specification DataWorksDwResourceGroup#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#specification DataWorksDwResourceGroup#specification}
   */
   readonly specification?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#tags DataWorksDwResourceGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#tags DataWorksDwResourceGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#timeouts DataWorksDwResourceGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#timeouts DataWorksDwResourceGroup#timeouts}
   */
   readonly timeouts?: DataWorksDwResourceGroupTimeouts;
 }
 export interface DataWorksDwResourceGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#create DataWorksDwResourceGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#create DataWorksDwResourceGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#delete DataWorksDwResourceGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#delete DataWorksDwResourceGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#update DataWorksDwResourceGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#update DataWorksDwResourceGroup#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class DataWorksDwResourceGroupTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group alicloud_data_works_dw_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group alicloud_data_works_dw_resource_group}
 */
 export class DataWorksDwResourceGroup extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class DataWorksDwResourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataWorksDwResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWorksDwResourceGroup to import
-  * @param importFromId The id of the existing DataWorksDwResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWorksDwResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWorksDwResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DataWorksDwResourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_dw_resource_group alicloud_data_works_dw_resource_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_dw_resource_group alicloud_data_works_dw_resource_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DataWorksDwResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_data_works_dw_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SnapshotscheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#id Snapshotschedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#id Snapshotschedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface SnapshotscheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The amount of Snapshots to keep before overwriting the last created Snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#keep_snapshots Snapshotschedule#keep_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#keep_snapshots Snapshotschedule#keep_snapshots}
   */
   readonly keepSnapshots: number;
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#labels Snapshotschedule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#labels Snapshotschedule#labels}
   */
   readonly labels?: string[];
   /**
   * The human-readable name of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#name Snapshotschedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#name Snapshotschedule#name}
   */
   readonly name: string;
   /**
   * The date and time that the snapshot schedule will be run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#next_runtime Snapshotschedule#next_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#next_runtime Snapshotschedule#next_runtime}
   */
   readonly nextRuntime?: string;
   /**
   * The interval at which the schedule will run (in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#run_interval Snapshotschedule#run_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#run_interval Snapshotschedule#run_interval}
   */
   readonly runInterval: number;
   /**
   * UUID of the storage used to create snapshots
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#storage_uuid Snapshotschedule#storage_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#storage_uuid Snapshotschedule#storage_uuid}
   */
   readonly storageUuid: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#timeouts Snapshotschedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#timeouts Snapshotschedule#timeouts}
   */
   readonly timeouts?: SnapshotscheduleTimeouts;
 }
@@ -144,15 +144,15 @@ export class SnapshotscheduleSnapshotList extends cdktf.ComplexList {
 }
 export interface SnapshotscheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#create Snapshotschedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#create Snapshotschedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#delete Snapshotschedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#delete Snapshotschedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#update Snapshotschedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#update Snapshotschedule#update}
   */
   readonly update?: string;
 }
@@ -304,7 +304,7 @@ export class SnapshotscheduleTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule gridscale_snapshotschedule}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule gridscale_snapshotschedule}
 */
 export class Snapshotschedule extends cdktf.TerraformResource {
 
@@ -320,7 +320,7 @@ export class Snapshotschedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Snapshotschedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Snapshotschedule to import
-  * @param importFromId The id of the existing Snapshotschedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Snapshotschedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Snapshotschedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class Snapshotschedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/snapshotschedule gridscale_snapshotschedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/snapshotschedule gridscale_snapshotschedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class Snapshotschedule extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_snapshotschedule',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#metadata DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#metadata DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#spec DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#spec DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#annotations DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#annotations DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#labels DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#labels DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,13 +185,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Names is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account whose name is in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * Selector is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account that matches the given label selector. If both Names and Selector are specified then they are AND'ed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
 }
@@ -316,13 +316,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Name specifies the name of a Kubernetes Service to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of the given Service. If left empty, the rule will match within this policy's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -447,55 +447,55 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * NamespaceSelector is an optional field that contains a selector expression. Only traffic that originates from (or terminates at) endpoints within the selected namespaces will be matched. When both NamespaceSelector and another selector are defined on the same rule, then only workload endpoints that are matched by both selectors will be selected by the rule. For NetworkPolicy, an empty NamespaceSelector implies that the Selector is limited to selecting only workload endpoints in the same namespace as the NetworkPolicy. For NetworkPolicy, 'global()' NamespaceSelector implies that the Selector is limited to selecting only GlobalNetworkSet or HostEndpoint. For GlobalNetworkPolicy, an empty NamespaceSelector implies the Selector applies to workload endpoints across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: string;
   /**
   * Nets is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) IP addresses in any of the given subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
   */
   readonly nets?: string[];
   /**
   * NotNets is the negated version of the Nets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
   */
   readonly notNets?: string[];
   /**
   * NotPorts is the negated version of the Ports field. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
   */
   readonly notPorts?: string[];
   /**
   * NotSelector is the negated version of the Selector field. See Selector field for subtleties with negated selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
   */
   readonly notSelector?: string;
   /**
   * Ports is an optional field that restricts the rule to only apply to traffic that has a source (destination) port that matches one of these ranges/values. This value is a list of integers or strings that represent ranges of ports. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
   */
   readonly ports?: string[];
   /**
   * Selector is an optional field that contains a selector expression (see Policy for sample syntax). Only traffic that originates from (terminates at) endpoints matching the selector will be matched. Note that: in addition to the negated version of the Selector (see NotSelector below), the selector expression syntax itself supports negation. The two types of negation are subtly different. One negates the set of matched endpoints, the other negates the whole match: Selector = '!has(my_label)' matches packets that are from other Calico-controlled endpoints that do not have the label 'my_label'. NotSelector = 'has(my_label)' matches packets that are not from Calico-controlled endpoints that do have the label 'my_label'. The effect is that the latter will accept packets from non-Calico sources whereas the former is limited to packets from Calico-controlled endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * ServiceAccounts is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a matching service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
   */
   readonly serviceAccounts?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressDestinationServiceAccounts;
   /**
   * Services is an optional field that contains options for matching Kubernetes Services. If specified, only traffic that originates from or terminates at endpoints within the selected service(s) will be matched, and only to/from each endpoint's port. Services cannot be specified on the same rule as Selector, NotSelector, NamespaceSelector, Nets, NotNets or ServiceAccounts. Ports and NotPorts can only be specified with Services on ingress rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
   */
   readonly services?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressDestinationServices;
 }
@@ -821,11 +821,11 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressDe
 }
 export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressHttpPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#exact DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#exact DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#prefix DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#prefix DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -972,13 +972,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Methods is an optional field that restricts the rule to apply only to HTTP requests that use one of the listed HTTP Methods (e.g. GET, PUT, etc.) Multiple methods are OR'd together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#methods DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#methods DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#methods}
   */
   readonly methods?: string[];
   /**
   * Paths is an optional field that restricts the rule to apply to HTTP requests that use one of the listed HTTP Paths. Multiple paths are OR'd together. e.g: - exact: /foo - prefix: /bar NOTE: Each entry may ONLY specify either a 'exact' or a 'prefix' match. The validator will check for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#paths DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#paths DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#paths}
   */
   readonly paths?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressHttpPaths[] | cdktf.IResolvable;
 }
@@ -1103,13 +1103,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Match on a specific ICMP code. If specified, the Type value must also be specified. This is a technical limitation imposed by the kernel's iptables firewall, which Calico uses to enforce the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
   */
   readonly code?: number;
   /**
   * Match on a specific ICMP type. For example a value of 8 refers to ICMP Echo Request (i.e. pings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
   */
   readonly type?: number;
 }
@@ -1234,7 +1234,7 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Annotations is a set of key value pairs that give extra information about the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#annotations DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#annotations DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
 }
@@ -1330,13 +1330,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Match on a specific ICMP code. If specified, the Type value must also be specified. This is a technical limitation imposed by the kernel's iptables firewall, which Calico uses to enforce the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
   */
   readonly code?: number;
   /**
   * Match on a specific ICMP type. For example a value of 8 refers to ICMP Echo Request (i.e. pings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
   */
   readonly type?: number;
 }
@@ -1461,13 +1461,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Names is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account whose name is in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * Selector is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account that matches the given label selector. If both Names and Selector are specified then they are AND'ed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
 }
@@ -1592,13 +1592,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * Name specifies the name of a Kubernetes Service to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of the given Service. If left empty, the rule will match within this policy's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1723,55 +1723,55 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgre
   /**
   * NamespaceSelector is an optional field that contains a selector expression. Only traffic that originates from (or terminates at) endpoints within the selected namespaces will be matched. When both NamespaceSelector and another selector are defined on the same rule, then only workload endpoints that are matched by both selectors will be selected by the rule. For NetworkPolicy, an empty NamespaceSelector implies that the Selector is limited to selecting only workload endpoints in the same namespace as the NetworkPolicy. For NetworkPolicy, 'global()' NamespaceSelector implies that the Selector is limited to selecting only GlobalNetworkSet or HostEndpoint. For GlobalNetworkPolicy, an empty NamespaceSelector implies the Selector applies to workload endpoints across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: string;
   /**
   * Nets is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) IP addresses in any of the given subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
   */
   readonly nets?: string[];
   /**
   * NotNets is the negated version of the Nets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
   */
   readonly notNets?: string[];
   /**
   * NotPorts is the negated version of the Ports field. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
   */
   readonly notPorts?: string[];
   /**
   * NotSelector is the negated version of the Selector field. See Selector field for subtleties with negated selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
   */
   readonly notSelector?: string;
   /**
   * Ports is an optional field that restricts the rule to only apply to traffic that has a source (destination) port that matches one of these ranges/values. This value is a list of integers or strings that represent ranges of ports. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
   */
   readonly ports?: string[];
   /**
   * Selector is an optional field that contains a selector expression (see Policy for sample syntax). Only traffic that originates from (terminates at) endpoints matching the selector will be matched. Note that: in addition to the negated version of the Selector (see NotSelector below), the selector expression syntax itself supports negation. The two types of negation are subtly different. One negates the set of matched endpoints, the other negates the whole match: Selector = '!has(my_label)' matches packets that are from other Calico-controlled endpoints that do not have the label 'my_label'. NotSelector = 'has(my_label)' matches packets that are not from Calico-controlled endpoints that do have the label 'my_label'. The effect is that the latter will accept packets from non-Calico sources whereas the former is limited to packets from Calico-controlled endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * ServiceAccounts is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a matching service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
   */
   readonly serviceAccounts?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressSourceServiceAccounts;
   /**
   * Services is an optional field that contains options for matching Kubernetes Services. If specified, only traffic that originates from or terminates at endpoints within the selected service(s) will be matched, and only to/from each endpoint's port. Services cannot be specified on the same rule as Selector, NotSelector, NamespaceSelector, Nets, NotNets or ServiceAccounts. Ports and NotPorts can only be specified with Services on ingress rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
   */
   readonly services?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressSourceServices;
 }
@@ -2097,61 +2097,61 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressSo
 }
 export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#action DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#action DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#action}
   */
   readonly action: string;
   /**
   * Destination contains the match criteria that apply to destination entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#destination DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#destination DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#destination}
   */
   readonly destination?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressDestination;
   /**
   * HTTP contains match criteria that apply to HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#http DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#http DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#http}
   */
   readonly http?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressHttp;
   /**
   * ICMP is an optional field that restricts the rule to apply to a specific type and code of ICMP traffic. This should only be specified if the Protocol field is set to 'ICMP' or 'ICMPv6'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#icmp}
   */
   readonly icmp?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressIcmp;
   /**
   * IPVersion is an optional field that restricts the rule to only match a specific IP version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ip_version DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ip_version DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ip_version}
   */
   readonly ipVersion?: number;
   /**
   * Metadata contains additional information for this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#metadata DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#metadata DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#metadata}
   */
   readonly metadata?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressMetadata;
   /**
   * NotICMP is the negated version of the ICMP field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_icmp}
   */
   readonly notIcmp?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressNotIcmp;
   /**
   * NotProtocol is the negated version of the Protocol field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_protocol}
   */
   readonly notProtocol?: string;
   /**
   * Protocol is an optional field that restricts the rule to only apply to traffic of a specific IP protocol. Required if any of the EntityRules contain Ports (because ports only apply to certain protocols). Must be one of these string values: 'TCP', 'UDP', 'ICMP', 'ICMPv6', 'SCTP', 'UDPLite' or an integer in the range 1-255.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Source contains the match criteria that apply to source entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#source DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#source DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#source}
   */
   readonly source?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgressSource;
 }
@@ -2527,13 +2527,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Names is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account whose name is in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * Selector is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account that matches the given label selector. If both Names and Selector are specified then they are AND'ed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
 }
@@ -2658,13 +2658,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Name specifies the name of a Kubernetes Service to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of the given Service. If left empty, the rule will match within this policy's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2789,55 +2789,55 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * NamespaceSelector is an optional field that contains a selector expression. Only traffic that originates from (or terminates at) endpoints within the selected namespaces will be matched. When both NamespaceSelector and another selector are defined on the same rule, then only workload endpoints that are matched by both selectors will be selected by the rule. For NetworkPolicy, an empty NamespaceSelector implies that the Selector is limited to selecting only workload endpoints in the same namespace as the NetworkPolicy. For NetworkPolicy, 'global()' NamespaceSelector implies that the Selector is limited to selecting only GlobalNetworkSet or HostEndpoint. For GlobalNetworkPolicy, an empty NamespaceSelector implies the Selector applies to workload endpoints across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: string;
   /**
   * Nets is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) IP addresses in any of the given subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
   */
   readonly nets?: string[];
   /**
   * NotNets is the negated version of the Nets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
   */
   readonly notNets?: string[];
   /**
   * NotPorts is the negated version of the Ports field. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
   */
   readonly notPorts?: string[];
   /**
   * NotSelector is the negated version of the Selector field. See Selector field for subtleties with negated selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
   */
   readonly notSelector?: string;
   /**
   * Ports is an optional field that restricts the rule to only apply to traffic that has a source (destination) port that matches one of these ranges/values. This value is a list of integers or strings that represent ranges of ports. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
   */
   readonly ports?: string[];
   /**
   * Selector is an optional field that contains a selector expression (see Policy for sample syntax). Only traffic that originates from (terminates at) endpoints matching the selector will be matched. Note that: in addition to the negated version of the Selector (see NotSelector below), the selector expression syntax itself supports negation. The two types of negation are subtly different. One negates the set of matched endpoints, the other negates the whole match: Selector = '!has(my_label)' matches packets that are from other Calico-controlled endpoints that do not have the label 'my_label'. NotSelector = 'has(my_label)' matches packets that are not from Calico-controlled endpoints that do have the label 'my_label'. The effect is that the latter will accept packets from non-Calico sources whereas the former is limited to packets from Calico-controlled endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * ServiceAccounts is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a matching service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
   */
   readonly serviceAccounts?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressDestinationServiceAccounts;
   /**
   * Services is an optional field that contains options for matching Kubernetes Services. If specified, only traffic that originates from or terminates at endpoints within the selected service(s) will be matched, and only to/from each endpoint's port. Services cannot be specified on the same rule as Selector, NotSelector, NamespaceSelector, Nets, NotNets or ServiceAccounts. Ports and NotPorts can only be specified with Services on ingress rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
   */
   readonly services?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressDestinationServices;
 }
@@ -3163,11 +3163,11 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressD
 }
 export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressHttpPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#exact DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#exact DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#prefix DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#prefix DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -3314,13 +3314,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Methods is an optional field that restricts the rule to apply only to HTTP requests that use one of the listed HTTP Methods (e.g. GET, PUT, etc.) Multiple methods are OR'd together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#methods DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#methods DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#methods}
   */
   readonly methods?: string[];
   /**
   * Paths is an optional field that restricts the rule to apply to HTTP requests that use one of the listed HTTP Paths. Multiple paths are OR'd together. e.g: - exact: /foo - prefix: /bar NOTE: Each entry may ONLY specify either a 'exact' or a 'prefix' match. The validator will check for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#paths DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#paths DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#paths}
   */
   readonly paths?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressHttpPaths[] | cdktf.IResolvable;
 }
@@ -3445,13 +3445,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Match on a specific ICMP code. If specified, the Type value must also be specified. This is a technical limitation imposed by the kernel's iptables firewall, which Calico uses to enforce the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
   */
   readonly code?: number;
   /**
   * Match on a specific ICMP type. For example a value of 8 refers to ICMP Echo Request (i.e. pings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
   */
   readonly type?: number;
 }
@@ -3576,7 +3576,7 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Annotations is a set of key value pairs that give extra information about the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#annotations DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#annotations DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
 }
@@ -3672,13 +3672,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Match on a specific ICMP code. If specified, the Type value must also be specified. This is a technical limitation imposed by the kernel's iptables firewall, which Calico uses to enforce the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#code DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#code}
   */
   readonly code?: number;
   /**
   * Match on a specific ICMP type. For example a value of 8 refers to ICMP Echo Request (i.e. pings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#type DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#type}
   */
   readonly type?: number;
 }
@@ -3803,13 +3803,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Names is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account whose name is in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#names DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * Selector is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a service account that matches the given label selector. If both Names and Selector are specified then they are AND'ed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
 }
@@ -3934,13 +3934,13 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * Name specifies the name of a Kubernetes Service to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#name DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of the given Service. If left empty, the rule will match within this policy's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4065,55 +4065,55 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngr
   /**
   * NamespaceSelector is an optional field that contains a selector expression. Only traffic that originates from (or terminates at) endpoints within the selected namespaces will be matched. When both NamespaceSelector and another selector are defined on the same rule, then only workload endpoints that are matched by both selectors will be selected by the rule. For NetworkPolicy, an empty NamespaceSelector implies that the Selector is limited to selecting only workload endpoints in the same namespace as the NetworkPolicy. For NetworkPolicy, 'global()' NamespaceSelector implies that the Selector is limited to selecting only GlobalNetworkSet or HostEndpoint. For GlobalNetworkPolicy, an empty NamespaceSelector implies the Selector applies to workload endpoints across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: string;
   /**
   * Nets is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) IP addresses in any of the given subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#nets}
   */
   readonly nets?: string[];
   /**
   * NotNets is the negated version of the Nets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_nets DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_nets}
   */
   readonly notNets?: string[];
   /**
   * NotPorts is the negated version of the Ports field. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_ports}
   */
   readonly notPorts?: string[];
   /**
   * NotSelector is the negated version of the Selector field. See Selector field for subtleties with negated selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_selector}
   */
   readonly notSelector?: string;
   /**
   * Ports is an optional field that restricts the rule to only apply to traffic that has a source (destination) port that matches one of these ranges/values. This value is a list of integers or strings that represent ranges of ports. Since only some protocols have ports, if any ports are specified it requires the Protocol match in the Rule to be set to 'TCP' or 'UDP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ports DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ports}
   */
   readonly ports?: string[];
   /**
   * Selector is an optional field that contains a selector expression (see Policy for sample syntax). Only traffic that originates from (terminates at) endpoints matching the selector will be matched. Note that: in addition to the negated version of the Selector (see NotSelector below), the selector expression syntax itself supports negation. The two types of negation are subtly different. One negates the set of matched endpoints, the other negates the whole match: Selector = '!has(my_label)' matches packets that are from other Calico-controlled endpoints that do not have the label 'my_label'. NotSelector = 'has(my_label)' matches packets that are not from Calico-controlled endpoints that do have the label 'my_label'. The effect is that the latter will accept packets from non-Calico sources whereas the former is limited to packets from Calico-controlled endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * ServiceAccounts is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a matching service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_accounts DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_accounts}
   */
   readonly serviceAccounts?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressSourceServiceAccounts;
   /**
   * Services is an optional field that contains options for matching Kubernetes Services. If specified, only traffic that originates from or terminates at endpoints within the selected service(s) will be matched, and only to/from each endpoint's port. Services cannot be specified on the same rule as Selector, NotSelector, NamespaceSelector, Nets, NotNets or ServiceAccounts. Ports and NotPorts can only be specified with Services on ingress rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#services DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#services}
   */
   readonly services?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressSourceServices;
 }
@@ -4439,61 +4439,61 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressS
 }
 export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#action DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#action DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#action}
   */
   readonly action: string;
   /**
   * Destination contains the match criteria that apply to destination entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#destination DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#destination DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#destination}
   */
   readonly destination?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressDestination;
   /**
   * HTTP contains match criteria that apply to HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#http DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#http DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#http}
   */
   readonly http?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressHttp;
   /**
   * ICMP is an optional field that restricts the rule to apply to a specific type and code of ICMP traffic. This should only be specified if the Protocol field is set to 'ICMP' or 'ICMPv6'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#icmp}
   */
   readonly icmp?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressIcmp;
   /**
   * IPVersion is an optional field that restricts the rule to only match a specific IP version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ip_version DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ip_version DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ip_version}
   */
   readonly ipVersion?: number;
   /**
   * Metadata contains additional information for this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#metadata DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#metadata DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#metadata}
   */
   readonly metadata?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressMetadata;
   /**
   * NotICMP is the negated version of the ICMP field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_icmp DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_icmp}
   */
   readonly notIcmp?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressNotIcmp;
   /**
   * NotProtocol is the negated version of the Protocol field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#not_protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#not_protocol}
   */
   readonly notProtocol?: string;
   /**
   * Protocol is an optional field that restricts the rule to only apply to traffic of a specific IP protocol. Required if any of the EntityRules contain Ports (because ports only apply to certain protocols). Must be one of these string values: 'TCP', 'UDP', 'ICMP', 'ICMPv6', 'SCTP', 'UDPLite' or an integer in the range 1-255.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#protocol DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Source contains the match criteria that apply to source entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#source DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#source DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#source}
   */
   readonly source?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngressSource;
 }
@@ -4869,73 +4869,73 @@ export interface DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpec {
   /**
   * ApplyOnForward indicates to apply the rules in this policy on forward traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#apply_on_forward DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#apply_on_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#apply_on_forward DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#apply_on_forward}
   */
   readonly applyOnForward?: boolean | cdktf.IResolvable;
   /**
   * DoNotTrack indicates whether packets matched by the rules in this policy should go through the data plane's connection tracking, such as Linux conntrack. If True, the rules in this policy are applied before any data plane connection tracking, and packets allowed by this policy are marked as not to be tracked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#do_not_track DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#do_not_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#do_not_track DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#do_not_track}
   */
   readonly doNotTrack?: boolean | cdktf.IResolvable;
   /**
   * The ordered set of egress rules. Each rule contains a set of packet match criteria and a corresponding action to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#egress DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#egress DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#egress}
   */
   readonly egress?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecEgress[] | cdktf.IResolvable;
   /**
   * The ordered set of ingress rules. Each rule contains a set of packet match criteria and a corresponding action to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ingress DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#ingress DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#ingress}
   */
   readonly ingress?: DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecIngress[] | cdktf.IResolvable;
   /**
   * NamespaceSelector is an optional field for an expression used to select a pod based on namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#namespace_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: string;
   /**
   * Order is an optional field that specifies the order in which the policy is applied. Policies with higher 'order' are applied after those with lower order within the same tier. If the order is omitted, it may be considered to be 'infinite' - i.e. the policy will be applied last. Policies with identical order will be applied in alphanumerical order based on the Policy 'Name' within the tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#order DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#order DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#order}
   */
   readonly order?: number;
   /**
   * PerformanceHints contains a list of hints to Calico's policy engine to help process the policy more efficiently. Hints never change the enforcement behaviour of the policy. Currently, the only available hint is 'AssumeNeededOnEveryNode'. When that hint is set on a policy, Felix will act as if the policy matches a local endpoint even if it does not. This is useful for 'preloading' any large static policies that are known to be used on every node. If the policy is _not_ used on a particular node then the work done to preload the policy (and to maintain it) is wasted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#performance_hints DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#performance_hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#performance_hints DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#performance_hints}
   */
   readonly performanceHints?: string[];
   /**
   * PreDNAT indicates to apply the rules in this policy before any DNAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#pre_dnat DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#pre_dnat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#pre_dnat DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#pre_dnat}
   */
   readonly preDnat?: boolean | cdktf.IResolvable;
   /**
   * The selector is an expression used to pick out the endpoints that the policy should be applied to. Selector expressions follow this syntax: label == 'string_literal' -> comparison, e.g. my_label == 'foo bar' label != 'string_literal' -> not equal; also matches if label is not present label in { 'a', 'b', 'c', ... } -> true if the value of label X is one of 'a', 'b', 'c' label not in { 'a', 'b', 'c', ... } -> true if the value of label X is not one of 'a', 'b', 'c' has(label_name) -> True if that label is present ! expr -> negation of expr expr && expr -> Short-circuit and expr || expr -> Short-circuit or ( expr ) -> parens for grouping all() or the empty selector -> matches all endpoints. Label names are allowed to contain alphanumerics, -, _ and /. String literals are more permissive but they do not support escape characters. Examples (with made-up labels): type == 'webserver' && deployment == 'prod' type in {'frontend', 'backend'} deployment != 'dev' ! has(label_name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * ServiceAccountSelector is an optional field for an expression used to select a pod based on service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_account_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_account_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#service_account_selector DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#service_account_selector}
   */
   readonly serviceAccountSelector?: string;
   /**
   * The name of the tier that this policy belongs to. If this is omitted, the default tier (name is 'default') is assumed. The specified tier must exist in order to create security policies within the tier, the 'default' tier is created automatically if it does not exist, this means for deployments requiring only a single Tier, the tier name may be omitted on all policy management requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#tier DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#tier DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#tier}
   */
   readonly tier?: string;
   /**
   * Types indicates whether this policy applies to ingress, or to egress, or to both. When not explicitly specified (and so the value on creation is empty or nil), Calico defaults Types according to what Ingress and Egress rules are present in the policy. The default is: - [ PolicyTypeIngress ], if there are no Egress rules (including the case where there are also no Ingress rules) - [ PolicyTypeEgress ], if there are Egress rules but no Ingress rules - [ PolicyTypeIngress, PolicyTypeEgress ], if there are both Ingress and Egress rules. When the policy is read back again, Types will always be one of these values, never empty or nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#types DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#types DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest#types}
   */
   readonly types?: string[];
 }
@@ -5348,7 +5348,7 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest k8s_crd_projectcalico_org_global_network_policy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest k8s_crd_projectcalico_org_global_network_policy_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -5364,7 +5364,7 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5376,7 +5376,7 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest k8s_crd_projectcalico_org_global_network_policy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/crd_projectcalico_org_global_network_policy_v1_manifest k8s_crd_projectcalico_org_global_network_policy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5387,8 +5387,8 @@ export class DataK8SCrdProjectcalicoOrgGlobalNetworkPolicyV1Manifest extends cdk
       terraformResourceType: 'k8s_crd_projectcalico_org_global_network_policy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

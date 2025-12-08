@@ -65,47 +65,47 @@ dataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemo
 DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetResourcesOutputReference } from './structs800'
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#allow_privilege_escalation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#allow_privilege_escalation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#capabilities DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#capabilities DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#privileged DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#privileged DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#proc_mount DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#proc_mount DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only_root_filesystem DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only_root_filesystem DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_non_root DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_non_root DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#se_linux_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#se_linux_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seccomp_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seccomp_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#windows_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#windows_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetSecurityContextWindowsOptions;
 }
@@ -489,23 +489,23 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#effect DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#effect DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#toleration_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#toleration_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -737,15 +737,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -919,11 +919,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1046,19 +1046,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_skew DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_skew DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#when_unsatisfiable DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#when_unsatisfiable DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable?: string;
 }
@@ -1261,27 +1261,27 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_propagation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_propagation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path_expr DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path_expr DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -1542,19 +1542,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#partition DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#partition DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -1735,27 +1735,27 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#caching_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#caching_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#disk_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#disk_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#disk_name}
   */
   readonly diskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#disk_uri DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#disk_uri DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1994,15 +1994,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#share_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#share_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#share_name}
   */
   readonly shareName?: string;
 }
@@ -2154,7 +2154,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2248,27 +2248,27 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#monitors DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#monitors DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#monitors}
   */
   readonly monitors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_file DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_file DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -2507,7 +2507,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2601,19 +2601,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -2794,15 +2794,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -2976,7 +2976,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceConfigMapLocalObjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3070,19 +3070,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
   */
   readonly localObjectReference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceConfigMapLocalObjectReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3263,7 +3263,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3357,23 +3357,23 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#driver DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#driver DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_publish_secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_publish_secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_attributes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_attributes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -3583,11 +3583,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -3710,15 +3710,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -3870,19 +3870,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApiItemsResourceFieldRef;
 }
@@ -4085,11 +4085,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -4212,11 +4212,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#medium DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#medium DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#size_limit DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#size_limit DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -4339,11 +4339,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataCreationTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nanos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nanos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nanos}
   */
   readonly nanos?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seconds}
   */
   readonly seconds?: number;
 }
@@ -4466,11 +4466,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataDeletionTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nanos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nanos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nanos}
   */
   readonly nanos?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seconds}
   */
   readonly seconds?: number;
 }
@@ -4593,7 +4593,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataManagedFieldsFieldsV1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#raw DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#raw DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#raw}
   */
   readonly raw?: string;
 }
@@ -4687,11 +4687,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataManagedFieldsTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nanos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nanos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nanos}
   */
   readonly nanos?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seconds}
   */
   readonly seconds?: number;
 }
@@ -4814,31 +4814,31 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataManagedFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fields_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fields_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fields_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fields_type}
   */
   readonly fieldsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fields_v1 DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fields_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fields_v1 DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fields_v1}
   */
   readonly fieldsV1?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataManagedFieldsFieldsV1;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#manager DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#manager DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#manager}
   */
   readonly manager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#subresource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#subresource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#subresource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#subresource}
   */
   readonly subresource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#time DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#time DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#time}
   */
   readonly time?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataManagedFieldsTime;
 }
@@ -5128,27 +5128,27 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataOwnerReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#block_owner_deletion DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#block_owner_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#block_owner_deletion DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#block_owner_deletion}
   */
   readonly blockOwnerDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#controller DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#controller DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#controller}
   */
   readonly controller?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#uid DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#uid DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -5409,67 +5409,67 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#annotations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#annotations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cluster_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cluster_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#creation_timestamp DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#creation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#creation_timestamp DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#creation_timestamp}
   */
   readonly creationTimestamp?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataCreationTimestamp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#deletion_grace_period_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#deletion_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#deletion_grace_period_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#deletion_grace_period_seconds}
   */
   readonly deletionGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#deletion_timestamp DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#deletion_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#deletion_timestamp DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#deletion_timestamp}
   */
   readonly deletionTimestamp?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataDeletionTimestamp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#finalizers DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#finalizers DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#generate_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#generate_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#generate_name}
   */
   readonly generateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#generation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#generation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#generation}
   */
   readonly generation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#managed_fields DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#managed_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#managed_fields DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#managed_fields}
   */
   readonly managedFields?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataManagedFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#owner_references DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#owner_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#owner_references DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#owner_references}
   */
   readonly ownerReferences?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadataOwnerReferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#self_link DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#self_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#self_link DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#self_link}
   */
   readonly selfLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#uid DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#uid DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -5998,15 +5998,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6158,15 +6158,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#kind DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6318,7 +6318,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecResourcesLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#string DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#string DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -6412,7 +6412,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecResourcesRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#string DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#string DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -6506,11 +6506,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#limits DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#limits DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#limits}
   */
   readonly limits?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecResourcesLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#requests DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#requests DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#requests}
   */
   readonly requests?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecResourcesRequests;
 }
@@ -6633,15 +6633,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6815,11 +6815,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6942,35 +6942,35 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#access_modes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#access_modes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#data_source DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#data_source DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#data_source_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#data_source_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_class_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_class_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7267,11 +7267,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#metadata DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#metadata DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#spec DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#spec DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplateSpec;
 }
@@ -7394,7 +7394,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_claim_template DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_claim_template DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeralVolumeClaimTemplate;
 }
@@ -7488,23 +7488,23 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#lun DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#lun DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#target_ww_ns DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#target_ww_ns DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#wwids DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#wwids DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -7714,7 +7714,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7808,23 +7808,23 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#driver DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#driver DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFlexVolumeSecretRef;
 }
@@ -8034,11 +8034,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#dataset_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#dataset_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#dataset_uuid DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#dataset_uuid DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -8161,19 +8161,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#partition DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#partition DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pd_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pd_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pd_name}
   */
   readonly pdName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -8354,15 +8354,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#directory DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#directory DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#repository DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#repository DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#revision DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#revision DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -8514,15 +8514,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#endpoints DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#endpoints DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#endpoints}
   */
   readonly endpoints?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -8674,11 +8674,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8801,7 +8801,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8895,47 +8895,47 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#chap_auth_discovery DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#chap_auth_discovery DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#chap_auth_session DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#chap_auth_session DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#initiator_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#initiator_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#iqn DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#iqn DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#iqn}
   */
   readonly iqn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#iscsi_interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#iscsi_interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#lun DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#lun DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#portals DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#portals DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#target_portal DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#target_portal DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal?: string;
 }
@@ -9319,15 +9319,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#server DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#server DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#server}
   */
   readonly server?: string;
 }
@@ -9479,11 +9479,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourcePersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#claim_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#claim_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9606,11 +9606,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourcePhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pd_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pd_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pd_id}
   */
   readonly pdId?: string;
 }
@@ -9733,15 +9733,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourcePortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -9893,15 +9893,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -10075,7 +10075,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesConfigMapLocalObjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10169,15 +10169,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
   */
   readonly localObjectReference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesConfigMapLocalObjectReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10329,11 +10329,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -10456,15 +10456,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -10616,19 +10616,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -10831,7 +10831,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -10925,15 +10925,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -11107,7 +11107,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesSecretLocalObjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -11201,15 +11201,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
   */
   readonly localObjectReference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesSecretLocalObjectReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11361,15 +11361,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#audience DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#audience DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#expiration_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#expiration_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -11521,19 +11521,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#downward_api DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#downward_api DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#service_account_token DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#service_account_token DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSourcesServiceAccountToken;
 }
@@ -11736,11 +11736,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjectedSources[] | cdktf.IResolvable;
 }
@@ -11863,27 +11863,27 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceQuobyte {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#registry DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#registry DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#registry}
   */
   readonly registry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#tenant DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#tenant DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume}
   */
   readonly volume?: string;
 }
@@ -12122,7 +12122,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceRbdSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12216,35 +12216,35 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceRbd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#keyring DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#keyring DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#monitors DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#monitors DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#monitors}
   */
   readonly monitors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pool DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pool DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceRbdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12541,7 +12541,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceScaleIoSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12635,43 +12635,43 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceScaleIo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gateway DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gateway DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#protection_domain DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#protection_domain DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceScaleIoSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#ssl_enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#ssl_enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_pool DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_pool DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#system DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#system DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -13026,15 +13026,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -13208,19 +13208,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#default_mode DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#items DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -13401,7 +13401,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13495,23 +13495,23 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_namespace DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_namespace DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -13721,19 +13721,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fs_type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_policy_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_policy_id DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_policy_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storage_policy_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_path}
   */
   readonly volumePath?: string;
 }
@@ -13914,119 +13914,119 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#aws_elastic_block_store DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#aws_elastic_block_store DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#azure_disk DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#azure_disk DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#azure_file DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#azure_file DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cephfs DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cephfs DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cinder DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cinder DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#csi DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#csi DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#downward_api DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#downward_api DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#empty_dir DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#empty_dir DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#ephemeral DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#ephemeral DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fc DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#fc DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#flex_volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#flex_volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#flocker DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#flocker DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gce_persistent_disk DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gce_persistent_disk DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#git_repo DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#git_repo DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#glusterfs DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#glusterfs DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#iscsi DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#iscsi DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nfs DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#nfs DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#persistent_volume_claim DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#persistent_volume_claim DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourcePersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#photon_persistent_disk DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#photon_persistent_disk DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourcePhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#portworx_volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#portworx_volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourcePortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#projected DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#projected DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#quobyte DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#quobyte DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#rbd DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#rbd DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#scale_io DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#scale_io DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storageos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#storageos DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#vsphere_volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#vsphere_volume DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSourceVsphereVolume;
 }
@@ -14932,11 +14932,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_source DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_source DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_source}
   */
   readonly volumeSource?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumesVolumeSource;
 }
@@ -15081,87 +15081,87 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#deployment_strategy DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#deployment_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#deployment_strategy DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#deployment_strategy}
   */
   readonly deploymentStrategy?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetDeploymentStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#env DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#env DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image_pull_policy DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image_pull_policy DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image_pull_secrets DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image_pull_secrets DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#liveness_probe DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#liveness_probe DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#metadata DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#metadata DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_disruption_budget DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_disruption_budget DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetPodDisruptionBudget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_metadata DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_metadata DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetPodMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_security_context DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_security_context DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetPodSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#priority_class_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#priority_class_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#readiness_probe DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#readiness_probe DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#replicas DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#replicas DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetReplicas;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#security_context DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#security_context DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#tolerations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#tolerations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_spread_constraints DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_spread_constraints DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_mounts DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_mounts DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volumes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volumes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonsetVolumes[] | cdktf.IResolvable;
 }
@@ -15835,27 +15835,27 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniRepair {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#broken_pod_label_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#broken_pod_label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#broken_pod_label_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#broken_pod_label_key}
   */
   readonly brokenPodLabelKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#broken_pod_label_value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#broken_pod_label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#broken_pod_label_value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#broken_pod_label_value}
   */
   readonly brokenPodLabelValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#delete_pods DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#delete_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#delete_pods DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#delete_pods}
   */
   readonly deletePods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#init_container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#init_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#init_container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#init_container_name}
   */
   readonly initContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_pods DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_pods DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_pods}
   */
   readonly labelPods?: boolean | cdktf.IResolvable;
 }
@@ -16094,15 +16094,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniResourceQuotas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pods DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pods DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pods}
   */
   readonly pods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#priority_classes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#priority_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#priority_classes DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#priority_classes}
   */
   readonly priorityClasses?: string[];
 }
@@ -16254,7 +16254,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromConfigMapKeyRefLocalObjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16348,15 +16348,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
   */
   readonly localObjectReference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromConfigMapKeyRefLocalObjectReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16508,11 +16508,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -16635,15 +16635,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -16795,7 +16795,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromSecretKeyRefLocalObjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16889,15 +16889,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
   */
   readonly localObjectReference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromSecretKeyRefLocalObjectReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17049,19 +17049,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFromSecretKeyRef;
 }
@@ -17242,15 +17242,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value_from DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value_from DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnvValueFrom;
 }
@@ -17424,11 +17424,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#limits DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#limits DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#requests DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#requests DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17551,11 +17551,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#add DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#add DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#drop DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#drop DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -17678,19 +17678,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#level DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#level DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#role DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#role DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -17871,11 +17871,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#localhost_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#localhost_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -17998,19 +17998,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gmsa_credential_spec DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gmsa_credential_spec DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gmsa_credential_spec_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#gmsa_credential_spec_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host_process DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host_process DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_user_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_user_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -18191,47 +18191,47 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#allow_privilege_escalation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#allow_privilege_escalation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#capabilities DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#capabilities DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#privileged DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#privileged DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#proc_mount DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#proc_mount DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only_root_filesystem DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only_root_filesystem DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_group DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_non_root DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_non_root DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#run_as_user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#se_linux_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#se_linux_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seccomp_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#seccomp_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#windows_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#windows_options DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContextWindowsOptions;
 }
@@ -18615,27 +18615,27 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_propagation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#mount_propagation DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#read_only DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path_expr DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#sub_path_expr DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -18896,23 +18896,23 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#env DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#env DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#security_context DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#security_context DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_mounts DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#volume_mounts DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -19122,11 +19122,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container}
   */
   readonly container?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaintContainer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -19249,55 +19249,55 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCni {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#bin_dir DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#bin_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#bin_dir DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#bin_dir}
   */
   readonly binDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#chained DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#chained}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#chained DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#chained}
   */
   readonly chained?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#conf_dir DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#conf_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#conf_dir DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#conf_dir}
   */
   readonly confDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#conf_file_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#conf_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#conf_file_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#conf_file_name}
   */
   readonly confFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#daemonset DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#daemonset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#daemonset DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#daemonset}
   */
   readonly daemonset?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniDaemonset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#exclude_namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#exclude_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#exclude_namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#exclude_namespaces}
   */
   readonly excludeNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#include_namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#include_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#include_namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#include_namespaces}
   */
   readonly includeNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#log_level DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#log_level DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#psp_cluster_role_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#psp_cluster_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#psp_cluster_role_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#psp_cluster_role_name}
   */
   readonly pspClusterRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#repair DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#repair DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#repair}
   */
   readonly repair?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniRepair;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_quotas DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_quotas DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_quotas}
   */
   readonly resourceQuotas?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniResourceQuotas;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#taint DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#taint DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#taint}
   */
   readonly taint?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCniTaint;
 }
@@ -19739,11 +19739,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#limits DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#limits DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#requests DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#requests DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -19866,15 +19866,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cni DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#cni DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#cni}
   */
   readonly cni?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitCni;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#image DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resources DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyInitResources;
 }
@@ -20026,7 +20026,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProxyWasm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#enabled DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -20120,7 +20120,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecProx
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#token_audience DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#token_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#token_audience DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#token_audience}
   */
   readonly tokenAudience?: string;
 }
@@ -20214,15 +20214,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSdsO
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20396,15 +20396,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20578,11 +20578,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_fields DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_fields DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -20705,11 +20705,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preference}
   */
   readonly preference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#weight DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#weight DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -20854,15 +20854,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21036,15 +21036,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21218,11 +21218,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_fields DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_fields DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -21367,7 +21367,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_selector_terms DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_selector_terms DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -21461,11 +21461,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -21588,15 +21588,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21770,11 +21770,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21897,15 +21897,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22079,11 +22079,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22206,19 +22206,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -22399,11 +22399,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#weight DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#weight DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -22548,15 +22548,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22730,11 +22730,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22857,15 +22857,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23039,11 +23039,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23166,19 +23166,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -23381,11 +23381,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -23508,15 +23508,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23690,11 +23690,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23817,15 +23817,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23999,11 +23999,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24126,19 +24126,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -24319,11 +24319,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#weight DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#weight DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -24468,15 +24468,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24650,11 +24650,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24777,15 +24777,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#operator DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#values DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24959,11 +24959,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_expressions DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#match_labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25086,19 +25086,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#label_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespace_selector DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#namespaces DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#topology_key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -25301,11 +25301,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -25428,15 +25428,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#node_affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_anti_affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#pod_anti_affinity DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentAffinityPodAntiAffinity;
 }
@@ -25588,11 +25588,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentDeploymentStrategyRollingUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_surge DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_surge DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_unavailable DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_unavailable DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -25715,11 +25715,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentDeploymentStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#rolling_update DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#rolling_update DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentDeploymentStrategyRollingUpdate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -25842,7 +25842,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromConfigMapKeyRefLocalObjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -25936,15 +25936,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
   */
   readonly localObjectReference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromConfigMapKeyRefLocalObjectReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26096,11 +26096,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#api_version DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -26223,15 +26223,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#container_name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#divisor DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -26383,7 +26383,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromSecretKeyRefLocalObjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -26477,15 +26477,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#key DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#local_object_reference DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#local_object_reference}
   */
   readonly localObjectReference?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromSecretKeyRefLocalObjectReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#optional DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26637,19 +26637,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#config_map_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#resource_field_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#secret_key_ref DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFromSecretKeyRef;
 }
@@ -26830,15 +26830,15 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value_from DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value_from DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentEnvValueFrom;
 }
@@ -27012,7 +27012,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27128,7 +27128,7 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#command DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#command DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -27222,11 +27222,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#port DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#port DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#service DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#service DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -27349,11 +27349,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -27498,23 +27498,23 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#http_headers DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#http_headers DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#path DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#port DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#port DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#scheme DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#scheme DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -27724,11 +27724,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#host DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#port DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#port DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -27851,43 +27851,43 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#exec DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#exec DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#failure_threshold DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#failure_threshold DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#grpc DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#grpc DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#http_get DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#http_get DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#initial_delay_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#initial_delay_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#period_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#period_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#success_threshold DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#success_threshold DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#tcp_socket DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#tcp_socket DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#termination_grace_period_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#termination_grace_period_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#timeout_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#timeout_seconds DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -28242,11 +28242,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#annotations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#annotations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -28369,11 +28369,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentPodDisruptionBudget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_unavailable DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#max_unavailable DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#min_available DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#min_available DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#min_available}
   */
   readonly minAvailable?: string;
 }
@@ -28496,11 +28496,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentPodMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#annotations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#annotations DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#labels DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -28623,19 +28623,19 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentPodSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#level DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#level DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#role DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#role DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#user DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -28816,11 +28816,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentPodSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#localhost_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#localhost_profile DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -28943,11 +28943,11 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSide
 }
 export interface DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1ManifestSpecSidecarInjectorDeploymentPodSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#name DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest#value DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }

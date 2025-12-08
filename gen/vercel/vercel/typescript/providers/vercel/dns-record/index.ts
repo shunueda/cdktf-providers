@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * A comment explaining what the DNS record is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#comment DnsRecord#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#comment DnsRecord#comment}
   */
   readonly comment?: string;
   /**
   * The domain name, or zone, that the DNS record should be created beneath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#domain DnsRecord#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#domain DnsRecord#domain}
   */
   readonly domain: string;
   /**
   * The priority of the MX record. The priority specifies the sequence that an email server receives emails. A smaller value indicates a higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#mx_priority DnsRecord#mx_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#mx_priority DnsRecord#mx_priority}
   */
   readonly mxPriority?: number;
   /**
   * The subdomain name of the record. This should be an empty string if the rercord is for the root domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#name DnsRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#name DnsRecord#name}
   */
   readonly name: string;
   /**
   * Settings for an SRV record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#srv DnsRecord#srv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#srv DnsRecord#srv}
   */
   readonly srv?: DnsRecordSrv;
   /**
   * The team ID that the domain and DNS records belong to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#team_id DnsRecord#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#team_id DnsRecord#team_id}
   */
   readonly teamId?: string;
   /**
   * The TTL value in seconds. Must be a number between 60 and 2147483647. If unspecified, it will default to 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#ttl DnsRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#ttl DnsRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The type of DNS record. Available types: `A`, `AAAA`, `ALIAS`, `CAA`, `CNAME`, `MX`, `NS`, `SRV`, `TXT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#type DnsRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#type DnsRecord#type}
   */
   readonly type: string;
   /**
@@ -65,7 +65,7 @@ export interface DnsRecordConfig extends cdktf.TerraformMetaArguments {
   * For 'MX' records, this should specify the mail server responsible for accepting messages on behalf of the domain name.
   * For 'TXT' records, this can contain arbitrary text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#value DnsRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#value DnsRecord#value}
   */
   readonly value?: string;
 }
@@ -73,25 +73,25 @@ export interface DnsRecordSrv {
   /**
   * The TCP or UDP port on which the service is to be found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#port DnsRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#port DnsRecord#port}
   */
   readonly port: number;
   /**
   * The priority of the target host, lower value means more preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#priority DnsRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#priority DnsRecord#priority}
   */
   readonly priority: number;
   /**
   * The canonical hostname of the machine providing the service, ending in a dot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#target DnsRecord#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#target DnsRecord#target}
   */
   readonly target: string;
   /**
   * A relative weight for records with the same priority, higher value means higher chance of getting picked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#weight DnsRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#weight DnsRecord#weight}
   */
   readonly weight: number;
 }
@@ -260,7 +260,7 @@ export class DnsRecordSrvOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record vercel_dns_record}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record vercel_dns_record}
 */
 export class DnsRecord extends cdktf.TerraformResource {
 
@@ -276,7 +276,7 @@ export class DnsRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecord to import
-  * @param importFromId The id of the existing DnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -288,7 +288,7 @@ export class DnsRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/dns_record vercel_dns_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/dns_record vercel_dns_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,8 +299,8 @@ export class DnsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

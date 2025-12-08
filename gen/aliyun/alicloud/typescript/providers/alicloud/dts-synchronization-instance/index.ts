@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface DtsSynchronizationInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#auto_pay DtsSynchronizationInstance#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#auto_pay DtsSynchronizationInstance#auto_pay}
   */
   readonly autoPay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#auto_start DtsSynchronizationInstance#auto_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#auto_start DtsSynchronizationInstance#auto_start}
   */
   readonly autoStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#compute_unit DtsSynchronizationInstance#compute_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#compute_unit DtsSynchronizationInstance#compute_unit}
   */
   readonly computeUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#database_count DtsSynchronizationInstance#database_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#database_count DtsSynchronizationInstance#database_count}
   */
   readonly databaseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#destination_endpoint_engine_name DtsSynchronizationInstance#destination_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#destination_endpoint_engine_name DtsSynchronizationInstance#destination_endpoint_engine_name}
   */
   readonly destinationEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#destination_endpoint_region DtsSynchronizationInstance#destination_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#destination_endpoint_region DtsSynchronizationInstance#destination_endpoint_region}
   */
   readonly destinationEndpointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#id DtsSynchronizationInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#id DtsSynchronizationInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#instance_class DtsSynchronizationInstance#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#instance_class DtsSynchronizationInstance#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#payment_duration DtsSynchronizationInstance#payment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#payment_duration DtsSynchronizationInstance#payment_duration}
   */
   readonly paymentDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#payment_duration_unit DtsSynchronizationInstance#payment_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#payment_duration_unit DtsSynchronizationInstance#payment_duration_unit}
   */
   readonly paymentDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#payment_type DtsSynchronizationInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#payment_type DtsSynchronizationInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#quantity DtsSynchronizationInstance#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#quantity DtsSynchronizationInstance#quantity}
   */
   readonly quantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#source_endpoint_engine_name DtsSynchronizationInstance#source_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#source_endpoint_engine_name DtsSynchronizationInstance#source_endpoint_engine_name}
   */
   readonly sourceEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#source_endpoint_region DtsSynchronizationInstance#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#source_endpoint_region DtsSynchronizationInstance#source_endpoint_region}
   */
   readonly sourceEndpointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#sync_architecture DtsSynchronizationInstance#sync_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#sync_architecture DtsSynchronizationInstance#sync_architecture}
   */
   readonly syncArchitecture?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance alicloud_dts_synchronization_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance alicloud_dts_synchronization_instance}
 */
 export class DtsSynchronizationInstance extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class DtsSynchronizationInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsSynchronizationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsSynchronizationInstance to import
-  * @param importFromId The id of the existing DtsSynchronizationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsSynchronizationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsSynchronizationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class DtsSynchronizationInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_synchronization_instance alicloud_dts_synchronization_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dts_synchronization_instance alicloud_dts_synchronization_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class DtsSynchronizationInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dts_synchronization_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

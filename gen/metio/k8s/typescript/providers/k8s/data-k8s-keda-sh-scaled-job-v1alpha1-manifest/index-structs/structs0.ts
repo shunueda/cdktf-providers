@@ -3,25 +3,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#annotations DataK8SKedaShScaledJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#annotations DataK8SKedaShScaledJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#labels DataK8SKedaShScaledJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#labels DataK8SKedaShScaledJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace DataK8SKedaShScaledJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace DataK8SKedaShScaledJobV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,19 +198,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefPodFailur
   /**
   * Restricts the check for exit codes to the container with the specified name. When null, the rule applies to all containers. When specified, it should match one the container or initContainer names in the pod template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_name DataK8SKedaShScaledJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_name DataK8SKedaShScaledJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Represents the relationship between the container exit code(s) and the specified values. Containers completed with success (exit code 0) are excluded from the requirement check. Possible values are: - In: the requirement is satisfied if at least one container exit code (might be multiple if there are multiple containers not restricted by the 'containerName' field) is in the set of specified values. - NotIn: the requirement is satisfied if at least one container exit code (might be multiple if there are multiple containers not restricted by the 'containerName' field) is not in the set of specified values. Additional values are considered to be added in the future. Clients should react to an unknown operator by assuming the requirement is not satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Specifies the set of values. Each returned container exit code (might be multiple in case of multiple containers) is checked against this set of values with respect to the operator. The list of values must be ordered and must not contain duplicates. Value '0' cannot be used for the In operator. At least one element is required. At most 255 elements are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values: string[];
 }
@@ -358,13 +358,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefPodFailur
   /**
   * Specifies the required Pod condition status. To match a pod condition it is required that the specified status equals the pod condition status. Defaults to True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#status DataK8SKedaShScaledJobV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#status DataK8SKedaShScaledJobV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * Specifies the required Pod condition type. To match a pod condition it is required that specified type equals the pod condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -505,19 +505,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefPodFailur
   /**
   * Specifies the action taken on a pod failure when the requirements are satisfied. Possible values are: - FailJob: indicates that the pod's job is marked as Failed and all running pods are terminated. - FailIndex: indicates that the pod's index is marked as Failed and will not be restarted. This value is beta-level. It can be used when the 'JobBackoffLimitPerIndex' feature gate is enabled (enabled by default). - Ignore: indicates that the counter towards the .backoffLimit is not incremented and a replacement pod is created. - Count: indicates that the pod is handled in the default way - the counter towards the .backoffLimit is incremented. Additional values are considered to be added in the future. Clients should react to an unknown action by skipping the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#action DataK8SKedaShScaledJobV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#action DataK8SKedaShScaledJobV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Represents the requirement on the container exit codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#on_exit_codes DataK8SKedaShScaledJobV1Alpha1Manifest#on_exit_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#on_exit_codes DataK8SKedaShScaledJobV1Alpha1Manifest#on_exit_codes}
   */
   readonly onExitCodes?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefPodFailurePolicyRulesOnExitCodes;
   /**
   * Represents the requirement on the pod conditions. The requirement is represented as a list of pod condition patterns. The requirement is satisfied if at least one pattern matches an actual pod condition. At most 20 elements are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#on_pod_conditions DataK8SKedaShScaledJobV1Alpha1Manifest#on_pod_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#on_pod_conditions DataK8SKedaShScaledJobV1Alpha1Manifest#on_pod_conditions}
   */
   readonly onPodConditions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefPodFailurePolicyRulesOnPodConditions[] | cdktf.IResolvable;
 }
@@ -690,7 +690,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefPodFailur
   /**
   * A list of pod failure policy rules. The rules are evaluated in order. Once a rule matches a Pod failure, the remaining of the rules are ignored. When no rule matches the Pod failure, the default handling applies - the counter of pod failures is incremented and it is checked against the backoffLimit. At most 20 elements are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#rules DataK8SKedaShScaledJobV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#rules DataK8SKedaShScaledJobV1Alpha1Manifest#rules}
   */
   readonly rules: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefPodFailurePolicyRules[] | cdktf.IResolvable;
 }
@@ -783,19 +783,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefSelectorM
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -965,13 +965,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefSelector 
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1096,19 +1096,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1278,19 +1278,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1460,13 +1460,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_fields DataK8SKedaShScaledJobV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_fields DataK8SKedaShScaledJobV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1591,13 +1591,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preference DataK8SKedaShScaledJobV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preference DataK8SKedaShScaledJobV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#weight DataK8SKedaShScaledJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#weight DataK8SKedaShScaledJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1738,19 +1738,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1920,19 +1920,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2102,13 +2102,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_fields DataK8SKedaShScaledJobV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_fields DataK8SKedaShScaledJobV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2255,7 +2255,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#node_selector_terms DataK8SKedaShScaledJobV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#node_selector_terms DataK8SKedaShScaledJobV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2348,13 +2348,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2479,19 +2479,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2661,13 +2661,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2792,19 +2792,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2974,13 +2974,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3105,37 +3105,37 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3373,13 +3373,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_affinity_term DataK8SKedaShScaledJobV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_affinity_term DataK8SKedaShScaledJobV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#weight DataK8SKedaShScaledJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#weight DataK8SKedaShScaledJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3520,19 +3520,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3702,13 +3702,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3833,19 +3833,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4015,13 +4015,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4146,37 +4146,37 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4436,13 +4436,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4567,19 +4567,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4749,13 +4749,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4880,19 +4880,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5062,13 +5062,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5193,37 +5193,37 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5461,13 +5461,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_affinity_term DataK8SKedaShScaledJobV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_affinity_term DataK8SKedaShScaledJobV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#weight DataK8SKedaShScaledJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#weight DataK8SKedaShScaledJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5608,19 +5608,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5790,13 +5790,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5921,19 +5921,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#operator DataK8SKedaShScaledJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#values DataK8SKedaShScaledJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6103,13 +6103,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_expressions DataK8SKedaShScaledJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_labels DataK8SKedaShScaledJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6234,37 +6234,37 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#label_selector DataK8SKedaShScaledJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#match_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mismatch_label_keys DataK8SKedaShScaledJobV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespace_selector DataK8SKedaShScaledJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#namespaces DataK8SKedaShScaledJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#topology_key DataK8SKedaShScaledJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6524,13 +6524,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKedaShScaledJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6655,19 +6655,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#node_affinity DataK8SKedaShScaledJobV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#node_affinity DataK8SKedaShScaledJobV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_affinity DataK8SKedaShScaledJobV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_affinity DataK8SKedaShScaledJobV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_anti_affinity DataK8SKedaShScaledJobV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pod_anti_affinity DataK8SKedaShScaledJobV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecAffinityPodAntiAffinity;
 }
@@ -6821,19 +6821,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6984,13 +6984,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#api_version DataK8SKedaShScaledJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#api_version DataK8SKedaShScaledJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_path DataK8SKedaShScaledJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_path DataK8SKedaShScaledJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -7112,19 +7112,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_name DataK8SKedaShScaledJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_name DataK8SKedaShScaledJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#divisor DataK8SKedaShScaledJobV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#divisor DataK8SKedaShScaledJobV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource DataK8SKedaShScaledJobV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource DataK8SKedaShScaledJobV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -7275,19 +7275,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7438,25 +7438,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -7639,19 +7639,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value_from DataK8SKedaShScaledJobV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value_from DataK8SKedaShScaledJobV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvValueFrom;
 }
@@ -7824,13 +7824,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7955,13 +7955,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8086,19 +8086,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#prefix DataK8SKedaShScaledJobV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#prefix DataK8SKedaShScaledJobV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvFromSecretRef;
 }
@@ -8274,7 +8274,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8370,13 +8370,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8517,31 +8517,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8750,7 +8750,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -8843,13 +8843,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8971,25 +8971,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -9172,7 +9172,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9268,13 +9268,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9415,31 +9415,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9648,7 +9648,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -9741,13 +9741,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -9869,25 +9869,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -10070,13 +10070,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#post_start DataK8SKedaShScaledJobV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#post_start DataK8SKedaShScaledJobV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pre_stop DataK8SKedaShScaledJobV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pre_stop DataK8SKedaShScaledJobV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecyclePreStop;
 }
@@ -10201,7 +10201,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10297,13 +10297,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -10425,13 +10425,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -10572,31 +10572,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10805,13 +10805,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -10933,61 +10933,61 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11344,31 +11344,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_port DataK8SKedaShScaledJobV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_port DataK8SKedaShScaledJobV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_ip DataK8SKedaShScaledJobV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_ip DataK8SKedaShScaledJobV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_port DataK8SKedaShScaledJobV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_port DataK8SKedaShScaledJobV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#protocol DataK8SKedaShScaledJobV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#protocol DataK8SKedaShScaledJobV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -11599,7 +11599,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11695,13 +11695,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -11823,13 +11823,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -11970,31 +11970,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12203,13 +12203,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -12331,61 +12331,61 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12742,13 +12742,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_name DataK8SKedaShScaledJobV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_name DataK8SKedaShScaledJobV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -12889,7 +12889,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -13004,19 +13004,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#claims DataK8SKedaShScaledJobV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#claims DataK8SKedaShScaledJobV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#limits DataK8SKedaShScaledJobV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#limits DataK8SKedaShScaledJobV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#requests DataK8SKedaShScaledJobV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#requests DataK8SKedaShScaledJobV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13170,13 +13170,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#add DataK8SKedaShScaledJobV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#add DataK8SKedaShScaledJobV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#drop DataK8SKedaShScaledJobV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#drop DataK8SKedaShScaledJobV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -13301,25 +13301,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#level DataK8SKedaShScaledJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#level DataK8SKedaShScaledJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#role DataK8SKedaShScaledJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#role DataK8SKedaShScaledJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#user DataK8SKedaShScaledJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#user DataK8SKedaShScaledJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -13502,13 +13502,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#localhost_profile DataK8SKedaShScaledJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#localhost_profile DataK8SKedaShScaledJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -13630,25 +13630,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_process DataK8SKedaShScaledJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_process DataK8SKedaShScaledJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user_name DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user_name DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -13831,67 +13831,67 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#allow_privilege_escalation DataK8SKedaShScaledJobV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#allow_privilege_escalation DataK8SKedaShScaledJobV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#capabilities DataK8SKedaShScaledJobV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#capabilities DataK8SKedaShScaledJobV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#privileged DataK8SKedaShScaledJobV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#privileged DataK8SKedaShScaledJobV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#proc_mount DataK8SKedaShScaledJobV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#proc_mount DataK8SKedaShScaledJobV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only_root_filesystem DataK8SKedaShScaledJobV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only_root_filesystem DataK8SKedaShScaledJobV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_group DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_group DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_non_root DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_non_root DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#se_linux_options DataK8SKedaShScaledJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#se_linux_options DataK8SKedaShScaledJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seccomp_profile DataK8SKedaShScaledJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seccomp_profile DataK8SKedaShScaledJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#windows_options DataK8SKedaShScaledJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#windows_options DataK8SKedaShScaledJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -14277,7 +14277,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14373,13 +14373,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -14501,13 +14501,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -14648,31 +14648,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14881,13 +14881,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -15009,61 +15009,61 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15420,13 +15420,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#device_path DataK8SKedaShScaledJobV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#device_path DataK8SKedaShScaledJobV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -15567,37 +15567,37 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_path DataK8SKedaShScaledJobV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_path DataK8SKedaShScaledJobV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_propagation DataK8SKedaShScaledJobV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_propagation DataK8SKedaShScaledJobV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only DataK8SKedaShScaledJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only DataK8SKedaShScaledJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path_expr DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path_expr DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -15854,145 +15854,145 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#args DataK8SKedaShScaledJobV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#args DataK8SKedaShScaledJobV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env DataK8SKedaShScaledJobV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env DataK8SKedaShScaledJobV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env_from DataK8SKedaShScaledJobV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env_from DataK8SKedaShScaledJobV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image DataK8SKedaShScaledJobV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image DataK8SKedaShScaledJobV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image_pull_policy DataK8SKedaShScaledJobV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image_pull_policy DataK8SKedaShScaledJobV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#lifecycle DataK8SKedaShScaledJobV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#lifecycle DataK8SKedaShScaledJobV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#liveness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#liveness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#ports DataK8SKedaShScaledJobV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#ports DataK8SKedaShScaledJobV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#readiness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#readiness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resize_policy DataK8SKedaShScaledJobV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resize_policy DataK8SKedaShScaledJobV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resources DataK8SKedaShScaledJobV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resources DataK8SKedaShScaledJobV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#security_context DataK8SKedaShScaledJobV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#security_context DataK8SKedaShScaledJobV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#startup_probe DataK8SKedaShScaledJobV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#startup_probe DataK8SKedaShScaledJobV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin DataK8SKedaShScaledJobV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin DataK8SKedaShScaledJobV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin_once DataK8SKedaShScaledJobV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin_once DataK8SKedaShScaledJobV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_path DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_path DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_policy DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_policy DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tty DataK8SKedaShScaledJobV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tty DataK8SKedaShScaledJobV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_devices DataK8SKedaShScaledJobV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_devices DataK8SKedaShScaledJobV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_mounts DataK8SKedaShScaledJobV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_mounts DataK8SKedaShScaledJobV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#working_dir DataK8SKedaShScaledJobV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#working_dir DataK8SKedaShScaledJobV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -16774,11 +16774,11 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16925,19 +16925,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#nameservers DataK8SKedaShScaledJobV1Alpha1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#nameservers DataK8SKedaShScaledJobV1Alpha1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#options DataK8SKedaShScaledJobV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#options DataK8SKedaShScaledJobV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#searches DataK8SKedaShScaledJobV1Alpha1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#searches DataK8SKedaShScaledJobV1Alpha1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -17091,19 +17091,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17254,13 +17254,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#api_version DataK8SKedaShScaledJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#api_version DataK8SKedaShScaledJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_path DataK8SKedaShScaledJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_path DataK8SKedaShScaledJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -17382,19 +17382,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_name DataK8SKedaShScaledJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_name DataK8SKedaShScaledJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#divisor DataK8SKedaShScaledJobV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#divisor DataK8SKedaShScaledJobV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource DataK8SKedaShScaledJobV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource DataK8SKedaShScaledJobV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -17545,19 +17545,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17708,25 +17708,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_field_ref DataK8SKedaShScaledJobV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_key_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -17909,19 +17909,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value_from DataK8SKedaShScaledJobV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value_from DataK8SKedaShScaledJobV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -18094,13 +18094,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18225,13 +18225,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18356,19 +18356,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#config_map_ref DataK8SKedaShScaledJobV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#prefix DataK8SKedaShScaledJobV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#prefix DataK8SKedaShScaledJobV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#secret_ref DataK8SKedaShScaledJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -18544,7 +18544,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18640,13 +18640,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -18787,31 +18787,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19020,7 +19020,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -19113,13 +19113,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -19241,25 +19241,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -19442,7 +19442,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19538,13 +19538,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -19685,31 +19685,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19918,7 +19918,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seconds DataK8SKedaShScaledJobV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -20011,13 +20011,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -20139,25 +20139,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sleep DataK8SKedaShScaledJobV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -20340,13 +20340,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#post_start DataK8SKedaShScaledJobV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#post_start DataK8SKedaShScaledJobV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pre_stop DataK8SKedaShScaledJobV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#pre_stop DataK8SKedaShScaledJobV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -20471,7 +20471,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -20567,13 +20567,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -20695,13 +20695,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -20842,31 +20842,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21075,13 +21075,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -21203,61 +21203,61 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -21614,31 +21614,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_port DataK8SKedaShScaledJobV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#container_port DataK8SKedaShScaledJobV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_ip DataK8SKedaShScaledJobV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_ip DataK8SKedaShScaledJobV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_port DataK8SKedaShScaledJobV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_port DataK8SKedaShScaledJobV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#protocol DataK8SKedaShScaledJobV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#protocol DataK8SKedaShScaledJobV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -21869,7 +21869,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21965,13 +21965,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -22093,13 +22093,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -22240,31 +22240,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22473,13 +22473,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -22601,61 +22601,61 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -23012,13 +23012,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_name DataK8SKedaShScaledJobV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resource_name DataK8SKedaShScaledJobV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -23159,7 +23159,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -23274,19 +23274,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#claims DataK8SKedaShScaledJobV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#claims DataK8SKedaShScaledJobV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#limits DataK8SKedaShScaledJobV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#limits DataK8SKedaShScaledJobV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#requests DataK8SKedaShScaledJobV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#requests DataK8SKedaShScaledJobV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -23440,13 +23440,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#add DataK8SKedaShScaledJobV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#add DataK8SKedaShScaledJobV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#drop DataK8SKedaShScaledJobV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#drop DataK8SKedaShScaledJobV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -23571,25 +23571,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#level DataK8SKedaShScaledJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#level DataK8SKedaShScaledJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#role DataK8SKedaShScaledJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#role DataK8SKedaShScaledJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#user DataK8SKedaShScaledJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#user DataK8SKedaShScaledJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -23772,13 +23772,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#localhost_profile DataK8SKedaShScaledJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#localhost_profile DataK8SKedaShScaledJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#type DataK8SKedaShScaledJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -23900,25 +23900,25 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKedaShScaledJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_process DataK8SKedaShScaledJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host_process DataK8SKedaShScaledJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user_name DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user_name DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -24101,67 +24101,67 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#allow_privilege_escalation DataK8SKedaShScaledJobV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#allow_privilege_escalation DataK8SKedaShScaledJobV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#capabilities DataK8SKedaShScaledJobV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#capabilities DataK8SKedaShScaledJobV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#privileged DataK8SKedaShScaledJobV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#privileged DataK8SKedaShScaledJobV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#proc_mount DataK8SKedaShScaledJobV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#proc_mount DataK8SKedaShScaledJobV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only_root_filesystem DataK8SKedaShScaledJobV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only_root_filesystem DataK8SKedaShScaledJobV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_group DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_group DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_non_root DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_non_root DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#run_as_user DataK8SKedaShScaledJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#se_linux_options DataK8SKedaShScaledJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#se_linux_options DataK8SKedaShScaledJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seccomp_profile DataK8SKedaShScaledJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#seccomp_profile DataK8SKedaShScaledJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#windows_options DataK8SKedaShScaledJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#windows_options DataK8SKedaShScaledJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -24547,7 +24547,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -24643,13 +24643,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#service DataK8SKedaShScaledJobV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -24771,13 +24771,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#value DataK8SKedaShScaledJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -24918,31 +24918,31 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_headers DataK8SKedaShScaledJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#path DataK8SKedaShScaledJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#scheme DataK8SKedaShScaledJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25151,13 +25151,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#host DataK8SKedaShScaledJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#port DataK8SKedaShScaledJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -25279,61 +25279,61 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#exec DataK8SKedaShScaledJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#grpc DataK8SKedaShScaledJobV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#http_get DataK8SKedaShScaledJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#initial_delay_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#success_threshold DataK8SKedaShScaledJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tcp_socket DataK8SKedaShScaledJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_grace_period_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#timeout_seconds DataK8SKedaShScaledJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -25690,13 +25690,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#device_path DataK8SKedaShScaledJobV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#device_path DataK8SKedaShScaledJobV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -25837,37 +25837,37 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_path DataK8SKedaShScaledJobV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_path DataK8SKedaShScaledJobV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_propagation DataK8SKedaShScaledJobV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#mount_propagation DataK8SKedaShScaledJobV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only DataK8SKedaShScaledJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#read_only DataK8SKedaShScaledJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path_expr DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#sub_path_expr DataK8SKedaShScaledJobV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -26124,151 +26124,151 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Arguments to the entrypoint. The image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#args DataK8SKedaShScaledJobV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#args DataK8SKedaShScaledJobV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#command DataK8SKedaShScaledJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env DataK8SKedaShScaledJobV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env DataK8SKedaShScaledJobV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env_from DataK8SKedaShScaledJobV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#env_from DataK8SKedaShScaledJobV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image DataK8SKedaShScaledJobV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image DataK8SKedaShScaledJobV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image_pull_policy DataK8SKedaShScaledJobV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#image_pull_policy DataK8SKedaShScaledJobV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Lifecycle is not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#lifecycle DataK8SKedaShScaledJobV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#lifecycle DataK8SKedaShScaledJobV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLifecycle;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#liveness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#liveness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersLivenessProbe;
   /**
   * Name of the ephemeral container specified as a DNS_LABEL. This name must be unique among all containers, init containers and ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Ports are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#ports DataK8SKedaShScaledJobV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#ports DataK8SKedaShScaledJobV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#readiness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#readiness_probe DataK8SKedaShScaledJobV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resize_policy DataK8SKedaShScaledJobV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resize_policy DataK8SKedaShScaledJobV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resources DataK8SKedaShScaledJobV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#resources DataK8SKedaShScaledJobV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersResources;
   /**
   * Restart policy for the container to manage the restart behavior of each container within a pod. This may only be set for init containers. You cannot set this field on ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#restart_policy DataK8SKedaShScaledJobV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * Optional: SecurityContext defines the security options the ephemeral container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#security_context DataK8SKedaShScaledJobV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#security_context DataK8SKedaShScaledJobV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersSecurityContext;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#startup_probe DataK8SKedaShScaledJobV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#startup_probe DataK8SKedaShScaledJobV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin DataK8SKedaShScaledJobV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin DataK8SKedaShScaledJobV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin_once DataK8SKedaShScaledJobV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#stdin_once DataK8SKedaShScaledJobV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * If set, the name of the container from PodSpec that this ephemeral container targets. The ephemeral container will be run in the namespaces (IPC, PID, etc) of this container. If not set then the ephemeral container uses the namespaces configured in the Pod spec. The container runtime must implement support for this feature. If the runtime does not support namespace targeting then the result of setting this field is undefined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#target_container_name DataK8SKedaShScaledJobV1Alpha1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#target_container_name DataK8SKedaShScaledJobV1Alpha1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_path DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_path DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_policy DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#termination_message_policy DataK8SKedaShScaledJobV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tty DataK8SKedaShScaledJobV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#tty DataK8SKedaShScaledJobV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_devices DataK8SKedaShScaledJobV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_devices DataK8SKedaShScaledJobV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Subpath mounts are not allowed for ephemeral containers. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_mounts DataK8SKedaShScaledJobV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#volume_mounts DataK8SKedaShScaledJobV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#working_dir DataK8SKedaShScaledJobV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#working_dir DataK8SKedaShScaledJobV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -27079,13 +27079,13 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Hostnames for the above IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#hostnames DataK8SKedaShScaledJobV1Alpha1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#hostnames DataK8SKedaShScaledJobV1Alpha1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * IP address of the host file entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#ip DataK8SKedaShScaledJobV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#ip DataK8SKedaShScaledJobV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -27232,7 +27232,7 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27350,19 +27350,19 @@ export interface DataK8SKedaShScaledJobV1Alpha1ManifestSpecJobTargetRefTemplateS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#key DataK8SKedaShScaledJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#name DataK8SKedaShScaledJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/keda_sh_scaled_job_v1alpha1_manifest#optional DataK8SKedaShScaledJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }

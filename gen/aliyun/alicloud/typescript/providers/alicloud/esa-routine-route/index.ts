@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface EsaRoutineRouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#bypass EsaRoutineRoute#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#bypass EsaRoutineRoute#bypass}
   */
   readonly bypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#id EsaRoutineRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#fallback EsaRoutineRoute#fallback}
+  */
+  readonly fallback?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#id EsaRoutineRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#route_enable EsaRoutineRoute#route_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#route_enable EsaRoutineRoute#route_enable}
   */
   readonly routeEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#route_name EsaRoutineRoute#route_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#route_name EsaRoutineRoute#route_name}
   */
   readonly routeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#routine_name EsaRoutineRoute#routine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#routine_name EsaRoutineRoute#routine_name}
   */
   readonly routineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#rule EsaRoutineRoute#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#rule EsaRoutineRoute#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#sequence EsaRoutineRoute#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#sequence EsaRoutineRoute#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#site_id EsaRoutineRoute#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#site_id EsaRoutineRoute#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#timeouts EsaRoutineRoute#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#timeouts EsaRoutineRoute#timeouts}
   */
   readonly timeouts?: EsaRoutineRouteTimeouts;
 }
 export interface EsaRoutineRouteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#create EsaRoutineRoute#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#create EsaRoutineRoute#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#delete EsaRoutineRoute#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#delete EsaRoutineRoute#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#update EsaRoutineRoute#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#update EsaRoutineRoute#update}
   */
   readonly update?: string;
 }
@@ -211,7 +215,7 @@ export class EsaRoutineRouteTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route alicloud_esa_routine_route}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route alicloud_esa_routine_route}
 */
 export class EsaRoutineRoute extends cdktf.TerraformResource {
 
@@ -227,7 +231,7 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaRoutineRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaRoutineRoute to import
-  * @param importFromId The id of the existing EsaRoutineRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaRoutineRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaRoutineRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +243,7 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_routine_route alicloud_esa_routine_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_routine_route alicloud_esa_routine_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +254,8 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_routine_route',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -262,6 +266,7 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._bypass = config.bypass;
+    this._fallback = config.fallback;
     this._id = config.id;
     this._routeEnable = config.routeEnable;
     this._routeName = config.routeName;
@@ -295,6 +300,22 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
   // config_id - computed: true, optional: false, required: false
   public get configId() {
     return this.getNumberAttribute('config_id');
+  }
+
+  // fallback - computed: true, optional: true, required: false
+  private _fallback?: string; 
+  public get fallback() {
+    return this.getStringAttribute('fallback');
+  }
+  public set fallback(value: string) {
+    this._fallback = value;
+  }
+  public resetFallback() {
+    this._fallback = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fallbackInput() {
+    return this._fallback;
   }
 
   // id - computed: true, optional: true, required: false
@@ -391,11 +412,11 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -426,13 +447,14 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       bypass: cdktf.stringToTerraform(this._bypass),
+      fallback: cdktf.stringToTerraform(this._fallback),
       id: cdktf.stringToTerraform(this._id),
       route_enable: cdktf.stringToTerraform(this._routeEnable),
       route_name: cdktf.stringToTerraform(this._routeName),
       routine_name: cdktf.stringToTerraform(this._routineName),
       rule: cdktf.stringToTerraform(this._rule),
       sequence: cdktf.numberToTerraform(this._sequence),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       timeouts: esaRoutineRouteTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -441,6 +463,12 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
     const attrs = {
       bypass: {
         value: cdktf.stringToHclTerraform(this._bypass),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      fallback: {
+        value: cdktf.stringToHclTerraform(this._fallback),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -482,10 +510,10 @@ export class EsaRoutineRoute extends cdktf.TerraformResource {
         storageClassType: "number",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       timeouts: {
         value: esaRoutineRouteTimeoutsToHclTerraform(this._timeouts.internalValue),

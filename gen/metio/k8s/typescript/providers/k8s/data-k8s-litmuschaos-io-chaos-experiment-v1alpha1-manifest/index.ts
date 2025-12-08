@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#description DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#description DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#description}
   */
   readonly description?: { [key: string]: string };
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#metadata DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#metadata DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#spec DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#spec DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpec;
 }
@@ -26,25 +26,25 @@ export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#annotations DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#annotations DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#labels DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#labels DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#namespace DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#namespace DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,11 +219,11 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestMetadataOutputRe
 }
 export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionConfigMaps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#mount_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#mount_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -364,19 +364,19 @@ export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefiniti
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#key DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#key DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#optional DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#optional DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -527,13 +527,13 @@ export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefiniti
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#api_version DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#api_version DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#field_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#field_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -655,19 +655,19 @@ export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefiniti
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#container_name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#container_name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#divisor DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#divisor DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resource DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resource DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -818,19 +818,19 @@ export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefiniti
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#key DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#key DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#optional DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#optional DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -981,25 +981,25 @@ export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefiniti
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#config_map_key_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#config_map_key_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, metadata.labels, metadata.annotations, spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#field_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#field_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resource_field_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resource_field_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#secret_key_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#secret_key_ref DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionEnvValueFromSecretKeyRef;
 }
@@ -1182,19 +1182,19 @@ export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefiniti
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previous defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#value DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#value DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#value_from DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#value_from DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionEnvValueFrom;
 }
@@ -1365,15 +1365,15 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionEn
 }
 export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionHostFileVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#mount_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#mount_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#node_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#node_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#node_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#node_path}
   */
   readonly nodePath: string;
 }
@@ -1538,23 +1538,23 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionHo
 }
 export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#api_groups DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#api_groups DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#api_groups}
   */
   readonly apiGroups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#non_resource_urls DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#non_resource_urls DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resource_names DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resource_names DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resource_names}
   */
   readonly resourceNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resources DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#resources DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#resources}
   */
   readonly resources: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#verbs DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#verbs DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#verbs}
   */
   readonly verbs: string[];
 }
@@ -1777,11 +1777,11 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionPe
 }
 export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#mount_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#mount_path DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#name DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1920,55 +1920,55 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionSe
 }
 export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#args DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#args DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#command DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#command DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#config_maps DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#config_maps DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#config_maps}
   */
   readonly configMaps?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionConfigMaps[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#env DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#env DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#host_file_volumes DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#host_file_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#host_file_volumes DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#host_file_volumes}
   */
   readonly hostFileVolumes?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionHostFileVolumes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#host_pid DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#host_pid DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#image DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#image DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#image_pull_policy DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#image_pull_policy DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#labels DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#labels DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#permissions DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#permissions DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#permissions}
   */
   readonly permissions?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionPermissions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#scope DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#scope DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#secrets DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#secrets DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#secrets}
   */
   readonly secrets?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#security_context DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#security_context DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: { [key: string]: string };
 }
@@ -2410,7 +2410,7 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinitionOu
 }
 export interface DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#definition DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#definition DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest#definition}
   */
   readonly definition?: DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecDefinition;
 }
@@ -2504,7 +2504,7 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest k8s_litmuschaos_io_chaos_experiment_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest k8s_litmuschaos_io_chaos_experiment_v1alpha1_manifest}
 */
 export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2520,7 +2520,7 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2532,7 +2532,7 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest k8s_litmuschaos_io_chaos_experiment_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/litmuschaos_io_chaos_experiment_v1alpha1_manifest k8s_litmuschaos_io_chaos_experiment_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2543,8 +2543,8 @@ export class DataK8SLitmuschaosIoChaosExperimentV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_litmuschaos_io_chaos_experiment_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

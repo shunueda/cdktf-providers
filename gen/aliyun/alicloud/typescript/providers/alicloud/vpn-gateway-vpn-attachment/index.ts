@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface VpnGatewayVpnAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#customer_gateway_id VpnGatewayVpnAttachment#customer_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#customer_gateway_id VpnGatewayVpnAttachment#customer_gateway_id}
   */
   readonly customerGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#effect_immediately VpnGatewayVpnAttachment#effect_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#effect_immediately VpnGatewayVpnAttachment#effect_immediately}
   */
   readonly effectImmediately?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#enable_dpd VpnGatewayVpnAttachment#enable_dpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#enable_dpd VpnGatewayVpnAttachment#enable_dpd}
   */
   readonly enableDpd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#enable_nat_traversal VpnGatewayVpnAttachment#enable_nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#enable_nat_traversal VpnGatewayVpnAttachment#enable_nat_traversal}
   */
   readonly enableNatTraversal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#enable_tunnels_bgp VpnGatewayVpnAttachment#enable_tunnels_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#enable_tunnels_bgp VpnGatewayVpnAttachment#enable_tunnels_bgp}
   */
   readonly enableTunnelsBgp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#id VpnGatewayVpnAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#id VpnGatewayVpnAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#local_subnet VpnGatewayVpnAttachment#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#local_subnet VpnGatewayVpnAttachment#local_subnet}
   */
   readonly localSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#network_type VpnGatewayVpnAttachment#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#network_type VpnGatewayVpnAttachment#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#remote_subnet VpnGatewayVpnAttachment#remote_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#remote_subnet VpnGatewayVpnAttachment#remote_subnet}
   */
   readonly remoteSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#resource_group_id VpnGatewayVpnAttachment#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#resource_group_id VpnGatewayVpnAttachment#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tags VpnGatewayVpnAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tags VpnGatewayVpnAttachment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#vpn_attachment_name VpnGatewayVpnAttachment#vpn_attachment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#vpn_attachment_name VpnGatewayVpnAttachment#vpn_attachment_name}
   */
   readonly vpnAttachmentName?: string;
   /**
   * bgp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#bgp_config VpnGatewayVpnAttachment#bgp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#bgp_config VpnGatewayVpnAttachment#bgp_config}
   */
   readonly bgpConfig?: VpnGatewayVpnAttachmentBgpConfig;
   /**
   * health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#health_check_config VpnGatewayVpnAttachment#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#health_check_config VpnGatewayVpnAttachment#health_check_config}
   */
   readonly healthCheckConfig?: VpnGatewayVpnAttachmentHealthCheckConfig;
   /**
   * ike_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_config VpnGatewayVpnAttachment#ike_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_config VpnGatewayVpnAttachment#ike_config}
   */
   readonly ikeConfig?: VpnGatewayVpnAttachmentIkeConfig;
   /**
   * ipsec_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_config VpnGatewayVpnAttachment#ipsec_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_config VpnGatewayVpnAttachment#ipsec_config}
   */
   readonly ipsecConfig?: VpnGatewayVpnAttachmentIpsecConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#timeouts VpnGatewayVpnAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#timeouts VpnGatewayVpnAttachment#timeouts}
   */
   readonly timeouts?: VpnGatewayVpnAttachmentTimeouts;
   /**
   * tunnel_options_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_options_specification VpnGatewayVpnAttachment#tunnel_options_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_options_specification VpnGatewayVpnAttachment#tunnel_options_specification}
   */
   readonly tunnelOptionsSpecification?: VpnGatewayVpnAttachmentTunnelOptionsSpecification[] | cdktf.IResolvable;
 }
 export interface VpnGatewayVpnAttachmentBgpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#enable VpnGatewayVpnAttachment#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#enable VpnGatewayVpnAttachment#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#local_asn VpnGatewayVpnAttachment#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#local_asn VpnGatewayVpnAttachment#local_asn}
   */
   readonly localAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#local_bgp_ip VpnGatewayVpnAttachment#local_bgp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#local_bgp_ip VpnGatewayVpnAttachment#local_bgp_ip}
   */
   readonly localBgpIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_cidr VpnGatewayVpnAttachment#tunnel_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_cidr VpnGatewayVpnAttachment#tunnel_cidr}
   */
   readonly tunnelCidr?: string;
 }
@@ -285,27 +285,27 @@ export class VpnGatewayVpnAttachmentBgpConfigOutputReference extends cdktf.Compl
 }
 export interface VpnGatewayVpnAttachmentHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#dip VpnGatewayVpnAttachment#dip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#dip VpnGatewayVpnAttachment#dip}
   */
   readonly dip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#enable VpnGatewayVpnAttachment#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#enable VpnGatewayVpnAttachment#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#interval VpnGatewayVpnAttachment#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#interval VpnGatewayVpnAttachment#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#policy VpnGatewayVpnAttachment#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#policy VpnGatewayVpnAttachment#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#retry VpnGatewayVpnAttachment#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#retry VpnGatewayVpnAttachment#retry}
   */
   readonly retry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#sip VpnGatewayVpnAttachment#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#sip VpnGatewayVpnAttachment#sip}
   */
   readonly sip?: string;
 }
@@ -539,39 +539,39 @@ export class VpnGatewayVpnAttachmentHealthCheckConfigOutputReference extends cdk
 }
 export interface VpnGatewayVpnAttachmentIkeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_auth_alg VpnGatewayVpnAttachment#ike_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_auth_alg VpnGatewayVpnAttachment#ike_auth_alg}
   */
   readonly ikeAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_enc_alg VpnGatewayVpnAttachment#ike_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_enc_alg VpnGatewayVpnAttachment#ike_enc_alg}
   */
   readonly ikeEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_lifetime VpnGatewayVpnAttachment#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_lifetime VpnGatewayVpnAttachment#ike_lifetime}
   */
   readonly ikeLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_mode VpnGatewayVpnAttachment#ike_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_mode VpnGatewayVpnAttachment#ike_mode}
   */
   readonly ikeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_pfs VpnGatewayVpnAttachment#ike_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_pfs VpnGatewayVpnAttachment#ike_pfs}
   */
   readonly ikePfs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_version VpnGatewayVpnAttachment#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_version VpnGatewayVpnAttachment#ike_version}
   */
   readonly ikeVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#local_id VpnGatewayVpnAttachment#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#local_id VpnGatewayVpnAttachment#local_id}
   */
   readonly localId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#psk VpnGatewayVpnAttachment#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#psk VpnGatewayVpnAttachment#psk}
   */
   readonly psk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#remote_id VpnGatewayVpnAttachment#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#remote_id VpnGatewayVpnAttachment#remote_id}
   */
   readonly remoteId?: string;
 }
@@ -887,19 +887,19 @@ export class VpnGatewayVpnAttachmentIkeConfigOutputReference extends cdktf.Compl
 }
 export interface VpnGatewayVpnAttachmentIpsecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_auth_alg VpnGatewayVpnAttachment#ipsec_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_auth_alg VpnGatewayVpnAttachment#ipsec_auth_alg}
   */
   readonly ipsecAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_enc_alg VpnGatewayVpnAttachment#ipsec_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_enc_alg VpnGatewayVpnAttachment#ipsec_enc_alg}
   */
   readonly ipsecEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_lifetime VpnGatewayVpnAttachment#ipsec_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_lifetime VpnGatewayVpnAttachment#ipsec_lifetime}
   */
   readonly ipsecLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_pfs VpnGatewayVpnAttachment#ipsec_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_pfs VpnGatewayVpnAttachment#ipsec_pfs}
   */
   readonly ipsecPfs?: string;
 }
@@ -1070,15 +1070,15 @@ export class VpnGatewayVpnAttachmentIpsecConfigOutputReference extends cdktf.Com
 }
 export interface VpnGatewayVpnAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#create VpnGatewayVpnAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#create VpnGatewayVpnAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#delete VpnGatewayVpnAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#delete VpnGatewayVpnAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#update VpnGatewayVpnAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#update VpnGatewayVpnAttachment#update}
   */
   readonly update?: string;
 }
@@ -1230,15 +1230,15 @@ export class VpnGatewayVpnAttachmentTimeoutsOutputReference extends cdktf.Comple
 }
 export interface VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelBgpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#local_asn VpnGatewayVpnAttachment#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#local_asn VpnGatewayVpnAttachment#local_asn}
   */
   readonly localAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#local_bgp_ip VpnGatewayVpnAttachment#local_bgp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#local_bgp_ip VpnGatewayVpnAttachment#local_bgp_ip}
   */
   readonly localBgpIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_cidr VpnGatewayVpnAttachment#tunnel_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_cidr VpnGatewayVpnAttachment#tunnel_cidr}
   */
   readonly tunnelCidr?: string;
 }
@@ -1395,39 +1395,39 @@ export class VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelBgpConfigOut
 }
 export interface VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelIkeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_auth_alg VpnGatewayVpnAttachment#ike_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_auth_alg VpnGatewayVpnAttachment#ike_auth_alg}
   */
   readonly ikeAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_enc_alg VpnGatewayVpnAttachment#ike_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_enc_alg VpnGatewayVpnAttachment#ike_enc_alg}
   */
   readonly ikeEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_lifetime VpnGatewayVpnAttachment#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_lifetime VpnGatewayVpnAttachment#ike_lifetime}
   */
   readonly ikeLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_mode VpnGatewayVpnAttachment#ike_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_mode VpnGatewayVpnAttachment#ike_mode}
   */
   readonly ikeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_pfs VpnGatewayVpnAttachment#ike_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_pfs VpnGatewayVpnAttachment#ike_pfs}
   */
   readonly ikePfs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ike_version VpnGatewayVpnAttachment#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ike_version VpnGatewayVpnAttachment#ike_version}
   */
   readonly ikeVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#local_id VpnGatewayVpnAttachment#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#local_id VpnGatewayVpnAttachment#local_id}
   */
   readonly localId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#psk VpnGatewayVpnAttachment#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#psk VpnGatewayVpnAttachment#psk}
   */
   readonly psk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#remote_id VpnGatewayVpnAttachment#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#remote_id VpnGatewayVpnAttachment#remote_id}
   */
   readonly remoteId?: string;
 }
@@ -1743,19 +1743,19 @@ export class VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelIkeConfigOut
 }
 export interface VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelIpsecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_auth_alg VpnGatewayVpnAttachment#ipsec_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_auth_alg VpnGatewayVpnAttachment#ipsec_auth_alg}
   */
   readonly ipsecAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_enc_alg VpnGatewayVpnAttachment#ipsec_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_enc_alg VpnGatewayVpnAttachment#ipsec_enc_alg}
   */
   readonly ipsecEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_lifetime VpnGatewayVpnAttachment#ipsec_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_lifetime VpnGatewayVpnAttachment#ipsec_lifetime}
   */
   readonly ipsecLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_pfs VpnGatewayVpnAttachment#ipsec_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#ipsec_pfs VpnGatewayVpnAttachment#ipsec_pfs}
   */
   readonly ipsecPfs?: string;
 }
@@ -1926,37 +1926,37 @@ export class VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelIpsecConfigO
 }
 export interface VpnGatewayVpnAttachmentTunnelOptionsSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#customer_gateway_id VpnGatewayVpnAttachment#customer_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#customer_gateway_id VpnGatewayVpnAttachment#customer_gateway_id}
   */
   readonly customerGatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#enable_dpd VpnGatewayVpnAttachment#enable_dpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#enable_dpd VpnGatewayVpnAttachment#enable_dpd}
   */
   readonly enableDpd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#enable_nat_traversal VpnGatewayVpnAttachment#enable_nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#enable_nat_traversal VpnGatewayVpnAttachment#enable_nat_traversal}
   */
   readonly enableNatTraversal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_index VpnGatewayVpnAttachment#tunnel_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_index VpnGatewayVpnAttachment#tunnel_index}
   */
   readonly tunnelIndex: number;
   /**
   * tunnel_bgp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_bgp_config VpnGatewayVpnAttachment#tunnel_bgp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_bgp_config VpnGatewayVpnAttachment#tunnel_bgp_config}
   */
   readonly tunnelBgpConfig?: VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelBgpConfig;
   /**
   * tunnel_ike_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_ike_config VpnGatewayVpnAttachment#tunnel_ike_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_ike_config VpnGatewayVpnAttachment#tunnel_ike_config}
   */
   readonly tunnelIkeConfig?: VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelIkeConfig;
   /**
   * tunnel_ipsec_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_ipsec_config VpnGatewayVpnAttachment#tunnel_ipsec_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#tunnel_ipsec_config VpnGatewayVpnAttachment#tunnel_ipsec_config}
   */
   readonly tunnelIpsecConfig?: VpnGatewayVpnAttachmentTunnelOptionsSpecificationTunnelIpsecConfig;
 }
@@ -2270,7 +2270,7 @@ export class VpnGatewayVpnAttachmentTunnelOptionsSpecificationList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment alicloud_vpn_gateway_vpn_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment alicloud_vpn_gateway_vpn_attachment}
 */
 export class VpnGatewayVpnAttachment extends cdktf.TerraformResource {
 
@@ -2286,7 +2286,7 @@ export class VpnGatewayVpnAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnGatewayVpnAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnGatewayVpnAttachment to import
-  * @param importFromId The id of the existing VpnGatewayVpnAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnGatewayVpnAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnGatewayVpnAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2298,7 +2298,7 @@ export class VpnGatewayVpnAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpn_gateway_vpn_attachment alicloud_vpn_gateway_vpn_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_gateway_vpn_attachment alicloud_vpn_gateway_vpn_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2309,8 +2309,8 @@ export class VpnGatewayVpnAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpn_gateway_vpn_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

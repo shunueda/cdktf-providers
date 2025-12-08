@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEmrMainVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions#cluster_type DataAlicloudEmrMainVersions#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions#cluster_type DataAlicloudEmrMainVersions#cluster_type}
   */
   readonly clusterType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions#emr_version DataAlicloudEmrMainVersions#emr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions#emr_version DataAlicloudEmrMainVersions#emr_version}
   */
   readonly emrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions#id DataAlicloudEmrMainVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions#id DataAlicloudEmrMainVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions#output_file DataAlicloudEmrMainVersions#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions#output_file DataAlicloudEmrMainVersions#output_file}
   */
   readonly outputFile?: string;
 }
@@ -114,7 +114,7 @@ export class DataAlicloudEmrMainVersionsMainVersionsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions alicloud_emr_main_versions}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions alicloud_emr_main_versions}
 */
 export class DataAlicloudEmrMainVersions extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataAlicloudEmrMainVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudEmrMainVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEmrMainVersions to import
-  * @param importFromId The id of the existing DataAlicloudEmrMainVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEmrMainVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEmrMainVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataAlicloudEmrMainVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/emr_main_versions alicloud_emr_main_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emr_main_versions alicloud_emr_main_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataAlicloudEmrMainVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_emr_main_versions',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

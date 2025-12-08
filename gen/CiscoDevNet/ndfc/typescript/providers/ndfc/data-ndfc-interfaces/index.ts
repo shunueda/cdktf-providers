@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataNdfcInterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Excludes to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces#excludes DataNdfcInterfaces#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces#excludes DataNdfcInterfaces#excludes}
   */
   readonly excludes?: string;
   /**
   * Interface types to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces#interface_types DataNdfcInterfaces#interface_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces#interface_types DataNdfcInterfaces#interface_types}
   */
   readonly interfaceTypes?: string;
   /**
   * List of interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces#interfaces DataNdfcInterfaces#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces#interfaces DataNdfcInterfaces#interfaces}
   */
   readonly interfaces?: DataNdfcInterfacesInterfaces[] | cdktf.IResolvable;
   /**
   * Port modes to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces#port_modes DataNdfcInterfaces#port_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces#port_modes DataNdfcInterfaces#port_modes}
   */
   readonly portModes?: string;
   /**
   * Serial number of switch to configure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces#serial_number DataNdfcInterfaces#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces#serial_number DataNdfcInterfaces#serial_number}
   */
   readonly serialNumber: string;
 }
@@ -42,7 +42,7 @@ export interface DataNdfcInterfacesInterfaces {
   /**
   * Mode of the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces#mode DataNdfcInterfaces#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces#mode DataNdfcInterfaces#mode}
   */
   readonly mode?: string;
 }
@@ -248,7 +248,7 @@ export class DataNdfcInterfacesInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces ndfc_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces ndfc_interfaces}
 */
 export class DataNdfcInterfaces extends cdktf.TerraformDataSource {
 
@@ -264,7 +264,7 @@ export class DataNdfcInterfaces extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNdfcInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNdfcInterfaces to import
-  * @param importFromId The id of the existing DataNdfcInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNdfcInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNdfcInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class DataNdfcInterfaces extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/interfaces ndfc_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/interfaces ndfc_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class DataNdfcInterfaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'ndfc_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_k8s_lerentis_uploadfilter24_eu_bitwarden_template_v1beta4_manifest`
 
-Refer to the Terraform Registry for docs: [`data_k8s_lerentis_uploadfilter24_eu_bitwarden_template_v1beta4_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_template_v1beta4_manifest).
+Refer to the Terraform Registry for docs: [`data_k8s_lerentis_uploadfilter24_eu_bitwarden_template_v1beta4_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_template_v1beta4_manifest).

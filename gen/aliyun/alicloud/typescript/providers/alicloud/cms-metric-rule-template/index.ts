@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface CmsMetricRuleTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#apply_mode CmsMetricRuleTemplate#apply_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#apply_mode CmsMetricRuleTemplate#apply_mode}
   */
   readonly applyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#description CmsMetricRuleTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#description CmsMetricRuleTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#enable_end_time CmsMetricRuleTemplate#enable_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#enable_end_time CmsMetricRuleTemplate#enable_end_time}
   */
   readonly enableEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#enable_start_time CmsMetricRuleTemplate#enable_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#enable_start_time CmsMetricRuleTemplate#enable_start_time}
   */
   readonly enableStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#group_id CmsMetricRuleTemplate#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#group_id CmsMetricRuleTemplate#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#id CmsMetricRuleTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#id CmsMetricRuleTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#metric_rule_template_name CmsMetricRuleTemplate#metric_rule_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#metric_rule_template_name CmsMetricRuleTemplate#metric_rule_template_name}
   */
   readonly metricRuleTemplateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#notify_level CmsMetricRuleTemplate#notify_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#notify_level CmsMetricRuleTemplate#notify_level}
   */
   readonly notifyLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#silence_time CmsMetricRuleTemplate#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#silence_time CmsMetricRuleTemplate#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#webhook CmsMetricRuleTemplate#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#webhook CmsMetricRuleTemplate#webhook}
   */
   readonly webhook?: string;
   /**
   * alert_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#alert_templates CmsMetricRuleTemplate#alert_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#alert_templates CmsMetricRuleTemplate#alert_templates}
   */
   readonly alertTemplates?: CmsMetricRuleTemplateAlertTemplates[] | cdktf.IResolvable;
 }
 export interface CmsMetricRuleTemplateAlertTemplatesEscalationsCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#comparison_operator CmsMetricRuleTemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#comparison_operator CmsMetricRuleTemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#statistics CmsMetricRuleTemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#statistics CmsMetricRuleTemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#threshold CmsMetricRuleTemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#threshold CmsMetricRuleTemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#times CmsMetricRuleTemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#times CmsMetricRuleTemplate#times}
   */
   readonly times?: string;
 }
@@ -242,19 +242,19 @@ export class CmsMetricRuleTemplateAlertTemplatesEscalationsCriticalOutputReferen
 }
 export interface CmsMetricRuleTemplateAlertTemplatesEscalationsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#comparison_operator CmsMetricRuleTemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#comparison_operator CmsMetricRuleTemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#statistics CmsMetricRuleTemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#statistics CmsMetricRuleTemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#threshold CmsMetricRuleTemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#threshold CmsMetricRuleTemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#times CmsMetricRuleTemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#times CmsMetricRuleTemplate#times}
   */
   readonly times?: string;
 }
@@ -425,19 +425,19 @@ export class CmsMetricRuleTemplateAlertTemplatesEscalationsInfoOutputReference e
 }
 export interface CmsMetricRuleTemplateAlertTemplatesEscalationsWarn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#comparison_operator CmsMetricRuleTemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#comparison_operator CmsMetricRuleTemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#statistics CmsMetricRuleTemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#statistics CmsMetricRuleTemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#threshold CmsMetricRuleTemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#threshold CmsMetricRuleTemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#times CmsMetricRuleTemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#times CmsMetricRuleTemplate#times}
   */
   readonly times?: string;
 }
@@ -610,19 +610,19 @@ export interface CmsMetricRuleTemplateAlertTemplatesEscalations {
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#critical CmsMetricRuleTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#critical CmsMetricRuleTemplate#critical}
   */
   readonly critical?: CmsMetricRuleTemplateAlertTemplatesEscalationsCritical;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#info CmsMetricRuleTemplate#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#info CmsMetricRuleTemplate#info}
   */
   readonly info?: CmsMetricRuleTemplateAlertTemplatesEscalationsInfo;
   /**
   * warn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#warn CmsMetricRuleTemplate#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#warn CmsMetricRuleTemplate#warn}
   */
   readonly warn?: CmsMetricRuleTemplateAlertTemplatesEscalationsWarn;
 }
@@ -764,29 +764,29 @@ export class CmsMetricRuleTemplateAlertTemplatesEscalationsOutputReference exten
 }
 export interface CmsMetricRuleTemplateAlertTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#category CmsMetricRuleTemplate#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#category CmsMetricRuleTemplate#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#metric_name CmsMetricRuleTemplate#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#metric_name CmsMetricRuleTemplate#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#namespace CmsMetricRuleTemplate#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#namespace CmsMetricRuleTemplate#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#rule_name CmsMetricRuleTemplate#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#rule_name CmsMetricRuleTemplate#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#webhook CmsMetricRuleTemplate#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#webhook CmsMetricRuleTemplate#webhook}
   */
   readonly webhook?: string;
   /**
   * escalations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#escalations CmsMetricRuleTemplate#escalations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#escalations CmsMetricRuleTemplate#escalations}
   */
   readonly escalations?: CmsMetricRuleTemplateAlertTemplatesEscalations;
 }
@@ -1035,7 +1035,7 @@ export class CmsMetricRuleTemplateAlertTemplatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template alicloud_cms_metric_rule_template}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template alicloud_cms_metric_rule_template}
 */
 export class CmsMetricRuleTemplate extends cdktf.TerraformResource {
 
@@ -1051,7 +1051,7 @@ export class CmsMetricRuleTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsMetricRuleTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsMetricRuleTemplate to import
-  * @param importFromId The id of the existing CmsMetricRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsMetricRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsMetricRuleTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1063,7 +1063,7 @@ export class CmsMetricRuleTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_metric_rule_template alicloud_cms_metric_rule_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_metric_rule_template alicloud_cms_metric_rule_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1074,8 +1074,8 @@ export class CmsMetricRuleTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_metric_rule_template',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

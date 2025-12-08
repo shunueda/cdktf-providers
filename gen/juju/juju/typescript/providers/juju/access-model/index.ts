@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_model
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AccessModelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of access to the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_model#access AccessModel#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_model#access AccessModel#access}
   */
   readonly access: string;
   /**
-  * The uuid of the model for access management
+  * The name of the model for access management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_model#model_uuid AccessModel#model_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_model#model AccessModel#model}
   */
-  readonly modelUuid: string;
+  readonly model: string;
   /**
   * Set of users to grant access to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_model#users AccessModel#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_model#users AccessModel#users}
   */
   readonly users: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_model juju_access_model}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_model juju_access_model}
 */
 export class AccessModel extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AccessModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessModel to import
-  * @param importFromId The id of the existing AccessModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AccessModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_model juju_access_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_model juju_access_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AccessModel extends cdktf.TerraformResource {
       terraformResourceType: 'juju_access_model',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,7 +79,7 @@ export class AccessModel extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._access = config.access;
-    this._modelUuid = config.modelUuid;
+    this._model = config.model;
     this._users = config.users;
   }
 
@@ -105,17 +105,17 @@ export class AccessModel extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // model_uuid - computed: false, optional: false, required: true
-  private _modelUuid?: string; 
-  public get modelUuid() {
-    return this.getStringAttribute('model_uuid');
+  // model - computed: false, optional: false, required: true
+  private _model?: string; 
+  public get model() {
+    return this.getStringAttribute('model');
   }
-  public set modelUuid(value: string) {
-    this._modelUuid = value;
+  public set model(value: string) {
+    this._model = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelUuidInput() {
-    return this._modelUuid;
+  public get modelInput() {
+    return this._model;
   }
 
   // users - computed: false, optional: false, required: true
@@ -138,7 +138,7 @@ export class AccessModel extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       access: cdktf.stringToTerraform(this._access),
-      model_uuid: cdktf.stringToTerraform(this._modelUuid),
+      model: cdktf.stringToTerraform(this._model),
       users: cdktf.listMapper(cdktf.stringToTerraform, false)(this._users),
     };
   }
@@ -151,8 +151,8 @@ export class AccessModel extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      model_uuid: {
-        value: cdktf.stringToHclTerraform(this._modelUuid),
+      model: {
+        value: cdktf.stringToHclTerraform(this._model),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsAutoSnapshotPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies#id DataAlicloudEcsAutoSnapshotPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies#id DataAlicloudEcsAutoSnapshotPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies#ids DataAlicloudEcsAutoSnapshotPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies#ids DataAlicloudEcsAutoSnapshotPolicies#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies#name_regex DataAlicloudEcsAutoSnapshotPolicies#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies#name_regex DataAlicloudEcsAutoSnapshotPolicies#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies#output_file DataAlicloudEcsAutoSnapshotPolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies#output_file DataAlicloudEcsAutoSnapshotPolicies#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies#status DataAlicloudEcsAutoSnapshotPolicies#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies#status DataAlicloudEcsAutoSnapshotPolicies#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies#tags DataAlicloudEcsAutoSnapshotPolicies#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies#tags DataAlicloudEcsAutoSnapshotPolicies#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -173,7 +173,7 @@ export class DataAlicloudEcsAutoSnapshotPoliciesPoliciesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies alicloud_ecs_auto_snapshot_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies alicloud_ecs_auto_snapshot_policies}
 */
 export class DataAlicloudEcsAutoSnapshotPolicies extends cdktf.TerraformDataSource {
 
@@ -189,7 +189,7 @@ export class DataAlicloudEcsAutoSnapshotPolicies extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudEcsAutoSnapshotPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsAutoSnapshotPolicies to import
-  * @param importFromId The id of the existing DataAlicloudEcsAutoSnapshotPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsAutoSnapshotPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsAutoSnapshotPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DataAlicloudEcsAutoSnapshotPolicies extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_auto_snapshot_policies alicloud_ecs_auto_snapshot_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_auto_snapshot_policies alicloud_ecs_auto_snapshot_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class DataAlicloudEcsAutoSnapshotPolicies extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_ecs_auto_snapshot_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

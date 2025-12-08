@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#name}
   */
   readonly name: string;
 }
@@ -185,19 +185,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#key DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#key DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#operator DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#operator DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#values DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#values DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#values}
   */
   readonly values?: string[];
 }
@@ -367,13 +367,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3ManifestSpecAllowedNamespacesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#match_labels DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#match_labels DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -498,7 +498,7 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha
   /**
   * Selector is a standard Kubernetes LabelSelector. A label query over a set of resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#selector DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#selector DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#selector}
   */
   readonly selector?: DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3ManifestSpecAllowedNamespacesSelector;
 }
@@ -594,13 +594,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha
   /**
   * AllowedNamespaces is used to identify which namespaces are allowed to use this account. Namespaces can be selected with a label selector. If this object is nil, no namespaces will be allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#allowed_namespaces DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#allowed_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#allowed_namespaces DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#allowed_namespaces}
   */
   readonly allowedNamespaces?: DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3ManifestSpecAllowedNamespaces;
   /**
   * SecretName references a Secret inside the controller namespace with the credentials to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#secret_name DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#secret_name DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -723,7 +723,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Man
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest extends cdktf.TerraformDataSource {
 
@@ -739,7 +739,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Man
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -751,7 +751,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Man
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -762,8 +762,8 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereClusterIdentityV1Alpha3Man
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_v_sphere_cluster_identity_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

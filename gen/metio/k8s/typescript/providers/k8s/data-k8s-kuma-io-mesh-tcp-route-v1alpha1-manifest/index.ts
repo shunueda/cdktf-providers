@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#metadata DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#metadata DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshTCPRoute resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#spec DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#spec DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#annotations DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#annotations DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,49 +219,49 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#kind DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#kind DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#mesh DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#mesh DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#section_name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#section_name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#tags DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#tags DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -560,59 +560,59 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToRulesDefaultBack
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#kind DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#kind DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#mesh DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#mesh DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Port is only supported when this ref refers to a real MeshService object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#port DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#port DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#section_name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#section_name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#tags DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#tags DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#weight DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#weight DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -989,7 +989,7 @@ export class DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToRulesDefaultBackendR
 }
 export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToRulesDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#backend_refs DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#backend_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#backend_refs DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#backend_refs}
   */
   readonly backendRefs: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToRulesDefaultBackendRefs[] | cdktf.IResolvable;
 }
@@ -1082,7 +1082,7 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToRules {
   /**
   * Default holds routing rules that can be merged with rules from other policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#default DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#default DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#default}
   */
   readonly default: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToRulesDefault;
 }
@@ -1197,49 +1197,49 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#kind DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#kind DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#labels DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#mesh DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#mesh DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#namespace DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#section_name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#section_name DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#tags DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#tags DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1538,13 +1538,13 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecTo {
   /**
   * Rules contains the routing rules applies to a combination of top-level targetRef and the targetRef in this entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#rules DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#rules DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToRules[] | cdktf.IResolvable;
   /**
   * TargetRef is a reference to the resource that represents a group of destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecToTargetRef;
 }
@@ -1688,13 +1688,13 @@ export interface DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpec {
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined in-place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecTargetRef;
   /**
   * To list makes a match between the consumed services and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#to DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#to DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -1817,7 +1817,7 @@ export class DataK8SKumaIoMeshTcpRouteV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest k8s_kuma_io_mesh_tcp_route_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest k8s_kuma_io_mesh_tcp_route_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1833,7 +1833,7 @@ export class DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1845,7 +1845,7 @@ export class DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest k8s_kuma_io_mesh_tcp_route_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_tcp_route_v1alpha1_manifest k8s_kuma_io_mesh_tcp_route_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1856,8 +1856,8 @@ export class DataK8SKumaIoMeshTcpRouteV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_kuma_io_mesh_tcp_route_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

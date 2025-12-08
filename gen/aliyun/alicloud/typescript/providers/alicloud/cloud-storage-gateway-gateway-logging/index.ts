@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface CloudStorageGatewayGatewayLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging#gateway_id CloudStorageGatewayGatewayLogging#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging#gateway_id CloudStorageGatewayGatewayLogging#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging#id CloudStorageGatewayGatewayLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging#id CloudStorageGatewayGatewayLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging#sls_logstore CloudStorageGatewayGatewayLogging#sls_logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging#sls_logstore CloudStorageGatewayGatewayLogging#sls_logstore}
   */
   readonly slsLogstore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging#sls_project CloudStorageGatewayGatewayLogging#sls_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging#sls_project CloudStorageGatewayGatewayLogging#sls_project}
   */
   readonly slsProject: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging#status CloudStorageGatewayGatewayLogging#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging#status CloudStorageGatewayGatewayLogging#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging alicloud_cloud_storage_gateway_gateway_logging}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging alicloud_cloud_storage_gateway_gateway_logging}
 */
 export class CloudStorageGatewayGatewayLogging extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class CloudStorageGatewayGatewayLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudStorageGatewayGatewayLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudStorageGatewayGatewayLogging to import
-  * @param importFromId The id of the existing CloudStorageGatewayGatewayLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudStorageGatewayGatewayLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudStorageGatewayGatewayLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class CloudStorageGatewayGatewayLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway_logging alicloud_cloud_storage_gateway_gateway_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_logging alicloud_cloud_storage_gateway_gateway_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class CloudStorageGatewayGatewayLogging extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway_logging',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

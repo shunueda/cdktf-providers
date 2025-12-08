@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudServiceCatalogPortfoliosConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#id DataAlicloudServiceCatalogPortfolios#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#id DataAlicloudServiceCatalogPortfolios#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#ids DataAlicloudServiceCatalogPortfolios#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#ids DataAlicloudServiceCatalogPortfolios#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#name_regex DataAlicloudServiceCatalogPortfolios#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#name_regex DataAlicloudServiceCatalogPortfolios#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#output_file DataAlicloudServiceCatalogPortfolios#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#output_file DataAlicloudServiceCatalogPortfolios#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#page_number DataAlicloudServiceCatalogPortfolios#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#page_number DataAlicloudServiceCatalogPortfolios#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#page_size DataAlicloudServiceCatalogPortfolios#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#page_size DataAlicloudServiceCatalogPortfolios#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#product_id DataAlicloudServiceCatalogPortfolios#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#product_id DataAlicloudServiceCatalogPortfolios#product_id}
   */
   readonly productId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#scope DataAlicloudServiceCatalogPortfolios#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#scope DataAlicloudServiceCatalogPortfolios#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#sort_by DataAlicloudServiceCatalogPortfolios#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#sort_by DataAlicloudServiceCatalogPortfolios#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#sort_order DataAlicloudServiceCatalogPortfolios#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#sort_order DataAlicloudServiceCatalogPortfolios#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -158,7 +158,7 @@ export class DataAlicloudServiceCatalogPortfoliosPortfoliosList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios alicloud_service_catalog_portfolios}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios alicloud_service_catalog_portfolios}
 */
 export class DataAlicloudServiceCatalogPortfolios extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataAlicloudServiceCatalogPortfolios extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAlicloudServiceCatalogPortfolios resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudServiceCatalogPortfolios to import
-  * @param importFromId The id of the existing DataAlicloudServiceCatalogPortfolios that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudServiceCatalogPortfolios that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudServiceCatalogPortfolios to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataAlicloudServiceCatalogPortfolios extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/service_catalog_portfolios alicloud_service_catalog_portfolios} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_portfolios alicloud_service_catalog_portfolios} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataAlicloudServiceCatalogPortfolios extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_service_catalog_portfolios',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

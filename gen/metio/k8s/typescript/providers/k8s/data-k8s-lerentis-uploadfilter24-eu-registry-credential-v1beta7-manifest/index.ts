@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifes
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#metadata DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#metadata DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#metadata}
   */
   readonly metadata: DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#spec DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#spec DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#spec}
   */
   readonly spec?: DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifes
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#annotations DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#annotations DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#labels DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#labels DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#name DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#name DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#namespace DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#namespace DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,38 +215,38 @@ export class DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7ManifestMet
 }
 export interface DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#annotations DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#annotations DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#id DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#id DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#labels DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#labels DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#name DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#name DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#namespace DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#namespace DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#password_ref DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#password_ref DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#password_ref}
   */
   readonly passwordRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#registry DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#registry DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#registry}
   */
   readonly registry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#username_ref DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#username_ref DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest#username_ref}
   */
   readonly usernameRef: string;
 }
@@ -525,7 +525,7 @@ export class DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7ManifestSpe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest k8s_lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest k8s_lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest}
 */
 export class DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest extends cdktf.TerraformDataSource {
 
@@ -541,7 +541,7 @@ export class DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest ex
   * Generates CDKTF code for importing a DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest to import
-  * @param importFromId The id of the existing DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -553,7 +553,7 @@ export class DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest k8s_lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest k8s_lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -564,8 +564,8 @@ export class DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta7Manifest ex
       terraformResourceType: 'k8s_lerentis_uploadfilter24_eu_registry_credential_v1beta7_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

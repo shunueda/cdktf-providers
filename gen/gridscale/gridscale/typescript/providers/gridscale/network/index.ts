@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#dhcp_active Network#dhcp_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#dhcp_active Network#dhcp_active}
   */
   readonly dhcpActive?: boolean | cdktf.IResolvable;
   /**
   * DHCP DNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#dhcp_dns Network#dhcp_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#dhcp_dns Network#dhcp_dns}
   */
   readonly dhcpDns?: string;
   /**
   * The IP address reserved and communicated by the dhcp service to be the default gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#dhcp_gateway Network#dhcp_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#dhcp_gateway Network#dhcp_gateway}
   */
   readonly dhcpGateway?: string;
   /**
   * The general IP Range configured for this network (/24 for private networks). If it is not set, gridscale internal default range is used. 
   * 				If it is not set and DHCP is enabled, dhcp_range will be set by the backend automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#dhcp_range Network#dhcp_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#dhcp_range Network#dhcp_range}
   */
   readonly dhcpRange?: string;
   /**
   * Subrange within the IP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#dhcp_reserved_subnet Network#dhcp_reserved_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#dhcp_reserved_subnet Network#dhcp_reserved_subnet}
   */
   readonly dhcpReservedSubnet?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#id Network#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#id Network#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,25 +48,25 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * MAC spoofing protection - filters layer2 and ARP traffic based on source MAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#l2security Network#l2security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#l2security Network#l2security}
   */
   readonly l2Security?: boolean | cdktf.IResolvable;
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#labels Network#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#labels Network#labels}
   */
   readonly labels?: string[];
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#name Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#name Network#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#timeouts Network#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#timeouts Network#timeouts}
   */
   readonly timeouts?: NetworkTimeouts;
 }
@@ -232,15 +232,15 @@ export class NetworkPinnedServersList extends cdktf.ComplexList {
 }
 export interface NetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#create Network#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#create Network#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#delete Network#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#delete Network#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#update Network#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#update Network#update}
   */
   readonly update?: string;
 }
@@ -392,7 +392,7 @@ export class NetworkTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network gridscale_network}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network gridscale_network}
 */
 export class Network extends cdktf.TerraformResource {
 
@@ -408,7 +408,7 @@ export class Network extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Network to import
-  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -420,7 +420,7 @@ export class Network extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/network gridscale_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/network gridscale_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -431,8 +431,8 @@ export class Network extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_network',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

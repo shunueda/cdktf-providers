@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface VpcTrafficMirrorSessionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#dry_run VpcTrafficMirrorSession#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#dry_run VpcTrafficMirrorSession#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#enabled VpcTrafficMirrorSession#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#enabled VpcTrafficMirrorSession#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#id VpcTrafficMirrorSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#id VpcTrafficMirrorSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#packet_length VpcTrafficMirrorSession#packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#packet_length VpcTrafficMirrorSession#packet_length}
   */
   readonly packetLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#priority VpcTrafficMirrorSession#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#priority VpcTrafficMirrorSession#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#resource_group_id VpcTrafficMirrorSession#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#resource_group_id VpcTrafficMirrorSession#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#tags VpcTrafficMirrorSession#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#tags VpcTrafficMirrorSession#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_filter_id VpcTrafficMirrorSession#traffic_mirror_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_filter_id VpcTrafficMirrorSession#traffic_mirror_filter_id}
   */
   readonly trafficMirrorFilterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_session_description VpcTrafficMirrorSession#traffic_mirror_session_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_session_description VpcTrafficMirrorSession#traffic_mirror_session_description}
   */
   readonly trafficMirrorSessionDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_session_name VpcTrafficMirrorSession#traffic_mirror_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_session_name VpcTrafficMirrorSession#traffic_mirror_session_name}
   */
   readonly trafficMirrorSessionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_source_ids VpcTrafficMirrorSession#traffic_mirror_source_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_source_ids VpcTrafficMirrorSession#traffic_mirror_source_ids}
   */
   readonly trafficMirrorSourceIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_target_id VpcTrafficMirrorSession#traffic_mirror_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_target_id VpcTrafficMirrorSession#traffic_mirror_target_id}
   */
   readonly trafficMirrorTargetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_target_type VpcTrafficMirrorSession#traffic_mirror_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#traffic_mirror_target_type VpcTrafficMirrorSession#traffic_mirror_target_type}
   */
   readonly trafficMirrorTargetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#virtual_network_id VpcTrafficMirrorSession#virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#virtual_network_id VpcTrafficMirrorSession#virtual_network_id}
   */
   readonly virtualNetworkId?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#timeouts VpcTrafficMirrorSession#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#timeouts VpcTrafficMirrorSession#timeouts}
   */
   readonly timeouts?: VpcTrafficMirrorSessionTimeouts;
 }
 export interface VpcTrafficMirrorSessionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#create VpcTrafficMirrorSession#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#create VpcTrafficMirrorSession#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#delete VpcTrafficMirrorSession#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#delete VpcTrafficMirrorSession#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#update VpcTrafficMirrorSession#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#update VpcTrafficMirrorSession#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class VpcTrafficMirrorSessionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session alicloud_vpc_traffic_mirror_session}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session alicloud_vpc_traffic_mirror_session}
 */
 export class VpcTrafficMirrorSession extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class VpcTrafficMirrorSession extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcTrafficMirrorSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcTrafficMirrorSession to import
-  * @param importFromId The id of the existing VpcTrafficMirrorSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcTrafficMirrorSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcTrafficMirrorSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class VpcTrafficMirrorSession extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_session alicloud_vpc_traffic_mirror_session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_session alicloud_vpc_traffic_mirror_session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class VpcTrafficMirrorSession extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_traffic_mirror_session',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

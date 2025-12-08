@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface FirewallConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether firewall is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#enabled FirewallConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#enabled FirewallConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the project this configuration belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#project_id FirewallConfig#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#project_id FirewallConfig#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the team this project belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#team_id FirewallConfig#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#team_id FirewallConfig#team_id}
   */
   readonly teamId?: string;
   /**
   * ip_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#ip_rules FirewallConfig#ip_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#ip_rules FirewallConfig#ip_rules}
   */
   readonly ipRules?: FirewallConfigIpRules;
   /**
   * managed_rulesets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#managed_rulesets FirewallConfig#managed_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#managed_rulesets FirewallConfig#managed_rulesets}
   */
   readonly managedRulesets?: FirewallConfigManagedRulesets;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#rules FirewallConfig#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#rules FirewallConfig#rules}
   */
   readonly rules?: FirewallConfigRules;
 }
 export interface FirewallConfigIpRulesRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
   * Hosts to apply these rules to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#hostname FirewallConfig#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#hostname FirewallConfig#hostname}
   */
   readonly hostname: string;
   /**
   * IP or CIDR to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#ip FirewallConfig#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#ip FirewallConfig#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#notes FirewallConfig#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#notes FirewallConfig#notes}
   */
   readonly notes?: string;
 }
@@ -263,7 +263,7 @@ export interface FirewallConfigIpRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#rule FirewallConfig#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#rule FirewallConfig#rule}
   */
   readonly rule?: FirewallConfigIpRulesRule[] | cdktf.IResolvable;
 }
@@ -357,11 +357,11 @@ export class FirewallConfigIpRulesOutputReference extends cdktf.ComplexObject {
 }
 export interface FirewallConfigManagedRulesetsAiBots {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -484,11 +484,11 @@ export class FirewallConfigManagedRulesetsAiBotsOutputReference extends cdktf.Co
 }
 export interface FirewallConfigManagedRulesetsBotFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -611,11 +611,11 @@ export class FirewallConfigManagedRulesetsBotFilterOutputReference extends cdktf
 }
 export interface FirewallConfigManagedRulesetsBotProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -738,11 +738,11 @@ export class FirewallConfigManagedRulesetsBotProtectionOutputReference extends c
 }
 export interface FirewallConfigManagedRulesetsOwaspGen {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -862,11 +862,11 @@ export class FirewallConfigManagedRulesetsOwaspGenOutputReference extends cdktf.
 }
 export interface FirewallConfigManagedRulesetsOwaspJava {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -986,11 +986,11 @@ export class FirewallConfigManagedRulesetsOwaspJavaOutputReference extends cdktf
 }
 export interface FirewallConfigManagedRulesetsOwaspLfi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1110,11 +1110,11 @@ export class FirewallConfigManagedRulesetsOwaspLfiOutputReference extends cdktf.
 }
 export interface FirewallConfigManagedRulesetsOwaspMa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1234,11 +1234,11 @@ export class FirewallConfigManagedRulesetsOwaspMaOutputReference extends cdktf.C
 }
 export interface FirewallConfigManagedRulesetsOwaspPhp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1358,11 +1358,11 @@ export class FirewallConfigManagedRulesetsOwaspPhpOutputReference extends cdktf.
 }
 export interface FirewallConfigManagedRulesetsOwaspRce {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1482,11 +1482,11 @@ export class FirewallConfigManagedRulesetsOwaspRceOutputReference extends cdktf.
 }
 export interface FirewallConfigManagedRulesetsOwaspRfi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1606,11 +1606,11 @@ export class FirewallConfigManagedRulesetsOwaspRfiOutputReference extends cdktf.
 }
 export interface FirewallConfigManagedRulesetsOwaspSd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1730,11 +1730,11 @@ export class FirewallConfigManagedRulesetsOwaspSdOutputReference extends cdktf.C
 }
 export interface FirewallConfigManagedRulesetsOwaspSqli {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1854,11 +1854,11 @@ export class FirewallConfigManagedRulesetsOwaspSqliOutputReference extends cdktf
 }
 export interface FirewallConfigManagedRulesetsOwaspXss {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1980,61 +1980,61 @@ export interface FirewallConfigManagedRulesetsOwasp {
   /**
   * Generic Attack Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#gen FirewallConfig#gen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#gen FirewallConfig#gen}
   */
   readonly gen?: FirewallConfigManagedRulesetsOwaspGen;
   /**
   * Java Attack Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#java FirewallConfig#java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#java FirewallConfig#java}
   */
   readonly java?: FirewallConfigManagedRulesetsOwaspJava;
   /**
   * Local File Inclusion Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#lfi FirewallConfig#lfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#lfi FirewallConfig#lfi}
   */
   readonly lfi?: FirewallConfigManagedRulesetsOwaspLfi;
   /**
   * Multipart Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#ma FirewallConfig#ma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#ma FirewallConfig#ma}
   */
   readonly ma?: FirewallConfigManagedRulesetsOwaspMa;
   /**
   * PHP Attack Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#php FirewallConfig#php}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#php FirewallConfig#php}
   */
   readonly php?: FirewallConfigManagedRulesetsOwaspPhp;
   /**
   * Remote Code Execution Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#rce FirewallConfig#rce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#rce FirewallConfig#rce}
   */
   readonly rce?: FirewallConfigManagedRulesetsOwaspRce;
   /**
   * Remote File Inclusion Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#rfi FirewallConfig#rfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#rfi FirewallConfig#rfi}
   */
   readonly rfi?: FirewallConfigManagedRulesetsOwaspRfi;
   /**
   * Scanner Detection Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#sd FirewallConfig#sd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#sd FirewallConfig#sd}
   */
   readonly sd?: FirewallConfigManagedRulesetsOwaspSd;
   /**
   * SQL Injection Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#sqli FirewallConfig#sqli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#sqli FirewallConfig#sqli}
   */
   readonly sqli?: FirewallConfigManagedRulesetsOwaspSqli;
   /**
   * Cross Site Scripting Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#xss FirewallConfig#xss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#xss FirewallConfig#xss}
   */
   readonly xss?: FirewallConfigManagedRulesetsOwaspXss;
 }
@@ -2391,25 +2391,25 @@ export interface FirewallConfigManagedRulesets {
   /**
   * ai_bots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#ai_bots FirewallConfig#ai_bots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#ai_bots FirewallConfig#ai_bots}
   */
   readonly aiBots?: FirewallConfigManagedRulesetsAiBots;
   /**
   * bot_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#bot_filter FirewallConfig#bot_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#bot_filter FirewallConfig#bot_filter}
   */
   readonly botFilter?: FirewallConfigManagedRulesetsBotFilter;
   /**
   * bot_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#bot_protection FirewallConfig#bot_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#bot_protection FirewallConfig#bot_protection}
   */
   readonly botProtection?: FirewallConfigManagedRulesetsBotProtection;
   /**
   * owasp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#owasp FirewallConfig#owasp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#owasp FirewallConfig#owasp}
   */
   readonly owasp?: FirewallConfigManagedRulesetsOwasp;
 }
@@ -2592,31 +2592,31 @@ export interface FirewallConfigRulesRuleActionRateLimit {
   /**
   * Action to take when rate limit is exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
   * Rate limiting algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#algo FirewallConfig#algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#algo FirewallConfig#algo}
   */
   readonly algo: string;
   /**
   * Keys used to bucket an individual client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#keys FirewallConfig#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#keys FirewallConfig#keys}
   */
   readonly keys: string[];
   /**
   * number of requests allowed in the window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#limit FirewallConfig#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#limit FirewallConfig#limit}
   */
   readonly limit: number;
   /**
   * Time window in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#window FirewallConfig#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#window FirewallConfig#window}
   */
   readonly window: number;
 }
@@ -2811,11 +2811,11 @@ export class FirewallConfigRulesRuleActionRateLimitOutputReference extends cdktf
 }
 export interface FirewallConfigRulesRuleActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#location FirewallConfig#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#location FirewallConfig#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#permanent FirewallConfig#permanent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#permanent FirewallConfig#permanent}
   */
   readonly permanent: boolean | cdktf.IResolvable;
 }
@@ -2934,25 +2934,25 @@ export interface FirewallConfigRulesRuleAction {
   /**
   * Base action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: string;
   /**
   * Forward persistence of a rule action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action_duration FirewallConfig#action_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action_duration FirewallConfig#action_duration}
   */
   readonly actionDuration?: string;
   /**
   * Behavior or a rate limiting action. Required if action is rate_limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#rate_limit FirewallConfig#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#rate_limit FirewallConfig#rate_limit}
   */
   readonly rateLimit?: FirewallConfigRulesRuleActionRateLimit;
   /**
   * How to redirect a request. Required if action is redirect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#redirect FirewallConfig#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#redirect FirewallConfig#redirect}
   */
   readonly redirect?: FirewallConfigRulesRuleActionRedirect;
 }
@@ -3132,37 +3132,37 @@ export interface FirewallConfigRulesRuleConditionGroupConditions {
   /**
   * Key within type to match against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#key FirewallConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#key FirewallConfig#key}
   */
   readonly key?: string;
   /**
   * Negate the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#neg FirewallConfig#neg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#neg FirewallConfig#neg}
   */
   readonly neg?: boolean | cdktf.IResolvable;
   /**
   * Operator to use for comparison. Options: `re` (regex), `eq` (equals), `neq` (not equals), `ex` (exists), `nex` (not exists), `inc` (includes), `ninc` (not includes), `pre` (prefix), `suf` (suffix), `sub` (substring), `gt` (greater than), `gte` (greater than or equal), `lt` (less than), `lte` (less than or equal). Note: `ex` and `nex` don't require a `value` field, only `key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#op FirewallConfig#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#op FirewallConfig#op}
   */
   readonly op: string;
   /**
   * Request key type to match against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#type FirewallConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#type FirewallConfig#type}
   */
   readonly type: string;
   /**
   * Value to match against. Not required for existence operators (`ex`, `nex`). Use `values` instead for `inc` and `ninc` operators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#value FirewallConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#value FirewallConfig#value}
   */
   readonly value?: string;
   /**
   * Values to match against if op is inc, ninc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#values FirewallConfig#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#values FirewallConfig#values}
   */
   readonly values?: string[];
 }
@@ -3419,7 +3419,7 @@ export interface FirewallConfigRulesRuleConditionGroup {
   /**
   * Conditions that must all match within a group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#conditions FirewallConfig#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#conditions FirewallConfig#conditions}
   */
   readonly conditions: FirewallConfigRulesRuleConditionGroupConditions[] | cdktf.IResolvable;
 }
@@ -3534,29 +3534,29 @@ export interface FirewallConfigRulesRule {
   /**
   * Actions to take when the condition groups match a request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#action FirewallConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#action FirewallConfig#action}
   */
   readonly action: FirewallConfigRulesRuleAction;
   /**
   * Rule is active or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#active FirewallConfig#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#active FirewallConfig#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Sets of conditions that may match a request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#condition_group FirewallConfig#condition_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#condition_group FirewallConfig#condition_group}
   */
   readonly conditionGroup: FirewallConfigRulesRuleConditionGroup[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#description FirewallConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#description FirewallConfig#description}
   */
   readonly description?: string;
   /**
   * Name to identify the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#name FirewallConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#name FirewallConfig#name}
   */
   readonly name: string;
 }
@@ -3786,7 +3786,7 @@ export interface FirewallConfigRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#rule FirewallConfig#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#rule FirewallConfig#rule}
   */
   readonly rule?: FirewallConfigRulesRule[] | cdktf.IResolvable;
 }
@@ -3880,7 +3880,7 @@ export class FirewallConfigRulesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config vercel_firewall_config}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config vercel_firewall_config}
 */
 export class FirewallConfig extends cdktf.TerraformResource {
 
@@ -3896,7 +3896,7 @@ export class FirewallConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallConfig to import
-  * @param importFromId The id of the existing FirewallConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3908,7 +3908,7 @@ export class FirewallConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_config vercel_firewall_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/firewall_config vercel_firewall_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3919,8 +3919,8 @@ export class FirewallConfig extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_firewall_config',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

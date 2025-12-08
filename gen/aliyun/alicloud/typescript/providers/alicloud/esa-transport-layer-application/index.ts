@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface EsaTransportLayerApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#cross_border_optimization EsaTransportLayerApplication#cross_border_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#cross_border_optimization EsaTransportLayerApplication#cross_border_optimization}
   */
   readonly crossBorderOptimization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#id EsaTransportLayerApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#id EsaTransportLayerApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#ip_access_rule EsaTransportLayerApplication#ip_access_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#ip_access_rule EsaTransportLayerApplication#ip_access_rule}
   */
   readonly ipAccessRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#ipv6 EsaTransportLayerApplication#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#ipv6 EsaTransportLayerApplication#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#record_name EsaTransportLayerApplication#record_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#record_name EsaTransportLayerApplication#record_name}
   */
   readonly recordName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#site_id EsaTransportLayerApplication#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#site_id EsaTransportLayerApplication#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#rules EsaTransportLayerApplication#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#rules EsaTransportLayerApplication#rules}
   */
   readonly rules: EsaTransportLayerApplicationRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#timeouts EsaTransportLayerApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#timeouts EsaTransportLayerApplication#timeouts}
   */
   readonly timeouts?: EsaTransportLayerApplicationTimeouts;
 }
 export interface EsaTransportLayerApplicationRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#client_ip_pass_through_mode EsaTransportLayerApplication#client_ip_pass_through_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#client_ip_pass_through_mode EsaTransportLayerApplication#client_ip_pass_through_mode}
   */
   readonly clientIpPassThroughMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#comment EsaTransportLayerApplication#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#comment EsaTransportLayerApplication#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#edge_port EsaTransportLayerApplication#edge_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#edge_port EsaTransportLayerApplication#edge_port}
   */
   readonly edgePort: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#protocol EsaTransportLayerApplication#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#protocol EsaTransportLayerApplication#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#source EsaTransportLayerApplication#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#source EsaTransportLayerApplication#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#source_port EsaTransportLayerApplication#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#source_port EsaTransportLayerApplication#source_port}
   */
   readonly sourcePort: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#source_type EsaTransportLayerApplication#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#source_type EsaTransportLayerApplication#source_type}
   */
   readonly sourceType: string;
 }
@@ -350,15 +350,15 @@ export class EsaTransportLayerApplicationRulesList extends cdktf.ComplexList {
 }
 export interface EsaTransportLayerApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#create EsaTransportLayerApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#create EsaTransportLayerApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#delete EsaTransportLayerApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#delete EsaTransportLayerApplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#update EsaTransportLayerApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#update EsaTransportLayerApplication#update}
   */
   readonly update?: string;
 }
@@ -510,7 +510,7 @@ export class EsaTransportLayerApplicationTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application alicloud_esa_transport_layer_application}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application alicloud_esa_transport_layer_application}
 */
 export class EsaTransportLayerApplication extends cdktf.TerraformResource {
 
@@ -526,7 +526,7 @@ export class EsaTransportLayerApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaTransportLayerApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaTransportLayerApplication to import
-  * @param importFromId The id of the existing EsaTransportLayerApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaTransportLayerApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaTransportLayerApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class EsaTransportLayerApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_transport_layer_application alicloud_esa_transport_layer_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_transport_layer_application alicloud_esa_transport_layer_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class EsaTransportLayerApplication extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_transport_layer_application',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -657,11 +657,11 @@ export class EsaTransportLayerApplication extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -714,7 +714,7 @@ export class EsaTransportLayerApplication extends cdktf.TerraformResource {
       ip_access_rule: cdktf.stringToTerraform(this._ipAccessRule),
       ipv6: cdktf.stringToTerraform(this._ipv6),
       record_name: cdktf.stringToTerraform(this._recordName),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       rules: cdktf.listMapper(esaTransportLayerApplicationRulesToTerraform, true)(this._rules.internalValue),
       timeouts: esaTransportLayerApplicationTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -753,10 +753,10 @@ export class EsaTransportLayerApplication extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       rules: {
         value: cdktf.listMapperHcl(esaTransportLayerApplicationRulesToHclTerraform, true)(this._rules.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface NasSmbAclAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#enable_anonymous_access NasSmbAclAttachment#enable_anonymous_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#enable_anonymous_access NasSmbAclAttachment#enable_anonymous_access}
   */
   readonly enableAnonymousAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#encrypt_data NasSmbAclAttachment#encrypt_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#encrypt_data NasSmbAclAttachment#encrypt_data}
   */
   readonly encryptData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#file_system_id NasSmbAclAttachment#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#file_system_id NasSmbAclAttachment#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#home_dir_path NasSmbAclAttachment#home_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#home_dir_path NasSmbAclAttachment#home_dir_path}
   */
   readonly homeDirPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#id NasSmbAclAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#id NasSmbAclAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#keytab NasSmbAclAttachment#keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#keytab NasSmbAclAttachment#keytab}
   */
   readonly keytab: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#keytab_md5 NasSmbAclAttachment#keytab_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#keytab_md5 NasSmbAclAttachment#keytab_md5}
   */
   readonly keytabMd5: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#reject_unencrypted_access NasSmbAclAttachment#reject_unencrypted_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#reject_unencrypted_access NasSmbAclAttachment#reject_unencrypted_access}
   */
   readonly rejectUnencryptedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#super_admin_sid NasSmbAclAttachment#super_admin_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#super_admin_sid NasSmbAclAttachment#super_admin_sid}
   */
   readonly superAdminSid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment alicloud_nas_smb_acl_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment alicloud_nas_smb_acl_attachment}
 */
 export class NasSmbAclAttachment extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class NasSmbAclAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NasSmbAclAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NasSmbAclAttachment to import
-  * @param importFromId The id of the existing NasSmbAclAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NasSmbAclAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NasSmbAclAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class NasSmbAclAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_smb_acl_attachment alicloud_nas_smb_acl_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_smb_acl_attachment alicloud_nas_smb_acl_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class NasSmbAclAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_nas_smb_acl_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

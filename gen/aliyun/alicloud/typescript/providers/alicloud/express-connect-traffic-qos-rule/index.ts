@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectTrafficQosRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#dst_cidr ExpressConnectTrafficQosRule#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#dst_cidr ExpressConnectTrafficQosRule#dst_cidr}
   */
   readonly dstCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#dst_ipv6_cidr ExpressConnectTrafficQosRule#dst_ipv6_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#dst_ipv6_cidr ExpressConnectTrafficQosRule#dst_ipv6_cidr}
   */
   readonly dstIpv6Cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#dst_port_range ExpressConnectTrafficQosRule#dst_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#dst_port_range ExpressConnectTrafficQosRule#dst_port_range}
   */
   readonly dstPortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#id ExpressConnectTrafficQosRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#id ExpressConnectTrafficQosRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#match_dscp ExpressConnectTrafficQosRule#match_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#match_dscp ExpressConnectTrafficQosRule#match_dscp}
   */
   readonly matchDscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#priority ExpressConnectTrafficQosRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#priority ExpressConnectTrafficQosRule#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#protocol ExpressConnectTrafficQosRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#protocol ExpressConnectTrafficQosRule#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#qos_id ExpressConnectTrafficQosRule#qos_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#qos_id ExpressConnectTrafficQosRule#qos_id}
   */
   readonly qosId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#queue_id ExpressConnectTrafficQosRule#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#queue_id ExpressConnectTrafficQosRule#queue_id}
   */
   readonly queueId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#remarking_dscp ExpressConnectTrafficQosRule#remarking_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#remarking_dscp ExpressConnectTrafficQosRule#remarking_dscp}
   */
   readonly remarkingDscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#rule_description ExpressConnectTrafficQosRule#rule_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#rule_description ExpressConnectTrafficQosRule#rule_description}
   */
   readonly ruleDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#rule_name ExpressConnectTrafficQosRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#rule_name ExpressConnectTrafficQosRule#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#src_cidr ExpressConnectTrafficQosRule#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#src_cidr ExpressConnectTrafficQosRule#src_cidr}
   */
   readonly srcCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#src_ipv6_cidr ExpressConnectTrafficQosRule#src_ipv6_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#src_ipv6_cidr ExpressConnectTrafficQosRule#src_ipv6_cidr}
   */
   readonly srcIpv6Cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#src_port_range ExpressConnectTrafficQosRule#src_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#src_port_range ExpressConnectTrafficQosRule#src_port_range}
   */
   readonly srcPortRange?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#timeouts ExpressConnectTrafficQosRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#timeouts ExpressConnectTrafficQosRule#timeouts}
   */
   readonly timeouts?: ExpressConnectTrafficQosRuleTimeouts;
 }
 export interface ExpressConnectTrafficQosRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#create ExpressConnectTrafficQosRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#create ExpressConnectTrafficQosRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#delete ExpressConnectTrafficQosRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#delete ExpressConnectTrafficQosRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#update ExpressConnectTrafficQosRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#update ExpressConnectTrafficQosRule#update}
   */
   readonly update?: string;
 }
@@ -239,7 +239,7 @@ export class ExpressConnectTrafficQosRuleTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule alicloud_express_connect_traffic_qos_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule alicloud_express_connect_traffic_qos_rule}
 */
 export class ExpressConnectTrafficQosRule extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class ExpressConnectTrafficQosRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectTrafficQosRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectTrafficQosRule to import
-  * @param importFromId The id of the existing ExpressConnectTrafficQosRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectTrafficQosRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectTrafficQosRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class ExpressConnectTrafficQosRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_traffic_qos_rule alicloud_express_connect_traffic_qos_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos_rule alicloud_express_connect_traffic_qos_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class ExpressConnectTrafficQosRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_traffic_qos_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

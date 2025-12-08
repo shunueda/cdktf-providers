@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsGrafanaWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#account_number ArmsGrafanaWorkspace#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#account_number ArmsGrafanaWorkspace#account_number}
   */
   readonly accountNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#aliyun_lang ArmsGrafanaWorkspace#aliyun_lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#aliyun_lang ArmsGrafanaWorkspace#aliyun_lang}
   */
   readonly aliyunLang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#auto_renew ArmsGrafanaWorkspace#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#auto_renew ArmsGrafanaWorkspace#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#custom_account_number ArmsGrafanaWorkspace#custom_account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#custom_account_number ArmsGrafanaWorkspace#custom_account_number}
   */
   readonly customAccountNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#description ArmsGrafanaWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#description ArmsGrafanaWorkspace#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#duration ArmsGrafanaWorkspace#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#duration ArmsGrafanaWorkspace#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#grafana_version ArmsGrafanaWorkspace#grafana_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#grafana_version ArmsGrafanaWorkspace#grafana_version}
   */
   readonly grafanaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#grafana_workspace_edition ArmsGrafanaWorkspace#grafana_workspace_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#grafana_workspace_edition ArmsGrafanaWorkspace#grafana_workspace_edition}
   */
   readonly grafanaWorkspaceEdition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#grafana_workspace_name ArmsGrafanaWorkspace#grafana_workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#grafana_workspace_name ArmsGrafanaWorkspace#grafana_workspace_name}
   */
   readonly grafanaWorkspaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#id ArmsGrafanaWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#id ArmsGrafanaWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#password ArmsGrafanaWorkspace#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#password ArmsGrafanaWorkspace#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#pricing_cycle ArmsGrafanaWorkspace#pricing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#pricing_cycle ArmsGrafanaWorkspace#pricing_cycle}
   */
   readonly pricingCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#resource_group_id ArmsGrafanaWorkspace#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#resource_group_id ArmsGrafanaWorkspace#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#tags ArmsGrafanaWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#tags ArmsGrafanaWorkspace#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#timeouts ArmsGrafanaWorkspace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#timeouts ArmsGrafanaWorkspace#timeouts}
   */
   readonly timeouts?: ArmsGrafanaWorkspaceTimeouts;
 }
 export interface ArmsGrafanaWorkspaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#create ArmsGrafanaWorkspace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#create ArmsGrafanaWorkspace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#delete ArmsGrafanaWorkspace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#delete ArmsGrafanaWorkspace#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#update ArmsGrafanaWorkspace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#update ArmsGrafanaWorkspace#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class ArmsGrafanaWorkspaceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace alicloud_arms_grafana_workspace}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace alicloud_arms_grafana_workspace}
 */
 export class ArmsGrafanaWorkspace extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class ArmsGrafanaWorkspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsGrafanaWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsGrafanaWorkspace to import
-  * @param importFromId The id of the existing ArmsGrafanaWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsGrafanaWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsGrafanaWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class ArmsGrafanaWorkspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_grafana_workspace alicloud_arms_grafana_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_grafana_workspace alicloud_arms_grafana_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class ArmsGrafanaWorkspace extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_grafana_workspace',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

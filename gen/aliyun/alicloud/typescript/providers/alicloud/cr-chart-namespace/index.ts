@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface CrChartNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace#auto_create_repo CrChartNamespace#auto_create_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace#auto_create_repo CrChartNamespace#auto_create_repo}
   */
   readonly autoCreateRepo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace#default_repo_type CrChartNamespace#default_repo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace#default_repo_type CrChartNamespace#default_repo_type}
   */
   readonly defaultRepoType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace#id CrChartNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace#id CrChartNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace#instance_id CrChartNamespace#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace#instance_id CrChartNamespace#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace#namespace_name CrChartNamespace#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace#namespace_name CrChartNamespace#namespace_name}
   */
   readonly namespaceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace alicloud_cr_chart_namespace}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace alicloud_cr_chart_namespace}
 */
 export class CrChartNamespace extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class CrChartNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CrChartNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CrChartNamespace to import
-  * @param importFromId The id of the existing CrChartNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CrChartNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CrChartNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class CrChartNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chart_namespace alicloud_cr_chart_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chart_namespace alicloud_cr_chart_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class CrChartNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cr_chart_namespace',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

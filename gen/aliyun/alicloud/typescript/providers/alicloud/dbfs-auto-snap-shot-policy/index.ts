@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DbfsAutoSnapShotPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#id DbfsAutoSnapShotPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#id DbfsAutoSnapShotPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#policy_name DbfsAutoSnapShotPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#policy_name DbfsAutoSnapShotPolicy#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#repeat_weekdays DbfsAutoSnapShotPolicy#repeat_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#repeat_weekdays DbfsAutoSnapShotPolicy#repeat_weekdays}
   */
   readonly repeatWeekdays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#retention_days DbfsAutoSnapShotPolicy#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#retention_days DbfsAutoSnapShotPolicy#retention_days}
   */
   readonly retentionDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#time_points DbfsAutoSnapShotPolicy#time_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#time_points DbfsAutoSnapShotPolicy#time_points}
   */
   readonly timePoints: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#timeouts DbfsAutoSnapShotPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#timeouts DbfsAutoSnapShotPolicy#timeouts}
   */
   readonly timeouts?: DbfsAutoSnapShotPolicyTimeouts;
 }
 export interface DbfsAutoSnapShotPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#create DbfsAutoSnapShotPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#create DbfsAutoSnapShotPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#delete DbfsAutoSnapShotPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#delete DbfsAutoSnapShotPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#update DbfsAutoSnapShotPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#update DbfsAutoSnapShotPolicy#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class DbfsAutoSnapShotPolicyTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy alicloud_dbfs_auto_snap_shot_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy alicloud_dbfs_auto_snap_shot_policy}
 */
 export class DbfsAutoSnapShotPolicy extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DbfsAutoSnapShotPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbfsAutoSnapShotPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbfsAutoSnapShotPolicy to import
-  * @param importFromId The id of the existing DbfsAutoSnapShotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbfsAutoSnapShotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbfsAutoSnapShotPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DbfsAutoSnapShotPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_auto_snap_shot_policy alicloud_dbfs_auto_snap_shot_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dbfs_auto_snap_shot_policy alicloud_dbfs_auto_snap_shot_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DbfsAutoSnapShotPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dbfs_auto_snap_shot_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

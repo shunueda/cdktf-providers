@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface SagQosCarConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#description SagQosCar#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#description SagQosCar#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#id SagQosCar#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#id SagQosCar#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#limit_type SagQosCar#limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#limit_type SagQosCar#limit_type}
   */
   readonly limitType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#max_bandwidth_abs SagQosCar#max_bandwidth_abs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#max_bandwidth_abs SagQosCar#max_bandwidth_abs}
   */
   readonly maxBandwidthAbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#max_bandwidth_percent SagQosCar#max_bandwidth_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#max_bandwidth_percent SagQosCar#max_bandwidth_percent}
   */
   readonly maxBandwidthPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#min_bandwidth_abs SagQosCar#min_bandwidth_abs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#min_bandwidth_abs SagQosCar#min_bandwidth_abs}
   */
   readonly minBandwidthAbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#min_bandwidth_percent SagQosCar#min_bandwidth_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#min_bandwidth_percent SagQosCar#min_bandwidth_percent}
   */
   readonly minBandwidthPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#name SagQosCar#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#name SagQosCar#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#percent_source_type SagQosCar#percent_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#percent_source_type SagQosCar#percent_source_type}
   */
   readonly percentSourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#priority SagQosCar#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#priority SagQosCar#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#qos_id SagQosCar#qos_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#qos_id SagQosCar#qos_id}
   */
   readonly qosId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car alicloud_sag_qos_car}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car alicloud_sag_qos_car}
 */
 export class SagQosCar extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class SagQosCar extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SagQosCar resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagQosCar to import
-  * @param importFromId The id of the existing SagQosCar that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagQosCar that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagQosCar to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class SagQosCar extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sag_qos_car alicloud_sag_qos_car} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sag_qos_car alicloud_sag_qos_car} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class SagQosCar extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sag_qos_car',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

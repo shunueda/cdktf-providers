@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcdDesktopsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#desktop_name DataAlicloudEcdDesktops#desktop_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#desktop_name DataAlicloudEcdDesktops#desktop_name}
   */
   readonly desktopName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#end_user_ids DataAlicloudEcdDesktops#end_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#end_user_ids DataAlicloudEcdDesktops#end_user_ids}
   */
   readonly endUserIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#id DataAlicloudEcdDesktops#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#id DataAlicloudEcdDesktops#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#ids DataAlicloudEcdDesktops#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#ids DataAlicloudEcdDesktops#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#name_regex DataAlicloudEcdDesktops#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#name_regex DataAlicloudEcdDesktops#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#office_site_id DataAlicloudEcdDesktops#office_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#office_site_id DataAlicloudEcdDesktops#office_site_id}
   */
   readonly officeSiteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#output_file DataAlicloudEcdDesktops#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#output_file DataAlicloudEcdDesktops#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#policy_group_id DataAlicloudEcdDesktops#policy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#policy_group_id DataAlicloudEcdDesktops#policy_group_id}
   */
   readonly policyGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#status DataAlicloudEcdDesktops#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#status DataAlicloudEcdDesktops#status}
   */
   readonly status?: string;
 }
@@ -199,7 +199,7 @@ export class DataAlicloudEcdDesktopsDesktopsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops alicloud_ecd_desktops}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops alicloud_ecd_desktops}
 */
 export class DataAlicloudEcdDesktops extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataAlicloudEcdDesktops extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudEcdDesktops resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcdDesktops to import
-  * @param importFromId The id of the existing DataAlicloudEcdDesktops that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcdDesktops that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcdDesktops to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataAlicloudEcdDesktops extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecd_desktops alicloud_ecd_desktops} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecd_desktops alicloud_ecd_desktops} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DataAlicloudEcdDesktops extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ecd_desktops',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

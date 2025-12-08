@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterRouteTablePropagationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#dry_run CenTransitRouterRouteTablePropagation#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#dry_run CenTransitRouterRouteTablePropagation#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#id CenTransitRouterRouteTablePropagation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#id CenTransitRouterRouteTablePropagation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#transit_router_attachment_id CenTransitRouterRouteTablePropagation#transit_router_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#transit_router_attachment_id CenTransitRouterRouteTablePropagation#transit_router_attachment_id}
   */
   readonly transitRouterAttachmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#transit_router_route_table_id CenTransitRouterRouteTablePropagation#transit_router_route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#transit_router_route_table_id CenTransitRouterRouteTablePropagation#transit_router_route_table_id}
   */
   readonly transitRouterRouteTableId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#timeouts CenTransitRouterRouteTablePropagation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#timeouts CenTransitRouterRouteTablePropagation#timeouts}
   */
   readonly timeouts?: CenTransitRouterRouteTablePropagationTimeouts;
 }
 export interface CenTransitRouterRouteTablePropagationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#create CenTransitRouterRouteTablePropagation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#create CenTransitRouterRouteTablePropagation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#delete CenTransitRouterRouteTablePropagation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#delete CenTransitRouterRouteTablePropagation#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class CenTransitRouterRouteTablePropagationTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation alicloud_cen_transit_router_route_table_propagation}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation alicloud_cen_transit_router_route_table_propagation}
 */
 export class CenTransitRouterRouteTablePropagation extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class CenTransitRouterRouteTablePropagation extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CenTransitRouterRouteTablePropagation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterRouteTablePropagation to import
-  * @param importFromId The id of the existing CenTransitRouterRouteTablePropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterRouteTablePropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterRouteTablePropagation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class CenTransitRouterRouteTablePropagation extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_route_table_propagation alicloud_cen_transit_router_route_table_propagation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_route_table_propagation alicloud_cen_transit_router_route_table_propagation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class CenTransitRouterRouteTablePropagation extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_cen_transit_router_route_table_propagation',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

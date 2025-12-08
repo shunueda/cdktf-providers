@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface EcdSimpleOfficeSiteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#bandwidth EcdSimpleOfficeSite#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#bandwidth EcdSimpleOfficeSite#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#cen_id EcdSimpleOfficeSite#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#cen_id EcdSimpleOfficeSite#cen_id}
   */
   readonly cenId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#cen_owner_id EcdSimpleOfficeSite#cen_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#cen_owner_id EcdSimpleOfficeSite#cen_owner_id}
   */
   readonly cenOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#cidr_block EcdSimpleOfficeSite#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#cidr_block EcdSimpleOfficeSite#cidr_block}
   */
   readonly cidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#desktop_access_type EcdSimpleOfficeSite#desktop_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#desktop_access_type EcdSimpleOfficeSite#desktop_access_type}
   */
   readonly desktopAccessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#enable_admin_access EcdSimpleOfficeSite#enable_admin_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#enable_admin_access EcdSimpleOfficeSite#enable_admin_access}
   */
   readonly enableAdminAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#enable_cross_desktop_access EcdSimpleOfficeSite#enable_cross_desktop_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#enable_cross_desktop_access EcdSimpleOfficeSite#enable_cross_desktop_access}
   */
   readonly enableCrossDesktopAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#enable_internet_access EcdSimpleOfficeSite#enable_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#enable_internet_access EcdSimpleOfficeSite#enable_internet_access}
   */
   readonly enableInternetAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#id EcdSimpleOfficeSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#id EcdSimpleOfficeSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#mfa_enabled EcdSimpleOfficeSite#mfa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#mfa_enabled EcdSimpleOfficeSite#mfa_enabled}
   */
   readonly mfaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#office_site_name EcdSimpleOfficeSite#office_site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#office_site_name EcdSimpleOfficeSite#office_site_name}
   */
   readonly officeSiteName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#sso_enabled EcdSimpleOfficeSite#sso_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#sso_enabled EcdSimpleOfficeSite#sso_enabled}
   */
   readonly ssoEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site alicloud_ecd_simple_office_site}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site alicloud_ecd_simple_office_site}
 */
 export class EcdSimpleOfficeSite extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class EcdSimpleOfficeSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcdSimpleOfficeSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcdSimpleOfficeSite to import
-  * @param importFromId The id of the existing EcdSimpleOfficeSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcdSimpleOfficeSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcdSimpleOfficeSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class EcdSimpleOfficeSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_simple_office_site alicloud_ecd_simple_office_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_simple_office_site alicloud_ecd_simple_office_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class EcdSimpleOfficeSite extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecd_simple_office_site',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

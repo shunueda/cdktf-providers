@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface JujuProviderConfig {
   /**
   * If the controller was deployed with a self-signed certificate: This is the certificate to use for identification. This can also be set by the `JUJU_CA_CERT` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#ca_certificate JujuProvider#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#ca_certificate JujuProvider#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * If using JAAS: This is the client ID (OAuth2.0, created by the external identity provider) to be used. This can also be set by the `JUJU_CLIENT_ID` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#client_id JujuProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#client_id JujuProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * If using JAAS: This is the client secret (OAuth2.0, created by the external identity provider) to be used. This can also be set by the `JUJU_CLIENT_SECRET` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#client_secret JujuProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#client_secret JujuProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * This is the controller addresses to connect to, defaults to localhost:17070, multiple addresses can be provided in this format: <host>:<port>,<host>:<port>,.... This can also be set by the `JUJU_CONTROLLER_ADDRESSES` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#controller_addresses JujuProvider#controller_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#controller_addresses JujuProvider#controller_addresses}
   */
   readonly controllerAddresses?: string;
   /**
   * This is the password of the username to be used. This can also be set by the `JUJU_PASSWORD` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#password JujuProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#password JujuProvider#password}
   */
   readonly password?: string;
   /**
   * Whether to issue a warning instead of an error and continue if a resource deletion fails. This can also be set by the `JUJU_SKIP_FAILED_DELETION` environment variable. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#skip_failed_deletion JujuProvider#skip_failed_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#skip_failed_deletion JujuProvider#skip_failed_deletion}
   */
   readonly skipFailedDeletion?: boolean | cdktf.IResolvable;
   /**
   * This is the username registered with the controller to be used. This can also be set by the `JUJU_USERNAME` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#username JujuProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#username JujuProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#alias JujuProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#alias JujuProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs juju}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs juju}
 */
 export class JujuProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class JujuProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a JujuProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JujuProvider to import
-  * @param importFromId The id of the existing JujuProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JujuProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JujuProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class JujuProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs juju} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs juju} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class JujuProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'juju',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       terraformProviderSource: 'juju/juju'
     });

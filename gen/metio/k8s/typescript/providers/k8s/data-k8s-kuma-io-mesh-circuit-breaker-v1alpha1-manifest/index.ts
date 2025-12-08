@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#metadata DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#metadata DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshCircuitBreaker resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#spec DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#spec DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#annotations DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#annotations DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultC
   /**
   * The maximum number of connection pools per cluster that are concurrently supported at once. Set this for clusters which create a large number of connection pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connection_pools DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connection_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connection_pools DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connection_pools}
   */
   readonly maxConnectionPools?: number;
   /**
   * The maximum number of connections allowed to be made to the upstream cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connections DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connections DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * The maximum number of pending requests that are allowed to the upstream cluster. This limit is applied as a connection limit for non-HTTP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_pending_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_pending_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
   /**
   * The maximum number of parallel requests that are allowed to be made to the upstream cluster. This limit does not apply to non-HTTP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_requests}
   */
   readonly maxRequests?: number;
   /**
   * The maximum number of parallel retries that will be allowed to the upstream cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_retries DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_retries DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
 }
@@ -455,19 +455,19 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultO
   /**
   * The minimum number of hosts in a cluster in order to perform failure percentage-based ejection. If the total number of hosts in the cluster is less than this value, failure percentage-based ejection will not be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
   */
   readonly minimumHosts?: number;
   /**
   * The minimum number of total requests that must be collected in one interval (as defined by the interval duration above) to perform failure percentage-based ejection for this host. If the volume is lower than this setting, failure percentage-based ejection will not be performed for this host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
   */
   readonly requestVolume?: number;
   /**
   * The failure percentage to use when determining failure percentage-based outlier detection. If the failure percentage of a given host is greater than or equal to this value, it will be ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#threshold DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#threshold DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#threshold}
   */
   readonly threshold?: number;
 }
@@ -621,7 +621,7 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultO
   /**
   * The number of consecutive gateway failures (502, 503, 504 status codes) before a consecutive gateway failure ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
   */
   readonly consecutive?: number;
 }
@@ -717,7 +717,7 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultO
   /**
   * The number of consecutive locally originated failures before ejection occurs. Parameter takes effect only when splitExternalAndLocalErrors is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
   */
   readonly consecutive?: number;
 }
@@ -813,19 +813,19 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultO
   /**
   * The number of hosts in a cluster that must have enough request volume to detect success rate outliers. If the number of hosts is less than this setting, outlier detection via success rate statistics is not performed for any host in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
   */
   readonly minimumHosts?: number;
   /**
   * The minimum number of total requests that must be collected in one interval (as defined by the interval duration configured in outlierDetection section) to include this host in success rate based outlier detection. If the volume is lower than this setting, outlier detection via success rate statistics is not performed for that host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
   */
   readonly requestVolume?: number;
   /**
   * This factor is used to determine the ejection threshold for success rate outlier ejection. The ejection threshold is the difference between the mean success rate, and the product of this factor and the standard deviation of the mean success rate: mean - (standard_deviation * success_rate_standard_deviation_factor). Either int or decimal represented as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#standard_deviation_factor DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#standard_deviation_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#standard_deviation_factor DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#standard_deviation_factor}
   */
   readonly standardDeviationFactor?: string;
 }
@@ -979,7 +979,7 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultO
   /**
   * The number of consecutive server-side error responses (for HTTP traffic, 5xx responses; for TCP traffic, connection failures; for Redis, failure to respond PONG; etc.) before a consecutive total failure ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
   */
   readonly consecutive?: number;
 }
@@ -1075,31 +1075,31 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultO
   /**
   * Failure Percentage based outlier detection functions similarly to success rate detection, in that it relies on success rate data from each host in a cluster. However, rather than compare those values to the mean success rate of the cluster as a whole, they are compared to a flat user-configured threshold. This threshold is configured via the outlierDetection.failurePercentageThreshold field. The other configuration fields for failure percentage based detection are similar to the fields for success rate detection. As with success rate detection, detection will not be performed for a host if its request volume over the aggregation interval is less than the outlierDetection.detectors.failurePercentage.requestVolume value. Detection also will not be performed for a cluster if the number of hosts with the minimum required request volume in an interval is less than the outlierDetection.detectors.failurePercentage.minimumHosts value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#failure_percentage DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#failure_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#failure_percentage DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#failure_percentage}
   */
   readonly failurePercentage?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultOutlierDetectionDetectorsFailurePercentage;
   /**
   * In the default mode (outlierDetection.splitExternalLocalOriginErrors is false) this detection type takes into account a subset of 5xx errors, called 'gateway errors' (502, 503 or 504 status code) and local origin failures, such as timeout, TCP reset etc. In split mode (outlierDetection.splitExternalLocalOriginErrors is true) this detection type takes into account a subset of 5xx errors, called 'gateway errors' (502, 503 or 504 status code) and is supported only by the http router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#gateway_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#gateway_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#gateway_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#gateway_failures}
   */
   readonly gatewayFailures?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultOutlierDetectionDetectorsGatewayFailures;
   /**
   * This detection type is enabled only when outlierDetection.splitExternalLocalOriginErrors is true and takes into account only locally originated errors (timeout, reset, etc). If Envoy repeatedly cannot connect to an upstream host or communication with the upstream host is repeatedly interrupted, it will be ejected. Various locally originated problems are detected: timeout, TCP reset, ICMP errors, etc. This detection type is supported by http router and tcp proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#local_origin_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#local_origin_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#local_origin_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#local_origin_failures}
   */
   readonly localOriginFailures?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultOutlierDetectionDetectorsLocalOriginFailures;
   /**
   * Success Rate based outlier detection aggregates success rate data from every host in a cluster. Then at given intervals ejects hosts based on statistical outlier detection. Success Rate outlier detection will not be calculated for a host if its request volume over the aggregation interval is less than the outlierDetection.detectors.successRate.requestVolume value. Moreover, detection will not be performed for a cluster if the number of hosts with the minimum required request volume in an interval is less than the outlierDetection.detectors.successRate.minimumHosts value. In the default configuration mode (outlierDetection.splitExternalLocalOriginErrors is false) this detection type takes into account all types of errors: locally and externally originated. In split mode (outlierDetection.splitExternalLocalOriginErrors is true), locally originated errors and externally originated (transaction) errors are counted and treated separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#success_rate DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#success_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#success_rate DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#success_rate}
   */
   readonly successRate?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultOutlierDetectionDetectorsSuccessRate;
   /**
   * In the default mode (outlierDetection.splitExternalAndLocalErrors is false) this detection type takes into account all generated errors: locally originated and externally originated (transaction) errors. In split mode (outlierDetection.splitExternalLocalOriginErrors is true) this detection type takes into account only externally originated (transaction) errors, ignoring locally originated errors. If an upstream host is an HTTP-server, only 5xx types of error are taken into account (see Consecutive Gateway Failure for exceptions). Properly formatted responses, even when they carry an operational error (like index not found, access denied) are not taken into account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#total_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#total_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#total_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#total_failures}
   */
   readonly totalFailures?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultOutlierDetectionDetectorsTotalFailures;
 }
@@ -1311,37 +1311,37 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultO
   /**
   * The base time that a host is ejected for. The real time is equal to the base time multiplied by the number of times the host has been ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#base_ejection_time DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#base_ejection_time DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#base_ejection_time}
   */
   readonly baseEjectionTime?: string;
   /**
   * Contains configuration for supported outlier detectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#detectors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#detectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#detectors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#detectors}
   */
   readonly detectors?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultOutlierDetectionDetectors;
   /**
   * When set to true, outlierDetection configuration won't take any effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#disabled DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#disabled DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The time interval between ejection analysis sweeps. This can result in both new ejections and hosts being returned to service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#interval DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#interval DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * The maximum % of an upstream cluster that can be ejected due to outlier detection. Defaults to 10% but will eject at least one host regardless of the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_ejection_percent DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_ejection_percent DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
   * Determines whether to distinguish local origin failures from external errors. If set to true the following configuration parameters are taken into account: detectors.localOriginFailures.consecutive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#split_external_and_local_errors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#split_external_and_local_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#split_external_and_local_errors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#split_external_and_local_errors}
   */
   readonly splitExternalAndLocalErrors?: boolean | cdktf.IResolvable;
 }
@@ -1582,13 +1582,13 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefault 
   /**
   * ConnectionLimits contains configuration of each circuit breaking limit, which when exceeded makes the circuit breaker to become open (no traffic is allowed like no current is allowed in the circuits when physical circuit breaker ir open)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#connection_limits DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#connection_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#connection_limits DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#connection_limits}
   */
   readonly connectionLimits?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultConnectionLimits;
   /**
   * OutlierDetection contains the configuration of the process of dynamically determining whether some number of hosts in an upstream cluster are performing unlike the others and removing them from the healthy load balancing set. Performance might be along different axes such as consecutive failures, temporal success rate, temporal latency, etc. Outlier detection is a form of passive health checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#outlier_detection DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#outlier_detection DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#outlier_detection}
   */
   readonly outlierDetection?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefaultOutlierDetection;
 }
@@ -1713,49 +1713,49 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromTargetRe
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#kind DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#kind DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#mesh DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#mesh DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#section_name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#section_name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#tags DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#tags DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2054,13 +2054,13 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFrom {
   /**
   * Default is a configuration specific to the group of destinations referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#default DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#default DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#target_ref DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#target_ref DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFromTargetRef;
 }
@@ -2204,49 +2204,49 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#kind DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#kind DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#mesh DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#mesh DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#section_name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#section_name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#tags DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#tags DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2545,31 +2545,31 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultCon
   /**
   * The maximum number of connection pools per cluster that are concurrently supported at once. Set this for clusters which create a large number of connection pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connection_pools DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connection_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connection_pools DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connection_pools}
   */
   readonly maxConnectionPools?: number;
   /**
   * The maximum number of connections allowed to be made to the upstream cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connections DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_connections DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * The maximum number of pending requests that are allowed to the upstream cluster. This limit is applied as a connection limit for non-HTTP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_pending_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_pending_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
   /**
   * The maximum number of parallel requests that are allowed to be made to the upstream cluster. This limit does not apply to non-HTTP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_requests DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_requests}
   */
   readonly maxRequests?: number;
   /**
   * The maximum number of parallel retries that will be allowed to the upstream cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_retries DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_retries DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
 }
@@ -2781,19 +2781,19 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOut
   /**
   * The minimum number of hosts in a cluster in order to perform failure percentage-based ejection. If the total number of hosts in the cluster is less than this value, failure percentage-based ejection will not be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
   */
   readonly minimumHosts?: number;
   /**
   * The minimum number of total requests that must be collected in one interval (as defined by the interval duration above) to perform failure percentage-based ejection for this host. If the volume is lower than this setting, failure percentage-based ejection will not be performed for this host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
   */
   readonly requestVolume?: number;
   /**
   * The failure percentage to use when determining failure percentage-based outlier detection. If the failure percentage of a given host is greater than or equal to this value, it will be ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#threshold DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#threshold DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#threshold}
   */
   readonly threshold?: number;
 }
@@ -2947,7 +2947,7 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOut
   /**
   * The number of consecutive gateway failures (502, 503, 504 status codes) before a consecutive gateway failure ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
   */
   readonly consecutive?: number;
 }
@@ -3043,7 +3043,7 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOut
   /**
   * The number of consecutive locally originated failures before ejection occurs. Parameter takes effect only when splitExternalAndLocalErrors is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
   */
   readonly consecutive?: number;
 }
@@ -3139,19 +3139,19 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOut
   /**
   * The number of hosts in a cluster that must have enough request volume to detect success rate outliers. If the number of hosts is less than this setting, outlier detection via success rate statistics is not performed for any host in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#minimum_hosts DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#minimum_hosts}
   */
   readonly minimumHosts?: number;
   /**
   * The minimum number of total requests that must be collected in one interval (as defined by the interval duration configured in outlierDetection section) to include this host in success rate based outlier detection. If the volume is lower than this setting, outlier detection via success rate statistics is not performed for that host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#request_volume DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#request_volume}
   */
   readonly requestVolume?: number;
   /**
   * This factor is used to determine the ejection threshold for success rate outlier ejection. The ejection threshold is the difference between the mean success rate, and the product of this factor and the standard deviation of the mean success rate: mean - (standard_deviation * success_rate_standard_deviation_factor). Either int or decimal represented as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#standard_deviation_factor DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#standard_deviation_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#standard_deviation_factor DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#standard_deviation_factor}
   */
   readonly standardDeviationFactor?: string;
 }
@@ -3305,7 +3305,7 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOut
   /**
   * The number of consecutive server-side error responses (for HTTP traffic, 5xx responses; for TCP traffic, connection failures; for Redis, failure to respond PONG; etc.) before a consecutive total failure ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#consecutive DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#consecutive}
   */
   readonly consecutive?: number;
 }
@@ -3401,31 +3401,31 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOut
   /**
   * Failure Percentage based outlier detection functions similarly to success rate detection, in that it relies on success rate data from each host in a cluster. However, rather than compare those values to the mean success rate of the cluster as a whole, they are compared to a flat user-configured threshold. This threshold is configured via the outlierDetection.failurePercentageThreshold field. The other configuration fields for failure percentage based detection are similar to the fields for success rate detection. As with success rate detection, detection will not be performed for a host if its request volume over the aggregation interval is less than the outlierDetection.detectors.failurePercentage.requestVolume value. Detection also will not be performed for a cluster if the number of hosts with the minimum required request volume in an interval is less than the outlierDetection.detectors.failurePercentage.minimumHosts value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#failure_percentage DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#failure_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#failure_percentage DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#failure_percentage}
   */
   readonly failurePercentage?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOutlierDetectionDetectorsFailurePercentage;
   /**
   * In the default mode (outlierDetection.splitExternalLocalOriginErrors is false) this detection type takes into account a subset of 5xx errors, called 'gateway errors' (502, 503 or 504 status code) and local origin failures, such as timeout, TCP reset etc. In split mode (outlierDetection.splitExternalLocalOriginErrors is true) this detection type takes into account a subset of 5xx errors, called 'gateway errors' (502, 503 or 504 status code) and is supported only by the http router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#gateway_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#gateway_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#gateway_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#gateway_failures}
   */
   readonly gatewayFailures?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOutlierDetectionDetectorsGatewayFailures;
   /**
   * This detection type is enabled only when outlierDetection.splitExternalLocalOriginErrors is true and takes into account only locally originated errors (timeout, reset, etc). If Envoy repeatedly cannot connect to an upstream host or communication with the upstream host is repeatedly interrupted, it will be ejected. Various locally originated problems are detected: timeout, TCP reset, ICMP errors, etc. This detection type is supported by http router and tcp proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#local_origin_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#local_origin_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#local_origin_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#local_origin_failures}
   */
   readonly localOriginFailures?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOutlierDetectionDetectorsLocalOriginFailures;
   /**
   * Success Rate based outlier detection aggregates success rate data from every host in a cluster. Then at given intervals ejects hosts based on statistical outlier detection. Success Rate outlier detection will not be calculated for a host if its request volume over the aggregation interval is less than the outlierDetection.detectors.successRate.requestVolume value. Moreover, detection will not be performed for a cluster if the number of hosts with the minimum required request volume in an interval is less than the outlierDetection.detectors.successRate.minimumHosts value. In the default configuration mode (outlierDetection.splitExternalLocalOriginErrors is false) this detection type takes into account all types of errors: locally and externally originated. In split mode (outlierDetection.splitExternalLocalOriginErrors is true), locally originated errors and externally originated (transaction) errors are counted and treated separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#success_rate DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#success_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#success_rate DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#success_rate}
   */
   readonly successRate?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOutlierDetectionDetectorsSuccessRate;
   /**
   * In the default mode (outlierDetection.splitExternalAndLocalErrors is false) this detection type takes into account all generated errors: locally originated and externally originated (transaction) errors. In split mode (outlierDetection.splitExternalLocalOriginErrors is true) this detection type takes into account only externally originated (transaction) errors, ignoring locally originated errors. If an upstream host is an HTTP-server, only 5xx types of error are taken into account (see Consecutive Gateway Failure for exceptions). Properly formatted responses, even when they carry an operational error (like index not found, access denied) are not taken into account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#total_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#total_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#total_failures DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#total_failures}
   */
   readonly totalFailures?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOutlierDetectionDetectorsTotalFailures;
 }
@@ -3637,37 +3637,37 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOut
   /**
   * The base time that a host is ejected for. The real time is equal to the base time multiplied by the number of times the host has been ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#base_ejection_time DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#base_ejection_time DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#base_ejection_time}
   */
   readonly baseEjectionTime?: string;
   /**
   * Contains configuration for supported outlier detectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#detectors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#detectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#detectors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#detectors}
   */
   readonly detectors?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOutlierDetectionDetectors;
   /**
   * When set to true, outlierDetection configuration won't take any effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#disabled DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#disabled DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The time interval between ejection analysis sweeps. This can result in both new ejections and hosts being returned to service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#interval DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#interval DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * The maximum % of an upstream cluster that can be ejected due to outlier detection. Defaults to 10% but will eject at least one host regardless of the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_ejection_percent DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#max_ejection_percent DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
   * Determines whether to distinguish local origin failures from external errors. If set to true the following configuration parameters are taken into account: detectors.localOriginFailures.consecutive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#split_external_and_local_errors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#split_external_and_local_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#split_external_and_local_errors DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#split_external_and_local_errors}
   */
   readonly splitExternalAndLocalErrors?: boolean | cdktf.IResolvable;
 }
@@ -3908,13 +3908,13 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefault {
   /**
   * ConnectionLimits contains configuration of each circuit breaking limit, which when exceeded makes the circuit breaker to become open (no traffic is allowed like no current is allowed in the circuits when physical circuit breaker ir open)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#connection_limits DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#connection_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#connection_limits DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#connection_limits}
   */
   readonly connectionLimits?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultConnectionLimits;
   /**
   * OutlierDetection contains the configuration of the process of dynamically determining whether some number of hosts in an upstream cluster are performing unlike the others and removing them from the healthy load balancing set. Performance might be along different axes such as consecutive failures, temporal success rate, temporal latency, etc. Outlier detection is a form of passive health checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#outlier_detection DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#outlier_detection DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#outlier_detection}
   */
   readonly outlierDetection?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefaultOutlierDetection;
 }
@@ -4039,49 +4039,49 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToTargetRef 
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#kind DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#kind DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#labels DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#mesh DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#mesh DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#namespace DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#section_name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#section_name DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#tags DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#tags DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4380,13 +4380,13 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecTo {
   /**
   * Default is a configuration specific to the group of destinations referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#default DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#default DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#target_ref DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#target_ref DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecToTargetRef;
 }
@@ -4530,19 +4530,19 @@ export interface DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpec {
   /**
   * From list makes a match between clients and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#from DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#from DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecFrom[] | cdktf.IResolvable;
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined in place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#target_ref DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#target_ref DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecTargetRef;
   /**
   * To list makes a match between the consumed services and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#to DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#to DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -4694,7 +4694,7 @@ export class DataK8SKumaIoMeshCircuitBreakerV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest k8s_kuma_io_mesh_circuit_breaker_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest k8s_kuma_io_mesh_circuit_breaker_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4710,7 +4710,7 @@ export class DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4722,7 +4722,7 @@ export class DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest k8s_kuma_io_mesh_circuit_breaker_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuma_io_mesh_circuit_breaker_v1alpha1_manifest k8s_kuma_io_mesh_circuit_breaker_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4733,8 +4733,8 @@ export class DataK8SKumaIoMeshCircuitBreakerV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_kuma_io_mesh_circuit_breaker_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

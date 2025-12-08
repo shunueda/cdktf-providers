@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/rest_api
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/rest_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNdfcRestApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * Query parameters for GET API if any; format is key1=value1&key2=value2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/rest_api#query_parameters DataNdfcRestApi#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/rest_api#query_parameters DataNdfcRestApi#query_parameters}
   */
   readonly queryParameters?: string;
   /**
   * URL to be used for GET - Note: This is prefixed with base_url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/rest_api#url DataNdfcRestApi#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/rest_api#url DataNdfcRestApi#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/rest_api ndfc_rest_api}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/rest_api ndfc_rest_api}
 */
 export class DataNdfcRestApi extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataNdfcRestApi extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNdfcRestApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNdfcRestApi to import
-  * @param importFromId The id of the existing DataNdfcRestApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/rest_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNdfcRestApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/rest_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNdfcRestApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataNdfcRestApi extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/rest_api ndfc_rest_api} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/rest_api ndfc_rest_api} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataNdfcRestApi extends cdktf.TerraformDataSource {
       terraformResourceType: 'ndfc_rest_api',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

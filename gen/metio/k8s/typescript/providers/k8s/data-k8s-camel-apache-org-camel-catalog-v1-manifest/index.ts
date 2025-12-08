@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
   */
   readonly metadata: DataK8SCamelApacheOrgCamelCatalogV1ManifestMetadata;
   /**
   * the desired state of the catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#spec DataK8SCamelApacheOrgCamelCatalogV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#spec DataK8SCamelApacheOrgCamelCatalogV1Manifest#spec}
   */
   readonly spec?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#annotations DataK8SCamelApacheOrgCamelCatalogV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#annotations DataK8SCamelApacheOrgCamelCatalogV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#labels DataK8SCamelApacheOrgCamelCatalogV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#labels DataK8SCamelApacheOrgCamelCatalogV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#name DataK8SCamelApacheOrgCamelCatalogV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#name DataK8SCamelApacheOrgCamelCatalogV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#namespace DataK8SCamelApacheOrgCamelCatalogV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#namespace DataK8SCamelApacheOrgCamelCatalogV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsDepende
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
 }
@@ -366,37 +366,37 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsDepende
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * provide a list of artifacts to exclude for this dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
   */
   readonly exclusions?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsDependenciesExclusions[] | cdktf.IResolvable;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -653,13 +653,13 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsExclusi
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
 }
@@ -800,13 +800,13 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
 }
@@ -947,37 +947,37 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * provide a list of artifacts to exclude for this dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
   */
   readonly exclusions?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemesConsumerDependenciesExclusions[] | cdktf.IResolvable;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1234,7 +1234,7 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * list of dependencies needed for this scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemesConsumerDependencies[] | cdktf.IResolvable;
 }
@@ -1330,13 +1330,13 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
 }
@@ -1477,37 +1477,37 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * provide a list of artifacts to exclude for this dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
   */
   readonly exclusions?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemesProducerDependenciesExclusions[] | cdktf.IResolvable;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1764,7 +1764,7 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * list of dependencies needed for this scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemesProducerDependencies[] | cdktf.IResolvable;
 }
@@ -1860,19 +1860,19 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * required scope for consumer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#consumer DataK8SCamelApacheOrgCamelCatalogV1Manifest#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#consumer DataK8SCamelApacheOrgCamelCatalogV1Manifest#consumer}
   */
   readonly consumer?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemesConsumer;
   /**
   * is a HTTP based scheme
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#http DataK8SCamelApacheOrgCamelCatalogV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#http DataK8SCamelApacheOrgCamelCatalogV1Manifest#http}
   */
   readonly http: boolean | cdktf.IResolvable;
   /**
   * the ID (ie, timer in a timer:xyz URI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#id DataK8SCamelApacheOrgCamelCatalogV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#id DataK8SCamelApacheOrgCamelCatalogV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1881,13 +1881,13 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes
   /**
   * is a passive scheme
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#passive DataK8SCamelApacheOrgCamelCatalogV1Manifest#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#passive DataK8SCamelApacheOrgCamelCatalogV1Manifest#passive}
   */
   readonly passive: boolean | cdktf.IResolvable;
   /**
   * required scope for producers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#producer DataK8SCamelApacheOrgCamelCatalogV1Manifest#producer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#producer DataK8SCamelApacheOrgCamelCatalogV1Manifest#producer}
   */
   readonly producer?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemesProducer;
 }
@@ -2112,67 +2112,67 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifacts {
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * accepted data formats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dataformats DataK8SCamelApacheOrgCamelCatalogV1Manifest#dataformats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dataformats DataK8SCamelApacheOrgCamelCatalogV1Manifest#dataformats}
   */
   readonly dataformats?: string[];
   /**
   * required dependencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsDependencies[] | cdktf.IResolvable;
   /**
   * provide a list of artifacts to exclude for this dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#exclusions DataK8SCamelApacheOrgCamelCatalogV1Manifest#exclusions}
   */
   readonly exclusions?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsExclusions[] | cdktf.IResolvable;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * the Java types used by the artifact feature (ie, component, data format, ...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#java_types DataK8SCamelApacheOrgCamelCatalogV1Manifest#java_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#java_types DataK8SCamelApacheOrgCamelCatalogV1Manifest#java_types}
   */
   readonly javaTypes?: string[];
   /**
   * accepted languages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#languages DataK8SCamelApacheOrgCamelCatalogV1Manifest#languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#languages DataK8SCamelApacheOrgCamelCatalogV1Manifest#languages}
   */
   readonly languages?: string[];
   /**
   * accepted URI schemes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#schemes DataK8SCamelApacheOrgCamelCatalogV1Manifest#schemes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#schemes DataK8SCamelApacheOrgCamelCatalogV1Manifest#schemes}
   */
   readonly schemes?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifactsSchemes[] | cdktf.IResolvable;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2552,31 +2552,31 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecLoadersDependenc
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2804,49 +2804,49 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecLoaders {
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * a list of additional dependencies required beside the base one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecLoadersDependencies[] | cdktf.IResolvable;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * a list of DSLs supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#languages DataK8SCamelApacheOrgCamelCatalogV1Manifest#languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#languages DataK8SCamelApacheOrgCamelCatalogV1Manifest#languages}
   */
   readonly languages?: string[];
   /**
   * the metadata of the loader
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -3137,11 +3137,11 @@ export class DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecLoadersOutputReferen
 }
 export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilitiesBuildTimeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#key DataK8SCamelApacheOrgCamelCatalogV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#key DataK8SCamelApacheOrgCamelCatalogV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#value DataK8SCamelApacheOrgCamelCatalogV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#value DataK8SCamelApacheOrgCamelCatalogV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3285,31 +3285,31 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilit
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -3535,11 +3535,11 @@ export class DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilitiesD
 }
 export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilitiesRuntimeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#key DataK8SCamelApacheOrgCamelCatalogV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#key DataK8SCamelApacheOrgCamelCatalogV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#value DataK8SCamelApacheOrgCamelCatalogV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#value DataK8SCamelApacheOrgCamelCatalogV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3683,25 +3683,25 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilit
   /**
   * Set of required Camel build time properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#build_time_properties DataK8SCamelApacheOrgCamelCatalogV1Manifest#build_time_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#build_time_properties DataK8SCamelApacheOrgCamelCatalogV1Manifest#build_time_properties}
   */
   readonly buildTimeProperties?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilitiesBuildTimeProperties[] | cdktf.IResolvable;
   /**
   * List of required Maven dependencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilitiesDependencies[] | cdktf.IResolvable;
   /**
   * Set of generic metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Set of required Camel runtime properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#runtime_properties DataK8SCamelApacheOrgCamelCatalogV1Manifest#runtime_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#runtime_properties DataK8SCamelApacheOrgCamelCatalogV1Manifest#runtime_properties}
   */
   readonly runtimeProperties?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilitiesRuntimeProperties[] | cdktf.IResolvable;
 }
@@ -3884,31 +3884,31 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeDependenc
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifact_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#classifier DataK8SCamelApacheOrgCamelCatalogV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#group_id DataK8SCamelApacheOrgCamelCatalogV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#type DataK8SCamelApacheOrgCamelCatalogV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -4136,37 +4136,37 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntime {
   /**
   * application entry point (main) to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#application_class DataK8SCamelApacheOrgCamelCatalogV1Manifest#application_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#application_class DataK8SCamelApacheOrgCamelCatalogV1Manifest#application_class}
   */
   readonly applicationClass: string;
   /**
   * features offered by this runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#capabilities DataK8SCamelApacheOrgCamelCatalogV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#capabilities DataK8SCamelApacheOrgCamelCatalogV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeCapabilities;
   /**
   * list of dependencies needed to run the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#dependencies DataK8SCamelApacheOrgCamelCatalogV1Manifest#dependencies}
   */
   readonly dependencies: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntimeDependencies[] | cdktf.IResolvable;
   /**
   * set of metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#metadata DataK8SCamelApacheOrgCamelCatalogV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Camel main application provider, ie, Camel Quarkus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#provider DataK8SCamelApacheOrgCamelCatalogV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#provider DataK8SCamelApacheOrgCamelCatalogV1Manifest#provider}
   */
   readonly provider: string;
   /**
   * Camel K Runtime version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#version DataK8SCamelApacheOrgCamelCatalogV1Manifest#version}
   */
   readonly version: string;
 }
@@ -4395,19 +4395,19 @@ export interface DataK8SCamelApacheOrgCamelCatalogV1ManifestSpec {
   /**
   * artifacts required by this catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifacts DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#artifacts DataK8SCamelApacheOrgCamelCatalogV1Manifest#artifacts}
   */
   readonly artifacts: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecArtifacts;
   /**
   * loaders required by this catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#loaders DataK8SCamelApacheOrgCamelCatalogV1Manifest#loaders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#loaders DataK8SCamelApacheOrgCamelCatalogV1Manifest#loaders}
   */
   readonly loaders: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecLoaders;
   /**
   * the runtime targeted for the catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#runtime DataK8SCamelApacheOrgCamelCatalogV1Manifest#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#runtime DataK8SCamelApacheOrgCamelCatalogV1Manifest#runtime}
   */
   readonly runtime: DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecRuntime;
 }
@@ -4550,7 +4550,7 @@ export class DataK8SCamelApacheOrgCamelCatalogV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest k8s_camel_apache_org_camel_catalog_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest k8s_camel_apache_org_camel_catalog_v1_manifest}
 */
 export class DataK8SCamelApacheOrgCamelCatalogV1Manifest extends cdktf.TerraformDataSource {
 
@@ -4566,7 +4566,7 @@ export class DataK8SCamelApacheOrgCamelCatalogV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SCamelApacheOrgCamelCatalogV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCamelApacheOrgCamelCatalogV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCamelApacheOrgCamelCatalogV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCamelApacheOrgCamelCatalogV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCamelApacheOrgCamelCatalogV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4578,7 +4578,7 @@ export class DataK8SCamelApacheOrgCamelCatalogV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest k8s_camel_apache_org_camel_catalog_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/camel_apache_org_camel_catalog_v1_manifest k8s_camel_apache_org_camel_catalog_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4589,8 +4589,8 @@ export class DataK8SCamelApacheOrgCamelCatalogV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_camel_apache_org_camel_catalog_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

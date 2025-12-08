@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The algorithm used to process requests. Accepted values: roundrobin/leastconn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#algorithm Loadbalancer#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#algorithm Loadbalancer#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#id Loadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#id Loadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,69 +23,69 @@ export interface LoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#labels Loadbalancer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#labels Loadbalancer#labels}
   */
   readonly labels?: string[];
   /**
   * The UUID of the IPv4 address the Load balancer will listen to for incoming requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#listen_ipv4_uuid Loadbalancer#listen_ipv4_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#listen_ipv4_uuid Loadbalancer#listen_ipv4_uuid}
   */
   readonly listenIpv4Uuid: string;
   /**
   * The UUID of the IPv6 address the Load balancer will listen to for incoming requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#listen_ipv6_uuid Loadbalancer#listen_ipv6_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#listen_ipv6_uuid Loadbalancer#listen_ipv6_uuid}
   */
   readonly listenIpv6Uuid: string;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#name Loadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#name Loadbalancer#name}
   */
   readonly name: string;
   /**
   * Whether the Load balancer is forced to redirect requests from HTTP to HTTPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#redirect_http_to_https Loadbalancer#redirect_http_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#redirect_http_to_https Loadbalancer#redirect_http_to_https}
   */
   readonly redirectHttpToHttps: boolean | cdktf.IResolvable;
   /**
   * Status indicates the status of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#status Loadbalancer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#status Loadbalancer#status}
   */
   readonly status?: string;
   /**
   * backend_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#backend_server Loadbalancer#backend_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#backend_server Loadbalancer#backend_server}
   */
   readonly backendServer: LoadbalancerBackendServer[] | cdktf.IResolvable;
   /**
   * forwarding_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#forwarding_rule Loadbalancer#forwarding_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#forwarding_rule Loadbalancer#forwarding_rule}
   */
   readonly forwardingRule: LoadbalancerForwardingRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#timeouts Loadbalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#timeouts Loadbalancer#timeouts}
   */
   readonly timeouts?: LoadbalancerTimeouts;
 }
 export interface LoadbalancerBackendServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#host Loadbalancer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#host Loadbalancer#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#proxy_protocol Loadbalancer#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#proxy_protocol Loadbalancer#proxy_protocol}
   */
   readonly proxyProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#weight Loadbalancer#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#weight Loadbalancer#weight}
   */
   readonly weight?: number;
 }
@@ -258,31 +258,31 @@ export interface LoadbalancerForwardingRule {
   /**
   * The UUID of a custom certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#certificate_uuid Loadbalancer#certificate_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#certificate_uuid Loadbalancer#certificate_uuid}
   */
   readonly certificateUuid?: string;
   /**
   * A valid domain name that points to the loadbalancer's IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#letsencrypt_ssl Loadbalancer#letsencrypt_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#letsencrypt_ssl Loadbalancer#letsencrypt_ssl}
   */
   readonly letsencryptSsl?: string;
   /**
   * Specifies the entry port of the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#listen_port Loadbalancer#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#listen_port Loadbalancer#listen_port}
   */
   readonly listenPort: number;
   /**
   * Supports HTTP and TCP mode. Valid values: http, tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#mode Loadbalancer#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#mode Loadbalancer#mode}
   */
   readonly mode: string;
   /**
   * Specifies the exit port that the load balancer uses to forward the traffic to the backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#target_port Loadbalancer#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#target_port Loadbalancer#target_port}
   */
   readonly targetPort: number;
 }
@@ -505,15 +505,15 @@ export class LoadbalancerForwardingRuleList extends cdktf.ComplexList {
 }
 export interface LoadbalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#create Loadbalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#create Loadbalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#delete Loadbalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#delete Loadbalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#update Loadbalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#update Loadbalancer#update}
   */
   readonly update?: string;
 }
@@ -665,7 +665,7 @@ export class LoadbalancerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer gridscale_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer gridscale_loadbalancer}
 */
 export class Loadbalancer extends cdktf.TerraformResource {
 
@@ -681,7 +681,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Loadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Loadbalancer to import
-  * @param importFromId The id of the existing Loadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Loadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Loadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -693,7 +693,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/loadbalancer gridscale_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/loadbalancer gridscale_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -704,8 +704,8 @@ export class Loadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

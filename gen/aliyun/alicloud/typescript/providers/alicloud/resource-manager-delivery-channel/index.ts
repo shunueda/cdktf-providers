@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceManagerDeliveryChannelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#delivery_channel_description ResourceManagerDeliveryChannel#delivery_channel_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#delivery_channel_description ResourceManagerDeliveryChannel#delivery_channel_description}
   */
   readonly deliveryChannelDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#delivery_channel_name ResourceManagerDeliveryChannel#delivery_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#delivery_channel_name ResourceManagerDeliveryChannel#delivery_channel_name}
   */
   readonly deliveryChannelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#id ResourceManagerDeliveryChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#id ResourceManagerDeliveryChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,31 +25,31 @@ export interface ResourceManagerDeliveryChannelConfig extends cdktf.TerraformMet
   /**
   * delivery_channel_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#delivery_channel_filter ResourceManagerDeliveryChannel#delivery_channel_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#delivery_channel_filter ResourceManagerDeliveryChannel#delivery_channel_filter}
   */
   readonly deliveryChannelFilter: ResourceManagerDeliveryChannelDeliveryChannelFilter;
   /**
   * resource_change_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#resource_change_delivery ResourceManagerDeliveryChannel#resource_change_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#resource_change_delivery ResourceManagerDeliveryChannel#resource_change_delivery}
   */
   readonly resourceChangeDelivery?: ResourceManagerDeliveryChannelResourceChangeDelivery;
   /**
   * resource_snapshot_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#resource_snapshot_delivery ResourceManagerDeliveryChannel#resource_snapshot_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#resource_snapshot_delivery ResourceManagerDeliveryChannel#resource_snapshot_delivery}
   */
   readonly resourceSnapshotDelivery?: ResourceManagerDeliveryChannelResourceSnapshotDelivery;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#timeouts ResourceManagerDeliveryChannel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#timeouts ResourceManagerDeliveryChannel#timeouts}
   */
   readonly timeouts?: ResourceManagerDeliveryChannelTimeouts;
 }
 export interface ResourceManagerDeliveryChannelDeliveryChannelFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#resource_types ResourceManagerDeliveryChannel#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#resource_types ResourceManagerDeliveryChannel#resource_types}
   */
   readonly resourceTypes?: string[];
 }
@@ -133,7 +133,7 @@ export class ResourceManagerDeliveryChannelDeliveryChannelFilterOutputReference 
 }
 export interface ResourceManagerDeliveryChannelResourceChangeDeliverySlsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#oversized_data_oss_target_arn ResourceManagerDeliveryChannel#oversized_data_oss_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#oversized_data_oss_target_arn ResourceManagerDeliveryChannel#oversized_data_oss_target_arn}
   */
   readonly oversizedDataOssTargetArn?: string;
 }
@@ -217,21 +217,21 @@ export class ResourceManagerDeliveryChannelResourceChangeDeliverySlsPropertiesOu
 }
 export interface ResourceManagerDeliveryChannelResourceChangeDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#enabled ResourceManagerDeliveryChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#enabled ResourceManagerDeliveryChannel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#target_arn ResourceManagerDeliveryChannel#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#target_arn ResourceManagerDeliveryChannel#target_arn}
   */
   readonly targetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#target_type ResourceManagerDeliveryChannel#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#target_type ResourceManagerDeliveryChannel#target_type}
   */
   readonly targetType?: string;
   /**
   * sls_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#sls_properties ResourceManagerDeliveryChannel#sls_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#sls_properties ResourceManagerDeliveryChannel#sls_properties}
   */
   readonly slsProperties?: ResourceManagerDeliveryChannelResourceChangeDeliverySlsProperties;
 }
@@ -402,7 +402,7 @@ export class ResourceManagerDeliveryChannelResourceChangeDeliveryOutputReference
 }
 export interface ResourceManagerDeliveryChannelResourceSnapshotDeliverySlsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#oversized_data_oss_target_arn ResourceManagerDeliveryChannel#oversized_data_oss_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#oversized_data_oss_target_arn ResourceManagerDeliveryChannel#oversized_data_oss_target_arn}
   */
   readonly oversizedDataOssTargetArn?: string;
 }
@@ -486,29 +486,29 @@ export class ResourceManagerDeliveryChannelResourceSnapshotDeliverySlsProperties
 }
 export interface ResourceManagerDeliveryChannelResourceSnapshotDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#custom_expression ResourceManagerDeliveryChannel#custom_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#custom_expression ResourceManagerDeliveryChannel#custom_expression}
   */
   readonly customExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#delivery_time ResourceManagerDeliveryChannel#delivery_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#delivery_time ResourceManagerDeliveryChannel#delivery_time}
   */
   readonly deliveryTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#enabled ResourceManagerDeliveryChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#enabled ResourceManagerDeliveryChannel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#target_arn ResourceManagerDeliveryChannel#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#target_arn ResourceManagerDeliveryChannel#target_arn}
   */
   readonly targetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#target_type ResourceManagerDeliveryChannel#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#target_type ResourceManagerDeliveryChannel#target_type}
   */
   readonly targetType?: string;
   /**
   * sls_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#sls_properties ResourceManagerDeliveryChannel#sls_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#sls_properties ResourceManagerDeliveryChannel#sls_properties}
   */
   readonly slsProperties?: ResourceManagerDeliveryChannelResourceSnapshotDeliverySlsProperties;
 }
@@ -737,15 +737,15 @@ export class ResourceManagerDeliveryChannelResourceSnapshotDeliveryOutputReferen
 }
 export interface ResourceManagerDeliveryChannelTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#create ResourceManagerDeliveryChannel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#create ResourceManagerDeliveryChannel#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#delete ResourceManagerDeliveryChannel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#delete ResourceManagerDeliveryChannel#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#update ResourceManagerDeliveryChannel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#update ResourceManagerDeliveryChannel#update}
   */
   readonly update?: string;
 }
@@ -897,7 +897,7 @@ export class ResourceManagerDeliveryChannelTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel alicloud_resource_manager_delivery_channel}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel alicloud_resource_manager_delivery_channel}
 */
 export class ResourceManagerDeliveryChannel extends cdktf.TerraformResource {
 
@@ -913,7 +913,7 @@ export class ResourceManagerDeliveryChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerDeliveryChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerDeliveryChannel to import
-  * @param importFromId The id of the existing ResourceManagerDeliveryChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerDeliveryChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerDeliveryChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -925,7 +925,7 @@ export class ResourceManagerDeliveryChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_delivery_channel alicloud_resource_manager_delivery_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_delivery_channel alicloud_resource_manager_delivery_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -936,8 +936,8 @@ export class ResourceManagerDeliveryChannel extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_resource_manager_delivery_channel',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

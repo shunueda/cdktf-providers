@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface Wafv3DomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#access_type Wafv3Domain#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#access_type Wafv3Domain#access_type}
   */
   readonly accessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#domain Wafv3Domain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#domain Wafv3Domain#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#id Wafv3Domain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#id Wafv3Domain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#instance_id Wafv3Domain#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#instance_id Wafv3Domain#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#resource_manager_resource_group_id Wafv3Domain#resource_manager_resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#resource_manager_resource_group_id Wafv3Domain#resource_manager_resource_group_id}
   */
   readonly resourceManagerResourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#tags Wafv3Domain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#tags Wafv3Domain#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * listen block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#listen Wafv3Domain#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#listen Wafv3Domain#listen}
   */
   readonly listen: Wafv3DomainListen;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#redirect Wafv3Domain#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#redirect Wafv3Domain#redirect}
   */
   readonly redirect: Wafv3DomainRedirect;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#timeouts Wafv3Domain#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#timeouts Wafv3Domain#timeouts}
   */
   readonly timeouts?: Wafv3DomainTimeouts;
 }
 export interface Wafv3DomainListen {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#cert_id Wafv3Domain#cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#cert_id Wafv3Domain#cert_id}
   */
   readonly certId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#cipher_suite Wafv3Domain#cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#cipher_suite Wafv3Domain#cipher_suite}
   */
   readonly cipherSuite?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#custom_ciphers Wafv3Domain#custom_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#custom_ciphers Wafv3Domain#custom_ciphers}
   */
   readonly customCiphers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#enable_tlsv3 Wafv3Domain#enable_tlsv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#enable_tlsv3 Wafv3Domain#enable_tlsv3}
   */
   readonly enableTlsv3?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#exclusive_ip Wafv3Domain#exclusive_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#exclusive_ip Wafv3Domain#exclusive_ip}
   */
   readonly exclusiveIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#focus_https Wafv3Domain#focus_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#focus_https Wafv3Domain#focus_https}
   */
   readonly focusHttps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#http2_enabled Wafv3Domain#http2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#http2_enabled Wafv3Domain#http2_enabled}
   */
   readonly http2Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#http_ports Wafv3Domain#http_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#http_ports Wafv3Domain#http_ports}
   */
   readonly httpPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#https_ports Wafv3Domain#https_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#https_ports Wafv3Domain#https_ports}
   */
   readonly httpsPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#ipv6_enabled Wafv3Domain#ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#ipv6_enabled Wafv3Domain#ipv6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#protection_resource Wafv3Domain#protection_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#protection_resource Wafv3Domain#protection_resource}
   */
   readonly protectionResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#sm2_access_only Wafv3Domain#sm2_access_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#sm2_access_only Wafv3Domain#sm2_access_only}
   */
   readonly sm2AccessOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#sm2_cert_id Wafv3Domain#sm2_cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#sm2_cert_id Wafv3Domain#sm2_cert_id}
   */
   readonly sm2CertId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#sm2_enabled Wafv3Domain#sm2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#sm2_enabled Wafv3Domain#sm2_enabled}
   */
   readonly sm2Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#tls_version Wafv3Domain#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#tls_version Wafv3Domain#tls_version}
   */
   readonly tlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#xff_header_mode Wafv3Domain#xff_header_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#xff_header_mode Wafv3Domain#xff_header_mode}
   */
   readonly xffHeaderMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#xff_headers Wafv3Domain#xff_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#xff_headers Wafv3Domain#xff_headers}
   */
   readonly xffHeaders?: string[];
 }
@@ -667,11 +667,11 @@ export class Wafv3DomainListenOutputReference extends cdktf.ComplexObject {
 }
 export interface Wafv3DomainRedirectRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#key Wafv3Domain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#key Wafv3Domain#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#value Wafv3Domain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#value Wafv3Domain#value}
   */
   readonly value?: string;
 }
@@ -816,65 +816,65 @@ export class Wafv3DomainRedirectRequestHeadersList extends cdktf.ComplexList {
 }
 export interface Wafv3DomainRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#backends Wafv3Domain#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#backends Wafv3Domain#backends}
   */
   readonly backends?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#backup_backends Wafv3Domain#backup_backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#backup_backends Wafv3Domain#backup_backends}
   */
   readonly backupBackends?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#connect_timeout Wafv3Domain#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#connect_timeout Wafv3Domain#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#focus_http_backend Wafv3Domain#focus_http_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#focus_http_backend Wafv3Domain#focus_http_backend}
   */
   readonly focusHttpBackend?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#keepalive Wafv3Domain#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#keepalive Wafv3Domain#keepalive}
   */
   readonly keepalive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#keepalive_requests Wafv3Domain#keepalive_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#keepalive_requests Wafv3Domain#keepalive_requests}
   */
   readonly keepaliveRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#keepalive_timeout Wafv3Domain#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#keepalive_timeout Wafv3Domain#keepalive_timeout}
   */
   readonly keepaliveTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#loadbalance Wafv3Domain#loadbalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#loadbalance Wafv3Domain#loadbalance}
   */
   readonly loadbalance: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#read_timeout Wafv3Domain#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#read_timeout Wafv3Domain#read_timeout}
   */
   readonly readTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#retry Wafv3Domain#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#retry Wafv3Domain#retry}
   */
   readonly retry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#sni_enabled Wafv3Domain#sni_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#sni_enabled Wafv3Domain#sni_enabled}
   */
   readonly sniEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#sni_host Wafv3Domain#sni_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#sni_host Wafv3Domain#sni_host}
   */
   readonly sniHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#write_timeout Wafv3Domain#write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#write_timeout Wafv3Domain#write_timeout}
   */
   readonly writeTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#xff_proto Wafv3Domain#xff_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#xff_proto Wafv3Domain#xff_proto}
   */
   readonly xffProto?: boolean | cdktf.IResolvable;
   /**
   * request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#request_headers Wafv3Domain#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#request_headers Wafv3Domain#request_headers}
   */
   readonly requestHeaders?: Wafv3DomainRedirectRequestHeaders[] | cdktf.IResolvable;
 }
@@ -1361,15 +1361,15 @@ export class Wafv3DomainRedirectOutputReference extends cdktf.ComplexObject {
 }
 export interface Wafv3DomainTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#create Wafv3Domain#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#create Wafv3Domain#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#delete Wafv3Domain#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#delete Wafv3Domain#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#update Wafv3Domain#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#update Wafv3Domain#update}
   */
   readonly update?: string;
 }
@@ -1521,7 +1521,7 @@ export class Wafv3DomainTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain alicloud_wafv3_domain}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain alicloud_wafv3_domain}
 */
 export class Wafv3Domain extends cdktf.TerraformResource {
 
@@ -1537,7 +1537,7 @@ export class Wafv3Domain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafv3Domain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafv3Domain to import
-  * @param importFromId The id of the existing Wafv3Domain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafv3Domain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafv3Domain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1549,7 +1549,7 @@ export class Wafv3Domain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/wafv3_domain alicloud_wafv3_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_domain alicloud_wafv3_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1560,8 +1560,8 @@ export class Wafv3Domain extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_wafv3_domain',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

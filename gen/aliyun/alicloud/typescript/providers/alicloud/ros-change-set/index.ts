@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface RosChangeSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#change_set_name RosChangeSet#change_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#change_set_name RosChangeSet#change_set_name}
   */
   readonly changeSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#change_set_type RosChangeSet#change_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#change_set_type RosChangeSet#change_set_type}
   */
   readonly changeSetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#description RosChangeSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#description RosChangeSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#disable_rollback RosChangeSet#disable_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#disable_rollback RosChangeSet#disable_rollback}
   */
   readonly disableRollback?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#id RosChangeSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#id RosChangeSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#notification_urls RosChangeSet#notification_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#notification_urls RosChangeSet#notification_urls}
   */
   readonly notificationUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#ram_role_name RosChangeSet#ram_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#ram_role_name RosChangeSet#ram_role_name}
   */
   readonly ramRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#replacement_option RosChangeSet#replacement_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#replacement_option RosChangeSet#replacement_option}
   */
   readonly replacementOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#stack_id RosChangeSet#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#stack_id RosChangeSet#stack_id}
   */
   readonly stackId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#stack_name RosChangeSet#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#stack_name RosChangeSet#stack_name}
   */
   readonly stackName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#stack_policy_body RosChangeSet#stack_policy_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#stack_policy_body RosChangeSet#stack_policy_body}
   */
   readonly stackPolicyBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#stack_policy_during_update_body RosChangeSet#stack_policy_during_update_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#stack_policy_during_update_body RosChangeSet#stack_policy_during_update_body}
   */
   readonly stackPolicyDuringUpdateBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#stack_policy_during_update_url RosChangeSet#stack_policy_during_update_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#stack_policy_during_update_url RosChangeSet#stack_policy_during_update_url}
   */
   readonly stackPolicyDuringUpdateUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#stack_policy_url RosChangeSet#stack_policy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#stack_policy_url RosChangeSet#stack_policy_url}
   */
   readonly stackPolicyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#template_body RosChangeSet#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#template_body RosChangeSet#template_body}
   */
   readonly templateBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#template_url RosChangeSet#template_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#template_url RosChangeSet#template_url}
   */
   readonly templateUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#timeout_in_minutes RosChangeSet#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#timeout_in_minutes RosChangeSet#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#use_previous_parameters RosChangeSet#use_previous_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#use_previous_parameters RosChangeSet#use_previous_parameters}
   */
   readonly usePreviousParameters?: boolean | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#parameters RosChangeSet#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#parameters RosChangeSet#parameters}
   */
   readonly parameters?: RosChangeSetParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#timeouts RosChangeSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#timeouts RosChangeSet#timeouts}
   */
   readonly timeouts?: RosChangeSetTimeouts;
 }
 export interface RosChangeSetParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#parameter_key RosChangeSet#parameter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#parameter_key RosChangeSet#parameter_key}
   */
   readonly parameterKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#parameter_value RosChangeSet#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#parameter_value RosChangeSet#parameter_value}
   */
   readonly parameterValue: string;
 }
@@ -240,7 +240,7 @@ export class RosChangeSetParametersList extends cdktf.ComplexList {
 }
 export interface RosChangeSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#create RosChangeSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#create RosChangeSet#create}
   */
   readonly create?: string;
 }
@@ -334,7 +334,7 @@ export class RosChangeSetTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set alicloud_ros_change_set}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set alicloud_ros_change_set}
 */
 export class RosChangeSet extends cdktf.TerraformResource {
 
@@ -350,7 +350,7 @@ export class RosChangeSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RosChangeSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RosChangeSet to import
-  * @param importFromId The id of the existing RosChangeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RosChangeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RosChangeSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +362,7 @@ export class RosChangeSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_change_set alicloud_ros_change_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_change_set alicloud_ros_change_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +373,8 @@ export class RosChangeSet extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ros_change_set',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

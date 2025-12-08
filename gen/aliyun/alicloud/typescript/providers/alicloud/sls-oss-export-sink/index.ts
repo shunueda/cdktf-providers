@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface SlsOssExportSinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#description SlsOssExportSink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#description SlsOssExportSink#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#display_name SlsOssExportSink#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#display_name SlsOssExportSink#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#id SlsOssExportSink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#id SlsOssExportSink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#job_name SlsOssExportSink#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#job_name SlsOssExportSink#job_name}
   */
   readonly jobName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#project SlsOssExportSink#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#project SlsOssExportSink#project}
   */
   readonly project: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#configuration SlsOssExportSink#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#configuration SlsOssExportSink#configuration}
   */
   readonly configuration: SlsOssExportSinkConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#timeouts SlsOssExportSink#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#timeouts SlsOssExportSink#timeouts}
   */
   readonly timeouts?: SlsOssExportSinkTimeouts;
 }
 export interface SlsOssExportSinkConfigurationSink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#bucket SlsOssExportSink#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#bucket SlsOssExportSink#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#buffer_interval SlsOssExportSink#buffer_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#buffer_interval SlsOssExportSink#buffer_interval}
   */
   readonly bufferInterval: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#buffer_size SlsOssExportSink#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#buffer_size SlsOssExportSink#buffer_size}
   */
   readonly bufferSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#compression_type SlsOssExportSink#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#compression_type SlsOssExportSink#compression_type}
   */
   readonly compressionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#content_detail SlsOssExportSink#content_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#content_detail SlsOssExportSink#content_detail}
   */
   readonly contentDetail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#content_type SlsOssExportSink#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#content_type SlsOssExportSink#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#delay_seconds SlsOssExportSink#delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#delay_seconds SlsOssExportSink#delay_seconds}
   */
   readonly delaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#endpoint SlsOssExportSink#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#endpoint SlsOssExportSink#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#path_format SlsOssExportSink#path_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#path_format SlsOssExportSink#path_format}
   */
   readonly pathFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#path_format_type SlsOssExportSink#path_format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#path_format_type SlsOssExportSink#path_format_type}
   */
   readonly pathFormatType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#prefix SlsOssExportSink#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#prefix SlsOssExportSink#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#role_arn SlsOssExportSink#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#role_arn SlsOssExportSink#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#suffix SlsOssExportSink#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#suffix SlsOssExportSink#suffix}
   */
   readonly suffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#time_zone SlsOssExportSink#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#time_zone SlsOssExportSink#time_zone}
   */
   readonly timeZone: string;
 }
@@ -531,25 +531,25 @@ export class SlsOssExportSinkConfigurationSinkOutputReference extends cdktf.Comp
 }
 export interface SlsOssExportSinkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#from_time SlsOssExportSink#from_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#from_time SlsOssExportSink#from_time}
   */
   readonly fromTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#logstore SlsOssExportSink#logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#logstore SlsOssExportSink#logstore}
   */
   readonly logstore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#role_arn SlsOssExportSink#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#role_arn SlsOssExportSink#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#to_time SlsOssExportSink#to_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#to_time SlsOssExportSink#to_time}
   */
   readonly toTime: number;
   /**
   * sink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#sink SlsOssExportSink#sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#sink SlsOssExportSink#sink}
   */
   readonly sink: SlsOssExportSinkConfigurationSink;
 }
@@ -734,15 +734,15 @@ export class SlsOssExportSinkConfigurationOutputReference extends cdktf.ComplexO
 }
 export interface SlsOssExportSinkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#create SlsOssExportSink#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#create SlsOssExportSink#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#delete SlsOssExportSink#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#delete SlsOssExportSink#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#update SlsOssExportSink#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#update SlsOssExportSink#update}
   */
   readonly update?: string;
 }
@@ -894,7 +894,7 @@ export class SlsOssExportSinkTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink alicloud_sls_oss_export_sink}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink alicloud_sls_oss_export_sink}
 */
 export class SlsOssExportSink extends cdktf.TerraformResource {
 
@@ -910,7 +910,7 @@ export class SlsOssExportSink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlsOssExportSink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlsOssExportSink to import
-  * @param importFromId The id of the existing SlsOssExportSink that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlsOssExportSink that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlsOssExportSink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -922,7 +922,7 @@ export class SlsOssExportSink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_oss_export_sink alicloud_sls_oss_export_sink} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_oss_export_sink alicloud_sls_oss_export_sink} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -933,8 +933,8 @@ export class SlsOssExportSink extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sls_oss_export_sink',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

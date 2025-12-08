@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface GaForwardingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#accelerator_id GaForwardingRule#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#accelerator_id GaForwardingRule#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#forwarding_rule_name GaForwardingRule#forwarding_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#forwarding_rule_name GaForwardingRule#forwarding_rule_name}
   */
   readonly forwardingRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#id GaForwardingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#id GaForwardingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#listener_id GaForwardingRule#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#listener_id GaForwardingRule#listener_id}
   */
   readonly listenerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#priority GaForwardingRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#priority GaForwardingRule#priority}
   */
   readonly priority?: number;
   /**
   * rule_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#rule_actions GaForwardingRule#rule_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#rule_actions GaForwardingRule#rule_actions}
   */
   readonly ruleActions: GaForwardingRuleRuleActions[] | cdktf.IResolvable;
   /**
   * rule_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#rule_conditions GaForwardingRule#rule_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#rule_conditions GaForwardingRule#rule_conditions}
   */
   readonly ruleConditions: GaForwardingRuleRuleConditions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#timeouts GaForwardingRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#timeouts GaForwardingRule#timeouts}
   */
   readonly timeouts?: GaForwardingRuleTimeouts;
 }
 export interface GaForwardingRuleRuleActionsForwardGroupConfigServerGroupTuples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#endpoint_group_id GaForwardingRule#endpoint_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#endpoint_group_id GaForwardingRule#endpoint_group_id}
   */
   readonly endpointGroupId: string;
 }
@@ -166,7 +166,7 @@ export interface GaForwardingRuleRuleActionsForwardGroupConfig {
   /**
   * server_group_tuples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#server_group_tuples GaForwardingRule#server_group_tuples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#server_group_tuples GaForwardingRule#server_group_tuples}
   */
   readonly serverGroupTuples: GaForwardingRuleRuleActionsForwardGroupConfigServerGroupTuples[] | cdktf.IResolvable;
 }
@@ -247,21 +247,21 @@ export class GaForwardingRuleRuleActionsForwardGroupConfigOutputReference extend
 }
 export interface GaForwardingRuleRuleActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#order GaForwardingRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#order GaForwardingRule#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#rule_action_type GaForwardingRule#rule_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#rule_action_type GaForwardingRule#rule_action_type}
   */
   readonly ruleActionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#rule_action_value GaForwardingRule#rule_action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#rule_action_value GaForwardingRule#rule_action_value}
   */
   readonly ruleActionValue?: string;
   /**
   * forward_group_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#forward_group_config GaForwardingRule#forward_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#forward_group_config GaForwardingRule#forward_group_config}
   */
   readonly forwardGroupConfig?: GaForwardingRuleRuleActionsForwardGroupConfig;
 }
@@ -458,7 +458,7 @@ export class GaForwardingRuleRuleActionsList extends cdktf.ComplexList {
 }
 export interface GaForwardingRuleRuleConditionsHostConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#values GaForwardingRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#values GaForwardingRule#values}
   */
   readonly values?: string[];
 }
@@ -574,7 +574,7 @@ export class GaForwardingRuleRuleConditionsHostConfigList extends cdktf.ComplexL
 }
 export interface GaForwardingRuleRuleConditionsPathConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#values GaForwardingRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#values GaForwardingRule#values}
   */
   readonly values?: string[];
 }
@@ -658,23 +658,23 @@ export class GaForwardingRuleRuleConditionsPathConfigOutputReference extends cdk
 }
 export interface GaForwardingRuleRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#rule_condition_type GaForwardingRule#rule_condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#rule_condition_type GaForwardingRule#rule_condition_type}
   */
   readonly ruleConditionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#rule_condition_value GaForwardingRule#rule_condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#rule_condition_value GaForwardingRule#rule_condition_value}
   */
   readonly ruleConditionValue?: string;
   /**
   * host_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#host_config GaForwardingRule#host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#host_config GaForwardingRule#host_config}
   */
   readonly hostConfig?: GaForwardingRuleRuleConditionsHostConfig[] | cdktf.IResolvable;
   /**
   * path_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#path_config GaForwardingRule#path_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#path_config GaForwardingRule#path_config}
   */
   readonly pathConfig?: GaForwardingRuleRuleConditionsPathConfig;
 }
@@ -874,15 +874,15 @@ export class GaForwardingRuleRuleConditionsList extends cdktf.ComplexList {
 }
 export interface GaForwardingRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#create GaForwardingRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#create GaForwardingRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#delete GaForwardingRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#delete GaForwardingRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#update GaForwardingRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#update GaForwardingRule#update}
   */
   readonly update?: string;
 }
@@ -1034,7 +1034,7 @@ export class GaForwardingRuleTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule alicloud_ga_forwarding_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule alicloud_ga_forwarding_rule}
 */
 export class GaForwardingRule extends cdktf.TerraformResource {
 
@@ -1050,7 +1050,7 @@ export class GaForwardingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaForwardingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaForwardingRule to import
-  * @param importFromId The id of the existing GaForwardingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaForwardingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaForwardingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1062,7 +1062,7 @@ export class GaForwardingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_forwarding_rule alicloud_ga_forwarding_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_forwarding_rule alicloud_ga_forwarding_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1073,8 +1073,8 @@ export class GaForwardingRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_forwarding_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PaasSecurityzoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#id PaasSecurityzone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#id PaasSecurityzone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,39 +17,39 @@ export interface PaasSecurityzoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#labels PaasSecurityzone#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#labels PaasSecurityzone#labels}
   */
   readonly labels?: string[];
   /**
   * The location this object is placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#location_uuid PaasSecurityzone#location_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#location_uuid PaasSecurityzone#location_uuid}
   */
   readonly locationUuid?: string;
   /**
   * The human-readable name of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#name PaasSecurityzone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#name PaasSecurityzone#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#timeouts PaasSecurityzone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#timeouts PaasSecurityzone#timeouts}
   */
   readonly timeouts?: PaasSecurityzoneTimeouts;
 }
 export interface PaasSecurityzoneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#create PaasSecurityzone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#create PaasSecurityzone#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#delete PaasSecurityzone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#delete PaasSecurityzone#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#update PaasSecurityzone#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#update PaasSecurityzone#update}
   */
   readonly update?: string;
 }
@@ -201,7 +201,7 @@ export class PaasSecurityzoneTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone gridscale_paas_securityzone}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone gridscale_paas_securityzone}
 */
 export class PaasSecurityzone extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class PaasSecurityzone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PaasSecurityzone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PaasSecurityzone to import
-  * @param importFromId The id of the existing PaasSecurityzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PaasSecurityzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PaasSecurityzone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class PaasSecurityzone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/paas_securityzone gridscale_paas_securityzone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/paas_securityzone gridscale_paas_securityzone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class PaasSecurityzone extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_paas_securityzone',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

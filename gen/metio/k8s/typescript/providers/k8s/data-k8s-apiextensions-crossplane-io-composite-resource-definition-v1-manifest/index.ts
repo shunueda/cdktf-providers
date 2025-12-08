@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#metadata DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#metadata DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#metadata}
   */
   readonly metadata: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestMetadata;
   /**
   * CompositeResourceDefinitionSpec specifies the desired state of the definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#spec DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#spec DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#spec}
   */
   readonly spec?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#annotations DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#annotations DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#labels DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#labels DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,37 +187,37 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * categories is a list of grouped resources this custom resource belongs to (e.g. 'all'). This is published in API discovery documents, and used by clients to support invocations like 'kubectl get all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#categories DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#categories DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#categories}
   */
   readonly categories?: string[];
   /**
   * kind is the serialized kind of the resource. It is normally CamelCase and singular. Custom resource instances will use this value as the 'kind' attribute in API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * listKind is the serialized kind of the list for this resource. Defaults to ''kind'List'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#list_kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#list_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#list_kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#list_kind}
   */
   readonly listKind?: string;
   /**
   * plural is the plural name of the resource to serve. The custom resources are served under '/apis/<group>/<version>/.../<plural>'. Must match the name of the CustomResourceDefinition (in the form '<names.plural>.<group>'). Must be all lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#plural DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#plural}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#plural DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#plural}
   */
   readonly plural: string;
   /**
   * shortNames are short names for the resource, exposed in API discovery documents, and used by clients to support invocations like 'kubectl get <shortname>'. It must be all lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#short_names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#short_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#short_names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#short_names}
   */
   readonly shortNames?: string[];
   /**
   * singular is the singular name of the resource. It must be all lowercase. Defaults to lowercased 'kind'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#singular DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#singular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#singular DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#singular}
   */
   readonly singular?: string;
 }
@@ -452,25 +452,25 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * name is the name of the service. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the service. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#namespace DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#namespace DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * path is an optional URL path at which the webhook will be contacted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#path DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#path DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#path}
   */
   readonly path?: string;
   /**
   * port is an optional service port at which the webhook will be contacted. 'port' should be a valid port number (1-65535, inclusive). Defaults to 443 for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#port DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#port DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#port}
   */
   readonly port?: number;
 }
@@ -647,19 +647,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * caBundle is a PEM encoded CA bundle which will be used to validate the webhook's server certificate. If unspecified, system trust roots on the apiserver are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#ca_bundle DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#ca_bundle DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * service is a reference to the service for this webhook. Either service or url must be specified. If the webhook is running within the cluster, then you should use 'service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#service DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#service DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#service}
   */
   readonly service?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecConversionWebhookClientConfigService;
   /**
   * url gives the location of the webhook, in standard URL form ('scheme://host:port/path'). Exactly one of 'url' or 'service' must be specified. The 'host' should not refer to a service running in the cluster; use the 'service' field instead. The host might be resolved via external DNS in some apiservers (e.g., 'kube-apiserver' cannot resolve in-cluster DNS as that would be a layering violation). 'host' may also be an IP address. Please note that using 'localhost' or '127.0.0.1' as a 'host' is risky unless you take great care to run this webhook on all hosts which run an apiserver which might need to make calls to this webhook. Such installs are likely to be non-portable, i.e., not easy to turn up in a new cluster. The scheme must be 'https'; the URL must begin with 'https://'. A path is optional, and if present may be any string permissible in a URL. You may use the path to pass an arbitrary string to the webhook, for example, a cluster identifier. Attempting to use a user or basic auth e.g. 'user:password@' is not allowed. Fragments ('#...') and query parameters ('?...') are not allowed, either.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#url DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#url DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -813,13 +813,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * clientConfig is the instructions for how to call the webhook if strategy is 'Webhook'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#client_config DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#client_config DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#client_config}
   */
   readonly clientConfig?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecConversionWebhookClientConfig;
   /**
   * conversionReviewVersions is an ordered list of preferred 'ConversionReview' versions the Webhook expects. The API server will use the first version in the list which it supports. If none of the versions specified in this list are supported by API server, conversion will fail for the custom resource. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#conversion_review_versions DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#conversion_review_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#conversion_review_versions DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#conversion_review_versions}
   */
   readonly conversionReviewVersions: string[];
 }
@@ -941,13 +941,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * strategy specifies how custom resources are converted between versions. Allowed values are: - ''None'': The converter only change the apiVersion and would not touch any other field in the custom resource. - ''Webhook'': API Server will call to an external webhook to do the conversion. Additional information is needed for this option. This requires spec.preserveUnknownFields to be false, and spec.conversion.webhook to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#strategy DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#strategy DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#strategy}
   */
   readonly strategy: string;
   /**
   * webhook describes how to call the conversion webhook. Required when 'strategy' is set to ''Webhook''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#webhook DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#webhook DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#webhook}
   */
   readonly webhook?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecConversionWebhook;
 }
@@ -1069,7 +1069,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * Name of the Composition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1162,7 +1162,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * Name of the Composition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1255,13 +1255,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#annotations DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#annotations DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels and services. These labels are added to the composite resource and claim CRD's in addition to any labels defined by 'CompositionResourceDefinition' 'metadata.labels'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#labels DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#labels DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1386,37 +1386,37 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * categories is a list of grouped resources this custom resource belongs to (e.g. 'all'). This is published in API discovery documents, and used by clients to support invocations like 'kubectl get all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#categories DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#categories DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#categories}
   */
   readonly categories?: string[];
   /**
   * kind is the serialized kind of the resource. It is normally CamelCase and singular. Custom resource instances will use this value as the 'kind' attribute in API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * listKind is the serialized kind of the list for this resource. Defaults to ''kind'List'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#list_kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#list_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#list_kind DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#list_kind}
   */
   readonly listKind?: string;
   /**
   * plural is the plural name of the resource to serve. The custom resources are served under '/apis/<group>/<version>/.../<plural>'. Must match the name of the CustomResourceDefinition (in the form '<names.plural>.<group>'). Must be all lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#plural DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#plural}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#plural DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#plural}
   */
   readonly plural: string;
   /**
   * shortNames are short names for the resource, exposed in API discovery documents, and used by clients to support invocations like 'kubectl get <shortname>'. It must be all lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#short_names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#short_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#short_names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#short_names}
   */
   readonly shortNames?: string[];
   /**
   * singular is the singular name of the resource. It must be all lowercase. Defaults to lowercased 'kind'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#singular DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#singular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#singular DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#singular}
   */
   readonly singular?: string;
 }
@@ -1651,37 +1651,37 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * description is a human readable description of this column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#description DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#description DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#description}
   */
   readonly description?: string;
   /**
   * format is an optional OpenAPI type definition for this column. The 'name' format is applied to the primary identifier column to assist in clients identifying column is the resource name. See https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#data-types for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#format DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#format DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#format}
   */
   readonly format?: string;
   /**
   * jsonPath is a simple JSON path (i.e. with array notation) which is evaluated against each custom resource to produce the value for this column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#json_path DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#json_path DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#json_path}
   */
   readonly jsonPath: string;
   /**
   * name is a human readable name for the column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * priority is an integer defining the relative importance of this column compared to others. Lower numbers are considered higher priority. Columns that may be omitted in limited space scenarios should be given a priority greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#priority DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#priority DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * type is an OpenAPI type definition for this column. See https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#data-types for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#type DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#type DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#type}
   */
   readonly type: string;
 }
@@ -1935,7 +1935,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * OpenAPIV3Schema is the OpenAPI v3 schema to use for validation and pruning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#open_apiv3_schema DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#open_apiv3_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#open_apiv3_schema DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#open_apiv3_schema}
   */
   readonly openApiv3Schema?: { [key: string]: string };
 }
@@ -2031,43 +2031,43 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * AdditionalPrinterColumns specifies additional columns returned in Table output. If no columns are specified, a single column displaying the age of the custom resource is used. See the following link for details: https://kubernetes.io/docs/reference/using-api/api-concepts/#receiving-resources-as-tables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#additional_printer_columns DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#additional_printer_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#additional_printer_columns DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#additional_printer_columns}
   */
   readonly additionalPrinterColumns?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecVersionsAdditionalPrinterColumns[] | cdktf.IResolvable;
   /**
   * The deprecated field specifies that this version is deprecated and should not be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#deprecated DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#deprecated DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#deprecated}
   */
   readonly deprecated?: boolean | cdktf.IResolvable;
   /**
   * DeprecationWarning specifies the message that should be shown to the user when using this version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#deprecation_warning DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#deprecation_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#deprecation_warning DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#deprecation_warning}
   */
   readonly deprecationWarning?: string;
   /**
   * Name of this version, e.g. “v1”, “v2beta1”, etc. Composite resources are served under this version at '/apis/<group>/<version>/...' if 'served' is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#name DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Referenceable specifies that this version may be referenced by a Composition in order to configure which resources an XR may be composed of. Exactly one version must be marked as referenceable; all Compositions must target only the referenceable version. The referenceable version must be served. It's mapped to the CRD's 'spec.versions[*].storage' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#referenceable DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#referenceable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#referenceable DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#referenceable}
   */
   readonly referenceable: boolean | cdktf.IResolvable;
   /**
   * Schema describes the schema used for validation, pruning, and defaulting of this version of the defined composite resource. Fields required by all composite resources will be injected into this schema automatically, and will override equivalently named fields in this schema. Omitting this schema results in a schema that contains only the fields required by all composite resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#schema DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#schema DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#schema}
   */
   readonly schema?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecVersionsSchema;
   /**
   * Served specifies that this version should be served via REST APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#served DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#served}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#served DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#served}
   */
   readonly served: boolean | cdktf.IResolvable;
 }
@@ -2350,67 +2350,67 @@ export interface DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Ma
   /**
   * ClaimNames specifies the names of an optional composite resource claim. When claim names are specified Crossplane will create a namespaced 'composite resource claim' CRD that corresponds to the defined composite resource. This composite resource claim acts as a namespaced proxy for the composite resource; creating, updating, or deleting the claim will create, update, or delete a corresponding composite resource. You may add claim names to an existing CompositeResourceDefinition, but they cannot be changed or removed once they have been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#claim_names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#claim_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#claim_names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#claim_names}
   */
   readonly claimNames?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecClaimNames;
   /**
   * ConnectionSecretKeys is the list of keys that will be exposed to the end user of the defined kind. If the list is empty, all keys will be published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#connection_secret_keys DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#connection_secret_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#connection_secret_keys DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#connection_secret_keys}
   */
   readonly connectionSecretKeys?: string[];
   /**
   * Conversion defines all conversion settings for the defined Composite resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#conversion DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#conversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#conversion DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#conversion}
   */
   readonly conversion?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecConversion;
   /**
   * DefaultCompositeDeletePolicy is the policy used when deleting the Composite that is associated with the Claim if no policy has been specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#default_composite_delete_policy DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#default_composite_delete_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#default_composite_delete_policy DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#default_composite_delete_policy}
   */
   readonly defaultCompositeDeletePolicy?: string;
   /**
   * DefaultCompositionRef refers to the Composition resource that will be used in case no composition selector is given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#default_composition_ref DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#default_composition_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#default_composition_ref DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#default_composition_ref}
   */
   readonly defaultCompositionRef?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecDefaultCompositionRef;
   /**
   * DefaultCompositionUpdatePolicy is the policy used when updating composites after a new Composition Revision has been created if no policy has been specified on the composite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#default_composition_update_policy DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#default_composition_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#default_composition_update_policy DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#default_composition_update_policy}
   */
   readonly defaultCompositionUpdatePolicy?: string;
   /**
   * EnforcedCompositionRef refers to the Composition resource that will be used by all composite instances whose schema is defined by this definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#enforced_composition_ref DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#enforced_composition_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#enforced_composition_ref DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#enforced_composition_ref}
   */
   readonly enforcedCompositionRef?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecEnforcedCompositionRef;
   /**
   * Group specifies the API group of the defined composite resource. Composite resources are served under '/apis/<group>/...'. Must match the name of the XRD (in the form '<names.plural>.<group>').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#group DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#group DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#group}
   */
   readonly group: string;
   /**
   * Metadata specifies the desired metadata for the defined composite resource and claim CRD's.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#metadata DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#metadata DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#metadata}
   */
   readonly metadata?: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecMetadata;
   /**
   * Names specifies the resource and kind names of the defined composite resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#names DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#names}
   */
   readonly names: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecNames;
   /**
   * Versions is the list of all API versions of the defined composite resource. Version names are used to compute the order in which served versions are listed in API discovery. If the version string is 'kube-like', it will sort above non 'kube-like' version strings, which are ordered lexicographically. 'Kube-like' versions start with a 'v', then are followed by a number (the major version), then optionally the string 'alpha' or 'beta' and another number (the minor version). These are sorted first by GA > beta > alpha (where GA is a version with no suffix such as beta or alpha), and then by comparing major version, then minor version. An example sorted list of versions: v10, v2, v1, v11beta2, v10beta3, v3beta1, v12alpha1, v11alpha2, foo1, foo10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#versions DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#versions DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest#versions}
   */
   readonly versions: DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1ManifestSpecVersions[] | cdktf.IResolvable;
 }
@@ -2785,7 +2785,7 @@ export class DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest k8s_apiextensions_crossplane_io_composite_resource_definition_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest k8s_apiextensions_crossplane_io_composite_resource_definition_v1_manifest}
 */
 export class DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2801,7 +2801,7 @@ export class DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manife
   * Generates CDKTF code for importing a DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest to import
-  * @param importFromId The id of the existing DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2813,7 +2813,7 @@ export class DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest k8s_apiextensions_crossplane_io_composite_resource_definition_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apiextensions_crossplane_io_composite_resource_definition_v1_manifest k8s_apiextensions_crossplane_io_composite_resource_definition_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2824,8 +2824,8 @@ export class DataK8SApiextensionsCrossplaneIoCompositeResourceDefinitionV1Manife
       terraformResourceType: 'k8s_apiextensions_crossplane_io_composite_resource_definition_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

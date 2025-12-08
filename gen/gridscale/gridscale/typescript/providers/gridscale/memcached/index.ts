@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MemcachedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#id Memcached#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#id Memcached#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,50 +17,50 @@ export interface MemcachedConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#labels Memcached#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#labels Memcached#labels}
   */
   readonly labels?: string[];
   /**
   * Maximum CPU core count. The Memcached instance's CPU core count will be autoscaled based on the workload. The number of cores stays between 1 and `max_core_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#max_core_count Memcached#max_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#max_core_count Memcached#max_core_count}
   */
   readonly maxCoreCount?: number;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#name Memcached#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#name Memcached#name}
   */
   readonly name: string;
   /**
   * The UUID of the network that the service is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#network_uuid Memcached#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#network_uuid Memcached#network_uuid}
   */
   readonly networkUuid?: string;
   /**
   * Performance class of Memcached service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#performance_class Memcached#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#performance_class Memcached#performance_class}
   */
   readonly performanceClass: string;
   /**
   * The Memcached release of this instance.\n
   * 				For convenience, please use gscloud https://github.com/gridscale/gscloud to get the list of available Memcached service releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#release Memcached#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#release Memcached#release}
   */
   readonly release: string;
   /**
   * Security zone UUID linked to Memcached service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#security_zone_uuid Memcached#security_zone_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#security_zone_uuid Memcached#security_zone_uuid}
   */
   readonly securityZoneUuid?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#timeouts Memcached#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#timeouts Memcached#timeouts}
   */
   readonly timeouts?: MemcachedTimeouts;
 }
@@ -151,15 +151,15 @@ export class MemcachedListenPortList extends cdktf.ComplexList {
 }
 export interface MemcachedTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#create Memcached#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#create Memcached#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#delete Memcached#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#delete Memcached#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#update Memcached#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#update Memcached#update}
   */
   readonly update?: string;
 }
@@ -311,7 +311,7 @@ export class MemcachedTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached gridscale_memcached}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached gridscale_memcached}
 */
 export class Memcached extends cdktf.TerraformResource {
 
@@ -327,7 +327,7 @@ export class Memcached extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Memcached resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Memcached to import
-  * @param importFromId The id of the existing Memcached that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Memcached that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Memcached to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -339,7 +339,7 @@ export class Memcached extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/memcached gridscale_memcached} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/memcached gridscale_memcached} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -350,8 +350,8 @@ export class Memcached extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_memcached',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

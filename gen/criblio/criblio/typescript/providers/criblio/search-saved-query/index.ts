@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query
+// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SearchSavedQueryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the saved query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#description SearchSavedQuery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#description SearchSavedQuery#description}
   */
   readonly description?: string;
   /**
   * Earliest time for the search range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#earliest SearchSavedQuery#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#earliest SearchSavedQuery#earliest}
   */
   readonly earliest?: string;
   /**
   * Unique identifier for the saved query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#id SearchSavedQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#id SearchSavedQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,29 +31,29 @@ export interface SearchSavedQueryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the saved query is private
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#is_private SearchSavedQuery#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#is_private SearchSavedQuery#is_private}
   */
   readonly isPrivate?: boolean | cdktf.IResolvable;
   /**
   * Latest time for the search range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#latest SearchSavedQuery#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#latest SearchSavedQuery#latest}
   */
   readonly latest?: string;
   /**
   * Name of the saved query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#name SearchSavedQuery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#name SearchSavedQuery#name}
   */
   readonly name: string;
   /**
   * The search query string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#query SearchSavedQuery#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#query SearchSavedQuery#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#schedule SearchSavedQuery#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#schedule SearchSavedQuery#schedule}
   */
   readonly schedule?: SearchSavedQuerySchedule;
 }
@@ -61,7 +61,7 @@ export interface SearchSavedQueryScheduleNotifications {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#disabled SearchSavedQuery#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#disabled SearchSavedQuery#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -157,31 +157,31 @@ export interface SearchSavedQuerySchedule {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#cron_schedule SearchSavedQuery#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#cron_schedule SearchSavedQuery#cron_schedule}
   */
   readonly cronSchedule?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#enabled SearchSavedQuery#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#enabled SearchSavedQuery#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#keep_last_n SearchSavedQuery#keep_last_n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#keep_last_n SearchSavedQuery#keep_last_n}
   */
   readonly keepLastN?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#notifications SearchSavedQuery#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#notifications SearchSavedQuery#notifications}
   */
   readonly notifications?: SearchSavedQueryScheduleNotifications;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#tz SearchSavedQuery#tz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#tz SearchSavedQuery#tz}
   */
   readonly tz?: string;
 }
@@ -391,7 +391,7 @@ export class SearchSavedQueryScheduleOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query criblio_search_saved_query}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query criblio_search_saved_query}
 */
 export class SearchSavedQuery extends cdktf.TerraformResource {
 
@@ -407,7 +407,7 @@ export class SearchSavedQuery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchSavedQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchSavedQuery to import
-  * @param importFromId The id of the existing SearchSavedQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchSavedQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchSavedQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -419,7 +419,7 @@ export class SearchSavedQuery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_saved_query criblio_search_saved_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_saved_query criblio_search_saved_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -430,8 +430,8 @@ export class SearchSavedQuery extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_saved_query',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.33',
-        providerVersionConstraint: '1.20.33'
+        providerVersion: '1.20.48',
+        providerVersionConstraint: '1.20.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `criblio_pack_destination`
 
-Refer to the Terraform Registry for docs: [`criblio_pack_destination`](https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_destination).
+Refer to the Terraform Registry for docs: [`criblio_pack_destination`](https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_destination).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface EcsDedicatedHostClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster#dedicated_host_cluster_name EcsDedicatedHostCluster#dedicated_host_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster#dedicated_host_cluster_name EcsDedicatedHostCluster#dedicated_host_cluster_name}
   */
   readonly dedicatedHostClusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster#description EcsDedicatedHostCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster#description EcsDedicatedHostCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster#dry_run EcsDedicatedHostCluster#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster#dry_run EcsDedicatedHostCluster#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster#id EcsDedicatedHostCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster#id EcsDedicatedHostCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster#tags EcsDedicatedHostCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster#tags EcsDedicatedHostCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster#zone_id EcsDedicatedHostCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster#zone_id EcsDedicatedHostCluster#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster alicloud_ecs_dedicated_host_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster alicloud_ecs_dedicated_host_cluster}
 */
 export class EcsDedicatedHostCluster extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class EcsDedicatedHostCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsDedicatedHostCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsDedicatedHostCluster to import
-  * @param importFromId The id of the existing EcsDedicatedHostCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsDedicatedHostCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsDedicatedHostCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class EcsDedicatedHostCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_dedicated_host_cluster alicloud_ecs_dedicated_host_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_dedicated_host_cluster alicloud_ecs_dedicated_host_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class EcsDedicatedHostCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecs_dedicated_host_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

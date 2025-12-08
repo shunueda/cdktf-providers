@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigAggregateConfigRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#aggregate_config_rule_name ConfigAggregateConfigRule#aggregate_config_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#aggregate_config_rule_name ConfigAggregateConfigRule#aggregate_config_rule_name}
   */
   readonly aggregateConfigRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#aggregator_id ConfigAggregateConfigRule#aggregator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#aggregator_id ConfigAggregateConfigRule#aggregator_id}
   */
   readonly aggregatorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#config_rule_trigger_types ConfigAggregateConfigRule#config_rule_trigger_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#config_rule_trigger_types ConfigAggregateConfigRule#config_rule_trigger_types}
   */
   readonly configRuleTriggerTypes: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#description ConfigAggregateConfigRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#description ConfigAggregateConfigRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#exclude_resource_ids_scope ConfigAggregateConfigRule#exclude_resource_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#exclude_resource_ids_scope ConfigAggregateConfigRule#exclude_resource_ids_scope}
   */
   readonly excludeResourceIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#id ConfigAggregateConfigRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#id ConfigAggregateConfigRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#input_parameters ConfigAggregateConfigRule#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#input_parameters ConfigAggregateConfigRule#input_parameters}
   */
   readonly inputParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#maximum_execution_frequency ConfigAggregateConfigRule#maximum_execution_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#maximum_execution_frequency ConfigAggregateConfigRule#maximum_execution_frequency}
   */
   readonly maximumExecutionFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#region_ids_scope ConfigAggregateConfigRule#region_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#region_ids_scope ConfigAggregateConfigRule#region_ids_scope}
   */
   readonly regionIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#resource_group_ids_scope ConfigAggregateConfigRule#resource_group_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#resource_group_ids_scope ConfigAggregateConfigRule#resource_group_ids_scope}
   */
   readonly resourceGroupIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#resource_types_scope ConfigAggregateConfigRule#resource_types_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#resource_types_scope ConfigAggregateConfigRule#resource_types_scope}
   */
   readonly resourceTypesScope: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#risk_level ConfigAggregateConfigRule#risk_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#risk_level ConfigAggregateConfigRule#risk_level}
   */
   readonly riskLevel: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#source_identifier ConfigAggregateConfigRule#source_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#source_identifier ConfigAggregateConfigRule#source_identifier}
   */
   readonly sourceIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#source_owner ConfigAggregateConfigRule#source_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#source_owner ConfigAggregateConfigRule#source_owner}
   */
   readonly sourceOwner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#status ConfigAggregateConfigRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#status ConfigAggregateConfigRule#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#tag_key_scope ConfigAggregateConfigRule#tag_key_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#tag_key_scope ConfigAggregateConfigRule#tag_key_scope}
   */
   readonly tagKeyScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#tag_value_scope ConfigAggregateConfigRule#tag_value_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#tag_value_scope ConfigAggregateConfigRule#tag_value_scope}
   */
   readonly tagValueScope?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#timeouts ConfigAggregateConfigRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#timeouts ConfigAggregateConfigRule#timeouts}
   */
   readonly timeouts?: ConfigAggregateConfigRuleTimeouts;
 }
 export interface ConfigAggregateConfigRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#create ConfigAggregateConfigRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#create ConfigAggregateConfigRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#update ConfigAggregateConfigRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#update ConfigAggregateConfigRule#update}
   */
   readonly update?: string;
 }
@@ -214,7 +214,7 @@ export class ConfigAggregateConfigRuleTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule alicloud_config_aggregate_config_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule alicloud_config_aggregate_config_rule}
 */
 export class ConfigAggregateConfigRule extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class ConfigAggregateConfigRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigAggregateConfigRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigAggregateConfigRule to import
-  * @param importFromId The id of the existing ConfigAggregateConfigRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigAggregateConfigRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigAggregateConfigRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class ConfigAggregateConfigRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_config_rule alicloud_config_aggregate_config_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/config_aggregate_config_rule alicloud_config_aggregate_config_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class ConfigAggregateConfigRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_config_aggregate_config_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

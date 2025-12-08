@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestMetadata;
   /**
   * UserProfileSpec defines the desired state of UserProfile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestMetadataOu
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -366,23 +366,23 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecTagsLi
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCodeEditorAppSettingsDefaultResourceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
   */
   readonly lifecycleConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
   */
   readonly sageMakerImageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
   */
   readonly sageMakerImageVersionAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
   */
   readonly sageMakerImageVersionArn?: string;
 }
@@ -594,11 +594,11 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUs
   /**
   * Specifies the ARN's of a SageMaker image and SageMaker image version, and the instance type that the version runs on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
   */
   readonly defaultResourceSpec?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCodeEditorAppSettingsDefaultResourceSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
   */
   readonly lifecycleConfigArNs?: string[];
 }
@@ -721,11 +721,11 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCustomFileSystemConfigsEfsFileSystemConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#file_system_path DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#file_system_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#file_system_path DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#file_system_path}
   */
   readonly fileSystemPath?: string;
 }
@@ -850,7 +850,7 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUs
   /**
   * The settings for assigning a custom Amazon EFS file system to a user profile or space for an Amazon SageMaker Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#efs_file_system_config DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#efs_file_system_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#efs_file_system_config DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#efs_file_system_config}
   */
   readonly efsFileSystemConfig?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCustomFileSystemConfigsEfsFileSystemConfig;
 }
@@ -966,11 +966,11 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCustomPosixUserConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#gid DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#gid DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#uid DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#uid DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#uid}
   */
   readonly uid?: number;
 }
@@ -1093,15 +1093,15 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterLabAppSettingsCustomImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#app_image_config_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#app_image_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#app_image_config_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#app_image_config_name}
   */
   readonly appImageConfigName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_version_number DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_version_number DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_version_number}
   */
   readonly imageVersionNumber?: number;
 }
@@ -1275,23 +1275,23 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterLabAppSettingsDefaultResourceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
   */
   readonly lifecycleConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
   */
   readonly sageMakerImageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
   */
   readonly sageMakerImageVersionAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
   */
   readonly sageMakerImageVersionArn?: string;
 }
@@ -1501,17 +1501,17 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterLabAppSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_images DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_images DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_images}
   */
   readonly customImages?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterLabAppSettingsCustomImages[] | cdktf.IResolvable;
   /**
   * Specifies the ARN's of a SageMaker image and SageMaker image version, and the instance type that the version runs on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
   */
   readonly defaultResourceSpec?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterLabAppSettingsDefaultResourceSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
   */
   readonly lifecycleConfigArNs?: string[];
 }
@@ -1663,23 +1663,23 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterServerAppSettingsDefaultResourceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
   */
   readonly lifecycleConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
   */
   readonly sageMakerImageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
   */
   readonly sageMakerImageVersionAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
   */
   readonly sageMakerImageVersionArn?: string;
 }
@@ -1891,11 +1891,11 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUs
   /**
   * Specifies the ARN's of a SageMaker image and SageMaker image version, and the instance type that the version runs on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
   */
   readonly defaultResourceSpec?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterServerAppSettingsDefaultResourceSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
   */
   readonly lifecycleConfigArNs?: string[];
 }
@@ -2018,15 +2018,15 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsKernelGatewayAppSettingsCustomImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#app_image_config_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#app_image_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#app_image_config_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#app_image_config_name}
   */
   readonly appImageConfigName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_version_number DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#image_version_number DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#image_version_number}
   */
   readonly imageVersionNumber?: number;
 }
@@ -2200,23 +2200,23 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsKernelGatewayAppSettingsDefaultResourceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
   */
   readonly lifecycleConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
   */
   readonly sageMakerImageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
   */
   readonly sageMakerImageVersionAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
   */
   readonly sageMakerImageVersionArn?: string;
 }
@@ -2426,17 +2426,17 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsKernelGatewayAppSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_images DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_images DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_images}
   */
   readonly customImages?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsKernelGatewayAppSettingsCustomImages[] | cdktf.IResolvable;
   /**
   * Specifies the ARN's of a SageMaker image and SageMaker image version, and the instance type that the version runs on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
   */
   readonly defaultResourceSpec?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsKernelGatewayAppSettingsDefaultResourceSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_ar_ns DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_ar_ns}
   */
   readonly lifecycleConfigArNs?: string[];
 }
@@ -2588,11 +2588,11 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsRStudioServerProAppSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#access_status DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#access_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#access_status DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#access_status}
   */
   readonly accessStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#user_group DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#user_group DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#user_group}
   */
   readonly userGroup?: string;
 }
@@ -2715,15 +2715,15 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsSharingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#notebook_output_option DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#notebook_output_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#notebook_output_option DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#notebook_output_option}
   */
   readonly notebookOutputOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#s3_kms_key_id DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#s3_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#s3_kms_key_id DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#s3_kms_key_id}
   */
   readonly s3KmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -2875,11 +2875,11 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsSpaceStorageSettingsDefaultEbsStorageSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_ebs_volume_size_in_gb DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_ebs_volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_ebs_volume_size_in_gb DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_ebs_volume_size_in_gb}
   */
   readonly defaultEbsVolumeSizeInGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#maximum_ebs_volume_size_in_gb DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#maximum_ebs_volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#maximum_ebs_volume_size_in_gb DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#maximum_ebs_volume_size_in_gb}
   */
   readonly maximumEbsVolumeSizeInGb?: number;
 }
@@ -3004,7 +3004,7 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUs
   /**
   * A collection of default EBS storage settings that applies to private spaces created within a domain or user profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_ebs_storage_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_ebs_storage_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_ebs_storage_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_ebs_storage_settings}
   */
   readonly defaultEbsStorageSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsSpaceStorageSettingsDefaultEbsStorageSettings;
 }
@@ -3098,23 +3098,23 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSe
 }
 export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsTensorBoardAppSettingsDefaultResourceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#lifecycle_config_arn}
   */
   readonly lifecycleConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_arn}
   */
   readonly sageMakerImageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_alias}
   */
   readonly sageMakerImageVersionAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sage_maker_image_version_arn}
   */
   readonly sageMakerImageVersionArn?: string;
 }
@@ -3326,7 +3326,7 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUs
   /**
   * Specifies the ARN's of a SageMaker image and SageMaker image version, and the instance type that the version runs on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_resource_spec DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_resource_spec}
   */
   readonly defaultResourceSpec?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsTensorBoardAppSettingsDefaultResourceSpec;
 }
@@ -3422,75 +3422,75 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUs
   /**
   * The Code Editor application settings. For more information about Code Editor, see Get started with Code Editor in Amazon SageMaker (https://docs.aws.amazon.com/sagemaker/latest/dg/code-editor.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#code_editor_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#code_editor_app_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#code_editor_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#code_editor_app_settings}
   */
   readonly codeEditorAppSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCodeEditorAppSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_file_system_configs DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_file_system_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_file_system_configs DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_file_system_configs}
   */
   readonly customFileSystemConfigs?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCustomFileSystemConfigs[] | cdktf.IResolvable;
   /**
   * Details about the POSIX identity that is used for file system operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_posix_user_config DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_posix_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#custom_posix_user_config DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#custom_posix_user_config}
   */
   readonly customPosixUserConfig?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsCustomPosixUserConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_landing_uri DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_landing_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#default_landing_uri DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#default_landing_uri}
   */
   readonly defaultLandingUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#execution_role DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#execution_role DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#execution_role}
   */
   readonly executionRole?: string;
   /**
   * The settings for the JupyterLab application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#jupyter_lab_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#jupyter_lab_app_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#jupyter_lab_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#jupyter_lab_app_settings}
   */
   readonly jupyterLabAppSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterLabAppSettings;
   /**
   * The JupyterServer app settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#jupyter_server_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#jupyter_server_app_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#jupyter_server_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#jupyter_server_app_settings}
   */
   readonly jupyterServerAppSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsJupyterServerAppSettings;
   /**
   * The KernelGateway app settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#kernel_gateway_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#kernel_gateway_app_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#kernel_gateway_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#kernel_gateway_app_settings}
   */
   readonly kernelGatewayAppSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsKernelGatewayAppSettings;
   /**
   * A collection of settings that configure user interaction with the RStudioServerPro app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#r_studio_server_pro_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#r_studio_server_pro_app_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#r_studio_server_pro_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#r_studio_server_pro_app_settings}
   */
   readonly rStudioServerProAppSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsRStudioServerProAppSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#security_groups DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#security_groups DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Specifies options for sharing Amazon SageMaker Studio notebooks. These settings are specified as part of DefaultUserSettings when the CreateDomain API is called, and as part of UserSettings when the CreateUserProfile API is called. When SharingSettings is not specified, notebook sharing isn't allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sharing_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sharing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#sharing_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#sharing_settings}
   */
   readonly sharingSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsSharingSettings;
   /**
   * The default storage settings for a private space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#space_storage_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#space_storage_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#space_storage_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#space_storage_settings}
   */
   readonly spaceStorageSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsSpaceStorageSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#studio_web_portal DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#studio_web_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#studio_web_portal DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#studio_web_portal}
   */
   readonly studioWebPortal?: string;
   /**
   * The TensorBoard app settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#tensor_board_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#tensor_board_app_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#tensor_board_app_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#tensor_board_app_settings}
   */
   readonly tensorBoardAppSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettingsTensorBoardAppSettings;
 }
@@ -3963,37 +3963,37 @@ export interface DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpec {
   /**
   * The ID of the associated Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#domain_id DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#domain_id DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#domain_id}
   */
   readonly domainId: string;
   /**
   * A specifier for the type of value specified in SingleSignOnUserValue. Currently, the only supported value is 'UserName'. If the Domain's AuthMode is IAM Identity Center, this field is required. If the Domain's AuthMode is not IAM Identity Center, this field cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#single_sign_on_user_identifier DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#single_sign_on_user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#single_sign_on_user_identifier DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#single_sign_on_user_identifier}
   */
   readonly singleSignOnUserIdentifier?: string;
   /**
   * The username of the associated Amazon Web Services Single Sign-On User for this UserProfile. If the Domain's AuthMode is IAM Identity Center, this field is required, and must match a valid username of a user in your directory. If the Domain's AuthMode is not IAM Identity Center, this field cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#single_sign_on_user_value DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#single_sign_on_user_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#single_sign_on_user_value DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#single_sign_on_user_value}
   */
   readonly singleSignOnUserValue?: string;
   /**
   * Each tag consists of a key and an optional value. Tag keys must be unique per resource. Tags that you specify for the User Profile are also added to all Apps that the User Profile launches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * A name for the UserProfile. This value is not case sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#user_profile_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#user_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#user_profile_name DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#user_profile_name}
   */
   readonly userProfileName: string;
   /**
   * A collection of settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#user_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#user_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#user_settings DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest#user_settings}
   */
   readonly userSettings?: DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecUserSettings;
 }
@@ -4226,7 +4226,7 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4242,7 +4242,7 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4254,7 +4254,7 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4265,8 +4265,8 @@ export class DataK8SSagemakerServicesK8SAwsUserProfileV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_user_profile_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

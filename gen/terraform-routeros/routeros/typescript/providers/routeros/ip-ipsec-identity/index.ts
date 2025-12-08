@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface IpIpsecIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#___path___ IpIpsecIdentity#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#___path___ IpIpsecIdentity#___path___}
   */
   readonly path?: string;
   /**
@@ -23,21 +23,21 @@ export interface IpIpsecIdentityConfig extends cdktf.TerraformMetaArguments {
   *   * pre-shared-key-xauth - authenticate by a password (pre-shared secret) string shared between the peers + XAuth username and password. Only supported in IKEv1;
   *   * rsa-signature-hybrid - responder certificate authentication with initiator XAuth. Only supported in IKEv1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#auth_method IpIpsecIdentity#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#auth_method IpIpsecIdentity#auth_method}
   */
   readonly authMethod?: string;
   /**
   * Name of a certificate listed in System/Certificates (signing packets; the certificate must have the private key). Applicable if digital signature authentication method (`auth-method=digital-signature`) or EAP (a`uth-method=eap`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#certificate IpIpsecIdentity#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#certificate IpIpsecIdentity#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#comment IpIpsecIdentity#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#comment IpIpsecIdentity#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#disabled IpIpsecIdentity#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#disabled IpIpsecIdentity#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
@@ -47,17 +47,17 @@ export interface IpIpsecIdentityConfig extends cdktf.TerraformMetaArguments {
   *   * eap-tls - requires additional client certificate specified under certificate parameter;
   *   * eap-ttls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#eap_methods IpIpsecIdentity#eap_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#eap_methods IpIpsecIdentity#eap_methods}
   */
   readonly eapMethods?: string;
   /**
   * Allow this peer to establish SA for non-existing policies. Such policies are created dynamically for the lifetime of SA. Automatic policies allows, for example, to create IPsec secured L2TP tunnels, or any other setup where remote peer's IP address is not known at the configuration time. `no` - do not generate policies; `port-override` - generate policies and force policy to use any port (old behavior); `port-strict` - use ports from peer's proposal, which should match peer's policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#generate_policy IpIpsecIdentity#generate_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#generate_policy IpIpsecIdentity#generate_policy}
   */
   readonly generatePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#id IpIpsecIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#id IpIpsecIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,85 +66,85 @@ export interface IpIpsecIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the private key from keys menu. Applicable if RSA key authentication method (`auth-method=rsa-key`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#key IpIpsecIdentity#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#key IpIpsecIdentity#key}
   */
   readonly key?: string;
   /**
   * Defines the logic used for peer's identity validation. `remote-id` - will verify the peer's ID according to remote-id setting. `certificate` will verify the peer's certificate with what is specified under remote-certificate setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#match_by IpIpsecIdentity#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#match_by IpIpsecIdentity#match_by}
   */
   readonly matchBy?: string;
   /**
   * Name of the configuration parameters from mode-config menu. When parameter is set mode-config is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#mode_config IpIpsecIdentity#mode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#mode_config IpIpsecIdentity#mode_config}
   */
   readonly modeConfig?: string;
   /**
   * On initiator, this controls what ID_i is sent to the responder. On responder, this controls what ID_r is sent to the initiator. In IKEv2, responder also expects this ID in received ID_r from initiator. `auto` - tries to use correct ID automatically: IP for pre-shared key, SAN (DN if not present) for certificate based connections; `address` - IP address is used as ID;dn - the binary Distinguished Encoding Rules (DER) encoding of an ASN.1 X.500 Distinguished Name; `fqdn` - fully qualified domain name; `key-id` - use the specified key ID for the identity; `user-fqdn` - specifies a fully-qualified username string, for example, `user@domain.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#my_id IpIpsecIdentity#my_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#my_id IpIpsecIdentity#my_id}
   */
   readonly myId?: string;
   /**
   * Adds IP/Firewall/Raw rules matching IPsec policy to a specified chain. Use together with generate-policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#notrack_chain IpIpsecIdentity#notrack_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#notrack_chain IpIpsecIdentity#notrack_chain}
   */
   readonly notrackChain?: string;
   /**
   * XAuth or EAP password. Applicable if pre-shared key with XAuth authentication method (`auth-method=pre-shared-key-xauth`) or EAP (`auth-method=eap`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#password IpIpsecIdentity#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#password IpIpsecIdentity#password}
   */
   readonly password?: string;
   /**
   * Name of the peer on which the identity applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#peer IpIpsecIdentity#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#peer IpIpsecIdentity#peer}
   */
   readonly peer: string;
   /**
   * If generate-policy is enabled, traffic selectors are checked against templates from the same group. If none of the templates match, Phase 2 SA will not be established.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#policy_template_group IpIpsecIdentity#policy_template_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#policy_template_group IpIpsecIdentity#policy_template_group}
   */
   readonly policyTemplateGroup?: string;
   /**
   * Name of a certificate (listed in `System/Certificates`) for authenticating the remote side (validating packets; no private key required). If a remote-certificate is not specified then the received certificate from a remote peer is used and checked against CA in the certificate menu. Proper CA must be imported in a certificate store. If remote-certificate and match-by=certificate is specified, only the specific client certificate will be matched. Applicable if digital signature authentication method (`auth-method=digital-signature`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#remote_certificate IpIpsecIdentity#remote_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#remote_certificate IpIpsecIdentity#remote_certificate}
   */
   readonly remoteCertificate?: string;
   /**
   * This parameter controls what ID value to expect from the remote peer. Note that all types except for ignoring will verify remote peer's ID with a received certificate. In case when the peer sends the certificate name as its ID, it is checked against the certificate, else the ID is checked against Subject Alt. Name. `auto` - accept all ID's;address - IP address is used as ID;dn - the binary Distinguished Encoding Rules (DER) encoding of an ASN.1 X.500 Distinguished Name; `fqdn` - fully qualified domain name. Only supported in IKEv2; `user-fqdn` - a fully-qualified username string, for example, `user@domain.com`. Only supported in IKEv2; `key-id` - specific key ID for the identity. Only supported in IKEv2; `ignore` - do not verify received ID with certificate (dangerous). * Wildcard key ID matching **is not supported**, for example `remote-id=`key-id:CN=*.domain.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#remote_id IpIpsecIdentity#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#remote_id IpIpsecIdentity#remote_id}
   */
   readonly remoteId?: string;
   /**
   * Name of the public key from keys menu. Applicable if RSA key authentication method (`auth-method=rsa-key`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#remote_key IpIpsecIdentity#remote_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#remote_key IpIpsecIdentity#remote_key}
   */
   readonly remoteKey?: string;
   /**
   * Secret string. If it starts with '0x', it is parsed as a hexadecimal value. Applicable if pre-shared key authentication method (`auth-method=pre-shared-key` and `auth-method=pre-shared-key-xauth`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#secret IpIpsecIdentity#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#secret IpIpsecIdentity#secret}
   */
   readonly secret?: string;
   /**
   * XAuth or EAP username. Applicable if pre-shared key with XAuth authentication method (`auth-method=pre-shared-key-xauth`) or EAP (`auth-method=eap`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#username IpIpsecIdentity#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#username IpIpsecIdentity#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity routeros_ip_ipsec_identity}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity routeros_ip_ipsec_identity}
 */
 export class IpIpsecIdentity extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class IpIpsecIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpIpsecIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpIpsecIdentity to import
-  * @param importFromId The id of the existing IpIpsecIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpIpsecIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpIpsecIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class IpIpsecIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_identity routeros_ip_ipsec_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ip_ipsec_identity routeros_ip_ipsec_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class IpIpsecIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ipsec_identity',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

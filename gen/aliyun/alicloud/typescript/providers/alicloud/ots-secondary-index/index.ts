@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface OtsSecondaryIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#defined_columns OtsSecondaryIndex#defined_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#defined_columns OtsSecondaryIndex#defined_columns}
   */
   readonly definedColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#id OtsSecondaryIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#id OtsSecondaryIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#include_base_data OtsSecondaryIndex#include_base_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#include_base_data OtsSecondaryIndex#include_base_data}
   */
   readonly includeBaseData: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#index_name OtsSecondaryIndex#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#index_name OtsSecondaryIndex#index_name}
   */
   readonly indexName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#index_type OtsSecondaryIndex#index_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#index_type OtsSecondaryIndex#index_type}
   */
   readonly indexType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#instance_name OtsSecondaryIndex#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#instance_name OtsSecondaryIndex#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#primary_keys OtsSecondaryIndex#primary_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#primary_keys OtsSecondaryIndex#primary_keys}
   */
   readonly primaryKeys: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#table_name OtsSecondaryIndex#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#table_name OtsSecondaryIndex#table_name}
   */
   readonly tableName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index alicloud_ots_secondary_index}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index alicloud_ots_secondary_index}
 */
 export class OtsSecondaryIndex extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class OtsSecondaryIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OtsSecondaryIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OtsSecondaryIndex to import
-  * @param importFromId The id of the existing OtsSecondaryIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OtsSecondaryIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OtsSecondaryIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class OtsSecondaryIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_secondary_index alicloud_ots_secondary_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_secondary_index alicloud_ots_secondary_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class OtsSecondaryIndex extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ots_secondary_index',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

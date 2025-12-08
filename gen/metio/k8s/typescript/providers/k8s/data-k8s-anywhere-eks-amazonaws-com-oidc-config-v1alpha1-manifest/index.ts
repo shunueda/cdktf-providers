@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestMetadata;
   /**
   * OIDCConfigSpec defines the desired state of OIDCConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestMetadataOut
 }
 export interface DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestSpecRequiredClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#claim DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#claim DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#claim}
   */
   readonly claim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,43 +368,43 @@ export interface DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestSpec {
   /**
   * ClientId defines the client ID for the OpenID Connect client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#client_id DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#client_id DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * GroupsClaim defines the name of a custom OpenID Connect claim for specifying user groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#groups_claim DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#groups_claim DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
   * GroupsPrefix defines a string to be prefixed to all groups to prevent conflicts with other authentication strategies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#groups_prefix DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#groups_prefix DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * IssuerUrl defines the URL of the OpenID issuer, only HTTPS scheme will be accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#issuer_url DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#issuer_url DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
   * RequiredClaims defines a key=value pair that describes a required claim in the ID Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#required_claims DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#required_claims DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#required_claims}
   */
   readonly requiredClaims?: DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestSpecRequiredClaims[] | cdktf.IResolvable;
   /**
   * UsernameClaim defines the OpenID claim to use as the user name. Note that claims other than the default ('sub') is not guaranteed to be unique and immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#username_claim DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#username_claim DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#username_claim}
   */
   readonly usernameClaim?: string;
   /**
   * UsernamePrefix defines a string to prefixed to all usernames. If not provided, username claims other than 'email' are prefixed by the issuer URL to avoid clashes. To skip any prefixing, provide the value '-'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#username_prefix DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#username_prefix DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -672,7 +672,7 @@ export class DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -688,7 +688,7 @@ export class DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -700,7 +700,7 @@ export class DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -711,8 +711,8 @@ export class DataK8SAnywhereEksAmazonawsComOidcConfigV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_oidc_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

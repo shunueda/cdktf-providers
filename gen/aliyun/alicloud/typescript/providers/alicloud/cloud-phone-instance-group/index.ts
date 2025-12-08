@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface CloudPhoneInstanceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#amount CloudPhoneInstanceGroup#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#amount CloudPhoneInstanceGroup#amount}
   */
   readonly amount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#auto_pay CloudPhoneInstanceGroup#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#auto_pay CloudPhoneInstanceGroup#auto_pay}
   */
   readonly autoPay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#auto_renew CloudPhoneInstanceGroup#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#auto_renew CloudPhoneInstanceGroup#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#charge_type CloudPhoneInstanceGroup#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#charge_type CloudPhoneInstanceGroup#charge_type}
   */
   readonly chargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#gpu_acceleration CloudPhoneInstanceGroup#gpu_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#gpu_acceleration CloudPhoneInstanceGroup#gpu_acceleration}
   */
   readonly gpuAcceleration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#id CloudPhoneInstanceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#id CloudPhoneInstanceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#image_id CloudPhoneInstanceGroup#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#image_id CloudPhoneInstanceGroup#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#instance_group_name CloudPhoneInstanceGroup#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#instance_group_name CloudPhoneInstanceGroup#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#instance_group_spec CloudPhoneInstanceGroup#instance_group_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#instance_group_spec CloudPhoneInstanceGroup#instance_group_spec}
   */
   readonly instanceGroupSpec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#number_of_instances CloudPhoneInstanceGroup#number_of_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#number_of_instances CloudPhoneInstanceGroup#number_of_instances}
   */
   readonly numberOfInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#office_site_id CloudPhoneInstanceGroup#office_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#office_site_id CloudPhoneInstanceGroup#office_site_id}
   */
   readonly officeSiteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#period CloudPhoneInstanceGroup#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#period CloudPhoneInstanceGroup#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#period_unit CloudPhoneInstanceGroup#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#period_unit CloudPhoneInstanceGroup#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#policy_group_id CloudPhoneInstanceGroup#policy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#policy_group_id CloudPhoneInstanceGroup#policy_group_id}
   */
   readonly policyGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#vswitch_id CloudPhoneInstanceGroup#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#vswitch_id CloudPhoneInstanceGroup#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#timeouts CloudPhoneInstanceGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#timeouts CloudPhoneInstanceGroup#timeouts}
   */
   readonly timeouts?: CloudPhoneInstanceGroupTimeouts;
 }
 export interface CloudPhoneInstanceGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#create CloudPhoneInstanceGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#create CloudPhoneInstanceGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#delete CloudPhoneInstanceGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#delete CloudPhoneInstanceGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#update CloudPhoneInstanceGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#update CloudPhoneInstanceGroup#update}
   */
   readonly update?: string;
 }
@@ -239,7 +239,7 @@ export class CloudPhoneInstanceGroupTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group alicloud_cloud_phone_instance_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group alicloud_cloud_phone_instance_group}
 */
 export class CloudPhoneInstanceGroup extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class CloudPhoneInstanceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudPhoneInstanceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudPhoneInstanceGroup to import
-  * @param importFromId The id of the existing CloudPhoneInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudPhoneInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudPhoneInstanceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class CloudPhoneInstanceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_instance_group alicloud_cloud_phone_instance_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_phone_instance_group alicloud_cloud_phone_instance_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class CloudPhoneInstanceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_phone_instance_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

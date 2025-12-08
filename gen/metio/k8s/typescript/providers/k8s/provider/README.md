@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`k8s`](https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs).
+Refer to the Terraform Registry for docs: [`k8s`](https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs).

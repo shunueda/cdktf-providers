@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#metadata DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#metadata DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2ManifestMetadata;
   /**
   * Specification of the checkpoint. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#spec DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#spec DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#annotations DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#annotations DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#labels DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#labels DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#namespace DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#namespace DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Ma
   /**
   * Name of the checkpointed container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#container_name DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#container_name DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Name of the VPA object that stored VerticalPodAutoscalerCheckpoint object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#vpa_object_name DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#vpa_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#vpa_object_name DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest#vpa_object_name}
   */
   readonly vpaObjectName?: string;
 }
@@ -348,7 +348,7 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest}
 */
 export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -364,7 +364,7 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manife
   * Generates CDKTF code for importing a DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +376,7 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +387,8 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manife
       terraformResourceType: 'k8s_autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

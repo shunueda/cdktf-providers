@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataInstaclustrClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,23 +21,23 @@ export interface DataInstaclustrClusterV2Config extends cdktf.TerraformMetaArgum
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#filter DataInstaclustrClusterV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#filter DataInstaclustrClusterV2#filter}
   */
   readonly filter?: DataInstaclustrClusterV2Filter[] | cdktf.IResolvable;
   /**
   * maintenance_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#maintenance_events DataInstaclustrClusterV2#maintenance_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#maintenance_events DataInstaclustrClusterV2#maintenance_events}
   */
   readonly maintenanceEvents?: DataInstaclustrClusterV2MaintenanceEvents[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrClusterV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#name DataInstaclustrClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#name DataInstaclustrClusterV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#values DataInstaclustrClusterV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#values DataInstaclustrClusterV2#values}
   */
   readonly values: string[];
 }
@@ -178,55 +178,46 @@ export interface DataInstaclustrClusterV2MaintenanceEvents {
   /**
   * ID of the cluster this maintenance event relates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * A text description of the activities being performed in this maintenance event
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#description DataInstaclustrClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#description DataInstaclustrClusterV2#description}
   */
   readonly description?: string;
   /**
+  * The time work on this maintenance event ended in UTC time
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#end_time DataInstaclustrClusterV2#end_time}
+  */
+  readonly endTime?: string;
+  /**
   * Unique ID for this maintenance event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * If this event can still be rescheduled
+  * Maintenance outcome
+  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#is_finalized DataInstaclustrClusterV2#is_finalized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#outcome DataInstaclustrClusterV2#outcome}
   */
-  readonly isFinalized?: boolean | cdktf.IResolvable;
+  readonly outcome?: string;
   /**
-  * When this maintenance event is scheduled to end in UTC time
+  * The time work on this maintenance event started in UTC time
+  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#scheduled_end_time DataInstaclustrClusterV2#scheduled_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#start_time DataInstaclustrClusterV2#start_time}
   */
-  readonly scheduledEndTime?: string;
-  /**
-  * When this maintenance event is scheduled to start in UTC time
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#scheduled_start_time DataInstaclustrClusterV2#scheduled_start_time}
-  */
-  readonly scheduledStartTime?: string;
-  /**
-  * The latest limit for the scheduled start time in UTC time, i.e., scheduled start time will be before this value
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#scheduled_start_time_max DataInstaclustrClusterV2#scheduled_start_time_max}
-  */
-  readonly scheduledStartTimeMax?: string;
-  /**
-  * The earliest limit for the scheduled start time in UTC time, i.e., scheduled start time will be after this value
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#scheduled_start_time_min DataInstaclustrClusterV2#scheduled_start_time_min}
-  */
-  readonly scheduledStartTimeMin?: string;
+  readonly startTime?: string;
 }
 
 export function dataInstaclustrClusterV2MaintenanceEventsToTerraform(struct?: DataInstaclustrClusterV2MaintenanceEvents | cdktf.IResolvable): any {
@@ -237,12 +228,10 @@ export function dataInstaclustrClusterV2MaintenanceEventsToTerraform(struct?: Da
   return {
     cluster_id: cdktf.stringToTerraform(struct!.clusterId),
     description: cdktf.stringToTerraform(struct!.description),
+    end_time: cdktf.stringToTerraform(struct!.endTime),
     id: cdktf.stringToTerraform(struct!.id),
-    is_finalized: cdktf.booleanToTerraform(struct!.isFinalized),
-    scheduled_end_time: cdktf.stringToTerraform(struct!.scheduledEndTime),
-    scheduled_start_time: cdktf.stringToTerraform(struct!.scheduledStartTime),
-    scheduled_start_time_max: cdktf.stringToTerraform(struct!.scheduledStartTimeMax),
-    scheduled_start_time_min: cdktf.stringToTerraform(struct!.scheduledStartTimeMin),
+    outcome: cdktf.stringToTerraform(struct!.outcome),
+    start_time: cdktf.stringToTerraform(struct!.startTime),
   }
 }
 
@@ -265,38 +254,26 @@ export function dataInstaclustrClusterV2MaintenanceEventsToHclTerraform(struct?:
       type: "simple",
       storageClassType: "string",
     },
+    end_time: {
+      value: cdktf.stringToHclTerraform(struct!.endTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     id: {
       value: cdktf.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    is_finalized: {
-      value: cdktf.booleanToHclTerraform(struct!.isFinalized),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    scheduled_end_time: {
-      value: cdktf.stringToHclTerraform(struct!.scheduledEndTime),
+    outcome: {
+      value: cdktf.stringToHclTerraform(struct!.outcome),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    scheduled_start_time: {
-      value: cdktf.stringToHclTerraform(struct!.scheduledStartTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    scheduled_start_time_max: {
-      value: cdktf.stringToHclTerraform(struct!.scheduledStartTimeMax),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    scheduled_start_time_min: {
-      value: cdktf.stringToHclTerraform(struct!.scheduledStartTimeMin),
+    start_time: {
+      value: cdktf.stringToHclTerraform(struct!.startTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -335,29 +312,21 @@ export class DataInstaclustrClusterV2MaintenanceEventsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._endTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endTime = this._endTime;
+    }
     if (this._id !== undefined) {
       hasAnyValues = true;
       internalValueResult.id = this._id;
     }
-    if (this._isFinalized !== undefined) {
+    if (this._outcome !== undefined) {
       hasAnyValues = true;
-      internalValueResult.isFinalized = this._isFinalized;
+      internalValueResult.outcome = this._outcome;
     }
-    if (this._scheduledEndTime !== undefined) {
+    if (this._startTime !== undefined) {
       hasAnyValues = true;
-      internalValueResult.scheduledEndTime = this._scheduledEndTime;
-    }
-    if (this._scheduledStartTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.scheduledStartTime = this._scheduledStartTime;
-    }
-    if (this._scheduledStartTimeMax !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.scheduledStartTimeMax = this._scheduledStartTimeMax;
-    }
-    if (this._scheduledStartTimeMin !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.scheduledStartTimeMin = this._scheduledStartTimeMin;
+      internalValueResult.startTime = this._startTime;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -368,12 +337,10 @@ export class DataInstaclustrClusterV2MaintenanceEventsOutputReference extends cd
       this.resolvableValue = undefined;
       this._clusterId = undefined;
       this._description = undefined;
+      this._endTime = undefined;
       this._id = undefined;
-      this._isFinalized = undefined;
-      this._scheduledEndTime = undefined;
-      this._scheduledStartTime = undefined;
-      this._scheduledStartTimeMax = undefined;
-      this._scheduledStartTimeMin = undefined;
+      this._outcome = undefined;
+      this._startTime = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -384,12 +351,10 @@ export class DataInstaclustrClusterV2MaintenanceEventsOutputReference extends cd
       this.resolvableValue = undefined;
       this._clusterId = value.clusterId;
       this._description = value.description;
+      this._endTime = value.endTime;
       this._id = value.id;
-      this._isFinalized = value.isFinalized;
-      this._scheduledEndTime = value.scheduledEndTime;
-      this._scheduledStartTime = value.scheduledStartTime;
-      this._scheduledStartTimeMax = value.scheduledStartTimeMax;
-      this._scheduledStartTimeMin = value.scheduledStartTimeMin;
+      this._outcome = value.outcome;
+      this._startTime = value.startTime;
     }
   }
 
@@ -425,6 +390,22 @@ export class DataInstaclustrClusterV2MaintenanceEventsOutputReference extends cd
     return this._description;
   }
 
+  // end_time - computed: true, optional: true, required: false
+  private _endTime?: string; 
+  public get endTime() {
+    return this.getStringAttribute('end_time');
+  }
+  public set endTime(value: string) {
+    this._endTime = value;
+  }
+  public resetEndTime() {
+    this._endTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endTimeInput() {
+    return this._endTime;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -441,84 +422,36 @@ export class DataInstaclustrClusterV2MaintenanceEventsOutputReference extends cd
     return this._id;
   }
 
-  // is_finalized - computed: true, optional: true, required: false
-  private _isFinalized?: boolean | cdktf.IResolvable; 
-  public get isFinalized() {
-    return this.getBooleanAttribute('is_finalized');
+  // outcome - computed: true, optional: true, required: false
+  private _outcome?: string; 
+  public get outcome() {
+    return this.getStringAttribute('outcome');
   }
-  public set isFinalized(value: boolean | cdktf.IResolvable) {
-    this._isFinalized = value;
+  public set outcome(value: string) {
+    this._outcome = value;
   }
-  public resetIsFinalized() {
-    this._isFinalized = undefined;
+  public resetOutcome() {
+    this._outcome = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get isFinalizedInput() {
-    return this._isFinalized;
+  public get outcomeInput() {
+    return this._outcome;
   }
 
-  // scheduled_end_time - computed: true, optional: true, required: false
-  private _scheduledEndTime?: string; 
-  public get scheduledEndTime() {
-    return this.getStringAttribute('scheduled_end_time');
+  // start_time - computed: true, optional: true, required: false
+  private _startTime?: string; 
+  public get startTime() {
+    return this.getStringAttribute('start_time');
   }
-  public set scheduledEndTime(value: string) {
-    this._scheduledEndTime = value;
+  public set startTime(value: string) {
+    this._startTime = value;
   }
-  public resetScheduledEndTime() {
-    this._scheduledEndTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get scheduledEndTimeInput() {
-    return this._scheduledEndTime;
-  }
-
-  // scheduled_start_time - computed: true, optional: true, required: false
-  private _scheduledStartTime?: string; 
-  public get scheduledStartTime() {
-    return this.getStringAttribute('scheduled_start_time');
-  }
-  public set scheduledStartTime(value: string) {
-    this._scheduledStartTime = value;
-  }
-  public resetScheduledStartTime() {
-    this._scheduledStartTime = undefined;
+  public resetStartTime() {
+    this._startTime = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get scheduledStartTimeInput() {
-    return this._scheduledStartTime;
-  }
-
-  // scheduled_start_time_max - computed: true, optional: true, required: false
-  private _scheduledStartTimeMax?: string; 
-  public get scheduledStartTimeMax() {
-    return this.getStringAttribute('scheduled_start_time_max');
-  }
-  public set scheduledStartTimeMax(value: string) {
-    this._scheduledStartTimeMax = value;
-  }
-  public resetScheduledStartTimeMax() {
-    this._scheduledStartTimeMax = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get scheduledStartTimeMaxInput() {
-    return this._scheduledStartTimeMax;
-  }
-
-  // scheduled_start_time_min - computed: true, optional: true, required: false
-  private _scheduledStartTimeMin?: string; 
-  public get scheduledStartTimeMin() {
-    return this.getStringAttribute('scheduled_start_time_min');
-  }
-  public set scheduledStartTimeMin(value: string) {
-    this._scheduledStartTimeMin = value;
-  }
-  public resetScheduledStartTimeMin() {
-    this._scheduledStartTimeMin = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get scheduledStartTimeMinInput() {
-    return this._scheduledStartTimeMin;
+  public get startTimeInput() {
+    return this._startTime;
   }
 }
 
@@ -543,7 +476,7 @@ export class DataInstaclustrClusterV2MaintenanceEventsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2 instaclustr_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2 instaclustr_cluster_v2}
 */
 export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
 
@@ -559,7 +492,7 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataInstaclustrClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClusterV2 to import
-  * @param importFromId The id of the existing DataInstaclustrClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +504,7 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_v2 instaclustr_cluster_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_v2 instaclustr_cluster_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,8 +515,8 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'instaclustr_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.32',
-        providerVersionConstraint: '2.1.32'
+        providerVersion: '2.1.33',
+        providerVersionConstraint: '2.1.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

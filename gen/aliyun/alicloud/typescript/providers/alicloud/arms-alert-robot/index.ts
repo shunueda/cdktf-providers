@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsAlertRobotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot#alert_robot_name ArmsAlertRobot#alert_robot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot#alert_robot_name ArmsAlertRobot#alert_robot_name}
   */
   readonly alertRobotName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot#daily_noc ArmsAlertRobot#daily_noc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot#daily_noc ArmsAlertRobot#daily_noc}
   */
   readonly dailyNoc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot#daily_noc_time ArmsAlertRobot#daily_noc_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot#daily_noc_time ArmsAlertRobot#daily_noc_time}
   */
   readonly dailyNocTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot#id ArmsAlertRobot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot#id ArmsAlertRobot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot#robot_addr ArmsAlertRobot#robot_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot#robot_addr ArmsAlertRobot#robot_addr}
   */
   readonly robotAddr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot#robot_type ArmsAlertRobot#robot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot#robot_type ArmsAlertRobot#robot_type}
   */
   readonly robotType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot alicloud_arms_alert_robot}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot alicloud_arms_alert_robot}
 */
 export class ArmsAlertRobot extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ArmsAlertRobot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsAlertRobot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsAlertRobot to import
-  * @param importFromId The id of the existing ArmsAlertRobot that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsAlertRobot that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsAlertRobot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ArmsAlertRobot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_alert_robot alicloud_arms_alert_robot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_alert_robot alicloud_arms_alert_robot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ArmsAlertRobot extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_alert_robot',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

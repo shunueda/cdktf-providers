@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceCatalogProductVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#active ServiceCatalogProductVersion#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#active ServiceCatalogProductVersion#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#description ServiceCatalogProductVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#description ServiceCatalogProductVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#guidance ServiceCatalogProductVersion#guidance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#guidance ServiceCatalogProductVersion#guidance}
   */
   readonly guidance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#id ServiceCatalogProductVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#id ServiceCatalogProductVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#product_id ServiceCatalogProductVersion#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#product_id ServiceCatalogProductVersion#product_id}
   */
   readonly productId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#product_version_name ServiceCatalogProductVersion#product_version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#product_version_name ServiceCatalogProductVersion#product_version_name}
   */
   readonly productVersionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#template_type ServiceCatalogProductVersion#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#template_type ServiceCatalogProductVersion#template_type}
   */
   readonly templateType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#template_url ServiceCatalogProductVersion#template_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#template_url ServiceCatalogProductVersion#template_url}
   */
   readonly templateUrl: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#timeouts ServiceCatalogProductVersion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#timeouts ServiceCatalogProductVersion#timeouts}
   */
   readonly timeouts?: ServiceCatalogProductVersionTimeouts;
 }
 export interface ServiceCatalogProductVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#create ServiceCatalogProductVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#create ServiceCatalogProductVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#delete ServiceCatalogProductVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#delete ServiceCatalogProductVersion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#update ServiceCatalogProductVersion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#update ServiceCatalogProductVersion#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class ServiceCatalogProductVersionTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version alicloud_service_catalog_product_version}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version alicloud_service_catalog_product_version}
 */
 export class ServiceCatalogProductVersion extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class ServiceCatalogProductVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceCatalogProductVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceCatalogProductVersion to import
-  * @param importFromId The id of the existing ServiceCatalogProductVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceCatalogProductVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceCatalogProductVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class ServiceCatalogProductVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_catalog_product_version alicloud_service_catalog_product_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_catalog_product_version alicloud_service_catalog_product_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class ServiceCatalogProductVersion extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_service_catalog_product_version',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

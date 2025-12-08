@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#metadata DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#metadata DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestMetadata;
   /**
   * KafkaUserSpec defines the desired state of KafkaUser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#spec DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#spec DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#labels DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#labels DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#namespace DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#namespace DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecClusterRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#namespace DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#namespace DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -343,19 +343,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecPkiBacken
   /**
   * Group of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#group DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#group DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#kind DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#kind DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -506,17 +506,17 @@ export interface DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecPkiBacken
   /**
   * ObjectReference is a reference to an object with a given name, kind and group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#issuer_ref DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#issuer_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#issuer_ref DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#issuer_ref}
   */
   readonly issuerRef?: DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecPkiBackendSpecIssuerRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#pki_backend DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#pki_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#pki_backend DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#pki_backend}
   */
   readonly pkiBackend: string;
   /**
   * SignerName indicates requested signer, and is a qualified name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#signer_name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#signer_name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -667,17 +667,17 @@ export interface DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecTopicGran
   /**
   * KafkaAccessType hold info about Kafka ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#access_type DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#access_type DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#access_type}
   */
   readonly accessType: string;
   /**
   * KafkaPatternType hold the Resource Pattern Type of kafka ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#pattern_type DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#pattern_type DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#pattern_type}
   */
   readonly patternType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#topic_name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#topic_name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#topic_name}
   */
   readonly topicName: string;
 }
@@ -847,45 +847,45 @@ export interface DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpec {
   /**
   * Annotations defines the annotations placed on the certificate or certificate signing request object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * ClusterReference states a reference to a cluster for topic/user provisioning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#cluster_ref DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#cluster_ref DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#cluster_ref}
   */
   readonly clusterRef: DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecClusterRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#create_cert DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#create_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#create_cert DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#create_cert}
   */
   readonly createCert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#dns_names DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#dns_names DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#dns_names}
   */
   readonly dnsNames?: string[];
   /**
   * expirationSeconds is the requested duration of validity of the issued certificate. The minimum valid value for expirationSeconds is 3600 i.e. 1h. When it is not specified the default validation duration is 90 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#expiration_seconds DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#expiration_seconds DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#include_jks DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#include_jks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#include_jks DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#include_jks}
   */
   readonly includeJks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#pki_backend_spec DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#pki_backend_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#pki_backend_spec DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#pki_backend_spec}
   */
   readonly pkiBackendSpec?: DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecPkiBackendSpec;
   /**
   * secretName is used as the name of the K8S secret that contains the certificate of the KafkaUser. SecretName should be unique inside the namespace where KafkaUser is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#secret_name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#secret_name DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#topic_grants DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#topic_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#topic_grants DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest#topic_grants}
   */
   readonly topicGrants?: DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecTopicGrants[] | cdktf.IResolvable;
 }
@@ -1205,7 +1205,7 @@ export class DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest k8s_kafka_banzaicloud_io_kafka_user_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest k8s_kafka_banzaicloud_io_kafka_user_v1alpha1_manifest}
 */
 export class DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1221,7 +1221,7 @@ export class DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1233,7 +1233,7 @@ export class DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest k8s_kafka_banzaicloud_io_kafka_user_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_user_v1alpha1_manifest k8s_kafka_banzaicloud_io_kafka_user_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1244,8 +1244,8 @@ export class DataK8SKafkaBanzaicloudIoKafkaUserV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_kafka_banzaicloud_io_kafka_user_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

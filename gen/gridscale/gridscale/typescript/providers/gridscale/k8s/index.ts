@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface K8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable Kubernetes audit logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#audit_log_enabled K8S#audit_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#audit_log_enabled K8S#audit_log_enabled}
   */
   readonly auditLogEnabled?: boolean | cdktf.IResolvable;
   /**
   * Audit log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#audit_log_level K8S#audit_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#audit_log_level K8S#audit_log_level}
   */
   readonly auditLogLevel?: string;
   /**
   * The cluster CIDR that will be used to generate the CIDR of nodes, services, and pods. The allowed CIDR prefix length is /16. If this field is empty, the default value is "10.244.0.0/16"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#cluster_cidr K8S#cluster_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#cluster_cidr K8S#cluster_cidr}
   */
   readonly clusterCidr?: string;
   /**
   * Enables cluster encryption via wireguard if true. Only available for GSK version 1.29 and above. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#cluster_traffic_encryption K8S#cluster_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#cluster_traffic_encryption K8S#cluster_traffic_encryption}
   */
   readonly clusterTrafficEncryption?: boolean | cdktf.IResolvable;
   /**
   * The gridscale k8s PaaS version (issued by gridscale) of this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#gsk_version K8S#gsk_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#gsk_version K8S#gsk_version}
   */
   readonly gskVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#id K8S#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#id K8S#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,151 +47,151 @@ export interface K8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables Hubble Integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#k8s_hubble K8S#k8s_hubble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#k8s_hubble K8S#k8s_hubble}
   */
   readonly k8SHubble?: boolean | cdktf.IResolvable;
   /**
   * Enable kube-apiserver logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#kube_apiserver_log_enabled K8S#kube_apiserver_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#kube_apiserver_log_enabled K8S#kube_apiserver_log_enabled}
   */
   readonly kubeApiserverLogEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#labels K8S#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#labels K8S#labels}
   */
   readonly labels?: string[];
   /**
   * Enable control plane log delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#log_delivery K8S#log_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#log_delivery K8S#log_delivery}
   */
   readonly logDelivery?: boolean | cdktf.IResolvable;
   /**
   * Access key used to authenticate against Object Storage endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#log_delivery_access_key K8S#log_delivery_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#log_delivery_access_key K8S#log_delivery_access_key}
   */
   readonly logDeliveryAccessKey?: string;
   /**
   * Bucket to upload logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#log_delivery_bucket K8S#log_delivery_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#log_delivery_bucket K8S#log_delivery_bucket}
   */
   readonly logDeliveryBucket?: string;
   /**
   * Object Storage endpoint URL the bucket is located on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#log_delivery_endpoint K8S#log_delivery_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#log_delivery_endpoint K8S#log_delivery_endpoint}
   */
   readonly logDeliveryEndpoint?: string;
   /**
   * Time interval (in min), at which log files will be delivered, unless file size limit is reached first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#log_delivery_interval K8S#log_delivery_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#log_delivery_interval K8S#log_delivery_interval}
   */
   readonly logDeliveryInterval?: number;
   /**
   * Secret key used to authenticate against Object Storage endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#log_delivery_secret_key K8S#log_delivery_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#log_delivery_secret_key K8S#log_delivery_secret_key}
   */
   readonly logDeliverySecretKey?: string;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#name K8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#name K8S#name}
   */
   readonly name: string;
   /**
   * Custom CA from customer in pem format as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_ca_pem K8S#oidc_ca_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_ca_pem K8S#oidc_ca_pem}
   */
   readonly oidcCaPem?: string;
   /**
   * A client ID that all tokens must be issued for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_client_id K8S#oidc_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_client_id K8S#oidc_client_id}
   */
   readonly oidcClientId?: string;
   /**
   * Disable or enable OIDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_enabled K8S#oidc_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_enabled K8S#oidc_enabled}
   */
   readonly oidcEnabled?: boolean | cdktf.IResolvable;
   /**
   * JWT claim to use as the user's group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_groups_claim K8S#oidc_groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_groups_claim K8S#oidc_groups_claim}
   */
   readonly oidcGroupsClaim?: string;
   /**
   * Prefix prepended to group claims to prevent clashes with existing names (such as system: groups). For example, the value oidc: will create group names like oidc:engineering and oidc:infra.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_groups_prefix K8S#oidc_groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_groups_prefix K8S#oidc_groups_prefix}
   */
   readonly oidcGroupsPrefix?: string;
   /**
   * URL of the provider that allows the API server to discover public signing keys. Only URLs that use the https:// scheme are accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_issuer_url K8S#oidc_issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_issuer_url K8S#oidc_issuer_url}
   */
   readonly oidcIssuerUrl?: string;
   /**
   * A key=value pair that describes a required claim in the ID Token. Multiple claims can be set like this: key1=value1,key2=value2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_required_claim K8S#oidc_required_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_required_claim K8S#oidc_required_claim}
   */
   readonly oidcRequiredClaim?: string;
   /**
   * The signing algorithms accepted. Default is 'RS256'. Other option is 'RS512'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_signing_algs K8S#oidc_signing_algs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_signing_algs K8S#oidc_signing_algs}
   */
   readonly oidcSigningAlgs?: string;
   /**
   * JWT claim to use as the user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_username_claim K8S#oidc_username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_username_claim K8S#oidc_username_claim}
   */
   readonly oidcUsernameClaim?: string;
   /**
   * Prefix prepended to username claims to prevent clashes with existing names (such as system: users). For example, the value oidc: will create usernames like oidc:jane.doe. If this flag isn't provided and --oidc-username-claim is a value other than email the prefix defaults to ( Issuer URL )# where ( Issuer URL ) is the value of --oidc-issuer-url. The value - can be used to disable all prefixing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#oidc_username_prefix K8S#oidc_username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#oidc_username_prefix K8S#oidc_username_prefix}
   */
   readonly oidcUsernamePrefix?: string;
   /**
   * The k8s release of this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#release K8S#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#release K8S#release}
   */
   readonly release?: string;
   /**
   * Security zone UUID linked to PaaS service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#security_zone_uuid K8S#security_zone_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#security_zone_uuid K8S#security_zone_uuid}
   */
   readonly securityZoneUuid?: string;
   /**
   * Enable surge node to avoid resources shortage during the cluster upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#surge_node K8S#surge_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#surge_node K8S#surge_node}
   */
   readonly surgeNode?: boolean | cdktf.IResolvable;
   /**
   * node_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#node_pool K8S#node_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#node_pool K8S#node_pool}
   */
   readonly nodePool: K8SNodePool[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#timeouts K8S#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#timeouts K8S#timeouts}
   */
   readonly timeouts?: K8STimeouts;
 }
@@ -275,49 +275,387 @@ export class K8SListenPortList extends cdktf.ComplexList {
     return new K8SListenPortOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface K8SNodePoolLabels {
+  /**
+  * The key of the label.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#key K8S#key}
+  */
+  readonly key: string;
+  /**
+  * The value of the label.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#value K8S#value}
+  */
+  readonly value: string;
+}
+
+export function k8SNodePoolLabelsToTerraform(struct?: K8SNodePoolLabels | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function k8SNodePoolLabelsToHclTerraform(struct?: K8SNodePoolLabels | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class K8SNodePoolLabelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): K8SNodePoolLabels | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: K8SNodePoolLabels | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class K8SNodePoolLabelsList extends cdktf.ComplexList {
+  public internalValue? : K8SNodePoolLabels[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): K8SNodePoolLabelsOutputReference {
+    return new K8SNodePoolLabelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface K8SNodePoolTaints {
+  /**
+  * The effect of the taint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#effect K8S#effect}
+  */
+  readonly effect: string;
+  /**
+  * The key of the taint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#key K8S#key}
+  */
+  readonly key: string;
+  /**
+  * The value of the taint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#value K8S#value}
+  */
+  readonly value: string;
+}
+
+export function k8SNodePoolTaintsToTerraform(struct?: K8SNodePoolTaints | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    effect: cdktf.stringToTerraform(struct!.effect),
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function k8SNodePoolTaintsToHclTerraform(struct?: K8SNodePoolTaints | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    effect: {
+      value: cdktf.stringToHclTerraform(struct!.effect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class K8SNodePoolTaintsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): K8SNodePoolTaints | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._effect !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.effect = this._effect;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: K8SNodePoolTaints | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._effect = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._effect = value.effect;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // effect - computed: false, optional: false, required: true
+  private _effect?: string; 
+  public get effect() {
+    return this.getStringAttribute('effect');
+  }
+  public set effect(value: string) {
+    this._effect = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get effectInput() {
+    return this._effect;
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class K8SNodePoolTaintsList extends cdktf.ComplexList {
+  public internalValue? : K8SNodePoolTaints[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): K8SNodePoolTaintsOutputReference {
+    return new K8SNodePoolTaintsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface K8SNodePool {
   /**
   * Cores per worker node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#cores K8S#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#cores K8S#cores}
   */
   readonly cores: number;
   /**
   * Memory per worker node (in GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#memory K8S#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#memory K8S#memory}
   */
   readonly memory: number;
   /**
   * Name of node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#name K8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#name K8S#name}
   */
   readonly name: string;
   /**
   * Number of worker nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#node_count K8S#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#node_count K8S#node_count}
   */
   readonly nodeCount: number;
   /**
   * Rocket storage per worker node (in GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#rocket_storage K8S#rocket_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#rocket_storage K8S#rocket_storage}
   */
   readonly rocketStorage?: number;
   /**
   * Storage per worker node (in GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#storage K8S#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#storage K8S#storage}
   */
   readonly storage: number;
   /**
   * Storage type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#storage_type K8S#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#storage_type K8S#storage_type}
   */
   readonly storageType: string;
+  /**
+  * labels block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#labels K8S#labels}
+  */
+  readonly labels?: K8SNodePoolLabels[] | cdktf.IResolvable;
+  /**
+  * taints block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#taints K8S#taints}
+  */
+  readonly taints?: K8SNodePoolTaints[] | cdktf.IResolvable;
 }
 
 export function k8SNodePoolToTerraform(struct?: K8SNodePool | cdktf.IResolvable): any {
@@ -333,6 +671,8 @@ export function k8SNodePoolToTerraform(struct?: K8SNodePool | cdktf.IResolvable)
     rocket_storage: cdktf.numberToTerraform(struct!.rocketStorage),
     storage: cdktf.numberToTerraform(struct!.storage),
     storage_type: cdktf.stringToTerraform(struct!.storageType),
+    labels: cdktf.listMapper(k8SNodePoolLabelsToTerraform, true)(struct!.labels),
+    taints: cdktf.listMapper(k8SNodePoolTaintsToTerraform, true)(struct!.taints),
   }
 }
 
@@ -384,6 +724,18 @@ export function k8SNodePoolToHclTerraform(struct?: K8SNodePool | cdktf.IResolvab
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    labels: {
+      value: cdktf.listMapperHcl(k8SNodePoolLabelsToHclTerraform, true)(struct!.labels),
+      isBlock: true,
+      type: "list",
+      storageClassType: "K8SNodePoolLabelsList",
+    },
+    taints: {
+      value: cdktf.listMapperHcl(k8SNodePoolTaintsToHclTerraform, true)(struct!.taints),
+      isBlock: true,
+      type: "list",
+      storageClassType: "K8SNodePoolTaintsList",
     },
   };
 
@@ -439,6 +791,14 @@ export class K8SNodePoolOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.storageType = this._storageType;
     }
+    if (this._labels?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels?.internalValue;
+    }
+    if (this._taints?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taints = this._taints?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -453,6 +813,8 @@ export class K8SNodePoolOutputReference extends cdktf.ComplexObject {
       this._rocketStorage = undefined;
       this._storage = undefined;
       this._storageType = undefined;
+      this._labels.internalValue = undefined;
+      this._taints.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -468,6 +830,8 @@ export class K8SNodePoolOutputReference extends cdktf.ComplexObject {
       this._rocketStorage = value.rocketStorage;
       this._storage = value.storage;
       this._storageType = value.storageType;
+      this._labels.internalValue = value.labels;
+      this._taints.internalValue = value.taints;
     }
   }
 
@@ -564,6 +928,38 @@ export class K8SNodePoolOutputReference extends cdktf.ComplexObject {
   public get storageTypeInput() {
     return this._storageType;
   }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels = new K8SNodePoolLabelsList(this, "labels", false);
+  public get labels() {
+    return this._labels;
+  }
+  public putLabels(value: K8SNodePoolLabels[] | cdktf.IResolvable) {
+    this._labels.internalValue = value;
+  }
+  public resetLabels() {
+    this._labels.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels.internalValue;
+  }
+
+  // taints - computed: false, optional: true, required: false
+  private _taints = new K8SNodePoolTaintsList(this, "taints", false);
+  public get taints() {
+    return this._taints;
+  }
+  public putTaints(value: K8SNodePoolTaints[] | cdktf.IResolvable) {
+    this._taints.internalValue = value;
+  }
+  public resetTaints() {
+    this._taints.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taintsInput() {
+    return this._taints.internalValue;
+  }
 }
 
 export class K8SNodePoolList extends cdktf.ComplexList {
@@ -587,15 +983,15 @@ export class K8SNodePoolList extends cdktf.ComplexList {
 }
 export interface K8STimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#create K8S#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#create K8S#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#delete K8S#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#delete K8S#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#update K8S#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#update K8S#update}
   */
   readonly update?: string;
 }
@@ -747,7 +1143,7 @@ export class K8STimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s gridscale_k8s}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s gridscale_k8s}
 */
 export class K8S extends cdktf.TerraformResource {
 
@@ -763,7 +1159,7 @@ export class K8S extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8S to import
-  * @param importFromId The id of the existing K8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -775,7 +1171,7 @@ export class K8S extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/k8s gridscale_k8s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/k8s gridscale_k8s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -786,8 +1182,8 @@ export class K8S extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_k8s',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

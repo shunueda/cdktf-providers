@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface AligreenImageLibConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#biz_types AligreenImageLib#biz_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#biz_types AligreenImageLib#biz_types}
   */
   readonly bizTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#category AligreenImageLib#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#category AligreenImageLib#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#enable AligreenImageLib#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#enable AligreenImageLib#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#id AligreenImageLib#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#id AligreenImageLib#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#image_lib_name AligreenImageLib#image_lib_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#image_lib_name AligreenImageLib#image_lib_name}
   */
   readonly imageLibName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#scene AligreenImageLib#scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#scene AligreenImageLib#scene}
   */
   readonly scene: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#timeouts AligreenImageLib#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#timeouts AligreenImageLib#timeouts}
   */
   readonly timeouts?: AligreenImageLibTimeouts;
 }
 export interface AligreenImageLibTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#create AligreenImageLib#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#create AligreenImageLib#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#delete AligreenImageLib#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#delete AligreenImageLib#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#update AligreenImageLib#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#update AligreenImageLib#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class AligreenImageLibTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib alicloud_aligreen_image_lib}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib alicloud_aligreen_image_lib}
 */
 export class AligreenImageLib extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class AligreenImageLib extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AligreenImageLib resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AligreenImageLib to import
-  * @param importFromId The id of the existing AligreenImageLib that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AligreenImageLib that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AligreenImageLib to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class AligreenImageLib extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/aligreen_image_lib alicloud_aligreen_image_lib} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_image_lib alicloud_aligreen_image_lib} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class AligreenImageLib extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_aligreen_image_lib',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

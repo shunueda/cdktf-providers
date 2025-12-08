@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ImsOidcProviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#client_ids ImsOidcProvider#client_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#client_ids ImsOidcProvider#client_ids}
   */
   readonly clientIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#description ImsOidcProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#description ImsOidcProvider#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#fingerprints ImsOidcProvider#fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#fingerprints ImsOidcProvider#fingerprints}
   */
   readonly fingerprints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#id ImsOidcProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#id ImsOidcProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#issuance_limit_time ImsOidcProvider#issuance_limit_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#issuance_limit_time ImsOidcProvider#issuance_limit_time}
   */
   readonly issuanceLimitTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#issuer_url ImsOidcProvider#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#issuer_url ImsOidcProvider#issuer_url}
   */
   readonly issuerUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#oidc_provider_name ImsOidcProvider#oidc_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#oidc_provider_name ImsOidcProvider#oidc_provider_name}
   */
   readonly oidcProviderName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#timeouts ImsOidcProvider#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#timeouts ImsOidcProvider#timeouts}
   */
   readonly timeouts?: ImsOidcProviderTimeouts;
 }
 export interface ImsOidcProviderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#create ImsOidcProvider#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#create ImsOidcProvider#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#delete ImsOidcProvider#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#delete ImsOidcProvider#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#update ImsOidcProvider#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#update ImsOidcProvider#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class ImsOidcProviderTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider alicloud_ims_oidc_provider}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider alicloud_ims_oidc_provider}
 */
 export class ImsOidcProvider extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class ImsOidcProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImsOidcProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImsOidcProvider to import
-  * @param importFromId The id of the existing ImsOidcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImsOidcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImsOidcProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class ImsOidcProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ims_oidc_provider alicloud_ims_oidc_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ims_oidc_provider alicloud_ims_oidc_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class ImsOidcProvider extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ims_oidc_provider',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface AlbRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#direction AlbRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#direction AlbRule#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#dry_run AlbRule#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#dry_run AlbRule#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#id AlbRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#id AlbRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#listener_id AlbRule#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#listener_id AlbRule#listener_id}
   */
   readonly listenerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#priority AlbRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#priority AlbRule#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#rule_name AlbRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#rule_name AlbRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * rule_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#rule_actions AlbRule#rule_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#rule_actions AlbRule#rule_actions}
   */
   readonly ruleActions: AlbRuleRuleActions[] | cdktf.IResolvable;
   /**
   * rule_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#rule_conditions AlbRule#rule_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#rule_conditions AlbRule#rule_conditions}
   */
   readonly ruleConditions: AlbRuleRuleConditions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#timeouts AlbRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#timeouts AlbRule#timeouts}
   */
   readonly timeouts?: AlbRuleTimeouts;
 }
 export interface AlbRuleRuleActionsCorsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#allow_credentials AlbRule#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#allow_credentials AlbRule#allow_credentials}
   */
   readonly allowCredentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#allow_headers AlbRule#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#allow_headers AlbRule#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#allow_methods AlbRule#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#allow_methods AlbRule#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#allow_origin AlbRule#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#allow_origin AlbRule#allow_origin}
   */
   readonly allowOrigin?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#expose_headers AlbRule#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#expose_headers AlbRule#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#max_age AlbRule#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#max_age AlbRule#max_age}
   */
   readonly maxAge?: number;
 }
@@ -304,15 +304,15 @@ export class AlbRuleRuleActionsCorsConfigOutputReference extends cdktf.ComplexOb
 }
 export interface AlbRuleRuleActionsFixedResponseConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#content AlbRule#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#content AlbRule#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#content_type AlbRule#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#content_type AlbRule#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#http_code AlbRule#http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#http_code AlbRule#http_code}
   */
   readonly httpCode?: string;
 }
@@ -451,11 +451,11 @@ export class AlbRuleRuleActionsFixedResponseConfigOutputReference extends cdktf.
 }
 export interface AlbRuleRuleActionsForwardGroupConfigServerGroupStickySession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#enabled AlbRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#enabled AlbRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#timeout AlbRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#timeout AlbRule#timeout}
   */
   readonly timeout?: number;
 }
@@ -568,11 +568,11 @@ export class AlbRuleRuleActionsForwardGroupConfigServerGroupStickySessionOutputR
 }
 export interface AlbRuleRuleActionsForwardGroupConfigServerGroupTuples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#server_group_id AlbRule#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#server_group_id AlbRule#server_group_id}
   */
   readonly serverGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#weight AlbRule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#weight AlbRule#weight}
   */
   readonly weight?: number;
 }
@@ -719,13 +719,13 @@ export interface AlbRuleRuleActionsForwardGroupConfig {
   /**
   * server_group_sticky_session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#server_group_sticky_session AlbRule#server_group_sticky_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#server_group_sticky_session AlbRule#server_group_sticky_session}
   */
   readonly serverGroupStickySession?: AlbRuleRuleActionsForwardGroupConfigServerGroupStickySession;
   /**
   * server_group_tuples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#server_group_tuples AlbRule#server_group_tuples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#server_group_tuples AlbRule#server_group_tuples}
   */
   readonly serverGroupTuples?: AlbRuleRuleActionsForwardGroupConfigServerGroupTuples[] | cdktf.IResolvable;
 }
@@ -838,15 +838,15 @@ export class AlbRuleRuleActionsForwardGroupConfigOutputReference extends cdktf.C
 }
 export interface AlbRuleRuleActionsInsertHeaderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#key AlbRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#key AlbRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#value AlbRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#value AlbRule#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#value_type AlbRule#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#value_type AlbRule#value_type}
   */
   readonly valueType?: string;
 }
@@ -988,27 +988,27 @@ export class AlbRuleRuleActionsInsertHeaderConfigOutputReference extends cdktf.C
 }
 export interface AlbRuleRuleActionsRedirectConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#host AlbRule#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#host AlbRule#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#http_code AlbRule#http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#http_code AlbRule#http_code}
   */
   readonly httpCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#path AlbRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#path AlbRule#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#port AlbRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#port AlbRule#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#protocol AlbRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#protocol AlbRule#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#query AlbRule#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#query AlbRule#query}
   */
   readonly query?: string;
 }
@@ -1237,7 +1237,7 @@ export class AlbRuleRuleActionsRedirectConfigOutputReference extends cdktf.Compl
 }
 export interface AlbRuleRuleActionsRemoveHeaderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#key AlbRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#key AlbRule#key}
   */
   readonly key?: string;
 }
@@ -1321,15 +1321,15 @@ export class AlbRuleRuleActionsRemoveHeaderConfigOutputReference extends cdktf.C
 }
 export interface AlbRuleRuleActionsRewriteConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#host AlbRule#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#host AlbRule#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#path AlbRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#path AlbRule#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#query AlbRule#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#query AlbRule#query}
   */
   readonly query?: string;
 }
@@ -1471,11 +1471,11 @@ export class AlbRuleRuleActionsRewriteConfigOutputReference extends cdktf.Comple
 }
 export interface AlbRuleRuleActionsTrafficLimitConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#per_ip_qps AlbRule#per_ip_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#per_ip_qps AlbRule#per_ip_qps}
   */
   readonly perIpQps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#qps AlbRule#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#qps AlbRule#qps}
   */
   readonly qps?: number;
 }
@@ -1588,7 +1588,7 @@ export class AlbRuleRuleActionsTrafficLimitConfigOutputReference extends cdktf.C
 }
 export interface AlbRuleRuleActionsTrafficMirrorConfigMirrorGroupConfigServerGroupTuples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#server_group_id AlbRule#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#server_group_id AlbRule#server_group_id}
   */
   readonly serverGroupId?: string;
 }
@@ -1706,7 +1706,7 @@ export interface AlbRuleRuleActionsTrafficMirrorConfigMirrorGroupConfig {
   /**
   * server_group_tuples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#server_group_tuples AlbRule#server_group_tuples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#server_group_tuples AlbRule#server_group_tuples}
   */
   readonly serverGroupTuples?: AlbRuleRuleActionsTrafficMirrorConfigMirrorGroupConfigServerGroupTuples[] | cdktf.IResolvable;
 }
@@ -1790,13 +1790,13 @@ export class AlbRuleRuleActionsTrafficMirrorConfigMirrorGroupConfigOutputReferen
 }
 export interface AlbRuleRuleActionsTrafficMirrorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#target_type AlbRule#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#target_type AlbRule#target_type}
   */
   readonly targetType?: string;
   /**
   * mirror_group_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#mirror_group_config AlbRule#mirror_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#mirror_group_config AlbRule#mirror_group_config}
   */
   readonly mirrorGroupConfig?: AlbRuleRuleActionsTrafficMirrorConfigMirrorGroupConfig;
 }
@@ -1909,65 +1909,65 @@ export class AlbRuleRuleActionsTrafficMirrorConfigOutputReference extends cdktf.
 }
 export interface AlbRuleRuleActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#order AlbRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#order AlbRule#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#type AlbRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#type AlbRule#type}
   */
   readonly type: string;
   /**
   * cors_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#cors_config AlbRule#cors_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#cors_config AlbRule#cors_config}
   */
   readonly corsConfig?: AlbRuleRuleActionsCorsConfig;
   /**
   * fixed_response_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#fixed_response_config AlbRule#fixed_response_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#fixed_response_config AlbRule#fixed_response_config}
   */
   readonly fixedResponseConfig?: AlbRuleRuleActionsFixedResponseConfig;
   /**
   * forward_group_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#forward_group_config AlbRule#forward_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#forward_group_config AlbRule#forward_group_config}
   */
   readonly forwardGroupConfig?: AlbRuleRuleActionsForwardGroupConfig;
   /**
   * insert_header_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#insert_header_config AlbRule#insert_header_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#insert_header_config AlbRule#insert_header_config}
   */
   readonly insertHeaderConfig?: AlbRuleRuleActionsInsertHeaderConfig;
   /**
   * redirect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#redirect_config AlbRule#redirect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#redirect_config AlbRule#redirect_config}
   */
   readonly redirectConfig?: AlbRuleRuleActionsRedirectConfig;
   /**
   * remove_header_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#remove_header_config AlbRule#remove_header_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#remove_header_config AlbRule#remove_header_config}
   */
   readonly removeHeaderConfig?: AlbRuleRuleActionsRemoveHeaderConfig;
   /**
   * rewrite_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#rewrite_config AlbRule#rewrite_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#rewrite_config AlbRule#rewrite_config}
   */
   readonly rewriteConfig?: AlbRuleRuleActionsRewriteConfig;
   /**
   * traffic_limit_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#traffic_limit_config AlbRule#traffic_limit_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#traffic_limit_config AlbRule#traffic_limit_config}
   */
   readonly trafficLimitConfig?: AlbRuleRuleActionsTrafficLimitConfig;
   /**
   * traffic_mirror_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#traffic_mirror_config AlbRule#traffic_mirror_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#traffic_mirror_config AlbRule#traffic_mirror_config}
   */
   readonly trafficMirrorConfig?: AlbRuleRuleActionsTrafficMirrorConfig;
 }
@@ -2367,11 +2367,11 @@ export class AlbRuleRuleActionsList extends cdktf.ComplexList {
 }
 export interface AlbRuleRuleConditionsCookieConfigValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#key AlbRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#key AlbRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#value AlbRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#value AlbRule#value}
   */
   readonly value?: string;
 }
@@ -2518,7 +2518,7 @@ export interface AlbRuleRuleConditionsCookieConfig {
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: AlbRuleRuleConditionsCookieConfigValues[] | cdktf.IResolvable;
 }
@@ -2602,11 +2602,11 @@ export class AlbRuleRuleConditionsCookieConfigOutputReference extends cdktf.Comp
 }
 export interface AlbRuleRuleConditionsHeaderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#key AlbRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#key AlbRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: string[];
 }
@@ -2719,7 +2719,7 @@ export class AlbRuleRuleConditionsHeaderConfigOutputReference extends cdktf.Comp
 }
 export interface AlbRuleRuleConditionsHostConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: string[];
 }
@@ -2803,7 +2803,7 @@ export class AlbRuleRuleConditionsHostConfigOutputReference extends cdktf.Comple
 }
 export interface AlbRuleRuleConditionsMethodConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: string[];
 }
@@ -2887,7 +2887,7 @@ export class AlbRuleRuleConditionsMethodConfigOutputReference extends cdktf.Comp
 }
 export interface AlbRuleRuleConditionsPathConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: string[];
 }
@@ -2971,11 +2971,11 @@ export class AlbRuleRuleConditionsPathConfigOutputReference extends cdktf.Comple
 }
 export interface AlbRuleRuleConditionsQueryStringConfigValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#key AlbRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#key AlbRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#value AlbRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#value AlbRule#value}
   */
   readonly value?: string;
 }
@@ -3122,7 +3122,7 @@ export interface AlbRuleRuleConditionsQueryStringConfig {
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: AlbRuleRuleConditionsQueryStringConfigValues[] | cdktf.IResolvable;
 }
@@ -3206,11 +3206,11 @@ export class AlbRuleRuleConditionsQueryStringConfigOutputReference extends cdktf
 }
 export interface AlbRuleRuleConditionsResponseHeaderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#key AlbRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#key AlbRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: string[];
 }
@@ -3323,7 +3323,7 @@ export class AlbRuleRuleConditionsResponseHeaderConfigOutputReference extends cd
 }
 export interface AlbRuleRuleConditionsResponseStatusCodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: string[];
 }
@@ -3407,7 +3407,7 @@ export class AlbRuleRuleConditionsResponseStatusCodeConfigOutputReference extend
 }
 export interface AlbRuleRuleConditionsSourceIpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#values AlbRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#values AlbRule#values}
   */
   readonly values?: string[];
 }
@@ -3491,61 +3491,61 @@ export class AlbRuleRuleConditionsSourceIpConfigOutputReference extends cdktf.Co
 }
 export interface AlbRuleRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#type AlbRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#type AlbRule#type}
   */
   readonly type: string;
   /**
   * cookie_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#cookie_config AlbRule#cookie_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#cookie_config AlbRule#cookie_config}
   */
   readonly cookieConfig?: AlbRuleRuleConditionsCookieConfig;
   /**
   * header_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#header_config AlbRule#header_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#header_config AlbRule#header_config}
   */
   readonly headerConfig?: AlbRuleRuleConditionsHeaderConfig;
   /**
   * host_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#host_config AlbRule#host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#host_config AlbRule#host_config}
   */
   readonly hostConfig?: AlbRuleRuleConditionsHostConfig;
   /**
   * method_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#method_config AlbRule#method_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#method_config AlbRule#method_config}
   */
   readonly methodConfig?: AlbRuleRuleConditionsMethodConfig;
   /**
   * path_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#path_config AlbRule#path_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#path_config AlbRule#path_config}
   */
   readonly pathConfig?: AlbRuleRuleConditionsPathConfig;
   /**
   * query_string_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#query_string_config AlbRule#query_string_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#query_string_config AlbRule#query_string_config}
   */
   readonly queryStringConfig?: AlbRuleRuleConditionsQueryStringConfig;
   /**
   * response_header_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#response_header_config AlbRule#response_header_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#response_header_config AlbRule#response_header_config}
   */
   readonly responseHeaderConfig?: AlbRuleRuleConditionsResponseHeaderConfig;
   /**
   * response_status_code_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#response_status_code_config AlbRule#response_status_code_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#response_status_code_config AlbRule#response_status_code_config}
   */
   readonly responseStatusCodeConfig?: AlbRuleRuleConditionsResponseStatusCodeConfig;
   /**
   * source_ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#source_ip_config AlbRule#source_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#source_ip_config AlbRule#source_ip_config}
   */
   readonly sourceIpConfig?: AlbRuleRuleConditionsSourceIpConfig;
 }
@@ -3919,15 +3919,15 @@ export class AlbRuleRuleConditionsList extends cdktf.ComplexList {
 }
 export interface AlbRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#create AlbRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#create AlbRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#delete AlbRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#delete AlbRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#update AlbRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#update AlbRule#update}
   */
   readonly update?: string;
 }
@@ -4079,7 +4079,7 @@ export class AlbRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule alicloud_alb_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule alicloud_alb_rule}
 */
 export class AlbRule extends cdktf.TerraformResource {
 
@@ -4095,7 +4095,7 @@ export class AlbRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbRule to import
-  * @param importFromId The id of the existing AlbRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4107,7 +4107,7 @@ export class AlbRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_rule alicloud_alb_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_rule alicloud_alb_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4118,8 +4118,8 @@ export class AlbRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alb_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

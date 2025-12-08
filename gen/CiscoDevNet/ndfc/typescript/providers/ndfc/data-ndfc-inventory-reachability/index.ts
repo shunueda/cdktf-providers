@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataNdfcInventoryReachabilityConfig extends cdktf.TerraformMeta
   /**
   * The authentication protocol to use for the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#auth_protocol DataNdfcInventoryReachability#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#auth_protocol DataNdfcInventoryReachability#auth_protocol}
   */
   readonly authProtocol: string;
   /**
   * The name of the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#fabric_name DataNdfcInventoryReachability#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#fabric_name DataNdfcInventoryReachability#fabric_name}
   */
   readonly fabricName: string;
   /**
   * The maximum number of hops to use during the discovery of devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#max_hops DataNdfcInventoryReachability#max_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#max_hops DataNdfcInventoryReachability#max_hops}
   */
   readonly maxHops: number;
   /**
   * The password to use for the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#password DataNdfcInventoryReachability#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#password DataNdfcInventoryReachability#password}
   */
   readonly password: string;
   /**
   * Preserve the configuration of the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#preserve_config DataNdfcInventoryReachability#preserve_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#preserve_config DataNdfcInventoryReachability#preserve_config}
   */
   readonly preserveConfig: boolean | cdktf.IResolvable;
   /**
   * The seed IP address to use for the discovery devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#seed_ip DataNdfcInventoryReachability#seed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#seed_ip DataNdfcInventoryReachability#seed_ip}
   */
   readonly seedIp: string;
   /**
   * Set and use discovery credentials for LAN devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#set_as_individual_device_write_credential DataNdfcInventoryReachability#set_as_individual_device_write_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#set_as_individual_device_write_credential DataNdfcInventoryReachability#set_as_individual_device_write_credential}
   */
   readonly setAsIndividualDeviceWriteCredential: boolean | cdktf.IResolvable;
   /**
   * The username to use for the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#username DataNdfcInventoryReachability#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#username DataNdfcInventoryReachability#username}
   */
   readonly username: string;
 }
@@ -203,7 +203,7 @@ export class DataNdfcInventoryReachabilityReachabilityDetailsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability ndfc_inventory_reachability}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability ndfc_inventory_reachability}
 */
 export class DataNdfcInventoryReachability extends cdktf.TerraformDataSource {
 
@@ -219,7 +219,7 @@ export class DataNdfcInventoryReachability extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNdfcInventoryReachability resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNdfcInventoryReachability to import
-  * @param importFromId The id of the existing DataNdfcInventoryReachability that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNdfcInventoryReachability that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNdfcInventoryReachability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DataNdfcInventoryReachability extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/data-sources/inventory_reachability ndfc_inventory_reachability} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/data-sources/inventory_reachability ndfc_inventory_reachability} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DataNdfcInventoryReachability extends cdktf.TerraformDataSource {
       terraformResourceType: 'ndfc_inventory_reachability',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

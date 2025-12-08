@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface CloudSsoDirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#directory_global_access_status CloudSsoDirectory#directory_global_access_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#directory_global_access_status CloudSsoDirectory#directory_global_access_status}
   */
   readonly directoryGlobalAccessStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#directory_name CloudSsoDirectory#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#directory_name CloudSsoDirectory#directory_name}
   */
   readonly directoryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#id CloudSsoDirectory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#id CloudSsoDirectory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#mfa_authentication_status CloudSsoDirectory#mfa_authentication_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#mfa_authentication_status CloudSsoDirectory#mfa_authentication_status}
   */
   readonly mfaAuthenticationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#scim_synchronization_status CloudSsoDirectory#scim_synchronization_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#scim_synchronization_status CloudSsoDirectory#scim_synchronization_status}
   */
   readonly scimSynchronizationStatus?: string;
   /**
   * login_preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#login_preference CloudSsoDirectory#login_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#login_preference CloudSsoDirectory#login_preference}
   */
   readonly loginPreference?: CloudSsoDirectoryLoginPreference;
   /**
   * mfa_authentication_setting_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#mfa_authentication_setting_info CloudSsoDirectory#mfa_authentication_setting_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#mfa_authentication_setting_info CloudSsoDirectory#mfa_authentication_setting_info}
   */
   readonly mfaAuthenticationSettingInfo?: CloudSsoDirectoryMfaAuthenticationSettingInfo;
   /**
   * password_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#password_policy CloudSsoDirectory#password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#password_policy CloudSsoDirectory#password_policy}
   */
   readonly passwordPolicy?: CloudSsoDirectoryPasswordPolicy;
   /**
   * saml_identity_provider_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#saml_identity_provider_configuration CloudSsoDirectory#saml_identity_provider_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#saml_identity_provider_configuration CloudSsoDirectory#saml_identity_provider_configuration}
   */
   readonly samlIdentityProviderConfiguration?: CloudSsoDirectorySamlIdentityProviderConfiguration;
   /**
   * saml_service_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#saml_service_provider CloudSsoDirectory#saml_service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#saml_service_provider CloudSsoDirectory#saml_service_provider}
   */
   readonly samlServiceProvider?: CloudSsoDirectorySamlServiceProvider;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#timeouts CloudSsoDirectory#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#timeouts CloudSsoDirectory#timeouts}
   */
   readonly timeouts?: CloudSsoDirectoryTimeouts;
   /**
   * user_provisioning_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#user_provisioning_configuration CloudSsoDirectory#user_provisioning_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#user_provisioning_configuration CloudSsoDirectory#user_provisioning_configuration}
   */
   readonly userProvisioningConfiguration?: CloudSsoDirectoryUserProvisioningConfiguration;
 }
 export interface CloudSsoDirectoryLoginPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#allow_user_to_get_credentials CloudSsoDirectory#allow_user_to_get_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#allow_user_to_get_credentials CloudSsoDirectory#allow_user_to_get_credentials}
   */
   readonly allowUserToGetCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#login_network_masks CloudSsoDirectory#login_network_masks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#login_network_masks CloudSsoDirectory#login_network_masks}
   */
   readonly loginNetworkMasks?: string;
 }
@@ -192,11 +192,11 @@ export class CloudSsoDirectoryLoginPreferenceOutputReference extends cdktf.Compl
 }
 export interface CloudSsoDirectoryMfaAuthenticationSettingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#mfa_authentication_advance_settings CloudSsoDirectory#mfa_authentication_advance_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#mfa_authentication_advance_settings CloudSsoDirectory#mfa_authentication_advance_settings}
   */
   readonly mfaAuthenticationAdvanceSettings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#operation_for_risk_login CloudSsoDirectory#operation_for_risk_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#operation_for_risk_login CloudSsoDirectory#operation_for_risk_login}
   */
   readonly operationForRiskLogin?: string;
 }
@@ -309,27 +309,27 @@ export class CloudSsoDirectoryMfaAuthenticationSettingInfoOutputReference extend
 }
 export interface CloudSsoDirectoryPasswordPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#max_login_attempts CloudSsoDirectory#max_login_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#max_login_attempts CloudSsoDirectory#max_login_attempts}
   */
   readonly maxLoginAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#max_password_age CloudSsoDirectory#max_password_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#max_password_age CloudSsoDirectory#max_password_age}
   */
   readonly maxPasswordAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#min_password_different_chars CloudSsoDirectory#min_password_different_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#min_password_different_chars CloudSsoDirectory#min_password_different_chars}
   */
   readonly minPasswordDifferentChars?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#min_password_length CloudSsoDirectory#min_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#min_password_length CloudSsoDirectory#min_password_length}
   */
   readonly minPasswordLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#password_not_contain_username CloudSsoDirectory#password_not_contain_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#password_not_contain_username CloudSsoDirectory#password_not_contain_username}
   */
   readonly passwordNotContainUsername?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#password_reuse_prevention CloudSsoDirectory#password_reuse_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#password_reuse_prevention CloudSsoDirectory#password_reuse_prevention}
   */
   readonly passwordReusePrevention?: number;
 }
@@ -588,27 +588,27 @@ export class CloudSsoDirectoryPasswordPolicyOutputReference extends cdktf.Comple
 }
 export interface CloudSsoDirectorySamlIdentityProviderConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#binding_type CloudSsoDirectory#binding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#binding_type CloudSsoDirectory#binding_type}
   */
   readonly bindingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#encoded_metadata_document CloudSsoDirectory#encoded_metadata_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#encoded_metadata_document CloudSsoDirectory#encoded_metadata_document}
   */
   readonly encodedMetadataDocument?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#entity_id CloudSsoDirectory#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#entity_id CloudSsoDirectory#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#login_url CloudSsoDirectory#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#login_url CloudSsoDirectory#login_url}
   */
   readonly loginUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#sso_status CloudSsoDirectory#sso_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#sso_status CloudSsoDirectory#sso_status}
   */
   readonly ssoStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#want_request_signed CloudSsoDirectory#want_request_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#want_request_signed CloudSsoDirectory#want_request_signed}
   */
   readonly wantRequestSigned?: boolean | cdktf.IResolvable;
 }
@@ -852,15 +852,15 @@ export class CloudSsoDirectorySamlIdentityProviderConfigurationOutputReference e
 }
 export interface CloudSsoDirectorySamlServiceProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#authn_sign_algo CloudSsoDirectory#authn_sign_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#authn_sign_algo CloudSsoDirectory#authn_sign_algo}
   */
   readonly authnSignAlgo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#certificate_type CloudSsoDirectory#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#certificate_type CloudSsoDirectory#certificate_type}
   */
   readonly certificateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#support_encrypted_assertion CloudSsoDirectory#support_encrypted_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#support_encrypted_assertion CloudSsoDirectory#support_encrypted_assertion}
   */
   readonly supportEncryptedAssertion?: boolean | cdktf.IResolvable;
 }
@@ -1017,15 +1017,15 @@ export class CloudSsoDirectorySamlServiceProviderOutputReference extends cdktf.C
 }
 export interface CloudSsoDirectoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#create CloudSsoDirectory#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#create CloudSsoDirectory#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#delete CloudSsoDirectory#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#delete CloudSsoDirectory#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#update CloudSsoDirectory#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#update CloudSsoDirectory#update}
   */
   readonly update?: string;
 }
@@ -1177,11 +1177,11 @@ export class CloudSsoDirectoryTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 export interface CloudSsoDirectoryUserProvisioningConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#default_landing_page CloudSsoDirectory#default_landing_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#default_landing_page CloudSsoDirectory#default_landing_page}
   */
   readonly defaultLandingPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#session_duration CloudSsoDirectory#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#session_duration CloudSsoDirectory#session_duration}
   */
   readonly sessionDuration?: string;
 }
@@ -1294,7 +1294,7 @@ export class CloudSsoDirectoryUserProvisioningConfigurationOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory alicloud_cloud_sso_directory}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory alicloud_cloud_sso_directory}
 */
 export class CloudSsoDirectory extends cdktf.TerraformResource {
 
@@ -1310,7 +1310,7 @@ export class CloudSsoDirectory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudSsoDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudSsoDirectory to import
-  * @param importFromId The id of the existing CloudSsoDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudSsoDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudSsoDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1322,7 +1322,7 @@ export class CloudSsoDirectory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_directory alicloud_cloud_sso_directory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_directory alicloud_cloud_sso_directory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1333,8 +1333,8 @@ export class CloudSsoDirectory extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_sso_directory',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

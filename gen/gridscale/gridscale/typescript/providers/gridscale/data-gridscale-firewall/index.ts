@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/data-sources/firewall
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/data-sources/firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGridscaleFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/data-sources/firewall#id DataGridscaleFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/data-sources/firewall#id DataGridscaleFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataGridscaleFirewallConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/data-sources/firewall#resource_id DataGridscaleFirewall#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/data-sources/firewall#resource_id DataGridscaleFirewall#resource_id}
   */
   readonly resourceId: string;
 }
@@ -558,7 +558,7 @@ export class DataGridscaleFirewallRulesV6OutList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/data-sources/firewall gridscale_firewall}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/data-sources/firewall gridscale_firewall}
 */
 export class DataGridscaleFirewall extends cdktf.TerraformDataSource {
 
@@ -574,7 +574,7 @@ export class DataGridscaleFirewall extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGridscaleFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGridscaleFirewall to import
-  * @param importFromId The id of the existing DataGridscaleFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/data-sources/firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGridscaleFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/data-sources/firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGridscaleFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -586,7 +586,7 @@ export class DataGridscaleFirewall extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/data-sources/firewall gridscale_firewall} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/data-sources/firewall gridscale_firewall} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -597,8 +597,8 @@ export class DataGridscaleFirewall extends cdktf.TerraformDataSource {
       terraformResourceType: 'gridscale_firewall',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

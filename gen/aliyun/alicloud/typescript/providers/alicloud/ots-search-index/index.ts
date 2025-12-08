@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface OtsSearchIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#id OtsSearchIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#id OtsSearchIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#index_name OtsSearchIndex#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#index_name OtsSearchIndex#index_name}
   */
   readonly indexName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#instance_name OtsSearchIndex#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#instance_name OtsSearchIndex#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#table_name OtsSearchIndex#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#table_name OtsSearchIndex#table_name}
   */
   readonly tableName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#time_to_live OtsSearchIndex#time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#time_to_live OtsSearchIndex#time_to_live}
   */
   readonly timeToLive?: number;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#schema OtsSearchIndex#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#schema OtsSearchIndex#schema}
   */
   readonly schema: OtsSearchIndexSchema[] | cdktf.IResolvable;
 }
 export interface OtsSearchIndexSchemaFieldSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#analyzer OtsSearchIndex#analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#analyzer OtsSearchIndex#analyzer}
   */
   readonly analyzer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#enable_sort_and_agg OtsSearchIndex#enable_sort_and_agg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#enable_sort_and_agg OtsSearchIndex#enable_sort_and_agg}
   */
   readonly enableSortAndAgg?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#field_name OtsSearchIndex#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#field_name OtsSearchIndex#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#field_type OtsSearchIndex#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#field_type OtsSearchIndex#field_type}
   */
   readonly fieldType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#index OtsSearchIndex#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#index OtsSearchIndex#index}
   */
   readonly index?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#is_array OtsSearchIndex#is_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#is_array OtsSearchIndex#is_array}
   */
   readonly isArray?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#store OtsSearchIndex#store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#store OtsSearchIndex#store}
   */
   readonly store?: boolean | cdktf.IResolvable;
 }
@@ -347,7 +347,7 @@ export class OtsSearchIndexSchemaFieldSchemaList extends cdktf.ComplexList {
 }
 export interface OtsSearchIndexSchemaIndexSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#routing_fields OtsSearchIndex#routing_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#routing_fields OtsSearchIndex#routing_fields}
   */
   readonly routingFields?: string[];
 }
@@ -463,19 +463,19 @@ export class OtsSearchIndexSchemaIndexSettingList extends cdktf.ComplexList {
 }
 export interface OtsSearchIndexSchemaIndexSortSorter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#field_name OtsSearchIndex#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#field_name OtsSearchIndex#field_name}
   */
   readonly fieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#mode OtsSearchIndex#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#mode OtsSearchIndex#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#order OtsSearchIndex#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#order OtsSearchIndex#order}
   */
   readonly order?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#sorter_type OtsSearchIndex#sorter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#sorter_type OtsSearchIndex#sorter_type}
   */
   readonly sorterType?: string;
 }
@@ -680,7 +680,7 @@ export interface OtsSearchIndexSchemaIndexSort {
   /**
   * sorter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#sorter OtsSearchIndex#sorter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#sorter OtsSearchIndex#sorter}
   */
   readonly sorter: OtsSearchIndexSchemaIndexSortSorter[] | cdktf.IResolvable;
 }
@@ -795,19 +795,19 @@ export interface OtsSearchIndexSchema {
   /**
   * field_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#field_schema OtsSearchIndex#field_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#field_schema OtsSearchIndex#field_schema}
   */
   readonly fieldSchema: OtsSearchIndexSchemaFieldSchema[] | cdktf.IResolvable;
   /**
   * index_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#index_setting OtsSearchIndex#index_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#index_setting OtsSearchIndex#index_setting}
   */
   readonly indexSetting?: OtsSearchIndexSchemaIndexSetting[] | cdktf.IResolvable;
   /**
   * index_sort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#index_sort OtsSearchIndex#index_sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#index_sort OtsSearchIndex#index_sort}
   */
   readonly indexSort?: OtsSearchIndexSchemaIndexSort[] | cdktf.IResolvable;
 }
@@ -978,7 +978,7 @@ export class OtsSearchIndexSchemaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index alicloud_ots_search_index}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index alicloud_ots_search_index}
 */
 export class OtsSearchIndex extends cdktf.TerraformResource {
 
@@ -994,7 +994,7 @@ export class OtsSearchIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OtsSearchIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OtsSearchIndex to import
-  * @param importFromId The id of the existing OtsSearchIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OtsSearchIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OtsSearchIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1006,7 +1006,7 @@ export class OtsSearchIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ots_search_index alicloud_ots_search_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ots_search_index alicloud_ots_search_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1017,8 +1017,8 @@ export class OtsSearchIndex extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ots_search_index',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface InterfacePortchannelConfig extends cdktf.TerraformMetaArguments
   /**
   * Deploy the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#deploy InterfacePortchannel#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#deploy InterfacePortchannel#deploy}
   */
   readonly deploy?: boolean | cdktf.IResolvable;
   /**
   * interfaces to configure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#interfaces InterfacePortchannel#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#interfaces InterfacePortchannel#interfaces}
   */
   readonly interfaces: { [key: string]: InterfacePortchannelInterfaces } | cdktf.IResolvable;
   /**
@@ -30,13 +30,13 @@ export interface InterfacePortchannelConfig extends cdktf.TerraformMetaArguments
   *     * `int_monitor_port_channel`"
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#policy InterfacePortchannel#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#policy InterfacePortchannel#policy}
   */
   readonly policy?: string;
   /**
   * Serial number of switch to configure. This field cannot be specified if `serial_number` inside `interfaces` block is specified`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#serial_number InterfacePortchannel#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#serial_number InterfacePortchannel#serial_number}
   */
   readonly serialNumber?: string;
 }
@@ -44,109 +44,109 @@ export interface InterfacePortchannelInterfaces {
   /**
   * Enable or disable the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#admin_state InterfacePortchannel#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#admin_state InterfacePortchannel#admin_state}
   */
   readonly adminState?: boolean | cdktf.IResolvable;
   /**
   * Allowed vlans for the ethernet interface. Allowed values are `none`, `all` or VLAN ranges (1-200,500-2000,3000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#allowed_vlans InterfacePortchannel#allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#allowed_vlans InterfacePortchannel#allowed_vlans}
   */
   readonly allowedVlans?: string;
   /**
   * Enable spanning-tree bpduguard: true='enable', false='disable', no='return to default settings'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#bpdu_guard InterfacePortchannel#bpdu_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#bpdu_guard InterfacePortchannel#bpdu_guard}
   */
   readonly bpduGuard?: string;
   /**
   * Netflow is supported only if it is enabled on fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#copy_po_description InterfacePortchannel#copy_po_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#copy_po_description InterfacePortchannel#copy_po_description}
   */
   readonly copyPoDescription?: boolean | cdktf.IResolvable;
   /**
   * Additional CLI for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#freeform_config InterfacePortchannel#freeform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#freeform_config InterfacePortchannel#freeform_config}
   */
   readonly freeformConfig?: string;
   /**
   * Interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#interface_description InterfacePortchannel#interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#interface_description InterfacePortchannel#interface_description}
   */
   readonly interfaceDescription?: string;
   /**
   * Name of the Interface. Example: `port-channel1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#interface_name InterfacePortchannel#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#interface_name InterfacePortchannel#interface_name}
   */
   readonly interfaceName: string;
   /**
   * Member interfaces of the port channel. Allowed formats are "eth1/1-10" or "eth1/1,eth1/2,eth1/3"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#member_interfaces InterfacePortchannel#member_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#member_interfaces InterfacePortchannel#member_interfaces}
   */
   readonly memberInterfaces?: string;
   /**
   * MTU for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#mtu InterfacePortchannel#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#mtu InterfacePortchannel#mtu}
   */
   readonly mtu?: string;
   /**
   * Set native VLAN for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#native_vlan InterfacePortchannel#native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#native_vlan InterfacePortchannel#native_vlan}
   */
   readonly nativeVlan?: number;
   /**
   * Netflow is supported only if it is enabled on fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#netflow InterfacePortchannel#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#netflow InterfacePortchannel#netflow}
   */
   readonly netflow?: boolean | cdktf.IResolvable;
   /**
   * Provide the Layer 2 Monitor Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#netflow_monitor InterfacePortchannel#netflow_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#netflow_monitor InterfacePortchannel#netflow_monitor}
   */
   readonly netflowMonitor?: string;
   /**
   * Netflow sampler name, applicable to N7K only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#netflow_sampler InterfacePortchannel#netflow_sampler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#netflow_sampler InterfacePortchannel#netflow_sampler}
   */
   readonly netflowSampler?: string;
   /**
   * If enabled, configure the interface as a vPC orphan port to be suspended by the secondary peer in vPC failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#orphan_port InterfacePortchannel#orphan_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#orphan_port InterfacePortchannel#orphan_port}
   */
   readonly orphanPort?: boolean | cdktf.IResolvable;
   /**
   * Enable spanning-tree edge port behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#port_type_fast InterfacePortchannel#port_type_fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#port_type_fast InterfacePortchannel#port_type_fast}
   */
   readonly portTypeFast?: boolean | cdktf.IResolvable;
   /**
   * Port-channel mode. Allowed values are `on`, `active`, `passive`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#portchannel_mode InterfacePortchannel#portchannel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#portchannel_mode InterfacePortchannel#portchannel_mode}
   */
   readonly portchannelMode?: string;
   /**
   * Serial number of switch to configure. This field cannot be specified if `serial_number` is already mentioned outside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#serial_number InterfacePortchannel#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#serial_number InterfacePortchannel#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Interface speed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#speed InterfacePortchannel#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#speed InterfacePortchannel#speed}
   */
   readonly speed?: string;
 }
@@ -755,7 +755,7 @@ export class InterfacePortchannelInterfacesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel ndfc_interface_portchannel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel ndfc_interface_portchannel}
 */
 export class InterfacePortchannel extends cdktf.TerraformResource {
 
@@ -771,7 +771,7 @@ export class InterfacePortchannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacePortchannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacePortchannel to import
-  * @param importFromId The id of the existing InterfacePortchannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacePortchannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacePortchannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -783,7 +783,7 @@ export class InterfacePortchannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_portchannel ndfc_interface_portchannel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_portchannel ndfc_interface_portchannel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -794,8 +794,8 @@ export class InterfacePortchannel extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_interface_portchannel',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

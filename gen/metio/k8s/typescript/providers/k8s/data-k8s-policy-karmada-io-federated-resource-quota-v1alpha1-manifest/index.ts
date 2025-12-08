@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#metadata DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#metadata DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestMetadata;
   /**
   * Spec defines the desired quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#spec DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#spec DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#annotations DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#annotations DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#labels DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#labels DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#name DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#name DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestSpe
   /**
   * ClusterName is the name of the cluster the limits enforce to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#cluster_name DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#cluster_name DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Hard is the set of desired hard limits for each named resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#hard DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#hard DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#hard}
   */
   readonly hard: { [key: string]: string };
 }
@@ -366,13 +366,13 @@ export interface DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestSpe
   /**
   * Overall is the set of desired hard limits for each named resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#overall DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#overall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#overall DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#overall}
   */
   readonly overall: { [key: string]: string };
   /**
   * StaticAssignments represents the subset of desired hard limits for each cluster. Note: for clusters not present in this list, Karmada will set an empty ResourceQuota to them, which means these clusters will have no quotas in the referencing namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#static_assignments DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#static_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#static_assignments DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest#static_assignments}
   */
   readonly staticAssignments?: DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestSpecStaticAssignments[] | cdktf.IResolvable;
 }
@@ -492,7 +492,7 @@ export class DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest k8s_policy_karmada_io_federated_resource_quota_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest k8s_policy_karmada_io_federated_resource_quota_v1alpha1_manifest}
 */
 export class DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -508,7 +508,7 @@ export class DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -520,7 +520,7 @@ export class DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest k8s_policy_karmada_io_federated_resource_quota_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_federated_resource_quota_v1alpha1_manifest k8s_policy_karmada_io_federated_resource_quota_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -531,8 +531,8 @@ export class DataK8SPolicyKarmadaIoFederatedResourceQuotaV1Alpha1Manifest extend
       terraformResourceType: 'k8s_policy_karmada_io_federated_resource_quota_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

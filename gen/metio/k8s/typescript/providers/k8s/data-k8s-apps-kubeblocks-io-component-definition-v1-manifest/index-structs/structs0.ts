@@ -3,19 +3,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#annotations DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#annotations DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -166,19 +166,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecConfigs
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Defines the strategy for merging externally imported templates into component templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#template_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#template_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#template_ref}
   */
   readonly templateRef: string;
 }
@@ -329,73 +329,73 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecConfigs
   /**
   * Specifies the containers to inject the ConfigMap parameters as environment variables. This is useful when application images accept parameters through environment variables and generate the final configuration file in the startup script based on these variables. This field allows users to specify a list of container names, and KubeBlocks will inject the environment variables converted from the ConfigMap into these designated containers. This provides a flexible way to pass the configuration items from the ConfigMap to the container without modifying the image. Deprecated: 'asEnvFrom' has been deprecated since 0.9.0 and will be removed in 0.10.0. Use 'injectEnvTo' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#as_env_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#as_env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#as_env_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#as_env_from}
   */
   readonly asEnvFrom?: string[];
   /**
   * Whether to store the final rendered parameters as a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#as_secret DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#as_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#as_secret DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#as_secret}
   */
   readonly asSecret?: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of the referenced configuration constraints object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#constraint_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#constraint_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#constraint_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#constraint_ref}
   */
   readonly constraintRef?: string;
   /**
   * The operator attempts to set default file permissions for scripts (0555) and configurations (0444). However, certain database engines may require different file permissions. You can specify the desired file permissions here. Must be specified as an octal value between 0000 and 0777 (inclusive), or as a decimal value between 0 and 511 (inclusive). YAML supports both octal and decimal values for file permissions. Please note that this setting only affects the permissions of the files themselves. Directories within the specified path are not impacted by this setting. It's important to be aware that this setting might conflict with other options that influence the file mode, such as fsGroup. In such cases, the resulting file mode may have additional bits set. Refers to documents of k8s.ConfigMapVolumeSource.defaultMode for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#default_mode DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#default_mode DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Specifies the containers to inject the ConfigMap parameters as environment variables. This is useful when application images accept parameters through environment variables and generate the final configuration file in the startup script based on these variables. This field allows users to specify a list of container names, and KubeBlocks will inject the environment variables converted from the ConfigMap into these designated containers. This provides a flexible way to pass the configuration items from the ConfigMap to the container without modifying the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#inject_env_to DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#inject_env_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#inject_env_to DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#inject_env_to}
   */
   readonly injectEnvTo?: string[];
   /**
   * Specifies the configuration files within the ConfigMap that support dynamic updates. A configuration template (provided in the form of a ConfigMap) may contain templates for multiple configuration files. Each configuration file corresponds to a key in the ConfigMap. Some of these configuration files may support dynamic modification and reloading without requiring a pod restart. If empty or omitted, all configuration files in the ConfigMap are assumed to support dynamic updates, and ConfigConstraint applies to all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#keys}
   */
   readonly keys?: string[];
   /**
   * Specifies the secondary rendered config spec for pod-specific customization. The template is rendered inside the pod (by the 'config-manager' sidecar container) and merged with the main template's render result to generate the final configuration file. This field is intended to handle scenarios where different pods within the same Component have varying configurations. It allows for pod-specific customization of the configuration. Note: This field will be deprecated in future versions, and the functionality will be moved to 'cluster.spec.componentSpecs[*].instances[*]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#legacy_rendered_config_spec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#legacy_rendered_config_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#legacy_rendered_config_spec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#legacy_rendered_config_spec}
   */
   readonly legacyRenderedConfigSpec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecConfigsLegacyRenderedConfigSpec;
   /**
   * Specifies the name of the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies whether the configuration needs to be re-rendered after v-scale or h-scale operations to reflect changes. In some scenarios, the configuration may need to be updated to reflect the changes in resource allocation or cluster topology. Examples: - Redis: adjust maxmemory after v-scale operation. - MySQL: increase max connections after v-scale operation. - Zookeeper: update zoo.cfg with new node addresses after h-scale operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#re_render_resource_types DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#re_render_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#re_render_resource_types DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#re_render_resource_types}
   */
   readonly reRenderResourceTypes?: string[];
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#template_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#template_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#template_ref}
   */
   readonly templateRef?: string;
   /**
   * Refers to the volume name of PodTemplate. The configuration file produced through the configuration template will be mounted to the corresponding volume. Must be a DNS_LABEL name. The volume name must be defined in podSpec.containers[*].volumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#volume_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#volume_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -829,25 +829,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecExporte
   /**
   * Specifies the name of the built-in metrics exporter container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the http/https url path to scrape for metrics. If empty, Prometheus uses the default value (e.g. '/metrics').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#scrape_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#scrape_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#scrape_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#scrape_path}
   */
   readonly scrapePath?: string;
   /**
   * Specifies the port name to scrape for metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#scrape_port DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#scrape_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#scrape_port DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#scrape_port}
   */
   readonly scrapePort?: string;
   /**
   * Specifies the schema to use for scraping. 'http' and 'https' are the expected values unless you rewrite the '__scheme__' label via relabeling. If empty, Prometheus uses the default value 'http'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#scrape_scheme DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#scrape_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#scrape_scheme DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#scrape_scheme}
   */
   readonly scrapeScheme?: string;
 }
@@ -1030,13 +1030,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecHostNet
   /**
   * Container specifies the target container within the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container: string;
   /**
   * Ports are named container ports within the specified container. These container ports must be defined in the container for proper port allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#ports DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#ports DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#ports}
   */
   readonly ports: string[];
 }
@@ -1177,7 +1177,7 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecHostNet
   /**
   * The list of container ports that are required by the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_ports DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_ports DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_ports}
   */
   readonly containerPorts?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecHostNetworkContainerPorts[] | cdktf.IResolvable;
 }
@@ -1273,19 +1273,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1436,13 +1436,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1564,19 +1564,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1727,19 +1727,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1890,25 +1890,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionExecEnvValueFromSecretKeyRef;
 }
@@ -2091,19 +2091,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionExecEnvValueFrom;
 }
@@ -2276,43 +2276,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -2582,13 +2582,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -2713,25 +2713,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvisionRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2914,19 +2914,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3077,13 +3077,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -3205,19 +3205,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -3368,19 +3368,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3531,25 +3531,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpExecEnvValueFromSecretKeyRef;
 }
@@ -3732,19 +3732,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpExecEnvValueFrom;
 }
@@ -3917,43 +3917,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -4223,13 +4223,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -4354,25 +4354,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDumpRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4555,19 +4555,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4718,13 +4718,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4846,19 +4846,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5009,19 +5009,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5172,25 +5172,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadExecEnvValueFromSecretKeyRef;
 }
@@ -5373,19 +5373,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadExecEnvValueFrom;
 }
@@ -5558,43 +5558,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -5864,13 +5864,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -5995,25 +5995,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoadRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6196,19 +6196,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6359,13 +6359,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6487,19 +6487,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6650,19 +6650,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6813,25 +6813,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinExecEnvValueFromSecretKeyRef;
 }
@@ -7014,19 +7014,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinExecEnvValueFrom;
 }
@@ -7199,43 +7199,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -7505,13 +7505,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -7636,25 +7636,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoinRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -7837,19 +7837,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8000,13 +8000,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8128,19 +8128,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -8291,19 +8291,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8454,25 +8454,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveExecEnvValueFromSecretKeyRef;
 }
@@ -8655,19 +8655,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveExecEnvValueFrom;
 }
@@ -8840,43 +8840,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -9146,13 +9146,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -9277,25 +9277,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeaveRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9478,19 +9478,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9641,13 +9641,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9769,19 +9769,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9932,19 +9932,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10095,25 +10095,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionExecEnvValueFromSecretKeyRef;
 }
@@ -10296,19 +10296,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionExecEnvValueFrom;
 }
@@ -10481,43 +10481,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -10787,13 +10787,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -10918,25 +10918,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvisionRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11119,19 +11119,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11282,13 +11282,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -11410,19 +11410,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -11573,19 +11573,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11736,25 +11736,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateExecEnvValueFromSecretKeyRef;
 }
@@ -11937,19 +11937,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateExecEnvValueFrom;
 }
@@ -12122,43 +12122,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -12428,13 +12428,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -12559,25 +12559,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminateRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12760,19 +12760,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12923,13 +12923,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -13051,19 +13051,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -13214,19 +13214,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13377,25 +13377,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyExecEnvValueFromSecretKeyRef;
 }
@@ -13578,19 +13578,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyExecEnvValueFrom;
 }
@@ -13763,43 +13763,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -14069,13 +14069,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -14200,25 +14200,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonlyRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14401,19 +14401,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14564,13 +14564,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -14692,19 +14692,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -14855,19 +14855,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15018,25 +15018,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteExecEnvValueFromSecretKeyRef;
 }
@@ -15219,19 +15219,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteExecEnvValueFrom;
 }
@@ -15404,43 +15404,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -15710,13 +15710,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -15841,25 +15841,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwriteRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -16042,19 +16042,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16205,13 +16205,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -16333,19 +16333,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -16496,19 +16496,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16659,25 +16659,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureExecEnvValueFromSecretKeyRef;
 }
@@ -16860,19 +16860,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureExecEnvValueFrom;
 }
@@ -17045,43 +17045,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -17351,13 +17351,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -17482,25 +17482,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigureRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -17683,19 +17683,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17846,13 +17846,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -17974,19 +17974,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -18137,19 +18137,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18300,25 +18300,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeExecEnvValueFromSecretKeyRef;
 }
@@ -18501,19 +18501,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeExecEnvValueFrom;
 }
@@ -18686,43 +18686,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -18992,13 +18992,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -19123,49 +19123,49 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#failure_threshold DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#failure_threshold DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Specifies the number of seconds to wait after the container has started before the RoleProbe begins to detect the container's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#initial_delay_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#initial_delay_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * Specifies the frequency at which the probe is conducted. This value is expressed in seconds. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#period_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#period_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbeRetryPolicy;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#success_threshold DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#success_threshold DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -19464,19 +19464,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19627,13 +19627,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -19755,19 +19755,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -19918,19 +19918,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20081,25 +20081,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverExecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverExecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverExecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverExecEnvValueFromSecretKeyRef;
 }
@@ -20282,19 +20282,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverExecEnvValueFrom;
 }
@@ -20467,43 +20467,43 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Args represents the arguments that are passed to the 'command' for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#args DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Specifies the command to be executed inside the container. The working directory for this command is the container's root directory('/'). Commands are executed directly without a shell environment, meaning shell-specific syntax ('|', etc.) is not supported. If the shell is required, it must be explicitly invoked in the command. A successful execution is indicated by an exit status of 0; any non-zero status signifies a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * Specifies the name of the container within the same pod whose resources will be shared with the action. This allows the action to utilize the specified container's resources without executing within it. The name must match one of the containers defined in 'componentDefinition.spec.runtime'. The resources that can be shared are included: - volume mounts This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container}
   */
   readonly container?: string;
   /**
   * Represents a list of environment variables that will be injected into the container. These variables enable the container to adapt its behavior based on the environment it's running in. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#env DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#env}
   */
   readonly env?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverExecEnv[] | cdktf.IResolvable;
   /**
   * Specifies the container image to be used for running the Action. When specified, a dedicated container will be created using this image to execute the Action. All actions with same image will share the same container. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#image DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Used in conjunction with the 'targetPodSelector' field to refine the selection of target pod(s) for Action execution. The impact of this field depends on the 'targetPodSelector' value: - When 'targetPodSelector' is set to 'Any' or 'All', this field will be ignored. - When 'targetPodSelector' is set to 'Role', only those replicas whose role matches the 'matchingKey' will be selected for the Action. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#matching_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#matching_key}
   */
   readonly matchingKey?: string;
   /**
   * Defines the criteria used to select the target Pod(s) for executing the Action. This is useful when there is no default target replica identified. It allows for precise control over which Pod(s) the Action should run in. If not specified, the Action will be executed in the pod where the Action is triggered, such as the pod to be removed or added; or a random pod if the Action is triggered at the component level, such as post-provision or pre-terminate of the component. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#target_pod_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#target_pod_selector}
   */
   readonly targetPodSelector?: string;
 }
@@ -20773,13 +20773,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the maximum number of retry attempts that should be made for a given Action. This value is set to 0 by default, indicating that no retries will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_retries DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Indicates the duration of time to wait between each retry attempt. This value is set to 0 by default, indicating that there will be no delay between retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_interval DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_interval}
   */
   readonly retryInterval?: number;
 }
@@ -20904,25 +20904,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the command to run. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#exec DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#exec}
   */
   readonly exec?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverExec;
   /**
   * Specifies the state that the cluster must reach before the Action is executed. Currently, this is only applicable to the 'postProvision' action. The conditions are as follows: - 'Immediately': Executed right after the Component object is created. The readiness of the Component and its resources is not guaranteed at this stage. - 'RuntimeReady': The Action is triggered after the Component object has been created and all associated runtime resources (e.g. Pods) are in a ready state. - 'ComponentReady': The Action is triggered after the Component itself is in a ready state. This process does not affect the readiness state of the Component or the Cluster. - 'ClusterReady': The Action is executed after the Cluster is in a ready state. This execution does not alter the Component or the Cluster's state of readiness. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_condition DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * Defines the strategy to be taken when retrying the Action after a failure. It specifies the conditions under which the Action should be retried and the limits to apply, such as the maximum number of retries and backoff strategy. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#retry_policy DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchoverRetryPolicy;
   /**
   * Specifies the maximum duration in seconds that the Action is allowed to run. If the Action does not complete within this time frame, it will be terminated. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#timeout_seconds DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -21105,73 +21105,73 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecyc
   /**
   * Defines the procedure to generate a new database account. Use Case: This action is designed to create system accounts that are utilized for replication, monitoring, backup, and other administrative tasks. The container executing this action has access to following variables: - KB_ACCOUNT_NAME: The name of the system account to be created. - KB_ACCOUNT_PASSWORD: The password for the system account. // TODO: how to pass the password securely? - KB_ACCOUNT_STATEMENT: The statement used to create the system account. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#account_provision DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#account_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#account_provision DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#account_provision}
   */
   readonly accountProvision?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsAccountProvision;
   /**
   * Defines the procedure for exporting the data from a replica. Use Case: This action is intended for initializing a newly created replica with data. It involves exporting data from an existing replica and importing it into the new, empty replica. This is essential for synchronizing the state of replicas across the system. Applicability: Some database engines or associated sidecar applications (e.g., Patroni) may already provide this functionality. In such cases, this action may not be required. The output should be a valid data dump streamed to stdout. It must exclude any irrelevant information to ensure that only the necessary data is exported for import into the new replica. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#data_dump DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#data_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#data_dump DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#data_dump}
   */
   readonly dataDump?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataDump;
   /**
   * Defines the procedure for importing data into a replica. Use Case: This action is intended for initializing a newly created replica with data. It involves exporting data from an existing replica and importing it into the new, empty replica. This is essential for synchronizing the state of replicas across the system. Some database engines or associated sidecar applications (e.g., Patroni) may already provide this functionality. In such cases, this action may not be required. Data should be received through stdin. If any error occurs during the process, the action must be able to guarantee idempotence to allow for retries from the beginning. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#data_load DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#data_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#data_load DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#data_load}
   */
   readonly dataLoad?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsDataLoad;
   /**
   * Defines the procedure to add a new replica to the replication group. This action is initiated after a replica pod becomes ready. The role of the replica (e.g., primary, secondary) will be determined and assigned as part of the action command implementation, or automatically by the database kernel or a sidecar utility like Patroni that implements a consensus algorithm. The container executing this action has access to following variables: - KB_JOIN_MEMBER_POD_FQDN: The pod FQDN of the replica being added to the group. - KB_JOIN_MEMBER_POD_NAME: The pod name of the replica being added to the group. Expected action output: - On Failure: An error message detailing the reason for any failure encountered during the addition of the new member. For example, to add a new OBServer to an OceanBase Cluster in 'zone1', the following command may be used: ```yaml command: - bash - -c - | CLIENT='mysql -u $SERVICE_USER -p$SERVICE_PASSWORD -P $SERVICE_PORT -h $SERVICE_HOST -e' $CLIENT 'ALTER SYSTEM ADD SERVER '$KB_POD_FQDN:$SERVICE_PORT' ZONE 'zone1'' ``` Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#member_join DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#member_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#member_join DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#member_join}
   */
   readonly memberJoin?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberJoin;
   /**
   * Defines the procedure to remove a replica from the replication group. This action is initiated before remove a replica from the group. The operator will wait for MemberLeave to complete successfully before releasing the replica and cleaning up related Kubernetes resources. The process typically includes updating configurations and informing other group members about the removal. Data migration is generally not part of this action and should be handled separately if needed. The container executing this action has access to following variables: - KB_LEAVE_MEMBER_POD_FQDN: The pod name of the replica being removed from the group. - KB_LEAVE_MEMBER_POD_NAME: The pod name of the replica being removed from the group. Expected action output: - On Failure: An error message, if applicable, indicating why the action failed. For example, to remove an OBServer from an OceanBase Cluster in 'zone1', the following command can be executed: ```yaml command: - bash - -c - | CLIENT='mysql -u $SERVICE_USER -p$SERVICE_PASSWORD -P $SERVICE_PORT -h $SERVICE_HOST -e' $CLIENT 'ALTER SYSTEM DELETE SERVER '$KB_POD_FQDN:$SERVICE_PORT' ZONE 'zone1'' ``` Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#member_leave DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#member_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#member_leave DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#member_leave}
   */
   readonly memberLeave?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsMemberLeave;
   /**
   * Specifies the hook to be executed after a component's creation. By setting 'postProvision.customHandler.preCondition', you can determine the specific lifecycle stage at which the action should trigger: 'Immediately', 'RuntimeReady', 'ComponentReady', and 'ClusterReady'. with 'ComponentReady' being the default. The PostProvision Action is intended to run only once. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#post_provision DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#post_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#post_provision DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#post_provision}
   */
   readonly postProvision?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPostProvision;
   /**
   * Specifies the hook to be executed prior to terminating a component. The PreTerminate Action is intended to run only once. This action is executed immediately when a scale-down operation for the Component is initiated. The actual termination and cleanup of the Component and its associated resources will not proceed until the PreTerminate action has completed successfully. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_terminate DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_terminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pre_terminate DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pre_terminate}
   */
   readonly preTerminate?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsPreTerminate;
   /**
   * Defines the procedure to switch a replica into the read-only state. Use Case: This action is invoked when the database's volume capacity nears its upper limit and space is about to be exhausted. The container executing this action has access to following environment variables: - KB_POD_FQDN: The FQDN of the replica pod whose role is being checked. Expected action output: - On Failure: An error message, if applicable, indicating why the action failed. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#readonly DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#readonly DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#readonly}
   */
   readonly readonly?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadonly;
   /**
   * Defines the procedure to transition a replica from the read-only state back to the read-write state. Use Case: This action is used to bring back a replica that was previously in a read-only state, which restricted write operations, to its normal operational state where it can handle both read and write operations. The container executing this action has access to following environment variables: - KB_POD_FQDN: The FQDN of the replica pod whose role is being checked. Expected action output: - On Failure: An error message, if applicable, indicating why the action failed. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#readwrite DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#readwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#readwrite DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#readwrite}
   */
   readonly readwrite?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReadwrite;
   /**
   * Defines the procedure that update a replica with new configuration. Note: This field is immutable once it has been set. This Action is reserved for future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#reconfigure DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#reconfigure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#reconfigure DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#reconfigure}
   */
   readonly reconfigure?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsReconfigure;
   /**
   * Defines the procedure which is invoked regularly to assess the role of replicas. This action is periodically triggered at the specified interval to determine the role of each replica. Upon successful execution, the action's output designates the role of the replica, which should match one of the predefined role names within 'componentDefinition.spec.roles'. The output is then compared with the previous successful execution result. If a role change is detected, an event is generated to inform the controller, which initiates an update of the replica's role. Defining a RoleProbe Action for a Component is required if roles are defined for the Component. It ensures replicas are correctly labeled with their respective roles. Without this, services that rely on roleSelectors might improperly direct traffic to wrong replicas. The container executing this action has access to following variables: - KB_POD_FQDN: The FQDN of the Pod whose role is being assessed. Expected output of this action: - On Success: The determined role of the replica, which must align with one of the roles specified in the component definition. - On Failure: An error message, if applicable, indicating why the action failed. Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#role_probe DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#role_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#role_probe DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#role_probe}
   */
   readonly roleProbe?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsRoleProbe;
   /**
   * Defines the procedure for a controlled transition of leadership from the current leader to a new replica. This approach aims to minimize downtime and maintain availability in systems with a leader-follower topology, during events such as planned maintenance or when performing stop, shutdown, restart, or upgrade operations involving the current leader node. The container executing this action has access to following variables: - KB_SWITCHOVER_CANDIDATE_NAME: The name of the pod for the new leader candidate, which may not be specified (empty). - KB_SWITCHOVER_CANDIDATE_FQDN: The FQDN of the new leader candidate's pod, which may not be specified (empty). Note: This field is immutable once it has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#switchover DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#switchover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#switchover DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#switchover}
   */
   readonly switchover?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLifecycleActionsSwitchover;
 }
@@ -21586,13 +21586,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecLogConf
   /**
   * Specifies the paths or patterns identifying where the log files are stored. This field allows the system to locate and manage log files effectively. Examples: - /home/postgres/pgdata/pgroot/data/log/postgresql-* - /data/mysql/log/mysqld-error.log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#file_path_pattern DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#file_path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#file_path_pattern DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#file_path_pattern}
   */
   readonly filePathPattern: string;
   /**
   * Specifies a descriptive label for the log type, such as 'slow' for a MySQL slow log file. It provides a clear identification of the log's purpose and content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -21733,31 +21733,31 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecPolicyR
   /**
   * APIGroups is the name of the APIGroup that contains the resources. If multiple API groups are specified, any action requested against one of the enumerated resources in any API group will be allowed. '' represents the core API group and '*' represents all API groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_groups DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_groups DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * NonResourceURLs is a set of partial urls that a user should have access to. *s are allowed, but only as the full, final step in the path Since non-resource URLs are not namespaced, this field is only applicable for ClusterRoles referenced from a ClusterRoleBinding. Rules can either apply to API resources (such as 'pods' or 'secrets') or non-resource URL paths (such as '/api'), but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#non_resource_urls DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#non_resource_urls DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
   * ResourceNames is an optional white list of names that the rule applies to. An empty set means that everything is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_names DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_names DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Resources is a list of resources this rule applies to. '*' represents all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resources DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resources DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Verbs is a list of Verbs that apply to ALL the ResourceKinds contained in this rule. '*' represents all verbs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#verbs DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#verbs DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#verbs}
   */
   readonly verbs: string[];
 }
@@ -21988,13 +21988,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecReplica
   /**
   * The maximum limit of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_replicas DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#max_replicas DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * The minimum limit of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#min_replicas DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#min_replicas DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#min_replicas}
   */
   readonly minReplicas: number;
 }
@@ -22113,25 +22113,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRoles {
   /**
   * Defines the role's identifier. It is used to set the 'apps.kubeblocks.io/role' label value on the corresponding object. This field is immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Indicates whether a replica assigned this role is capable of providing services. This field is immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#serviceable DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#serviceable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#serviceable DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#serviceable}
   */
   readonly serviceable?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether a replica with this role has voting rights. In distributed systems, this typically means the replica can participate in consensus decisions, configuration changes, or other processes that require a quorum. This field is immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#votable DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#votable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#votable DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#votable}
   */
   readonly votable?: boolean | cdktf.IResolvable;
   /**
   * Determines if a replica in this role has the authority to perform write operations. A writable replica can modify data, handle update operations. This field is immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#writable DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#writable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#writable DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#writable}
   */
   readonly writable?: boolean | cdktf.IResolvable;
 }
@@ -22333,19 +22333,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22515,19 +22515,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22697,13 +22697,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_fields DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_fields DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -22828,13 +22828,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preference DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preference DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preference}
   */
   readonly preference: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#weight DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#weight DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -22975,19 +22975,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23157,19 +23157,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23339,13 +23339,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_fields DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_fields DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -23492,7 +23492,7 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#node_selector_terms DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#node_selector_terms DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -23585,13 +23585,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -23716,19 +23716,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23898,13 +23898,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24029,19 +24029,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24211,13 +24211,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24342,37 +24342,37 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -24610,13 +24610,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_affinity_term DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_affinity_term DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#weight DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#weight DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -24757,19 +24757,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24939,13 +24939,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25070,19 +25070,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25252,13 +25252,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25383,37 +25383,37 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -25673,13 +25673,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -25804,19 +25804,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25986,13 +25986,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26117,19 +26117,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26299,13 +26299,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26430,37 +26430,37 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -26698,13 +26698,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_affinity_term DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_affinity_term DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#weight DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#weight DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -26845,19 +26845,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27027,13 +27027,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27158,19 +27158,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#operator DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#values DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27340,13 +27340,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_expressions DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_labels DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27471,37 +27471,37 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#label_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#match_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#mismatch_label_keys DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespace_selector DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#namespaces DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#topology_key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -27761,13 +27761,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -27892,19 +27892,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#node_affinity DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#node_affinity DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_affinity DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_affinity DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_anti_affinity DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#pod_anti_affinity DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeAffinityPodAntiAffinity;
 }
@@ -28058,19 +28058,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28221,13 +28221,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#api_version DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_path DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -28349,19 +28349,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#container_name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#divisor DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -28512,19 +28512,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#key DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28675,25 +28675,25 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#resource_field_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_key_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeContainersEnvValueFromSecretKeyRef;
 }
@@ -28876,19 +28876,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#value_from DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeContainersEnvValueFrom;
 }
@@ -29061,13 +29061,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29192,13 +29192,13 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#name DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#optional DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29323,19 +29323,19 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#config_map_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#prefix DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#prefix DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#secret_ref DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntimeContainersEnvFromSecretRef;
 }
@@ -29511,7 +29511,7 @@ export interface DataK8SAppsKubeblocksIoComponentDefinitionV1ManifestSpecRuntime
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_component_definition_v1_manifest#command DataK8SAppsKubeblocksIoComponentDefinitionV1Manifest#command}
   */
   readonly command?: string[];
 }

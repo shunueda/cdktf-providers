@@ -1,3 +1,3 @@
 # `vercel_custom_certificate`
 
-Refer to the Terraform Registry for docs: [`vercel_custom_certificate`](https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate).
+Refer to the Terraform Registry for docs: [`vercel_custom_certificate`](https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/custom_certificate).

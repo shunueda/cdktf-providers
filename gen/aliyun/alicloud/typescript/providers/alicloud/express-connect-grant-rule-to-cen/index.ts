@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectGrantRuleToCenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#cen_id ExpressConnectGrantRuleToCen#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#cen_id ExpressConnectGrantRuleToCen#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#cen_owner_id ExpressConnectGrantRuleToCen#cen_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#cen_owner_id ExpressConnectGrantRuleToCen#cen_owner_id}
   */
   readonly cenOwnerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#id ExpressConnectGrantRuleToCen#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#id ExpressConnectGrantRuleToCen#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#instance_id ExpressConnectGrantRuleToCen#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#instance_id ExpressConnectGrantRuleToCen#instance_id}
   */
   readonly instanceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#timeouts ExpressConnectGrantRuleToCen#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#timeouts ExpressConnectGrantRuleToCen#timeouts}
   */
   readonly timeouts?: ExpressConnectGrantRuleToCenTimeouts;
 }
 export interface ExpressConnectGrantRuleToCenTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#create ExpressConnectGrantRuleToCen#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#create ExpressConnectGrantRuleToCen#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#delete ExpressConnectGrantRuleToCen#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#delete ExpressConnectGrantRuleToCen#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class ExpressConnectGrantRuleToCenTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen alicloud_express_connect_grant_rule_to_cen}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen alicloud_express_connect_grant_rule_to_cen}
 */
 export class ExpressConnectGrantRuleToCen extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class ExpressConnectGrantRuleToCen extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectGrantRuleToCen resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectGrantRuleToCen to import
-  * @param importFromId The id of the existing ExpressConnectGrantRuleToCen that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectGrantRuleToCen that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectGrantRuleToCen to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class ExpressConnectGrantRuleToCen extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_grant_rule_to_cen alicloud_express_connect_grant_rule_to_cen} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_grant_rule_to_cen alicloud_express_connect_grant_rule_to_cen} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class ExpressConnectGrantRuleToCen extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_grant_rule_to_cen',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

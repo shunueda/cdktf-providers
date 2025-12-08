@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface CmsSiteMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#address CmsSiteMonitor#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#address CmsSiteMonitor#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#agent_group CmsSiteMonitor#agent_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#agent_group CmsSiteMonitor#agent_group}
   */
   readonly agentGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#alert_ids CmsSiteMonitor#alert_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#alert_ids CmsSiteMonitor#alert_ids}
   */
   readonly alertIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#id CmsSiteMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#id CmsSiteMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#interval CmsSiteMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#interval CmsSiteMonitor#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#options_json CmsSiteMonitor#options_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#options_json CmsSiteMonitor#options_json}
   */
   readonly optionsJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#status CmsSiteMonitor#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#status CmsSiteMonitor#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#task_name CmsSiteMonitor#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#task_name CmsSiteMonitor#task_name}
   */
   readonly taskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#task_type CmsSiteMonitor#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#task_type CmsSiteMonitor#task_type}
   */
   readonly taskType: string;
   /**
   * custom_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#custom_schedule CmsSiteMonitor#custom_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#custom_schedule CmsSiteMonitor#custom_schedule}
   */
   readonly customSchedule?: CmsSiteMonitorCustomSchedule;
   /**
   * isp_cities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#isp_cities CmsSiteMonitor#isp_cities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#isp_cities CmsSiteMonitor#isp_cities}
   */
   readonly ispCities?: CmsSiteMonitorIspCities[] | cdktf.IResolvable;
   /**
   * option_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#option_json CmsSiteMonitor#option_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#option_json CmsSiteMonitor#option_json}
   */
   readonly optionJson?: CmsSiteMonitorOptionJson;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#timeouts CmsSiteMonitor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#timeouts CmsSiteMonitor#timeouts}
   */
   readonly timeouts?: CmsSiteMonitorTimeouts;
 }
 export interface CmsSiteMonitorCustomSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#days CmsSiteMonitor#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#days CmsSiteMonitor#days}
   */
   readonly days?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#end_hour CmsSiteMonitor#end_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#end_hour CmsSiteMonitor#end_hour}
   */
   readonly endHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#start_hour CmsSiteMonitor#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#start_hour CmsSiteMonitor#start_hour}
   */
   readonly startHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#time_zone CmsSiteMonitor#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#time_zone CmsSiteMonitor#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -256,15 +256,15 @@ export class CmsSiteMonitorCustomScheduleOutputReference extends cdktf.ComplexOb
 }
 export interface CmsSiteMonitorIspCities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#city CmsSiteMonitor#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#city CmsSiteMonitor#city}
   */
   readonly city?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#isp CmsSiteMonitor#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#isp CmsSiteMonitor#isp}
   */
   readonly isp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#type CmsSiteMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#type CmsSiteMonitor#type}
   */
   readonly type?: string;
 }
@@ -438,15 +438,15 @@ export class CmsSiteMonitorIspCitiesList extends cdktf.ComplexList {
 }
 export interface CmsSiteMonitorOptionJsonAssertions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#operator CmsSiteMonitor#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#operator CmsSiteMonitor#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#target CmsSiteMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#target CmsSiteMonitor#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#type CmsSiteMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#type CmsSiteMonitor#type}
   */
   readonly type?: string;
 }
@@ -620,113 +620,113 @@ export class CmsSiteMonitorOptionJsonAssertionsList extends cdktf.ComplexList {
 }
 export interface CmsSiteMonitorOptionJson {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#attempts CmsSiteMonitor#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#attempts CmsSiteMonitor#attempts}
   */
   readonly attempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#cookie CmsSiteMonitor#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#cookie CmsSiteMonitor#cookie}
   */
   readonly cookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#diagnosis_mtr CmsSiteMonitor#diagnosis_mtr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#diagnosis_mtr CmsSiteMonitor#diagnosis_mtr}
   */
   readonly diagnosisMtr?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#diagnosis_ping CmsSiteMonitor#diagnosis_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#diagnosis_ping CmsSiteMonitor#diagnosis_ping}
   */
   readonly diagnosisPing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#dns_hijack_whitelist CmsSiteMonitor#dns_hijack_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#dns_hijack_whitelist CmsSiteMonitor#dns_hijack_whitelist}
   */
   readonly dnsHijackWhitelist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#dns_match_rule CmsSiteMonitor#dns_match_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#dns_match_rule CmsSiteMonitor#dns_match_rule}
   */
   readonly dnsMatchRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#dns_server CmsSiteMonitor#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#dns_server CmsSiteMonitor#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#dns_type CmsSiteMonitor#dns_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#dns_type CmsSiteMonitor#dns_type}
   */
   readonly dnsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#expect_value CmsSiteMonitor#expect_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#expect_value CmsSiteMonitor#expect_value}
   */
   readonly expectValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#failure_rate CmsSiteMonitor#failure_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#failure_rate CmsSiteMonitor#failure_rate}
   */
   readonly failureRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#header CmsSiteMonitor#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#header CmsSiteMonitor#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#http_method CmsSiteMonitor#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#http_method CmsSiteMonitor#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#is_base_encode CmsSiteMonitor#is_base_encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#is_base_encode CmsSiteMonitor#is_base_encode}
   */
   readonly isBaseEncode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#match_rule CmsSiteMonitor#match_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#match_rule CmsSiteMonitor#match_rule}
   */
   readonly matchRule?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#min_tls_version CmsSiteMonitor#min_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#min_tls_version CmsSiteMonitor#min_tls_version}
   */
   readonly minTlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#password CmsSiteMonitor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#password CmsSiteMonitor#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#ping_num CmsSiteMonitor#ping_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#ping_num CmsSiteMonitor#ping_num}
   */
   readonly pingNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#ping_port CmsSiteMonitor#ping_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#ping_port CmsSiteMonitor#ping_port}
   */
   readonly pingPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#ping_type CmsSiteMonitor#ping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#ping_type CmsSiteMonitor#ping_type}
   */
   readonly pingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#port CmsSiteMonitor#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#port CmsSiteMonitor#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#request_content CmsSiteMonitor#request_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#request_content CmsSiteMonitor#request_content}
   */
   readonly requestContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#request_format CmsSiteMonitor#request_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#request_format CmsSiteMonitor#request_format}
   */
   readonly requestFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#response_content CmsSiteMonitor#response_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#response_content CmsSiteMonitor#response_content}
   */
   readonly responseContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#response_format CmsSiteMonitor#response_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#response_format CmsSiteMonitor#response_format}
   */
   readonly responseFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#timeout CmsSiteMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#timeout CmsSiteMonitor#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#user_name CmsSiteMonitor#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#user_name CmsSiteMonitor#user_name}
   */
   readonly userName?: string;
   /**
   * assertions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#assertions CmsSiteMonitor#assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#assertions CmsSiteMonitor#assertions}
   */
   readonly assertions?: CmsSiteMonitorOptionJsonAssertions[] | cdktf.IResolvable;
 }
@@ -1564,15 +1564,15 @@ export class CmsSiteMonitorOptionJsonOutputReference extends cdktf.ComplexObject
 }
 export interface CmsSiteMonitorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#create CmsSiteMonitor#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#create CmsSiteMonitor#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#delete CmsSiteMonitor#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#delete CmsSiteMonitor#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#update CmsSiteMonitor#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#update CmsSiteMonitor#update}
   */
   readonly update?: string;
 }
@@ -1724,7 +1724,7 @@ export class CmsSiteMonitorTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor alicloud_cms_site_monitor}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor alicloud_cms_site_monitor}
 */
 export class CmsSiteMonitor extends cdktf.TerraformResource {
 
@@ -1740,7 +1740,7 @@ export class CmsSiteMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsSiteMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsSiteMonitor to import
-  * @param importFromId The id of the existing CmsSiteMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsSiteMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsSiteMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1752,7 +1752,7 @@ export class CmsSiteMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_site_monitor alicloud_cms_site_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_site_monitor alicloud_cms_site_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1763,8 +1763,8 @@ export class CmsSiteMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_site_monitor',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

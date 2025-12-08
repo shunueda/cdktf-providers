@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/ssh_key
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/ssh_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface SshKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The UUID of the model to operate in.
+  * The name of the model to operate in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/ssh_key#model_uuid SshKey#model_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/ssh_key#model SshKey#model}
   */
-  readonly modelUuid: string;
+  readonly model: string;
   /**
   * SSH key payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/ssh_key#payload SshKey#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/ssh_key#payload SshKey#payload}
   */
   readonly payload: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/ssh_key juju_ssh_key}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/ssh_key juju_ssh_key}
 */
 export class SshKey extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SshKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshKey to import
-  * @param importFromId The id of the existing SshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/ssh_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/ssh_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SshKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/ssh_key juju_ssh_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/ssh_key juju_ssh_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SshKey extends cdktf.TerraformResource {
       terraformResourceType: 'juju_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -72,7 +72,7 @@ export class SshKey extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._modelUuid = config.modelUuid;
+    this._model = config.model;
     this._payload = config.payload;
   }
 
@@ -85,17 +85,17 @@ export class SshKey extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // model_uuid - computed: false, optional: false, required: true
-  private _modelUuid?: string; 
-  public get modelUuid() {
-    return this.getStringAttribute('model_uuid');
+  // model - computed: false, optional: false, required: true
+  private _model?: string; 
+  public get model() {
+    return this.getStringAttribute('model');
   }
-  public set modelUuid(value: string) {
-    this._modelUuid = value;
+  public set model(value: string) {
+    this._model = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelUuidInput() {
-    return this._modelUuid;
+  public get modelInput() {
+    return this._model;
   }
 
   // payload - computed: false, optional: false, required: true
@@ -117,15 +117,15 @@ export class SshKey extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      model_uuid: cdktf.stringToTerraform(this._modelUuid),
+      model: cdktf.stringToTerraform(this._model),
       payload: cdktf.stringToTerraform(this._payload),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      model_uuid: {
-        value: cdktf.stringToHclTerraform(this._modelUuid),
+      model: {
+        value: cdktf.stringToHclTerraform(this._model),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

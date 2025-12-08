@@ -3,19 +3,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -166,13 +166,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Annotations is a map of arbitrary non-identifying metadata. Each of these key/value pairs are added to the object's annotations provided the key does not already exist in the object's annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels is a map of string keys and values that may match replicaset and service selectors. Each of these key/value pairs are added to the object's labels provided the key does not already exist in the object's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -297,13 +297,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Annotations is a map of arbitrary non-identifying metadata. Each of these key/value pairs are added to the object's annotations provided the key does not already exist in the object's annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels is a map of string keys and values that may match replicaset and service selectors. Each of these key/value pairs are added to the object's labels provided the key does not already exist in the object's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -428,19 +428,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -610,19 +610,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -792,13 +792,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -923,13 +923,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preference DataK8SOperatorTigeraIoInstallationV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preference DataK8SOperatorTigeraIoInstallationV1Manifest#preference}
   */
   readonly preference: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1070,19 +1070,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1252,19 +1252,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1434,13 +1434,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1587,7 +1587,7 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector_terms DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector_terms DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1680,13 +1680,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1811,19 +1811,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1993,13 +1993,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2124,19 +2124,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2306,13 +2306,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2437,37 +2437,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2705,13 +2705,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2852,19 +2852,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3034,13 +3034,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3165,19 +3165,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3347,13 +3347,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3478,37 +3478,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3768,13 +3768,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3899,19 +3899,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4081,13 +4081,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4212,19 +4212,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4394,13 +4394,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4525,37 +4525,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4793,13 +4793,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4940,19 +4940,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5122,13 +5122,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5253,19 +5253,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5435,13 +5435,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5566,37 +5566,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5856,13 +5856,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5987,19 +5987,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_anti_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_anti_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinityPodAntiAffinity;
 }
@@ -6153,7 +6153,7 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -6268,19 +6268,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6434,13 +6434,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Name is an enum which identifies the calico-kube-controllers Deployment container by name. Supported values are: calico-kube-controllers, es-calico-kube-controllers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named calico-kube-controllers Deployment container's resources. If omitted, the calico-kube-controllers Deployment will use its default value for this container's resources. If used in conjunction with the deprecated ComponentResources, then this value takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#resources DataK8SOperatorTigeraIoInstallationV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#resources DataK8SOperatorTigeraIoInstallationV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecContainersResources;
 }
@@ -6584,31 +6584,31 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#effect DataK8SOperatorTigeraIoInstallationV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#effect DataK8SOperatorTigeraIoInstallationV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#toleration_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#toleration_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#value DataK8SOperatorTigeraIoInstallationV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#value DataK8SOperatorTigeraIoInstallationV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6842,25 +6842,25 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Affinity is a group of affinity scheduling rules for the calico-kube-controllers pods. If specified, this overrides any affinity that may be set on the calico-kube-controllers Deployment. If omitted, the calico-kube-controllers Deployment will use its default value for affinity. WARNING: Please note that this field will override the default calico-kube-controllers Deployment affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#affinity DataK8SOperatorTigeraIoInstallationV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#affinity DataK8SOperatorTigeraIoInstallationV1Manifest#affinity}
   */
   readonly affinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecAffinity;
   /**
   * Containers is a list of calico-kube-controllers containers. If specified, this overrides the specified calico-kube-controllers Deployment containers. If omitted, the calico-kube-controllers Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#containers DataK8SOperatorTigeraIoInstallationV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#containers DataK8SOperatorTigeraIoInstallationV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * NodeSelector is the calico-kube-controllers pod's scheduling constraints. If specified, each of the key/value pairs are added to the calico-kube-controllers Deployment nodeSelector provided the key does not already exist in the object's nodeSelector. If used in conjunction with ControlPlaneNodeSelector, that nodeSelector is set on the calico-kube-controllers Deployment and each of this field's key/value pairs are added to the calico-kube-controllers Deployment nodeSelector provided the key does not already exist in the object's nodeSelector. If omitted, the calico-kube-controllers Deployment will use its default value for nodeSelector. WARNING: Please note that this field will modify the default calico-kube-controllers Deployment nodeSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Tolerations is the calico-kube-controllers pod's tolerations. If specified, this overrides any tolerations that may be set on the calico-kube-controllers Deployment. If omitted, the calico-kube-controllers Deployment will use its default value for tolerations. WARNING: Please note that this field will override the default calico-kube-controllers Deployment tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#tolerations DataK8SOperatorTigeraIoInstallationV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#tolerations DataK8SOperatorTigeraIoInstallationV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpecTolerations[] | cdktf.IResolvable;
 }
@@ -7043,13 +7043,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Metadata is a subset of a Kubernetes object's metadata that is added to the pod's metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
   */
   readonly metadata?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateMetadata;
   /**
   * Spec is the calico-kube-controllers Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplateSpec;
 }
@@ -7174,13 +7174,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * MinReadySeconds is the minimum number of seconds for which a newly created Deployment pod should be ready without any of its container crashing, for it to be considered available. If specified, this overrides any minReadySeconds value that may be set on the calico-kube-controllers Deployment. If omitted, the calico-kube-controllers Deployment will use its default value for minReadySeconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#min_ready_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#min_ready_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * Template describes the calico-kube-controllers Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#template DataK8SOperatorTigeraIoInstallationV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#template DataK8SOperatorTigeraIoInstallationV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpecTemplate;
 }
@@ -7305,13 +7305,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeCont
   /**
   * Metadata is a subset of a Kubernetes object's metadata that is added to the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
   */
   readonly metadata?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentMetadata;
   /**
   * Spec is the specification of the calico-kube-controllers Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoKubeControllersDeploymentSpec;
 }
@@ -7436,55 +7436,55 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkI
   /**
   * AllowedUse controls what the IP pool will be used for. If not specified or empty, defaults to ['Tunnel', 'Workload'] for back-compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#allowed_uses DataK8SOperatorTigeraIoInstallationV1Manifest#allowed_uses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#allowed_uses DataK8SOperatorTigeraIoInstallationV1Manifest#allowed_uses}
   */
   readonly allowedUses?: string[];
   /**
   * BlockSize specifies the CIDR prefex length to use when allocating per-node IP blocks from the main IP pool CIDR. Default: 26 (IPv4), 122 (IPv6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#block_size DataK8SOperatorTigeraIoInstallationV1Manifest#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#block_size DataK8SOperatorTigeraIoInstallationV1Manifest#block_size}
   */
   readonly blockSize?: number;
   /**
   * CIDR contains the address range for the IP Pool in classless inter-domain routing format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#cidr DataK8SOperatorTigeraIoInstallationV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#cidr DataK8SOperatorTigeraIoInstallationV1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * DisableBGPExport specifies whether routes from this IP pool's CIDR are exported over BGP. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#disable_bgp_export DataK8SOperatorTigeraIoInstallationV1Manifest#disable_bgp_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#disable_bgp_export DataK8SOperatorTigeraIoInstallationV1Manifest#disable_bgp_export}
   */
   readonly disableBgpExport?: boolean | cdktf.IResolvable;
   /**
   * DisableNewAllocations specifies whether or not new IP allocations are allowed from this pool. This is useful when you want to prevent new pods from receiving IP addresses from this pool, without impacting any existing pods that have already been assigned addresses from this pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#disable_new_allocations DataK8SOperatorTigeraIoInstallationV1Manifest#disable_new_allocations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#disable_new_allocations DataK8SOperatorTigeraIoInstallationV1Manifest#disable_new_allocations}
   */
   readonly disableNewAllocations?: boolean | cdktf.IResolvable;
   /**
   * Encapsulation specifies the encapsulation type that will be used with the IP Pool. Default: IPIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#encapsulation DataK8SOperatorTigeraIoInstallationV1Manifest#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#encapsulation DataK8SOperatorTigeraIoInstallationV1Manifest#encapsulation}
   */
   readonly encapsulation?: string;
   /**
   * Name is the name of the IP pool. If omitted, this will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name?: string;
   /**
   * NATOutgoing specifies if NAT will be enabled or disabled for outgoing traffic. Default: Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#nat_outgoing DataK8SOperatorTigeraIoInstallationV1Manifest#nat_outgoing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#nat_outgoing DataK8SOperatorTigeraIoInstallationV1Manifest#nat_outgoing}
   */
   readonly natOutgoing?: string;
   /**
   * NodeSelector specifies the node selector that will be set for the IP Pool. Default: 'all()'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector}
   */
   readonly nodeSelector?: string;
 }
@@ -7831,37 +7831,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkN
   /**
   * CanReach enables IP auto-detection based on which source address on the node is used to reach the specified IP or domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#can_reach DataK8SOperatorTigeraIoInstallationV1Manifest#can_reach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#can_reach DataK8SOperatorTigeraIoInstallationV1Manifest#can_reach}
   */
   readonly canReach?: string;
   /**
   * CIDRS enables IP auto-detection based on which addresses on the nodes are within one of the provided CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#cidrs DataK8SOperatorTigeraIoInstallationV1Manifest#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#cidrs DataK8SOperatorTigeraIoInstallationV1Manifest#cidrs}
   */
   readonly cidrs?: string[];
   /**
   * FirstFound uses default interface matching parameters to select an interface, performing best-effort filtering based on well-known interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#first_found DataK8SOperatorTigeraIoInstallationV1Manifest#first_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#first_found DataK8SOperatorTigeraIoInstallationV1Manifest#first_found}
   */
   readonly firstFound?: boolean | cdktf.IResolvable;
   /**
   * Interface enables IP auto-detection based on interfaces that match the given regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#interface DataK8SOperatorTigeraIoInstallationV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#interface DataK8SOperatorTigeraIoInstallationV1Manifest#interface}
   */
   readonly interface?: string;
   /**
   * Kubernetes configures Calico to detect node addresses based on the Kubernetes API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#kubernetes DataK8SOperatorTigeraIoInstallationV1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#kubernetes DataK8SOperatorTigeraIoInstallationV1Manifest#kubernetes}
   */
   readonly kubernetes?: string;
   /**
   * SkipInterface enables IP auto-detection based on interfaces that do not match the given regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#skip_interface DataK8SOperatorTigeraIoInstallationV1Manifest#skip_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#skip_interface DataK8SOperatorTigeraIoInstallationV1Manifest#skip_interface}
   */
   readonly skipInterface?: string;
 }
@@ -8102,37 +8102,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkN
   /**
   * CanReach enables IP auto-detection based on which source address on the node is used to reach the specified IP or domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#can_reach DataK8SOperatorTigeraIoInstallationV1Manifest#can_reach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#can_reach DataK8SOperatorTigeraIoInstallationV1Manifest#can_reach}
   */
   readonly canReach?: string;
   /**
   * CIDRS enables IP auto-detection based on which addresses on the nodes are within one of the provided CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#cidrs DataK8SOperatorTigeraIoInstallationV1Manifest#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#cidrs DataK8SOperatorTigeraIoInstallationV1Manifest#cidrs}
   */
   readonly cidrs?: string[];
   /**
   * FirstFound uses default interface matching parameters to select an interface, performing best-effort filtering based on well-known interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#first_found DataK8SOperatorTigeraIoInstallationV1Manifest#first_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#first_found DataK8SOperatorTigeraIoInstallationV1Manifest#first_found}
   */
   readonly firstFound?: boolean | cdktf.IResolvable;
   /**
   * Interface enables IP auto-detection based on interfaces that match the given regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#interface DataK8SOperatorTigeraIoInstallationV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#interface DataK8SOperatorTigeraIoInstallationV1Manifest#interface}
   */
   readonly interface?: string;
   /**
   * Kubernetes configures Calico to detect node addresses based on the Kubernetes API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#kubernetes DataK8SOperatorTigeraIoInstallationV1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#kubernetes DataK8SOperatorTigeraIoInstallationV1Manifest#kubernetes}
   */
   readonly kubernetes?: string;
   /**
   * SkipInterface enables IP auto-detection based on interfaces that do not match the given regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#skip_interface DataK8SOperatorTigeraIoInstallationV1Manifest#skip_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#skip_interface DataK8SOperatorTigeraIoInstallationV1Manifest#skip_interface}
   */
   readonly skipInterface?: string;
 }
@@ -8371,11 +8371,11 @@ export class DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkNodeA
 }
 export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkSysctl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#value DataK8SOperatorTigeraIoInstallationV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#value DataK8SOperatorTigeraIoInstallationV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8516,73 +8516,73 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetwork 
   /**
   * BGP configures whether or not to enable Calico's BGP capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#bgp DataK8SOperatorTigeraIoInstallationV1Manifest#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#bgp DataK8SOperatorTigeraIoInstallationV1Manifest#bgp}
   */
   readonly bgp?: string;
   /**
   * ContainerIPForwarding configures whether ip forwarding will be enabled for containers in the CNI configuration. Default: Disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#container_ip_forwarding DataK8SOperatorTigeraIoInstallationV1Manifest#container_ip_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#container_ip_forwarding DataK8SOperatorTigeraIoInstallationV1Manifest#container_ip_forwarding}
   */
   readonly containerIpForwarding?: string;
   /**
   * HostPorts configures whether or not Calico will support Kubernetes HostPorts. Valid only when using the Calico CNI plugin. Default: Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#host_ports DataK8SOperatorTigeraIoInstallationV1Manifest#host_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#host_ports DataK8SOperatorTigeraIoInstallationV1Manifest#host_ports}
   */
   readonly hostPorts?: string;
   /**
   * IPPools contains a list of IP pools to manage. If nil, a single IPv4 IP pool will be created by the operator. If an empty list is provided, the operator will not create any IP pools and will instead wait for IP pools to be created out-of-band. IP pools in this list will be reconciled by the operator and should not be modified out-of-band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#ip_pools DataK8SOperatorTigeraIoInstallationV1Manifest#ip_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#ip_pools DataK8SOperatorTigeraIoInstallationV1Manifest#ip_pools}
   */
   readonly ipPools?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkIpPools[] | cdktf.IResolvable;
   /**
   * LinuxDataplane is used to select the dataplane used for Linux nodes. In particular, it causes the operator to add required mounts and environment variables for the particular dataplane. If not specified, iptables mode is used. Default: Iptables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#linux_dataplane DataK8SOperatorTigeraIoInstallationV1Manifest#linux_dataplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#linux_dataplane DataK8SOperatorTigeraIoInstallationV1Manifest#linux_dataplane}
   */
   readonly linuxDataplane?: string;
   /**
   * LinuxPolicySetupTimeoutSeconds delays new pods from running containers until their policy has been programmed in the dataplane. The specified delay defines the maximum amount of time that the Calico CNI plugin will wait for policy to be programmed. Only applies to pods created on Linux nodes. * A value of 0 disables pod startup delays. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#linux_policy_setup_timeout_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#linux_policy_setup_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#linux_policy_setup_timeout_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#linux_policy_setup_timeout_seconds}
   */
   readonly linuxPolicySetupTimeoutSeconds?: number;
   /**
   * MTU specifies the maximum transmission unit to use on the pod network. If not specified, Calico will perform MTU auto-detection based on the cluster network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mtu DataK8SOperatorTigeraIoInstallationV1Manifest#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mtu DataK8SOperatorTigeraIoInstallationV1Manifest#mtu}
   */
   readonly mtu?: number;
   /**
   * MultiInterfaceMode configures what will configure multiple interface per pod. Only valid for Calico Enterprise installations using the Calico CNI plugin. Default: None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#multi_interface_mode DataK8SOperatorTigeraIoInstallationV1Manifest#multi_interface_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#multi_interface_mode DataK8SOperatorTigeraIoInstallationV1Manifest#multi_interface_mode}
   */
   readonly multiInterfaceMode?: string;
   /**
   * NodeAddressAutodetectionV4 specifies an approach to automatically detect node IPv4 addresses. If not specified, will use default auto-detection settings to acquire an IPv4 address for each node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_address_autodetection_v4 DataK8SOperatorTigeraIoInstallationV1Manifest#node_address_autodetection_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_address_autodetection_v4 DataK8SOperatorTigeraIoInstallationV1Manifest#node_address_autodetection_v4}
   */
   readonly nodeAddressAutodetectionV4?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkNodeAddressAutodetectionV4;
   /**
   * NodeAddressAutodetectionV6 specifies an approach to automatically detect node IPv6 addresses. If not specified, IPv6 addresses will not be auto-detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_address_autodetection_v6 DataK8SOperatorTigeraIoInstallationV1Manifest#node_address_autodetection_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_address_autodetection_v6 DataK8SOperatorTigeraIoInstallationV1Manifest#node_address_autodetection_v6}
   */
   readonly nodeAddressAutodetectionV6?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkNodeAddressAutodetectionV6;
   /**
   * Sysctl configures sysctl parameters for tuning plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#sysctl DataK8SOperatorTigeraIoInstallationV1Manifest#sysctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#sysctl DataK8SOperatorTigeraIoInstallationV1Manifest#sysctl}
   */
   readonly sysctl?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNetworkSysctl[] | cdktf.IResolvable;
   /**
   * WindowsDataplane is used to select the dataplane used for Windows nodes. In particular, it causes the operator to add required mounts and environment variables for the particular dataplane. If not specified, it is disabled and the operator will not render the Calico Windows nodes daemonset. Default: Disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#windows_dataplane DataK8SOperatorTigeraIoInstallationV1Manifest#windows_dataplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#windows_dataplane DataK8SOperatorTigeraIoInstallationV1Manifest#windows_dataplane}
   */
   readonly windowsDataplane?: string;
 }
@@ -8997,13 +8997,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Annotations is a map of arbitrary non-identifying metadata. Each of these key/value pairs are added to the object's annotations provided the key does not already exist in the object's annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels is a map of string keys and values that may match replicaset and service selectors. Each of these key/value pairs are added to the object's labels provided the key does not already exist in the object's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -9128,13 +9128,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Annotations is a map of arbitrary non-identifying metadata. Each of these key/value pairs are added to the object's annotations provided the key does not already exist in the object's annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels is a map of string keys and values that may match replicaset and service selectors. Each of these key/value pairs are added to the object's labels provided the key does not already exist in the object's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -9259,19 +9259,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9441,19 +9441,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9623,13 +9623,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -9754,13 +9754,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preference DataK8SOperatorTigeraIoInstallationV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preference DataK8SOperatorTigeraIoInstallationV1Manifest#preference}
   */
   readonly preference: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9901,19 +9901,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10083,19 +10083,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10265,13 +10265,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -10418,7 +10418,7 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector_terms DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector_terms DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -10511,13 +10511,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -10642,19 +10642,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10824,13 +10824,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10955,19 +10955,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11137,13 +11137,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11268,37 +11268,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11536,13 +11536,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -11683,19 +11683,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11865,13 +11865,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11996,19 +11996,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12178,13 +12178,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12309,37 +12309,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12599,13 +12599,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12730,19 +12730,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12912,13 +12912,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13043,19 +13043,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13225,13 +13225,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13356,37 +13356,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13624,13 +13624,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -13771,19 +13771,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13953,13 +13953,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14084,19 +14084,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14266,13 +14266,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14397,37 +14397,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -14687,13 +14687,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -14818,19 +14818,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_anti_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_anti_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinityPodAntiAffinity;
 }
@@ -14984,7 +14984,7 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -15099,19 +15099,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15265,13 +15265,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Name is an enum which identifies the calico-node DaemonSet container by name. Supported values are: calico-node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named calico-node DaemonSet container's resources. If omitted, the calico-node DaemonSet will use its default value for this container's resources. If used in conjunction with the deprecated ComponentResources, then this value takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#resources DataK8SOperatorTigeraIoInstallationV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#resources DataK8SOperatorTigeraIoInstallationV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecContainersResources;
 }
@@ -15415,7 +15415,7 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -15530,19 +15530,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15696,13 +15696,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Name is an enum which identifies the calico-node DaemonSet init container by name. Supported values are: install-cni, hostpath-init, flexvol-driver, mount-bpffs, node-certs-key-cert-provisioner, calico-node-prometheus-server-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named calico-node DaemonSet init container's resources. If omitted, the calico-node DaemonSet will use its default value for this container's resources. If used in conjunction with the deprecated ComponentResources, then this value takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#resources DataK8SOperatorTigeraIoInstallationV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#resources DataK8SOperatorTigeraIoInstallationV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecInitContainersResources;
 }
@@ -15846,31 +15846,31 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#effect DataK8SOperatorTigeraIoInstallationV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#effect DataK8SOperatorTigeraIoInstallationV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#toleration_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#toleration_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#value DataK8SOperatorTigeraIoInstallationV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#value DataK8SOperatorTigeraIoInstallationV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16104,31 +16104,31 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Affinity is a group of affinity scheduling rules for the calico-node pods. If specified, this overrides any affinity that may be set on the calico-node DaemonSet. If omitted, the calico-node DaemonSet will use its default value for affinity. WARNING: Please note that this field will override the default calico-node DaemonSet affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#affinity DataK8SOperatorTigeraIoInstallationV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#affinity DataK8SOperatorTigeraIoInstallationV1Manifest#affinity}
   */
   readonly affinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecAffinity;
   /**
   * Containers is a list of calico-node containers. If specified, this overrides the specified calico-node DaemonSet containers. If omitted, the calico-node DaemonSet will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#containers DataK8SOperatorTigeraIoInstallationV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#containers DataK8SOperatorTigeraIoInstallationV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of calico-node init containers. If specified, this overrides the specified calico-node DaemonSet init containers. If omitted, the calico-node DaemonSet will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#init_containers DataK8SOperatorTigeraIoInstallationV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#init_containers DataK8SOperatorTigeraIoInstallationV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
   /**
   * NodeSelector is the calico-node pod's scheduling constraints. If specified, each of the key/value pairs are added to the calico-node DaemonSet nodeSelector provided the key does not already exist in the object's nodeSelector. If omitted, the calico-node DaemonSet will use its default value for nodeSelector. WARNING: Please note that this field will modify the default calico-node DaemonSet nodeSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Tolerations is the calico-node pod's tolerations. If specified, this overrides any tolerations that may be set on the calico-node DaemonSet. If omitted, the calico-node DaemonSet will use its default value for tolerations. WARNING: Please note that this field will override the default calico-node DaemonSet tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#tolerations DataK8SOperatorTigeraIoInstallationV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#tolerations DataK8SOperatorTigeraIoInstallationV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpecTolerations[] | cdktf.IResolvable;
 }
@@ -16340,13 +16340,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Metadata is a subset of a Kubernetes object's metadata that is added to the pod's metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
   */
   readonly metadata?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateMetadata;
   /**
   * Spec is the calico-node DaemonSet's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplateSpec;
 }
@@ -16471,13 +16471,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * MinReadySeconds is the minimum number of seconds for which a newly created DaemonSet pod should be ready without any of its container crashing, for it to be considered available. If specified, this overrides any minReadySeconds value that may be set on the calico-node DaemonSet. If omitted, the calico-node DaemonSet will use its default value for minReadySeconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#min_ready_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#min_ready_seconds DataK8SOperatorTigeraIoInstallationV1Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * Template describes the calico-node DaemonSet pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#template DataK8SOperatorTigeraIoInstallationV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#template DataK8SOperatorTigeraIoInstallationV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpecTemplate;
 }
@@ -16602,13 +16602,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaem
   /**
   * Metadata is a subset of a Kubernetes object's metadata that is added to the DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#metadata DataK8SOperatorTigeraIoInstallationV1Manifest#metadata}
   */
   readonly metadata?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetMetadata;
   /**
   * Spec is the specification of the calico-node DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#spec DataK8SOperatorTigeraIoInstallationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeDaemonSetSpec;
 }
@@ -16733,13 +16733,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Annotations is a map of arbitrary non-identifying metadata. Each of these key/value pairs are added to the object's annotations provided the key does not already exist in the object's annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels is a map of string keys and values that may match replicaset and service selectors. Each of these key/value pairs are added to the object's labels provided the key does not already exist in the object's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -16864,13 +16864,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Annotations is a map of arbitrary non-identifying metadata. Each of these key/value pairs are added to the object's annotations provided the key does not already exist in the object's annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#annotations DataK8SOperatorTigeraIoInstallationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels is a map of string keys and values that may match replicaset and service selectors. Each of these key/value pairs are added to the object's labels provided the key does not already exist in the object's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#labels DataK8SOperatorTigeraIoInstallationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -16995,19 +16995,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17177,19 +17177,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17359,13 +17359,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -17490,13 +17490,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preference DataK8SOperatorTigeraIoInstallationV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preference DataK8SOperatorTigeraIoInstallationV1Manifest#preference}
   */
   readonly preference: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -17637,19 +17637,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17819,19 +17819,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18001,13 +18001,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_fields DataK8SOperatorTigeraIoInstallationV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -18154,7 +18154,7 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector_terms DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_selector_terms DataK8SOperatorTigeraIoInstallationV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -18247,13 +18247,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -18378,19 +18378,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18560,13 +18560,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18691,19 +18691,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18873,13 +18873,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19004,37 +19004,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -19272,13 +19272,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -19419,19 +19419,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19601,13 +19601,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19732,19 +19732,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19914,13 +19914,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20045,37 +20045,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20335,13 +20335,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -20466,19 +20466,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20648,13 +20648,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20779,19 +20779,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20961,13 +20961,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21092,37 +21092,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21360,13 +21360,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity_term DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#weight DataK8SOperatorTigeraIoInstallationV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -21507,19 +21507,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21689,13 +21689,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21820,19 +21820,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#key DataK8SOperatorTigeraIoInstallationV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#operator DataK8SOperatorTigeraIoInstallationV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#values DataK8SOperatorTigeraIoInstallationV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22002,13 +22002,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_expressions DataK8SOperatorTigeraIoInstallationV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_labels DataK8SOperatorTigeraIoInstallationV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22133,37 +22133,37 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#label_selector DataK8SOperatorTigeraIoInstallationV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#match_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#mismatch_label_keys DataK8SOperatorTigeraIoInstallationV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespace_selector DataK8SOperatorTigeraIoInstallationV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#namespaces DataK8SOperatorTigeraIoInstallationV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#topology_key DataK8SOperatorTigeraIoInstallationV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -22423,13 +22423,13 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorTigeraIoInstallationV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -22554,19 +22554,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#node_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_anti_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#pod_anti_affinity DataK8SOperatorTigeraIoInstallationV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecAffinityPodAntiAffinity;
 }
@@ -22720,7 +22720,7 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#name DataK8SOperatorTigeraIoInstallationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -22835,19 +22835,19 @@ export interface DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWind
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#claims DataK8SOperatorTigeraIoInstallationV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoInstallationV1ManifestSpecCalicoNodeWindowsDaemonSetSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#limits DataK8SOperatorTigeraIoInstallationV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_installation_v1_manifest#requests DataK8SOperatorTigeraIoInstallationV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }

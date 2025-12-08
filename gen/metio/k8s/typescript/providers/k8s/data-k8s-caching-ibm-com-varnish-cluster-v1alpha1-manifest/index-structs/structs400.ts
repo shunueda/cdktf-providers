@@ -155,19 +155,19 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#audience DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#audience DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#expiration_seconds DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#expiration_seconds DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -318,25 +318,25 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#config_map DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#config_map DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#downward_api DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#downward_api DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#service_account_token DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#service_account_token DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesProjectedSourcesServiceAccountToken;
 }
@@ -541,13 +541,13 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#default_mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#default_mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#sources DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#sources DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -672,37 +672,37 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#group DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#group DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#registry DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#registry DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#tenant DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#tenant DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#user DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#user DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -937,7 +937,7 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1033,49 +1033,49 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#keyring DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#keyring DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#monitors DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#monitors DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#pool DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#pool DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_ref DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_ref DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#user DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#user DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -1368,7 +1368,7 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1464,61 +1464,61 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#gateway DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#gateway DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#protection_domain DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#protection_domain DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_ref DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_ref DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#ssl_enabled DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#ssl_enabled DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_pool DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_pool DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#system DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#system DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -1866,19 +1866,19 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#key DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#key DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -2048,25 +2048,25 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#default_mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#default_mode DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#items DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#items DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#optional DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#optional DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -2249,7 +2249,7 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2345,31 +2345,31 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#read_only DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_ref DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret_ref DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_namespace DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_namespace DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -2581,25 +2581,25 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fs_type DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_policy_id DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_policy_id DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_policy_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storage_policy_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#volume_path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -2779,181 +2779,181 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEx
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#aws_elastic_block_store DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#aws_elastic_block_store DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#azure_disk DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#azure_disk DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#azure_file DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#azure_file DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#cephfs DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#cephfs DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#cinder DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#cinder DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#config_map DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#config_map DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#csi DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#csi DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#downward_api DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#downward_api DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#empty_dir DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#empty_dir DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#ephemeral DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#ephemeral DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fc DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#fc DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#flex_volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#flex_volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#flocker DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#flocker DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#gce_persistent_disk DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#gce_persistent_disk DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#git_repo DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#git_repo DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#glusterfs DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#glusterfs DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#host_path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#host_path DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#iscsi DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#iscsi DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#nfs DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#nfs DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#persistent_volume_claim DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#persistent_volume_claim DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#photon_persistent_disk DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#photon_persistent_disk DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#portworx_volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#portworx_volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#projected DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#projected DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#quobyte DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#quobyte DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#rbd DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#rbd DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#scale_io DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#scale_io DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#secret DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storageos DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#storageos DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#vsphere_volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#vsphere_volume DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumesVsphereVolume;
 }
@@ -3909,13 +3909,13 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishMe
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#limits DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#limits DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#requests DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#requests DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4038,19 +4038,19 @@ export class DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishMetric
 }
 export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishMetricsExporter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image_pull_policy DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image_pull_policy DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#resources DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#resources DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishMetricsExporterResources;
 }
@@ -4204,13 +4204,13 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishRe
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#limits DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#limits DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#requests DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#requests DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4333,59 +4333,59 @@ export class DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishResour
 }
 export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnish {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#adm_auth DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#adm_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#adm_auth DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#adm_auth}
   */
   readonly admAuth?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishAdmAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#args DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#args DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#controller DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#controller DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#controller}
   */
   readonly controller?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#env_from DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#env_from DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_init_containers DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_init_containers DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_init_containers}
   */
   readonly extraInitContainers?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraInitContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_volume_claim_templates DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_volume_claim_templates DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_volume_claim_templates}
   */
   readonly extraVolumeClaimTemplates?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumeClaimTemplates[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_volume_mounts DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_volume_mounts DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_volume_mounts}
   */
   readonly extraVolumeMounts?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_volumes DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#extra_volumes DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#extra_volumes}
   */
   readonly extraVolumes?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishExtraVolumes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image_pull_policy DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image_pull_policy DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image_pull_secret DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#image_pull_secret DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#metrics_exporter DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#metrics_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#metrics_exporter DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#metrics_exporter}
   */
   readonly metricsExporter?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishMetricsExporter;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#resources DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#resources DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishResources;
 }
@@ -4827,11 +4827,11 @@ export class DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnishOutput
 }
 export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#config_map_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#config_map_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#entrypoint_file_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#entrypoint_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#entrypoint_file_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#entrypoint_file_name}
   */
   readonly entrypointFileName: string;
 }
@@ -4950,61 +4950,61 @@ export interface DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpec {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#affinity DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#affinity DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#backend DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#backend DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#backend}
   */
   readonly backend: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecBackend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#log_format DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#log_format DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#log_format}
   */
   readonly logFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#log_level DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#log_level DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#monitoring DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#monitoring DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecMonitoring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#node_selector DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#node_selector DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodDisruptionBudgetSpec is a description of a PodDisruptionBudget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecPodDisruptionBudget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#priority_class_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#priority_class_name DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#replicas DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#replicas DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#service DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#service DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#service}
   */
   readonly service: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#tolerations DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#tolerations DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#update_strategy DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#update_strategy DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#update_strategy}
   */
   readonly updateStrategy?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecUpdateStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#varnish DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#varnish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#varnish DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#varnish}
   */
   readonly varnish?: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVarnish;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#vcl DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#vcl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/caching_ibm_com_varnish_cluster_v1alpha1_manifest#vcl DataK8SCachingIbmComVarnishClusterV1Alpha1Manifest#vcl}
   */
   readonly vcl: DataK8SCachingIbmComVarnishClusterV1Alpha1ManifestSpecVcl;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudAlikafkaTopicsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#id DataAlicloudAlikafkaTopics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#id DataAlicloudAlikafkaTopics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#ids DataAlicloudAlikafkaTopics#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#ids DataAlicloudAlikafkaTopics#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#instance_id DataAlicloudAlikafkaTopics#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#instance_id DataAlicloudAlikafkaTopics#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#name_regex DataAlicloudAlikafkaTopics#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#name_regex DataAlicloudAlikafkaTopics#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#output_file DataAlicloudAlikafkaTopics#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#output_file DataAlicloudAlikafkaTopics#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#page_number DataAlicloudAlikafkaTopics#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#page_number DataAlicloudAlikafkaTopics#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#page_size DataAlicloudAlikafkaTopics#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#page_size DataAlicloudAlikafkaTopics#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#topic DataAlicloudAlikafkaTopics#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#topic DataAlicloudAlikafkaTopics#topic}
   */
   readonly topic?: string;
 }
@@ -171,7 +171,7 @@ export class DataAlicloudAlikafkaTopicsTopicsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics alicloud_alikafka_topics}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics alicloud_alikafka_topics}
 */
 export class DataAlicloudAlikafkaTopics extends cdktf.TerraformDataSource {
 
@@ -187,7 +187,7 @@ export class DataAlicloudAlikafkaTopics extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAlikafkaTopics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAlikafkaTopics to import
-  * @param importFromId The id of the existing DataAlicloudAlikafkaTopics that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAlikafkaTopics that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAlikafkaTopics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class DataAlicloudAlikafkaTopics extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alikafka_topics alicloud_alikafka_topics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alikafka_topics alicloud_alikafka_topics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class DataAlicloudAlikafkaTopics extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_alikafka_topics',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

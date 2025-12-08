@@ -139,6 +139,9 @@ Object.defineProperty(exports, 'ipSmb', { get: function () { return require('./i
 Object.defineProperty(exports, 'ipSshServer', { get: function () { return require('./ip-ssh-server'); } });
 Object.defineProperty(exports, 'ipTftp', { get: function () { return require('./ip-tftp'); } });
 Object.defineProperty(exports, 'ipTftpSettings', { get: function () { return require('./ip-tftp-settings'); } });
+Object.defineProperty(exports, 'ipTrafficFlow', { get: function () { return require('./ip-traffic-flow'); } });
+Object.defineProperty(exports, 'ipTrafficFlowIpfix', { get: function () { return require('./ip-traffic-flow-ipfix'); } });
+Object.defineProperty(exports, 'ipTrafficFlowTarget', { get: function () { return require('./ip-traffic-flow-target'); } });
 Object.defineProperty(exports, 'ipUpnp', { get: function () { return require('./ip-upnp'); } });
 Object.defineProperty(exports, 'ipUpnpInterfaces', { get: function () { return require('./ip-upnp-interfaces'); } });
 Object.defineProperty(exports, 'ipVrf', { get: function () { return require('./ip-vrf'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#metadata DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#metadata DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#spec DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#spec DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#annotations DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#annotations DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#labels DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#labels DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#namespace DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#namespace DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#services DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#services DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -383,13 +383,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#scope DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#scope DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnectionInlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#secret_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#secret_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -511,13 +511,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#secret_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#secret_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#web_pki DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#web_pki DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -642,7 +642,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#ca_cert DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#ca_cert DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnectionInlineTlsVerificationServerCaCert;
 }
@@ -735,13 +735,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#none DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#none DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#server DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#server DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnectionInlineTlsVerificationServer;
 }
@@ -866,7 +866,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#verification DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#verification DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnectionInlineTlsVerification;
 }
@@ -959,31 +959,31 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#access_style DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#access_style DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#credentials DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#credentials DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnectionInlineCredentials;
   /**
   * Hostname of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#host DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#host DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#port DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#port DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * If you want to use TLS when talking to S3 you can enable TLS encrypted communication with this setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#tls DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#tls DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnectionInlineTls;
 }
@@ -1195,13 +1195,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * Inline definition of an S3 connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#inline DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#inline DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnectionInline;
   /**
   * A reference to an S3Connection resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#reference DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#reference DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -1326,13 +1326,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * The name of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#bucket_name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#bucket_name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * The definition of an S3 connection, either inline or as a reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#connection DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#connection DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#connection}
   */
   readonly connection?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3InlineConnection;
 }
@@ -1457,13 +1457,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * An inline definition, containing the S3 bucket properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#inline DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#inline DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3Inline;
   /**
   * A reference to an S3 bucket object. This is simply the name of the 'S3Bucket' resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#reference DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#reference DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -1588,11 +1588,11 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterCon
   /**
   * An S3 bucket definition, it can either be a reference to an explicit S3Bucket object, or it can be an inline definition of a bucket. Read the [S3 resources concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3) to learn more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#s3 DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#s3 DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#s3}
   */
   readonly s3: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonosS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#token_secret DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#token_secret DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#token_secret}
   */
   readonly tokenSecret: string;
 }
@@ -1709,23 +1709,23 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigI
 }
 export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cert_secret DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cert_secret DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cert_secret}
   */
   readonly certSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#ionos DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#ionos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#ionos DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#ionos}
   */
   readonly ionos: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfigIonos;
   /**
   * In the future this setting will control, which ListenerClass <https://docs.stackable.tech/home/stable/listener-operator/listenerclass.html> will be used to expose the service. Currently only a subset of the ListenerClasses are supported by choosing the type of the created Services by looking at the ListenerClass name specified, In a future release support for custom ListenerClasses will be introduced without a breaking change: * cluster-internal: Use a ClusterIP service * external-unstable: Use a NodePort service * external-stable: Use a LoadBalancer service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#listener_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#listener_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#listener_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#listener_class}
   */
   readonly listenerClass?: string;
   /**
   * Name of the Vector aggregator discovery ConfigMap. It must contain the key 'ADDRESS' with the address of the Vector aggregator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
 }
@@ -1902,13 +1902,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterOpe
   /**
   * Flag to stop cluster reconciliation by the operator. This means that all changes in the custom resource spec are ignored until this flag is set to false or removed. The operator will however still watch the deployed resources at the time and update the custom resource status field. If applied at the same time with 'stopped', 'reconciliationPaused' will take precedence over 'stopped' and stop the reconciliation immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#reconciliation_paused DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#reconciliation_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#reconciliation_paused DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#reconciliation_paused}
   */
   readonly reconciliationPaused?: boolean | cdktf.IResolvable;
   /**
   * Flag to stop the cluster. This means all deployed resources (e.g. Services, StatefulSets, ConfigMaps) are kept but all deployed Pods (e.g. replicas from a StatefulSet) are scaled to 0 and therefore stopped and removed. If applied at the same time with 'reconciliationPaused', the latter will pause reconciliation and 'stopped' will take no effect until 'reconciliationPaused' is set to false or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#stopped DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#stopped DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
 }
@@ -2033,25 +2033,25 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_selector DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_selector DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity: { [key: string]: string };
 }
@@ -2225,7 +2225,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2321,7 +2321,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_map DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_map DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -2417,7 +2417,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2513,7 +2513,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2609,25 +2609,25 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#console DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#console DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#custom DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#custom DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#file DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#file DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#loggers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#loggers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigLoggingContainersLoggers;
 }
@@ -2810,13 +2810,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#containers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#containers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#enable_vector_agent DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#enable_vector_agent DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -2941,13 +2941,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#max DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#max DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#min DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#min DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -3072,13 +3072,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#limit DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#limit DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#runtime_limits DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#runtime_limits DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -3203,19 +3203,19 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#key DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#key DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#operator DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#operator DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#values DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#values DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3385,13 +3385,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_expressions DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_expressions DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResourcesStorageDataSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_labels DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_labels DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3516,17 +3516,17 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#capacity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#capacity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#selectors DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#selectors DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResourcesStorageDataSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -3678,7 +3678,7 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConf
 }
 export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResourcesStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#data DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#data DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#data}
   */
   readonly data?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResourcesStorageData;
 }
@@ -3772,15 +3772,15 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConf
 }
 export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cpu DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cpu DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#memory DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#memory DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResourcesStorage;
 }
@@ -3934,19 +3934,19 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigAffinity;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#logging DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#logging DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#resources DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#resources DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfigResources;
 }
@@ -4100,13 +4100,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#enabled DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#enabled DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#max_unavailable DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#max_unavailable DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -4231,7 +4231,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleConfigPodDisruptionBudget;
 }
@@ -4327,25 +4327,25 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_selector DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#node_selector DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity: { [key: string]: string };
 }
@@ -4519,7 +4519,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -4615,7 +4615,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_map DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_map DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -4711,7 +4711,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -4807,7 +4807,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#level DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -4903,25 +4903,25 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#console DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#console DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#custom DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#custom DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#file DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#file DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#loggers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#loggers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -5104,13 +5104,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#containers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#containers DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#enable_vector_agent DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#enable_vector_agent DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -5235,13 +5235,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#max DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#max DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#min DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#min DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -5366,13 +5366,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#limit DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#limit DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#runtime_limits DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#runtime_limits DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -5497,19 +5497,19 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#key DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#key DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#operator DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#operator DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#values DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#values DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5679,13 +5679,13 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_expressions DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_expressions DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResourcesStorageDataSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_labels DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#match_labels DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5810,17 +5810,17 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#capacity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#capacity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#selectors DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#selectors DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResourcesStorageDataSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage_class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -5972,7 +5972,7 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRole
 }
 export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResourcesStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#data DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#data DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#data}
   */
   readonly data?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResourcesStorageData;
 }
@@ -6066,15 +6066,15 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRole
 }
 export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cpu DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cpu DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#memory DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#memory DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#storage DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResourcesStorage;
 }
@@ -6228,19 +6228,19 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#affinity DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigAffinity;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#logging DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#logging DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#resources DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#resources DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfigResources;
 }
@@ -6392,33 +6392,33 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRole
 }
 export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cli_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cli_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#env_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#env_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#replicas DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#replicas DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -6657,39 +6657,39 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRole
 }
 export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cli_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cli_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#config_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#env_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#env_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pod_overrides DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#role_config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#role_config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#role_groups DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#role_groups DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectorsRoleGroups;
 }
@@ -6956,7 +6956,7 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecImagePullS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#name DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7074,37 +7074,37 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecImage {
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#custom DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#custom DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#product_version DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#product_version DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pull_policy DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pull_policy DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pull_secrets DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#pull_secrets DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#repo DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#repo DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#stackable_version DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#stackable_version DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -7345,25 +7345,25 @@ export interface DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpec {
   /**
   * General Hive metastore cluster settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cluster_config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cluster_config DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterConfig;
   /**
   * Cluster operations like pause reconciliation or cluster stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cluster_operation DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cluster_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#cluster_operation DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#cluster_operation}
   */
   readonly clusterOperation?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecClusterOperation;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#connectors DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#connectors DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#connectors}
   */
   readonly connectors?: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecConnectors;
   /**
   * The image to use. In this example this will be an nginx image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#image DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#image DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest#image}
   */
   readonly image: DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecImage;
 }
@@ -7538,7 +7538,7 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest k8s_edc_stackable_tech_edc_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest k8s_edc_stackable_tech_edc_cluster_v1alpha1_manifest}
 */
 export class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -7554,7 +7554,7 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7566,7 +7566,7 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest k8s_edc_stackable_tech_edc_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/edc_stackable_tech_edc_cluster_v1alpha1_manifest k8s_edc_stackable_tech_edc_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7577,8 +7577,8 @@ export class DataK8SEdcStackableTechEdcClusterV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_edc_stackable_tech_edc_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

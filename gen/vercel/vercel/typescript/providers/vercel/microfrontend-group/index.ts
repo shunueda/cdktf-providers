@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MicrofrontendGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The default app for the project. Used as the entry point for the microfrontend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group#default_app MicrofrontendGroup#default_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group#default_app MicrofrontendGroup#default_app}
   */
   readonly defaultApp: MicrofrontendGroupDefaultApp;
   /**
   * A human readable name for the microfrontends group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group#name MicrofrontendGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group#name MicrofrontendGroup#name}
   */
   readonly name: string;
   /**
   * The team ID to add the microfrontend group to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group#team_id MicrofrontendGroup#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group#team_id MicrofrontendGroup#team_id}
   */
   readonly teamId?: string;
 }
@@ -30,13 +30,13 @@ export interface MicrofrontendGroupDefaultApp {
   /**
   * The default route for the project. Used for the screenshot of deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group#default_route MicrofrontendGroup#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group#default_route MicrofrontendGroup#default_route}
   */
   readonly defaultRoute?: string;
   /**
   * The ID of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group#project_id MicrofrontendGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group#project_id MicrofrontendGroup#project_id}
   */
   readonly projectId: string;
 }
@@ -156,7 +156,7 @@ export class MicrofrontendGroupDefaultAppOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group vercel_microfrontend_group}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group vercel_microfrontend_group}
 */
 export class MicrofrontendGroup extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class MicrofrontendGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MicrofrontendGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MicrofrontendGroup to import
-  * @param importFromId The id of the existing MicrofrontendGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MicrofrontendGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MicrofrontendGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class MicrofrontendGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group vercel_microfrontend_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/microfrontend_group vercel_microfrontend_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class MicrofrontendGroup extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_microfrontend_group',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CrChainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#chain_name CrChain#chain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#chain_name CrChain#chain_name}
   */
   readonly chainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#description CrChain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#description CrChain#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#id CrChain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#id CrChain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#instance_id CrChain#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#instance_id CrChain#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#repo_name CrChain#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#repo_name CrChain#repo_name}
   */
   readonly repoName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#repo_namespace_name CrChain#repo_namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#repo_namespace_name CrChain#repo_namespace_name}
   */
   readonly repoNamespaceName?: string;
   /**
   * chain_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#chain_config CrChain#chain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#chain_config CrChain#chain_config}
   */
   readonly chainConfig?: CrChainChainConfig[] | cdktf.IResolvable;
 }
 export interface CrChainChainConfigNodesNodeConfigDenyPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#action CrChain#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#action CrChain#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#issue_count CrChain#issue_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#issue_count CrChain#issue_count}
   */
   readonly issueCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#issue_level CrChain#issue_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#issue_level CrChain#issue_level}
   */
   readonly issueLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#logic CrChain#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#logic CrChain#logic}
   */
   readonly logic?: string;
 }
@@ -260,7 +260,7 @@ export interface CrChainChainConfigNodesNodeConfig {
   /**
   * deny_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#deny_policy CrChain#deny_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#deny_policy CrChain#deny_policy}
   */
   readonly denyPolicy?: CrChainChainConfigNodesNodeConfigDenyPolicy[] | cdktf.IResolvable;
 }
@@ -376,17 +376,17 @@ export class CrChainChainConfigNodesNodeConfigList extends cdktf.ComplexList {
 }
 export interface CrChainChainConfigNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#enable CrChain#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#enable CrChain#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#node_name CrChain#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#node_name CrChain#node_name}
   */
   readonly nodeName?: string;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#node_config CrChain#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#node_config CrChain#node_config}
   */
   readonly nodeConfig?: CrChainChainConfigNodesNodeConfig[] | cdktf.IResolvable;
 }
@@ -560,7 +560,7 @@ export class CrChainChainConfigNodesList extends cdktf.ComplexList {
 }
 export interface CrChainChainConfigRoutersFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#node_name CrChain#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#node_name CrChain#node_name}
   */
   readonly nodeName?: string;
 }
@@ -676,7 +676,7 @@ export class CrChainChainConfigRoutersFromList extends cdktf.ComplexList {
 }
 export interface CrChainChainConfigRoutersTo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#node_name CrChain#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#node_name CrChain#node_name}
   */
   readonly nodeName?: string;
 }
@@ -794,13 +794,13 @@ export interface CrChainChainConfigRouters {
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#from CrChain#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#from CrChain#from}
   */
   readonly from?: CrChainChainConfigRoutersFrom[] | cdktf.IResolvable;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#to CrChain#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#to CrChain#to}
   */
   readonly to?: CrChainChainConfigRoutersTo[] | cdktf.IResolvable;
 }
@@ -947,13 +947,13 @@ export interface CrChainChainConfig {
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#nodes CrChain#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#nodes CrChain#nodes}
   */
   readonly nodes?: CrChainChainConfigNodes[] | cdktf.IResolvable;
   /**
   * routers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#routers CrChain#routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#routers CrChain#routers}
   */
   readonly routers?: CrChainChainConfigRouters[] | cdktf.IResolvable;
 }
@@ -1098,7 +1098,7 @@ export class CrChainChainConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain alicloud_cr_chain}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain alicloud_cr_chain}
 */
 export class CrChain extends cdktf.TerraformResource {
 
@@ -1114,7 +1114,7 @@ export class CrChain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CrChain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CrChain to import
-  * @param importFromId The id of the existing CrChain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CrChain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CrChain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1126,7 +1126,7 @@ export class CrChain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cr_chain alicloud_cr_chain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_chain alicloud_cr_chain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1137,8 +1137,8 @@ export class CrChain extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cr_chain',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

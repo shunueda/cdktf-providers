@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface CloudSsoAccessConfigurationProvisioningConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning#access_configuration_id CloudSsoAccessConfigurationProvisioning#access_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning#access_configuration_id CloudSsoAccessConfigurationProvisioning#access_configuration_id}
   */
   readonly accessConfigurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning#directory_id CloudSsoAccessConfigurationProvisioning#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning#directory_id CloudSsoAccessConfigurationProvisioning#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning#id CloudSsoAccessConfigurationProvisioning#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning#id CloudSsoAccessConfigurationProvisioning#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning#status CloudSsoAccessConfigurationProvisioning#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning#status CloudSsoAccessConfigurationProvisioning#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning#target_id CloudSsoAccessConfigurationProvisioning#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning#target_id CloudSsoAccessConfigurationProvisioning#target_id}
   */
   readonly targetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning#target_type CloudSsoAccessConfigurationProvisioning#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning#target_type CloudSsoAccessConfigurationProvisioning#target_type}
   */
   readonly targetType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning alicloud_cloud_sso_access_configuration_provisioning}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning alicloud_cloud_sso_access_configuration_provisioning}
 */
 export class CloudSsoAccessConfigurationProvisioning extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class CloudSsoAccessConfigurationProvisioning extends cdktf.TerraformReso
   * Generates CDKTF code for importing a CloudSsoAccessConfigurationProvisioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudSsoAccessConfigurationProvisioning to import
-  * @param importFromId The id of the existing CloudSsoAccessConfigurationProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudSsoAccessConfigurationProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudSsoAccessConfigurationProvisioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class CloudSsoAccessConfigurationProvisioning extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration_provisioning alicloud_cloud_sso_access_configuration_provisioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration_provisioning alicloud_cloud_sso_access_configuration_provisioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class CloudSsoAccessConfigurationProvisioning extends cdktf.TerraformReso
       terraformResourceType: 'alicloud_cloud_sso_access_configuration_provisioning',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

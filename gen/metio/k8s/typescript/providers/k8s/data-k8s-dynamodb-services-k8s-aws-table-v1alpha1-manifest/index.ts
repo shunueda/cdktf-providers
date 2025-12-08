@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#metadata DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#metadata DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestMetadata;
   /**
   * TableSpec defines the desired state of Table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#spec DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#spec DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#annotations DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#annotations DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#labels DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#labels DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#namespace DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#namespace DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecAttributeDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_type}
   */
   readonly attributeType?: string;
 }
@@ -366,7 +366,7 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecAttributeDefi
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecContinuousBackups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#point_in_time_recovery_enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#point_in_time_recovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#point_in_time_recovery_enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#point_in_time_recovery_enabled}
   */
   readonly pointInTimeRecoveryEnabled?: boolean | cdktf.IResolvable;
 }
@@ -460,11 +460,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecContinuousBac
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexesKeySchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_type}
   */
   readonly keyType?: string;
 }
@@ -609,11 +609,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSeconda
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexesProjection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#non_key_attributes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#non_key_attributes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection_type}
   */
   readonly projectionType?: string;
 }
@@ -736,11 +736,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSeconda
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexesProvisionedThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#read_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#read_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#write_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#write_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#write_capacity_units}
   */
   readonly writeCapacityUnits?: number;
 }
@@ -863,23 +863,23 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSeconda
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#index_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#index_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_schema DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_schema DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_schema}
   */
   readonly keySchema?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexesKeySchema[] | cdktf.IResolvable;
   /**
   * Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection}
   */
   readonly projection?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexesProjection;
   /**
   * Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the UpdateTable operation. For current minimum and maximum provisioned throughput values, see Service, Account, and Table Quotas (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the Amazon DynamoDB Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#provisioned_throughput DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#provisioned_throughput DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#provisioned_throughput}
   */
   readonly provisionedThroughput?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexesProvisionedThroughput;
 }
@@ -1082,11 +1082,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSeconda
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecKeySchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_type}
   */
   readonly keyType?: string;
 }
@@ -1231,11 +1231,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecKeySchemaList
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondaryIndexesKeySchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_type}
   */
   readonly keyType?: string;
 }
@@ -1380,11 +1380,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondar
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondaryIndexesProjection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#non_key_attributes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#non_key_attributes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection_type}
   */
   readonly projectionType?: string;
 }
@@ -1507,17 +1507,17 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondar
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondaryIndexes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#index_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#index_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_schema DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_schema DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_schema}
   */
   readonly keySchema?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondaryIndexesKeySchema[] | cdktf.IResolvable;
   /**
   * Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#projection DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#projection}
   */
   readonly projection?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondaryIndexesProjection;
 }
@@ -1691,11 +1691,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondar
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecProvisionedThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#read_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#read_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#write_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#write_capacity_units DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#write_capacity_units}
   */
   readonly writeCapacityUnits?: number;
 }
@@ -1818,15 +1818,15 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecProvisionedTh
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecSseSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#kms_master_key_id DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#kms_master_key_id DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#sse_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#sse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#sse_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#sse_type}
   */
   readonly sseType?: string;
 }
@@ -1978,11 +1978,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecSseSpecificat
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecStreamSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#stream_enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#stream_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#stream_enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#stream_enabled}
   */
   readonly streamEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#stream_view_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#stream_view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#stream_view_type DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#stream_view_type}
   */
   readonly streamViewType?: string;
 }
@@ -2105,11 +2105,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecStreamSpecifi
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#value DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#value DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2254,11 +2254,11 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecTagsList exte
 }
 export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecTimeToLive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2383,85 +2383,85 @@ export interface DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpec {
   /**
   * An array of attributes that describe the key schema for the table and indexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_definitions DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#attribute_definitions DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#attribute_definitions}
   */
   readonly attributeDefinitions: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecAttributeDefinitions[] | cdktf.IResolvable;
   /**
   * Controls how you are charged for read and write throughput and how you manage capacity. This setting can be changed later. * PROVISIONED - We recommend using PROVISIONED for predictable workloads. PROVISIONED sets the billing mode to Provisioned Mode (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadWriteCapacityMode.html#HowItWorks.ProvisionedThroughput.Manual). * PAY_PER_REQUEST - We recommend using PAY_PER_REQUEST for unpredictable workloads. PAY_PER_REQUEST sets the billing mode to On-Demand Mode (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadWriteCapacityMode.html#HowItWorks.OnDemand).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#billing_mode DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#billing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#billing_mode DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#billing_mode}
   */
   readonly billingMode?: string;
   /**
   * Represents the settings used to enable point in time recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#continuous_backups DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#continuous_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#continuous_backups DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#continuous_backups}
   */
   readonly continuousBackups?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecContinuousBackups;
   /**
   * Indicates whether deletion protection is to be enabled (true) or disabled (false) on the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#deletion_protection_enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#deletion_protection_enabled DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * One or more global secondary indexes (the maximum is 20) to be created on the table. Each global secondary index in the array includes the following: * IndexName - The name of the global secondary index. Must be unique only for this table. * KeySchema - Specifies the key schema for the global secondary index. * Projection - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of: ProjectionType - One of the following: KEYS_ONLY - Only the index and primary keys are projected into the index. INCLUDE - Only the specified table attributes are projected into the index. The list of projected attributes is in NonKeyAttributes. ALL - All of the table attributes are projected into the index. NonKeyAttributes - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes provided in NonKeyAttributes, summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. * ProvisionedThroughput - The provisioned throughput settings for the global secondary index, consisting of read and write capacity units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#global_secondary_indexes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#global_secondary_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#global_secondary_indexes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#global_secondary_indexes}
   */
   readonly globalSecondaryIndexes?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecGlobalSecondaryIndexes[] | cdktf.IResolvable;
   /**
   * Specifies the attributes that make up the primary key for a table or an index. The attributes in KeySchema must also be defined in the AttributeDefinitions array. For more information, see Data Model (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DataModel.html) in the Amazon DynamoDB Developer Guide. Each KeySchemaElement in the array is composed of: * AttributeName - The name of this key attribute. * KeyType - The role that the key attribute will assume: HASH - partition key RANGE - sort key The partition key of an item is also known as its hash attribute. The term 'hash attribute' derives from the DynamoDB usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values. The sort key of an item is also known as its range attribute. The term 'range attribute' derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value. For a simple primary key (partition key), you must provide exactly one element with a KeyType of HASH. For a composite primary key (partition key and sort key), you must provide exactly two elements, in this order: The first element must have a KeyType of HASH, and the second element must have a KeyType of RANGE. For more information, see Working with Tables (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.html#WorkingWithTables.primary.key) in the Amazon DynamoDB Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_schema DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#key_schema DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#key_schema}
   */
   readonly keySchema: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecKeySchema[] | cdktf.IResolvable;
   /**
   * One or more local secondary indexes (the maximum is 5) to be created on the table. Each index is scoped to a given partition key value. There is a 10 GB size limit per partition key value; otherwise, the size of a local secondary index is unconstrained. Each local secondary index in the array includes the following: * IndexName - The name of the local secondary index. Must be unique only for this table. * KeySchema - Specifies the key schema for the local secondary index. The key schema must begin with the same partition key as the table. * Projection - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of: ProjectionType - One of the following: KEYS_ONLY - Only the index and primary keys are projected into the index. INCLUDE - Only the specified table attributes are projected into the index. The list of projected attributes is in NonKeyAttributes. ALL - All of the table attributes are projected into the index. NonKeyAttributes - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes provided in NonKeyAttributes, summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#local_secondary_indexes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#local_secondary_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#local_secondary_indexes DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#local_secondary_indexes}
   */
   readonly localSecondaryIndexes?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecLocalSecondaryIndexes[] | cdktf.IResolvable;
   /**
   * Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the UpdateTable operation. If you set BillingMode as PROVISIONED, you must specify this property. If you set BillingMode as PAY_PER_REQUEST, you cannot specify this property. For current minimum and maximum provisioned throughput values, see Service, Account, and Table Quotas (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the Amazon DynamoDB Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#provisioned_throughput DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#provisioned_throughput DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#provisioned_throughput}
   */
   readonly provisionedThroughput?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecProvisionedThroughput;
   /**
   * Represents the settings used to enable server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#sse_specification DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#sse_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#sse_specification DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#sse_specification}
   */
   readonly sseSpecification?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecSseSpecification;
   /**
   * The settings for DynamoDB Streams on the table. These settings consist of: * StreamEnabled - Indicates whether DynamoDB Streams is to be enabled (true) or disabled (false). * StreamViewType - When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values for StreamViewType are: KEYS_ONLY - Only the key attributes of the modified item are written to the stream. NEW_IMAGE - The entire item, as it appears after it was modified, is written to the stream. OLD_IMAGE - The entire item, as it appeared before it was modified, is written to the stream. NEW_AND_OLD_IMAGES - Both the new and the old item images of the item are written to the stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#stream_specification DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#stream_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#stream_specification DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#stream_specification}
   */
   readonly streamSpecification?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecStreamSpecification;
   /**
   * The table class of the new table. Valid values are STANDARD and STANDARD_INFREQUENT_ACCESS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#table_class DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#table_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#table_class DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#table_class}
   */
   readonly tableClass?: string;
   /**
   * The name of the table to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#table_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#table_name DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#table_name}
   */
   readonly tableName: string;
   /**
   * A list of key-value pairs to label the table. For more information, see Tagging for DynamoDB (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tagging.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#tags DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#tags DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Represents the settings used to enable or disable Time to Live for the specified table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#time_to_live DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#time_to_live DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest#time_to_live}
   */
   readonly timeToLive?: DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecTimeToLive;
 }
@@ -2923,7 +2923,7 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest k8s_dynamodb_services_k8s_aws_table_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest k8s_dynamodb_services_k8s_aws_table_v1alpha1_manifest}
 */
 export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2939,7 +2939,7 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2951,7 +2951,7 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest k8s_dynamodb_services_k8s_aws_table_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dynamodb_services_k8s_aws_table_v1alpha1_manifest k8s_dynamodb_services_k8s_aws_table_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2962,8 +2962,8 @@ export class DataK8SDynamodbServicesK8SAwsTableV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_dynamodb_services_k8s_aws_table_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

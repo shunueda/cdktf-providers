@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNativestorAlaudaIoRawDeviceV1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#metadata DataK8SNativestorAlaudaIoRawDeviceV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#metadata DataK8SNativestorAlaudaIoRawDeviceV1Manifest#metadata}
   */
   readonly metadata: DataK8SNativestorAlaudaIoRawDeviceV1ManifestMetadata;
   /**
   * RawDeviceSpec defines the desired state of RawDevice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#spec DataK8SNativestorAlaudaIoRawDeviceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#spec DataK8SNativestorAlaudaIoRawDeviceV1Manifest#spec}
   */
   readonly spec?: DataK8SNativestorAlaudaIoRawDeviceV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SNativestorAlaudaIoRawDeviceV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#annotations DataK8SNativestorAlaudaIoRawDeviceV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#annotations DataK8SNativestorAlaudaIoRawDeviceV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#labels DataK8SNativestorAlaudaIoRawDeviceV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#labels DataK8SNativestorAlaudaIoRawDeviceV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#name DataK8SNativestorAlaudaIoRawDeviceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#name DataK8SNativestorAlaudaIoRawDeviceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,37 +185,37 @@ export class DataK8SNativestorAlaudaIoRawDeviceV1ManifestMetadataOutputReference
 }
 export interface DataK8SNativestorAlaudaIoRawDeviceV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#available DataK8SNativestorAlaudaIoRawDeviceV1Manifest#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#available DataK8SNativestorAlaudaIoRawDeviceV1Manifest#available}
   */
   readonly available: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#major DataK8SNativestorAlaudaIoRawDeviceV1Manifest#major}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#major DataK8SNativestorAlaudaIoRawDeviceV1Manifest#major}
   */
   readonly major: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#minor DataK8SNativestorAlaudaIoRawDeviceV1Manifest#minor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#minor DataK8SNativestorAlaudaIoRawDeviceV1Manifest#minor}
   */
   readonly minor: number;
   /**
   * INSERT ADDITIONAL SPEC FIELDS - desired state of cluster Important: Run 'make' to regenerate code after modifying this file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#node_name DataK8SNativestorAlaudaIoRawDeviceV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#node_name DataK8SNativestorAlaudaIoRawDeviceV1Manifest#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#real_path DataK8SNativestorAlaudaIoRawDeviceV1Manifest#real_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#real_path DataK8SNativestorAlaudaIoRawDeviceV1Manifest#real_path}
   */
   readonly realPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#size DataK8SNativestorAlaudaIoRawDeviceV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#size DataK8SNativestorAlaudaIoRawDeviceV1Manifest#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#type DataK8SNativestorAlaudaIoRawDeviceV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#type DataK8SNativestorAlaudaIoRawDeviceV1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#uuid DataK8SNativestorAlaudaIoRawDeviceV1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#uuid DataK8SNativestorAlaudaIoRawDeviceV1Manifest#uuid}
   */
   readonly uuid: string;
 }
@@ -488,7 +488,7 @@ export class DataK8SNativestorAlaudaIoRawDeviceV1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest k8s_nativestor_alauda_io_raw_device_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest k8s_nativestor_alauda_io_raw_device_v1_manifest}
 */
 export class DataK8SNativestorAlaudaIoRawDeviceV1Manifest extends cdktf.TerraformDataSource {
 
@@ -504,7 +504,7 @@ export class DataK8SNativestorAlaudaIoRawDeviceV1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SNativestorAlaudaIoRawDeviceV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNativestorAlaudaIoRawDeviceV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNativestorAlaudaIoRawDeviceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNativestorAlaudaIoRawDeviceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNativestorAlaudaIoRawDeviceV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -516,7 +516,7 @@ export class DataK8SNativestorAlaudaIoRawDeviceV1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest k8s_nativestor_alauda_io_raw_device_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nativestor_alauda_io_raw_device_v1_manifest k8s_nativestor_alauda_io_raw_device_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -527,8 +527,8 @@ export class DataK8SNativestorAlaudaIoRawDeviceV1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_nativestor_alauda_io_raw_device_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

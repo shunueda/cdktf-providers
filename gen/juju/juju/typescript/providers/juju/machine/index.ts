@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,79 @@ export interface MachineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations are key/value pairs that can be used to store additional information about the machine. May not contain dots (.) in keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#annotations Machine#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#annotations Machine#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The operating system to install on the new machine(s). E.g. ubuntu@22.04. Changing this value will cause the machine to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#base Machine#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#base Machine#base}
   */
   readonly base?: string;
   /**
   * Machine constraints that overwrite those available from 'juju get-model-constraints' and provider's defaults. Changing this value will cause the application to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#constraints Machine#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#constraints Machine#constraints}
   */
   readonly constraints?: string;
   /**
   * Storage constraints for disks to attach to the machine(s). Changing this value will cause the machine to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#disks Machine#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#disks Machine#disks}
   */
   readonly disks?: string;
   /**
-  * The Juju model's UUID to specify the model in which to add a new machine. Changing this value will cause the machine to be destroyed and recreated by terraform.
+  * The Juju model in which to add a new machine. Changing this value will cause the machine to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#model_uuid Machine#model_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#model Machine#model}
   */
-  readonly modelUuid: string;
+  readonly model: string;
   /**
   * A name for the machine resource in Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#name Machine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#name Machine#name}
   */
   readonly name?: string;
   /**
   * Additional information about how to allocate the machine in the cloud. Changing this value will cause the application to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#placement Machine#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#placement Machine#placement}
   */
   readonly placement?: string;
   /**
   * The file path to read the private key from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#private_key_file Machine#private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#private_key_file Machine#private_key_file}
   */
   readonly privateKeyFile?: string;
   /**
   * The file path to read the public key from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#public_key_file Machine#public_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#public_key_file Machine#public_key_file}
   */
   readonly publicKeyFile?: string;
   /**
+  * The operating system series to install on the new machine(s). Changing this value will cause the machine to be destroyed and recreated by terraform.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#series Machine#series}
+  */
+  readonly series?: string;
+  /**
   * The user@host directive for manual provisioning an existing machine via ssh. Requires public_key_file & private_key_file arguments. Changing this value will cause the machine to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#ssh_address Machine#ssh_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#ssh_address Machine#ssh_address}
   */
   readonly sshAddress?: string;
   /**
   * If true, waits for the machine's hostname to be set during creation. A side effect is that this also waits for the machine to reach 'active' state in Juju.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#wait_for_hostname Machine#wait_for_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#wait_for_hostname Machine#wait_for_hostname}
   */
   readonly waitForHostname?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#timeouts Machine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#timeouts Machine#timeouts}
   */
   readonly timeouts?: MachineTimeouts;
 }
@@ -84,7 +90,7 @@ export interface MachineTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#create Machine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#create Machine#create}
   */
   readonly create?: string;
 }
@@ -178,7 +184,7 @@ export class MachineTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine juju_machine}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine juju_machine}
 */
 export class Machine extends cdktf.TerraformResource {
 
@@ -194,7 +200,7 @@ export class Machine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Machine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Machine to import
-  * @param importFromId The id of the existing Machine that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Machine that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Machine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +212,7 @@ export class Machine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/machine juju_machine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/machine juju_machine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +223,8 @@ export class Machine extends cdktf.TerraformResource {
       terraformResourceType: 'juju_machine',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -232,11 +238,12 @@ export class Machine extends cdktf.TerraformResource {
     this._base = config.base;
     this._constraints = config.constraints;
     this._disks = config.disks;
-    this._modelUuid = config.modelUuid;
+    this._model = config.model;
     this._name = config.name;
     this._placement = config.placement;
     this._privateKeyFile = config.privateKeyFile;
     this._publicKeyFile = config.publicKeyFile;
+    this._series = config.series;
     this._sshAddress = config.sshAddress;
     this._waitForHostname = config.waitForHostname;
     this._timeouts.internalValue = config.timeouts;
@@ -325,17 +332,17 @@ export class Machine extends cdktf.TerraformResource {
     return this.getStringAttribute('machine_id');
   }
 
-  // model_uuid - computed: false, optional: false, required: true
-  private _modelUuid?: string; 
-  public get modelUuid() {
-    return this.getStringAttribute('model_uuid');
+  // model - computed: false, optional: false, required: true
+  private _model?: string; 
+  public get model() {
+    return this.getStringAttribute('model');
   }
-  public set modelUuid(value: string) {
-    this._modelUuid = value;
+  public set model(value: string) {
+    this._model = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelUuidInput() {
-    return this._modelUuid;
+  public get modelInput() {
+    return this._model;
   }
 
   // name - computed: true, optional: true, required: false
@@ -402,6 +409,22 @@ export class Machine extends cdktf.TerraformResource {
     return this._publicKeyFile;
   }
 
+  // series - computed: true, optional: true, required: false
+  private _series?: string; 
+  public get series() {
+    return this.getStringAttribute('series');
+  }
+  public set series(value: string) {
+    this._series = value;
+  }
+  public resetSeries() {
+    this._series = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seriesInput() {
+    return this._series;
+  }
+
   // ssh_address - computed: false, optional: true, required: false
   private _sshAddress?: string; 
   public get sshAddress() {
@@ -460,11 +483,12 @@ export class Machine extends cdktf.TerraformResource {
       base: cdktf.stringToTerraform(this._base),
       constraints: cdktf.stringToTerraform(this._constraints),
       disks: cdktf.stringToTerraform(this._disks),
-      model_uuid: cdktf.stringToTerraform(this._modelUuid),
+      model: cdktf.stringToTerraform(this._model),
       name: cdktf.stringToTerraform(this._name),
       placement: cdktf.stringToTerraform(this._placement),
       private_key_file: cdktf.stringToTerraform(this._privateKeyFile),
       public_key_file: cdktf.stringToTerraform(this._publicKeyFile),
+      series: cdktf.stringToTerraform(this._series),
       ssh_address: cdktf.stringToTerraform(this._sshAddress),
       wait_for_hostname: cdktf.booleanToTerraform(this._waitForHostname),
       timeouts: machineTimeoutsToTerraform(this._timeouts.internalValue),
@@ -497,8 +521,8 @@ export class Machine extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      model_uuid: {
-        value: cdktf.stringToHclTerraform(this._modelUuid),
+      model: {
+        value: cdktf.stringToHclTerraform(this._model),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -523,6 +547,12 @@ export class Machine extends cdktf.TerraformResource {
       },
       public_key_file: {
         value: cdktf.stringToHclTerraform(this._publicKeyFile),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      series: {
+        value: cdktf.stringToHclTerraform(this._series),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

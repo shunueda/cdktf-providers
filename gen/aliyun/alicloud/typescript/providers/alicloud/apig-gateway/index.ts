@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface ApigGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#gateway_name ApigGateway#gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#gateway_name ApigGateway#gateway_name}
   */
   readonly gatewayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#gateway_type ApigGateway#gateway_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#gateway_type ApigGateway#gateway_type}
   */
   readonly gatewayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#id ApigGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#id ApigGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#payment_type ApigGateway#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#payment_type ApigGateway#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#resource_group_id ApigGateway#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#resource_group_id ApigGateway#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#spec ApigGateway#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#spec ApigGateway#spec}
   */
   readonly spec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#tags ApigGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#tags ApigGateway#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#log_config ApigGateway#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#log_config ApigGateway#log_config}
   */
   readonly logConfig?: ApigGatewayLogConfig;
   /**
   * network_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#network_access_config ApigGateway#network_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#network_access_config ApigGateway#network_access_config}
   */
   readonly networkAccessConfig?: ApigGatewayNetworkAccessConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#timeouts ApigGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#timeouts ApigGateway#timeouts}
   */
   readonly timeouts?: ApigGatewayTimeouts;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#vpc ApigGateway#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#vpc ApigGateway#vpc}
   */
   readonly vpc?: ApigGatewayVpc;
   /**
   * vswitch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#vswitch ApigGateway#vswitch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#vswitch ApigGateway#vswitch}
   */
   readonly vswitch?: ApigGatewayVswitch;
   /**
   * zone_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#zone_config ApigGateway#zone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#zone_config ApigGateway#zone_config}
   */
   readonly zoneConfig: ApigGatewayZoneConfig;
   /**
   * zones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#zones ApigGateway#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#zones ApigGateway#zones}
   */
   readonly zones?: ApigGatewayZones[] | cdktf.IResolvable;
 }
 export interface ApigGatewayLogConfigSls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#enable ApigGateway#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#enable ApigGateway#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -169,7 +169,7 @@ export interface ApigGatewayLogConfig {
   /**
   * sls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#sls ApigGateway#sls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#sls ApigGateway#sls}
   */
   readonly sls?: ApigGatewayLogConfigSls;
 }
@@ -253,7 +253,7 @@ export class ApigGatewayLogConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface ApigGatewayNetworkAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#type ApigGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#type ApigGateway#type}
   */
   readonly type?: string;
 }
@@ -337,15 +337,15 @@ export class ApigGatewayNetworkAccessConfigOutputReference extends cdktf.Complex
 }
 export interface ApigGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#create ApigGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#create ApigGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#delete ApigGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#delete ApigGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#update ApigGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#update ApigGateway#update}
   */
   readonly update?: string;
 }
@@ -497,7 +497,7 @@ export class ApigGatewayTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface ApigGatewayVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#vpc_id ApigGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#vpc_id ApigGateway#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -583,7 +583,7 @@ export class ApigGatewayVpcOutputReference extends cdktf.ComplexObject {
 }
 export interface ApigGatewayVswitch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#vswitch_id ApigGateway#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#vswitch_id ApigGateway#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -672,7 +672,7 @@ export class ApigGatewayVswitchOutputReference extends cdktf.ComplexObject {
 }
 export interface ApigGatewayZoneConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#select_option ApigGateway#select_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#select_option ApigGateway#select_option}
   */
   readonly selectOption: string;
 }
@@ -753,11 +753,11 @@ export class ApigGatewayZoneConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface ApigGatewayZones {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#vswitch_id ApigGateway#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#vswitch_id ApigGateway#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#zone_id ApigGateway#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#zone_id ApigGateway#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -907,7 +907,7 @@ export class ApigGatewayZonesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway alicloud_apig_gateway}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway alicloud_apig_gateway}
 */
 export class ApigGateway extends cdktf.TerraformResource {
 
@@ -923,7 +923,7 @@ export class ApigGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigGateway to import
-  * @param importFromId The id of the existing ApigGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -935,7 +935,7 @@ export class ApigGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/apig_gateway alicloud_apig_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/apig_gateway alicloud_apig_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -946,8 +946,8 @@ export class ApigGateway extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_apig_gateway',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

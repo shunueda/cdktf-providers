@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#metadata DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#metadata DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestMetadata;
   /**
   * VMProbeSpec contains specification parameters for a Probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#spec DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#spec DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#namespace DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#namespace DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecAuth
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,19 +382,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecAuth
   /**
   * Reference to the secret with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecAuthorizationCredentials;
   /**
   * File with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Type of authorization, default to bearer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -548,19 +548,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBasi
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -711,19 +711,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBasi
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -874,19 +874,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBasi
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBasicAuthUsername;
 }
@@ -1040,19 +1040,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBear
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1203,61 +1203,61 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecMetr
   /**
   * Action to perform based on regex matching. Default is 'replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#action DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#action DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * If represents metricsQL match expression (or list of expressions): '{__name__=~'foo_.*'}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#if DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#if DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#if}
   */
   readonly if?: { [key: string]: string };
   /**
   * Labels is used together with Match for 'action: graphite'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Match is used together with Labels for 'action: graphite'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match}
   */
   readonly match?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#modulus DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#modulus DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)' victoriaMetrics supports multiline regex joined with | https://docs.victoriametrics.com/vmagent/#relabeling-enhancements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#regex DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#regex DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#regex}
   */
   readonly regex?: { [key: string]: string };
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#replacement DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#replacement DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#separator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#separator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#source_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#source_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#target_label DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#target_label DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -1636,19 +1636,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOaut
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1799,19 +1799,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOaut
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1962,13 +1962,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOaut
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOauth2ClientIdSecret;
 }
@@ -2093,19 +2093,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOaut
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2256,37 +2256,37 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOaut
   /**
   * The secret or configmap containing the OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOauth2ClientId;
   /**
   * The secret containing the OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOauth2ClientSecret;
   /**
   * ClientSecretFile defines path for client secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#client_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#client_secret_file}
   */
   readonly clientSecretFile?: string;
   /**
   * Parameters to append to the token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * OAuth2 scopes used for the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The URL to fetch the token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -2521,13 +2521,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * Boolean describing whether all namespaces are selected in contrast to a list restricting them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#any DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#any DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
   * List of namespace names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match_names DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match_names DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match_names}
   */
   readonly matchNames?: string[];
 }
@@ -2652,61 +2652,61 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * Action to perform based on regex matching. Default is 'replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#action DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#action DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * If represents metricsQL match expression (or list of expressions): '{__name__=~'foo_.*'}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#if DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#if DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#if}
   */
   readonly if?: { [key: string]: string };
   /**
   * Labels is used together with Match for 'action: graphite'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Match is used together with Labels for 'action: graphite'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match}
   */
   readonly match?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#modulus DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#modulus DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)' victoriaMetrics supports multiline regex joined with | https://docs.victoriametrics.com/vmagent/#relabeling-enhancements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#regex DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#regex DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#regex}
   */
   readonly regex?: { [key: string]: string };
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#replacement DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#replacement DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#separator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#separator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#source_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#source_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#target_label DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#target_label DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -3085,19 +3085,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#operator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#operator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#values DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#values DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3267,13 +3267,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match_expressions DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match_expressions DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargetsIngressSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3398,19 +3398,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * Select Ingress objects by namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#namespace_selector DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#namespace_selector DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargetsIngressNamespaceSelector;
   /**
   * RelabelConfigs to apply to samples during service discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#relabeling_configs DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#relabeling_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#relabeling_configs DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#relabeling_configs}
   */
   readonly relabelingConfigs?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargetsIngressRelabelingConfigs[] | cdktf.IResolvable;
   /**
   * Select Ingress objects by labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#selector DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#selector DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargetsIngressSelector;
 }
@@ -3564,61 +3564,61 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * Action to perform based on regex matching. Default is 'replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#action DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#action DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * If represents metricsQL match expression (or list of expressions): '{__name__=~'foo_.*'}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#if DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#if DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#if}
   */
   readonly if?: { [key: string]: string };
   /**
   * Labels is used together with Match for 'action: graphite'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Match is used together with Labels for 'action: graphite'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#match DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#match}
   */
   readonly match?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#modulus DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#modulus DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)' victoriaMetrics supports multiline regex joined with | https://docs.victoriametrics.com/vmagent/#relabeling-enhancements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#regex DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#regex DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#regex}
   */
   readonly regex?: { [key: string]: string };
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#replacement DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#replacement DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#separator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#separator DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#source_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#source_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#target_label DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#target_label DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -3997,19 +3997,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * Labels assigned to all metrics scraped from the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * RelabelConfigs to apply to samples during service discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#relabeling_configs DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#relabeling_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#relabeling_configs DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#relabeling_configs}
   */
   readonly relabelingConfigs?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargetsStaticConfigRelabelingConfigs[] | cdktf.IResolvable;
   /**
   * Targets is a list of URLs to probe using the configured prober.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#targets DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#targets DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#targets}
   */
   readonly targets: string[];
 }
@@ -4160,13 +4160,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTarg
   /**
   * Ingress defines the set of dynamically discovered ingress objects which hosts are considered for probing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ingress DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ingress DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ingress}
   */
   readonly ingress?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargetsIngress;
   /**
   * StaticConfig defines static targets which are considers for probing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#static_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#static_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#static_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#static_config}
   */
   readonly staticConfig?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargetsStaticConfig;
 }
@@ -4291,19 +4291,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4454,19 +4454,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4617,13 +4617,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfigCaSecret;
 }
@@ -4748,19 +4748,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4911,19 +4911,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5074,13 +5074,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfigCertSecret;
 }
@@ -5205,19 +5205,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5368,49 +5368,49 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsC
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -5709,19 +5709,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmPr
   /**
   * Path to collect metrics from. Defaults to '/probe'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#path DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#path DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * HTTP scheme to use for scraping. Defaults to 'http'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scheme DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scheme DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Mandatory URL of the prober.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#url}
   */
   readonly url: string;
 }
@@ -5872,19 +5872,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6035,19 +6035,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6198,19 +6198,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigBasicAuthUsername;
 }
@@ -6364,19 +6364,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6527,19 +6527,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6690,19 +6690,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6853,13 +6853,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfigCaSecret;
 }
@@ -6984,19 +6984,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7147,19 +7147,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7310,13 +7310,13 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfigCertSecret;
 }
@@ -7441,19 +7441,19 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7604,49 +7604,49 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -7945,23 +7945,23 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * BasicAuth allow an endpoint to authenticate over basic authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigBasicAuth;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token}
   */
   readonly bearerToken?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigBearerToken;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * TLSConfig specifies TLSConfig configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfigTlsConfig;
 }
@@ -8144,41 +8144,41 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmSc
   /**
   * DisableCompression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#disable_compression DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#disable_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#disable_compression DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#disable_compression}
   */
   readonly disableCompression?: boolean | cdktf.IResolvable;
   /**
   * disable_keepalive allows disabling HTTP keep-alive when scraping targets. By default, HTTP keep-alive is enabled, so TCP connections to scrape targets could be re-used. See https://docs.victoriametrics.com/vmagent#scrape_config-enhancements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#disable_keep_alive DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#disable_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#disable_keep_alive DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#disable_keep_alive}
   */
   readonly disableKeepAlive?: boolean | cdktf.IResolvable;
   /**
   * Headers allows sending custom headers to scrape targets must be in of semicolon separated header with it's value eg: headerName: headerValue vmagent supports since 1.79.0 version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#headers DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#headers DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#headers}
   */
   readonly headers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#no_stale_markers DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#no_stale_markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#no_stale_markers DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#no_stale_markers}
   */
   readonly noStaleMarkers?: boolean | cdktf.IResolvable;
   /**
   * ProxyClientConfig configures proxy auth settings for scraping See feature description https://docs.victoriametrics.com/vmagent#scraping-targets-via-a-proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#proxy_client_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#proxy_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#proxy_client_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#proxy_client_config}
   */
   readonly proxyClientConfig?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParamsProxyClientConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_align_interval DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_align_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_align_interval DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_align_interval}
   */
   readonly scrapeAlignInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_offset DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_offset DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_offset}
   */
   readonly scrapeOffset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#stream_parse DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#stream_parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#stream_parse DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#stream_parse}
   */
   readonly streamParse?: boolean | cdktf.IResolvable;
 }
@@ -8477,151 +8477,151 @@ export interface DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpec {
   /**
   * Authorization with http header Authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecAuthorization;
   /**
   * BasicAuth allow an endpoint to authenticate over basic authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBasicAuth;
   /**
   * File to read bearer token for scraping targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * Secret to mount to read bearer token for scraping targets. The secret needs to be in the same namespace as the scrape object and accessible by the victoria-metrics operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecBearerTokenSecret;
   /**
   * FollowRedirects controls redirects for scraping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#follow_redirects DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#follow_redirects DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * HonorLabels chooses the metric's labels on collisions with target labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#honor_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#honor_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#honor_labels DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#honor_labels}
   */
   readonly honorLabels?: boolean | cdktf.IResolvable;
   /**
   * HonorTimestamps controls whether vmagent respects the timestamps present in scraped data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#honor_timestamps DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#honor_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#honor_timestamps DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#honor_timestamps}
   */
   readonly honorTimestamps?: boolean | cdktf.IResolvable;
   /**
   * Interval at which metrics should be scraped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#interval DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#interval DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * The job name assigned to scraped metrics by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#job_name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#job_name DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#job_name}
   */
   readonly jobName?: string;
   /**
   * MaxScrapeSize defines a maximum size of scraped data for a job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#max_scrape_size DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#max_scrape_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#max_scrape_size DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#max_scrape_size}
   */
   readonly maxScrapeSize?: string;
   /**
   * MetricRelabelConfigs to apply to samples after scrapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#metric_relabel_configs DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#metric_relabel_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#metric_relabel_configs DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#metric_relabel_configs}
   */
   readonly metricRelabelConfigs?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecMetricRelabelConfigs[] | cdktf.IResolvable;
   /**
   * The module to use for probing specifying how to probe the target. Example module configuring in the blackbox exporter: https://github.com/prometheus/blackbox_exporter/blob/master/example.yml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#module DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#module DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#module}
   */
   readonly module?: string;
   /**
   * OAuth2 defines auth configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOauth2;
   /**
   * Optional HTTP URL parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#params DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#params DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#params}
   */
   readonly params?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * HTTP path to scrape for metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#path DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#path DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * ProxyURL eg http://proxyserver:2195 Directs scrapes to proxy through this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * SampleLimit defines per-scrape limit on number of scraped samples that will be accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#sample_limit DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#sample_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#sample_limit DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#sample_limit}
   */
   readonly sampleLimit?: number;
   /**
   * HTTP scheme to use for scraping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scheme DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scheme DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * ScrapeInterval is the same as Interval and has priority over it. one of scrape_interval or interval can be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_interval DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_interval DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_interval}
   */
   readonly scrapeInterval?: string;
   /**
   * Timeout after which the scrape is ended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_timeout DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#scrape_timeout DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#scrape_timeout}
   */
   readonly scrapeTimeout?: string;
   /**
   * SeriesLimit defines per-scrape limit on number of unique time series a single target can expose during all the scrapes on the time window of 24h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#series_limit DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#series_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#series_limit DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#series_limit}
   */
   readonly seriesLimit?: number;
   /**
   * Targets defines a set of static and/or dynamically discovered targets to be probed using the prober.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#targets DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#targets DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#targets}
   */
   readonly targets?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTargets;
   /**
   * TLSConfig configuration to use when scraping the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecTlsConfig;
   /**
   * Specification for the prober to use for probing targets. The prober.URL parameter is required. Targets cannot be probed if left empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#vm_prober_spec DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#vm_prober_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#vm_prober_spec DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#vm_prober_spec}
   */
   readonly vmProberSpec: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmProberSpec;
   /**
   * VMScrapeParams defines VictoriaMetrics specific scrape parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#vm_scrape_params DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#vm_scrape_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#vm_scrape_params DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest#vm_scrape_params}
   */
   readonly vmScrapeParams?: DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecVmScrapeParams;
 }
@@ -9408,7 +9408,7 @@ export class DataK8SOperatorVictoriametricsComVmProbeV1Beta1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest k8s_operator_victoriametrics_com_vm_probe_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest k8s_operator_victoriametrics_com_vm_probe_v1beta1_manifest}
 */
 export class DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -9424,7 +9424,7 @@ export class DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9436,7 +9436,7 @@ export class DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest k8s_operator_victoriametrics_com_vm_probe_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_victoriametrics_com_vm_probe_v1beta1_manifest k8s_operator_victoriametrics_com_vm_probe_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9447,8 +9447,8 @@ export class DataK8SOperatorVictoriametricsComVmProbeV1Beta1Manifest extends cdk
       terraformResourceType: 'k8s_operator_victoriametrics_com_vm_probe_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

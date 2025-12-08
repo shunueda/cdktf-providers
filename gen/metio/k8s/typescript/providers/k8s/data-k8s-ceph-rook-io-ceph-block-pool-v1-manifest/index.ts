@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#metadata DataK8SCephRookIoCephBlockPoolV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#metadata DataK8SCephRookIoCephBlockPoolV1Manifest#metadata}
   */
   readonly metadata: DataK8SCephRookIoCephBlockPoolV1ManifestMetadata;
   /**
   * NamedBlockPoolSpec allows a block pool to be created with a non-default name. This is more specific than the NamedPoolSpec so we get schema validation on the allowed pool names that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#spec DataK8SCephRookIoCephBlockPoolV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#spec DataK8SCephRookIoCephBlockPoolV1Manifest#spec}
   */
   readonly spec: DataK8SCephRookIoCephBlockPoolV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#annotations DataK8SCephRookIoCephBlockPoolV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#annotations DataK8SCephRookIoCephBlockPoolV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#labels DataK8SCephRookIoCephBlockPoolV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#labels DataK8SCephRookIoCephBlockPoolV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#name DataK8SCephRookIoCephBlockPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#name DataK8SCephRookIoCephBlockPoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#namespace DataK8SCephRookIoCephBlockPoolV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#namespace DataK8SCephRookIoCephBlockPoolV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecErasureCoded {
   /**
   * The algorithm for erasure coding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#algorithm DataK8SCephRookIoCephBlockPoolV1Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#algorithm DataK8SCephRookIoCephBlockPoolV1Manifest#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Number of coding chunks per object in an erasure coded storage pool (required for erasure-coded pool type). This is the number of OSDs that can be lost simultaneously before data cannot be recovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#coding_chunks DataK8SCephRookIoCephBlockPoolV1Manifest#coding_chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#coding_chunks DataK8SCephRookIoCephBlockPoolV1Manifest#coding_chunks}
   */
   readonly codingChunks: number;
   /**
   * Number of data chunks per object in an erasure coded storage pool (required for erasure-coded pool type). The number of chunks required to recover an object when any single OSD is lost is the same as dataChunks so be aware that the larger the number of data chunks, the higher the cost of recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#data_chunks DataK8SCephRookIoCephBlockPoolV1Manifest#data_chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#data_chunks DataK8SCephRookIoCephBlockPoolV1Manifest#data_chunks}
   */
   readonly dataChunks: number;
 }
@@ -379,7 +379,7 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecMirroringPeers {
   /**
   * SecretNames represents the Kubernetes Secret names to add rbd-mirror or cephfs-mirror peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#secret_names DataK8SCephRookIoCephBlockPoolV1Manifest#secret_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#secret_names DataK8SCephRookIoCephBlockPoolV1Manifest#secret_names}
   */
   readonly secretNames?: string[];
 }
@@ -475,19 +475,19 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecMirroringSnapshotSc
   /**
   * Interval represent the periodicity of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#interval DataK8SCephRookIoCephBlockPoolV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#interval DataK8SCephRookIoCephBlockPoolV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Path is the path to snapshot, only valid for CephFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#path DataK8SCephRookIoCephBlockPoolV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#path DataK8SCephRookIoCephBlockPoolV1Manifest#path}
   */
   readonly path?: string;
   /**
   * StartTime indicates when to start the snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#start_time DataK8SCephRookIoCephBlockPoolV1Manifest#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#start_time DataK8SCephRookIoCephBlockPoolV1Manifest#start_time}
   */
   readonly startTime?: string;
 }
@@ -663,25 +663,25 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecMirroring {
   /**
   * Enabled whether this pool is mirrored or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#enabled DataK8SCephRookIoCephBlockPoolV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#enabled DataK8SCephRookIoCephBlockPoolV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Mode is the mirroring mode: either pool or image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#mode DataK8SCephRookIoCephBlockPoolV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#mode DataK8SCephRookIoCephBlockPoolV1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Peers represents the peers spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#peers DataK8SCephRookIoCephBlockPoolV1Manifest#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#peers DataK8SCephRookIoCephBlockPoolV1Manifest#peers}
   */
   readonly peers?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecMirroringPeers;
   /**
   * SnapshotSchedules is the scheduling of snapshot for mirrored images/pools
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#snapshot_schedules DataK8SCephRookIoCephBlockPoolV1Manifest#snapshot_schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#snapshot_schedules DataK8SCephRookIoCephBlockPoolV1Manifest#snapshot_schedules}
   */
   readonly snapshotSchedules?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecMirroringSnapshotSchedules[] | cdktf.IResolvable;
 }
@@ -864,19 +864,19 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecQuotas {
   /**
   * MaxBytes represents the quota in bytes Deprecated in favor of MaxSize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#max_bytes DataK8SCephRookIoCephBlockPoolV1Manifest#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#max_bytes DataK8SCephRookIoCephBlockPoolV1Manifest#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * MaxObjects represents the quota in objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#max_objects DataK8SCephRookIoCephBlockPoolV1Manifest#max_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#max_objects DataK8SCephRookIoCephBlockPoolV1Manifest#max_objects}
   */
   readonly maxObjects?: number;
   /**
   * MaxSize represents the quota in bytes as a string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#max_size DataK8SCephRookIoCephBlockPoolV1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#max_size DataK8SCephRookIoCephBlockPoolV1Manifest#max_size}
   */
   readonly maxSize?: string;
 }
@@ -1030,13 +1030,13 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecReplicatedHybridSto
   /**
   * PrimaryDeviceClass represents high performance tier (for example SSD or NVME) for Primary OSD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#primary_device_class DataK8SCephRookIoCephBlockPoolV1Manifest#primary_device_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#primary_device_class DataK8SCephRookIoCephBlockPoolV1Manifest#primary_device_class}
   */
   readonly primaryDeviceClass: string;
   /**
   * SecondaryDeviceClass represents low performance tier (for example HDDs) for remaining OSDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#secondary_device_class DataK8SCephRookIoCephBlockPoolV1Manifest#secondary_device_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#secondary_device_class DataK8SCephRookIoCephBlockPoolV1Manifest#secondary_device_class}
   */
   readonly secondaryDeviceClass: string;
 }
@@ -1155,37 +1155,37 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecReplicated {
   /**
   * HybridStorage represents hybrid storage tier settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#hybrid_storage DataK8SCephRookIoCephBlockPoolV1Manifest#hybrid_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#hybrid_storage DataK8SCephRookIoCephBlockPoolV1Manifest#hybrid_storage}
   */
   readonly hybridStorage?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecReplicatedHybridStorage;
   /**
   * ReplicasPerFailureDomain the number of replica in the specified failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#replicas_per_failure_domain DataK8SCephRookIoCephBlockPoolV1Manifest#replicas_per_failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#replicas_per_failure_domain DataK8SCephRookIoCephBlockPoolV1Manifest#replicas_per_failure_domain}
   */
   readonly replicasPerFailureDomain?: number;
   /**
   * RequireSafeReplicaSize if false allows you to set replica 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#require_safe_replica_size DataK8SCephRookIoCephBlockPoolV1Manifest#require_safe_replica_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#require_safe_replica_size DataK8SCephRookIoCephBlockPoolV1Manifest#require_safe_replica_size}
   */
   readonly requireSafeReplicaSize?: boolean | cdktf.IResolvable;
   /**
   * Size - Number of copies per object in a replicated storage pool, including the object itself (required for replicated pool type)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#size DataK8SCephRookIoCephBlockPoolV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#size DataK8SCephRookIoCephBlockPoolV1Manifest#size}
   */
   readonly size: number;
   /**
   * SubFailureDomain the name of the sub-failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#sub_failure_domain DataK8SCephRookIoCephBlockPoolV1Manifest#sub_failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#sub_failure_domain DataK8SCephRookIoCephBlockPoolV1Manifest#sub_failure_domain}
   */
   readonly subFailureDomain?: string;
   /**
   * TargetSizeRatio gives a hint (%) to Ceph in terms of expected consumption of the total cluster capacity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#target_size_ratio DataK8SCephRookIoCephBlockPoolV1Manifest#target_size_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#target_size_ratio DataK8SCephRookIoCephBlockPoolV1Manifest#target_size_ratio}
   */
   readonly targetSizeRatio?: number;
 }
@@ -1421,17 +1421,17 @@ export class DataK8SCephRookIoCephBlockPoolV1ManifestSpecReplicatedOutputReferen
 }
 export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecStatusCheckMirror {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#disabled DataK8SCephRookIoCephBlockPoolV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#disabled DataK8SCephRookIoCephBlockPoolV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Interval is the internal in second or minute for the health check to run like 60s for 60 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#interval DataK8SCephRookIoCephBlockPoolV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#interval DataK8SCephRookIoCephBlockPoolV1Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#timeout DataK8SCephRookIoCephBlockPoolV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#timeout DataK8SCephRookIoCephBlockPoolV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -1585,7 +1585,7 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpecStatusCheck {
   /**
   * HealthCheckSpec represents the health check of an object store bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#mirror DataK8SCephRookIoCephBlockPoolV1Manifest#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#mirror DataK8SCephRookIoCephBlockPoolV1Manifest#mirror}
   */
   readonly mirror?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecStatusCheckMirror;
 }
@@ -1681,85 +1681,85 @@ export interface DataK8SCephRookIoCephBlockPoolV1ManifestSpec {
   /**
   * The application name to set on the pool. Only expected to be set for rgw pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#application DataK8SCephRookIoCephBlockPoolV1Manifest#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#application DataK8SCephRookIoCephBlockPoolV1Manifest#application}
   */
   readonly application?: string;
   /**
   * DEPRECATED: use Parameters instead, e.g., Parameters['compression_mode'] = 'force' The inline compression mode in Bluestore OSD to set to (options are: none, passive, aggressive, force) Do NOT set a default value for kubebuilder as this will override the Parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#compression_mode DataK8SCephRookIoCephBlockPoolV1Manifest#compression_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#compression_mode DataK8SCephRookIoCephBlockPoolV1Manifest#compression_mode}
   */
   readonly compressionMode?: string;
   /**
   * The root of the crush hierarchy utilized by the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#crush_root DataK8SCephRookIoCephBlockPoolV1Manifest#crush_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#crush_root DataK8SCephRookIoCephBlockPoolV1Manifest#crush_root}
   */
   readonly crushRoot?: string;
   /**
   * The device class the OSD should set to for use in the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#device_class DataK8SCephRookIoCephBlockPoolV1Manifest#device_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#device_class DataK8SCephRookIoCephBlockPoolV1Manifest#device_class}
   */
   readonly deviceClass?: string;
   /**
   * Allow rook operator to change the pool CRUSH tunables once the pool is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#enable_crush_updates DataK8SCephRookIoCephBlockPoolV1Manifest#enable_crush_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#enable_crush_updates DataK8SCephRookIoCephBlockPoolV1Manifest#enable_crush_updates}
   */
   readonly enableCrushUpdates?: boolean | cdktf.IResolvable;
   /**
   * EnableRBDStats is used to enable gathering of statistics for all RBD images in the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#enable_rbd_stats DataK8SCephRookIoCephBlockPoolV1Manifest#enable_rbd_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#enable_rbd_stats DataK8SCephRookIoCephBlockPoolV1Manifest#enable_rbd_stats}
   */
   readonly enableRbdStats?: boolean | cdktf.IResolvable;
   /**
   * The erasure code settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#erasure_coded DataK8SCephRookIoCephBlockPoolV1Manifest#erasure_coded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#erasure_coded DataK8SCephRookIoCephBlockPoolV1Manifest#erasure_coded}
   */
   readonly erasureCoded?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecErasureCoded;
   /**
   * The failure domain: osd/host/(region or zone if available) - technically also any type in the crush map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#failure_domain DataK8SCephRookIoCephBlockPoolV1Manifest#failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#failure_domain DataK8SCephRookIoCephBlockPoolV1Manifest#failure_domain}
   */
   readonly failureDomain?: string;
   /**
   * The mirroring settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#mirroring DataK8SCephRookIoCephBlockPoolV1Manifest#mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#mirroring DataK8SCephRookIoCephBlockPoolV1Manifest#mirroring}
   */
   readonly mirroring?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecMirroring;
   /**
   * The desired name of the pool if different from the CephBlockPool CR name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#name DataK8SCephRookIoCephBlockPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#name DataK8SCephRookIoCephBlockPoolV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Parameters is a list of properties to enable on a given pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#parameters DataK8SCephRookIoCephBlockPoolV1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#parameters DataK8SCephRookIoCephBlockPoolV1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The quota settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#quotas DataK8SCephRookIoCephBlockPoolV1Manifest#quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#quotas DataK8SCephRookIoCephBlockPoolV1Manifest#quotas}
   */
   readonly quotas?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecQuotas;
   /**
   * The replication settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#replicated DataK8SCephRookIoCephBlockPoolV1Manifest#replicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#replicated DataK8SCephRookIoCephBlockPoolV1Manifest#replicated}
   */
   readonly replicated?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecReplicated;
   /**
   * The mirroring statusCheck
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#status_check DataK8SCephRookIoCephBlockPoolV1Manifest#status_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#status_check DataK8SCephRookIoCephBlockPoolV1Manifest#status_check}
   */
   readonly statusCheck?: DataK8SCephRookIoCephBlockPoolV1ManifestSpecStatusCheck;
 }
@@ -2230,7 +2230,7 @@ export class DataK8SCephRookIoCephBlockPoolV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest k8s_ceph_rook_io_ceph_block_pool_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest k8s_ceph_rook_io_ceph_block_pool_v1_manifest}
 */
 export class DataK8SCephRookIoCephBlockPoolV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2246,7 +2246,7 @@ export class DataK8SCephRookIoCephBlockPoolV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SCephRookIoCephBlockPoolV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCephRookIoCephBlockPoolV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCephRookIoCephBlockPoolV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCephRookIoCephBlockPoolV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCephRookIoCephBlockPoolV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2258,7 +2258,7 @@ export class DataK8SCephRookIoCephBlockPoolV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest k8s_ceph_rook_io_ceph_block_pool_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ceph_rook_io_ceph_block_pool_v1_manifest k8s_ceph_rook_io_ceph_block_pool_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2269,8 +2269,8 @@ export class DataK8SCephRookIoCephBlockPoolV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_ceph_rook_io_ceph_block_pool_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

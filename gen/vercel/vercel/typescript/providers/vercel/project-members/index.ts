@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ProjectMembersConfig extends cdktf.TerraformMetaArguments {
   /**
   * The set of members to manage for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#members ProjectMembers#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#members ProjectMembers#members}
   */
   readonly members: ProjectMembersMembers[] | cdktf.IResolvable;
   /**
   * The ID of the existing Vercel Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#project_id ProjectMembers#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#project_id ProjectMembers#project_id}
   */
   readonly projectId: string;
   /**
   * The team ID to add the project to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#team_id ProjectMembers#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#team_id ProjectMembers#team_id}
   */
   readonly teamId?: string;
 }
@@ -30,25 +30,25 @@ export interface ProjectMembersMembers {
   /**
   * The email of the user to add to the project. Exactly one of `user_id`, `email`, or `username` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#email ProjectMembers#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#email ProjectMembers#email}
   */
   readonly email?: string;
   /**
   * The role that the user should have in the project. One of 'ADMIN', 'PROJECT_DEVELOPER', or 'PROJECT_VIEWER'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#role ProjectMembers#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#role ProjectMembers#role}
   */
   readonly role: string;
   /**
   * The ID of the user to add to the project. Exactly one of `user_id`, `email`, or `username` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#user_id ProjectMembers#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#user_id ProjectMembers#user_id}
   */
   readonly userId?: string;
   /**
   * The username of the user to add to the project. Exactly one of `user_id`, `email`, or `username` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#username ProjectMembers#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#username ProjectMembers#username}
   */
   readonly username?: string;
 }
@@ -248,7 +248,7 @@ export class ProjectMembersMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members vercel_project_members}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members vercel_project_members}
 */
 export class ProjectMembers extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class ProjectMembers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectMembers to import
-  * @param importFromId The id of the existing ProjectMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class ProjectMembers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_members vercel_project_members} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_members vercel_project_members} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class ProjectMembers extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_project_members',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

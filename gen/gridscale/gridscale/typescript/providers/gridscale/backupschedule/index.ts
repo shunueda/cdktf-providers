@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BackupscheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The status of the schedule active or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#active Backupschedule#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#active Backupschedule#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * UUID of the location where your backup is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#backup_location_uuid Backupschedule#backup_location_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#backup_location_uuid Backupschedule#backup_location_uuid}
   */
   readonly backupLocationUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#id Backupschedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#id Backupschedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface BackupscheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The amount of storage backups to keep before overwriting the last created backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#keep_backups Backupschedule#keep_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#keep_backups Backupschedule#keep_backups}
   */
   readonly keepBackups: number;
   /**
   * The human-readable name of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#name Backupschedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#name Backupschedule#name}
   */
   readonly name: string;
   /**
   * The date and time that the storage backup schedule will be run. Format: "2006-01-02 15:04:05"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#next_runtime Backupschedule#next_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#next_runtime Backupschedule#next_runtime}
   */
   readonly nextRuntime: string;
   /**
   * The interval at which the schedule will run (in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#run_interval Backupschedule#run_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#run_interval Backupschedule#run_interval}
   */
   readonly runInterval: number;
   /**
   * UUID of the storage used to create storage backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#storage_uuid Backupschedule#storage_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#storage_uuid Backupschedule#storage_uuid}
   */
   readonly storageUuid: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#timeouts Backupschedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#timeouts Backupschedule#timeouts}
   */
   readonly timeouts?: BackupscheduleTimeouts;
 }
@@ -150,15 +150,15 @@ export class BackupscheduleStorageBackupsList extends cdktf.ComplexList {
 }
 export interface BackupscheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#create Backupschedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#create Backupschedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#delete Backupschedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#delete Backupschedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#update Backupschedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#update Backupschedule#update}
   */
   readonly update?: string;
 }
@@ -310,7 +310,7 @@ export class BackupscheduleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule gridscale_backupschedule}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule gridscale_backupschedule}
 */
 export class Backupschedule extends cdktf.TerraformResource {
 
@@ -326,7 +326,7 @@ export class Backupschedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Backupschedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Backupschedule to import
-  * @param importFromId The id of the existing Backupschedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Backupschedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Backupschedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -338,7 +338,7 @@ export class Backupschedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/backupschedule gridscale_backupschedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/backupschedule gridscale_backupschedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,8 +349,8 @@ export class Backupschedule extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_backupschedule',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

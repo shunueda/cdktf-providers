@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface ApiGatewayAccessControlListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#access_control_list_name ApiGatewayAccessControlList#access_control_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#access_control_list_name ApiGatewayAccessControlList#access_control_list_name}
   */
   readonly accessControlListName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#address_ip_version ApiGatewayAccessControlList#address_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#address_ip_version ApiGatewayAccessControlList#address_ip_version}
   */
   readonly addressIpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#id ApiGatewayAccessControlList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#id ApiGatewayAccessControlList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,23 +25,23 @@ export interface ApiGatewayAccessControlListConfig extends cdktf.TerraformMetaAr
   /**
   * acl_entrys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#acl_entrys ApiGatewayAccessControlList#acl_entrys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#acl_entrys ApiGatewayAccessControlList#acl_entrys}
   */
   readonly aclEntrys?: ApiGatewayAccessControlListAclEntrys[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#timeouts ApiGatewayAccessControlList#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#timeouts ApiGatewayAccessControlList#timeouts}
   */
   readonly timeouts?: ApiGatewayAccessControlListTimeouts;
 }
 export interface ApiGatewayAccessControlListAclEntrys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#acl_entry_comment ApiGatewayAccessControlList#acl_entry_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#acl_entry_comment ApiGatewayAccessControlList#acl_entry_comment}
   */
   readonly aclEntryComment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#acl_entry_ip ApiGatewayAccessControlList#acl_entry_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#acl_entry_ip ApiGatewayAccessControlList#acl_entry_ip}
   */
   readonly aclEntryIp?: string;
 }
@@ -186,15 +186,15 @@ export class ApiGatewayAccessControlListAclEntrysList extends cdktf.ComplexList 
 }
 export interface ApiGatewayAccessControlListTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#create ApiGatewayAccessControlList#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#create ApiGatewayAccessControlList#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#delete ApiGatewayAccessControlList#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#delete ApiGatewayAccessControlList#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#update ApiGatewayAccessControlList#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#update ApiGatewayAccessControlList#update}
   */
   readonly update?: string;
 }
@@ -346,7 +346,7 @@ export class ApiGatewayAccessControlListTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list alicloud_api_gateway_access_control_list}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list alicloud_api_gateway_access_control_list}
 */
 export class ApiGatewayAccessControlList extends cdktf.TerraformResource {
 
@@ -362,7 +362,7 @@ export class ApiGatewayAccessControlList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayAccessControlList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayAccessControlList to import
-  * @param importFromId The id of the existing ApiGatewayAccessControlList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayAccessControlList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayAccessControlList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -374,7 +374,7 @@ export class ApiGatewayAccessControlList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/api_gateway_access_control_list alicloud_api_gateway_access_control_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_access_control_list alicloud_api_gateway_access_control_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,8 +385,8 @@ export class ApiGatewayAccessControlList extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_api_gateway_access_control_list',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

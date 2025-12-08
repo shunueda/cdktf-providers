@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface LogStoreIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#id LogStoreIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#id LogStoreIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#log_reduce LogStoreIndex#log_reduce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#log_reduce LogStoreIndex#log_reduce}
   */
   readonly logReduce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#log_reduce_black_list LogStoreIndex#log_reduce_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#log_reduce_black_list LogStoreIndex#log_reduce_black_list}
   */
   readonly logReduceBlackList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#log_reduce_white_list LogStoreIndex#log_reduce_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#log_reduce_white_list LogStoreIndex#log_reduce_white_list}
   */
   readonly logReduceWhiteList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#logstore LogStoreIndex#logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#logstore LogStoreIndex#logstore}
   */
   readonly logstore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#max_text_len LogStoreIndex#max_text_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#max_text_len LogStoreIndex#max_text_len}
   */
   readonly maxTextLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#project LogStoreIndex#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#project LogStoreIndex#project}
   */
   readonly project: string;
   /**
   * field_search block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#field_search LogStoreIndex#field_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#field_search LogStoreIndex#field_search}
   */
   readonly fieldSearch?: LogStoreIndexFieldSearch[] | cdktf.IResolvable;
   /**
   * full_text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#full_text LogStoreIndex#full_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#full_text LogStoreIndex#full_text}
   */
   readonly fullText?: LogStoreIndexFullText;
 }
 export interface LogStoreIndexFieldSearchJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#alias LogStoreIndex#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#alias LogStoreIndex#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#doc_value LogStoreIndex#doc_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#doc_value LogStoreIndex#doc_value}
   */
   readonly docValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#name LogStoreIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#name LogStoreIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#type LogStoreIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#type LogStoreIndex#type}
   */
   readonly type?: string;
 }
@@ -265,37 +265,37 @@ export class LogStoreIndexFieldSearchJsonKeysList extends cdktf.ComplexList {
 }
 export interface LogStoreIndexFieldSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#alias LogStoreIndex#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#alias LogStoreIndex#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#case_sensitive LogStoreIndex#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#case_sensitive LogStoreIndex#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#enable_analytics LogStoreIndex#enable_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#enable_analytics LogStoreIndex#enable_analytics}
   */
   readonly enableAnalytics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#include_chinese LogStoreIndex#include_chinese}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#include_chinese LogStoreIndex#include_chinese}
   */
   readonly includeChinese?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#name LogStoreIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#name LogStoreIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#token LogStoreIndex#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#token LogStoreIndex#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#type LogStoreIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#type LogStoreIndex#type}
   */
   readonly type?: string;
   /**
   * json_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#json_keys LogStoreIndex#json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#json_keys LogStoreIndex#json_keys}
   */
   readonly jsonKeys?: LogStoreIndexFieldSearchJsonKeys[] | cdktf.IResolvable;
 }
@@ -611,15 +611,15 @@ export class LogStoreIndexFieldSearchList extends cdktf.ComplexList {
 }
 export interface LogStoreIndexFullText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#case_sensitive LogStoreIndex#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#case_sensitive LogStoreIndex#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#include_chinese LogStoreIndex#include_chinese}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#include_chinese LogStoreIndex#include_chinese}
   */
   readonly includeChinese?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#token LogStoreIndex#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#token LogStoreIndex#token}
   */
   readonly token?: string;
 }
@@ -761,7 +761,7 @@ export class LogStoreIndexFullTextOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index alicloud_log_store_index}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index alicloud_log_store_index}
 */
 export class LogStoreIndex extends cdktf.TerraformResource {
 
@@ -777,7 +777,7 @@ export class LogStoreIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogStoreIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogStoreIndex to import
-  * @param importFromId The id of the existing LogStoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogStoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogStoreIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -789,7 +789,7 @@ export class LogStoreIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/log_store_index alicloud_log_store_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_store_index alicloud_log_store_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -800,8 +800,8 @@ export class LogStoreIndex extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_log_store_index',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

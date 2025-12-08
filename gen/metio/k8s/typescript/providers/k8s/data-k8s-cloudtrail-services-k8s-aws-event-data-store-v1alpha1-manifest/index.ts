@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#metadata DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#metadata DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestMetadata;
   /**
   * EventDataStoreSpec defines the desired state of EventDataStore. A storage lake of event data against which you can run complex SQL-based queries. An event data store can include events that you have logged on your account from the last 90 to 2555 days (about three months to up to seven years). To select events for an event data store, use advanced event selectors (https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html#creating-data-event-selectors-advanced).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#spec DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#spec DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#annotations DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#annotations DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#labels DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#labels DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#namespace DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#namespace DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,31 +217,31 @@ export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestMetada
 }
 export interface DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecAdvancedEventSelectorsFieldSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#ends_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#ends_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#ends_with}
   */
   readonly endsWith?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#equals DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#equals DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#equals}
   */
   readonly equalTo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#field DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#field DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#not_ends_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#not_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#not_ends_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#not_ends_with}
   */
   readonly notEndsWith?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#not_equals DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#not_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#not_equals DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#not_equals}
   */
   readonly notEquals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#not_starts_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#not_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#not_starts_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#not_starts_with}
   */
   readonly notStartsWith?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#starts_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#starts_with DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#starts_with}
   */
   readonly startsWith?: string[];
 }
@@ -531,11 +531,11 @@ export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecAd
 }
 export interface DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecAdvancedEventSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#field_selectors DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#field_selectors DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecAdvancedEventSelectorsFieldSelectors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -680,11 +680,11 @@ export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecAd
 }
 export interface DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#key DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#key DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#value DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#value DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -831,41 +831,41 @@ export interface DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSp
   /**
   * The advanced event selectors to use to select the events for the data store. For more information about how to use advanced event selectors, see Log events by using advanced event selectors (https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html#creating-data-event-selectors-advanced) in the CloudTrail User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#advanced_event_selectors DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#advanced_event_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#advanced_event_selectors DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#advanced_event_selectors}
   */
   readonly advancedEventSelectors?: DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecAdvancedEventSelectors[] | cdktf.IResolvable;
   /**
   * Specifies whether the event data store includes events from all regions, or only from the region in which the event data store is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#multi_region_enabled DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#multi_region_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#multi_region_enabled DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#multi_region_enabled}
   */
   readonly multiRegionEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the event data store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies whether an event data store collects events logged for an organization in Organizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#organization_enabled DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#organization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#organization_enabled DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#organization_enabled}
   */
   readonly organizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The retention period of the event data store, in days. You can set a retention period of up to 2555 days, the equivalent of seven years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#retention_period DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#retention_period DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#retention_period}
   */
   readonly retentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#tags DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#tags DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Specifies whether termination protection is enabled for the event data store. If termination protection is enabled, you cannot delete the event data store until termination protection is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#termination_protection_enabled DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#termination_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#termination_protection_enabled DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest#termination_protection_enabled}
   */
   readonly terminationProtectionEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1130,7 +1130,7 @@ export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest}
 */
 export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1146,7 +1146,7 @@ export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1158,7 +1158,7 @@ export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1169,8 +1169,8 @@ export class DataK8SCloudtrailServicesK8SAwsEventDataStoreV1Alpha1Manifest exten
       terraformResourceType: 'k8s_cloudtrail_services_k8s_aws_event_data_store_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

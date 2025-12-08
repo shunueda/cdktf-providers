@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ObjectStorageAccesskeyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Comment for the access_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey#comment ObjectStorageAccesskey#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey#comment ObjectStorageAccesskey#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey#id ObjectStorageAccesskey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey#id ObjectStorageAccesskey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -26,23 +26,23 @@ export interface ObjectStorageAccesskeyConfig extends cdktf.TerraformMetaArgumen
   * 				a user-specific key for themselves while a user with admin-access to the contract will create 
   * 				a contract-level admin key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey#user_uuid ObjectStorageAccesskey#user_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey#user_uuid ObjectStorageAccesskey#user_uuid}
   */
   readonly userUuid?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey#timeouts ObjectStorageAccesskey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey#timeouts ObjectStorageAccesskey#timeouts}
   */
   readonly timeouts?: ObjectStorageAccesskeyTimeouts;
 }
 export interface ObjectStorageAccesskeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey#create ObjectStorageAccesskey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey#create ObjectStorageAccesskey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey#delete ObjectStorageAccesskey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey#delete ObjectStorageAccesskey#delete}
   */
   readonly delete?: string;
 }
@@ -165,7 +165,7 @@ export class ObjectStorageAccesskeyTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey gridscale_object_storage_accesskey}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey gridscale_object_storage_accesskey}
 */
 export class ObjectStorageAccesskey extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class ObjectStorageAccesskey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageAccesskey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageAccesskey to import
-  * @param importFromId The id of the existing ObjectStorageAccesskey that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageAccesskey that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageAccesskey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class ObjectStorageAccesskey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_accesskey gridscale_object_storage_accesskey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_accesskey gridscale_object_storage_accesskey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class ObjectStorageAccesskey extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_object_storage_accesskey',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

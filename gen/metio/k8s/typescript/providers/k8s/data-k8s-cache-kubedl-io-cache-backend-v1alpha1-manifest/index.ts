@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#metadata DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#metadata DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#spec DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#spec DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#annotations DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#annotations DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#labels DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#labels DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#name DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#name DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#namespace DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#namespace DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestMetadataOutputRefer
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFluidAlluxioRuntimeTieredStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#cache_path DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#cache_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#cache_path DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#cache_path}
   */
   readonly cachePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#medium_type DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#medium_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#medium_type DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#medium_type}
   */
   readonly mediumType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#quota DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#quota DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#quota}
   */
   readonly quota?: string;
 }
@@ -397,11 +397,11 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFlui
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFluidAlluxioRuntime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#replicas DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#replicas DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#tiered_storage DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#tiered_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#tiered_storage DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#tiered_storage}
   */
   readonly tieredStorage?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFluidAlluxioRuntimeTieredStorage[] | cdktf.IResolvable;
 }
@@ -524,7 +524,7 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFlui
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFluid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#alluxio_runtime DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#alluxio_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#alluxio_runtime DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#alluxio_runtime}
   */
   readonly alluxioRuntime?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFluidAlluxioRuntime;
 }
@@ -618,7 +618,7 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFlui
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#fluid DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#fluid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#fluid DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#fluid}
   */
   readonly fluid?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineFluid;
 }
@@ -712,11 +712,11 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngineOutp
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecDatasetDataSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#location DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#location DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#sub_dir_name DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#sub_dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#sub_dir_name DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#sub_dir_name}
   */
   readonly subDirName?: string;
 }
@@ -861,7 +861,7 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecDatasetDataSour
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#data_sources DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#data_sources DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#data_sources}
   */
   readonly dataSources?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecDatasetDataSources[] | cdktf.IResolvable;
 }
@@ -955,7 +955,7 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecDatasetOutputRe
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#idle_time DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#idle_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#idle_time DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#idle_time}
   */
   readonly idleTime?: number;
 }
@@ -1049,23 +1049,23 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecOptionsOutputRe
 }
 export interface DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#cache_engine DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#cache_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#cache_engine DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#cache_engine}
   */
   readonly cacheEngine?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecCacheEngine;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#dataset DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#dataset DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#dataset}
   */
   readonly dataset?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#mount_path DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#mount_path DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#name DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#name DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#options DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#options DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecOptions;
 }
@@ -1275,7 +1275,7 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest k8s_cache_kubedl_io_cache_backend_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest k8s_cache_kubedl_io_cache_backend_v1alpha1_manifest}
 */
 export class DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1291,7 +1291,7 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1303,7 +1303,7 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest k8s_cache_kubedl_io_cache_backend_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cache_kubedl_io_cache_backend_v1alpha1_manifest k8s_cache_kubedl_io_cache_backend_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1314,8 +1314,8 @@ export class DataK8SCacheKubedlIoCacheBackendV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_cache_kubedl_io_cache_backend_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

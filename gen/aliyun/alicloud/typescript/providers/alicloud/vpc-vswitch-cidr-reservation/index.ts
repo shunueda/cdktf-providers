@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface VpcVswitchCidrReservationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_cidr VpcVswitchCidrReservation#cidr_reservation_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_cidr VpcVswitchCidrReservation#cidr_reservation_cidr}
   */
   readonly cidrReservationCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_description VpcVswitchCidrReservation#cidr_reservation_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_description VpcVswitchCidrReservation#cidr_reservation_description}
   */
   readonly cidrReservationDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_mask VpcVswitchCidrReservation#cidr_reservation_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_mask VpcVswitchCidrReservation#cidr_reservation_mask}
   */
   readonly cidrReservationMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_type VpcVswitchCidrReservation#cidr_reservation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#cidr_reservation_type VpcVswitchCidrReservation#cidr_reservation_type}
   */
   readonly cidrReservationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#id VpcVswitchCidrReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#id VpcVswitchCidrReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#ip_version VpcVswitchCidrReservation#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#ip_version VpcVswitchCidrReservation#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#vswitch_cidr_reservation_name VpcVswitchCidrReservation#vswitch_cidr_reservation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#vswitch_cidr_reservation_name VpcVswitchCidrReservation#vswitch_cidr_reservation_name}
   */
   readonly vswitchCidrReservationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#vswitch_id VpcVswitchCidrReservation#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#vswitch_id VpcVswitchCidrReservation#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#timeouts VpcVswitchCidrReservation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#timeouts VpcVswitchCidrReservation#timeouts}
   */
   readonly timeouts?: VpcVswitchCidrReservationTimeouts;
 }
 export interface VpcVswitchCidrReservationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#create VpcVswitchCidrReservation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#create VpcVswitchCidrReservation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#delete VpcVswitchCidrReservation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#delete VpcVswitchCidrReservation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#update VpcVswitchCidrReservation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#update VpcVswitchCidrReservation#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class VpcVswitchCidrReservationTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation alicloud_vpc_vswitch_cidr_reservation}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation alicloud_vpc_vswitch_cidr_reservation}
 */
 export class VpcVswitchCidrReservation extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class VpcVswitchCidrReservation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcVswitchCidrReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcVswitchCidrReservation to import
-  * @param importFromId The id of the existing VpcVswitchCidrReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcVswitchCidrReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcVswitchCidrReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class VpcVswitchCidrReservation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_vswitch_cidr_reservation alicloud_vpc_vswitch_cidr_reservation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_vswitch_cidr_reservation alicloud_vpc_vswitch_cidr_reservation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class VpcVswitchCidrReservation extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_vswitch_cidr_reservation',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

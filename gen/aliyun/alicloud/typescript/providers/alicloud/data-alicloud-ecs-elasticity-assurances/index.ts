@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsElasticityAssurancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#id DataAlicloudEcsElasticityAssurances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#id DataAlicloudEcsElasticityAssurances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#ids DataAlicloudEcsElasticityAssurances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#ids DataAlicloudEcsElasticityAssurances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#output_file DataAlicloudEcsElasticityAssurances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#output_file DataAlicloudEcsElasticityAssurances#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#private_pool_options_ids DataAlicloudEcsElasticityAssurances#private_pool_options_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#private_pool_options_ids DataAlicloudEcsElasticityAssurances#private_pool_options_ids}
   */
   readonly privatePoolOptionsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#resource_group_id DataAlicloudEcsElasticityAssurances#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#resource_group_id DataAlicloudEcsElasticityAssurances#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#status DataAlicloudEcsElasticityAssurances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#status DataAlicloudEcsElasticityAssurances#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#tags DataAlicloudEcsElasticityAssurances#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#tags DataAlicloudEcsElasticityAssurances#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -283,7 +283,7 @@ export class DataAlicloudEcsElasticityAssurancesAssurancesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances alicloud_ecs_elasticity_assurances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances alicloud_ecs_elasticity_assurances}
 */
 export class DataAlicloudEcsElasticityAssurances extends cdktf.TerraformDataSource {
 
@@ -299,7 +299,7 @@ export class DataAlicloudEcsElasticityAssurances extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudEcsElasticityAssurances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsElasticityAssurances to import
-  * @param importFromId The id of the existing DataAlicloudEcsElasticityAssurances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsElasticityAssurances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsElasticityAssurances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class DataAlicloudEcsElasticityAssurances extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_elasticity_assurances alicloud_ecs_elasticity_assurances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_elasticity_assurances alicloud_ecs_elasticity_assurances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class DataAlicloudEcsElasticityAssurances extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_ecs_elasticity_assurances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

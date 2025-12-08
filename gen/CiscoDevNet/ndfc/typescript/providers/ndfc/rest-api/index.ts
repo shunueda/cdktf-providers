@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface RestApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * Method to use for delete operation. If not specified, DELETE is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#delete_method RestApi#delete_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#delete_method RestApi#delete_method}
   */
   readonly deleteMethod?: string;
   /**
   * Query parameters for DELETE API if any; format is key1=value1&key2=value2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#delete_parameters RestApi#delete_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#delete_parameters RestApi#delete_parameters}
   */
   readonly deleteParameters?: string;
   /**
@@ -24,25 +24,25 @@ export interface RestApiConfig extends cdktf.TerraformMetaArguments {
   * This field supports Text/template. Use `{{.field_name}}` to refer to a field from the `response_message`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#delete_payload RestApi#delete_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#delete_payload RestApi#delete_payload}
   */
   readonly deletePayload?: string;
   /**
   * URL to be used for delete operation. If not specified, the same URL as the create URL is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#delete_url RestApi#delete_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#delete_url RestApi#delete_url}
   */
   readonly deleteUrl?: string;
   /**
   * Method to use GET/POST/PUT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#method RestApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#method RestApi#method}
   */
   readonly method: string;
   /**
   * Payload to send for CREATE/UPDATE operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#payload RestApi#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#payload RestApi#payload}
   */
   readonly payload: string;
   /**
@@ -52,19 +52,19 @@ export interface RestApiConfig extends cdktf.TerraformMetaArguments {
   * Note: The GET response must be an exact match of `payload`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#read_url RestApi#read_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#read_url RestApi#read_url}
   */
   readonly readUrl?: string;
   /**
   * Stateful set to true triggers update only when something changes in config. If set to false every plan shows changes 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#stateful RestApi#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#stateful RestApi#stateful}
   */
   readonly stateful?: boolean | cdktf.IResolvable;
   /**
   * Method to use for update operation. PUT is used if not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#update_method RestApi#update_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#update_method RestApi#update_method}
   */
   readonly updateMethod?: string;
   /**
@@ -72,7 +72,7 @@ export interface RestApiConfig extends cdktf.TerraformMetaArguments {
   * This field supports Text/template. Use `{{.field_name}}` to refer to a field from the `response_message`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#update_payload RestApi#update_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#update_payload RestApi#update_payload}
   */
   readonly updatePayload?: string;
   /**
@@ -80,19 +80,19 @@ export interface RestApiConfig extends cdktf.TerraformMetaArguments {
   * This field supports Text/template. Use `{{.field_name}}` to refer to a field from the `response_message`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#update_url RestApi#update_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#update_url RestApi#update_url}
   */
   readonly updateUrl?: string;
   /**
   * URL to be used for operations - mainly CREATE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#url RestApi#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#url RestApi#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api ndfc_rest_api}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api ndfc_rest_api}
 */
 export class RestApi extends cdktf.TerraformResource {
 
@@ -108,7 +108,7 @@ export class RestApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RestApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RestApi to import
-  * @param importFromId The id of the existing RestApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RestApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RestApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -120,7 +120,7 @@ export class RestApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/rest_api ndfc_rest_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/rest_api ndfc_rest_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -131,8 +131,8 @@ export class RestApi extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_rest_api',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

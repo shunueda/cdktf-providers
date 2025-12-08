@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,138 +8,138 @@ import * as cdktf from 'cdktf';
 
 export interface Fcv2FunctionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#ca_port Fcv2Function#ca_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#ca_port Fcv2Function#ca_port}
   */
   readonly caPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#code_checksum Fcv2Function#code_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#code_checksum Fcv2Function#code_checksum}
   */
   readonly codeChecksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#cpu Fcv2Function#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#cpu Fcv2Function#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#description Fcv2Function#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#description Fcv2Function#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#disk_size Fcv2Function#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#disk_size Fcv2Function#disk_size}
   */
   readonly diskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#environment_variables Fcv2Function#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#environment_variables Fcv2Function#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#function_name Fcv2Function#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#function_name Fcv2Function#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#gpu_memory_size Fcv2Function#gpu_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#gpu_memory_size Fcv2Function#gpu_memory_size}
   */
   readonly gpuMemorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#handler Fcv2Function#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#handler Fcv2Function#handler}
   */
   readonly handler: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#id Fcv2Function#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#id Fcv2Function#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#initialization_timeout Fcv2Function#initialization_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#initialization_timeout Fcv2Function#initialization_timeout}
   */
   readonly initializationTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#initializer Fcv2Function#initializer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#initializer Fcv2Function#initializer}
   */
   readonly initializer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#instance_concurrency Fcv2Function#instance_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#instance_concurrency Fcv2Function#instance_concurrency}
   */
   readonly instanceConcurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#instance_type Fcv2Function#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#instance_type Fcv2Function#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#layers Fcv2Function#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#layers Fcv2Function#layers}
   */
   readonly layers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#memory_size Fcv2Function#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#memory_size Fcv2Function#memory_size}
   */
   readonly memorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#runtime Fcv2Function#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#runtime Fcv2Function#runtime}
   */
   readonly runtime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#service_name Fcv2Function#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#service_name Fcv2Function#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#timeout Fcv2Function#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#timeout Fcv2Function#timeout}
   */
   readonly timeout?: number;
   /**
   * code block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#code Fcv2Function#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#code Fcv2Function#code}
   */
   readonly code?: Fcv2FunctionCode;
   /**
   * custom_container_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#custom_container_config Fcv2Function#custom_container_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#custom_container_config Fcv2Function#custom_container_config}
   */
   readonly customContainerConfig?: Fcv2FunctionCustomContainerConfig;
   /**
   * custom_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#custom_dns Fcv2Function#custom_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#custom_dns Fcv2Function#custom_dns}
   */
   readonly customDns?: Fcv2FunctionCustomDns;
   /**
   * custom_health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#custom_health_check_config Fcv2Function#custom_health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#custom_health_check_config Fcv2Function#custom_health_check_config}
   */
   readonly customHealthCheckConfig?: Fcv2FunctionCustomHealthCheckConfig;
   /**
   * custom_runtime_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#custom_runtime_config Fcv2Function#custom_runtime_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#custom_runtime_config Fcv2Function#custom_runtime_config}
   */
   readonly customRuntimeConfig?: Fcv2FunctionCustomRuntimeConfig;
   /**
   * instance_lifecycle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#instance_lifecycle_config Fcv2Function#instance_lifecycle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#instance_lifecycle_config Fcv2Function#instance_lifecycle_config}
   */
   readonly instanceLifecycleConfig?: Fcv2FunctionInstanceLifecycleConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#timeouts Fcv2Function#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#timeouts Fcv2Function#timeouts}
   */
   readonly timeouts?: Fcv2FunctionTimeouts;
 }
 export interface Fcv2FunctionCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#oss_bucket_name Fcv2Function#oss_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#oss_bucket_name Fcv2Function#oss_bucket_name}
   */
   readonly ossBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#oss_object_name Fcv2Function#oss_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#oss_object_name Fcv2Function#oss_object_name}
   */
   readonly ossObjectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#zip_file Fcv2Function#zip_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#zip_file Fcv2Function#zip_file}
   */
   readonly zipFile?: string;
 }
@@ -281,23 +281,23 @@ export class Fcv2FunctionCodeOutputReference extends cdktf.ComplexObject {
 }
 export interface Fcv2FunctionCustomContainerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#acceleration_type Fcv2Function#acceleration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#acceleration_type Fcv2Function#acceleration_type}
   */
   readonly accelerationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#args Fcv2Function#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#args Fcv2Function#args}
   */
   readonly args?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#command Fcv2Function#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#command Fcv2Function#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#image Fcv2Function#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#image Fcv2Function#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#web_server_mode Fcv2Function#web_server_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#web_server_mode Fcv2Function#web_server_mode}
   */
   readonly webServerMode?: boolean | cdktf.IResolvable;
 }
@@ -497,11 +497,11 @@ export class Fcv2FunctionCustomContainerConfigOutputReference extends cdktf.Comp
 }
 export interface Fcv2FunctionCustomDnsDnsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#name Fcv2Function#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#name Fcv2Function#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#value Fcv2Function#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#value Fcv2Function#value}
   */
   readonly value?: string;
 }
@@ -646,17 +646,17 @@ export class Fcv2FunctionCustomDnsDnsOptionsList extends cdktf.ComplexList {
 }
 export interface Fcv2FunctionCustomDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#name_servers Fcv2Function#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#name_servers Fcv2Function#name_servers}
   */
   readonly nameServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#searches Fcv2Function#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#searches Fcv2Function#searches}
   */
   readonly searches?: string[];
   /**
   * dns_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#dns_options Fcv2Function#dns_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#dns_options Fcv2Function#dns_options}
   */
   readonly dnsOptions?: Fcv2FunctionCustomDnsDnsOptions[] | cdktf.IResolvable;
 }
@@ -798,27 +798,27 @@ export class Fcv2FunctionCustomDnsOutputReference extends cdktf.ComplexObject {
 }
 export interface Fcv2FunctionCustomHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#failure_threshold Fcv2Function#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#failure_threshold Fcv2Function#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#http_get_url Fcv2Function#http_get_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#http_get_url Fcv2Function#http_get_url}
   */
   readonly httpGetUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#initial_delay_seconds Fcv2Function#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#initial_delay_seconds Fcv2Function#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#period_seconds Fcv2Function#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#period_seconds Fcv2Function#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#success_threshold Fcv2Function#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#success_threshold Fcv2Function#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#timeout_seconds Fcv2Function#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#timeout_seconds Fcv2Function#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1047,11 +1047,11 @@ export class Fcv2FunctionCustomHealthCheckConfigOutputReference extends cdktf.Co
 }
 export interface Fcv2FunctionCustomRuntimeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#args Fcv2Function#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#args Fcv2Function#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#command Fcv2Function#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#command Fcv2Function#command}
   */
   readonly command?: string[];
 }
@@ -1164,11 +1164,11 @@ export class Fcv2FunctionCustomRuntimeConfigOutputReference extends cdktf.Comple
 }
 export interface Fcv2FunctionInstanceLifecycleConfigPreFreeze {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#handler Fcv2Function#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#handler Fcv2Function#handler}
   */
   readonly handler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#timeout Fcv2Function#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#timeout Fcv2Function#timeout}
   */
   readonly timeout?: number;
 }
@@ -1281,11 +1281,11 @@ export class Fcv2FunctionInstanceLifecycleConfigPreFreezeOutputReference extends
 }
 export interface Fcv2FunctionInstanceLifecycleConfigPreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#handler Fcv2Function#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#handler Fcv2Function#handler}
   */
   readonly handler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#timeout Fcv2Function#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#timeout Fcv2Function#timeout}
   */
   readonly timeout?: number;
 }
@@ -1400,13 +1400,13 @@ export interface Fcv2FunctionInstanceLifecycleConfig {
   /**
   * pre_freeze block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#pre_freeze Fcv2Function#pre_freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#pre_freeze Fcv2Function#pre_freeze}
   */
   readonly preFreeze?: Fcv2FunctionInstanceLifecycleConfigPreFreeze;
   /**
   * pre_stop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#pre_stop Fcv2Function#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#pre_stop Fcv2Function#pre_stop}
   */
   readonly preStop?: Fcv2FunctionInstanceLifecycleConfigPreStop;
 }
@@ -1519,15 +1519,15 @@ export class Fcv2FunctionInstanceLifecycleConfigOutputReference extends cdktf.Co
 }
 export interface Fcv2FunctionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#create Fcv2Function#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#create Fcv2Function#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#delete Fcv2Function#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#delete Fcv2Function#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#update Fcv2Function#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#update Fcv2Function#update}
   */
   readonly update?: string;
 }
@@ -1679,7 +1679,7 @@ export class Fcv2FunctionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function alicloud_fcv2_function}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function alicloud_fcv2_function}
 */
 export class Fcv2Function extends cdktf.TerraformResource {
 
@@ -1695,7 +1695,7 @@ export class Fcv2Function extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Fcv2Function resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Fcv2Function to import
-  * @param importFromId The id of the existing Fcv2Function that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Fcv2Function that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Fcv2Function to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1707,7 +1707,7 @@ export class Fcv2Function extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv2_function alicloud_fcv2_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/fcv2_function alicloud_fcv2_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1718,8 +1718,8 @@ export class Fcv2Function extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fcv2_function',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface QuotasQuotaAlarmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#id QuotasQuotaAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#id QuotasQuotaAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#product_code QuotasQuotaAlarm#product_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#product_code QuotasQuotaAlarm#product_code}
   */
   readonly productCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#quota_action_code QuotasQuotaAlarm#quota_action_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#quota_action_code QuotasQuotaAlarm#quota_action_code}
   */
   readonly quotaActionCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#quota_alarm_name QuotasQuotaAlarm#quota_alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#quota_alarm_name QuotasQuotaAlarm#quota_alarm_name}
   */
   readonly quotaAlarmName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#threshold QuotasQuotaAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#threshold QuotasQuotaAlarm#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#threshold_percent QuotasQuotaAlarm#threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#threshold_percent QuotasQuotaAlarm#threshold_percent}
   */
   readonly thresholdPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#threshold_type QuotasQuotaAlarm#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#threshold_type QuotasQuotaAlarm#threshold_type}
   */
   readonly thresholdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#web_hook QuotasQuotaAlarm#web_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#web_hook QuotasQuotaAlarm#web_hook}
   */
   readonly webHook?: string;
   /**
   * quota_dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#quota_dimensions QuotasQuotaAlarm#quota_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#quota_dimensions QuotasQuotaAlarm#quota_dimensions}
   */
   readonly quotaDimensions?: QuotasQuotaAlarmQuotaDimensions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#timeouts QuotasQuotaAlarm#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#timeouts QuotasQuotaAlarm#timeouts}
   */
   readonly timeouts?: QuotasQuotaAlarmTimeouts;
 }
 export interface QuotasQuotaAlarmQuotaDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#key QuotasQuotaAlarm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#key QuotasQuotaAlarm#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#value QuotasQuotaAlarm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#value QuotasQuotaAlarm#value}
   */
   readonly value?: string;
 }
@@ -206,15 +206,15 @@ export class QuotasQuotaAlarmQuotaDimensionsList extends cdktf.ComplexList {
 }
 export interface QuotasQuotaAlarmTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#create QuotasQuotaAlarm#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#create QuotasQuotaAlarm#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#delete QuotasQuotaAlarm#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#delete QuotasQuotaAlarm#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#update QuotasQuotaAlarm#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#update QuotasQuotaAlarm#update}
   */
   readonly update?: string;
 }
@@ -366,7 +366,7 @@ export class QuotasQuotaAlarmTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm alicloud_quotas_quota_alarm}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm alicloud_quotas_quota_alarm}
 */
 export class QuotasQuotaAlarm extends cdktf.TerraformResource {
 
@@ -382,7 +382,7 @@ export class QuotasQuotaAlarm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuotasQuotaAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuotasQuotaAlarm to import
-  * @param importFromId The id of the existing QuotasQuotaAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuotasQuotaAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuotasQuotaAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -394,7 +394,7 @@ export class QuotasQuotaAlarm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/quotas_quota_alarm alicloud_quotas_quota_alarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/quotas_quota_alarm alicloud_quotas_quota_alarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -405,8 +405,8 @@ export class QuotasQuotaAlarm extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_quotas_quota_alarm',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

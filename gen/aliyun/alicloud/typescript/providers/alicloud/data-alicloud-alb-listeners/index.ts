@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudAlbListenersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#enable_details DataAlicloudAlbListeners#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#enable_details DataAlicloudAlbListeners#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#id DataAlicloudAlbListeners#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#id DataAlicloudAlbListeners#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#ids DataAlicloudAlbListeners#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#ids DataAlicloudAlbListeners#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#listener_ids DataAlicloudAlbListeners#listener_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#listener_ids DataAlicloudAlbListeners#listener_ids}
   */
   readonly listenerIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#listener_protocol DataAlicloudAlbListeners#listener_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#listener_protocol DataAlicloudAlbListeners#listener_protocol}
   */
   readonly listenerProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#load_balancer_ids DataAlicloudAlbListeners#load_balancer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#load_balancer_ids DataAlicloudAlbListeners#load_balancer_ids}
   */
   readonly loadBalancerIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#output_file DataAlicloudAlbListeners#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#output_file DataAlicloudAlbListeners#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#status DataAlicloudAlbListeners#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#status DataAlicloudAlbListeners#status}
   */
   readonly status?: string;
 }
@@ -994,7 +994,7 @@ export class DataAlicloudAlbListenersListenersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners alicloud_alb_listeners}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners alicloud_alb_listeners}
 */
 export class DataAlicloudAlbListeners extends cdktf.TerraformDataSource {
 
@@ -1010,7 +1010,7 @@ export class DataAlicloudAlbListeners extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAlbListeners resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAlbListeners to import
-  * @param importFromId The id of the existing DataAlicloudAlbListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAlbListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAlbListeners to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1022,7 +1022,7 @@ export class DataAlicloudAlbListeners extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_listeners alicloud_alb_listeners} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alb_listeners alicloud_alb_listeners} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1033,8 +1033,8 @@ export class DataAlicloudAlbListeners extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_alb_listeners',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

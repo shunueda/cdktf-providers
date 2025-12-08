@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#metadata DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#metadata DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestMetadata;
   /**
   * ClusterSpec defines the desired state of Cluster. Returns information about a cluster of either the provisioned or the serverless type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#spec DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#spec DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#annotations DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#annotations DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#labels DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#labels DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecAssociatedScramSecretRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecAssociated
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecAssociatedScramSecretRefsFrom;
 }
@@ -462,7 +462,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecAssociatedScra
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfoConnectivityInfoPublicAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#type DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#type DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -558,7 +558,7 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNode
   /**
   * Broker public access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#public_access DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#public_access DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#public_access}
   */
   readonly publicAccess?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfoConnectivityInfoPublicAccess;
 }
@@ -652,11 +652,11 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGrou
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#volume_throughput DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#volume_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#volume_throughput DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#volume_throughput}
   */
   readonly volumeThroughput?: number;
 }
@@ -781,11 +781,11 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNode
   /**
   * Contains information about provisioned throughput for EBS storage volumes attached to kafka broker nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#provisioned_throughput DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#provisioned_throughput DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#provisioned_throughput}
   */
   readonly provisionedThroughput?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#volume_size DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#volume_size DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#volume_size}
   */
   readonly volumeSize?: number;
 }
@@ -910,7 +910,7 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNode
   /**
   * Contains information about the EBS storage volumes attached to Apache Kafka broker nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#ebs_storage_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#ebs_storage_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#ebs_storage_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#ebs_storage_info}
   */
   readonly ebsStorageInfo?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfoStorageInfoEbsStorageInfo;
 }
@@ -1006,31 +1006,31 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNode
   /**
   * The distribution of broker nodes across Availability Zones. By default, broker nodes are distributed among the Availability Zones of your Region. Currently, the only supported value is DEFAULT. You can either specify this value explicitly or leave it out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#broker_az_distribution DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#broker_az_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#broker_az_distribution DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#broker_az_distribution}
   */
   readonly brokerAzDistribution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#client_subnets DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#client_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#client_subnets DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#client_subnets}
   */
   readonly clientSubnets?: string[];
   /**
   * Information about the broker access configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#connectivity_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#connectivity_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#connectivity_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#connectivity_info}
   */
   readonly connectivityInfo?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfoConnectivityInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#instance_type DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#instance_type DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#security_groups DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#security_groups DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Contains information about storage volumes attached to MSK broker nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#storage_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#storage_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#storage_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#storage_info}
   */
   readonly storageInfo?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfoStorageInfo;
 }
@@ -1269,7 +1269,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGrou
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationSaslIam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1363,7 +1363,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenti
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationSaslScram {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1457,11 +1457,11 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenti
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationSasl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#iam DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#iam DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#iam}
   */
   readonly iam?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationSaslIam;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#scram DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#scram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#scram DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#scram}
   */
   readonly scram?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationSaslScram;
 }
@@ -1584,11 +1584,11 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenti
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#certificate_authority_arn_list DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#certificate_authority_arn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#certificate_authority_arn_list DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#certificate_authority_arn_list}
   */
   readonly certificateAuthorityArnList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1711,7 +1711,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenti
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationUnauthenticated {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1805,19 +1805,19 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenti
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#sasl DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#sasl DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#sasl}
   */
   readonly sasl?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationSasl;
   /**
   * Details for client authentication using TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#tls DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#tls DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationTls;
   /**
   * Contains information about unauthenticated traffic to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#unauthenticated DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#unauthenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#unauthenticated DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#unauthenticated}
   */
   readonly unauthenticated?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenticationUnauthenticated;
 }
@@ -1969,11 +1969,11 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthenti
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecConfigurationInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#arn DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#arn DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#revision DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#revision DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#revision}
   */
   readonly revision?: number;
 }
@@ -2096,7 +2096,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecConfigurationI
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionInfoEncryptionAtRest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#data_volume_kms_key_id DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#data_volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#data_volume_kms_key_id DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#data_volume_kms_key_id}
   */
   readonly dataVolumeKmsKeyId?: string;
 }
@@ -2192,11 +2192,11 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecEncryption
   /**
   * Client-broker encryption in transit setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#client_broker DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#client_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#client_broker DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#client_broker}
   */
   readonly clientBroker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#in_cluster DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#in_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#in_cluster DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#in_cluster}
   */
   readonly inCluster?: boolean | cdktf.IResolvable;
 }
@@ -2321,13 +2321,13 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecEncryption
   /**
   * The data-volume encryption details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#encryption_at_rest DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#encryption_at_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#encryption_at_rest DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#encryption_at_rest}
   */
   readonly encryptionAtRest?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionInfoEncryptionAtRest;
   /**
   * The settings for encrypting data in transit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#encryption_in_transit DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#encryption_in_transit DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#encryption_in_transit}
   */
   readonly encryptionInTransit?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionInfoEncryptionInTransit;
 }
@@ -2450,11 +2450,11 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionInfo
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBrokerLogsCloudWatchLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#log_group DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#log_group DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#log_group}
   */
   readonly logGroup?: string;
 }
@@ -2577,11 +2577,11 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBro
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBrokerLogsFirehose {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#delivery_stream DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#delivery_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#delivery_stream DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#delivery_stream}
   */
   readonly deliveryStream?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2704,15 +2704,15 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBro
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBrokerLogsS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#bucket DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#bucket DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#prefix DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#prefix DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -2866,19 +2866,19 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInf
   /**
   * Details of the CloudWatch Logs destination for broker logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#cloud_watch_logs DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#cloud_watch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#cloud_watch_logs DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#cloud_watch_logs}
   */
   readonly cloudWatchLogs?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBrokerLogsCloudWatchLogs;
   /**
   * Firehose details for BrokerLogs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#firehose DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#firehose DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#firehose}
   */
   readonly firehose?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBrokerLogsFirehose;
   /**
   * The details of the Amazon S3 destination for broker logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#s3 DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#s3 DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBrokerLogsS3;
 }
@@ -3032,7 +3032,7 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInf
   /**
   * The broker logs configuration for this MSK cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#broker_logs DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#broker_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#broker_logs DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#broker_logs}
   */
   readonly brokerLogs?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoBrokerLogs;
 }
@@ -3126,7 +3126,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfoOut
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoringPrometheusJmxExporter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled_in_broker DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled_in_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled_in_broker DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled_in_broker}
   */
   readonly enabledInBroker?: boolean | cdktf.IResolvable;
 }
@@ -3220,7 +3220,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoring
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoringPrometheusNodeExporter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled_in_broker DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled_in_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enabled_in_broker DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enabled_in_broker}
   */
   readonly enabledInBroker?: boolean | cdktf.IResolvable;
 }
@@ -3316,13 +3316,13 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonito
   /**
   * Indicates whether you want to enable or disable the JMX Exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#jmx_exporter DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#jmx_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#jmx_exporter DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#jmx_exporter}
   */
   readonly jmxExporter?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoringPrometheusJmxExporter;
   /**
   * Indicates whether you want to enable or disable the Node Exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#node_exporter DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#node_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#node_exporter DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#node_exporter}
   */
   readonly nodeExporter?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoringPrometheusNodeExporter;
 }
@@ -3447,7 +3447,7 @@ export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonito
   /**
   * Prometheus settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#prometheus DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#prometheus DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoringPrometheus;
 }
@@ -3541,83 +3541,83 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoring
 }
 export interface DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#associated_scram_secret_refs DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#associated_scram_secret_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#associated_scram_secret_refs DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#associated_scram_secret_refs}
   */
   readonly associatedScramSecretRefs?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecAssociatedScramSecretRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#associated_scram_secrets DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#associated_scram_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#associated_scram_secrets DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#associated_scram_secrets}
   */
   readonly associatedScramSecrets?: string[];
   /**
   * Information about the brokers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#broker_node_group_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#broker_node_group_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#broker_node_group_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#broker_node_group_info}
   */
   readonly brokerNodeGroupInfo: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecBrokerNodeGroupInfo;
   /**
   * Includes all client authentication related information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#client_authentication DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#client_authentication DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#client_authentication}
   */
   readonly clientAuthentication?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecClientAuthentication;
   /**
   * Represents the configuration that you want MSK to use for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#configuration_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#configuration_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#configuration_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#configuration_info}
   */
   readonly configurationInfo?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecConfigurationInfo;
   /**
   * Includes all encryption-related information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#encryption_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#encryption_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#encryption_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#encryption_info}
   */
   readonly encryptionInfo?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionInfo;
   /**
   * Specifies the level of monitoring for the MSK cluster. The possible values are DEFAULT, PER_BROKER, PER_TOPIC_PER_BROKER, and PER_TOPIC_PER_PARTITION.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enhanced_monitoring DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enhanced_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#enhanced_monitoring DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#enhanced_monitoring}
   */
   readonly enhancedMonitoring?: string;
   /**
   * The version of Apache Kafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#kafka_version DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#kafka_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#kafka_version DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#kafka_version}
   */
   readonly kafkaVersion: string;
   /**
   * LoggingInfo details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#logging_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#logging_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#logging_info DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#logging_info}
   */
   readonly loggingInfo?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingInfo;
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The number of Apache Kafka broker nodes in the Amazon MSK cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#number_of_broker_nodes DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#number_of_broker_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#number_of_broker_nodes DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#number_of_broker_nodes}
   */
   readonly numberOfBrokerNodes: number;
   /**
   * The settings for open monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#open_monitoring DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#open_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#open_monitoring DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#open_monitoring}
   */
   readonly openMonitoring?: DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOpenMonitoring;
   /**
   * This controls storage mode for supported storage tiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#storage_mode DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#storage_mode DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * Create tags when creating the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#tags DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#tags DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4076,7 +4076,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest k8s_kafka_services_k8s_aws_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest k8s_kafka_services_k8s_aws_cluster_v1alpha1_manifest}
 */
 export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4092,7 +4092,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4104,7 +4104,7 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest k8s_kafka_services_k8s_aws_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_services_k8s_aws_cluster_v1alpha1_manifest k8s_kafka_services_k8s_aws_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4115,8 +4115,8 @@ export class DataK8SKafkaServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_kafka_services_k8s_aws_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

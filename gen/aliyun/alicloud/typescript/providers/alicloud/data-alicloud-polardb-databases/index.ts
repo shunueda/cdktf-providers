@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/polardb_databases
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/polardb_databases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudPolardbDatabasesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/polardb_databases#db_cluster_id DataAlicloudPolardbDatabases#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/polardb_databases#db_cluster_id DataAlicloudPolardbDatabases#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/polardb_databases#id DataAlicloudPolardbDatabases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/polardb_databases#id DataAlicloudPolardbDatabases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/polardb_databases#name_regex DataAlicloudPolardbDatabases#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/polardb_databases#name_regex DataAlicloudPolardbDatabases#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -211,7 +211,7 @@ export class DataAlicloudPolardbDatabasesDatabasesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/polardb_databases alicloud_polardb_databases}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/polardb_databases alicloud_polardb_databases}
 */
 export class DataAlicloudPolardbDatabases extends cdktf.TerraformDataSource {
 
@@ -227,7 +227,7 @@ export class DataAlicloudPolardbDatabases extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudPolardbDatabases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudPolardbDatabases to import
-  * @param importFromId The id of the existing DataAlicloudPolardbDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/polardb_databases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudPolardbDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/polardb_databases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudPolardbDatabases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DataAlicloudPolardbDatabases extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/polardb_databases alicloud_polardb_databases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/polardb_databases alicloud_polardb_databases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DataAlicloudPolardbDatabases extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_polardb_databases',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

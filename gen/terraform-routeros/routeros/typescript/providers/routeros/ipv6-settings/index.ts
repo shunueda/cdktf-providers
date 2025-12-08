@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface Ipv6SettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#___path___ Ipv6Settings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#___path___ Ipv6Settings#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#___skip___ Ipv6Settings#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#___skip___ Ipv6Settings#___skip___}
   */
   readonly skip?: string;
   /**
   * Whether to accept ICMP redirect messages. Typically should be enabled on the host and disabled on routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#accept_redirects Ipv6Settings#accept_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#accept_redirects Ipv6Settings#accept_redirects}
   */
   readonly acceptRedirects?: string;
   /**
   * Accept router advertisement (RA) messages. If enabled, the router will be able to get the address using stateless address configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#accept_router_advertisements Ipv6Settings#accept_router_advertisements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#accept_router_advertisements Ipv6Settings#accept_router_advertisements}
   */
   readonly acceptRouterAdvertisements?: string;
   /**
   * Accept router advertisement (RA) messages. If enabled, the router will be able to get the address using stateless address configuration on specified or specific interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#accept_router_advertisements_on Ipv6Settings#accept_router_advertisements_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#accept_router_advertisements_on Ipv6Settings#accept_router_advertisements_on}
   */
   readonly acceptRouterAdvertisementsOn?: string;
   /**
   * Allows Fast Path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#allow_fast_path Ipv6Settings#allow_fast_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#allow_fast_path Ipv6Settings#allow_fast_path}
   */
   readonly allowFastPath?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable system wide IPv6 settings (prevents LL address generation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#disable_ipv6 Ipv6Settings#disable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#disable_ipv6 Ipv6Settings#disable_ipv6}
   */
   readonly disableIpv6?: boolean | cdktf.IResolvable;
   /**
   * Disable automatic link-local address generation for non-VPN interfaces. This can be used when manually configured link-local addresses are being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#disable_link_local_address Ipv6Settings#disable_link_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#disable_link_local_address Ipv6Settings#disable_link_local_address}
   */
   readonly disableLinkLocalAddress?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable packet forwarding between interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#forward Ipv6Settings#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#forward Ipv6Settings#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#id Ipv6Settings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#id Ipv6Settings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,13 +76,13 @@ export interface Ipv6SettingsConfig extends cdktf.TerraformMetaArguments {
   *   * 8192 for 512 MB,
   *   * 16384 for 1024 MB or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#max_neighbor_entries Ipv6Settings#max_neighbor_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#max_neighbor_entries Ipv6Settings#max_neighbor_entries}
   */
   readonly maxNeighborEntries?: number;
   /**
   * Minimal number of IPv6/Neighbor entries, for which device must allocate memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#min_neighbor_entries Ipv6Settings#min_neighbor_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#min_neighbor_entries Ipv6Settings#min_neighbor_entries}
   */
   readonly minNeighborEntries?: number;
   /**
@@ -91,29 +91,29 @@ export interface Ipv6SettingsConfig extends cdktf.TerraformMetaArguments {
   *   * l3-inner -- layer-3 hashing or inner layer-3 hashing if available
   *   * l4 -- layer-4 hashing of src IP, dst IP, IP protocol, src port, dst port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#multipath_hash_policy Ipv6Settings#multipath_hash_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#multipath_hash_policy Ipv6Settings#multipath_hash_policy}
   */
   readonly multipathHashPolicy?: string;
   /**
   * Expected maximum number of IPv6/Neighbor entries which system should handle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#soft_max_neighbor_entries Ipv6Settings#soft_max_neighbor_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#soft_max_neighbor_entries Ipv6Settings#soft_max_neighbor_entries}
   */
   readonly softMaxNeighborEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#stale_neighbor_detect_interval Ipv6Settings#stale_neighbor_detect_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#stale_neighbor_detect_interval Ipv6Settings#stale_neighbor_detect_interval}
   */
   readonly staleNeighborDetectInterval?: string;
   /**
   * Timeout after which stale IPv6/Neighbor entries should be purged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#stale_neighbor_timeout Ipv6Settings#stale_neighbor_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#stale_neighbor_timeout Ipv6Settings#stale_neighbor_timeout}
   */
   readonly staleNeighborTimeout?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings routeros_ipv6_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings routeros_ipv6_settings}
 */
 export class Ipv6Settings extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class Ipv6Settings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Settings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Settings to import
-  * @param importFromId The id of the existing Ipv6Settings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Settings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Settings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class Ipv6Settings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_settings routeros_ipv6_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/ipv6_settings routeros_ipv6_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class Ipv6Settings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#metadata DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#metadata DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestMetadata;
   /**
   * ExtensionConfigSpec is the desired state of the ExtensionConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#spec DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#spec DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#annotations DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#annotations DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#labels DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#labels DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#name DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#name DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecC
   /**
   * Name is the name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#name DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#name DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#namespace DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#namespace DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * Path is an optional URL path and if present may be any string permissible in a URL. If a path is set it will be used as prefix to the hook-specific path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#path DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#path DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port is the port on the service that's hosting the Extension server. Defaults to 443. Port should be a valid port number (1-65535, inclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#port DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#port DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -382,19 +382,19 @@ export interface DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecC
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the Extension server's server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#ca_bundle DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#ca_bundle DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Service is a reference to the Kubernetes service for the Extension server. Note: Exactly one of 'url' or 'service' must be specified. If the Extension server is running within a cluster, then you should use 'service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#service DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#service DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecClientConfigService;
   /**
   * URL gives the location of the Extension server, in standard URL form ('scheme://host:port/path'). Note: Exactly one of 'url' or 'service' must be specified. The scheme must be 'https'. The 'host' should not refer to a service running in the cluster; use the 'service' field instead. A path is optional, and if present may be any string permissible in a URL. If a path is set it will be used as prefix to the hook-specific path. Attempting to use a user or basic auth e.g. 'user:password@' is not allowed. Fragments ('#...') and query parameters ('?...') are not allowed either.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#url DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#url DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -548,19 +548,19 @@ export interface DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecN
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#key DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#key DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#operator DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#operator DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#values DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#values DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -730,13 +730,13 @@ export interface DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecN
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#match_expressions DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#match_expressions DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#match_labels DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#match_labels DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -861,19 +861,19 @@ export interface DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpec 
   /**
   * ClientConfig defines how to communicate with the Extension server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#client_config DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#client_config DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#client_config}
   */
   readonly clientConfig: DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecClientConfig;
   /**
   * NamespaceSelector decides whether to call the hook for an object based on whether the namespace for that object matches the selector. Defaults to the empty LabelSelector, which matches all objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#namespace_selector DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#namespace_selector DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecNamespaceSelector;
   /**
   * Settings defines key value pairs to be passed to all calls to all supported RuntimeExtensions. Note: Settings can be overridden on the ClusterClass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#settings DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#settings DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest#settings}
   */
   readonly settings?: { [key: string]: string };
 }
@@ -1022,7 +1022,7 @@ export class DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest k8s_runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest k8s_runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest}
 */
 export class DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1038,7 +1038,7 @@ export class DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1050,7 +1050,7 @@ export class DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest k8s_runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest k8s_runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1061,8 +1061,8 @@ export class DataK8SRuntimeClusterXK8SIoExtensionConfigV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_runtime_cluster_x_k8s_io_extension_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

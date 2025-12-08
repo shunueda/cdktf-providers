@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,54 +10,45 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application specific configuration. Must evaluate to a string, integer or boolean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#config Application#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#config Application#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Constraints imposed on this application. Changing this value will cause the application to be destroyed and recreated by terraform. Multiple constraints can be provided as a space-separated list.
+  * Constraints imposed on this application. Changing this value will cause the application to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#constraints Application#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#constraints Application#constraints}
   */
   readonly constraints?: string;
   /**
   * Configure endpoint bindings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#endpoint_bindings Application#endpoint_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#endpoint_bindings Application#endpoint_bindings}
   */
   readonly endpointBindings?: ApplicationEndpointBindings[] | cdktf.IResolvable;
   /**
-  * Specify the target machines for the application's units. The number of machines in the set indicates the unit count for the application. Removing a machine from the set will remove the application's unit residing on it. `machines` is mutually exclusive with `units`.
+  * Specify the target machines for the application's units. The number of machines in the set indicates the unit count for the application. Removing a machine from the set will remove the application's unit residing on it. `machines` is mutually exclusive with `units` and `placement` (which is deprecated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#machines Application#machines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#machines Application#machines}
   */
   readonly machines?: string[];
   /**
-  * The UUID of the model where the application is to be deployed. Changing this value will cause the application to be destroyed and recreated by terraform.
+  * The name of the model where the application is to be deployed. Changing this value will cause the application to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#model_uuid Application#model_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#model Application#model}
   */
-  readonly modelUuid: string;
+  readonly model: string;
   /**
   * A custom name for the application deployment. If empty, uses the charm's name.Changing this value will cause the application to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#name Application#name}
   */
   readonly name?: string;
   /**
-  * 
-  * 	OCI image registry credentials for OCI images specified in the charm resources. The map key is the registry URL.
-  * 
-  * 	If the charm resource requires authentication, supply a username and password that will be passed to the Juju API and added to the Kubernetes cluster.
-  * 
-  * 	The registry credentials will only be used if the URL of the registry is a partial match for the OCI image URL specified in the charm resources.
-  * 	An OCI image URL is considered a match for a registry URL if the URL without the OCI image tag matches the registry URL. For example, 
-  * 	a charm OCI resource specified as "registry.example.com:5000/path/image:tag" will match a registry entry with key "registry.example.com:5000/path" 
-  * 	but not "registry.example.com:5000" nor "registry.example.com".
-  * 
+  * Specify the target location for the application's units. Changing this value will cause the application to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#registry_credentials Application#registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#placement Application#placement}
   */
-  readonly registryCredentials?: { [key: string]: ApplicationRegistryCredentials } | cdktf.IResolvable;
+  readonly placement?: string;
   /**
   * 
   * Charm resources. Must evaluate to a string. A resource could be a resource revision number from CharmHub or a custom OCI image resource.
@@ -70,37 +61,43 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   * * Resources specified by URL to an OCI image repository will never be refreshed (upgraded) by juju during a charm refresh unless explicitly changed in the plan.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#resources Application#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#resources Application#resources}
   */
   readonly resources?: { [key: string]: string };
   /**
-  * Storage directives (constraints) for the juju application. The map key is the label of the storage defined by the charm, the map value is the storage directive in the form [<pool>,][<count>,][<size>]  where at least one constraint must be specified. See https://documentation.ubuntu.com/juju/3.6/reference/storage/ for more details. If a pool is not specified, the model's default pool will be used. Changing an existing key/value pair will cause the application to be replaced. Adding a new key/value pair will add storage to the application on upgrade.
+  * Storage used by the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#storage_directives Application#storage_directives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#storage Application#storage}
+  */
+  readonly storage?: ApplicationStorage[] | cdktf.IResolvable;
+  /**
+  * Storage directives (constraints) for the juju application. The map key is the label of the storage defined by the charm, the map value is the storage directive in the form <pool>,<count>,<size>. Changing an existing key/value pair will cause the application to be replaced. Adding a new key/value pair will add storage to the application on upgrade.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#storage_directives Application#storage_directives}
   */
   readonly storageDirectives?: { [key: string]: string };
   /**
   * Set the trust for the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#trust Application#trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#trust Application#trust}
   */
   readonly trust?: boolean | cdktf.IResolvable;
   /**
   * The number of application units to deploy for the charm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#units Application#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#units Application#units}
   */
   readonly units?: number;
   /**
   * charm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#charm Application#charm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#charm Application#charm}
   */
   readonly charm?: ApplicationCharm[] | cdktf.IResolvable;
   /**
   * expose block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#expose Application#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#expose Application#expose}
   */
   readonly expose?: ApplicationExpose[] | cdktf.IResolvable;
 }
@@ -108,13 +105,13 @@ export interface ApplicationEndpointBindings {
   /**
   * Name of the endpoint to bind to a space. Keep null (or undefined) to define default binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#endpoint Application#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#endpoint Application#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Name of the space to bind the endpoint to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#space Application#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#space Application#space}
   */
   readonly space: string;
 }
@@ -254,155 +251,10 @@ export class ApplicationEndpointBindingsList extends cdktf.ComplexList {
     return new ApplicationEndpointBindingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface ApplicationRegistryCredentials {
-  /**
-  * The password for authenticating to the registry.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#password Application#password}
-  */
-  readonly password: string;
-  /**
-  * The username for authenticating to the registry.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#username Application#username}
-  */
-  readonly username: string;
-}
-
-export function applicationRegistryCredentialsToTerraform(struct?: ApplicationRegistryCredentials | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    password: cdktf.stringToTerraform(struct!.password),
-    username: cdktf.stringToTerraform(struct!.username),
-  }
-}
-
-
-export function applicationRegistryCredentialsToHclTerraform(struct?: ApplicationRegistryCredentials | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    password: {
-      value: cdktf.stringToHclTerraform(struct!.password),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ApplicationRegistryCredentialsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectKey the key of this item in the map
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectKey: string) {
-    super(terraformResource, terraformAttribute, false, complexObjectKey);
-  }
-
-  public get internalValue(): ApplicationRegistryCredentials | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._password !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.password = this._password;
-    }
-    if (this._username !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.username = this._username;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ApplicationRegistryCredentials | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._password = undefined;
-      this._username = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._password = value.password;
-      this._username = value.username;
-    }
-  }
-
-  // password - computed: false, optional: false, required: true
-  private _password?: string; 
-  public get password() {
-    return this.getStringAttribute('password');
-  }
-  public set password(value: string) {
-    this._password = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get passwordInput() {
-    return this._password;
-  }
-
-  // username - computed: false, optional: false, required: true
-  private _username?: string; 
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-  public set username(value: string) {
-    this._username = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usernameInput() {
-    return this._username;
-  }
-}
-
-export class ApplicationRegistryCredentialsMap extends cdktf.ComplexMap {
-  public internalValue? : { [key: string]: ApplicationRegistryCredentials } | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string) {
-    super(terraformResource, terraformAttribute)
-  }
-
-  /**
-  * @param key the key of the item to return
-  */
-  public get(key: string): ApplicationRegistryCredentialsOutputReference {
-    return new ApplicationRegistryCredentialsOutputReference(this.terraformResource, this.terraformAttribute, key);
-  }
-}
 export interface ApplicationStorage {
 }
 
-export function applicationStorageToTerraform(struct?: ApplicationStorage): any {
+export function applicationStorageToTerraform(struct?: ApplicationStorage | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -412,7 +264,7 @@ export function applicationStorageToTerraform(struct?: ApplicationStorage): any 
 }
 
 
-export function applicationStorageToHclTerraform(struct?: ApplicationStorage): any {
+export function applicationStorageToHclTerraform(struct?: ApplicationStorage | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -424,6 +276,7 @@ export function applicationStorageToHclTerraform(struct?: ApplicationStorage): a
 
 export class ApplicationStorageOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -435,18 +288,27 @@ export class ApplicationStorageOutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): ApplicationStorage | undefined {
+  public get internalValue(): ApplicationStorage | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ApplicationStorage | undefined) {
+  public set internalValue(value: ApplicationStorage | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
     }
   }
 
@@ -472,6 +334,7 @@ export class ApplicationStorageOutputReference extends cdktf.ComplexObject {
 }
 
 export class ApplicationStorageList extends cdktf.ComplexList {
+  public internalValue? : ApplicationStorage[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -493,27 +356,33 @@ export interface ApplicationCharm {
   /**
   * The operating system on which to deploy. E.g. ubuntu@22.04. Changing this value for machine charms will trigger a replace by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#base Application#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#base Application#base}
   */
   readonly base?: string;
   /**
   * The channel to use when deploying a charm. Specified as \<track>/\<risk>/\<branch>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#channel Application#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#channel Application#channel}
   */
   readonly channel?: string;
   /**
   * The name of the charm to be deployed.  Changing this value will cause the application to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * The revision of the charm to deploy. During the update phase, the charm revision should be update before config update, to avoid issues with config parameters parsing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#revision Application#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#revision Application#revision}
   */
   readonly revision?: number;
+  /**
+  * The series on which to deploy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#series Application#series}
+  */
+  readonly series?: string;
 }
 
 export function applicationCharmToTerraform(struct?: ApplicationCharm | cdktf.IResolvable): any {
@@ -526,6 +395,7 @@ export function applicationCharmToTerraform(struct?: ApplicationCharm | cdktf.IR
     channel: cdktf.stringToTerraform(struct!.channel),
     name: cdktf.stringToTerraform(struct!.name),
     revision: cdktf.numberToTerraform(struct!.revision),
+    series: cdktf.stringToTerraform(struct!.series),
   }
 }
 
@@ -559,6 +429,12 @@ export function applicationCharmToHclTerraform(struct?: ApplicationCharm | cdktf
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    series: {
+      value: cdktf.stringToHclTerraform(struct!.series),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -602,6 +478,10 @@ export class ApplicationCharmOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.revision = this._revision;
     }
+    if (this._series !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.series = this._series;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -613,6 +493,7 @@ export class ApplicationCharmOutputReference extends cdktf.ComplexObject {
       this._channel = undefined;
       this._name = undefined;
       this._revision = undefined;
+      this._series = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -625,6 +506,7 @@ export class ApplicationCharmOutputReference extends cdktf.ComplexObject {
       this._channel = value.channel;
       this._name = value.name;
       this._revision = value.revision;
+      this._series = value.series;
     }
   }
 
@@ -688,6 +570,22 @@ export class ApplicationCharmOutputReference extends cdktf.ComplexObject {
   public get revisionInput() {
     return this._revision;
   }
+
+  // series - computed: true, optional: true, required: false
+  private _series?: string; 
+  public get series() {
+    return this.getStringAttribute('series');
+  }
+  public set series(value: string) {
+    this._series = value;
+  }
+  public resetSeries() {
+    this._series = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seriesInput() {
+    return this._series;
+  }
 }
 
 export class ApplicationCharmList extends cdktf.ComplexList {
@@ -713,19 +611,19 @@ export interface ApplicationExpose {
   /**
   * A comma-delimited list of CIDRs that should be able to access the application ports once exposed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#cidrs Application#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#cidrs Application#cidrs}
   */
   readonly cidrs?: string;
   /**
   * Expose only the ports that charms have opened for this comma-delimited list of endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#endpoints Application#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#endpoints Application#endpoints}
   */
   readonly endpoints?: string;
   /**
   * A comma-delimited list of spaces that should be able to access the application ports once exposed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#spaces Application#spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#spaces Application#spaces}
   */
   readonly spaces?: string;
 }
@@ -899,7 +797,7 @@ export class ApplicationExposeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application juju_application}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application juju_application}
 */
 export class Application extends cdktf.TerraformResource {
 
@@ -915,7 +813,7 @@ export class Application extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Application resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Application to import
-  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Application to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -927,7 +825,7 @@ export class Application extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/application juju_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/application juju_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -938,8 +836,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'juju_application',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -953,10 +851,11 @@ export class Application extends cdktf.TerraformResource {
     this._constraints = config.constraints;
     this._endpointBindings.internalValue = config.endpointBindings;
     this._machines = config.machines;
-    this._modelUuid = config.modelUuid;
+    this._model = config.model;
     this._name = config.name;
-    this._registryCredentials.internalValue = config.registryCredentials;
+    this._placement = config.placement;
     this._resources = config.resources;
+    this._storage.internalValue = config.storage;
     this._storageDirectives = config.storageDirectives;
     this._trust = config.trust;
     this._units = config.units;
@@ -1037,22 +936,22 @@ export class Application extends cdktf.TerraformResource {
     return this._machines;
   }
 
+  // model - computed: false, optional: false, required: true
+  private _model?: string; 
+  public get model() {
+    return this.getStringAttribute('model');
+  }
+  public set model(value: string) {
+    this._model = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modelInput() {
+    return this._model;
+  }
+
   // model_type - computed: true, optional: false, required: false
   public get modelType() {
     return this.getStringAttribute('model_type');
-  }
-
-  // model_uuid - computed: false, optional: false, required: true
-  private _modelUuid?: string; 
-  public get modelUuid() {
-    return this.getStringAttribute('model_uuid');
-  }
-  public set modelUuid(value: string) {
-    this._modelUuid = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get modelUuidInput() {
-    return this._modelUuid;
   }
 
   // name - computed: true, optional: true, required: false
@@ -1071,20 +970,25 @@ export class Application extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // registry_credentials - computed: false, optional: true, required: false
-  private _registryCredentials = new ApplicationRegistryCredentialsMap(this, "registry_credentials");
-  public get registryCredentials() {
-    return this._registryCredentials;
+  // placement - computed: true, optional: true, required: false
+  private _placement?: string; 
+  public get placement() {
+    return this.getStringAttribute('placement');
   }
-  public putRegistryCredentials(value: { [key: string]: ApplicationRegistryCredentials } | cdktf.IResolvable) {
-    this._registryCredentials.internalValue = value;
+  public set placement(value: string) {
+    this._placement = value;
   }
-  public resetRegistryCredentials() {
-    this._registryCredentials.internalValue = undefined;
+  public resetPlacement() {
+    this._placement = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get registryCredentialsInput() {
-    return this._registryCredentials.internalValue;
+  public get placementInput() {
+    return this._placement;
+  }
+
+  // principal - computed: true, optional: false, required: false
+  public get principal() {
+    return this.getBooleanAttribute('principal');
   }
 
   // resources - computed: false, optional: true, required: false
@@ -1103,10 +1007,20 @@ export class Application extends cdktf.TerraformResource {
     return this._resources;
   }
 
-  // storage - computed: true, optional: false, required: false
+  // storage - computed: true, optional: true, required: false
   private _storage = new ApplicationStorageList(this, "storage", true);
   public get storage() {
     return this._storage;
+  }
+  public putStorage(value: ApplicationStorage[] | cdktf.IResolvable) {
+    this._storage.internalValue = value;
+  }
+  public resetStorage() {
+    this._storage.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageInput() {
+    return this._storage.internalValue;
   }
 
   // storage_directives - computed: false, optional: true, required: false
@@ -1199,10 +1113,11 @@ export class Application extends cdktf.TerraformResource {
       constraints: cdktf.stringToTerraform(this._constraints),
       endpoint_bindings: cdktf.listMapper(applicationEndpointBindingsToTerraform, false)(this._endpointBindings.internalValue),
       machines: cdktf.listMapper(cdktf.stringToTerraform, false)(this._machines),
-      model_uuid: cdktf.stringToTerraform(this._modelUuid),
+      model: cdktf.stringToTerraform(this._model),
       name: cdktf.stringToTerraform(this._name),
-      registry_credentials: cdktf.hashMapper(applicationRegistryCredentialsToTerraform)(this._registryCredentials.internalValue),
+      placement: cdktf.stringToTerraform(this._placement),
       resources: cdktf.hashMapper(cdktf.stringToTerraform)(this._resources),
+      storage: cdktf.listMapper(applicationStorageToTerraform, false)(this._storage.internalValue),
       storage_directives: cdktf.hashMapper(cdktf.stringToTerraform)(this._storageDirectives),
       trust: cdktf.booleanToTerraform(this._trust),
       units: cdktf.numberToTerraform(this._units),
@@ -1237,8 +1152,8 @@ export class Application extends cdktf.TerraformResource {
         type: "set",
         storageClassType: "stringList",
       },
-      model_uuid: {
-        value: cdktf.stringToHclTerraform(this._modelUuid),
+      model: {
+        value: cdktf.stringToHclTerraform(this._model),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1249,17 +1164,23 @@ export class Application extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      registry_credentials: {
-        value: cdktf.hashMapperHcl(applicationRegistryCredentialsToHclTerraform)(this._registryCredentials.internalValue),
-        isBlock: true,
-        type: "map",
-        storageClassType: "ApplicationRegistryCredentialsMap",
+      placement: {
+        value: cdktf.stringToHclTerraform(this._placement),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       resources: {
         value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._resources),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      storage: {
+        value: cdktf.listMapperHcl(applicationStorageToHclTerraform, false)(this._storage.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ApplicationStorageList",
       },
       storage_directives: {
         value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._storageDirectives),

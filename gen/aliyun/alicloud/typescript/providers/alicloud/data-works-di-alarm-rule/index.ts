@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DataWorksDiAlarmRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#description DataWorksDiAlarmRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#description DataWorksDiAlarmRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#di_alarm_rule_name DataWorksDiAlarmRule#di_alarm_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#di_alarm_rule_name DataWorksDiAlarmRule#di_alarm_rule_name}
   */
   readonly diAlarmRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#di_job_id DataWorksDiAlarmRule#di_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#di_job_id DataWorksDiAlarmRule#di_job_id}
   */
   readonly diJobId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#enabled DataWorksDiAlarmRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#enabled DataWorksDiAlarmRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#id DataWorksDiAlarmRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#id DataWorksDiAlarmRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#metric_type DataWorksDiAlarmRule#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#metric_type DataWorksDiAlarmRule#metric_type}
   */
   readonly metricType: string;
   /**
   * notification_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#notification_settings DataWorksDiAlarmRule#notification_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#notification_settings DataWorksDiAlarmRule#notification_settings}
   */
   readonly notificationSettings: DataWorksDiAlarmRuleNotificationSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#timeouts DataWorksDiAlarmRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#timeouts DataWorksDiAlarmRule#timeouts}
   */
   readonly timeouts?: DataWorksDiAlarmRuleTimeouts;
   /**
   * trigger_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#trigger_conditions DataWorksDiAlarmRule#trigger_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#trigger_conditions DataWorksDiAlarmRule#trigger_conditions}
   */
   readonly triggerConditions: DataWorksDiAlarmRuleTriggerConditions[] | cdktf.IResolvable;
 }
 export interface DataWorksDiAlarmRuleNotificationSettingsNotificationChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#channels DataWorksDiAlarmRule#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#channels DataWorksDiAlarmRule#channels}
   */
   readonly channels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#severity DataWorksDiAlarmRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#severity DataWorksDiAlarmRule#severity}
   */
   readonly severity?: string;
 }
@@ -204,11 +204,11 @@ export class DataWorksDiAlarmRuleNotificationSettingsNotificationChannelsList ex
 }
 export interface DataWorksDiAlarmRuleNotificationSettingsNotificationReceivers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#receiver_type DataWorksDiAlarmRule#receiver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#receiver_type DataWorksDiAlarmRule#receiver_type}
   */
   readonly receiverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#receiver_values DataWorksDiAlarmRule#receiver_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#receiver_values DataWorksDiAlarmRule#receiver_values}
   */
   readonly receiverValues?: string[];
 }
@@ -353,19 +353,19 @@ export class DataWorksDiAlarmRuleNotificationSettingsNotificationReceiversList e
 }
 export interface DataWorksDiAlarmRuleNotificationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#inhibition_interval DataWorksDiAlarmRule#inhibition_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#inhibition_interval DataWorksDiAlarmRule#inhibition_interval}
   */
   readonly inhibitionInterval?: number;
   /**
   * notification_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#notification_channels DataWorksDiAlarmRule#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#notification_channels DataWorksDiAlarmRule#notification_channels}
   */
   readonly notificationChannels?: DataWorksDiAlarmRuleNotificationSettingsNotificationChannels[] | cdktf.IResolvable;
   /**
   * notification_receivers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#notification_receivers DataWorksDiAlarmRule#notification_receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#notification_receivers DataWorksDiAlarmRule#notification_receivers}
   */
   readonly notificationReceivers?: DataWorksDiAlarmRuleNotificationSettingsNotificationReceivers[] | cdktf.IResolvable;
 }
@@ -507,15 +507,15 @@ export class DataWorksDiAlarmRuleNotificationSettingsOutputReference extends cdk
 }
 export interface DataWorksDiAlarmRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#create DataWorksDiAlarmRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#create DataWorksDiAlarmRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#delete DataWorksDiAlarmRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#delete DataWorksDiAlarmRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#update DataWorksDiAlarmRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#update DataWorksDiAlarmRule#update}
   */
   readonly update?: string;
 }
@@ -667,19 +667,19 @@ export class DataWorksDiAlarmRuleTimeoutsOutputReference extends cdktf.ComplexOb
 }
 export interface DataWorksDiAlarmRuleTriggerConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#ddl_report_tags DataWorksDiAlarmRule#ddl_report_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#ddl_report_tags DataWorksDiAlarmRule#ddl_report_tags}
   */
   readonly ddlReportTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#duration DataWorksDiAlarmRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#duration DataWorksDiAlarmRule#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#severity DataWorksDiAlarmRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#severity DataWorksDiAlarmRule#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#threshold DataWorksDiAlarmRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#threshold DataWorksDiAlarmRule#threshold}
   */
   readonly threshold?: number;
 }
@@ -882,7 +882,7 @@ export class DataWorksDiAlarmRuleTriggerConditionsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule alicloud_data_works_di_alarm_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule alicloud_data_works_di_alarm_rule}
 */
 export class DataWorksDiAlarmRule extends cdktf.TerraformResource {
 
@@ -898,7 +898,7 @@ export class DataWorksDiAlarmRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataWorksDiAlarmRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWorksDiAlarmRule to import
-  * @param importFromId The id of the existing DataWorksDiAlarmRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWorksDiAlarmRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWorksDiAlarmRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -910,7 +910,7 @@ export class DataWorksDiAlarmRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_alarm_rule alicloud_data_works_di_alarm_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_alarm_rule alicloud_data_works_di_alarm_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -921,8 +921,8 @@ export class DataWorksDiAlarmRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_data_works_di_alarm_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

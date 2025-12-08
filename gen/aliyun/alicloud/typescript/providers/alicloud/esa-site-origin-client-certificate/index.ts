@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface EsaSiteOriginClientCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#certificate EsaSiteOriginClientCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#certificate EsaSiteOriginClientCertificate#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#id EsaSiteOriginClientCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#id EsaSiteOriginClientCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#private_key EsaSiteOriginClientCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#private_key EsaSiteOriginClientCertificate#private_key}
   */
   readonly privateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#site_id EsaSiteOriginClientCertificate#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#site_id EsaSiteOriginClientCertificate#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#site_origin_client_certificate_name EsaSiteOriginClientCertificate#site_origin_client_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#site_origin_client_certificate_name EsaSiteOriginClientCertificate#site_origin_client_certificate_name}
   */
   readonly siteOriginClientCertificateName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#timeouts EsaSiteOriginClientCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#timeouts EsaSiteOriginClientCertificate#timeouts}
   */
   readonly timeouts?: EsaSiteOriginClientCertificateTimeouts;
 }
 export interface EsaSiteOriginClientCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#create EsaSiteOriginClientCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#create EsaSiteOriginClientCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#delete EsaSiteOriginClientCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#delete EsaSiteOriginClientCertificate#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class EsaSiteOriginClientCertificateTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate alicloud_esa_site_origin_client_certificate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate alicloud_esa_site_origin_client_certificate}
 */
 export class EsaSiteOriginClientCertificate extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class EsaSiteOriginClientCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaSiteOriginClientCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaSiteOriginClientCertificate to import
-  * @param importFromId The id of the existing EsaSiteOriginClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaSiteOriginClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaSiteOriginClientCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class EsaSiteOriginClientCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_site_origin_client_certificate alicloud_esa_site_origin_client_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_origin_client_certificate alicloud_esa_site_origin_client_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class EsaSiteOriginClientCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_site_origin_client_certificate',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

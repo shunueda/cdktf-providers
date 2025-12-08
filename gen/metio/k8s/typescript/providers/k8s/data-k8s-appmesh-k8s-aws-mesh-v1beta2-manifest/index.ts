@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppmeshK8SAwsMeshV1Beta2ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SAppmeshK8SAwsMeshV1Beta2ManifestMetadata;
   /**
   * MeshSpec defines the desired state of Mesh refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_MeshSpec.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#spec DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#spec DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppmeshK8SAwsMeshV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#labels DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#labels DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#name DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#name DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecEgressFilter {
   /**
   * The egress filter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#type DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#type DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -280,7 +280,7 @@ export interface DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecMeshServiceDiscovery
   /**
   * The ipPreference for the mesh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#ip_preference DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#ip_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#ip_preference DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#ip_preference}
   */
   readonly ipPreference?: string;
 }
@@ -376,19 +376,19 @@ export interface DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecNamespaceSelectorMat
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#key DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#key DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#operator DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#operator DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#values DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#values DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -558,13 +558,13 @@ export interface DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecNamespaceSelector {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -689,29 +689,29 @@ export interface DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpec {
   /**
   * AWSName is the AppMesh Mesh object's name. If unspecified or empty, it defaults to be '${name}' of k8s Mesh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#aws_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#aws_name}
   */
   readonly awsName?: string;
   /**
   * The egress filter rules for the service mesh. If unspecified, default settings from AWS API will be applied. Refer to AWS Docs for default settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#egress_filter DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#egress_filter DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#egress_filter}
   */
   readonly egressFilter?: DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecEgressFilter;
   /**
   * The AWS IAM account ID of the service mesh owner. Required if the account ID is not your own.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#mesh_owner DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#mesh_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#mesh_owner DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#mesh_owner}
   */
   readonly meshOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#mesh_service_discovery DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#mesh_service_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#mesh_service_discovery DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#mesh_service_discovery}
   */
   readonly meshServiceDiscovery?: DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecMeshServiceDiscovery;
   /**
   * NamespaceSelector selects Namespaces using labels to designate mesh membership. This field follows standard label selector semantics: if present but empty, it selects all namespaces. if absent, it selects no namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#namespace_selector DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#namespace_selector DataK8SAppmeshK8SAwsMeshV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecNamespaceSelector;
 }
@@ -921,7 +921,7 @@ export class DataK8SAppmeshK8SAwsMeshV1Beta2ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest k8s_appmesh_k8s_aws_mesh_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest k8s_appmesh_k8s_aws_mesh_v1beta2_manifest}
 */
 export class DataK8SAppmeshK8SAwsMeshV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -937,7 +937,7 @@ export class DataK8SAppmeshK8SAwsMeshV1Beta2Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SAppmeshK8SAwsMeshV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppmeshK8SAwsMeshV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsMeshV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsMeshV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppmeshK8SAwsMeshV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -949,7 +949,7 @@ export class DataK8SAppmeshK8SAwsMeshV1Beta2Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest k8s_appmesh_k8s_aws_mesh_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appmesh_k8s_aws_mesh_v1beta2_manifest k8s_appmesh_k8s_aws_mesh_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -960,8 +960,8 @@ export class DataK8SAppmeshK8SAwsMeshV1Beta2Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_appmesh_k8s_aws_mesh_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

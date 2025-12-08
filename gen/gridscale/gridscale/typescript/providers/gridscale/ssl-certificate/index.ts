@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SslCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The PEM-formatted full-chain between the certificate authority and the domain's SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#certificate_chain SslCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#certificate_chain SslCertificate#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#id SslCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#id SslCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface SslCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#labels SslCertificate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#labels SslCertificate#labels}
   */
   readonly labels?: string[];
   /**
   * The PEM-formatted public SSL of the SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#leaf_certificate SslCertificate#leaf_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#leaf_certificate SslCertificate#leaf_certificate}
   */
   readonly leafCertificate: string;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#name SslCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#name SslCertificate#name}
   */
   readonly name: string;
   /**
   * The PEM-formatted private-key of the SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#private_key SslCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#private_key SslCertificate#private_key}
   */
   readonly privateKey: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#timeouts SslCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#timeouts SslCertificate#timeouts}
   */
   readonly timeouts?: SslCertificateTimeouts;
 }
@@ -138,15 +138,15 @@ export class SslCertificateFingerprintsList extends cdktf.ComplexList {
 }
 export interface SslCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#create SslCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#create SslCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#delete SslCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#delete SslCertificate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#update SslCertificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#update SslCertificate#update}
   */
   readonly update?: string;
 }
@@ -298,7 +298,7 @@ export class SslCertificateTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate gridscale_ssl_certificate}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate gridscale_ssl_certificate}
 */
 export class SslCertificate extends cdktf.TerraformResource {
 
@@ -314,7 +314,7 @@ export class SslCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslCertificate to import
-  * @param importFromId The id of the existing SslCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class SslCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/ssl_certificate gridscale_ssl_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/ssl_certificate gridscale_ssl_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class SslCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_ssl_certificate',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

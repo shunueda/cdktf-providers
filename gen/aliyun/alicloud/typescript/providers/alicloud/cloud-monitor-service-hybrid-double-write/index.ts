@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface CloudMonitorServiceHybridDoubleWriteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#id CloudMonitorServiceHybridDoubleWrite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#id CloudMonitorServiceHybridDoubleWrite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#namespace CloudMonitorServiceHybridDoubleWrite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#namespace CloudMonitorServiceHybridDoubleWrite#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#source_namespace CloudMonitorServiceHybridDoubleWrite#source_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#source_namespace CloudMonitorServiceHybridDoubleWrite#source_namespace}
   */
   readonly sourceNamespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#source_user_id CloudMonitorServiceHybridDoubleWrite#source_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#source_user_id CloudMonitorServiceHybridDoubleWrite#source_user_id}
   */
   readonly sourceUserId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#user_id CloudMonitorServiceHybridDoubleWrite#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#user_id CloudMonitorServiceHybridDoubleWrite#user_id}
   */
   readonly userId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#timeouts CloudMonitorServiceHybridDoubleWrite#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#timeouts CloudMonitorServiceHybridDoubleWrite#timeouts}
   */
   readonly timeouts?: CloudMonitorServiceHybridDoubleWriteTimeouts;
 }
 export interface CloudMonitorServiceHybridDoubleWriteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#create CloudMonitorServiceHybridDoubleWrite#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#create CloudMonitorServiceHybridDoubleWrite#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#delete CloudMonitorServiceHybridDoubleWrite#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#delete CloudMonitorServiceHybridDoubleWrite#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class CloudMonitorServiceHybridDoubleWriteTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write alicloud_cloud_monitor_service_hybrid_double_write}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write alicloud_cloud_monitor_service_hybrid_double_write}
 */
 export class CloudMonitorServiceHybridDoubleWrite extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class CloudMonitorServiceHybridDoubleWrite extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a CloudMonitorServiceHybridDoubleWrite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudMonitorServiceHybridDoubleWrite to import
-  * @param importFromId The id of the existing CloudMonitorServiceHybridDoubleWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudMonitorServiceHybridDoubleWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudMonitorServiceHybridDoubleWrite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class CloudMonitorServiceHybridDoubleWrite extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_monitor_service_hybrid_double_write alicloud_cloud_monitor_service_hybrid_double_write} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_hybrid_double_write alicloud_cloud_monitor_service_hybrid_double_write} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class CloudMonitorServiceHybridDoubleWrite extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_cloud_monitor_service_hybrid_double_write',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

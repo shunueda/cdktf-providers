@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TeamMemberConfig extends cdktf.TerraformMetaArguments {
   /**
   * If access groups are enabled on the team, and the user is a CONTRIBUTOR, `projects`, `access_groups` or both must be specified. A set of access groups IDs that the user should be granted access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#access_groups TeamMember#access_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#access_groups TeamMember#access_groups}
   */
   readonly accessGroups?: string[];
   /**
   * The email of the user to add to the team. Must specify one of user_id or email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#email TeamMember#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#email TeamMember#email}
   */
   readonly email?: string;
   /**
   * If access groups are enabled on the team, and the user is a CONTRIBUTOR, `projects`, `access_groups` or both must be specified. A set of projects that the user should be granted access to, along with their role in each project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#projects TeamMember#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#projects TeamMember#projects}
   */
   readonly projects?: TeamMemberProjects[] | cdktf.IResolvable;
   /**
-  * The role that the user should have in the project. One of 'MEMBER', 'OWNER', 'VIEWER', 'DEVELOPER', 'BILLING' or 'CONTRIBUTOR'. Depending on your Team's plan, some of these roles may be unavailable.
+  * The role that the user should have in the team. One of 'MEMBER', 'OWNER', 'VIEWER', 'VIEWER_FOR_PLUS', 'DEVELOPER', 'BILLING', 'SECURITY', or 'CONTRIBUTOR'. Depending on your Team's plan, some of these roles may be unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#role TeamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#role TeamMember#role}
   */
   readonly role: string;
   /**
   * The ID of the existing Vercel Team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#team_id TeamMember#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#team_id TeamMember#team_id}
   */
   readonly teamId: string;
   /**
   * The ID of the user to add to the team. Must specify one of user_id or email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#user_id TeamMember#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#user_id TeamMember#user_id}
   */
   readonly userId?: string;
 }
@@ -48,13 +48,13 @@ export interface TeamMemberProjects {
   /**
   * The ID of the project that the user should be granted access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#project_id TeamMember#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#project_id TeamMember#project_id}
   */
   readonly projectId: string;
   /**
   * The role that the user should have in the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#role TeamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#role TeamMember#role}
   */
   readonly role: string;
 }
@@ -193,7 +193,7 @@ export class TeamMemberProjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member vercel_team_member}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member vercel_team_member}
 */
 export class TeamMember extends cdktf.TerraformResource {
 
@@ -209,7 +209,7 @@ export class TeamMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamMember to import
-  * @param importFromId The id of the existing TeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class TeamMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/team_member vercel_team_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/team_member vercel_team_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class TeamMember extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_team_member',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#metadata DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#metadata DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestMetadata;
   /**
   * Spec defines the desired state of the NginxProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#spec DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#spec DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#annotations DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#annotations DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#labels DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#labels DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#name DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#name DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecLogging {
   /**
   * ErrorLevel defines the error log level. Possible log levels listed in order of increasing severity are debug, info, notice, warn, error, crit, alert, and emerg. Setting a certain log level will cause all messages of the specified and more severe log levels to be logged. For example, the log level 'error' will cause error, crit, alert, and emerg messages to be logged. https://nginx.org/en/docs/ngx_core_module.html#error_log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#error_level DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#error_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#error_level DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#error_level}
   */
   readonly errorLevel?: string;
 }
@@ -283,13 +283,13 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecRewriteClie
   /**
   * Type specifies the type of address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#type DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#type DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Value specifies the address value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#value DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#value DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -430,19 +430,19 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecRewriteClie
   /**
   * Mode defines how NGINX will rewrite the client's IP address. There are two possible modes: - ProxyProtocol: NGINX will rewrite the client's IP using the PROXY protocol header. - XForwardedFor: NGINX will rewrite the client's IP using the X-Forwarded-For header. Sets NGINX directive real_ip_header: https://nginx.org/en/docs/http/ngx_http_realip_module.html#real_ip_header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#mode DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#mode DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * SetIPRecursively configures whether recursive search is used when selecting the client's address from the X-Forwarded-For header. It is used in conjunction with TrustedAddresses. If enabled, NGINX will recurse on the values in X-Forwarded-Header from the end of array to start of array and select the first untrusted IP. For example, if X-Forwarded-For is [11.11.11.11, 22.22.22.22, 55.55.55.1], and TrustedAddresses is set to 55.55.55.1/32, NGINX will rewrite the client IP to 22.22.22.22. If disabled, NGINX will select the IP at the end of the array. In the previous example, 55.55.55.1 would be selected. Sets NGINX directive real_ip_recursive: https://nginx.org/en/docs/http/ngx_http_realip_module.html#real_ip_recursive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#set_ip_recursively DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#set_ip_recursively}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#set_ip_recursively DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#set_ip_recursively}
   */
   readonly setIpRecursively?: boolean | cdktf.IResolvable;
   /**
   * TrustedAddresses specifies the addresses that are trusted to send correct client IP information. If a request comes from a trusted address, NGINX will rewrite the client IP information, and forward it to the backend in the X-Forwarded-For* and X-Real-IP headers. If the request does not come from a trusted address, NGINX will not rewrite the client IP information. TrustedAddresses only supports CIDR blocks: 192.33.21.1/24, fe80::1/64. To trust all addresses (not recommended for production), set to 0.0.0.0/0. If no addresses are provided, NGINX will not rewrite the client IP information. Sets NGINX directive set_real_ip_from: https://nginx.org/en/docs/http/ngx_http_realip_module.html#set_real_ip_from This field is required if mode is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#trusted_addresses DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#trusted_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#trusted_addresses DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#trusted_addresses}
   */
   readonly trustedAddresses?: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecRewriteClientIpTrustedAddresses[] | cdktf.IResolvable;
 }
@@ -596,25 +596,25 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecTelemetryEx
   /**
   * BatchCount is the number of pending batches per worker, spans exceeding the limit are dropped. Default: https://nginx.org/en/docs/ngx_otel_module.html#otel_exporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#batch_count DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#batch_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#batch_count DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#batch_count}
   */
   readonly batchCount?: number;
   /**
   * BatchSize is the maximum number of spans to be sent in one batch per worker. Default: https://nginx.org/en/docs/ngx_otel_module.html#otel_exporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#batch_size DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#batch_size DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * Endpoint is the address of OTLP/gRPC endpoint that will accept telemetry data. Format: alphanumeric hostname with optional http scheme and optional port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#endpoint DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#endpoint DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * Interval is the maximum interval between two exports. Default: https://nginx.org/en/docs/ngx_otel_module.html#otel_exporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#interval DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#interval DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
 }
@@ -794,13 +794,13 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecTelemetrySp
   /**
   * Key is the key for a span attribute. Format: must have all ``` escaped and must not contain any '$' or end with an unescaped ''
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#key DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#key DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the value for a span attribute. Format: must have all ``` escaped and must not contain any '$' or end with an unescaped ''
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#value DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#value DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -941,19 +941,19 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecTelemetry {
   /**
   * Exporter specifies OpenTelemetry export parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#exporter DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#exporter DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#exporter}
   */
   readonly exporter?: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecTelemetryExporter;
   /**
   * ServiceName is the 'service.name' attribute of the OpenTelemetry resource. Default is 'ngf:<gateway-namespace>:<gateway-name>'. If a value is provided by the user, then the default becomes a prefix to that value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#service_name DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#service_name DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#service_name}
   */
   readonly serviceName?: string;
   /**
   * SpanAttributes are custom key/value attributes that are added to each span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#span_attributes DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#span_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#span_attributes DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#span_attributes}
   */
   readonly spanAttributes?: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecTelemetrySpanAttributes[] | cdktf.IResolvable;
 }
@@ -1107,31 +1107,31 @@ export interface DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpec {
   /**
   * DisableHTTP2 defines if http2 should be disabled for all servers. Default is false, meaning http2 will be enabled for all servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#disable_http2 DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#disable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#disable_http2 DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#disable_http2}
   */
   readonly disableHttp2?: boolean | cdktf.IResolvable;
   /**
   * IPFamily specifies the IP family to be used by the NGINX. Default is 'dual', meaning the server will use both IPv4 and IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#ip_family DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#ip_family DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * Logging defines logging related settings for NGINX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#logging DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#logging DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecLogging;
   /**
   * RewriteClientIP defines configuration for rewriting the client IP to the original client's IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#rewrite_client_ip DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#rewrite_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#rewrite_client_ip DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#rewrite_client_ip}
   */
   readonly rewriteClientIp?: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecRewriteClientIp;
   /**
   * Telemetry specifies the OpenTelemetry configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#telemetry DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#telemetry DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest#telemetry}
   */
   readonly telemetry?: DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecTelemetry;
 }
@@ -1341,7 +1341,7 @@ export class DataK8SGatewayNginxOrgNginxProxyV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest k8s_gateway_nginx_org_nginx_proxy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest k8s_gateway_nginx_org_nginx_proxy_v1alpha1_manifest}
 */
 export class DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1357,7 +1357,7 @@ export class DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1369,7 +1369,7 @@ export class DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest k8s_gateway_nginx_org_nginx_proxy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_nginx_org_nginx_proxy_v1alpha1_manifest k8s_gateway_nginx_org_nginx_proxy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1380,8 +1380,8 @@ export class DataK8SGatewayNginxOrgNginxProxyV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_gateway_nginx_org_nginx_proxy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/integration_project_access
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/integration_project_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IntegrationProjectAccessConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/integration_project_access#integration_id IntegrationProjectAccess#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/integration_project_access#integration_id IntegrationProjectAccess#integration_id}
   */
   readonly integrationId: string;
   /**
   * The ID of the Vercel project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/integration_project_access#project_id IntegrationProjectAccess#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/integration_project_access#project_id IntegrationProjectAccess#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the Vercel team.Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/integration_project_access#team_id IntegrationProjectAccess#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/integration_project_access#team_id IntegrationProjectAccess#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/integration_project_access vercel_integration_project_access}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/integration_project_access vercel_integration_project_access}
 */
 export class IntegrationProjectAccess extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class IntegrationProjectAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationProjectAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationProjectAccess to import
-  * @param importFromId The id of the existing IntegrationProjectAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/integration_project_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationProjectAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/integration_project_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationProjectAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class IntegrationProjectAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/integration_project_access vercel_integration_project_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/integration_project_access vercel_integration_project_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class IntegrationProjectAccess extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_integration_project_access',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

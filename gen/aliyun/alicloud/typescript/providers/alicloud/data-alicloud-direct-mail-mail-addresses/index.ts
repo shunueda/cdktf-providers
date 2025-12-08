@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDirectMailMailAddressesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses#id DataAlicloudDirectMailMailAddresses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses#id DataAlicloudDirectMailMailAddresses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses#ids DataAlicloudDirectMailMailAddresses#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses#ids DataAlicloudDirectMailMailAddresses#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses#key_word DataAlicloudDirectMailMailAddresses#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses#key_word DataAlicloudDirectMailMailAddresses#key_word}
   */
   readonly keyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses#output_file DataAlicloudDirectMailMailAddresses#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses#output_file DataAlicloudDirectMailMailAddresses#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses#sendtype DataAlicloudDirectMailMailAddresses#sendtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses#sendtype DataAlicloudDirectMailMailAddresses#sendtype}
   */
   readonly sendtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses#status DataAlicloudDirectMailMailAddresses#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses#status DataAlicloudDirectMailMailAddresses#status}
   */
   readonly status?: string;
 }
@@ -172,7 +172,7 @@ export class DataAlicloudDirectMailMailAddressesAddressesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses alicloud_direct_mail_mail_addresses}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses alicloud_direct_mail_mail_addresses}
 */
 export class DataAlicloudDirectMailMailAddresses extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataAlicloudDirectMailMailAddresses extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudDirectMailMailAddresses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDirectMailMailAddresses to import
-  * @param importFromId The id of the existing DataAlicloudDirectMailMailAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDirectMailMailAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDirectMailMailAddresses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataAlicloudDirectMailMailAddresses extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/direct_mail_mail_addresses alicloud_direct_mail_mail_addresses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/direct_mail_mail_addresses alicloud_direct_mail_mail_addresses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class DataAlicloudDirectMailMailAddresses extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_direct_mail_mail_addresses',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

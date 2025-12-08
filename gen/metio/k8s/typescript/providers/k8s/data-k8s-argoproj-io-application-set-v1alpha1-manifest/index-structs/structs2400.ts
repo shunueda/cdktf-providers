@@ -33,11 +33,11 @@ dataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsGitT
 DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsGitOutputReference } from './structs1600'
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketAppPasswordRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -154,19 +154,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#app_password_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#app_password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#app_password_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#app_password_ref}
   */
   readonly appPasswordRef: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketAppPasswordRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#owner DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#owner DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#owner}
   */
   readonly owner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#user DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#user DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#user}
   */
   readonly user: string;
 }
@@ -338,11 +338,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketServerBasicAuthPasswordRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -459,11 +459,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketServerBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#password_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#password_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#password_ref}
   */
   readonly passwordRef: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketServerBasicAuthPasswordRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#username DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#username DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#username}
   */
   readonly username: string;
 }
@@ -580,19 +580,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
   */
   readonly api: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#basic_auth DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#basic_auth DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketServerBasicAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#project DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#project DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#project}
   */
   readonly project: string;
 }
@@ -767,23 +767,23 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#branch_match DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#branch_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#branch_match DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#branch_match}
   */
   readonly branchMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_match DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_match DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_match}
   */
   readonly labelMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#paths_do_not_exist DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#paths_do_not_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#paths_do_not_exist DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#paths_do_not_exist}
   */
   readonly pathsDoNotExist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#paths_exist DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#paths_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#paths_exist DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#paths_exist}
   */
   readonly pathsExist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repository_match DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repository_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repository_match DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repository_match}
   */
   readonly repositoryMatch?: string;
 }
@@ -1015,11 +1015,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGiteaTokenRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -1136,23 +1136,23 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGitea {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
   */
   readonly api: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#insecure DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#insecure DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#owner DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#owner DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#owner}
   */
   readonly owner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#token_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#token_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#token_ref}
   */
   readonly tokenRef?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGiteaTokenRef;
 }
@@ -1356,11 +1356,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGithubTokenRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -1477,23 +1477,23 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGithub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
   */
   readonly api?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#app_secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#app_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#app_secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#app_secret_name}
   */
   readonly appSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#organization DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#organization DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#organization}
   */
   readonly organization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#token_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#token_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#token_ref}
   */
   readonly tokenRef?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGithubTokenRef;
 }
@@ -1700,11 +1700,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGitlabTokenRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#secret_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -1821,35 +1821,35 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGitlab {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#all_branches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#api DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#api}
   */
   readonly api?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include_shared_projects DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include_shared_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include_shared_projects DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include_shared_projects}
   */
   readonly includeSharedProjects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include_subgroups DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include_subgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include_subgroups DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include_subgroups}
   */
   readonly includeSubgroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#insecure DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#insecure DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#token_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#token_ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#token_ref}
   */
   readonly tokenRef?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGitlabTokenRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#topic DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#topic DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#topic}
   */
   readonly topic?: string;
 }
@@ -2143,23 +2143,23 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#finalizers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#finalizers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2369,15 +2369,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#server}
   */
   readonly server?: string;
 }
@@ -2529,31 +2529,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecIgnoreDifferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#json_pointers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#json_pointers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2840,11 +2840,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -2983,15 +2983,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectoryJsonnetExtVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -3159,15 +3159,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectoryJsonnetTlas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -3335,15 +3335,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectoryJsonnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
   */
   readonly extVars?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectoryJsonnetExtVars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
   */
   readonly libs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
   */
   readonly tlas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -3495,19 +3495,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
   */
   readonly jsonnet?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectoryJsonnet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
 }
@@ -3688,11 +3688,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceHelmFileParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -3837,15 +3837,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceHelmParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4019,43 +4019,43 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceHelm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
   */
   readonly fileParameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceHelmFileParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceHelmParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
   */
   readonly valueFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -4410,31 +4410,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomizePatchesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -4702,19 +4702,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomizePatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
   */
   readonly patch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomizePatchesTarget;
 }
@@ -4917,11 +4917,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomizeReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
   */
   readonly count: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5060,59 +5060,59 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
   */
   readonly commonAnnotationsEnvsubst?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
   */
   readonly images?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
   */
   readonly labelWithoutSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomizePatches[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomizeReplicas[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -5583,11 +5583,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcePluginEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -5726,19 +5726,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcePluginParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
   */
   readonly array?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -5941,15 +5941,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcePlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcePluginParameters[] | cdktf.IResolvable;
 }
@@ -6101,39 +6101,39 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
   */
   readonly chart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
   */
   readonly directory?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceDirectory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
   */
   readonly helm?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceHelm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
   */
   readonly kustomize?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourceKustomize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcePlugin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
   */
   readonly repoUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
   */
   readonly targetRevision?: string;
 }
@@ -6456,15 +6456,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectoryJsonnetExtVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -6632,15 +6632,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectoryJsonnetTlas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -6808,15 +6808,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectoryJsonnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
   */
   readonly extVars?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectoryJsonnetExtVars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
   */
   readonly libs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
   */
   readonly tlas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -6968,19 +6968,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
   */
   readonly jsonnet?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectoryJsonnet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
 }
@@ -7161,11 +7161,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesHelmFileParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -7310,15 +7310,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesHelmParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7492,43 +7492,43 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesHelm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
   */
   readonly fileParameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesHelmFileParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesHelmParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
   */
   readonly valueFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -7883,31 +7883,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomizePatchesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -8175,19 +8175,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomizePatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
   */
   readonly patch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomizePatchesTarget;
 }
@@ -8390,11 +8390,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomizeReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
   */
   readonly count: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -8533,59 +8533,59 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
   */
   readonly commonAnnotationsEnvsubst?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
   */
   readonly images?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
   */
   readonly labelWithoutSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomizePatches[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomizeReplicas[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -9056,11 +9056,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesPluginEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9199,19 +9199,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesPluginParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
   */
   readonly array?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -9414,15 +9414,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesPluginEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesPluginParameters[] | cdktf.IResolvable;
 }
@@ -9574,39 +9574,39 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
   */
   readonly chart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
   */
   readonly directory?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesDirectory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
   */
   readonly helm?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesHelm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
   */
   readonly kustomize?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesKustomize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSourcesPlugin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
   */
   readonly repoUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
   */
   readonly targetRevision?: string;
 }
@@ -9951,15 +9951,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyAutomated {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#allow_empty DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#allow_empty DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#prune DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#prune DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#self_heal DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#self_heal DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -10111,11 +10111,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyManagedNamespaceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -10238,15 +10238,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyRetryBackoff {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#factor DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#factor DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#factor}
   */
   readonly factor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#max_duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#max_duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -10398,11 +10398,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyRetry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#backoff DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#backoff DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#backoff}
   */
   readonly backoff?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyRetryBackoff;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#limit}
   */
   readonly limit?: number;
 }
@@ -10525,19 +10525,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#automated DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#automated DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#automated}
   */
   readonly automated?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyAutomated;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_namespace_metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_namespace_metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#retry DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#retry DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#retry}
   */
   readonly retry?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicyRetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_options}
   */
   readonly syncOptions?: string[];
 }
@@ -10718,35 +10718,35 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#destination DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#destination DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#destination}
   */
   readonly destination: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_differences DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_differences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_differences DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_differences}
   */
   readonly ignoreDifferences?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecIgnoreDifferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#info DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#info DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#info}
   */
   readonly info?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecInfo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#project DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#project DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#revision_history_limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#revision_history_limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#source DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#source DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#source}
   */
   readonly source?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sources DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sources DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_policy DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_policy DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_policy}
   */
   readonly syncPolicy?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpecSyncPolicy;
 }
@@ -11037,11 +11037,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#spec DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#spec DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplateSpec;
 }
@@ -11158,51 +11158,51 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#aws_code_commit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#aws_code_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#aws_code_commit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#aws_code_commit}
   */
   readonly awsCodeCommit?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderAwsCodeCommit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#azure_dev_ops DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#azure_dev_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#azure_dev_ops DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#azure_dev_ops}
   */
   readonly azureDevOps?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderAzureDevOps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#bitbucket DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#bitbucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#bitbucket DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#bitbucket}
   */
   readonly bitbucket?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#bitbucket_server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#bitbucket_server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#bitbucket_server}
   */
   readonly bitbucketServer?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderBitbucketServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#clone_protocol DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#clone_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#clone_protocol DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#clone_protocol}
   */
   readonly cloneProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#filters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#filters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#filters}
   */
   readonly filters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#gitea DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#gitea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#gitea DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#gitea}
   */
   readonly gitea?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGitea;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#github DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#github DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#github}
   */
   readonly github?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGithub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#gitlab DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#gitlab DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#gitlab}
   */
   readonly gitlab?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderGitlab;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#requeue_after_seconds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#requeue_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#requeue_after_seconds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#requeue_after_seconds}
   */
   readonly requeueAfterSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#template DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#template DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#template}
   */
   readonly template?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProviderTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: { [key: string]: string };
 }
@@ -11615,15 +11615,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#key DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#operator DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#operator DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11791,11 +11791,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#match_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#match_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#match_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#match_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11918,43 +11918,43 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGenerators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#cluster_decision_resource DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#cluster_decision_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#cluster_decision_resource DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#cluster_decision_resource}
   */
   readonly clusterDecisionResource?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsClusterDecisionResource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#clusters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#clusters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsClusters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#git DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#git DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#git}
   */
   readonly git?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsGit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#list DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#list DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#list}
   */
   readonly list?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsListStruct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#matrix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#matrix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#matrix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#matrix}
   */
   readonly matrix?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#merge DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#merge DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#merge}
   */
   readonly merge?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsPlugin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pull_request DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pull_request DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pull_request}
   */
   readonly pullRequest?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsPullRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#scm_provider DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#scm_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#scm_provider DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#scm_provider}
   */
   readonly scmProvider?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsScmProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGeneratorsSelector;
 }
@@ -12331,23 +12331,23 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeG
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#finalizers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#finalizers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12557,15 +12557,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#server}
   */
   readonly server?: string;
 }
@@ -12717,31 +12717,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecIgnoreDifferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#json_pointers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#json_pointers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -13028,11 +13028,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -13171,15 +13171,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectoryJsonnetExtVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -13347,15 +13347,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectoryJsonnetTlas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -13523,15 +13523,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectoryJsonnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
   */
   readonly extVars?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectoryJsonnetExtVars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
   */
   readonly libs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
   */
   readonly tlas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -13683,19 +13683,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
   */
   readonly jsonnet?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectoryJsonnet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
 }
@@ -13876,11 +13876,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceHelmFileParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -14025,15 +14025,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceHelmParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14207,43 +14207,43 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceHelm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
   */
   readonly fileParameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceHelmFileParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceHelmParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
   */
   readonly valueFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -14598,31 +14598,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomizePatchesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -14890,19 +14890,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomizePatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
   */
   readonly patch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomizePatchesTarget;
 }
@@ -15105,11 +15105,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomizeReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
   */
   readonly count: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -15248,59 +15248,59 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
   */
   readonly commonAnnotationsEnvsubst?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
   */
   readonly images?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
   */
   readonly labelWithoutSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomizePatches[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomizeReplicas[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -15771,11 +15771,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcePluginEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -15914,19 +15914,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcePluginParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
   */
   readonly array?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -16129,15 +16129,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcePlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcePluginParameters[] | cdktf.IResolvable;
 }
@@ -16289,39 +16289,39 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
   */
   readonly chart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
   */
   readonly directory?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceDirectory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
   */
   readonly helm?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceHelm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
   */
   readonly kustomize?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourceKustomize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcePlugin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
   */
   readonly repoUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
   */
   readonly targetRevision?: string;
 }
@@ -16644,15 +16644,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectoryJsonnetExtVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -16820,15 +16820,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectoryJsonnetTlas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -16996,15 +16996,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectoryJsonnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
   */
   readonly extVars?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectoryJsonnetExtVars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
   */
   readonly libs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
   */
   readonly tlas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -17156,19 +17156,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
   */
   readonly jsonnet?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectoryJsonnet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
 }
@@ -17349,11 +17349,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesHelmFileParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -17498,15 +17498,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesHelmParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -17680,43 +17680,43 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesHelm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
   */
   readonly fileParameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesHelmFileParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesHelmParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
   */
   readonly valueFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -18071,31 +18071,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomizePatchesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -18363,19 +18363,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomizePatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
   */
   readonly patch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomizePatchesTarget;
 }
@@ -18578,11 +18578,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomizeReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
   */
   readonly count: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -18721,59 +18721,59 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
   */
   readonly commonAnnotationsEnvsubst?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
   */
   readonly images?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
   */
   readonly labelWithoutSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomizePatches[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomizeReplicas[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -19244,11 +19244,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesPluginEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -19387,19 +19387,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesPluginParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
   */
   readonly array?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -19602,15 +19602,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesPluginEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesPluginParameters[] | cdktf.IResolvable;
 }
@@ -19762,39 +19762,39 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
   */
   readonly chart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
   */
   readonly directory?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesDirectory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
   */
   readonly helm?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesHelm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
   */
   readonly kustomize?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesKustomize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSourcesPlugin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
   */
   readonly repoUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
   */
   readonly targetRevision?: string;
 }
@@ -20139,15 +20139,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyAutomated {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#allow_empty DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#allow_empty DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#prune DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#prune DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#self_heal DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#self_heal DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -20299,11 +20299,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyManagedNamespaceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -20426,15 +20426,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyRetryBackoff {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#factor DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#factor DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#factor}
   */
   readonly factor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#max_duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#max_duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -20586,11 +20586,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyRetry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#backoff DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#backoff DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#backoff}
   */
   readonly backoff?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyRetryBackoff;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#limit}
   */
   readonly limit?: number;
 }
@@ -20713,19 +20713,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#automated DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#automated DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#automated}
   */
   readonly automated?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyAutomated;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_namespace_metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_namespace_metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#retry DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#retry DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#retry}
   */
   readonly retry?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicyRetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_options}
   */
   readonly syncOptions?: string[];
 }
@@ -20906,35 +20906,35 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#destination DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#destination DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#destination}
   */
   readonly destination: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_differences DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_differences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_differences DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_differences}
   */
   readonly ignoreDifferences?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecIgnoreDifferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#info DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#info DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#info}
   */
   readonly info?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecInfo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#project DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#project DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#revision_history_limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#revision_history_limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#source DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#source DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#source}
   */
   readonly source?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sources DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sources DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_policy DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_policy DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_policy}
   */
   readonly syncPolicy?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpecSyncPolicy;
 }
@@ -21225,11 +21225,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#spec DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#spec DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplateSpec;
 }
@@ -21346,15 +21346,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeT
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMerge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#generators DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#generators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#generators DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#generators}
   */
   readonly generators: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeGenerators[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#merge_keys DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#merge_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#merge_keys DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#merge_keys}
   */
   readonly mergeKeys: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#template DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#template DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#template}
   */
   readonly template?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeTemplate;
 }
@@ -21500,7 +21500,7 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsMergeO
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -21591,7 +21591,7 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
 }
@@ -21685,23 +21685,23 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#finalizers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#finalizers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -21911,15 +21911,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#server DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#server}
   */
   readonly server?: string;
 }
@@ -22071,31 +22071,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecIgnoreDifferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#json_pointers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#json_pointers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -22382,11 +22382,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -22525,15 +22525,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectoryJsonnetExtVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -22701,15 +22701,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectoryJsonnetTlas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -22877,15 +22877,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectoryJsonnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
   */
   readonly extVars?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectoryJsonnetExtVars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
   */
   readonly libs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
   */
   readonly tlas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -23037,19 +23037,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
   */
   readonly jsonnet?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectoryJsonnet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
 }
@@ -23230,11 +23230,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceHelmFileParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -23379,15 +23379,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceHelmParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -23561,43 +23561,43 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceHelm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
   */
   readonly fileParameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceHelmFileParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceHelmParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
   */
   readonly valueFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -23952,31 +23952,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomizePatchesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -24244,19 +24244,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomizePatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
   */
   readonly patch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomizePatchesTarget;
 }
@@ -24459,11 +24459,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomizeReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
   */
   readonly count: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -24602,59 +24602,59 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
   */
   readonly commonAnnotationsEnvsubst?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
   */
   readonly images?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
   */
   readonly labelWithoutSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomizePatches[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomizeReplicas[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -25125,11 +25125,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcePluginEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -25268,19 +25268,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcePluginParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
   */
   readonly array?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -25483,15 +25483,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcePlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcePluginParameters[] | cdktf.IResolvable;
 }
@@ -25643,39 +25643,39 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
   */
   readonly chart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
   */
   readonly directory?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceDirectory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
   */
   readonly helm?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceHelm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
   */
   readonly kustomize?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourceKustomize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcePlugin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
   */
   readonly repoUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
   */
   readonly targetRevision?: string;
 }
@@ -25998,15 +25998,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectoryJsonnetExtVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -26174,15 +26174,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectoryJsonnetTlas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#code DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -26350,15 +26350,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectoryJsonnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ext_vars DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ext_vars}
   */
   readonly extVars?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectoryJsonnetExtVars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#libs DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#libs}
   */
   readonly libs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#tlas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#tlas}
   */
   readonly tlas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -26510,19 +26510,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#exclude DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#include DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#jsonnet DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#jsonnet}
   */
   readonly jsonnet?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectoryJsonnet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#recurse DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
 }
@@ -26703,11 +26703,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesHelmFileParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -26852,15 +26852,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesHelmParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -27034,43 +27034,43 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesHelm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#file_parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#file_parameters}
   */
   readonly fileParameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesHelmFileParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ignore_missing_value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesHelmParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#pass_credentials DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#release_name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#skip_crds DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value_files DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value_files}
   */
   readonly valueFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values}
   */
   readonly values?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#values_object DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -27425,31 +27425,31 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomizePatchesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotation_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#group DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kind DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -27717,19 +27717,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomizePatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patch DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patch}
   */
   readonly patch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomizePatchesTarget;
 }
@@ -27932,11 +27932,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomizeReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#count DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#count}
   */
   readonly count: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -28075,59 +28075,59 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_annotations_envsubst DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_annotations_envsubst}
   */
   readonly commonAnnotationsEnvsubst?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#components DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#force_common_labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#images DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#images}
   */
   readonly images?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#label_without_selector DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#label_without_selector}
   */
   readonly labelWithoutSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_prefix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name_suffix DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#namespace DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#patches DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomizePatches[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#replicas DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomizeReplicas[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#version DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -28598,11 +28598,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesPluginEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#value DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -28741,19 +28741,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesPluginParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#array DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#array}
   */
   readonly array?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#map DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#string DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#string}
   */
   readonly string?: string;
 }
@@ -28956,15 +28956,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#env DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesPluginEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#name DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#parameters DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesPluginParameters[] | cdktf.IResolvable;
 }
@@ -29116,39 +29116,39 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#chart DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#chart}
   */
   readonly chart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#directory DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#directory}
   */
   readonly directory?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesDirectory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#helm DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#helm}
   */
   readonly helm?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesHelm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#kustomize DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#kustomize}
   */
   readonly kustomize?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesKustomize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#path DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#plugin DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSourcesPlugin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#ref DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#repo_url DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#repo_url}
   */
   readonly repoUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#target_revision DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#target_revision}
   */
   readonly targetRevision?: string;
 }
@@ -29493,15 +29493,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyAutomated {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#allow_empty DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#allow_empty DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#prune DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#prune DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#self_heal DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#self_heal DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -29653,11 +29653,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyManagedNamespaceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#annotations DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#labels DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -29780,15 +29780,15 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyRetryBackoff {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#factor DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#factor DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#factor}
   */
   readonly factor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#max_duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#max_duration DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -29940,11 +29940,11 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyRetry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#backoff DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#backoff DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#backoff}
   */
   readonly backoff?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyRetryBackoff;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#limit DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#limit}
   */
   readonly limit?: number;
 }
@@ -30067,19 +30067,19 @@ export class DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPlugin
 }
 export interface DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#automated DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#automated DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#automated}
   */
   readonly automated?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyAutomated;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_namespace_metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#managed_namespace_metadata DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#retry DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#retry DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#retry}
   */
   readonly retry?: DataK8SArgoprojIoApplicationSetV1Alpha1ManifestSpecGeneratorsPluginTemplateSpecSyncPolicyRetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_application_set_v1alpha1_manifest#sync_options DataK8SArgoprojIoApplicationSetV1Alpha1Manifest#sync_options}
   */
   readonly syncOptions?: string[];
 }

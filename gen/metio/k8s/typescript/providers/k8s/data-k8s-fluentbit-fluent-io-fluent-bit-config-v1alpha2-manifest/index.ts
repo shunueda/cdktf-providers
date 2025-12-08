@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestMetadata;
   /**
   * NamespacedFluentBitCfgSpec defines the desired state of FluentBit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#spec DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#spec DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#name DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#name DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#namespace DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#namespace DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClus
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClus
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClusterMultilineParserSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,19 +532,19 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClus
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -714,13 +714,13 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClus
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClusterParserSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -845,19 +845,19 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecFilt
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1027,13 +1027,13 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecFilt
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecFilterSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1158,19 +1158,19 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecMult
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1340,13 +1340,13 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecMult
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecMultilineParserSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1471,19 +1471,19 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecOutp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1653,13 +1653,13 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecOutp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecOutputSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1784,19 +1784,19 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecPars
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#key DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#operator DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#values DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1966,13 +1966,13 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecPars
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_expressions DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecParserSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#match_labels DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2097,43 +2097,43 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecServ
   /**
   * This option configure a hint of maximum value of memory to use when processing these records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#backlog_mem_limit DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#backlog_mem_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#backlog_mem_limit DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#backlog_mem_limit}
   */
   readonly backlogMemLimit?: string;
   /**
   * Enable the data integrity check when writing and reading data from the filesystem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#checksum DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#checksum DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#checksum}
   */
   readonly checksum?: string;
   /**
   * When enabled, irrecoverable chunks will be deleted during runtime, and any other irrecoverable chunk located in the configured storage path directory will be deleted when Fluent-Bit starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#delete_irrecoverable_chunks DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#delete_irrecoverable_chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#delete_irrecoverable_chunks DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#delete_irrecoverable_chunks}
   */
   readonly deleteIrrecoverableChunks?: string;
   /**
   * If the input plugin has enabled filesystem storage type, this property sets the maximum number of Chunks that can be up in memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#max_chunks_up DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#max_chunks_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#max_chunks_up DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#max_chunks_up}
   */
   readonly maxChunksUp?: number;
   /**
   * If http_server option has been enabled in the Service section, this option registers a new endpoint where internal metrics of the storage layer can be consumed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#metrics DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#metrics DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#metrics}
   */
   readonly metrics?: string;
   /**
   * Select an optional location in the file system to store streams and chunks of data/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#path DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#path DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#path}
   */
   readonly path?: string;
   /**
   * Configure the synchronization mode used to store the data into the file system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#sync DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#sync DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#sync}
   */
   readonly sync?: string;
 }
@@ -2403,111 +2403,111 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecServ
   /**
   * If true go to background on start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#daemon DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#daemon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#daemon DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#daemon}
   */
   readonly daemon?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#emitter_mem_buf_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#emitter_mem_buf_limit}
   */
   readonly emitterMemBufLimit?: string;
   /**
   * Per-namespace re-emitter configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#emitter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#emitter_name}
   */
   readonly emitterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#emitter_storage_type DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#emitter_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#emitter_storage_type DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#emitter_storage_type}
   */
   readonly emitterStorageType?: string;
   /**
   * Interval to flush output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#flush_seconds DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#flush_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#flush_seconds DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#flush_seconds}
   */
   readonly flushSeconds?: number;
   /**
   * Wait time on exit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#grace_seconds DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#grace_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#grace_seconds DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#grace_seconds}
   */
   readonly graceSeconds?: number;
   /**
   * the error count to meet the unhealthy requirement, this is a sum for all output plugins in a defined HC_Period, example for output error: [2022/02/16 10:44:10] [ warn] [engine] failed to flush chunk '1-1645008245.491540684.flb', retry in 7 seconds: task_id=0, input=forward.1 > output=cloudwatch_logs.3 (out_id=3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hc_errors_count DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hc_errors_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hc_errors_count DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hc_errors_count}
   */
   readonly hcErrorsCount?: number;
   /**
   * The time period by second to count the error and retry failure data point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hc_period DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hc_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hc_period DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hc_period}
   */
   readonly hcPeriod?: number;
   /**
   * the retry failure count to meet the unhealthy requirement, this is a sum for all output plugins in a defined HC_Period, example for retry failure: [2022/02/16 20:11:36] [ warn] [engine] chunk '1-1645042288.260516436.flb' cannot be retried: task_id=0, input=tcp.3 > output=cloudwatch_logs.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hc_retry_failure_count DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hc_retry_failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hc_retry_failure_count DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hc_retry_failure_count}
   */
   readonly hcRetryFailureCount?: number;
   /**
   * enable Health check feature at http://127.0.0.1:2020/api/v1/health Note: Enabling this will not automatically configure kubernetes to use fluentbit's healthcheck endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#health_check DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#health_check DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#health_check}
   */
   readonly healthCheck?: boolean | cdktf.IResolvable;
   /**
   * If true enable reloading via HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hot_reload DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hot_reload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#hot_reload DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#hot_reload}
   */
   readonly hotReload?: boolean | cdktf.IResolvable;
   /**
   * Address to listen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#http_listen DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#http_listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#http_listen DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#http_listen}
   */
   readonly httpListen?: string;
   /**
   * Port to listen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#http_port DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#http_port DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * If true enable statistics HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#http_server DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#http_server DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#http_server}
   */
   readonly httpServer?: boolean | cdktf.IResolvable;
   /**
   * File to log diagnostic output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#log_file DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#log_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#log_file DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#log_file}
   */
   readonly logFile?: string;
   /**
   * Diagnostic level (error/warning/info/debug/trace)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#log_level DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#log_level DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Optional 'parsers' config file (can be multiple)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#parsers_file DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#parsers_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#parsers_file DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#parsers_file}
   */
   readonly parsersFile?: string;
   /**
   * backward compatible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#parsers_files DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#parsers_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#parsers_files DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#parsers_files}
   */
   readonly parsersFiles?: string[];
   /**
   * Configure a global environment for the storage layer in Service. It is recommended to configure the volume and volumeMount separately for this storage. The hostPath type should be used for that Volume in Fluentbit daemon set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#storage DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#storage DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#storage}
   */
   readonly storage?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecServiceStorage;
 }
@@ -3125,43 +3125,43 @@ export interface DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpec {
   /**
   * Select cluster level multiline parser config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#cluster_multiline_parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#cluster_multiline_parser_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#cluster_multiline_parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#cluster_multiline_parser_selector}
   */
   readonly clusterMultilineParserSelector?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClusterMultilineParserSelector;
   /**
   * Select cluster level parser config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#cluster_parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#cluster_parser_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#cluster_parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#cluster_parser_selector}
   */
   readonly clusterParserSelector?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecClusterParserSelector;
   /**
   * Select filter plugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#filter_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#filter_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#filter_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#filter_selector}
   */
   readonly filterSelector?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecFilterSelector;
   /**
   * Select multiline parser plugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#multiline_parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#multiline_parser_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#multiline_parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#multiline_parser_selector}
   */
   readonly multilineParserSelector?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecMultilineParserSelector;
   /**
   * Select output plugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#output_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#output_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#output_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#output_selector}
   */
   readonly outputSelector?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecOutputSelector;
   /**
   * Select parser plugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#parser_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#parser_selector DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#parser_selector}
   */
   readonly parserSelector?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecParserSelector;
   /**
   * Service defines the global behaviour of the Fluent Bit engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#service DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#service DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest#service}
   */
   readonly service?: DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecService;
 }
@@ -3429,7 +3429,7 @@ export class DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest k8s_fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest k8s_fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest}
 */
 export class DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -3445,7 +3445,7 @@ export class DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3457,7 +3457,7 @@ export class DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest k8s_fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest k8s_fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3468,8 +3468,8 @@ export class DataK8SFluentbitFluentIoFluentBitConfigV1Alpha2Manifest extends cdk
       terraformResourceType: 'k8s_fluentbit_fluent_io_fluent_bit_config_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

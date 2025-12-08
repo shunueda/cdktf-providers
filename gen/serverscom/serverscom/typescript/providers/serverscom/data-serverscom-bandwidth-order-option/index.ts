@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option
+// https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataServerscomBandwidthOrderOptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option#id DataServerscomBandwidthOrderOption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option#id DataServerscomBandwidthOrderOption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option#location_id DataServerscomBandwidthOrderOption#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option#location_id DataServerscomBandwidthOrderOption#location_id}
   */
   readonly locationId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option#server_model_id DataServerscomBandwidthOrderOption#server_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option#server_model_id DataServerscomBandwidthOrderOption#server_model_id}
   */
   readonly serverModelId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option#uplink_model_id DataServerscomBandwidthOrderOption#uplink_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option#uplink_model_id DataServerscomBandwidthOrderOption#uplink_model_id}
   */
   readonly uplinkModelId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option serverscom_bandwidth_order_option}
+* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option serverscom_bandwidth_order_option}
 */
 export class DataServerscomBandwidthOrderOption extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataServerscomBandwidthOrderOption extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataServerscomBandwidthOrderOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataServerscomBandwidthOrderOption to import
-  * @param importFromId The id of the existing DataServerscomBandwidthOrderOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataServerscomBandwidthOrderOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataServerscomBandwidthOrderOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataServerscomBandwidthOrderOption extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/bandwidth_order_option serverscom_bandwidth_order_option} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/bandwidth_order_option serverscom_bandwidth_order_option} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataServerscomBandwidthOrderOption extends cdktf.TerraformDataSourc
       terraformResourceType: 'serverscom_bandwidth_order_option',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#metadata DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#metadata DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestMetadata;
   /**
   * KogitoSupportingServiceSpec defines the desired state of KogitoSupportingService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#spec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#spec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#annotations DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#annotations DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#labels DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#labels DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#namespace DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#namespace DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#api_version DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#api_version DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#field_path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#field_path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#container_name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#container_name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#divisor DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#divisor DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#resource DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#resource DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#config_map_key_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#config_map_key_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#field_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#field_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#resource_field_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#resource_field_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#secret_key_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#secret_key_ref DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value_from DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value_from DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecEnvValueFrom;
 }
@@ -1222,13 +1222,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * HTTP path to scrape for metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * HTTP scheme to use for scraping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1353,7 +1353,7 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#command DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#command DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1449,13 +1449,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -1577,13 +1577,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -1724,31 +1724,31 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_headers DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_headers DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1957,13 +1957,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -2085,61 +2085,61 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#exec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#exec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#failure_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#failure_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is an alpha field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#grpc DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#grpc DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_get DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_get DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#initial_delay_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#initial_delay_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#success_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#success_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#tcp_socket DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#tcp_socket DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#termination_grace_period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#termination_grace_period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#timeout_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#timeout_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2496,7 +2496,7 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#command DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#command DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2592,13 +2592,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -2720,13 +2720,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -2867,31 +2867,31 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_headers DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_headers DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3100,13 +3100,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -3228,61 +3228,61 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#exec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#exec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#failure_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#failure_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is an alpha field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#grpc DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#grpc DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_get DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_get DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#initial_delay_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#initial_delay_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#success_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#success_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#tcp_socket DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#tcp_socket DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#termination_grace_period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#termination_grace_period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#timeout_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#timeout_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -3639,7 +3639,7 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#command DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#command DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3735,13 +3735,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -3863,13 +3863,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -4010,31 +4010,31 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_headers DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_headers DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#path DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#scheme DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4243,13 +4243,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#host DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#port DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -4371,61 +4371,61 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#exec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#exec DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#failure_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#failure_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is an alpha field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#grpc DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#grpc DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_get DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#http_get DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#initial_delay_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#initial_delay_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#success_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#success_threshold DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#tcp_socket DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#tcp_socket DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#termination_grace_period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#termination_grace_period_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#timeout_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#timeout_seconds DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4782,19 +4782,19 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * LivenessProbe describes how the Kogito container liveness probe should work
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#liveness_probe DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#liveness_probe DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesLivenessProbe;
   /**
   * ReadinessProbe describes how the Kogito container readiness probe should work
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#readiness_probe DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#readiness_probe DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesReadinessProbe;
   /**
   * StartupProbe describes how the Kogito container startup probe should work
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#startup_probe DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#startup_probe DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbesStartupProbe;
 }
@@ -4948,13 +4948,13 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#limits DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#limits DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#requests DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#requests DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5079,91 +5079,91 @@ export interface DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpec
   /**
   * Application properties that will be set to the service. For example 'MY_VAR: my_value'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#config DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#config DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Additional labels to be added to the Deployment and Pods managed by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#deployment_labels DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#deployment_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#deployment_labels DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#deployment_labels}
   */
   readonly deploymentLabels?: { [key: string]: string };
   /**
   * A flag indicating that routes are disabled. Usable just on OpenShift. If not provided, defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#disable_route DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#disable_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#disable_route DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#disable_route}
   */
   readonly disableRoute?: boolean | cdktf.IResolvable;
   /**
   * Environment variables to be added to the runtime container. Keys must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#env DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#env DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#env}
   */
   readonly env?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * Image definition for the service. Example: 'quay.io/kiegroup/kogito-service:latest'. On OpenShift an ImageStream will be created in the current namespace pointing to the given image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#image DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#image DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Infra provides list of dependent KogitoInfra objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#infra DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#infra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#infra DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#infra}
   */
   readonly infra?: string[];
   /**
   * A flag indicating that image streams created by Kogito Operator should be configured to allow pulling from insecure registries. Usable just on OpenShift. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#insecure_image_registry DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#insecure_image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#insecure_image_registry DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#insecure_image_registry}
   */
   readonly insecureImageRegistry?: boolean | cdktf.IResolvable;
   /**
   * Create Service monitor instance to connect with Monitoring service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#monitoring DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#monitoring DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecMonitoring;
   /**
   * Configure liveness, readiness and startup probes for containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#probes DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#probes DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#probes}
   */
   readonly probes?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecProbes;
   /**
   * Custom ConfigMap with application.properties file to be mounted for the Kogito service. The ConfigMap must be created in the same namespace. Use this property if you need custom properties to be mounted before the application deployment. If left empty, one will be created for you. Later it can be updated to add any custom properties to apply to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#properties_config_map DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#properties_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#properties_config_map DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#properties_config_map}
   */
   readonly propertiesConfigMap?: string;
   /**
   * Number of replicas that the service will have deployed in the cluster. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#replicas DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#replicas DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Defined compute resource requirements for the deployed service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#resources DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#resources DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecResources;
   /**
   * Additional labels to be added to the Service managed by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service_labels DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service_labels DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service_labels}
   */
   readonly serviceLabels?: { [key: string]: string };
   /**
   * Defines the type for the supporting service, eg: DataIndex, JobsService Default value: JobsService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service_type DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#service_type DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#service_type}
   */
   readonly serviceType: string;
   /**
   * Custom JKS TrustStore that will be used by this service to make calls to TLS endpoints. It's expected that the secret has two keys: 'keyStorePassword' containing the password for the KeyStore and 'cacerts' containing the binary data of the given KeyStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#trust_store_secret DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#trust_store_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#trust_store_secret DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest#trust_store_secret}
   */
   readonly trustStoreSecret?: string;
 }
@@ -5660,7 +5660,7 @@ export class DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest k8s_app_kiegroup_org_kogito_supporting_service_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest k8s_app_kiegroup_org_kogito_supporting_service_v1beta1_manifest}
 */
 export class DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -5676,7 +5676,7 @@ export class DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest extends
   * Generates CDKTF code for importing a DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5688,7 +5688,7 @@ export class DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest k8s_app_kiegroup_org_kogito_supporting_service_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_supporting_service_v1beta1_manifest k8s_app_kiegroup_org_kogito_supporting_service_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5699,8 +5699,8 @@ export class DataK8SAppKiegroupOrgKogitoSupportingServiceV1Beta1Manifest extends
       terraformResourceType: 'k8s_app_kiegroup_org_kogito_supporting_service_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

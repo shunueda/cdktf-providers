@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#metadata DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#metadata DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestMetadata;
   /**
   * SubscriptionSpec defines the desired state of Subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#spec DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#spec DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#annotations DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#annotations DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#labels DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#labels DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#name DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#name DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#namespace DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#namespace DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecClusterT
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#effect DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#effect DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#toleration_seconds DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#toleration_seconds DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#value DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#value DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -477,19 +477,19 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -659,19 +659,19 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -841,13 +841,13 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividingPreferredClustersPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_fields DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_fields DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividingPreferredClustersPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -972,13 +972,13 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#preference DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#preference DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividingPreferredClustersPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#weight DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#weight DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1119,19 +1119,19 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1301,13 +1301,13 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividingTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1432,49 +1432,49 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividingTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#max_skew DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#max_skew DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#min_domains DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#min_domains DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#node_affinity_policy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#node_affinity_policy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#node_taints_policy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#node_taints_policy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#when_unsatisfiable DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#when_unsatisfiable DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -1786,31 +1786,31 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * MaxClusters describes the upper bound number of target clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#max_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#max_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#max_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#max_clusters}
   */
   readonly maxClusters?: number;
   /**
   * MinClusters describes the lower bound number of target clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#min_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#min_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#min_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#min_clusters}
   */
   readonly minClusters?: number;
   /**
   * PreferredClusters describes the assigning preference. If we have a preference for cluster group A compared to cluster group B (i.e., group A has a larger Weight), desired replicas will be assigned to cluster group A as many as possible, while the rest ones will be assigned to cluster group B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#preferred_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#preferred_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#preferred_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#preferred_clusters}
   */
   readonly preferredClusters?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividingPreferredClusters[] | cdktf.IResolvable;
   /**
   * Type of dynamic dividing replica strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#strategy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#strategy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#strategy}
   */
   readonly strategy: string;
   /**
   * TopologySpreadConstraints describes how a group of replicas ought to spread across topology domains. Scheduler will schedule pods in a way which abides by the constraints. All topologySpreadConstraints are ANDed. Present only for spread divided scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#topology_spread_constraints DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#topology_spread_constraints DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividingTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -2019,13 +2019,13 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividing
   /**
   * DynamicDividing describes how to divide replicas into target clusters dynamically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#dynamic_dividing DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#dynamic_dividing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#dynamic_dividing DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#dynamic_dividing}
   */
   readonly dynamicDividing?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingSchedulingDynamicDividing;
   /**
   * Type of dividing replica scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#type DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#type DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -2147,25 +2147,25 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecFeeds {
   /**
   * APIVersion defines the versioned schema of this representation of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#api_version DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#api_version DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind is a string value representing the REST resource this object represents. In CamelCase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#kind DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#kind DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#name DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#name DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#namespace DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#namespace DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2361,19 +2361,19 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscrib
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#key DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#operator DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#values DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2543,13 +2543,13 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscrib
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscribersClusterAffinityMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2674,7 +2674,7 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscrib
   /**
   * MinClusters is the minimum number of clusters to be selected in this subgroup. If this value is more than the total number of clusters in this subgroup, then all clusters will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#min_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#min_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#min_clusters DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#min_clusters}
   */
   readonly minClusters?: number;
 }
@@ -2770,19 +2770,19 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscrib
   /**
   * ClusterAffinity is a label query over managed clusters by labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#cluster_affinity DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#cluster_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#cluster_affinity DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#cluster_affinity}
   */
   readonly clusterAffinity: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscribersClusterAffinity;
   /**
   * SubGroupStrategy defines the subgroup strategy for the clusters matched by this subscriber. During the scheduling, all the matching clusters will be treated as a subgroup instead of individual clusters. With subgroup, we can describe clusters with different regions, zones, etc. Present only when SchedulingBySubGroup is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#sub_group_strategy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#sub_group_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#sub_group_strategy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#sub_group_strategy}
   */
   readonly subGroupStrategy?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscribersSubGroupStrategy;
   /**
   * Static weight of subscriber when dividing replicas. Present only for static divided scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#weight DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#weight DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -2955,55 +2955,55 @@ export interface DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpec {
   /**
   * ClusterTolerations tolerates any matched taints of ManagedCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#cluster_tolerations DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#cluster_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#cluster_tolerations DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#cluster_tolerations}
   */
   readonly clusterTolerations?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecClusterTolerations[] | cdktf.IResolvable;
   /**
   * Dividing scheduling config params. Present only if SchedulingStrategy = Dividing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#dividing_scheduling DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#dividing_scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#dividing_scheduling DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#dividing_scheduling}
   */
   readonly dividingScheduling?: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecDividingScheduling;
   /**
   * Feeds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#feeds DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#feeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#feeds DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#feeds}
   */
   readonly feeds: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecFeeds[] | cdktf.IResolvable;
   /**
   * PreemptionPolicy is the Policy for preempting subscriptions with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#preemption_policy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#preemption_policy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
   * The priority value. clusternet-scheduler use this field to find the priority of the subscription. The higher the value, the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#priority DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#priority DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * If specified, the Subscription will be handled by specified scheduler. If not specified, the Subscription will be handled by default scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#scheduler_name DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#scheduler_name DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * If specified, the Subscription will be handled with SchedulingBySubGroup. Used together with SubGroupStrategy in every Subscriber. Can work with all supported SchedulingStrategy, such as Replication, Dividing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#scheduling_by_sub_group DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#scheduling_by_sub_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#scheduling_by_sub_group DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#scheduling_by_sub_group}
   */
   readonly schedulingBySubGroup?: boolean | cdktf.IResolvable;
   /**
   * If specified, the Subscription will be handled with specified SchedulingStrategy. Otherwise, with generic SchedulingStrategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#scheduling_strategy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#scheduling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#scheduling_strategy DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#scheduling_strategy}
   */
   readonly schedulingStrategy?: string;
   /**
   * Subscribers subscribes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#subscribers DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#subscribers DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest#subscribers}
   */
   readonly subscribers: DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecSubscribers[] | cdktf.IResolvable;
 }
@@ -3323,7 +3323,7 @@ export class DataK8SAppsClusternetIoSubscriptionV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest k8s_apps_clusternet_io_subscription_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest k8s_apps_clusternet_io_subscription_v1alpha1_manifest}
 */
 export class DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3339,7 +3339,7 @@ export class DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3351,7 +3351,7 @@ export class DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest k8s_apps_clusternet_io_subscription_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_clusternet_io_subscription_v1alpha1_manifest k8s_apps_clusternet_io_subscription_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3362,8 +3362,8 @@ export class DataK8SAppsClusternetIoSubscriptionV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_apps_clusternet_io_subscription_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

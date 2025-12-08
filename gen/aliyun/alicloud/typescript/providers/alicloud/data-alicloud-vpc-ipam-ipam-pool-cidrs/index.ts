@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcIpamIpamPoolCidrsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#cidr DataAlicloudVpcIpamIpamPoolCidrs#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#cidr DataAlicloudVpcIpamIpamPoolCidrs#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#id DataAlicloudVpcIpamIpamPoolCidrs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#id DataAlicloudVpcIpamIpamPoolCidrs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#ipam_pool_id DataAlicloudVpcIpamIpamPoolCidrs#ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#ipam_pool_id DataAlicloudVpcIpamIpamPoolCidrs#ipam_pool_id}
   */
   readonly ipamPoolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#output_file DataAlicloudVpcIpamIpamPoolCidrs#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#output_file DataAlicloudVpcIpamIpamPoolCidrs#output_file}
   */
   readonly outputFile?: string;
 }
@@ -119,7 +119,7 @@ export class DataAlicloudVpcIpamIpamPoolCidrsCidrsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs alicloud_vpc_ipam_ipam_pool_cidrs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs alicloud_vpc_ipam_ipam_pool_cidrs}
 */
 export class DataAlicloudVpcIpamIpamPoolCidrs extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataAlicloudVpcIpamIpamPoolCidrs extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataAlicloudVpcIpamIpamPoolCidrs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcIpamIpamPoolCidrs to import
-  * @param importFromId The id of the existing DataAlicloudVpcIpamIpamPoolCidrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcIpamIpamPoolCidrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcIpamIpamPoolCidrs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataAlicloudVpcIpamIpamPoolCidrs extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs alicloud_vpc_ipam_ipam_pool_cidrs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pool_cidrs alicloud_vpc_ipam_ipam_pool_cidrs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DataAlicloudVpcIpamIpamPoolCidrs extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_vpc_ipam_ipam_pool_cidrs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

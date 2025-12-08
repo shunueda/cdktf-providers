@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#metadata DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#metadata DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestMetadata;
   /**
   * LogGroupSpec defines the desired state of LogGroup. Represents a log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#spec DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#spec DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#annotations DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#annotations DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#labels DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#labels DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#namespace DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#namespace DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestMetadata
 }
 export interface DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpecKmsKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#namespace DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#namespace DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpec
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#from DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#from DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpecKmsKeyRefFrom;
 }
@@ -440,27 +440,27 @@ export class DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpecKmsK
 }
 export interface DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpecSubscriptionFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#destination_arn DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#destination_arn DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#destination_arn}
   */
   readonly destinationArn?: string;
   /**
   * The method used to distribute log data to the destination, which can be either random or grouped by log stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#distribution DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#distribution DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#filter_name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#filter_name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#filter_name}
   */
   readonly filterName?: string;
   /**
   * A symbolic description of how CloudWatch Logs should interpret the data in each log event. For example, a log event can contain timestamps, IP addresses, strings, and so on. You use the filter pattern to specify what to look for in the log event message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#filter_pattern DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#filter_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#filter_pattern DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#filter_pattern}
   */
   readonly filterPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#role_arn DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#role_arn DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -694,31 +694,31 @@ export interface DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpec
   /**
   * The Amazon Resource Name (ARN) of the KMS key to use when encrypting log data. For more information, see Amazon Resource Names (https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html#arn-syntax-kms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#kms_key_id DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#kms_key_id DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#kms_key_ref DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#kms_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#kms_key_ref DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#kms_key_ref}
   */
   readonly kmsKeyRef?: DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpecKmsKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#name DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#retention_days DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#retention_days DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#retention_days}
   */
   readonly retentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#subscription_filters DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#subscription_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#subscription_filters DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#subscription_filters}
   */
   readonly subscriptionFilters?: DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpecSubscriptionFilters[] | cdktf.IResolvable;
   /**
   * The key-value pairs to use for the tags. You can grant users access to certain log groups while preventing them from accessing other log groups. To do so, tag your groups and use IAM policies that refer to those tags. To assign tags when you create a log group, you must have either the logs:TagResource or logs:TagLogGroup permission. For more information about tagging, see Tagging Amazon Web Services resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html). For more information about using tags to control access, see Controlling access to Amazon Web Services resources using tags (https://docs.aws.amazon.com/IAM/latest/UserGuide/access_tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#tags DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#tags DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -954,7 +954,7 @@ export class DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest k8s_cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest k8s_cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest}
 */
 export class DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -970,7 +970,7 @@ export class DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -982,7 +982,7 @@ export class DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest k8s_cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest k8s_cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -993,8 +993,8 @@ export class DataK8SCloudwatchlogsServicesK8SAwsLogGroupV1Alpha1Manifest extends
       terraformResourceType: 'k8s_cloudwatchlogs_services_k8s_aws_log_group_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

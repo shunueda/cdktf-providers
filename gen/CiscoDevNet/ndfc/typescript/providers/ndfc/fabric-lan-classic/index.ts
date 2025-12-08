@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,337 +10,337 @@ export interface FabricLanClassicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable only, when IP Authorization is enabled in the AAA Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#aaa_remote_ip_enabled FabricLanClassic#aaa_remote_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#aaa_remote_ip_enabled FabricLanClassic#aaa_remote_ip_enabled}
   */
   readonly aaaRemoteIpEnabled?: boolean | cdktf.IResolvable;
   /**
   * AAA Configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#aaa_server_conf FabricLanClassic#aaa_server_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#aaa_server_conf FabricLanClassic#aaa_server_conf}
   */
   readonly aaaServerConf?: string;
   /**
   * Allow onboarding of this fabric to Nexus Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#allow_nxc FabricLanClassic#allow_nxc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#allow_nxc FabricLanClassic#allow_nxc}
   */
   readonly allowNxc?: boolean | cdktf.IResolvable;
   /**
   * Additional CLIs required during device bootup/login e.g. AAA/Radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#bootstrap_conf FabricLanClassic#bootstrap_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#bootstrap_conf FabricLanClassic#bootstrap_conf}
   */
   readonly bootstrapConf?: string;
   /**
   * Automatic IP Assignment For POAP (For NX-OS Switches Only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#bootstrap_enable FabricLanClassic#bootstrap_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#bootstrap_enable FabricLanClassic#bootstrap_enable}
   */
   readonly bootstrapEnable?: boolean | cdktf.IResolvable;
   /**
   * DHCPv4 Multi Subnet Scope - lines with # prefix are ignored here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#bootstrap_multisubnet FabricLanClassic#bootstrap_multisubnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#bootstrap_multisubnet FabricLanClassic#bootstrap_multisubnet}
   */
   readonly bootstrapMultisubnet?: string;
   /**
   * Enable CDP on management interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#cdp_enable FabricLanClassic#cdp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#cdp_enable FabricLanClassic#cdp_enable}
   */
   readonly cdpEnable?: boolean | cdktf.IResolvable;
   /**
   * Address range to assign P2P DCI Links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#dci_subnet_range FabricLanClassic#dci_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#dci_subnet_range FabricLanClassic#dci_subnet_range}
   */
   readonly dciSubnetRange?: string;
   /**
   * Target Mask for Subnet Range (Min:8, Max:31)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#dci_subnet_target_mask FabricLanClassic#dci_subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#dci_subnet_target_mask FabricLanClassic#dci_subnet_target_mask}
   */
   readonly dciSubnetTargetMask?: number;
   /**
   * This flag does configuration save and deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#deploy FabricLanClassic#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#deploy FabricLanClassic#deploy}
   */
   readonly deploy: boolean | cdktf.IResolvable;
   /**
   * Disable all deployments in this fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#deployment_freeze FabricLanClassic#deployment_freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#deployment_freeze FabricLanClassic#deployment_freeze}
   */
   readonly deploymentFreeze?: boolean | cdktf.IResolvable;
   /**
   * Automatic IP Assignment For POAP From Local DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#dhcp_enable FabricLanClassic#dhcp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#dhcp_enable FabricLanClassic#dhcp_enable}
   */
   readonly dhcpEnable?: boolean | cdktf.IResolvable;
   /**
   * End Address For Switch POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#dhcp_end FabricLanClassic#dhcp_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#dhcp_end FabricLanClassic#dhcp_end}
   */
   readonly dhcpEnd?: string;
   /**
   * DHCP Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#dhcp_ipv6_enable FabricLanClassic#dhcp_ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#dhcp_ipv6_enable FabricLanClassic#dhcp_ipv6_enable}
   */
   readonly dhcpIpv6Enable?: string;
   /**
   * Start Address For Switch POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#dhcp_start FabricLanClassic#dhcp_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#dhcp_start FabricLanClassic#dhcp_start}
   */
   readonly dhcpStart?: string;
   /**
   * Include AAA configs from Advanced tab during device bootup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#enable_aaa FabricLanClassic#enable_aaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#enable_aaa FabricLanClassic#enable_aaa}
   */
   readonly enableAaa?: boolean | cdktf.IResolvable;
   /**
   * Enable Netflow on VTEPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#enable_netflow FabricLanClassic#enable_netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#enable_netflow FabricLanClassic#enable_netflow}
   */
   readonly enableNetflow?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTPS NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#enable_nxapi FabricLanClassic#enable_nxapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#enable_nxapi FabricLanClassic#enable_nxapi}
   */
   readonly enableNxapi?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTP NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#enable_nxapi_http FabricLanClassic#enable_nxapi_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#enable_nxapi_http FabricLanClassic#enable_nxapi_http}
   */
   readonly enableNxapiHttp?: boolean | cdktf.IResolvable;
   /**
   * Backup hourly only if there is any config deployment since last backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#enable_real_time_backup FabricLanClassic#enable_real_time_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#enable_real_time_backup FabricLanClassic#enable_real_time_backup}
   */
   readonly enableRealTimeBackup?: boolean | cdktf.IResolvable;
   /**
   * Valid for NX-OS only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#enable_rt_intf_stats FabricLanClassic#enable_rt_intf_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#enable_rt_intf_stats FabricLanClassic#enable_rt_intf_stats}
   */
   readonly enableRtIntfStats?: boolean | cdktf.IResolvable;
   /**
   * Backup at the specified time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#enable_scheduled_backup FabricLanClassic#enable_scheduled_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#enable_scheduled_backup FabricLanClassic#enable_scheduled_backup}
   */
   readonly enableScheduledBackup?: boolean | cdktf.IResolvable;
   /**
   * External Fabric Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#ext_fabric_type FabricLanClassic#ext_fabric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#ext_fabric_type FabricLanClassic#ext_fabric_type}
   */
   readonly extFabricType?: string;
   /**
   * Additional supported CLIs for all same OS (e.g. all NxOS etc) switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#fabric_freeform FabricLanClassic#fabric_freeform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#fabric_freeform FabricLanClassic#fabric_freeform}
   */
   readonly fabricFreeform?: string;
   /**
   * Fabric name to be created, updated or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#fabric_name FabricLanClassic#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#fabric_name FabricLanClassic#fabric_name}
   */
   readonly fabricName: string;
   /**
   * Enable Precision Time Protocol (PTP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#feature_ptp FabricLanClassic#feature_ptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#feature_ptp FabricLanClassic#feature_ptp}
   */
   readonly featurePtp?: boolean | cdktf.IResolvable;
   /**
   * Template Family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#ff FabricLanClassic#ff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#ff FabricLanClassic#ff}
   */
   readonly ff?: string;
   /**
   * Enable POAP over Inband Interface (Pre-req: Inband Mgmt Knob should be Enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#inband_enable FabricLanClassic#inband_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#inband_enable FabricLanClassic#inband_enable}
   */
   readonly inbandEnable?: boolean | cdktf.IResolvable;
   /**
   * Import switches with inband connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#inband_mgmt FabricLanClassic#inband_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#inband_mgmt FabricLanClassic#inband_mgmt}
   */
   readonly inbandMgmt?: boolean | cdktf.IResolvable;
   /**
   * Time in seconds (Min:5, Max:300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#intf_stat_load_interval FabricLanClassic#intf_stat_load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#intf_stat_load_interval FabricLanClassic#intf_stat_load_interval}
   */
   readonly intfStatLoadInterval?: number;
   /**
   * If enabled, fabric is only monitored. No configuration will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#is_read_only FabricLanClassic#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#is_read_only FabricLanClassic#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Underlay Routing Loopback IP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#loopback0_ip_range FabricLanClassic#loopback0_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#loopback0_ip_range FabricLanClassic#loopback0_ip_range}
   */
   readonly loopback0IpRange?: string;
   /**
   * Default Gateway For Management VRF On The Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#mgmt_gw FabricLanClassic#mgmt_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#mgmt_gw FabricLanClassic#mgmt_gw}
   */
   readonly mgmtGw?: string;
   /**
   * Switch Mgmt IP Subnet Prefix (Min:8, Max:30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#mgmt_prefix FabricLanClassic#mgmt_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#mgmt_prefix FabricLanClassic#mgmt_prefix}
   */
   readonly mgmtPrefix?: number;
   /**
   * Enable MPLS Handoff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#mpls_handoff FabricLanClassic#mpls_handoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#mpls_handoff FabricLanClassic#mpls_handoff}
   */
   readonly mplsHandoff?: boolean | cdktf.IResolvable;
   /**
   * (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#mpls_lb_id FabricLanClassic#mpls_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#mpls_lb_id FabricLanClassic#mpls_lb_id}
   */
   readonly mplsLbId?: number;
   /**
   * MPLS Loopback IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#mpls_loopback_ip_range FabricLanClassic#mpls_loopback_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#mpls_loopback_ip_range FabricLanClassic#mpls_loopback_ip_range}
   */
   readonly mplsLoopbackIpRange?: string;
   /**
   * One or Multiple Netflow Exporters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#netflow_exporter_list FabricLanClassic#netflow_exporter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#netflow_exporter_list FabricLanClassic#netflow_exporter_list}
   */
   readonly netflowExporterList?: string;
   /**
   * One or Multiple Netflow Monitors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#netflow_monitor_list FabricLanClassic#netflow_monitor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#netflow_monitor_list FabricLanClassic#netflow_monitor_list}
   */
   readonly netflowMonitorList?: string;
   /**
   * One or Multiple Netflow Records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#netflow_record_list FabricLanClassic#netflow_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#netflow_record_list FabricLanClassic#netflow_record_list}
   */
   readonly netflowRecordList?: string;
   /**
   * One or multiple Netflow Samplers. Applicable to N7K only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#netflow_sampler_list FabricLanClassic#netflow_sampler_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#netflow_sampler_list FabricLanClassic#netflow_sampler_list}
   */
   readonly netflowSamplerList?: string;
   /**
   * NX-API HTTP Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#nxapi_http_port FabricLanClassic#nxapi_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#nxapi_http_port FabricLanClassic#nxapi_http_port}
   */
   readonly nxapiHttpPort?: number;
   /**
   * NX-API HTTPS Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#nxapi_https_port FabricLanClassic#nxapi_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#nxapi_https_port FabricLanClassic#nxapi_https_port}
   */
   readonly nxapiHttpsPort?: number;
   /**
   * VRF to be used to reach Nexus Cloud, enter 'management' for management VRF and 'default' for default VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#nxc_dest_vrf FabricLanClassic#nxc_dest_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#nxc_dest_vrf FabricLanClassic#nxc_dest_vrf}
   */
   readonly nxcDestVrf?: string;
   /**
   * Proxy port number, default is 8080
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#nxc_proxy_port FabricLanClassic#nxc_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#nxc_proxy_port FabricLanClassic#nxc_proxy_port}
   */
   readonly nxcProxyPort?: number;
   /**
   * IPv4 or IPv6 address, or DNS name of the proxy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#nxc_proxy_server FabricLanClassic#nxc_proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#nxc_proxy_server FabricLanClassic#nxc_proxy_server}
   */
   readonly nxcProxyServer?: string;
   /**
   * Source interface for communication to Nexus Cloud, mandatory if Destination VRF is not management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#nxc_src_intf FabricLanClassic#nxc_src_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#nxc_src_intf FabricLanClassic#nxc_src_intf}
   */
   readonly nxcSrcIntf?: string;
   /**
   * If enabled, Fabric NxCloud Settings will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#overwrite_global_nxc FabricLanClassic#overwrite_global_nxc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#overwrite_global_nxc FabricLanClassic#overwrite_global_nxc}
   */
   readonly overwriteGlobalNxc?: boolean | cdktf.IResolvable;
   /**
   * Enable Performance Monitoring (For NX-OS Switches Only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#pm_enable FabricLanClassic#pm_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#pm_enable FabricLanClassic#pm_enable}
   */
   readonly pmEnable?: boolean | cdktf.IResolvable;
   /**
   * Default Power Supply Mode For Bootstrapped NX-OS Switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#power_redundancy_mode FabricLanClassic#power_redundancy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#power_redundancy_mode FabricLanClassic#power_redundancy_mode}
   */
   readonly powerRedundancyMode?: string;
   /**
   * Multiple Independent PTP Clocking Subdomains on a Single Network (Min:0, Max:127)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#ptp_domain_id FabricLanClassic#ptp_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#ptp_domain_id FabricLanClassic#ptp_domain_id}
   */
   readonly ptpDomainId?: number;
   /**
   * (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#ptp_lb_id FabricLanClassic#ptp_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#ptp_lb_id FabricLanClassic#ptp_lb_id}
   */
   readonly ptpLbId?: number;
   /**
   * Time (UTC) in 24hr format. (00:00 to 23:59)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#scheduled_time FabricLanClassic#scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#scheduled_time FabricLanClassic#scheduled_time}
   */
   readonly scheduledTime?: string;
   /**
   * Configure NDFC as a receiver for SNMP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#snmp_server_host_trap FabricLanClassic#snmp_server_host_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#snmp_server_host_trap FabricLanClassic#snmp_server_host_trap}
   */
   readonly snmpServerHostTrap?: boolean | cdktf.IResolvable;
   /**
   * Per Border Dot1q Range For VRF Lite Connectivity (Min:2, Max:4093)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#subinterface_range FabricLanClassic#subinterface_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#subinterface_range FabricLanClassic#subinterface_range}
   */
   readonly subinterfaceRange?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic ndfc_fabric_lan_classic}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic ndfc_fabric_lan_classic}
 */
 export class FabricLanClassic extends cdktf.TerraformResource {
 
@@ -356,7 +356,7 @@ export class FabricLanClassic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricLanClassic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricLanClassic to import
-  * @param importFromId The id of the existing FabricLanClassic that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricLanClassic that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricLanClassic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class FabricLanClassic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_lan_classic ndfc_fabric_lan_classic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_lan_classic ndfc_fabric_lan_classic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class FabricLanClassic extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_fabric_lan_classic',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

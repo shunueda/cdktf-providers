@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes
+// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PackRoutesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#comments PackRoutes#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#comments PackRoutes#comments}
   */
   readonly comments?: PackRoutesComments[] | cdktf.IResolvable;
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#group_id PackRoutes#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#group_id PackRoutes#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#groups PackRoutes#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#groups PackRoutes#groups}
   */
   readonly groups?: { [key: string]: PackRoutesGroups } | cdktf.IResolvable;
   /**
   * Routes ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#id PackRoutes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#id PackRoutes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface PackRoutesConfig extends cdktf.TerraformMetaArguments {
   /**
   * pack ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#pack PackRoutes#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#pack PackRoutes#pack}
   */
   readonly pack: string;
   /**
   * Pipeline routing rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#routes PackRoutes#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#routes PackRoutes#routes}
   */
   readonly routes: PackRoutesRoutes[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface PackRoutesComments {
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#additional_properties PackRoutes#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#additional_properties PackRoutes#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Optional, short description of this Route's purpose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#comment PackRoutes#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#comment PackRoutes#comment}
   */
   readonly comment?: string;
 }
@@ -202,17 +202,17 @@ export interface PackRoutesGroups {
   /**
   * Short description of this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#description PackRoutes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#description PackRoutes#description}
   */
   readonly description?: string;
   /**
   * Whether this group is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#disabled PackRoutes#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#disabled PackRoutes#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#name PackRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#name PackRoutes#name}
   */
   readonly name: string;
 }
@@ -764,57 +764,57 @@ export interface PackRoutesRoutes {
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#additional_properties PackRoutes#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#additional_properties PackRoutes#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#description PackRoutes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#description PackRoutes#description}
   */
   readonly description?: string;
   /**
   * Disable this routing rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#disabled PackRoutes#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#disabled PackRoutes#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Enable to use a JavaScript expression that evaluates to the name of the Description below. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#enable_output_expression PackRoutes#enable_output_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#enable_output_expression PackRoutes#enable_output_expression}
   */
   readonly enableOutputExpression?: boolean | cdktf.IResolvable;
   /**
   * JavaScript expression to select data to route. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#filter PackRoutes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#filter PackRoutes#filter}
   */
   readonly filter?: string;
   /**
   * Flag to control whether the event gets consumed by this Route (Final), or cloned into it. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#final PackRoutes#final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#final PackRoutes#final}
   */
   readonly final?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#name PackRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#name PackRoutes#name}
   */
   readonly name: string;
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#output PackRoutes#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#output PackRoutes#output}
   */
   readonly output?: string;
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#output_expression PackRoutes#output_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#output_expression PackRoutes#output_expression}
   */
   readonly outputExpression?: string;
   /**
   * Pipeline to send the matching data to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#pipeline PackRoutes#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#pipeline PackRoutes#pipeline}
   */
   readonly pipeline: string;
 }
@@ -1185,7 +1185,7 @@ export class PackRoutesRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes criblio_pack_routes}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes criblio_pack_routes}
 */
 export class PackRoutes extends cdktf.TerraformResource {
 
@@ -1201,7 +1201,7 @@ export class PackRoutes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackRoutes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackRoutes to import
-  * @param importFromId The id of the existing PackRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackRoutes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1213,7 +1213,7 @@ export class PackRoutes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_routes criblio_pack_routes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/pack_routes criblio_pack_routes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1224,8 +1224,8 @@ export class PackRoutes extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_routes',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.33',
-        providerVersionConstraint: '1.20.33'
+        providerVersion: '1.20.48',
+        providerVersionConstraint: '1.20.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

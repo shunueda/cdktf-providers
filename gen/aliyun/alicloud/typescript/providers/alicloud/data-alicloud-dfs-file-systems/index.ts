@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDfsFileSystemsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems#id DataAlicloudDfsFileSystems#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems#id DataAlicloudDfsFileSystems#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems#ids DataAlicloudDfsFileSystems#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems#ids DataAlicloudDfsFileSystems#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems#name_regex DataAlicloudDfsFileSystems#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems#name_regex DataAlicloudDfsFileSystems#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems#output_file DataAlicloudDfsFileSystems#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems#output_file DataAlicloudDfsFileSystems#output_file}
   */
   readonly outputFile?: string;
 }
@@ -179,7 +179,7 @@ export class DataAlicloudDfsFileSystemsSystemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems alicloud_dfs_file_systems}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems alicloud_dfs_file_systems}
 */
 export class DataAlicloudDfsFileSystems extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataAlicloudDfsFileSystems extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudDfsFileSystems resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDfsFileSystems to import
-  * @param importFromId The id of the existing DataAlicloudDfsFileSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDfsFileSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDfsFileSystems to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataAlicloudDfsFileSystems extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/dfs_file_systems alicloud_dfs_file_systems} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_file_systems alicloud_dfs_file_systems} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataAlicloudDfsFileSystems extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_dfs_file_systems',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

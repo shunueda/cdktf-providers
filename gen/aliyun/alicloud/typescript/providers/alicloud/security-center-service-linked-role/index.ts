@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityCenterServiceLinkedRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role#id SecurityCenterServiceLinkedRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role#id SecurityCenterServiceLinkedRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface SecurityCenterServiceLinkedRoleConfig extends cdktf.TerraformMe
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role#timeouts SecurityCenterServiceLinkedRole#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role#timeouts SecurityCenterServiceLinkedRole#timeouts}
   */
   readonly timeouts?: SecurityCenterServiceLinkedRoleTimeouts;
 }
 export interface SecurityCenterServiceLinkedRoleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role#create SecurityCenterServiceLinkedRole#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role#create SecurityCenterServiceLinkedRole#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role#delete SecurityCenterServiceLinkedRole#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role#delete SecurityCenterServiceLinkedRole#delete}
   */
   readonly delete?: string;
 }
@@ -150,7 +150,7 @@ export class SecurityCenterServiceLinkedRoleTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role alicloud_security_center_service_linked_role}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role alicloud_security_center_service_linked_role}
 */
 export class SecurityCenterServiceLinkedRole extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class SecurityCenterServiceLinkedRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityCenterServiceLinkedRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityCenterServiceLinkedRole to import
-  * @param importFromId The id of the existing SecurityCenterServiceLinkedRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityCenterServiceLinkedRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityCenterServiceLinkedRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class SecurityCenterServiceLinkedRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/security_center_service_linked_role alicloud_security_center_service_linked_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/security_center_service_linked_role alicloud_security_center_service_linked_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class SecurityCenterServiceLinkedRole extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_security_center_service_linked_role',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

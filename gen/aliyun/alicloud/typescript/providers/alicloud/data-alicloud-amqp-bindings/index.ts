@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudAmqpBindingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings#id DataAlicloudAmqpBindings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings#id DataAlicloudAmqpBindings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings#instance_id DataAlicloudAmqpBindings#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings#instance_id DataAlicloudAmqpBindings#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings#output_file DataAlicloudAmqpBindings#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings#output_file DataAlicloudAmqpBindings#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings#virtual_host_name DataAlicloudAmqpBindings#virtual_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings#virtual_host_name DataAlicloudAmqpBindings#virtual_host_name}
   */
   readonly virtualHostName: string;
 }
@@ -139,7 +139,7 @@ export class DataAlicloudAmqpBindingsBindingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings alicloud_amqp_bindings}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings alicloud_amqp_bindings}
 */
 export class DataAlicloudAmqpBindings extends cdktf.TerraformDataSource {
 
@@ -155,7 +155,7 @@ export class DataAlicloudAmqpBindings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAmqpBindings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAmqpBindings to import
-  * @param importFromId The id of the existing DataAlicloudAmqpBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAmqpBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAmqpBindings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class DataAlicloudAmqpBindings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/amqp_bindings alicloud_amqp_bindings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/amqp_bindings alicloud_amqp_bindings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class DataAlicloudAmqpBindings extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_amqp_bindings',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

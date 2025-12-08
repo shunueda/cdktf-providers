@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestConfig extend
   /**
   * Endpoints is a list of coreCEPs packed in a CiliumEndpointSlice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#endpoints DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#endpoints DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#endpoints}
   */
   readonly endpoints: DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpoints[] | cdktf.IResolvable;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestMetadata;
   /**
   * Namespace indicate as CiliumEndpointSlice namespace. All the CiliumEndpoints within the same namespace are put together in CiliumEndpointSlice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#namespace DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#namespace DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -30,7 +30,7 @@ export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsEncr
   /**
   * Key is the index to the key to use for encryption or 0 if encryption is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#key DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#key DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#key}
   */
   readonly key?: number;
 }
@@ -126,19 +126,19 @@ export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsName
   /**
   * Optional layer 4 port name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#name DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#name DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Layer 4 port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#port DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#port DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Layer 4 protocol Enum: [TCP UDP SCTP ICMP ICMPV6 ANY]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#protocol DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#protocol DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -312,11 +312,11 @@ export class DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsNamedPor
 }
 export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsNetworkingAddressing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#ipv4 DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#ipv4 DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#ipv4}
   */
   readonly ipv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#ipv6 DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#ipv6 DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -463,13 +463,13 @@ export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsNetw
   /**
   * IP4/6 addresses assigned to this Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#addressing DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#addressing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#addressing DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#addressing}
   */
   readonly addressing: DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsNetworkingAddressing[] | cdktf.IResolvable;
   /**
   * NodeIP is the IP of the node the endpoint is running on. The IP must be reachable between nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#node DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#node DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#node}
   */
   readonly nodeAttribute?: string;
 }
@@ -591,13 +591,13 @@ export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpoints {
   /**
   * EncryptionSpec defines the encryption relevant configuration of a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#encryption DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#encryption DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#encryption}
   */
   readonly encryption?: DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsEncryption;
   /**
   * IdentityID is the numeric identity of the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#id DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#id DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -606,19 +606,19 @@ export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpoints {
   /**
   * Name indicate as CiliumEndpoint name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#name DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#name DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * NamedPorts List of named Layer 4 port and protocol pairs which will be used in Network Policy specs. swagger:model NamedPorts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#named_ports DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#named_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#named_ports DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#named_ports}
   */
   readonly namedPorts?: DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsNamedPorts[] | cdktf.IResolvable;
   /**
   * EndpointNetworking is the addressing information of an endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#networking DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#networking DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#networking}
   */
   readonly networking?: DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestEndpointsNetworking;
 }
@@ -852,19 +852,19 @@ export interface DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#labels DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#labels DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#name DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#name DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1013,7 +1013,7 @@ export class DataK8SCiliumIoCiliumEndpointSliceV2Alpha1ManifestMetadataOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest k8s_cilium_io_cilium_endpoint_slice_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest k8s_cilium_io_cilium_endpoint_slice_v2alpha1_manifest}
 */
 export class DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1029,7 +1029,7 @@ export class DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1041,7 +1041,7 @@ export class DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest k8s_cilium_io_cilium_endpoint_slice_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_endpoint_slice_v2alpha1_manifest k8s_cilium_io_cilium_endpoint_slice_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1052,8 +1052,8 @@ export class DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_cilium_io_cilium_endpoint_slice_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

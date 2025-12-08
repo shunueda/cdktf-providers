@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface CapsmanChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#___path___ CapsmanChannel#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#___path___ CapsmanChannel#___path___}
   */
   readonly path?: string;
   /**
   * Define operational radio frequency band and mode taken from hardware capability of wireless card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#band CapsmanChannel#band}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#band CapsmanChannel#band}
   */
   readonly band?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#comment CapsmanChannel#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#comment CapsmanChannel#comment}
   */
   readonly comment?: string;
   /**
   * Control channel width.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#control_channel_width CapsmanChannel#control_channel_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#control_channel_width CapsmanChannel#control_channel_width}
   */
   readonly controlChannelWidth?: string;
   /**
   * Extension channel configuration. (E.g. Ce = extension channel is above Control channel, eC = extension channel is below Control channel)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#extension_channel CapsmanChannel#extension_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#extension_channel CapsmanChannel#extension_channel}
   */
   readonly extensionChannel?: string;
   /**
   * Channel frequency value in MHz on which AP will operate. If left blank, CAPsMAN will automatically determine the best frequency that is least occupied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#frequency CapsmanChannel#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#frequency CapsmanChannel#frequency}
   */
   readonly frequency?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#id CapsmanChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#id CapsmanChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,49 +54,49 @@ export interface CapsmanChannelConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#name CapsmanChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#name CapsmanChannel#name}
   */
   readonly name: string;
   /**
   * The interval after which the least occupied frequency is chosen, can be defined as a random interval, ex. as '30m..60m'. Works only if channel.frequency is left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#reselect_interval CapsmanChannel#reselect_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#reselect_interval CapsmanChannel#reselect_interval}
   */
   readonly reselectInterval?: string;
   /**
   * If channel frequency is chosen automatically and channel.reselect-interval is used, then saves the last picked frequency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#save_selected CapsmanChannel#save_selected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#save_selected CapsmanChannel#save_selected}
   */
   readonly saveSelected?: boolean | cdktf.IResolvable;
   /**
   * Specifies the second frequency that will be used for 80+80MHz configuration. Set it to Disabled in order to disable 80+80MHz capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#secondary_frequency CapsmanChannel#secondary_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#secondary_frequency CapsmanChannel#secondary_frequency}
   */
   readonly secondaryFrequency?: string[];
   /**
   * If channel.frequency is left blank, the selection will skip DFS channels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#skip_dfs_channels CapsmanChannel#skip_dfs_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#skip_dfs_channels CapsmanChannel#skip_dfs_channels}
   */
   readonly skipDfsChannels?: boolean | cdktf.IResolvable;
   /**
   * TX  Power for CAP interface (for the whole interface not for individual  chains) in dBm. It is not possible to set higher than allowed by country  regulations or interface. By default max allowed by country or  interface is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#tx_power CapsmanChannel#tx_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#tx_power CapsmanChannel#tx_power}
   */
   readonly txPower?: number;
   /**
   * Channel Width in MHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#width CapsmanChannel#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#width CapsmanChannel#width}
   */
   readonly width?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel routeros_capsman_channel}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel routeros_capsman_channel}
 */
 export class CapsmanChannel extends cdktf.TerraformResource {
 
@@ -112,7 +112,7 @@ export class CapsmanChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanChannel to import
-  * @param importFromId The id of the existing CapsmanChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class CapsmanChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_channel routeros_capsman_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_channel routeros_capsman_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class CapsmanChannel extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_channel',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface EsaRewriteUrlRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#id EsaRewriteUrlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#id EsaRewriteUrlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#query_string EsaRewriteUrlRule#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#query_string EsaRewriteUrlRule#query_string}
   */
   readonly queryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#rewrite_query_string_type EsaRewriteUrlRule#rewrite_query_string_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#rewrite_query_string_type EsaRewriteUrlRule#rewrite_query_string_type}
   */
   readonly rewriteQueryStringType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#rewrite_uri_type EsaRewriteUrlRule#rewrite_uri_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#rewrite_uri_type EsaRewriteUrlRule#rewrite_uri_type}
   */
   readonly rewriteUriType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#rule EsaRewriteUrlRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#rule EsaRewriteUrlRule#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#rule_enable EsaRewriteUrlRule#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#rule_enable EsaRewriteUrlRule#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#rule_name EsaRewriteUrlRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#rule_name EsaRewriteUrlRule#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#sequence EsaRewriteUrlRule#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#sequence EsaRewriteUrlRule#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#site_id EsaRewriteUrlRule#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#site_id EsaRewriteUrlRule#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#site_version EsaRewriteUrlRule#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#site_version EsaRewriteUrlRule#site_version}
   */
   readonly siteVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#uri EsaRewriteUrlRule#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#uri EsaRewriteUrlRule#uri}
   */
   readonly uri?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#timeouts EsaRewriteUrlRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#timeouts EsaRewriteUrlRule#timeouts}
   */
   readonly timeouts?: EsaRewriteUrlRuleTimeouts;
 }
 export interface EsaRewriteUrlRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#create EsaRewriteUrlRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#create EsaRewriteUrlRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#delete EsaRewriteUrlRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#delete EsaRewriteUrlRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#update EsaRewriteUrlRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#update EsaRewriteUrlRule#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class EsaRewriteUrlRuleTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule alicloud_esa_rewrite_url_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule alicloud_esa_rewrite_url_rule}
 */
 export class EsaRewriteUrlRule extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class EsaRewriteUrlRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaRewriteUrlRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaRewriteUrlRule to import
-  * @param importFromId The id of the existing EsaRewriteUrlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaRewriteUrlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaRewriteUrlRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class EsaRewriteUrlRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_rewrite_url_rule alicloud_esa_rewrite_url_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_rewrite_url_rule alicloud_esa_rewrite_url_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class EsaRewriteUrlRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_rewrite_url_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

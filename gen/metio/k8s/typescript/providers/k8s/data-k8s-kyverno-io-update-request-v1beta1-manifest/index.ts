@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#metadata DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#metadata DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestMetadata;
   /**
   * ResourceSpec is the information to identify the trigger resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#spec DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#spec DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#annotations DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#annotations DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#labels DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#labels DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#name DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#name DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#namespace DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#namespace DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1ManifestMetadataOutputReference
 }
 export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestKind {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -368,15 +368,15 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionReq
 }
 export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestRequestKind {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -519,15 +519,15 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionReq
 }
 export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestRequestResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -670,15 +670,15 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionReq
 }
 export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#group DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -823,25 +823,25 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissio
   /**
   * Any additional information provided by the authenticator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#extra DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#extra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#extra DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#extra}
   */
   readonly extra?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The names of groups this user is a part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#groups DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#groups DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * A unique value that identifies this user across time. If this user is deleted and another user by the same name is added, they will have different UIDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
   */
   readonly uid?: string;
   /**
   * The name that uniquely identifies this user among all active users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#username DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#username DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#username}
   */
   readonly username?: string;
 }
@@ -1024,91 +1024,91 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissio
   /**
   * DryRun indicates that modifications will definitely not be persisted for this request. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#dry_run DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#dry_run DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * Kind is the fully-qualified type of object being submitted (for example, v1.Pod or autoscaling.v1.Scale)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
   */
   readonly kind: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestKind;
   /**
   * Name is the name of the object as presented in the request. On a CREATE operation, the client may omit name and rely on the server to generate the name. If that is the case, this field will contain an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#name DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#name DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace is the namespace associated with the request (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#namespace DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#namespace DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Object is the object from the incoming request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#object DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#object DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#object}
   */
   readonly object?: { [key: string]: string };
   /**
   * OldObject is the existing object. Only populated for DELETE and UPDATE requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#old_object DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#old_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#old_object DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#old_object}
   */
   readonly oldObject?: { [key: string]: string };
   /**
   * Operation is the operation being performed. This may be different than the operation requested. e.g. a patch can result in either a CREATE or UPDATE Operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#operation DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#operation DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#operation}
   */
   readonly operation: string;
   /**
   * Options is the operation option structure of the operation being performed. e.g. 'meta.k8s.io/v1.DeleteOptions' or 'meta.k8s.io/v1.CreateOptions'. This may be different than the options the caller provided. e.g. for a patch request the performed Operation might be a CREATE, in which case the Options will a 'meta.k8s.io/v1.CreateOptions' even though the caller provided 'meta.k8s.io/v1.PatchOptions'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#options DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#options DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * RequestKind is the fully-qualified type of the original API request (for example, v1.Pod or autoscaling.v1.Scale). If this is specified and differs from the value in 'kind', an equivalent match and conversion was performed. For example, if deployments can be modified via apps/v1 and apps/v1beta1, and a webhook registered a rule of 'apiGroups:['apps'], apiVersions:['v1'], resources: ['deployments']' and 'matchPolicy: Equivalent', an API request to apps/v1beta1 deployments would be converted and sent to the webhook with 'kind: {group:'apps', version:'v1', kind:'Deployment'}' (matching the rule the webhook registered for), and 'requestKind: {group:'apps', version:'v1beta1', kind:'Deployment'}' (indicating the kind of the original API request). See documentation for the 'matchPolicy' field in the webhook configuration type for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_kind}
   */
   readonly requestKind?: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestRequestKind;
   /**
   * RequestResource is the fully-qualified resource of the original API request (for example, v1.pods). If this is specified and differs from the value in 'resource', an equivalent match and conversion was performed. For example, if deployments can be modified via apps/v1 and apps/v1beta1, and a webhook registered a rule of 'apiGroups:['apps'], apiVersions:['v1'], resources: ['deployments']' and 'matchPolicy: Equivalent', an API request to apps/v1beta1 deployments would be converted and sent to the webhook with 'resource: {group:'apps', version:'v1', resource:'deployments'}' (matching the resource the webhook registered for), and 'requestResource: {group:'apps', version:'v1beta1', resource:'deployments'}' (indicating the resource of the original API request). See documentation for the 'matchPolicy' field in the webhook configuration type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_resource}
   */
   readonly requestResource?: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestRequestResource;
   /**
   * RequestSubResource is the name of the subresource of the original API request, if any (for example, 'status' or 'scale') If this is specified and differs from the value in 'subResource', an equivalent match and conversion was performed. See documentation for the 'matchPolicy' field in the webhook configuration type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_sub_resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_sub_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_sub_resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_sub_resource}
   */
   readonly requestSubResource?: string;
   /**
   * Resource is the fully-qualified resource being requested (for example, v1.pods)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
   */
   readonly resource: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestResource;
   /**
   * SubResource is the subresource being requested, if any (for example, 'status' or 'scale')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#sub_resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#sub_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#sub_resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#sub_resource}
   */
   readonly subResource?: string;
   /**
   * UID is an identifier for the individual request/response. It allows us to distinguish instances of requests which are otherwise identical (parallel requests, requests when earlier requests did not modify etc) The UID is meant to track the round trip (request/response) between the KAS and the WebHook, not the user request. It is suitable for correlating log entries between the webhook and apiserver, for either auditing or debugging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
   */
   readonly uid: string;
   /**
   * UserInfo is information about the requesting user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#user_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#user_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#user_info}
   */
   readonly userInfo: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequestUserInfo;
 }
@@ -1595,13 +1595,13 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissio
   /**
   * AdmissionRequest describes the admission.Attributes for the admission request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#admission_request DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#admission_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#admission_request DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#admission_request}
   */
   readonly admissionRequest?: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfoAdmissionRequest;
   /**
   * Operation is the type of resource operation being checked for admission control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#operation DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#operation DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#operation}
   */
   readonly operation?: string;
 }
@@ -1726,25 +1726,25 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextUserInfo
   /**
   * Any additional information provided by the authenticator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#extra DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#extra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#extra DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#extra}
   */
   readonly extra?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The names of groups this user is a part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#groups DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#groups DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * A unique value that identifies this user across time. If this user is deleted and another user by the same name is added, they will have different UIDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
   */
   readonly uid?: string;
   /**
   * The name that uniquely identifies this user among all active users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#username DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#username DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#username}
   */
   readonly username?: string;
 }
@@ -1927,19 +1927,19 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextUserInfo
   /**
   * ClusterRoles is a list of possible clusterRoles send the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#cluster_roles DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#cluster_roles DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * Roles is a list of possible role send the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#roles DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#roles DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * UserInfo is the userInfo carried in the admission request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#user_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#user_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#user_info}
   */
   readonly userInfo?: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextUserInfoUserInfo;
 }
@@ -2093,13 +2093,13 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContext {
   /**
   * AdmissionRequestInfoObject stores the admission request and operation details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#admission_request_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#admission_request_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#admission_request_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#admission_request_info}
   */
   readonly admissionRequestInfo?: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextAdmissionRequestInfo;
   /**
   * RequestInfo contains permission info carried in an admission request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#user_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#user_info DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#user_info}
   */
   readonly userInfo?: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContextUserInfo;
 }
@@ -2224,31 +2224,31 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecResource {
   /**
   * APIVersion specifies resource apiVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#api_version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#api_version DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind specifies resource kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#kind DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name specifies the resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#name DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#name DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#namespace DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#namespace DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * UID specifies the resource uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#uid DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -2460,43 +2460,43 @@ export interface DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpec {
   /**
   * Context ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#context DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#context DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#context}
   */
   readonly context: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecContext;
   /**
   * DeleteDownstream represents whether the downstream needs to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#delete_downstream DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#delete_downstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#delete_downstream DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#delete_downstream}
   */
   readonly deleteDownstream: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#policy DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#policy DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#policy}
   */
   readonly policy: string;
   /**
   * Type represents request type for background processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_type DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#request_type DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#request_type}
   */
   readonly requestType?: string;
   /**
   * ResourceSpec is the information to identify the trigger resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#resource DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#resource}
   */
   readonly resource: DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecResource;
   /**
   * Rule is the associate rule name of the current UR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#rule DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#rule DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#rule}
   */
   readonly rule: string;
   /**
   * Synchronize represents the sync behavior of the corresponding rule Optional. Defaults to 'false' if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#synchronize DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#synchronize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#synchronize DataK8SKyvernoIoUpdateRequestV1Beta1Manifest#synchronize}
   */
   readonly synchronize?: boolean | cdktf.IResolvable;
 }
@@ -2749,7 +2749,7 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest k8s_kyverno_io_update_request_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest k8s_kyverno_io_update_request_v1beta1_manifest}
 */
 export class DataK8SKyvernoIoUpdateRequestV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2765,7 +2765,7 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SKyvernoIoUpdateRequestV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKyvernoIoUpdateRequestV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKyvernoIoUpdateRequestV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKyvernoIoUpdateRequestV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKyvernoIoUpdateRequestV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2777,7 +2777,7 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_update_request_v1beta1_manifest k8s_kyverno_io_update_request_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_update_request_v1beta1_manifest k8s_kyverno_io_update_request_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2788,8 +2788,8 @@ export class DataK8SKyvernoIoUpdateRequestV1Beta1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_kyverno_io_update_request_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

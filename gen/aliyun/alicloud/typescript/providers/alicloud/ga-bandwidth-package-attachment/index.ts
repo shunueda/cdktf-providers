@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface GaBandwidthPackageAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#accelerator_id GaBandwidthPackageAttachment#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#accelerator_id GaBandwidthPackageAttachment#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#bandwidth_package_id GaBandwidthPackageAttachment#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#bandwidth_package_id GaBandwidthPackageAttachment#bandwidth_package_id}
   */
   readonly bandwidthPackageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#id GaBandwidthPackageAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#id GaBandwidthPackageAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,21 +25,21 @@ export interface GaBandwidthPackageAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#timeouts GaBandwidthPackageAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#timeouts GaBandwidthPackageAttachment#timeouts}
   */
   readonly timeouts?: GaBandwidthPackageAttachmentTimeouts;
 }
 export interface GaBandwidthPackageAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#create GaBandwidthPackageAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#create GaBandwidthPackageAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#delete GaBandwidthPackageAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#delete GaBandwidthPackageAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#update GaBandwidthPackageAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#update GaBandwidthPackageAttachment#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class GaBandwidthPackageAttachmentTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment alicloud_ga_bandwidth_package_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment alicloud_ga_bandwidth_package_attachment}
 */
 export class GaBandwidthPackageAttachment extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class GaBandwidthPackageAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaBandwidthPackageAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaBandwidthPackageAttachment to import
-  * @param importFromId The id of the existing GaBandwidthPackageAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaBandwidthPackageAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaBandwidthPackageAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class GaBandwidthPackageAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package_attachment alicloud_ga_bandwidth_package_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_bandwidth_package_attachment alicloud_ga_bandwidth_package_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class GaBandwidthPackageAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_bandwidth_package_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

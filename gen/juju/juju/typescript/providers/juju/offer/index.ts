@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OfferConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the application. Changing this value will cause the offer to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer#application_name Offer#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer#application_name Offer#application_name}
   */
   readonly applicationName: string;
   /**
   * The endpoint names. Changing this value will cause the offer to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer#endpoints Offer#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer#endpoints Offer#endpoints}
   */
   readonly endpoints: string[];
   /**
-  * The UUID of the model to operate in. Changing this value will cause the offer to be destroyed and recreated by terraform.
+  * The name of the model to operate in. Changing this value will cause the offer to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer#model_uuid Offer#model_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer#model Offer#model}
   */
-  readonly modelUuid: string;
+  readonly model: string;
   /**
   * The name of the offer. Changing this value will cause the offer to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer#name Offer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer#name Offer#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer juju_offer}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer juju_offer}
 */
 export class Offer extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Offer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Offer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Offer to import
-  * @param importFromId The id of the existing Offer that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Offer that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Offer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Offer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/offer juju_offer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/offer juju_offer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Offer extends cdktf.TerraformResource {
       terraformResourceType: 'juju_offer',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -86,7 +86,7 @@ export class Offer extends cdktf.TerraformResource {
     });
     this._applicationName = config.applicationName;
     this._endpoints = config.endpoints;
-    this._modelUuid = config.modelUuid;
+    this._model = config.model;
     this._name = config.name;
   }
 
@@ -125,17 +125,17 @@ export class Offer extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // model_uuid - computed: false, optional: false, required: true
-  private _modelUuid?: string; 
-  public get modelUuid() {
-    return this.getStringAttribute('model_uuid');
+  // model - computed: false, optional: false, required: true
+  private _model?: string; 
+  public get model() {
+    return this.getStringAttribute('model');
   }
-  public set modelUuid(value: string) {
-    this._modelUuid = value;
+  public set model(value: string) {
+    this._model = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelUuidInput() {
-    return this._modelUuid;
+  public get modelInput() {
+    return this._model;
   }
 
   // name - computed: true, optional: true, required: false
@@ -167,7 +167,7 @@ export class Offer extends cdktf.TerraformResource {
     return {
       application_name: cdktf.stringToTerraform(this._applicationName),
       endpoints: cdktf.listMapper(cdktf.stringToTerraform, false)(this._endpoints),
-      model_uuid: cdktf.stringToTerraform(this._modelUuid),
+      model: cdktf.stringToTerraform(this._model),
       name: cdktf.stringToTerraform(this._name),
     };
   }
@@ -186,8 +186,8 @@ export class Offer extends cdktf.TerraformResource {
         type: "set",
         storageClassType: "stringList",
       },
-      model_uuid: {
-        value: cdktf.stringToHclTerraform(this._modelUuid),
+      model: {
+        value: cdktf.stringToHclTerraform(this._model),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

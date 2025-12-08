@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceMeshUserPermissionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#id ServiceMeshUserPermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#id ServiceMeshUserPermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#sub_account_user_id ServiceMeshUserPermission#sub_account_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#sub_account_user_id ServiceMeshUserPermission#sub_account_user_id}
   */
   readonly subAccountUserId: string;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#permissions ServiceMeshUserPermission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#permissions ServiceMeshUserPermission#permissions}
   */
   readonly permissions?: ServiceMeshUserPermissionPermissions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#timeouts ServiceMeshUserPermission#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#timeouts ServiceMeshUserPermission#timeouts}
   */
   readonly timeouts?: ServiceMeshUserPermissionTimeouts;
 }
 export interface ServiceMeshUserPermissionPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#is_custom ServiceMeshUserPermission#is_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#is_custom ServiceMeshUserPermission#is_custom}
   */
   readonly isCustom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#is_ram_role ServiceMeshUserPermission#is_ram_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#is_ram_role ServiceMeshUserPermission#is_ram_role}
   */
   readonly isRamRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#role_name ServiceMeshUserPermission#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#role_name ServiceMeshUserPermission#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#role_type ServiceMeshUserPermission#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#role_type ServiceMeshUserPermission#role_type}
   */
   readonly roleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#service_mesh_id ServiceMeshUserPermission#service_mesh_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#service_mesh_id ServiceMeshUserPermission#service_mesh_id}
   */
   readonly serviceMeshId?: string;
 }
@@ -281,11 +281,11 @@ export class ServiceMeshUserPermissionPermissionsList extends cdktf.ComplexList 
 }
 export interface ServiceMeshUserPermissionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#create ServiceMeshUserPermission#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#create ServiceMeshUserPermission#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#update ServiceMeshUserPermission#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#update ServiceMeshUserPermission#update}
   */
   readonly update?: string;
 }
@@ -408,7 +408,7 @@ export class ServiceMeshUserPermissionTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission alicloud_service_mesh_user_permission}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission alicloud_service_mesh_user_permission}
 */
 export class ServiceMeshUserPermission extends cdktf.TerraformResource {
 
@@ -424,7 +424,7 @@ export class ServiceMeshUserPermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceMeshUserPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceMeshUserPermission to import
-  * @param importFromId The id of the existing ServiceMeshUserPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceMeshUserPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceMeshUserPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -436,7 +436,7 @@ export class ServiceMeshUserPermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_user_permission alicloud_service_mesh_user_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/service_mesh_user_permission alicloud_service_mesh_user_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -447,8 +447,8 @@ export class ServiceMeshUserPermission extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_service_mesh_user_permission',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

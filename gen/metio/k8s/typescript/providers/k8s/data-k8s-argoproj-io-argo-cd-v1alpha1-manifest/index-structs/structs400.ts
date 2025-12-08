@@ -107,13 +107,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#add DataK8SArgoprojIoArgoCdV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#add DataK8SArgoprojIoArgoCdV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#drop DataK8SArgoprojIoArgoCdV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#drop DataK8SArgoprojIoArgoCdV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -238,25 +238,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#level DataK8SArgoprojIoArgoCdV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#level DataK8SArgoprojIoArgoCdV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#role DataK8SArgoprojIoArgoCdV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#role DataK8SArgoprojIoArgoCdV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -439,13 +439,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#localhost_profile DataK8SArgoprojIoArgoCdV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#localhost_profile DataK8SArgoprojIoArgoCdV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -567,25 +567,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gmsa_credential_spec DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gmsa_credential_spec DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gmsa_credential_spec_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gmsa_credential_spec_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host_process DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host_process DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_user_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_user_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -768,67 +768,67 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#allow_privilege_escalation DataK8SArgoprojIoArgoCdV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#allow_privilege_escalation DataK8SArgoprojIoArgoCdV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#capabilities DataK8SArgoprojIoArgoCdV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#capabilities DataK8SArgoprojIoArgoCdV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#privileged DataK8SArgoprojIoArgoCdV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#privileged DataK8SArgoprojIoArgoCdV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#proc_mount DataK8SArgoprojIoArgoCdV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#proc_mount DataK8SArgoprojIoArgoCdV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only_root_filesystem DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only_root_filesystem DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_non_root DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_non_root DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#run_as_user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#se_linux_options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#se_linux_options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#seccomp_profile DataK8SArgoprojIoArgoCdV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#seccomp_profile DataK8SArgoprojIoArgoCdV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#windows_options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#windows_options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersSecurityContextWindowsOptions;
 }
@@ -1214,7 +1214,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#command DataK8SArgoprojIoArgoCdV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#command DataK8SArgoprojIoArgoCdV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1310,13 +1310,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#port DataK8SArgoprojIoArgoCdV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#port DataK8SArgoprojIoArgoCdV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#service DataK8SArgoprojIoArgoCdV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#service DataK8SArgoprojIoArgoCdV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -1438,13 +1438,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#value DataK8SArgoprojIoArgoCdV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#value DataK8SArgoprojIoArgoCdV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1585,31 +1585,31 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#http_headers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#http_headers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#port DataK8SArgoprojIoArgoCdV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#port DataK8SArgoprojIoArgoCdV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#scheme DataK8SArgoprojIoArgoCdV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#scheme DataK8SArgoprojIoArgoCdV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1818,13 +1818,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#port DataK8SArgoprojIoArgoCdV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#port DataK8SArgoprojIoArgoCdV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -1946,61 +1946,61 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#exec DataK8SArgoprojIoArgoCdV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#exec DataK8SArgoprojIoArgoCdV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#failure_threshold DataK8SArgoprojIoArgoCdV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#failure_threshold DataK8SArgoprojIoArgoCdV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#grpc DataK8SArgoprojIoArgoCdV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#grpc DataK8SArgoprojIoArgoCdV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#http_get DataK8SArgoprojIoArgoCdV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#http_get DataK8SArgoprojIoArgoCdV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_delay_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_delay_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#period_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#period_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#success_threshold DataK8SArgoprojIoArgoCdV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#success_threshold DataK8SArgoprojIoArgoCdV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tcp_socket DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tcp_socket DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination_grace_period_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination_grace_period_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#timeout_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#timeout_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2357,13 +2357,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#device_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#device_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2504,37 +2504,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_propagation DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_propagation DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path_expr DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path_expr DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -2791,145 +2791,145 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainer
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#args DataK8SArgoprojIoArgoCdV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#args DataK8SArgoprojIoArgoCdV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#command DataK8SArgoprojIoArgoCdV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#command DataK8SArgoprojIoArgoCdV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env_from DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env_from DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image_pull_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image_pull_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#lifecycle DataK8SArgoprojIoArgoCdV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#lifecycle DataK8SArgoprojIoArgoCdV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#liveness_probe DataK8SArgoprojIoArgoCdV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#liveness_probe DataK8SArgoprojIoArgoCdV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ports DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ports DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#readiness_probe DataK8SArgoprojIoArgoCdV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#readiness_probe DataK8SArgoprojIoArgoCdV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resize_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resize_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#restart_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#restart_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#security_context DataK8SArgoprojIoArgoCdV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#security_context DataK8SArgoprojIoArgoCdV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#startup_probe DataK8SArgoprojIoArgoCdV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#startup_probe DataK8SArgoprojIoArgoCdV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#stdin DataK8SArgoprojIoArgoCdV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#stdin DataK8SArgoprojIoArgoCdV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#stdin_once DataK8SArgoprojIoArgoCdV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#stdin_once DataK8SArgoprojIoArgoCdV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination_message_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination_message_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination_message_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination_message_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tty DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tty DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_devices DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_devices DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_mounts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_mounts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#working_dir DataK8SArgoprojIoArgoCdV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#working_dir DataK8SArgoprojIoArgoCdV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -3711,37 +3711,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_propagation DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mount_propagation DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path_expr DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sub_path_expr DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -3998,25 +3998,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesAwsElasti
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#partition DataK8SArgoprojIoArgoCdV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#partition DataK8SArgoprojIoArgoCdV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -4196,37 +4196,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesAzureDisk
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#caching_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#caching_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#disk_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#disk_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#disk_uri DataK8SArgoprojIoArgoCdV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#disk_uri DataK8SArgoprojIoArgoCdV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -4461,19 +4461,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesAzureFile
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#share_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#share_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -4621,7 +4621,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCephfsSec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4717,37 +4717,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCephfs {
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#monitors DataK8SArgoprojIoArgoCdV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#monitors DataK8SArgoprojIoArgoCdV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_file DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_file DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -4985,7 +4985,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCinderSec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5081,25 +5081,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCinder {
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -5279,19 +5279,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesConfigMap
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -5461,25 +5461,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesConfigMap
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5662,7 +5662,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCsiNodePu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5758,31 +5758,31 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCsi {
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#driver DataK8SArgoprojIoArgoCdV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#driver DataK8SArgoprojIoArgoCdV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#node_publish_secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#node_publish_secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_attributes DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_attributes DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -5991,13 +5991,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardA
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6119,19 +6119,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardA
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#container_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#container_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#divisor DataK8SArgoprojIoArgoCdV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#divisor DataK8SArgoprojIoArgoCdV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6282,25 +6282,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardA
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -6502,13 +6502,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardA
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -6633,13 +6633,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEmptyDir 
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#medium DataK8SArgoprojIoArgoCdV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#medium DataK8SArgoprojIoArgoCdV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#size_limit DataK8SArgoprojIoArgoCdV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#size_limit DataK8SArgoprojIoArgoCdV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -6764,19 +6764,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6924,25 +6924,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#namespace DataK8SArgoprojIoArgoCdV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#namespace DataK8SArgoprojIoArgoCdV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7119,7 +7119,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7234,19 +7234,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplateSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7400,19 +7400,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#operator DataK8SArgoprojIoArgoCdV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#operator DataK8SArgoprojIoArgoCdV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#values DataK8SArgoprojIoArgoCdV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#values DataK8SArgoprojIoArgoCdV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7582,13 +7582,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#match_expressions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#match_expressions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#match_labels DataK8SArgoprojIoArgoCdV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#match_labels DataK8SArgoprojIoArgoCdV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7713,49 +7713,49 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#access_modes DataK8SArgoprojIoArgoCdV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#access_modes DataK8SArgoprojIoArgoCdV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#data_source DataK8SArgoprojIoArgoCdV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#data_source DataK8SArgoprojIoArgoCdV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#data_source_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#data_source_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#selector DataK8SArgoprojIoArgoCdV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#selector DataK8SArgoprojIoArgoCdV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_class_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_class_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -8054,13 +8054,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#metadata DataK8SArgoprojIoArgoCdV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#metadata DataK8SArgoprojIoArgoCdV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#spec DataK8SArgoprojIoArgoCdV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#spec DataK8SArgoprojIoArgoCdV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -8182,7 +8182,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_claim_template DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_claim_template DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeralVolumeClaimTemplate;
 }
@@ -8278,31 +8278,31 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFc {
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#lun DataK8SArgoprojIoArgoCdV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#lun DataK8SArgoprojIoArgoCdV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#target_ww_ns DataK8SArgoprojIoArgoCdV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#target_ww_ns DataK8SArgoprojIoArgoCdV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#wwids DataK8SArgoprojIoArgoCdV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#wwids DataK8SArgoprojIoArgoCdV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -8514,7 +8514,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFlexVolum
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8610,31 +8610,31 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFlexVolum
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#driver DataK8SArgoprojIoArgoCdV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#driver DataK8SArgoprojIoArgoCdV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFlexVolumeSecretRef;
 }
@@ -8843,13 +8843,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFlocker {
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dataset_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dataset_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dataset_uuid DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dataset_uuid DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -8974,25 +8974,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesGcePersis
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#partition DataK8SArgoprojIoArgoCdV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#partition DataK8SArgoprojIoArgoCdV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#pd_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#pd_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9172,19 +9172,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesGitRepo {
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#directory DataK8SArgoprojIoArgoCdV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#directory DataK8SArgoprojIoArgoCdV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#repository DataK8SArgoprojIoArgoCdV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#repository DataK8SArgoprojIoArgoCdV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#revision DataK8SArgoprojIoArgoCdV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#revision DataK8SArgoprojIoArgoCdV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -9335,19 +9335,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesGlusterfs
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#endpoints DataK8SArgoprojIoArgoCdV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#endpoints DataK8SArgoprojIoArgoCdV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9495,13 +9495,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesHostPath 
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -9623,7 +9623,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesIscsiSecr
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9719,67 +9719,67 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesIscsi {
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#chap_auth_discovery DataK8SArgoprojIoArgoCdV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#chap_auth_discovery DataK8SArgoprojIoArgoCdV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#chap_auth_session DataK8SArgoprojIoArgoCdV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#chap_auth_session DataK8SArgoprojIoArgoCdV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initiator_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initiator_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#iqn DataK8SArgoprojIoArgoCdV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#iqn DataK8SArgoprojIoArgoCdV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#iscsi_interface DataK8SArgoprojIoArgoCdV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#iscsi_interface DataK8SArgoprojIoArgoCdV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#lun DataK8SArgoprojIoArgoCdV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#lun DataK8SArgoprojIoArgoCdV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#portals DataK8SArgoprojIoArgoCdV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#portals DataK8SArgoprojIoArgoCdV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#target_portal DataK8SArgoprojIoArgoCdV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#target_portal DataK8SArgoprojIoArgoCdV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -10156,19 +10156,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesNfs {
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#server DataK8SArgoprojIoArgoCdV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#server DataK8SArgoprojIoArgoCdV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -10316,13 +10316,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesPersisten
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claim_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claim_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -10444,13 +10444,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesPhotonPer
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#pd_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#pd_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -10572,19 +10572,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesPortworxV
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -10735,19 +10735,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -10917,19 +10917,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11083,13 +11083,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -11211,19 +11211,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#container_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#container_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#divisor DataK8SArgoprojIoArgoCdV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#divisor DataK8SArgoprojIoArgoCdV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -11374,25 +11374,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -11594,7 +11594,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -11690,19 +11690,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -11872,19 +11872,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12038,19 +12038,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#audience DataK8SArgoprojIoArgoCdV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#audience DataK8SArgoprojIoArgoCdV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#expiration_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#expiration_seconds DataK8SArgoprojIoArgoCdV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -12201,25 +12201,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#downward_api DataK8SArgoprojIoArgoCdV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#downward_api DataK8SArgoprojIoArgoCdV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#service_account_token DataK8SArgoprojIoArgoCdV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#service_account_token DataK8SArgoprojIoArgoCdV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSourcesServiceAccountToken;
 }
@@ -12424,13 +12424,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -12555,37 +12555,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesQuobyte {
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#registry DataK8SArgoprojIoArgoCdV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#registry DataK8SArgoprojIoArgoCdV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tenant DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tenant DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -12820,7 +12820,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesRbdSecret
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12916,49 +12916,49 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesRbd {
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#keyring DataK8SArgoprojIoArgoCdV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#keyring DataK8SArgoprojIoArgoCdV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#monitors DataK8SArgoprojIoArgoCdV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#monitors DataK8SArgoprojIoArgoCdV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#pool DataK8SArgoprojIoArgoCdV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#pool DataK8SArgoprojIoArgoCdV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#user DataK8SArgoprojIoArgoCdV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -13251,7 +13251,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesScaleIoSe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13347,61 +13347,61 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesScaleIo {
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gateway DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gateway DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#protection_domain DataK8SArgoprojIoArgoCdV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#protection_domain DataK8SArgoprojIoArgoCdV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ssl_enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ssl_enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_pool DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_pool DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#system DataK8SArgoprojIoArgoCdV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#system DataK8SArgoprojIoArgoCdV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -13749,19 +13749,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesSecretIte
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -13931,25 +13931,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesSecret {
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_mode DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#items DataK8SArgoprojIoArgoCdV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -14132,7 +14132,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesStorageos
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14228,31 +14228,31 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesStorageos
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#read_only DataK8SArgoprojIoArgoCdV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_namespace DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_namespace DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -14464,25 +14464,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesVsphereVo
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fs_type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_policy_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_policy_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_policy_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storage_policy_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -14662,181 +14662,181 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumes {
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#aws_elastic_block_store DataK8SArgoprojIoArgoCdV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#aws_elastic_block_store DataK8SArgoprojIoArgoCdV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#azure_disk DataK8SArgoprojIoArgoCdV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#azure_disk DataK8SArgoprojIoArgoCdV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#azure_file DataK8SArgoprojIoArgoCdV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#azure_file DataK8SArgoprojIoArgoCdV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#cephfs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#cephfs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#cinder DataK8SArgoprojIoArgoCdV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#cinder DataK8SArgoprojIoArgoCdV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#csi DataK8SArgoprojIoArgoCdV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#csi DataK8SArgoprojIoArgoCdV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#downward_api DataK8SArgoprojIoArgoCdV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#downward_api DataK8SArgoprojIoArgoCdV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#empty_dir DataK8SArgoprojIoArgoCdV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#empty_dir DataK8SArgoprojIoArgoCdV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ephemeral DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ephemeral DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fc DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#fc DataK8SArgoprojIoArgoCdV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#flex_volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#flex_volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#flocker DataK8SArgoprojIoArgoCdV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#flocker DataK8SArgoprojIoArgoCdV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gce_persistent_disk DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#gce_persistent_disk DataK8SArgoprojIoArgoCdV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#git_repo DataK8SArgoprojIoArgoCdV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#git_repo DataK8SArgoprojIoArgoCdV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#glusterfs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#glusterfs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#iscsi DataK8SArgoprojIoArgoCdV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#iscsi DataK8SArgoprojIoArgoCdV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#nfs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#nfs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#persistent_volume_claim DataK8SArgoprojIoArgoCdV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#persistent_volume_claim DataK8SArgoprojIoArgoCdV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#photon_persistent_disk DataK8SArgoprojIoArgoCdV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#photon_persistent_disk DataK8SArgoprojIoArgoCdV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#portworx_volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#portworx_volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#projected DataK8SArgoprojIoArgoCdV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#projected DataK8SArgoprojIoArgoCdV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#quobyte DataK8SArgoprojIoArgoCdV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#quobyte DataK8SArgoprojIoArgoCdV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#rbd DataK8SArgoprojIoArgoCdV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#rbd DataK8SArgoprojIoArgoCdV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#scale_io DataK8SArgoprojIoArgoCdV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#scale_io DataK8SArgoprojIoArgoCdV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storageos DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#storageos DataK8SArgoprojIoArgoCdV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#vsphere_volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#vsphere_volume DataK8SArgoprojIoArgoCdV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumesVsphereVolume;
 }
@@ -15792,103 +15792,103 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepo {
   /**
   * AutoTLS specifies the method to use for automatic TLS configuration for the repo server The value specified here can currently be: - openshift - Use the OpenShift service CA to request TLS config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#autotls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#autotls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#autotls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#autotls}
   */
   readonly autotls?: string;
   /**
   * Env lets you specify environment for repo server pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoEnv[] | cdktf.IResolvable;
   /**
   * ExecTimeout specifies the timeout in seconds for tool execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#exec_timeout DataK8SArgoprojIoArgoCdV1Alpha1Manifest#exec_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#exec_timeout DataK8SArgoprojIoArgoCdV1Alpha1Manifest#exec_timeout}
   */
   readonly execTimeout?: number;
   /**
   * Extra Command arguments allows users to pass command line arguments to repo server workload. They get added to default command line arguments provided by the operator. Please note that the command line arguments provided as part of ExtraRepoCommandArgs will not overwrite the default command line arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#extra_repo_command_args DataK8SArgoprojIoArgoCdV1Alpha1Manifest#extra_repo_command_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#extra_repo_command_args DataK8SArgoprojIoArgoCdV1Alpha1Manifest#extra_repo_command_args}
   */
   readonly extraRepoCommandArgs?: string[];
   /**
   * Image is the ArgoCD Repo Server container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * InitContainers defines the list of initialization containers for the repo server deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#init_containers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#init_containers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoInitContainers[] | cdktf.IResolvable;
   /**
   * LogFormat describes the log format that should be used by the Repo Server. Defaults to ArgoCDDefaultLogFormat if not configured. Valid options are text or json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_format DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_format DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_format}
   */
   readonly logFormat?: string;
   /**
   * LogLevel describes the log level that should be used by the Repo Server. Defaults to ArgoCDDefaultLogLevel if not set. Valid options are debug, info, error, and warn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_level DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_level DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * MountSAToken describes whether you would like to have the Repo server mount the service account token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mountsatoken DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mountsatoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#mountsatoken DataK8SArgoprojIoArgoCdV1Alpha1Manifest#mountsatoken}
   */
   readonly mountsatoken?: boolean | cdktf.IResolvable;
   /**
   * Replicas defines the number of replicas for argocd-repo-server. Value should be greater than or equal to 0. Default is nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines the Compute Resources required by the container for Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoResources;
   /**
   * ServiceAccount defines the ServiceAccount user that you would like the Repo server to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#serviceaccount DataK8SArgoprojIoArgoCdV1Alpha1Manifest#serviceaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#serviceaccount DataK8SArgoprojIoArgoCdV1Alpha1Manifest#serviceaccount}
   */
   readonly serviceaccount?: string;
   /**
   * SidecarContainers defines the list of sidecar containers for the repo server deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sidecar_containers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sidecar_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sidecar_containers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sidecar_containers}
   */
   readonly sidecarContainers?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoSidecarContainers[] | cdktf.IResolvable;
   /**
   * VerifyTLS defines whether repo server API should be accessed using strict TLS validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#verifytls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#verifytls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#verifytls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#verifytls}
   */
   readonly verifytls?: boolean | cdktf.IResolvable;
   /**
   * Version is the ArgoCD Repo Server container image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
   * VolumeMounts adds volumeMounts to the repo server container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_mounts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volume_mounts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumeMounts[] | cdktf.IResolvable;
   /**
   * Volumes adds volumes to the repo server deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volumes DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#volumes DataK8SArgoprojIoArgoCdV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoVolumes[] | cdktf.IResolvable;
 }
@@ -16446,15 +16446,15 @@ export class DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepoOutputReference exte
 }
 export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#action DataK8SArgoprojIoArgoCdV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#action DataK8SArgoprojIoArgoCdV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
 }
@@ -16628,15 +16628,15 @@ export class DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceActionsList exte
 }
 export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceHealthChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#check DataK8SArgoprojIoArgoCdV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#check DataK8SArgoprojIoArgoCdV1Alpha1Manifest#check}
   */
   readonly check?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
 }
@@ -16810,15 +16810,15 @@ export class DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceHealthChecksList
 }
 export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferencesAll {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#json_pointers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#json_pointers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
 }
@@ -16970,15 +16970,15 @@ export class DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifference
 }
 export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferencesResourceIdentifiersCustomization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#jq_path_expressions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#json_pointers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#json_pointers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#managed_fields_managers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
 }
@@ -17130,15 +17130,15 @@ export class DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifference
 }
 export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferencesResourceIdentifiers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#customization DataK8SArgoprojIoArgoCdV1Alpha1Manifest#customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#customization DataK8SArgoprojIoArgoCdV1Alpha1Manifest#customization}
   */
   readonly customization?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferencesResourceIdentifiersCustomization;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#group DataK8SArgoprojIoArgoCdV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
 }
@@ -17312,11 +17312,11 @@ export class DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifference
 }
 export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#all DataK8SArgoprojIoArgoCdV1Alpha1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#all DataK8SArgoprojIoArgoCdV1Alpha1Manifest#all}
   */
   readonly all?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferencesAll;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_identifiers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_identifiers DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_identifiers}
   */
   readonly resourceIdentifiers?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferencesResourceIdentifiers[] | cdktf.IResolvable;
 }
@@ -17441,19 +17441,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerAutoscaleHpaSc
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -17601,25 +17601,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerAutoscaleHpa {
   /**
   * maxReplicas is the upper limit for the number of pods that can be set by the autoscaler; cannot be smaller than MinReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#max_replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#max_replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod. minReplicas is allowed to be 0 if the alpha feature gate HPAScaleToZero is enabled and at least one Object or External metric is configured. Scaling is active as long as at least one metric value is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#min_replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#min_replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * reference to scaled resource; horizontal pod autoscaler will learn the current resource consumption and will set the desired number of pods by using its Scale subresource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#scale_target_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#scale_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#scale_target_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#scale_target_ref}
   */
   readonly scaleTargetRef: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerAutoscaleHpaScaleTargetRef;
   /**
   * targetCPUUtilizationPercentage is the target average CPU utilization (represented as a percentage of requested CPU) over all the pods; if not specified the default autoscaling policy will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#target_cpu_utilization_percentage DataK8SArgoprojIoArgoCdV1Alpha1Manifest#target_cpu_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#target_cpu_utilization_percentage DataK8SArgoprojIoArgoCdV1Alpha1Manifest#target_cpu_utilization_percentage}
   */
   readonly targetCpuUtilizationPercentage?: number;
 }
@@ -17796,13 +17796,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerAutoscale {
   /**
   * Enabled will toggle autoscaling support for the Argo CD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * HPA defines the HorizontalPodAutoscaler options for the Argo CD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#hpa DataK8SArgoprojIoArgoCdV1Alpha1Manifest#hpa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#hpa DataK8SArgoprojIoArgoCdV1Alpha1Manifest#hpa}
   */
   readonly hpa?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerAutoscaleHpa;
 }
@@ -17924,19 +17924,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromCo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18087,13 +18087,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromFi
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#api_version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -18215,19 +18215,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromRe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#container_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#container_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#divisor DataK8SArgoprojIoArgoCdV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#divisor DataK8SArgoprojIoArgoCdV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -18378,19 +18378,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#optional DataK8SArgoprojIoArgoCdV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18541,25 +18541,25 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFrom {
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map_key_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map_key_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_field_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_key_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_key_ref DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFromSecretKeyRef;
 }
@@ -18742,19 +18742,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#value DataK8SArgoprojIoArgoCdV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#value DataK8SArgoprojIoArgoCdV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#value_from DataK8SArgoprojIoArgoCdV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#value_from DataK8SArgoprojIoArgoCdV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnvValueFrom;
 }
@@ -18927,13 +18927,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerGrpcIngressTls
   /**
   * hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#hosts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#hosts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * secretName is the name of the secret used to terminate TLS traffic on port 443. Field is left optional to allow TLS routing based on SNI hostname alone. If the SNI host in a listener conflicts with the 'Host' header field used by an IngressRule, the SNI host is used for termination and value of the 'Host' header is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -19080,31 +19080,31 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerGrpcIngress {
   /**
   * Annotations is the map of annotations to apply to the Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Enabled will toggle the creation of the Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * IngressClassName for the Ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress_class_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress_class_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Path used for the Ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerGrpcIngressTls[] | cdktf.IResolvable;
 }
@@ -19313,13 +19313,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerGrpc {
   /**
   * Host is the hostname to use for Ingress/Route resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Ingress defines the desired state for the Argo CD Server GRPC Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerGrpcIngress;
 }
@@ -19444,13 +19444,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerIngressTls {
   /**
   * hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#hosts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#hosts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * secretName is the name of the secret used to terminate TLS traffic on port 443. Field is left optional to allow TLS routing based on SNI hostname alone. If the SNI host in a listener conflicts with the 'Host' header field used by an IngressRule, the SNI host is used for termination and value of the 'Host' header is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -19597,31 +19597,31 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerIngress {
   /**
   * Annotations is the map of annotations to apply to the Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Enabled will toggle the creation of the Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * IngressClassName for the Ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress_class_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress_class_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Path used for the Ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerIngressTls[] | cdktf.IResolvable;
 }
@@ -19830,7 +19830,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerResourcesClaim
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -19945,19 +19945,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -20111,7 +20111,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerRouteTlsExtern
   /**
   * name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -20207,43 +20207,43 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerRouteTls {
   /**
   * caCertificate provides the cert authority certificate contents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ca_certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ca_certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * certificate provides certificate contents. This should be a single serving certificate, not a certificate chain. Do not include a CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * destinationCACertificate provides the contents of the ca certificate of the final destination. When using reencrypt termination this file should be provided in order to have routers use it for health checks on the secure connection. If this field is not specified, the router may provide its own destination CA and perform hostname validation using the short service name (service.namespace.svc), which allows infrastructure generated certificates to automatically verify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#destination_ca_certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#destination_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#destination_ca_certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#destination_ca_certificate}
   */
   readonly destinationCaCertificate?: string;
   /**
   * externalCertificate provides certificate contents as a secret reference. This should be a single serving certificate, not a certificate chain. Do not include a CA certificate. The secret referenced should be present in the same namespace as that of the Route. Forbidden when 'certificate' is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#external_certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#external_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#external_certificate DataK8SArgoprojIoArgoCdV1Alpha1Manifest#external_certificate}
   */
   readonly externalCertificate?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerRouteTlsExternalCertificate;
   /**
   * insecureEdgeTerminationPolicy indicates the desired behavior for insecure connections to a route. While each router may make its own decisions on which ports to expose, this is normally port 80. * Allow - traffic is sent to the server on the insecure port (edge/reencrypt terminations only) (default). * None - no traffic is allowed on the insecure port. * Redirect - clients are redirected to the secure port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#insecure_edge_termination_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#insecure_edge_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#insecure_edge_termination_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#insecure_edge_termination_policy}
   */
   readonly insecureEdgeTerminationPolicy?: string;
   /**
   * key provides key file contents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * termination indicates termination type. * edge - TLS termination is done by the router and http is used to communicate with the backend (default) * passthrough - Traffic is sent straight to the destination without the router providing TLS termination * reencrypt - TLS termination is done by the router and https is used to communicate with the backend Note: passthrough termination is incompatible with httpHeader actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#termination DataK8SArgoprojIoArgoCdV1Alpha1Manifest#termination}
   */
   readonly termination: string;
 }
@@ -20510,37 +20510,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerRoute {
   /**
   * Annotations is the map of annotations to use for the Route resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Enabled will toggle the creation of the OpenShift Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Labels is the map of labels to use for the Route resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#labels DataK8SArgoprojIoArgoCdV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#labels DataK8SArgoprojIoArgoCdV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Path the router watches for, to route traffic for to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#path DataK8SArgoprojIoArgoCdV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * TLS provides the ability to configure certificates and termination for the Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerRouteTls;
   /**
   * WildcardPolicy if any for the route. Currently only 'Subdomain' or 'None' is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#wildcard_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#wildcard_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#wildcard_policy DataK8SArgoprojIoArgoCdV1Alpha1Manifest#wildcard_policy}
   */
   readonly wildcardPolicy?: string;
 }
@@ -20778,7 +20778,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerService {
   /**
   * Type is the ServiceType to use for the Service resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#type DataK8SArgoprojIoArgoCdV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -20871,85 +20871,85 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServer {
   /**
   * Autoscale defines the autoscale options for the Argo CD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#autoscale DataK8SArgoprojIoArgoCdV1Alpha1Manifest#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#autoscale DataK8SArgoprojIoArgoCdV1Alpha1Manifest#autoscale}
   */
   readonly autoscale?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerAutoscale;
   /**
   * EnableRolloutsUI will add the Argo Rollouts UI extension in ArgoCD Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enable_rollouts_ui DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enable_rollouts_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#enable_rollouts_ui DataK8SArgoprojIoArgoCdV1Alpha1Manifest#enable_rollouts_ui}
   */
   readonly enableRolloutsUi?: boolean | cdktf.IResolvable;
   /**
   * Env lets you specify environment for API server pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#env DataK8SArgoprojIoArgoCdV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerEnv[] | cdktf.IResolvable;
   /**
   * Extra Command arguments that would append to the Argo CD server command. ExtraCommandArgs will not be added, if one of these commands is already part of the server command with same or different value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#extra_command_args DataK8SArgoprojIoArgoCdV1Alpha1Manifest#extra_command_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#extra_command_args DataK8SArgoprojIoArgoCdV1Alpha1Manifest#extra_command_args}
   */
   readonly extraCommandArgs?: string[];
   /**
   * GRPC defines the state for the Argo CD Server GRPC options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#grpc DataK8SArgoprojIoArgoCdV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#grpc DataK8SArgoprojIoArgoCdV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerGrpc;
   /**
   * Host is the hostname to use for Ingress/Route resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Ingress defines the desired state for an Ingress for the Argo CD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ingress DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerIngress;
   /**
   * Insecure toggles the insecure flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#insecure DataK8SArgoprojIoArgoCdV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#insecure DataK8SArgoprojIoArgoCdV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * LogFormat refers to the log level to be used by the ArgoCD Server component. Defaults to ArgoCDDefaultLogFormat if not configured. Valid options are text or json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_format DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_format DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_format}
   */
   readonly logFormat?: string;
   /**
   * LogLevel refers to the log level to be used by the ArgoCD Server component. Defaults to ArgoCDDefaultLogLevel if not set. Valid options are debug, info, error, and warn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_level DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#log_level DataK8SArgoprojIoArgoCdV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Replicas defines the number of replicas for argocd-server. Default is nil. Value should be greater than or equal to 0. Value will be ignored if Autoscaler is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#replicas DataK8SArgoprojIoArgoCdV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines the Compute Resources required by the container for the Argo CD server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerResources;
   /**
   * Route defines the desired state for an OpenShift Route for the Argo CD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#route DataK8SArgoprojIoArgoCdV1Alpha1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#route DataK8SArgoprojIoArgoCdV1Alpha1Manifest#route}
   */
   readonly route?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerRoute;
   /**
   * Service defines the options for the Service backing the ArgoCD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#service DataK8SArgoprojIoArgoCdV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#service DataK8SArgoprojIoArgoCdV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServerService;
 }
@@ -21422,7 +21422,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoDexResourcesClaim
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -21537,19 +21537,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoDexResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoDexResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -21703,37 +21703,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoDex {
   /**
   * Config is the dex connector configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config}
   */
   readonly config?: string;
   /**
   * Optional list of required groups a user must be a member of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#groups DataK8SArgoprojIoArgoCdV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#groups DataK8SArgoprojIoArgoCdV1Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * Image is the Dex container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * OpenShiftOAuth enables OpenShift OAuth authentication for the Dex server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#open_shift_o_auth DataK8SArgoprojIoArgoCdV1Alpha1Manifest#open_shift_o_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#open_shift_o_auth DataK8SArgoprojIoArgoCdV1Alpha1Manifest#open_shift_o_auth}
   */
   readonly openShiftOAuth?: boolean | cdktf.IResolvable;
   /**
   * Resources defines the Compute Resources required by the container for Dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoDexResources;
   /**
   * Version is the Dex container image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -21974,7 +21974,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoKeycloakResources
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -22089,19 +22089,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoKeycloakResources
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoKeycloakResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -22255,37 +22255,37 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoKeycloak {
   /**
   * Host is the hostname to use for Ingress/Route resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#host DataK8SArgoprojIoArgoCdV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Image is the Keycloak container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources defines the Compute Resources required by the container for Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoKeycloakResources;
   /**
   * Custom root CA certificate for communicating with the Keycloak OIDC provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#root_ca DataK8SArgoprojIoArgoCdV1Alpha1Manifest#root_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#root_ca DataK8SArgoprojIoArgoCdV1Alpha1Manifest#root_ca}
   */
   readonly rootCa?: string;
   /**
   * VerifyTLS set to false disables strict TLS validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#verify_tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#verify_tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
   /**
   * Version is the Keycloak container image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -22526,7 +22526,7 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -22641,19 +22641,19 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -22807,43 +22807,43 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSso {
   /**
   * Dex contains the configuration for Argo CD dex authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dex DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dex DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dex}
   */
   readonly dex?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoDex;
   /**
   * Deprecated field. Support dropped in v1beta1 version. Image is the SSO container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Keycloak contains the configuration for Argo CD keycloak authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#keycloak DataK8SArgoprojIoArgoCdV1Alpha1Manifest#keycloak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#keycloak DataK8SArgoprojIoArgoCdV1Alpha1Manifest#keycloak}
   */
   readonly keycloak?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoKeycloak;
   /**
   * Provider installs and configures the given SSO Provider with Argo CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#provider DataK8SArgoprojIoArgoCdV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#provider DataK8SArgoprojIoArgoCdV1Alpha1Manifest#provider}
   */
   readonly provider?: string;
   /**
   * Deprecated field. Support dropped in v1beta1 version. Resources defines the Compute Resources required by the container for SSO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSsoResources;
   /**
   * Deprecated field. Support dropped in v1beta1 version. VerifyTLS set to false disables strict TLS validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#verify_tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#verify_tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
   /**
   * Deprecated field. Support dropped in v1beta1 version. Version is the SSO container image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -23113,13 +23113,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecTlsCa {
   /**
   * ConfigMapName is the name of the ConfigMap containing the CA Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_map_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * SecretName is the name of the Secret containing the CA Certificate and Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -23244,13 +23244,13 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecTls {
   /**
   * CA defines the CA options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ca DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ca DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecTlsCa;
   /**
   * InitialCerts defines custom TLS certificates upon creation of the cluster for connecting Git repositories via HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_certs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_certs DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_certs}
   */
   readonly initialCerts?: { [key: string]: string };
 }
@@ -23375,271 +23375,271 @@ export interface DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpec {
   /**
   * AggregatedClusterRoles will allow users to have aggregated ClusterRoles for a cluster scoped instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#aggregated_cluster_roles DataK8SArgoprojIoArgoCdV1Alpha1Manifest#aggregated_cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#aggregated_cluster_roles DataK8SArgoprojIoArgoCdV1Alpha1Manifest#aggregated_cluster_roles}
   */
   readonly aggregatedClusterRoles?: boolean | cdktf.IResolvable;
   /**
   * ApplicationInstanceLabelKey is the key name where Argo CD injects the app name as a tracking label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#application_instance_label_key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#application_instance_label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#application_instance_label_key DataK8SArgoprojIoArgoCdV1Alpha1Manifest#application_instance_label_key}
   */
   readonly applicationInstanceLabelKey?: string;
   /**
   * ArgoCDApplicationSet defines whether the Argo CD ApplicationSet controller should be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#application_set DataK8SArgoprojIoArgoCdV1Alpha1Manifest#application_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#application_set DataK8SArgoprojIoArgoCdV1Alpha1Manifest#application_set}
   */
   readonly applicationSet?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecApplicationSet;
   /**
   * Banner defines an additional banner to be displayed in Argo CD UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#banner DataK8SArgoprojIoArgoCdV1Alpha1Manifest#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#banner DataK8SArgoprojIoArgoCdV1Alpha1Manifest#banner}
   */
   readonly banner?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecBanner;
   /**
   * ConfigManagementPlugins is used to specify additional config management plugins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_management_plugins DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_management_plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#config_management_plugins DataK8SArgoprojIoArgoCdV1Alpha1Manifest#config_management_plugins}
   */
   readonly configManagementPlugins?: string;
   /**
   * Controller defines the Application Controller options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#controller DataK8SArgoprojIoArgoCdV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#controller DataK8SArgoprojIoArgoCdV1Alpha1Manifest#controller}
   */
   readonly controller?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecController;
   /**
   * DefaultClusterScopedRoleDisabled will disable creation of default ClusterRoles for a cluster scoped instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_cluster_scoped_role_disabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_cluster_scoped_role_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#default_cluster_scoped_role_disabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#default_cluster_scoped_role_disabled}
   */
   readonly defaultClusterScopedRoleDisabled?: boolean | cdktf.IResolvable;
   /**
   * Deprecated field. Support dropped in v1beta1 version. Dex defines the Dex server options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dex DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#dex DataK8SArgoprojIoArgoCdV1Alpha1Manifest#dex}
   */
   readonly dex?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecDex;
   /**
   * DisableAdmin will disable the admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#disable_admin DataK8SArgoprojIoArgoCdV1Alpha1Manifest#disable_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#disable_admin DataK8SArgoprojIoArgoCdV1Alpha1Manifest#disable_admin}
   */
   readonly disableAdmin?: boolean | cdktf.IResolvable;
   /**
   * ExtraConfig can be used to add fields to Argo CD configmap that are not supported by Argo CD CRD. Note: ExtraConfig takes precedence over Argo CD CRD. For example, A user sets 'argocd.Spec.DisableAdmin' = true and also 'a.Spec.ExtraConfig['admin.enabled']' = true. In this case, operator updates Argo CD Configmap as follows -> argocd-cm.Data['admin.enabled'] = true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#extra_config DataK8SArgoprojIoArgoCdV1Alpha1Manifest#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#extra_config DataK8SArgoprojIoArgoCdV1Alpha1Manifest#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
   * GAAnonymizeUsers toggles user IDs being hashed before sending to google analytics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ga_anonymize_users DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ga_anonymize_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ga_anonymize_users DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ga_anonymize_users}
   */
   readonly gaAnonymizeUsers?: boolean | cdktf.IResolvable;
   /**
   * GATrackingID is the google analytics tracking ID to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ga_tracking_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ga_tracking_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ga_tracking_id DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ga_tracking_id}
   */
   readonly gaTrackingId?: string;
   /**
   * Deprecated: Grafana defines the Grafana server options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#grafana DataK8SArgoprojIoArgoCdV1Alpha1Manifest#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#grafana DataK8SArgoprojIoArgoCdV1Alpha1Manifest#grafana}
   */
   readonly grafana?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecGrafana;
   /**
   * HA options for High Availability support for the Redis component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ha DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#ha DataK8SArgoprojIoArgoCdV1Alpha1Manifest#ha}
   */
   readonly ha?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecHa;
   /**
   * HelpChatText is the text for getting chat help, defaults to 'Chat now!'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#help_chat_text DataK8SArgoprojIoArgoCdV1Alpha1Manifest#help_chat_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#help_chat_text DataK8SArgoprojIoArgoCdV1Alpha1Manifest#help_chat_text}
   */
   readonly helpChatText?: string;
   /**
   * HelpChatURL is the URL for getting chat help, this will typically be your Slack channel for support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#help_chat_url DataK8SArgoprojIoArgoCdV1Alpha1Manifest#help_chat_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#help_chat_url DataK8SArgoprojIoArgoCdV1Alpha1Manifest#help_chat_url}
   */
   readonly helpChatUrl?: string;
   /**
   * Image is the ArgoCD container image for all ArgoCD components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Import is the import/restore options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#import DataK8SArgoprojIoArgoCdV1Alpha1Manifest#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#import DataK8SArgoprojIoArgoCdV1Alpha1Manifest#import}
   */
   readonly import?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecImport;
   /**
   * InitialRepositories to configure Argo CD with upon creation of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_repositories DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_repositories DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_repositories}
   */
   readonly initialRepositories?: string;
   /**
   * InitialSSHKnownHosts defines the SSH known hosts data upon creation of the cluster for connecting Git repositories via SSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_ssh_known_hosts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_ssh_known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#initial_ssh_known_hosts DataK8SArgoprojIoArgoCdV1Alpha1Manifest#initial_ssh_known_hosts}
   */
   readonly initialSshKnownHosts?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecInitialSshKnownHosts;
   /**
   * KustomizeBuildOptions is used to specify build options/parameters to use with 'kustomize build'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kustomize_build_options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kustomize_build_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kustomize_build_options DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kustomize_build_options}
   */
   readonly kustomizeBuildOptions?: string;
   /**
   * KustomizeVersions is a listing of configured versions of Kustomize to be made available within ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kustomize_versions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kustomize_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#kustomize_versions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#kustomize_versions}
   */
   readonly kustomizeVersions?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecKustomizeVersions[] | cdktf.IResolvable;
   /**
   * Monitoring defines whether workload status monitoring configuration for this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#monitoring DataK8SArgoprojIoArgoCdV1Alpha1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#monitoring DataK8SArgoprojIoArgoCdV1Alpha1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecMonitoring;
   /**
   * NodePlacement defines NodeSelectors and Taints for Argo CD workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#node_placement DataK8SArgoprojIoArgoCdV1Alpha1Manifest#node_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#node_placement DataK8SArgoprojIoArgoCdV1Alpha1Manifest#node_placement}
   */
   readonly nodePlacement?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecNodePlacement;
   /**
   * Notifications defines whether the Argo CD Notifications controller should be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#notifications DataK8SArgoprojIoArgoCdV1Alpha1Manifest#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#notifications DataK8SArgoprojIoArgoCdV1Alpha1Manifest#notifications}
   */
   readonly notifications?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecNotifications;
   /**
   * OIDCConfig is the OIDC configuration as an alternative to dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#oidc_config DataK8SArgoprojIoArgoCdV1Alpha1Manifest#oidc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#oidc_config DataK8SArgoprojIoArgoCdV1Alpha1Manifest#oidc_config}
   */
   readonly oidcConfig?: string;
   /**
   * Prometheus defines the Prometheus server options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#prometheus DataK8SArgoprojIoArgoCdV1Alpha1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#prometheus DataK8SArgoprojIoArgoCdV1Alpha1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecPrometheus;
   /**
   * RBAC defines the RBAC configuration for Argo CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#rbac DataK8SArgoprojIoArgoCdV1Alpha1Manifest#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#rbac DataK8SArgoprojIoArgoCdV1Alpha1Manifest#rbac}
   */
   readonly rbac?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRbac;
   /**
   * Redis defines the Redis server options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#redis DataK8SArgoprojIoArgoCdV1Alpha1Manifest#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#redis DataK8SArgoprojIoArgoCdV1Alpha1Manifest#redis}
   */
   readonly redis?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRedis;
   /**
   * Repo defines the repo server options for Argo CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#repo DataK8SArgoprojIoArgoCdV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#repo DataK8SArgoprojIoArgoCdV1Alpha1Manifest#repo}
   */
   readonly repo?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecRepo;
   /**
   * RepositoryCredentials are the Git pull credentials to configure Argo CD with upon creation of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#repository_credentials DataK8SArgoprojIoArgoCdV1Alpha1Manifest#repository_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#repository_credentials DataK8SArgoprojIoArgoCdV1Alpha1Manifest#repository_credentials}
   */
   readonly repositoryCredentials?: string;
   /**
   * ResourceActions customizes resource action behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_actions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_actions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_actions}
   */
   readonly resourceActions?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceActions[] | cdktf.IResolvable;
   /**
   * Deprecated field. Support dropped in v1beta1 version. ResourceCustomizations customizes resource behavior. Keys are in the form: group/Kind. Please note that this is being deprecated in favor of ResourceHealthChecks, ResourceIgnoreDifferences, and ResourceActions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_customizations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_customizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_customizations DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_customizations}
   */
   readonly resourceCustomizations?: string;
   /**
   * ResourceExclusions is used to completely ignore entire classes of resource group/kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_exclusions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_exclusions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_exclusions}
   */
   readonly resourceExclusions?: string;
   /**
   * ResourceHealthChecks customizes resource health check behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_health_checks DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_health_checks DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_health_checks}
   */
   readonly resourceHealthChecks?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceHealthChecks[] | cdktf.IResolvable;
   /**
   * ResourceIgnoreDifferences customizes resource ignore difference behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_ignore_differences DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_ignore_differences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_ignore_differences DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_ignore_differences}
   */
   readonly resourceIgnoreDifferences?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecResourceIgnoreDifferences;
   /**
   * ResourceInclusions is used to only include specific group/kinds in the reconciliation process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_inclusions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_inclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_inclusions DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_inclusions}
   */
   readonly resourceInclusions?: string;
   /**
   * ResourceTrackingMethod defines how Argo CD should track resources that it manages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_tracking_method DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_tracking_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#resource_tracking_method DataK8SArgoprojIoArgoCdV1Alpha1Manifest#resource_tracking_method}
   */
   readonly resourceTrackingMethod?: string;
   /**
   * Server defines the options for the ArgoCD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#server DataK8SArgoprojIoArgoCdV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#server DataK8SArgoprojIoArgoCdV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecServer;
   /**
   * SourceNamespaces defines the namespaces application resources are allowed to be created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#source_namespaces DataK8SArgoprojIoArgoCdV1Alpha1Manifest#source_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#source_namespaces DataK8SArgoprojIoArgoCdV1Alpha1Manifest#source_namespaces}
   */
   readonly sourceNamespaces?: string[];
   /**
   * SSO defines the Single Sign-on configuration for Argo CD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sso DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#sso DataK8SArgoprojIoArgoCdV1Alpha1Manifest#sso}
   */
   readonly sso?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecSso;
   /**
   * StatusBadgeEnabled toggles application status badge feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#status_badge_enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#status_badge_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#status_badge_enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#status_badge_enabled}
   */
   readonly statusBadgeEnabled?: boolean | cdktf.IResolvable;
   /**
   * TLS defines the TLS options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#tls DataK8SArgoprojIoArgoCdV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SArgoprojIoArgoCdV1Alpha1ManifestSpecTls;
   /**
   * UsersAnonymousEnabled toggles anonymous user access. The anonymous users get default role permissions specified argocd-rbac-cm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#users_anonymous_enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#users_anonymous_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#users_anonymous_enabled DataK8SArgoprojIoArgoCdV1Alpha1Manifest#users_anonymous_enabled}
   */
   readonly usersAnonymousEnabled?: boolean | cdktf.IResolvable;
   /**
   * Version is the tag to use with the ArgoCD container image for all ArgoCD components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/argoproj_io_argo_cd_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }

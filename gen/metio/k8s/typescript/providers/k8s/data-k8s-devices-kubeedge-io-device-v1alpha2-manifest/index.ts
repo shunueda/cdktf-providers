@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestMetadata;
   /**
   * DeviceSpec represents a single device instance. It is an instantation of a device model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#spec DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#spec DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#annotations DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#annotations DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#labels DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#labels DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#namespace DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#namespace DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecDataDataPrope
   /**
   * Additional metadata like timestamp when the value was reported etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Required: The property name for which should be processed by external apps. This property should be present in the device model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#property_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#property_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#property_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#property_name}
   */
   readonly propertyName?: string;
 }
@@ -372,13 +372,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecData {
   /**
   * Required: A list of data properties, which are not required to be processed by edgecore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_properties DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_properties DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_properties}
   */
   readonly dataProperties?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecDataDataProperties[] | cdktf.IResolvable;
   /**
   * Topic used by mapper, all data collected from dataProperties should be published to this topic, the default value is $ke/events/device/+/data/update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_topic DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_topic DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_topic}
   */
   readonly dataTopic?: string;
 }
@@ -503,7 +503,7 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecDeviceModelRe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -599,19 +599,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelectorN
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#key DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#key DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operator DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operator DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -781,19 +781,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelectorN
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#key DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#key DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operator DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operator DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -963,13 +963,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelectorN
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#match_expressions DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#match_expressions DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelectorNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#match_fields DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#match_fields DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelectorNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1116,7 +1116,7 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelector 
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#node_selector_terms DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#node_selector_terms DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelectorNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1209,13 +1209,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisit
   /**
   * Required: Specifies the operation to be performed to convert incoming data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operation_type DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operation_type DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operation_type}
   */
   readonly operationType?: string;
   /**
   * Required: Specifies with what value the operation is to be performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operation_value DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operation_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#operation_value DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#operation_value}
   */
   readonly operationValue?: number;
 }
@@ -1362,31 +1362,31 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisit
   /**
   * Required: Specifies the end index of incoming byte stream to be considered to convert the data the value specified should be inclusive for example if 3 is specified it includes the third index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#end_index DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#end_index DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#end_index}
   */
   readonly endIndex?: number;
   /**
   * Specifies in what order the operations(which are required to be performed to convert incoming data into understandable form) are performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#order_of_operations DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#order_of_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#order_of_operations DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#order_of_operations}
   */
   readonly orderOfOperations?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisitorsBluetoothDataConverterOrderOfOperations[] | cdktf.IResolvable;
   /**
   * Refers to the number of bits to shift left, if left-shift operation is necessary for conversion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#shift_left DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#shift_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#shift_left DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#shift_left}
   */
   readonly shiftLeft?: number;
   /**
   * Refers to the number of bits to shift right, if right-shift operation is necessary for conversion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#shift_right DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#shift_right}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#shift_right DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#shift_right}
   */
   readonly shiftRight?: number;
   /**
   * Required: Specifies the start index of the incoming byte stream to be considered to convert the data. For example: start-index:2, end-index:3 concatenates the value present at second and third index of the incoming byte stream. If we want to reverse the order we can give it as start-index:3, end-index:2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#start_index DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#start_index DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#start_index}
   */
   readonly startIndex?: number;
 }
@@ -1598,19 +1598,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisit
   /**
   * Required: Unique ID of the corresponding operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#characteristic_uuid DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#characteristic_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#characteristic_uuid DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#characteristic_uuid}
   */
   readonly characteristicUuid?: string;
   /**
   * Responsible for converting the data being read from the bluetooth device into a form that is understandable by the platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_converter DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_converter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_converter DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_converter}
   */
   readonly dataConverter?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisitorsBluetoothDataConverter;
   /**
   * Responsible for converting the data coming from the platform into a form that is understood by the bluetooth device For example: 'ON':[1], 'OFF':[0]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_write DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_write DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_write}
   */
   readonly dataWrite?: { [key: string]: string };
 }
@@ -1764,13 +1764,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisit
   /**
   * Required: The configData of customized protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#config_data}
   */
   readonly configData?: { [key: string]: string };
   /**
   * Required: name of customized protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#protocol_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#protocol_name}
   */
   readonly protocolName?: string;
 }
@@ -1895,37 +1895,37 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisit
   /**
   * Indicates whether the high and low register swapped. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#is_register_swap DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#is_register_swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#is_register_swap DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#is_register_swap}
   */
   readonly isRegisterSwap?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the high and low byte swapped. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#is_swap DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#is_swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#is_swap DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#is_swap}
   */
   readonly isSwap?: boolean | cdktf.IResolvable;
   /**
   * Required: Limit number of registers to read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#limit DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#limit DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#limit}
   */
   readonly limit?: number;
   /**
   * Required: Offset indicates the starting register number to read/write data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#offset DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#offset DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#offset}
   */
   readonly offset?: number;
   /**
   * Required: Type of register
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#register DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#register DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#register}
   */
   readonly register?: string;
   /**
   * The scale to convert raw property data into final units. Defaults to 1.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#scale DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#scale DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#scale}
   */
   readonly scale?: number;
 }
@@ -2166,13 +2166,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisit
   /**
   * The name of opc-ua node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#browse_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#browse_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#browse_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#browse_name}
   */
   readonly browseName?: string;
   /**
   * Required: The ID of opc-ua node, e.g. 'ns=1,i=1005'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#node_id DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#node_id DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#node_id}
   */
   readonly nodeId?: string;
 }
@@ -2297,49 +2297,49 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisit
   /**
   * Bluetooth represents a set of additional visitor config fields of bluetooth protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#bluetooth DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#bluetooth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#bluetooth DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#bluetooth}
   */
   readonly bluetooth?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisitorsBluetooth;
   /**
   * Define how frequent mapper will collect from device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_cycle DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_cycle DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_cycle}
   */
   readonly collectCycle?: number;
   /**
   * CustomizedProtocol represents a set of visitor config fields of bluetooth protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_protocol DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_protocol DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_protocol}
   */
   readonly customizedProtocol?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisitorsCustomizedProtocol;
   /**
   * Customized values for visitor of provided protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_values}
   */
   readonly customizedValues?: { [key: string]: string };
   /**
   * Modbus represents a set of additional visitor config fields of modbus protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#modbus DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#modbus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#modbus DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#modbus}
   */
   readonly modbus?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisitorsModbus;
   /**
   * Opcua represents a set of additional visitor config fields of opc-ua protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#opcua DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#opcua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#opcua DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#opcua}
   */
   readonly opcua?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisitorsOpcua;
   /**
   * Required: The device property name to be accessed. This should refer to one of the device properties defined in the device model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#property_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#property_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#property_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#property_name}
   */
   readonly propertyName?: string;
   /**
   * Define how frequent mapper will report the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#report_cycle DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#report_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#report_cycle DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#report_cycle}
   */
   readonly reportCycle?: number;
 }
@@ -2660,7 +2660,7 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolBluet
   /**
   * Unique identifier assigned to the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#mac_address DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#mac_address DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -2756,31 +2756,31 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCommo
   /**
   * Required. BaudRate 115200|57600|38400|19200|9600|4800|2400|1800|1200|600|300|200|150|134|110|75|50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#baud_rate DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#baud_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#baud_rate DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#baud_rate}
   */
   readonly baudRate?: number;
   /**
   * Required. Valid values are 8, 7, 6, 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_bits DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data_bits DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data_bits}
   */
   readonly dataBits?: number;
   /**
   * Required. Valid options are 'none', 'even', 'odd'. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#parity DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#parity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#parity DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#parity}
   */
   readonly parity?: string;
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#serial_port DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#serial_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#serial_port DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#serial_port}
   */
   readonly serialPort?: string;
   /**
   * Required. Bit that stops 1|2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#stop_bits DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#stop_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#stop_bits DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#stop_bits}
   */
   readonly stopBits?: number;
 }
@@ -2992,13 +2992,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCommo
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#ip DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#ip DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#ip}
   */
   readonly ip?: string;
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#port DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#port DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#port}
   */
   readonly port?: number;
 }
@@ -3123,51 +3123,51 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCommo
   /**
   * Define retry times of mapper will collect from device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_retry_times DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_retry_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_retry_times DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_retry_times}
   */
   readonly collectRetryTimes?: number;
   /**
   * Define timeout of mapper collect from device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_timeout DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_timeout DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_timeout}
   */
   readonly collectTimeout?: number;
   /**
   * Define collect type, sync or async.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_type DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#collect_type DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#collect_type}
   */
   readonly collectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#com DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#com}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#com DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#com}
   */
   readonly com?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCommonCom;
   /**
   * Communication type, like tcp client, tcp server or COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#comm_type DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#comm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#comm_type DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#comm_type}
   */
   readonly commType?: string;
   /**
   * Customized values for provided protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_values DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_values}
   */
   readonly customizedValues?: { [key: string]: string };
   /**
   * Reconnecting retry times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#reconn_retry_times DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#reconn_retry_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#reconn_retry_times DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#reconn_retry_times}
   */
   readonly reconnRetryTimes?: number;
   /**
   * Reconnection timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#reconn_timeout DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#reconn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#reconn_timeout DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#reconn_timeout}
   */
   readonly reconnTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#tcp DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#tcp DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#tcp}
   */
   readonly tcp?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCommonTcp;
 }
@@ -3495,13 +3495,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCusto
   /**
   * Any config data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#config_data}
   */
   readonly configData?: { [key: string]: string };
   /**
   * Unique protocol name Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#protocol_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#protocol_name}
   */
   readonly protocolName?: string;
 }
@@ -3626,7 +3626,7 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolModbu
   /**
   * Required. 0-255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#slave_id DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#slave_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#slave_id DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#slave_id}
   */
   readonly slaveId?: number;
 }
@@ -3722,49 +3722,49 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolOpcua
   /**
   * Certificate for access opc server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#certificate DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#certificate DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * Password for access opc server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#password DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#password DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#password}
   */
   readonly password?: string;
   /**
   * PrivateKey for access opc server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#private_key DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#private_key DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#security_mode DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#security_mode DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#security_mode}
   */
   readonly securityMode?: string;
   /**
   * Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#security_policy DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#security_policy DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#security_policy}
   */
   readonly securityPolicy?: string;
   /**
   * Timeout seconds for the opc server connection.???
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#timeout DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#timeout DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#timeout}
   */
   readonly timeout?: number;
   /**
   * Required: The URL for opc server endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#url DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#url DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#url}
   */
   readonly url?: string;
   /**
   * Username for access opc server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#user_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#user_name DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#user_name}
   */
   readonly userName?: string;
 }
@@ -4063,31 +4063,31 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocol {
   /**
   * Protocol configuration for bluetooth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#bluetooth DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#bluetooth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#bluetooth DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#bluetooth}
   */
   readonly bluetooth?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolBluetooth;
   /**
   * Configuration for protocol common part
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#common DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#common DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#common}
   */
   readonly common?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCommon;
   /**
   * Configuration for customized protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_protocol DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#customized_protocol DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#customized_protocol}
   */
   readonly customizedProtocol?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolCustomizedProtocol;
   /**
   * Protocol configuration for modbus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#modbus DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#modbus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#modbus DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#modbus}
   */
   readonly modbus?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolModbus;
   /**
   * Protocol configuration for opc-ua
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#opcua DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#opcua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#opcua DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#opcua}
   */
   readonly opcua?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocolOpcua;
 }
@@ -4299,31 +4299,31 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpec {
   /**
   * Data section describe a list of time-series properties which should be processed on edge node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#data DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#data}
   */
   readonly data?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecData;
   /**
   * Required: DeviceModelRef is reference to the device model used as a template to create the device instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#device_model_ref DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#device_model_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#device_model_ref DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#device_model_ref}
   */
   readonly deviceModelRef?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecDeviceModelRef;
   /**
   * NodeSelector indicates the binding preferences between devices and nodes. Refer to k8s.io/kubernetes/pkg/apis/core NodeSelector for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#node_selector DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#node_selector DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecNodeSelector;
   /**
   * List of property visitors which describe how to access the device properties. PropertyVisitors must unique by propertyVisitor.propertyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#property_visitors DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#property_visitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#property_visitors DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#property_visitors}
   */
   readonly propertyVisitors?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecPropertyVisitors[] | cdktf.IResolvable;
   /**
   * Required: The protocol configuration used to connect to the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#protocol DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#protocol DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest#protocol}
   */
   readonly protocol?: DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecProtocol;
 }
@@ -4533,7 +4533,7 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Alpha2ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest k8s_devices_kubeedge_io_device_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest k8s_devices_kubeedge_io_device_v1alpha2_manifest}
 */
 export class DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -4549,7 +4549,7 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4561,7 +4561,7 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest k8s_devices_kubeedge_io_device_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/devices_kubeedge_io_device_v1alpha2_manifest k8s_devices_kubeedge_io_device_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4572,8 +4572,8 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_devices_kubeedge_io_device_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

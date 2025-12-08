@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface DataWorksDiJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#description DataWorksDiJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#description DataWorksDiJob#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#destination_data_source_type DataWorksDiJob#destination_data_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#destination_data_source_type DataWorksDiJob#destination_data_source_type}
   */
   readonly destinationDataSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#id DataWorksDiJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#id DataWorksDiJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#job_name DataWorksDiJob#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#job_name DataWorksDiJob#job_name}
   */
   readonly jobName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#migration_type DataWorksDiJob#migration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#migration_type DataWorksDiJob#migration_type}
   */
   readonly migrationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#project_id DataWorksDiJob#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#project_id DataWorksDiJob#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#source_data_source_type DataWorksDiJob#source_data_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#source_data_source_type DataWorksDiJob#source_data_source_type}
   */
   readonly sourceDataSourceType: string;
   /**
   * destination_data_source_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#destination_data_source_settings DataWorksDiJob#destination_data_source_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#destination_data_source_settings DataWorksDiJob#destination_data_source_settings}
   */
   readonly destinationDataSourceSettings: DataWorksDiJobDestinationDataSourceSettings[] | cdktf.IResolvable;
   /**
   * job_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#job_settings DataWorksDiJob#job_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#job_settings DataWorksDiJob#job_settings}
   */
   readonly jobSettings?: DataWorksDiJobJobSettings;
   /**
   * resource_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#resource_settings DataWorksDiJob#resource_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#resource_settings DataWorksDiJob#resource_settings}
   */
   readonly resourceSettings: DataWorksDiJobResourceSettings;
   /**
   * source_data_source_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#source_data_source_settings DataWorksDiJob#source_data_source_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#source_data_source_settings DataWorksDiJob#source_data_source_settings}
   */
   readonly sourceDataSourceSettings: DataWorksDiJobSourceDataSourceSettings[] | cdktf.IResolvable;
   /**
   * table_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#table_mappings DataWorksDiJob#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#table_mappings DataWorksDiJob#table_mappings}
   */
   readonly tableMappings: DataWorksDiJobTableMappings[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#timeouts DataWorksDiJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#timeouts DataWorksDiJob#timeouts}
   */
   readonly timeouts?: DataWorksDiJobTimeouts;
   /**
   * transformation_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#transformation_rules DataWorksDiJob#transformation_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#transformation_rules DataWorksDiJob#transformation_rules}
   */
   readonly transformationRules?: DataWorksDiJobTransformationRules[] | cdktf.IResolvable;
 }
 export interface DataWorksDiJobDestinationDataSourceSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#data_source_name DataWorksDiJob#data_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#data_source_name DataWorksDiJob#data_source_name}
   */
   readonly dataSourceName?: string;
 }
@@ -199,11 +199,11 @@ export class DataWorksDiJobDestinationDataSourceSettingsList extends cdktf.Compl
 }
 export interface DataWorksDiJobJobSettingsColumnDataTypeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#destination_data_type DataWorksDiJob#destination_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#destination_data_type DataWorksDiJob#destination_data_type}
   */
   readonly destinationDataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#source_data_type DataWorksDiJob#source_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#source_data_type DataWorksDiJob#source_data_type}
   */
   readonly sourceDataType?: string;
 }
@@ -348,11 +348,11 @@ export class DataWorksDiJobJobSettingsColumnDataTypeSettingsList extends cdktf.C
 }
 export interface DataWorksDiJobJobSettingsCycleScheduleSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#cycle_migration_type DataWorksDiJob#cycle_migration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#cycle_migration_type DataWorksDiJob#cycle_migration_type}
   */
   readonly cycleMigrationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#schedule_parameters DataWorksDiJob#schedule_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#schedule_parameters DataWorksDiJob#schedule_parameters}
   */
   readonly scheduleParameters?: string;
 }
@@ -465,11 +465,11 @@ export class DataWorksDiJobJobSettingsCycleScheduleSettingsOutputReference exten
 }
 export interface DataWorksDiJobJobSettingsDdlHandlingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#action DataWorksDiJob#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#action DataWorksDiJob#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#type DataWorksDiJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#type DataWorksDiJob#type}
   */
   readonly type?: string;
 }
@@ -614,11 +614,11 @@ export class DataWorksDiJobJobSettingsDdlHandlingSettingsList extends cdktf.Comp
 }
 export interface DataWorksDiJobJobSettingsRuntimeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#name DataWorksDiJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#name DataWorksDiJob#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#value DataWorksDiJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#value DataWorksDiJob#value}
   */
   readonly value?: string;
 }
@@ -763,31 +763,31 @@ export class DataWorksDiJobJobSettingsRuntimeSettingsList extends cdktf.ComplexL
 }
 export interface DataWorksDiJobJobSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#channel_settings DataWorksDiJob#channel_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#channel_settings DataWorksDiJob#channel_settings}
   */
   readonly channelSettings?: string;
   /**
   * column_data_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#column_data_type_settings DataWorksDiJob#column_data_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#column_data_type_settings DataWorksDiJob#column_data_type_settings}
   */
   readonly columnDataTypeSettings?: DataWorksDiJobJobSettingsColumnDataTypeSettings[] | cdktf.IResolvable;
   /**
   * cycle_schedule_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#cycle_schedule_settings DataWorksDiJob#cycle_schedule_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#cycle_schedule_settings DataWorksDiJob#cycle_schedule_settings}
   */
   readonly cycleScheduleSettings?: DataWorksDiJobJobSettingsCycleScheduleSettings;
   /**
   * ddl_handling_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#ddl_handling_settings DataWorksDiJob#ddl_handling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#ddl_handling_settings DataWorksDiJob#ddl_handling_settings}
   */
   readonly ddlHandlingSettings?: DataWorksDiJobJobSettingsDdlHandlingSettings[] | cdktf.IResolvable;
   /**
   * runtime_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#runtime_settings DataWorksDiJob#runtime_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#runtime_settings DataWorksDiJob#runtime_settings}
   */
   readonly runtimeSettings?: DataWorksDiJobJobSettingsRuntimeSettings[] | cdktf.IResolvable;
 }
@@ -987,11 +987,11 @@ export class DataWorksDiJobJobSettingsOutputReference extends cdktf.ComplexObjec
 }
 export interface DataWorksDiJobResourceSettingsOfflineResourceSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#requested_cu DataWorksDiJob#requested_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#requested_cu DataWorksDiJob#requested_cu}
   */
   readonly requestedCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#resource_group_identifier DataWorksDiJob#resource_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#resource_group_identifier DataWorksDiJob#resource_group_identifier}
   */
   readonly resourceGroupIdentifier?: string;
 }
@@ -1104,11 +1104,11 @@ export class DataWorksDiJobResourceSettingsOfflineResourceSettingsOutputReferenc
 }
 export interface DataWorksDiJobResourceSettingsRealtimeResourceSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#requested_cu DataWorksDiJob#requested_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#requested_cu DataWorksDiJob#requested_cu}
   */
   readonly requestedCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#resource_group_identifier DataWorksDiJob#resource_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#resource_group_identifier DataWorksDiJob#resource_group_identifier}
   */
   readonly resourceGroupIdentifier?: string;
 }
@@ -1221,11 +1221,11 @@ export class DataWorksDiJobResourceSettingsRealtimeResourceSettingsOutputReferen
 }
 export interface DataWorksDiJobResourceSettingsScheduleResourceSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#requested_cu DataWorksDiJob#requested_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#requested_cu DataWorksDiJob#requested_cu}
   */
   readonly requestedCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#resource_group_identifier DataWorksDiJob#resource_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#resource_group_identifier DataWorksDiJob#resource_group_identifier}
   */
   readonly resourceGroupIdentifier?: string;
 }
@@ -1340,19 +1340,19 @@ export interface DataWorksDiJobResourceSettings {
   /**
   * offline_resource_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#offline_resource_settings DataWorksDiJob#offline_resource_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#offline_resource_settings DataWorksDiJob#offline_resource_settings}
   */
   readonly offlineResourceSettings?: DataWorksDiJobResourceSettingsOfflineResourceSettings;
   /**
   * realtime_resource_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#realtime_resource_settings DataWorksDiJob#realtime_resource_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#realtime_resource_settings DataWorksDiJob#realtime_resource_settings}
   */
   readonly realtimeResourceSettings?: DataWorksDiJobResourceSettingsRealtimeResourceSettings;
   /**
   * schedule_resource_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#schedule_resource_settings DataWorksDiJob#schedule_resource_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#schedule_resource_settings DataWorksDiJob#schedule_resource_settings}
   */
   readonly scheduleResourceSettings?: DataWorksDiJobResourceSettingsScheduleResourceSettings;
 }
@@ -1494,11 +1494,11 @@ export class DataWorksDiJobResourceSettingsOutputReference extends cdktf.Complex
 }
 export interface DataWorksDiJobSourceDataSourceSettingsDataSourceProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#encoding DataWorksDiJob#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#encoding DataWorksDiJob#encoding}
   */
   readonly encoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#timezone DataWorksDiJob#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#timezone DataWorksDiJob#timezone}
   */
   readonly timezone?: string;
 }
@@ -1611,13 +1611,13 @@ export class DataWorksDiJobSourceDataSourceSettingsDataSourcePropertiesOutputRef
 }
 export interface DataWorksDiJobSourceDataSourceSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#data_source_name DataWorksDiJob#data_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#data_source_name DataWorksDiJob#data_source_name}
   */
   readonly dataSourceName?: string;
   /**
   * data_source_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#data_source_properties DataWorksDiJob#data_source_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#data_source_properties DataWorksDiJob#data_source_properties}
   */
   readonly dataSourceProperties?: DataWorksDiJobSourceDataSourceSettingsDataSourceProperties;
 }
@@ -1762,19 +1762,19 @@ export class DataWorksDiJobSourceDataSourceSettingsList extends cdktf.ComplexLis
 }
 export interface DataWorksDiJobTableMappingsSourceObjectSelectionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#action DataWorksDiJob#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#action DataWorksDiJob#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#expression DataWorksDiJob#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#expression DataWorksDiJob#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#expression_type DataWorksDiJob#expression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#expression_type DataWorksDiJob#expression_type}
   */
   readonly expressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#object_type DataWorksDiJob#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#object_type DataWorksDiJob#object_type}
   */
   readonly objectType?: string;
 }
@@ -1977,15 +1977,15 @@ export class DataWorksDiJobTableMappingsSourceObjectSelectionRulesList extends c
 }
 export interface DataWorksDiJobTableMappingsTransformationRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#rule_action_type DataWorksDiJob#rule_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#rule_action_type DataWorksDiJob#rule_action_type}
   */
   readonly ruleActionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#rule_name DataWorksDiJob#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#rule_name DataWorksDiJob#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#rule_target_type DataWorksDiJob#rule_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#rule_target_type DataWorksDiJob#rule_target_type}
   */
   readonly ruleTargetType?: string;
 }
@@ -2161,13 +2161,13 @@ export interface DataWorksDiJobTableMappings {
   /**
   * source_object_selection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#source_object_selection_rules DataWorksDiJob#source_object_selection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#source_object_selection_rules DataWorksDiJob#source_object_selection_rules}
   */
   readonly sourceObjectSelectionRules?: DataWorksDiJobTableMappingsSourceObjectSelectionRules[] | cdktf.IResolvable;
   /**
   * transformation_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#transformation_rules DataWorksDiJob#transformation_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#transformation_rules DataWorksDiJob#transformation_rules}
   */
   readonly transformationRules?: DataWorksDiJobTableMappingsTransformationRules[] | cdktf.IResolvable;
 }
@@ -2312,15 +2312,15 @@ export class DataWorksDiJobTableMappingsList extends cdktf.ComplexList {
 }
 export interface DataWorksDiJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#create DataWorksDiJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#create DataWorksDiJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#delete DataWorksDiJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#delete DataWorksDiJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#update DataWorksDiJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#update DataWorksDiJob#update}
   */
   readonly update?: string;
 }
@@ -2472,19 +2472,19 @@ export class DataWorksDiJobTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface DataWorksDiJobTransformationRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#rule_action_type DataWorksDiJob#rule_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#rule_action_type DataWorksDiJob#rule_action_type}
   */
   readonly ruleActionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#rule_expression DataWorksDiJob#rule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#rule_expression DataWorksDiJob#rule_expression}
   */
   readonly ruleExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#rule_name DataWorksDiJob#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#rule_name DataWorksDiJob#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#rule_target_type DataWorksDiJob#rule_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#rule_target_type DataWorksDiJob#rule_target_type}
   */
   readonly ruleTargetType?: string;
 }
@@ -2687,7 +2687,7 @@ export class DataWorksDiJobTransformationRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job alicloud_data_works_di_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job alicloud_data_works_di_job}
 */
 export class DataWorksDiJob extends cdktf.TerraformResource {
 
@@ -2703,7 +2703,7 @@ export class DataWorksDiJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataWorksDiJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWorksDiJob to import
-  * @param importFromId The id of the existing DataWorksDiJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWorksDiJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWorksDiJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2715,7 +2715,7 @@ export class DataWorksDiJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_di_job alicloud_data_works_di_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/data_works_di_job alicloud_data_works_di_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2726,8 +2726,8 @@ export class DataWorksDiJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_data_works_di_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

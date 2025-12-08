@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface NasFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#capacity NasFileSystem#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#capacity NasFileSystem#capacity}
   */
   readonly capacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#description NasFileSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#description NasFileSystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#encrypt_type NasFileSystem#encrypt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#encrypt_type NasFileSystem#encrypt_type}
   */
   readonly encryptType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#file_system_type NasFileSystem#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#file_system_type NasFileSystem#file_system_type}
   */
   readonly fileSystemType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#id NasFileSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#id NasFileSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#keytab NasFileSystem#keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#keytab NasFileSystem#keytab}
   */
   readonly keytab?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#keytab_md5 NasFileSystem#keytab_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#keytab_md5 NasFileSystem#keytab_md5}
   */
   readonly keytabMd5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#kms_key_id NasFileSystem#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#kms_key_id NasFileSystem#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#protocol_type NasFileSystem#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#protocol_type NasFileSystem#protocol_type}
   */
   readonly protocolType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#resource_group_id NasFileSystem#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#resource_group_id NasFileSystem#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#snapshot_id NasFileSystem#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#snapshot_id NasFileSystem#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#storage_type NasFileSystem#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#storage_type NasFileSystem#storage_type}
   */
   readonly storageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#tags NasFileSystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#tags NasFileSystem#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#vpc_id NasFileSystem#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#vpc_id NasFileSystem#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#vswitch_id NasFileSystem#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#vswitch_id NasFileSystem#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#zone_id NasFileSystem#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#zone_id NasFileSystem#zone_id}
   */
   readonly zoneId?: string;
   /**
   * nfs_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#nfs_acl NasFileSystem#nfs_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#nfs_acl NasFileSystem#nfs_acl}
   */
   readonly nfsAcl?: NasFileSystemNfsAcl;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#options NasFileSystem#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#options NasFileSystem#options}
   */
   readonly options?: NasFileSystemOptions;
   /**
   * recycle_bin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#recycle_bin NasFileSystem#recycle_bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#recycle_bin NasFileSystem#recycle_bin}
   */
   readonly recycleBin?: NasFileSystemRecycleBin;
   /**
   * smb_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#smb_acl NasFileSystem#smb_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#smb_acl NasFileSystem#smb_acl}
   */
   readonly smbAcl?: NasFileSystemSmbAcl;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#timeouts NasFileSystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#timeouts NasFileSystem#timeouts}
   */
   readonly timeouts?: NasFileSystemTimeouts;
 }
 export interface NasFileSystemNfsAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#enabled NasFileSystem#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#enabled NasFileSystem#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -191,7 +191,7 @@ export class NasFileSystemNfsAclOutputReference extends cdktf.ComplexObject {
 }
 export interface NasFileSystemOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#enable_oplock NasFileSystem#enable_oplock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#enable_oplock NasFileSystem#enable_oplock}
   */
   readonly enableOplock?: boolean | cdktf.IResolvable;
 }
@@ -275,11 +275,11 @@ export class NasFileSystemOptionsOutputReference extends cdktf.ComplexObject {
 }
 export interface NasFileSystemRecycleBin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#reserved_days NasFileSystem#reserved_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#reserved_days NasFileSystem#reserved_days}
   */
   readonly reservedDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#status NasFileSystem#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#status NasFileSystem#status}
   */
   readonly status?: string;
 }
@@ -407,27 +407,27 @@ export class NasFileSystemRecycleBinOutputReference extends cdktf.ComplexObject 
 }
 export interface NasFileSystemSmbAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#enable_anonymous_access NasFileSystem#enable_anonymous_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#enable_anonymous_access NasFileSystem#enable_anonymous_access}
   */
   readonly enableAnonymousAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#enabled NasFileSystem#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#enabled NasFileSystem#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#encrypt_data NasFileSystem#encrypt_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#encrypt_data NasFileSystem#encrypt_data}
   */
   readonly encryptData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#home_dir_path NasFileSystem#home_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#home_dir_path NasFileSystem#home_dir_path}
   */
   readonly homeDirPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#reject_unencrypted_access NasFileSystem#reject_unencrypted_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#reject_unencrypted_access NasFileSystem#reject_unencrypted_access}
   */
   readonly rejectUnencryptedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#super_admin_sid NasFileSystem#super_admin_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#super_admin_sid NasFileSystem#super_admin_sid}
   */
   readonly superAdminSid?: string;
 }
@@ -656,15 +656,15 @@ export class NasFileSystemSmbAclOutputReference extends cdktf.ComplexObject {
 }
 export interface NasFileSystemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#create NasFileSystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#create NasFileSystem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#delete NasFileSystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#delete NasFileSystem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#update NasFileSystem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#update NasFileSystem#update}
   */
   readonly update?: string;
 }
@@ -816,7 +816,7 @@ export class NasFileSystemTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system alicloud_nas_file_system}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system alicloud_nas_file_system}
 */
 export class NasFileSystem extends cdktf.TerraformResource {
 
@@ -832,7 +832,7 @@ export class NasFileSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NasFileSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NasFileSystem to import
-  * @param importFromId The id of the existing NasFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NasFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NasFileSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -844,7 +844,7 @@ export class NasFileSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nas_file_system alicloud_nas_file_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_file_system alicloud_nas_file_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -855,8 +855,8 @@ export class NasFileSystem extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_nas_file_system',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

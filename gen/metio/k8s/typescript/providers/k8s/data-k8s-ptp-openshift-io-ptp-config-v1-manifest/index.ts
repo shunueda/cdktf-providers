@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPtpOpenshiftIoPtpConfigV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#metadata DataK8SPtpOpenshiftIoPtpConfigV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#metadata DataK8SPtpOpenshiftIoPtpConfigV1Manifest#metadata}
   */
   readonly metadata: DataK8SPtpOpenshiftIoPtpConfigV1ManifestMetadata;
   /**
   * PtpConfigSpec defines the desired state of PtpConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#spec DataK8SPtpOpenshiftIoPtpConfigV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#spec DataK8SPtpOpenshiftIoPtpConfigV1Manifest#spec}
   */
   readonly spec?: DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPtpOpenshiftIoPtpConfigV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#annotations DataK8SPtpOpenshiftIoPtpConfigV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#annotations DataK8SPtpOpenshiftIoPtpConfigV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#labels DataK8SPtpOpenshiftIoPtpConfigV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#labels DataK8SPtpOpenshiftIoPtpConfigV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#name DataK8SPtpOpenshiftIoPtpConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#name DataK8SPtpOpenshiftIoPtpConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#namespace DataK8SPtpOpenshiftIoPtpConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#namespace DataK8SPtpOpenshiftIoPtpConfigV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecProfilePtpClockThre
   /**
   * clock state to stay in holdover state in secs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#hold_over_timeout DataK8SPtpOpenshiftIoPtpConfigV1Manifest#hold_over_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#hold_over_timeout DataK8SPtpOpenshiftIoPtpConfigV1Manifest#hold_over_timeout}
   */
   readonly holdOverTimeout?: number;
   /**
   * max offset in nano secs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#max_offset_threshold DataK8SPtpOpenshiftIoPtpConfigV1Manifest#max_offset_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#max_offset_threshold DataK8SPtpOpenshiftIoPtpConfigV1Manifest#max_offset_threshold}
   */
   readonly maxOffsetThreshold?: number;
   /**
   * min offset in nano secs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#min_offset_threshold DataK8SPtpOpenshiftIoPtpConfigV1Manifest#min_offset_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#min_offset_threshold DataK8SPtpOpenshiftIoPtpConfigV1Manifest#min_offset_threshold}
   */
   readonly minOffsetThreshold?: number;
 }
@@ -383,63 +383,63 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecProfilePtpClockThreshol
 }
 export interface DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#interface DataK8SPtpOpenshiftIoPtpConfigV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#interface DataK8SPtpOpenshiftIoPtpConfigV1Manifest#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#name DataK8SPtpOpenshiftIoPtpConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#name DataK8SPtpOpenshiftIoPtpConfigV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#phc2sys_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#phc2sys_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#phc2sys_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#phc2sys_conf}
   */
   readonly phc2SysConf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#phc2sys_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#phc2sys_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#phc2sys_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#phc2sys_opts}
   */
   readonly phc2SysOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#plugins DataK8SPtpOpenshiftIoPtpConfigV1Manifest#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#plugins DataK8SPtpOpenshiftIoPtpConfigV1Manifest#plugins}
   */
   readonly plugins?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp4l_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp4l_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp4l_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp4l_conf}
   */
   readonly ptp4LConf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp4l_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp4l_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp4l_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp4l_opts}
   */
   readonly ptp4LOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_clock_threshold DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_clock_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_clock_threshold DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_clock_threshold}
   */
   readonly ptpClockThreshold?: DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecProfilePtpClockThreshold;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_scheduling_policy DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_scheduling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_scheduling_policy DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_scheduling_policy}
   */
   readonly ptpSchedulingPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_scheduling_priority DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_scheduling_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_scheduling_priority DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_scheduling_priority}
   */
   readonly ptpSchedulingPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_settings DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ptp_settings DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ptp_settings}
   */
   readonly ptpSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#synce4l_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#synce4l_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#synce4l_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#synce4l_conf}
   */
   readonly synce4LConf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#synce4l_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#synce4l_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#synce4l_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#synce4l_opts}
   */
   readonly synce4LOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ts2phc_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ts2phc_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ts2phc_conf DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ts2phc_conf}
   */
   readonly ts2PhcConf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ts2phc_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ts2phc_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#ts2phc_opts DataK8SPtpOpenshiftIoPtpConfigV1Manifest#ts2phc_opts}
   */
   readonly ts2PhcOpts?: string;
 }
@@ -958,11 +958,11 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecProfileList extends cdk
 }
 export interface DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecRecommendMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#node_label DataK8SPtpOpenshiftIoPtpConfigV1Manifest#node_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#node_label DataK8SPtpOpenshiftIoPtpConfigV1Manifest#node_label}
   */
   readonly nodeLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#node_name DataK8SPtpOpenshiftIoPtpConfigV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#node_name DataK8SPtpOpenshiftIoPtpConfigV1Manifest#node_name}
   */
   readonly nodeName?: string;
 }
@@ -1107,15 +1107,15 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecRecommendMatchList exte
 }
 export interface DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecRecommend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#match DataK8SPtpOpenshiftIoPtpConfigV1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#match DataK8SPtpOpenshiftIoPtpConfigV1Manifest#match}
   */
   readonly match?: DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecRecommendMatch[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#priority DataK8SPtpOpenshiftIoPtpConfigV1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#priority DataK8SPtpOpenshiftIoPtpConfigV1Manifest#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#profile DataK8SPtpOpenshiftIoPtpConfigV1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#profile DataK8SPtpOpenshiftIoPtpConfigV1Manifest#profile}
   */
   readonly profile: string;
 }
@@ -1283,11 +1283,11 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecRecommendList extends c
 }
 export interface DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#profile DataK8SPtpOpenshiftIoPtpConfigV1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#profile DataK8SPtpOpenshiftIoPtpConfigV1Manifest#profile}
   */
   readonly profile: DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecProfile[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#recommend DataK8SPtpOpenshiftIoPtpConfigV1Manifest#recommend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#recommend DataK8SPtpOpenshiftIoPtpConfigV1Manifest#recommend}
   */
   readonly recommend: DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecRecommend[] | cdktf.IResolvable;
 }
@@ -1404,7 +1404,7 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest k8s_ptp_openshift_io_ptp_config_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest k8s_ptp_openshift_io_ptp_config_v1_manifest}
 */
 export class DataK8SPtpOpenshiftIoPtpConfigV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1420,7 +1420,7 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SPtpOpenshiftIoPtpConfigV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPtpOpenshiftIoPtpConfigV1Manifest to import
-  * @param importFromId The id of the existing DataK8SPtpOpenshiftIoPtpConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPtpOpenshiftIoPtpConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPtpOpenshiftIoPtpConfigV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1432,7 +1432,7 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest k8s_ptp_openshift_io_ptp_config_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_config_v1_manifest k8s_ptp_openshift_io_ptp_config_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1443,8 +1443,8 @@ export class DataK8SPtpOpenshiftIoPtpConfigV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_ptp_openshift_io_ptp_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

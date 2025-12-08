@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudGaCustomRoutingEndpointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#accelerator_id DataAlicloudGaCustomRoutingEndpoints#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#accelerator_id DataAlicloudGaCustomRoutingEndpoints#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#endpoint_group_id DataAlicloudGaCustomRoutingEndpoints#endpoint_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#endpoint_group_id DataAlicloudGaCustomRoutingEndpoints#endpoint_group_id}
   */
   readonly endpointGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#id DataAlicloudGaCustomRoutingEndpoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#id DataAlicloudGaCustomRoutingEndpoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#ids DataAlicloudGaCustomRoutingEndpoints#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#ids DataAlicloudGaCustomRoutingEndpoints#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#listener_id DataAlicloudGaCustomRoutingEndpoints#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#listener_id DataAlicloudGaCustomRoutingEndpoints#listener_id}
   */
   readonly listenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#output_file DataAlicloudGaCustomRoutingEndpoints#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#output_file DataAlicloudGaCustomRoutingEndpoints#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#page_number DataAlicloudGaCustomRoutingEndpoints#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#page_number DataAlicloudGaCustomRoutingEndpoints#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#page_size DataAlicloudGaCustomRoutingEndpoints#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#page_size DataAlicloudGaCustomRoutingEndpoints#page_size}
   */
   readonly pageSize?: number;
 }
@@ -155,7 +155,7 @@ export class DataAlicloudGaCustomRoutingEndpointsCustomRoutingEndpointsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints alicloud_ga_custom_routing_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints alicloud_ga_custom_routing_endpoints}
 */
 export class DataAlicloudGaCustomRoutingEndpoints extends cdktf.TerraformDataSource {
 
@@ -171,7 +171,7 @@ export class DataAlicloudGaCustomRoutingEndpoints extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAlicloudGaCustomRoutingEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudGaCustomRoutingEndpoints to import
-  * @param importFromId The id of the existing DataAlicloudGaCustomRoutingEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudGaCustomRoutingEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudGaCustomRoutingEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DataAlicloudGaCustomRoutingEndpoints extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_custom_routing_endpoints alicloud_ga_custom_routing_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_custom_routing_endpoints alicloud_ga_custom_routing_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DataAlicloudGaCustomRoutingEndpoints extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_ga_custom_routing_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

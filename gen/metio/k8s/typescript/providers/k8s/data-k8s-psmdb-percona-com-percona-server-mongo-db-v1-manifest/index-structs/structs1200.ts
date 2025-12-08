@@ -53,19 +53,19 @@ dataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsLivenessProbeToH
 DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsLivenessProbeOutputReference } from './structs400'
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_process DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_process DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -246,51 +246,51 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPod
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#app_armor_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#app_armor_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_group_change_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_group_change_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_non_root DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_non_root DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#se_linux_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#se_linux_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seccomp_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seccomp_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#supplemental_groups DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#supplemental_groups DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#supplemental_groups_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#supplemental_groups_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sysctls DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sysctls DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#windows_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#windows_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContextWindowsOptions;
 }
@@ -703,7 +703,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPod
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -797,11 +797,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRea
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -921,11 +921,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRea
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value: string;
 }
@@ -1064,23 +1064,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRea
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1287,11 +1287,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRea
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
 }
@@ -1411,43 +1411,43 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRea
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
   */
   readonly exec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1802,15 +1802,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRea
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReplsetOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#horizons DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#horizons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#horizons DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#horizons}
   */
   readonly horizons?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tags DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tags DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1962,11 +1962,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRep
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#request DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#request DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -2108,15 +2108,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRes
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#claims DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#claims DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#claims}
   */
   readonly claims?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2268,15 +2268,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsRes
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2422,19 +2422,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2609,11 +2609,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2736,15 +2736,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2912,11 +2912,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3039,39 +3039,39 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
   */
   readonly resources?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#selector}
   */
   readonly selector?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -3397,27 +3397,27 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsStatusConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#last_probe_time DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#last_probe_time DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#last_transition_time DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#last_transition_time DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#message DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#message DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#reason DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#reason DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
   */
   readonly type: string;
 }
@@ -3672,11 +3672,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsStatusModifyVolumeStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#target_volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#target_volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#target_volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#target_volume_attributes_class_name}
   */
   readonly targetVolumeAttributesClassName?: string;
 }
@@ -3796,35 +3796,35 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#allocated_resource_statuses DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#allocated_resource_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#allocated_resource_statuses DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#allocated_resource_statuses}
   */
   readonly allocatedResourceStatuses?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#allocated_resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#allocated_resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#capacity DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#capacity DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#conditions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#conditions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#conditions}
   */
   readonly conditions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsStatusConditions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#current_volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#current_volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#current_volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#current_volume_attributes_class_name}
   */
   readonly currentVolumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#modify_volume_status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#modify_volume_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#modify_volume_status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#modify_volume_status}
   */
   readonly modifyVolumeStatus?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsStatusModifyVolumeStatus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#phase DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#phase DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#phase}
   */
   readonly phase?: string;
 }
@@ -4121,23 +4121,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#metadata DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#metadata DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#spec}
   */
   readonly spec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#status DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#status}
   */
   readonly status?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCsStatus;
 }
@@ -4369,19 +4369,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#partition DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#partition DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -4559,27 +4559,27 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#caching_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#caching_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#disk_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#disk_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#disk_uri DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#disk_uri DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -4812,15 +4812,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#share_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#share_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -4966,7 +4966,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5060,27 +5060,27 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#monitors DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#monitors DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_file DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_file DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -5316,7 +5316,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5410,19 +5410,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -5600,15 +5600,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
 }
@@ -5776,19 +5776,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
   */
   readonly items?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5969,7 +5969,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6063,23 +6063,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#driver DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#driver DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_publish_secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_publish_secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -6286,11 +6286,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6410,15 +6410,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#divisor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#divisor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6567,19 +6567,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -6779,11 +6779,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
   */
   readonly items?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -6906,11 +6906,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#medium DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#medium DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#size_limit DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#size_limit DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -7033,15 +7033,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
 }
@@ -7187,19 +7187,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7374,11 +7374,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7501,15 +7501,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7677,11 +7677,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7804,39 +7804,39 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
   */
   readonly resources?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#selector}
   */
   readonly selector?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -8162,11 +8162,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#metadata DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#metadata DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#spec}
   */
   readonly spec: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -8286,7 +8286,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_claim_template DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_claim_template DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeralVolumeClaimTemplate;
 }
@@ -8380,23 +8380,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#lun DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#lun DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#target_ww_ns DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#target_ww_ns DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#wwids DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#wwids DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -8606,7 +8606,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8700,23 +8700,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#driver DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#driver DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFlexVolumeSecretRef;
 }
@@ -8923,11 +8923,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#dataset_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#dataset_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#dataset_uuid DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#dataset_uuid DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -9050,19 +9050,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#partition DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#partition DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pd_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pd_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9240,15 +9240,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#directory DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#directory DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#repository DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#repository DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#revision DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#revision DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -9397,15 +9397,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#endpoints DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#endpoints DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9551,11 +9551,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -9675,11 +9675,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pull_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pull_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#reference DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#reference DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -9802,7 +9802,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9896,47 +9896,47 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#chap_auth_discovery DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#chap_auth_discovery DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#chap_auth_session DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#chap_auth_session DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initiator_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initiator_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#iqn DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#iqn DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#iqn}
   */
   readonly iqn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#iscsi_interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#iscsi_interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#lun DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#lun DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#lun}
   */
   readonly lun: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#portals DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#portals DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#target_portal DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#target_portal DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -10311,15 +10311,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#server DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#server DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#server}
   */
   readonly server: string;
 }
@@ -10465,11 +10465,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#claim_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#claim_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -10589,11 +10589,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesPhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pd_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pd_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -10713,15 +10713,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesPortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -10870,15 +10870,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11046,11 +11046,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11173,23 +11173,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#label_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#label_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#signer_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#signer_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -11396,15 +11396,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
 }
@@ -11572,15 +11572,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
   */
   readonly items?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11732,11 +11732,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -11856,15 +11856,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#divisor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#divisor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -12013,19 +12013,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -12225,7 +12225,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
   */
   readonly items?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -12319,15 +12319,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
 }
@@ -12495,15 +12495,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
   */
   readonly items?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12655,15 +12655,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#audience DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#audience DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#expiration_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#expiration_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
 }
@@ -12812,23 +12812,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cluster_trust_bundle DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cluster_trust_bundle DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map}
   */
   readonly configMap?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#downward_api DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#downward_api DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret}
   */
   readonly secret?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service_account_token DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service_account_token DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSourcesServiceAccountToken;
 }
@@ -13060,11 +13060,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sources}
   */
   readonly sources?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -13187,27 +13187,27 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesQuobyte {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#registry DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#registry DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#registry}
   */
   readonly registry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tenant DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tenant DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -13440,7 +13440,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesRbdSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13534,35 +13534,35 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesRbd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#keyring DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#keyring DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#monitors DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#monitors DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pool DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pool DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesRbdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -13853,7 +13853,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesScaleIoSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13947,43 +13947,43 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesScaleIo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gateway DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gateway DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#protection_domain DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#protection_domain DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesScaleIoSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ssl_enabled DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ssl_enabled DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_pool DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_pool DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#system DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#system DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -14329,15 +14329,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
 }
@@ -14505,19 +14505,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#default_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#items DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#items}
   */
   readonly items?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -14698,7 +14698,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14792,23 +14792,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -15018,19 +15018,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fs_type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_policy_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_policy_id DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_policy_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_policy_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -15208,127 +15208,127 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#aws_elastic_block_store DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#aws_elastic_block_store DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#azure_disk DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#azure_disk DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#azure_file DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#azure_file DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cephfs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cephfs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cinder DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cinder DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cinder}
   */
   readonly cinder?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map}
   */
   readonly configMap?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#csi DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#csi DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#csi}
   */
   readonly csi?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#downward_api DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#downward_api DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#empty_dir DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#empty_dir DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ephemeral DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ephemeral DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#fc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#fc}
   */
   readonly fc?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#flex_volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#flex_volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#flocker DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#flocker DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#flocker}
   */
   readonly flocker?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gce_persistent_disk DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gce_persistent_disk DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#git_repo DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#git_repo DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#glusterfs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#glusterfs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image}
   */
   readonly image?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesImage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#iscsi DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#iscsi DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#nfs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#nfs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#nfs}
   */
   readonly nfs?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#persistent_volume_claim DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#persistent_volume_claim DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#photon_persistent_disk DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#photon_persistent_disk DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesPhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#portworx_volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#portworx_volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesPortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#projected DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#projected DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#projected}
   */
   readonly projected?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#quobyte DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#quobyte DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#rbd DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#rbd DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#rbd}
   */
   readonly rbd?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scale_io DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scale_io DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret}
   */
   readonly secret?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storageos DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storageos DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storageos}
   */
   readonly storageos?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#vsphere_volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#vsphere_volume DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumesVsphereVolume;
 }
@@ -16311,15 +16311,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16468,11 +16468,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_version DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -16592,15 +16592,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#divisor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#divisor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -16749,15 +16749,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16906,19 +16906,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map_key_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map_key_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_field_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_key_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_key_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFromSecretKeyRef;
 }
@@ -17099,15 +17099,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value_from DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value_from DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvValueFrom;
 }
@@ -17278,11 +17278,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17405,11 +17405,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#optional DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17532,15 +17532,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#config_map_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#prefix DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#prefix DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#secret_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvFromSecretRef;
 }
@@ -17714,7 +17714,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17808,11 +17808,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value: string;
 }
@@ -17951,23 +17951,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -18174,7 +18174,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -18265,11 +18265,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
 }
@@ -18389,19 +18389,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
   */
   readonly exec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sleep DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sleep DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sleep}
   */
   readonly sleep?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStartTcpSocket;
 }
@@ -18582,7 +18582,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18676,11 +18676,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value: string;
 }
@@ -18819,23 +18819,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19042,7 +19042,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -19133,11 +19133,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
 }
@@ -19257,19 +19257,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
   */
   readonly exec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sleep DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sleep DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sleep}
   */
   readonly sleep?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStopTcpSocket;
 }
@@ -19450,11 +19450,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#post_start DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#post_start DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#post_start}
   */
   readonly postStart?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pre_stop DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pre_stop DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecyclePreStop;
 }
@@ -19577,7 +19577,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19671,11 +19671,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -19795,11 +19795,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value: string;
 }
@@ -19938,23 +19938,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -20161,11 +20161,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
 }
@@ -20285,43 +20285,43 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
   */
   readonly exec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -20676,23 +20676,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_ip DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_ip DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#protocol DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#protocol DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -20921,7 +20921,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21015,11 +21015,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -21139,11 +21139,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value: string;
 }
@@ -21282,23 +21282,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21505,11 +21505,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
 }
@@ -21629,43 +21629,43 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
   */
   readonly exec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -22020,11 +22020,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#restart_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#restart_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -22163,11 +22163,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#request DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#request DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -22309,15 +22309,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#claims DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#claims DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#claims}
   */
   readonly claims?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -22469,11 +22469,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#localhost_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#localhost_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
   */
   readonly type: string;
 }
@@ -22593,11 +22593,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#add DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#add DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#drop DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#drop DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -22720,19 +22720,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#level DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#level DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#role DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#role DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -22913,11 +22913,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#localhost_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#localhost_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
   */
   readonly type: string;
 }
@@ -23037,19 +23037,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#gmsa_credential_spec_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_process DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_process DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -23230,51 +23230,51 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#allow_privilege_escalation DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#allow_privilege_escalation DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#app_armor_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#app_armor_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#capabilities DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#capabilities DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#privileged DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#privileged DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#proc_mount DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#proc_mount DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only_root_filesystem DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only_root_filesystem DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_non_root DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_non_root DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#run_as_user DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#se_linux_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#se_linux_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seccomp_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#seccomp_profile DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#windows_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#windows_options DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContextWindowsOptions;
 }
@@ -23687,7 +23687,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23781,11 +23781,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -23905,11 +23905,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value: string;
 }
@@ -24048,23 +24048,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_headers DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#scheme DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24271,11 +24271,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#port DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#port}
   */
   readonly port: string;
 }
@@ -24395,43 +24395,43 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#exec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#exec}
   */
   readonly exec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#failure_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#grpc DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#http_get DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#initial_delay_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#success_threshold DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tcp_socket DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#timeout_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -24786,11 +24786,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#device_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#device_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
 }
@@ -24929,31 +24929,31 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mount_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mount_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mount_propagation DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mount_propagation DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#recursive_read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#recursive_read_only DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sub_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sub_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sub_path_expr DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sub_path_expr DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -25237,99 +25237,99 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#args DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#args DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#command DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#env DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#env DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#env}
   */
   readonly env?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#env_from DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#env_from DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image_pull_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#image_pull_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#lifecycle DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#lifecycle DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#liveness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#liveness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ports DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ports DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ports}
   */
   readonly ports?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#readiness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#readiness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resize_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resize_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
   */
   readonly resources?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#restart_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#restart_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#security_context DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#security_context DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#startup_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#startup_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#stdin DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#stdin DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#stdin_once DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#stdin_once DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_message_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_message_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_message_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_message_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tty DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tty DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_devices DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_devices DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mounts DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mounts DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarsVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#working_dir DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#working_dir DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -26109,7 +26109,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSid
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageInMemoryEngineConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#in_memory_size_ratio DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#in_memory_size_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#in_memory_size_ratio DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#in_memory_size_ratio}
   */
   readonly inMemorySizeRatio?: number;
 }
@@ -26203,7 +26203,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageInMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#engine_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#engine_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#engine_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#engine_config}
   */
   readonly engineConfig?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageInMemoryEngineConfig;
 }
@@ -26297,11 +26297,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageMmapv1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ns_size DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ns_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#ns_size DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#ns_size}
   */
   readonly nsSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#smallfiles DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#smallfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#smallfiles DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#smallfiles}
   */
   readonly smallfiles?: boolean | cdktf.IResolvable;
 }
@@ -26424,7 +26424,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTigerCollectionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#block_compressor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#block_compressor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#block_compressor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#block_compressor}
   */
   readonly blockCompressor?: string;
 }
@@ -26518,15 +26518,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTigerEngineConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cache_size_ratio DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cache_size_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cache_size_ratio DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cache_size_ratio}
   */
   readonly cacheSizeRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#directory_for_indexes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#directory_for_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#directory_for_indexes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#directory_for_indexes}
   */
   readonly directoryForIndexes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#journal_compressor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#journal_compressor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#journal_compressor DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#journal_compressor}
   */
   readonly journalCompressor?: string;
 }
@@ -26678,7 +26678,7 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTigerIndexConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#prefix_compression DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#prefix_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#prefix_compression DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#prefix_compression}
   */
   readonly prefixCompression?: boolean | cdktf.IResolvable;
 }
@@ -26772,15 +26772,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTiger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#collection_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#collection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#collection_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#collection_config}
   */
   readonly collectionConfig?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTigerCollectionConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#engine_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#engine_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#engine_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#engine_config}
   */
   readonly engineConfig?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTigerEngineConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#index_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#index_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#index_config DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#index_config}
   */
   readonly indexConfig?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTigerIndexConfig;
 }
@@ -26932,27 +26932,27 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#directory_per_db DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#directory_per_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#directory_per_db DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#directory_per_db}
   */
   readonly directoryPerDb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#engine DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#engine DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#in_memory DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#in_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#in_memory DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#in_memory}
   */
   readonly inMemory?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageInMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mmapv1 DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mmapv1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#mmapv1 DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#mmapv1}
   */
   readonly mmapv1?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageMmapv1;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sync_period_secs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sync_period_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sync_period_secs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sync_period_secs}
   */
   readonly syncPeriodSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#wired_tiger DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#wired_tiger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#wired_tiger DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#wired_tiger}
   */
   readonly wiredTiger?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorageWiredTiger;
 }
@@ -27191,23 +27191,23 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSto
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#effect DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#effect DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#toleration_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#toleration_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#value DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -27439,15 +27439,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27615,11 +27615,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTop
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27742,35 +27742,35 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTop
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#label_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#label_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_label_keys DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_label_keys DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#max_skew DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#max_skew DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#min_domains DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#min_domains DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_affinity_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_affinity_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_taints_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_taints_policy DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#topology_key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#topology_key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#when_unsatisfiable DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#when_unsatisfiable DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -28080,11 +28080,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTop
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#medium DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#medium DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#size_limit DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#size_limit DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -28207,11 +28207,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#type DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -28331,15 +28331,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
 }
@@ -28485,19 +28485,19 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#api_group DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#kind DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#namespace DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -28672,11 +28672,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#limits DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#requests DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -28799,15 +28799,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#key DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#operator DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#values DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -28975,11 +28975,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_expressions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#match_labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -29102,47 +29102,47 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#access_modes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#annotations DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#annotations DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#data_source_ref DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
   */
   readonly resources?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#selector}
   */
   readonly selector?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaimSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_attributes_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_mode DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -29526,15 +29526,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#empty_dir DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#empty_dir DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_path DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#persistent_volume_claim DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#persistent_volume_claim DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpecPersistentVolumeClaim;
 }
@@ -29686,135 +29686,135 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVol
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#affinity DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#affinity DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#affinity}
   */
   readonly affinity?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#annotations DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#annotations DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#arbiter DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#arbiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#arbiter DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#arbiter}
   */
   readonly arbiter?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsArbiter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cluster_role DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cluster_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cluster_role DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cluster_role}
   */
   readonly clusterRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#configuration DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#configuration DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_security_context DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#container_security_context DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsContainerSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#expose DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#expose DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#expose}
   */
   readonly expose?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsExpose;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#external_nodes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#external_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#external_nodes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#external_nodes}
   */
   readonly externalNodes?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsExternalNodes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_aliases DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#host_aliases DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsHostAliases[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#labels DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#liveness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#liveness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#node_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#nonvoting DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#nonvoting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#nonvoting DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#nonvoting}
   */
   readonly nonvoting?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsNonvoting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pod_disruption_budget DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pod_disruption_budget DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodDisruptionBudget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pod_security_context DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#pod_security_context DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsPodSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#primary_prefer_tag_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#primary_prefer_tag_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#primary_prefer_tag_selector DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#primary_prefer_tag_selector}
   */
   readonly primaryPreferTagSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#priority_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#priority_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#readiness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#readiness_probe DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#replset_overrides DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#replset_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#replset_overrides DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#replset_overrides}
   */
   readonly replsetOverrides?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsReplsetOverrides;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resources DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resources}
   */
   readonly resources?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#runtime_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#runtime_class_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service_account_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#service_account_name DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sidecar_pv_cs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sidecar_pv_cs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sidecar_pv_cs DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sidecar_pv_cs}
   */
   readonly sidecarPvCs?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarPvCs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sidecar_volumes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sidecar_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sidecar_volumes DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sidecar_volumes}
   */
   readonly sidecarVolumes?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecarVolumes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sidecars DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#sidecars DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#sidecars}
   */
   readonly sidecars?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsSidecars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#size DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#size DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#split_horizons DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#split_horizons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#split_horizons DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#split_horizons}
   */
   readonly splitHorizons?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#storage DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#storage}
   */
   readonly storage?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#termination_grace_period_seconds DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tolerations DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#tolerations DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#topology_spread_constraints DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#topology_spread_constraints DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#volume_spec DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#volume_spec}
   */
   readonly volumeSpec?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsVolumeSpec;
 }
@@ -30855,11 +30855,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecReplsetsLis
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesAuthenticationRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#client_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#client_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#client_source DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#client_source}
   */
   readonly clientSource?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#server_address DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#server_address DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#server_address}
   */
   readonly serverAddress?: string[];
 }
@@ -31004,15 +31004,15 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesAuthen
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesPrivilegesResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cluster DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#cluster DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#collection DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#collection DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#collection}
   */
   readonly collection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#db DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#db DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#db}
   */
   readonly db?: string;
 }
@@ -31164,11 +31164,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesPrivil
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesPrivileges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#actions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#actions DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#resource DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#resource}
   */
   readonly resource?: DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesPrivilegesResource;
 }
@@ -31310,11 +31310,11 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesPrivil
 }
 export interface DataK8SPsmdbPerconaComPerconaServerMongoDbV1ManifestSpecRolesRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#db DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#db DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#db}
   */
   readonly db: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#role DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/psmdb_percona_com_percona_server_mongo_db_v1_manifest#role DataK8SPsmdbPerconaComPerconaServerMongoDbV1Manifest#role}
   */
   readonly role: string;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#id Postgresql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#id Postgresql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,80 +17,80 @@ export interface PostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#labels Postgresql#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#labels Postgresql#labels}
   */
   readonly labels?: string[];
   /**
   * Maximum CPU core count. The PostgreSQL instance's CPU core count will be autoscaled based on the workload. The number of cores stays between 1 and `max_core_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#max_core_count Postgresql#max_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#max_core_count Postgresql#max_core_count}
   */
   readonly maxCoreCount?: number;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#name Postgresql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#name Postgresql#name}
   */
   readonly name: string;
   /**
   * The UUID of the network that the service is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#network_uuid Postgresql#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#network_uuid Postgresql#network_uuid}
   */
   readonly networkUuid?: string;
   /**
   * Performance class of PostgreSQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#performance_class Postgresql#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#performance_class Postgresql#performance_class}
   */
   readonly performanceClass: string;
   /**
   * Access key used to authenticate against Object Storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#pgaudit_log_access_key Postgresql#pgaudit_log_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#pgaudit_log_access_key Postgresql#pgaudit_log_access_key}
   */
   readonly pgauditLogAccessKey?: string;
   /**
   * Object Storage bucket to upload audit logs to. For pgAudit to be enabled these additional parameters need to be configured: pgaudit_log_server_url, pgaudit_log_access_key, pgaudit_log_secret_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#pgaudit_log_bucket Postgresql#pgaudit_log_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#pgaudit_log_bucket Postgresql#pgaudit_log_bucket}
   */
   readonly pgauditLogBucket?: string;
   /**
   * Rotation (in minutes) for audit logs. Logs are uploaded to Object Storage once rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#pgaudit_log_rotation_frequency Postgresql#pgaudit_log_rotation_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#pgaudit_log_rotation_frequency Postgresql#pgaudit_log_rotation_frequency}
   */
   readonly pgauditLogRotationFrequency?: number;
   /**
   * Secret key used to authenticate against Object Storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#pgaudit_log_secret_key Postgresql#pgaudit_log_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#pgaudit_log_secret_key Postgresql#pgaudit_log_secret_key}
   */
   readonly pgauditLogSecretKey?: string;
   /**
   * Object Storage server URL the bucket is located on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#pgaudit_log_server_url Postgresql#pgaudit_log_server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#pgaudit_log_server_url Postgresql#pgaudit_log_server_url}
   */
   readonly pgauditLogServerUrl?: string;
   /**
   * The PostgreSQL release of this instance.\n
   * 				For convenience, please use gscloud https://github.com/gridscale/gscloud to get the list of available PostgreSQL service releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#release Postgresql#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#release Postgresql#release}
   */
   readonly release: string;
   /**
   * Security zone UUID linked to PostgreSQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#security_zone_uuid Postgresql#security_zone_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#security_zone_uuid Postgresql#security_zone_uuid}
   */
   readonly securityZoneUuid?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#timeouts Postgresql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#timeouts Postgresql#timeouts}
   */
   readonly timeouts?: PostgresqlTimeouts;
 }
@@ -181,15 +181,15 @@ export class PostgresqlListenPortList extends cdktf.ComplexList {
 }
 export interface PostgresqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#create Postgresql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#create Postgresql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#delete Postgresql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#delete Postgresql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#update Postgresql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#update Postgresql#update}
   */
   readonly update?: string;
 }
@@ -341,7 +341,7 @@ export class PostgresqlTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql gridscale_postgresql}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql gridscale_postgresql}
 */
 export class Postgresql extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class Postgresql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Postgresql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Postgresql to import
-  * @param importFromId The id of the existing Postgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Postgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Postgresql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class Postgresql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/postgresql gridscale_postgresql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/postgresql gridscale_postgresql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class Postgresql extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_postgresql',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

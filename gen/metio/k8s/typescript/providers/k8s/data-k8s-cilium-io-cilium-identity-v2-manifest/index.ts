@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCiliumIoCiliumIdentityV2ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest#metadata DataK8SCiliumIoCiliumIdentityV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest#metadata DataK8SCiliumIoCiliumIdentityV2Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumIdentityV2ManifestMetadata;
   /**
   * SecurityLabels is the source-of-truth set of labels for this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest#security_labels DataK8SCiliumIoCiliumIdentityV2Manifest#security_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest#security_labels DataK8SCiliumIoCiliumIdentityV2Manifest#security_labels}
   */
   readonly securityLabels: { [key: string]: string };
 }
@@ -24,19 +24,19 @@ export interface DataK8SCiliumIoCiliumIdentityV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest#annotations DataK8SCiliumIoCiliumIdentityV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest#annotations DataK8SCiliumIoCiliumIdentityV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest#labels DataK8SCiliumIoCiliumIdentityV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest#labels DataK8SCiliumIoCiliumIdentityV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest#name DataK8SCiliumIoCiliumIdentityV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest#name DataK8SCiliumIoCiliumIdentityV2Manifest#name}
   */
   readonly name: string;
 }
@@ -185,7 +185,7 @@ export class DataK8SCiliumIoCiliumIdentityV2ManifestMetadataOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest k8s_cilium_io_cilium_identity_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest k8s_cilium_io_cilium_identity_v2_manifest}
 */
 export class DataK8SCiliumIoCiliumIdentityV2Manifest extends cdktf.TerraformDataSource {
 
@@ -201,7 +201,7 @@ export class DataK8SCiliumIoCiliumIdentityV2Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumIdentityV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumIdentityV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumIdentityV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumIdentityV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumIdentityV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class DataK8SCiliumIoCiliumIdentityV2Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_identity_v2_manifest k8s_cilium_io_cilium_identity_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_identity_v2_manifest k8s_cilium_io_cilium_identity_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class DataK8SCiliumIoCiliumIdentityV2Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_cilium_io_cilium_identity_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

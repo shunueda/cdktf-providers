@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#metadata DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#metadata DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the CronFederatedHPA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#spec DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#spec DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#annotations DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#annotations DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#labels DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#labels DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#namespace DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#namespace DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,55 +219,55 @@ export interface DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestSpec
   /**
   * FailedHistoryLimit represents the count of failed execution items for each rule. The value must be a positive integer. It defaults to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#failed_history_limit DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#failed_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#failed_history_limit DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#failed_history_limit}
   */
   readonly failedHistoryLimit?: number;
   /**
   * Name of the rule. Each rule in a CronFederatedHPA must have a unique name. Note: the name will be used as an identifier to record its execution history. Changing the name will be considered as deleting the old rule and adding a new rule, that means the original execution history will be discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Schedule is the cron expression that represents a periodical time. The syntax follows https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/#schedule-syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#schedule DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#schedule DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#schedule}
   */
   readonly schedule: string;
   /**
   * SuccessfulHistoryLimit represents the count of successful execution items for each rule. The value must be a positive integer. It defaults to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#successful_history_limit DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#successful_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#successful_history_limit DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#successful_history_limit}
   */
   readonly successfulHistoryLimit?: number;
   /**
   * Suspend tells the controller to suspend subsequent executions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#suspend DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#suspend DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * TargetMaxReplicas is the target MaxReplicas to be set for FederatedHPA. Only needed when referencing resource is FederatedHPA. TargetMinReplicas and TargetMaxReplicas can be specified together or either one can be specified alone. nil means the MaxReplicas(.spec.maxReplicas) of the referencing FederatedHPA will not be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#target_max_replicas DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#target_max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#target_max_replicas DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#target_max_replicas}
   */
   readonly targetMaxReplicas?: number;
   /**
   * TargetMinReplicas is the target MinReplicas to be set for FederatedHPA. Only needed when referencing resource is FederatedHPA. TargetMinReplicas and TargetMaxReplicas can be specified together or either one can be specified alone. nil means the MinReplicas(.spec.minReplicas) of the referencing FederatedHPA will not be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#target_min_replicas DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#target_min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#target_min_replicas DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#target_min_replicas}
   */
   readonly targetMinReplicas?: number;
   /**
   * TargetReplicas is the target replicas to be scaled for resources referencing by ScaleTargetRef of this CronFederatedHPA. Only needed when referencing resource is not FederatedHPA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#target_replicas DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#target_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#target_replicas DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#target_replicas}
   */
   readonly targetReplicas?: number;
   /**
   * TimeZone for the giving schedule. If not specified, this will default to the time zone of the karmada-controller-manager process. Invalid TimeZone will be rejected when applying by karmada-webhook. see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the all timezones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#time_zone DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#time_zone DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -611,19 +611,19 @@ export interface DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestSpec
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#api_version DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#api_version DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#kind DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#kind DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -771,13 +771,13 @@ export interface DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestSpec
   /**
   * Rules contains a collection of schedules that declares when and how the referencing target resource should be scaled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#rules DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#rules DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#rules}
   */
   readonly rules: DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestSpecRules[] | cdktf.IResolvable;
   /**
   * ScaleTargetRef points to the target resource to scale. Target resource could be any resource that implementing the scale subresource like Deployment, or FederatedHPA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#scale_target_ref DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#scale_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#scale_target_ref DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest#scale_target_ref}
   */
   readonly scaleTargetRef: DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestSpecScaleTargetRef;
 }
@@ -894,7 +894,7 @@ export class DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest}
 */
 export class DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -910,7 +910,7 @@ export class DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -922,7 +922,7 @@ export class DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -933,8 +933,8 @@ export class DataK8SAutoscalingKarmadaIoCronFederatedHpaV1Alpha1Manifest extends
       terraformResourceType: 'k8s_autoscaling_karmada_io_cron_federated_hpa_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

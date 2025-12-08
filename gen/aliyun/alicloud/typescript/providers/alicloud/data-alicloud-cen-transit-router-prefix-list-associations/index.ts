@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCenTransitRouterPrefixListAssociationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#id DataAlicloudCenTransitRouterPrefixListAssociations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#id DataAlicloudCenTransitRouterPrefixListAssociations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#ids DataAlicloudCenTransitRouterPrefixListAssociations#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#ids DataAlicloudCenTransitRouterPrefixListAssociations#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#output_file DataAlicloudCenTransitRouterPrefixListAssociations#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#output_file DataAlicloudCenTransitRouterPrefixListAssociations#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#owner_uid DataAlicloudCenTransitRouterPrefixListAssociations#owner_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#owner_uid DataAlicloudCenTransitRouterPrefixListAssociations#owner_uid}
   */
   readonly ownerUid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#page_number DataAlicloudCenTransitRouterPrefixListAssociations#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#page_number DataAlicloudCenTransitRouterPrefixListAssociations#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#page_size DataAlicloudCenTransitRouterPrefixListAssociations#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#page_size DataAlicloudCenTransitRouterPrefixListAssociations#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#prefix_list_id DataAlicloudCenTransitRouterPrefixListAssociations#prefix_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#prefix_list_id DataAlicloudCenTransitRouterPrefixListAssociations#prefix_list_id}
   */
   readonly prefixListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#status DataAlicloudCenTransitRouterPrefixListAssociations#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#status DataAlicloudCenTransitRouterPrefixListAssociations#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#transit_router_id DataAlicloudCenTransitRouterPrefixListAssociations#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#transit_router_id DataAlicloudCenTransitRouterPrefixListAssociations#transit_router_id}
   */
   readonly transitRouterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#transit_router_table_id DataAlicloudCenTransitRouterPrefixListAssociations#transit_router_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#transit_router_table_id DataAlicloudCenTransitRouterPrefixListAssociations#transit_router_table_id}
   */
   readonly transitRouterTableId: string;
 }
@@ -168,7 +168,7 @@ export class DataAlicloudCenTransitRouterPrefixListAssociationsAssociationsList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations alicloud_cen_transit_router_prefix_list_associations}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations alicloud_cen_transit_router_prefix_list_associations}
 */
 export class DataAlicloudCenTransitRouterPrefixListAssociations extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataAlicloudCenTransitRouterPrefixListAssociations extends cdktf.Te
   * Generates CDKTF code for importing a DataAlicloudCenTransitRouterPrefixListAssociations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCenTransitRouterPrefixListAssociations to import
-  * @param importFromId The id of the existing DataAlicloudCenTransitRouterPrefixListAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCenTransitRouterPrefixListAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCenTransitRouterPrefixListAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataAlicloudCenTransitRouterPrefixListAssociations extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_transit_router_prefix_list_associations alicloud_cen_transit_router_prefix_list_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_prefix_list_associations alicloud_cen_transit_router_prefix_list_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataAlicloudCenTransitRouterPrefixListAssociations extends cdktf.Te
       terraformResourceType: 'alicloud_cen_transit_router_prefix_list_associations',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

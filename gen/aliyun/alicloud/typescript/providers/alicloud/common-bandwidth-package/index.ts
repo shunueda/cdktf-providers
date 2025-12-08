@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface CommonBandwidthPackageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#bandwidth CommonBandwidthPackage#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#bandwidth CommonBandwidthPackage#bandwidth}
   */
   readonly bandwidth: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#bandwidth_package_name CommonBandwidthPackage#bandwidth_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#bandwidth_package_name CommonBandwidthPackage#bandwidth_package_name}
   */
   readonly bandwidthPackageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#deletion_protection CommonBandwidthPackage#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#deletion_protection CommonBandwidthPackage#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#description CommonBandwidthPackage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#description CommonBandwidthPackage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#force CommonBandwidthPackage#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#force CommonBandwidthPackage#force}
   */
   readonly force?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#id CommonBandwidthPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#id CommonBandwidthPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#internet_charge_type CommonBandwidthPackage#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#internet_charge_type CommonBandwidthPackage#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#isp CommonBandwidthPackage#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#isp CommonBandwidthPackage#isp}
   */
   readonly isp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#name CommonBandwidthPackage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#name CommonBandwidthPackage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#ratio CommonBandwidthPackage#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#ratio CommonBandwidthPackage#ratio}
   */
   readonly ratio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#resource_group_id CommonBandwidthPackage#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#resource_group_id CommonBandwidthPackage#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#security_protection_types CommonBandwidthPackage#security_protection_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#security_protection_types CommonBandwidthPackage#security_protection_types}
   */
   readonly securityProtectionTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#tags CommonBandwidthPackage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#tags CommonBandwidthPackage#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#zone CommonBandwidthPackage#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#zone CommonBandwidthPackage#zone}
   */
   readonly zone?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#timeouts CommonBandwidthPackage#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#timeouts CommonBandwidthPackage#timeouts}
   */
   readonly timeouts?: CommonBandwidthPackageTimeouts;
 }
 export interface CommonBandwidthPackageTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#create CommonBandwidthPackage#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#create CommonBandwidthPackage#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#delete CommonBandwidthPackage#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#delete CommonBandwidthPackage#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#update CommonBandwidthPackage#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#update CommonBandwidthPackage#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class CommonBandwidthPackageTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package alicloud_common_bandwidth_package}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package alicloud_common_bandwidth_package}
 */
 export class CommonBandwidthPackage extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class CommonBandwidthPackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CommonBandwidthPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CommonBandwidthPackage to import
-  * @param importFromId The id of the existing CommonBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CommonBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CommonBandwidthPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class CommonBandwidthPackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/common_bandwidth_package alicloud_common_bandwidth_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/common_bandwidth_package alicloud_common_bandwidth_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class CommonBandwidthPackage extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_common_bandwidth_package',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

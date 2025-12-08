@@ -17,15 +17,15 @@ dataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServ
 DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAffinityOutputReference } from './structs400'
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#values DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#values DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -193,11 +193,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_expressions DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_expressions DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_labels DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_labels DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -320,19 +320,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#label_selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#label_selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#namespace_selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#namespace_selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#namespaces DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#namespaces DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#topology_key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#topology_key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -532,11 +532,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -659,15 +659,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_affinity DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_affinity DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pod_affinity DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pod_affinity DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pod_anti_affinity DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pod_anti_affinity DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesAffinityPodAntiAffinity;
 }
@@ -819,11 +819,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesDnsConfigOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -968,15 +968,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesDnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#nameservers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#nameservers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#options}
   */
   readonly options?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesDnsConfigOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#searches DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#searches DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -1128,15 +1128,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1285,11 +1285,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_version DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_version DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1409,15 +1409,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#divisor DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#divisor DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1566,15 +1566,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1723,19 +1723,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -1916,15 +1916,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvValueFrom;
 }
@@ -2095,11 +2095,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2222,11 +2222,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2349,15 +2349,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#prefix DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#prefix DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvFromSecretRef;
 }
@@ -2531,7 +2531,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2625,11 +2625,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2768,23 +2768,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2991,11 +2991,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -3115,15 +3115,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -3275,7 +3275,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3369,11 +3369,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -3512,23 +3512,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3735,11 +3735,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -3859,15 +3859,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -4019,11 +4019,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#post_start DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#post_start DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#post_start}
   */
   readonly postStart?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pre_stop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pre_stop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecyclePreStop;
 }
@@ -4146,7 +4146,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4240,11 +4240,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -4364,11 +4364,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -4507,23 +4507,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4730,11 +4730,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -4854,43 +4854,43 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5245,23 +5245,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_ip DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_ip DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#protocol DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#protocol DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -5490,7 +5490,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -5584,11 +5584,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -5708,11 +5708,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -5851,23 +5851,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -6074,11 +6074,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -6198,43 +6198,43 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6589,7 +6589,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -6702,15 +6702,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claims DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claims DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claims}
   */
   readonly claims?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#limits DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#limits DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#requests DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#requests DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6862,11 +6862,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#add DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#add DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#drop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#drop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6989,19 +6989,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#level DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#level DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#role DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#role DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -7182,11 +7182,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#localhost_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#localhost_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
   */
   readonly type: string;
 }
@@ -7306,19 +7306,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_process DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_process DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -7499,47 +7499,47 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#allow_privilege_escalation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#allow_privilege_escalation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#capabilities DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#capabilities DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#privileged DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#privileged DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#proc_mount DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#proc_mount DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only_root_filesystem DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only_root_filesystem DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_non_root DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_non_root DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#se_linux_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#se_linux_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#seccomp_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#seccomp_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#windows_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#windows_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -7923,7 +7923,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8017,11 +8017,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -8141,11 +8141,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8284,23 +8284,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8507,11 +8507,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -8631,43 +8631,43 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9022,11 +9022,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#device_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#device_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -9165,27 +9165,27 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_propagation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_propagation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path_expr DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path_expr DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -9440,95 +9440,95 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#args DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#args DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env}
   */
   readonly env?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image_pull_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image_pull_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lifecycle DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lifecycle DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#liveness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#liveness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#ports DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#ports DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#ports}
   */
   readonly ports?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#readiness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#readiness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resources DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resources DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#security_context DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#security_context DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#startup_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#startup_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin_once DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin_once DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#target_container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#target_container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tty DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tty DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_devices DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_devices DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_mounts DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_mounts DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#working_dir DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#working_dir DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -10279,11 +10279,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#hostnames DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#hostnames DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#ip DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#ip DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -10428,7 +10428,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10544,15 +10544,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10701,11 +10701,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_version DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_version DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -10825,15 +10825,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#divisor DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#divisor DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -10982,15 +10982,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11139,19 +11139,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_key_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFromSecretKeyRef;
 }
@@ -11332,15 +11332,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvValueFrom;
 }
@@ -11511,11 +11511,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11638,11 +11638,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11765,15 +11765,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#config_map_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#prefix DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#prefix DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvFromSecretRef;
 }
@@ -11947,7 +11947,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12041,11 +12041,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -12184,23 +12184,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12407,11 +12407,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -12531,15 +12531,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStartTcpSocket;
 }
@@ -12691,7 +12691,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12785,11 +12785,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -12928,23 +12928,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13151,11 +13151,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -13275,15 +13275,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStopTcpSocket;
 }
@@ -13435,11 +13435,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#post_start DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#post_start DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#post_start}
   */
   readonly postStart?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pre_stop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pre_stop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecyclePreStop;
 }
@@ -13562,7 +13562,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13656,11 +13656,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -13780,11 +13780,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -13923,23 +13923,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14146,11 +14146,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -14270,43 +14270,43 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14661,23 +14661,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_ip DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_ip DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#protocol DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#protocol DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -14906,7 +14906,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -15000,11 +15000,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -15124,11 +15124,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -15267,23 +15267,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -15490,11 +15490,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -15614,43 +15614,43 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -16005,7 +16005,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -16118,15 +16118,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claims DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claims DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claims}
   */
   readonly claims?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#limits DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#limits DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#requests DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#requests DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -16278,11 +16278,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#add DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#add DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#drop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#drop DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -16405,19 +16405,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#level DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#level DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#role DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#role DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16598,11 +16598,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#localhost_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#localhost_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
   */
   readonly type: string;
 }
@@ -16722,19 +16722,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_process DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_process DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16915,47 +16915,47 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#allow_privilege_escalation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#allow_privilege_escalation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#capabilities DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#capabilities DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#privileged DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#privileged DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#proc_mount DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#proc_mount DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only_root_filesystem DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only_root_filesystem DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_non_root DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_non_root DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#se_linux_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#se_linux_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#seccomp_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#seccomp_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#windows_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#windows_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContextWindowsOptions;
 }
@@ -17339,7 +17339,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17433,11 +17433,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#service DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -17557,11 +17557,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -17700,23 +17700,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_headers DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#scheme DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17923,11 +17923,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#port DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -18047,43 +18047,43 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#exec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#failure_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#grpc DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#http_get DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initial_delay_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#success_threshold DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tcp_socket DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_grace_period_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#timeout_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -18438,11 +18438,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#device_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#device_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -18581,27 +18581,27 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_propagation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mount_propagation DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path_expr DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sub_path_expr DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -18856,91 +18856,91 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#args DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#args DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#command DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env}
   */
   readonly env?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#env_from DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image_pull_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#image_pull_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lifecycle DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lifecycle DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#liveness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#liveness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#ports DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#ports DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#ports}
   */
   readonly ports?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#readiness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#readiness_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resources DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resources DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#security_context DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#security_context DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#startup_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#startup_probe DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin_once DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#stdin_once DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#termination_message_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tty DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#tty DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_devices DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_devices DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_mounts DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_mounts DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#working_dir DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#working_dir DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -19662,7 +19662,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -19753,7 +19753,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesReadinessGates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#condition_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#condition_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#condition_type}
   */
   readonly conditionType: string;
 }
@@ -19866,11 +19866,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesResourceClaimsSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_claim_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_claim_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_claim_name}
   */
   readonly resourceClaimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_claim_template_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_claim_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_claim_template_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_claim_template_name}
   */
   readonly resourceClaimTemplateName?: string;
 }
@@ -19993,11 +19993,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesResourceClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#source DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#source DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#source}
   */
   readonly source?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesResourceClaimsSource;
 }
@@ -20139,7 +20139,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSchedulingGates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -20252,19 +20252,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#level DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#level DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#role DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#role DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -20445,11 +20445,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#localhost_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#localhost_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
   */
   readonly type: string;
 }
@@ -20569,11 +20569,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -20712,19 +20712,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#gmsa_credential_spec_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_process DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#host_process DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -20905,43 +20905,43 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_group_change_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_group_change_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_non_root DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_non_root DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#run_as_user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#se_linux_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#se_linux_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#seccomp_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#seccomp_profile DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#supplemental_groups DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#supplemental_groups DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sysctls DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#sysctls DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#windows_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#windows_options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesSecurityContextWindowsOptions;
 }
@@ -21296,23 +21296,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#effect DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#effect DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#toleration_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#toleration_seconds DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#value DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -21544,15 +21544,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#values DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#values DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21720,11 +21720,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_expressions DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_expressions DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_labels DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_labels DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21847,35 +21847,35 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#label_selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#label_selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_label_keys DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_label_keys DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#max_skew DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#max_skew DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#min_domains DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#min_domains DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_affinity_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_affinity_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_taints_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_taints_policy DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#topology_key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#topology_key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#when_unsatisfiable DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#when_unsatisfiable DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -22185,19 +22185,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#partition DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#partition DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -22375,27 +22375,27 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#caching_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#caching_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#disk_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#disk_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#disk_uri DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#disk_uri DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#kind DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#kind DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -22628,15 +22628,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#share_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#share_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -22782,7 +22782,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22876,27 +22876,27 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#monitors DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#monitors DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_file DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_file DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#user DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -23132,7 +23132,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23226,19 +23226,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -23416,15 +23416,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path: string;
 }
@@ -23592,19 +23592,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#default_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#default_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#items DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#items DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#items}
   */
   readonly items?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#optional DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23785,7 +23785,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23879,23 +23879,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#driver DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#driver DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_publish_secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#node_publish_secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_attributes DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_attributes DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -24102,11 +24102,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_version DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_version DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -24226,15 +24226,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#container_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#divisor DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#divisor DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -24383,19 +24383,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resource_field_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -24595,11 +24595,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#default_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#default_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#items DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#items DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#items}
   */
   readonly items?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -24722,11 +24722,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#medium DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#medium DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#size_limit DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#size_limit DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -24849,15 +24849,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#kind DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#kind DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -25003,19 +25003,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#api_group DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#kind DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#kind DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#namespace DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#namespace DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -25190,7 +25190,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -25303,15 +25303,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claims DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claims DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claims}
   */
   readonly claims?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#limits DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#limits DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#requests DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#requests DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -25463,15 +25463,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#key DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#operator DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#values DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#values DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25639,11 +25639,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_expressions DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_expressions DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_labels DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#match_labels DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25766,35 +25766,35 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#access_modes DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#access_modes DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#data_source DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#data_source DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#data_source_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#data_source_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resources DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#resources DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#selector DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#storage_class_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#storage_class_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_mode DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -26091,11 +26091,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#metadata DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#metadata DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#spec DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#spec}
   */
   readonly spec: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -26215,7 +26215,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_claim_template DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_claim_template DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesEphemeralVolumeClaimTemplate;
 }
@@ -26309,23 +26309,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lun DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lun DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#target_ww_ns DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#target_ww_ns DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#wwids DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#wwids DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -26535,7 +26535,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -26629,23 +26629,23 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#driver DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#driver DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#options DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesFlexVolumeSecretRef;
 }
@@ -26852,11 +26852,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#dataset_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#dataset_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#dataset_uuid DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#dataset_uuid DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -26979,19 +26979,19 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#partition DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#partition DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pd_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pd_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -27169,15 +27169,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#directory DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#directory DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#repository DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#repository DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#revision DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#revision DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -27326,15 +27326,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#endpoints DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#endpoints DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -27480,11 +27480,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -27604,7 +27604,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27698,47 +27698,47 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#chap_auth_discovery DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#chap_auth_discovery DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#chap_auth_session DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#chap_auth_session DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initiator_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#initiator_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#iqn DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#iqn DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#iqn}
   */
   readonly iqn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#iscsi_interface DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#iscsi_interface DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lun DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#lun DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#lun}
   */
   readonly lun: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#portals DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#portals DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#secret_ref DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#target_portal DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#target_portal DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -28113,15 +28113,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#path DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#server DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#server DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#server}
   */
   readonly server: string;
 }
@@ -28267,11 +28267,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claim_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#claim_name DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -28391,11 +28391,11 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesPhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pd_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#pd_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -28515,15 +28515,15 @@ export class DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesR
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseClusterV1ManifestSpecServicesRiggerSpecServicesRiggerAdditionalPodSpecAttributesVolumesPortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#fs_type DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#read_only DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_redislabs_com_redis_enterprise_cluster_v1_manifest#volume_id DataK8SAppRedislabsComRedisEnterpriseClusterV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }

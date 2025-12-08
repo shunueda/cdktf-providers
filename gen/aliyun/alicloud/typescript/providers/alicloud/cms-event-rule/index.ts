@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface CmsEventRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#description CmsEventRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#description CmsEventRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#group_id CmsEventRule#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#group_id CmsEventRule#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#id CmsEventRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#id CmsEventRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#rule_name CmsEventRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#rule_name CmsEventRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#silence_time CmsEventRule#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#silence_time CmsEventRule#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#status CmsEventRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#status CmsEventRule#status}
   */
   readonly status?: string;
   /**
   * contact_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#contact_parameters CmsEventRule#contact_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#contact_parameters CmsEventRule#contact_parameters}
   */
   readonly contactParameters?: CmsEventRuleContactParameters[] | cdktf.IResolvable;
   /**
   * event_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#event_pattern CmsEventRule#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#event_pattern CmsEventRule#event_pattern}
   */
   readonly eventPattern: CmsEventRuleEventPattern;
   /**
   * fc_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#fc_parameters CmsEventRule#fc_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#fc_parameters CmsEventRule#fc_parameters}
   */
   readonly fcParameters?: CmsEventRuleFcParameters[] | cdktf.IResolvable;
   /**
   * mns_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#mns_parameters CmsEventRule#mns_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#mns_parameters CmsEventRule#mns_parameters}
   */
   readonly mnsParameters?: CmsEventRuleMnsParameters[] | cdktf.IResolvable;
   /**
   * open_api_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#open_api_parameters CmsEventRule#open_api_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#open_api_parameters CmsEventRule#open_api_parameters}
   */
   readonly openApiParameters?: CmsEventRuleOpenApiParameters[] | cdktf.IResolvable;
   /**
   * sls_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#sls_parameters CmsEventRule#sls_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#sls_parameters CmsEventRule#sls_parameters}
   */
   readonly slsParameters?: CmsEventRuleSlsParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#timeouts CmsEventRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#timeouts CmsEventRule#timeouts}
   */
   readonly timeouts?: CmsEventRuleTimeouts;
   /**
   * webhook_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#webhook_parameters CmsEventRule#webhook_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#webhook_parameters CmsEventRule#webhook_parameters}
   */
   readonly webhookParameters?: CmsEventRuleWebhookParameters[] | cdktf.IResolvable;
 }
 export interface CmsEventRuleContactParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#contact_group_name CmsEventRule#contact_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#contact_group_name CmsEventRule#contact_group_name}
   */
   readonly contactGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#contact_parameters_id CmsEventRule#contact_parameters_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#contact_parameters_id CmsEventRule#contact_parameters_id}
   */
   readonly contactParametersId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#level CmsEventRule#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#level CmsEventRule#level}
   */
   readonly level?: string;
 }
@@ -267,23 +267,23 @@ export class CmsEventRuleContactParametersList extends cdktf.ComplexList {
 }
 export interface CmsEventRuleEventPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#event_type_list CmsEventRule#event_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#event_type_list CmsEventRule#event_type_list}
   */
   readonly eventTypeList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#level_list CmsEventRule#level_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#level_list CmsEventRule#level_list}
   */
   readonly levelList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#name_list CmsEventRule#name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#name_list CmsEventRule#name_list}
   */
   readonly nameList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#product CmsEventRule#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#product CmsEventRule#product}
   */
   readonly product: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#sql_filter CmsEventRule#sql_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#sql_filter CmsEventRule#sql_filter}
   */
   readonly sqlFilter?: string;
 }
@@ -480,19 +480,19 @@ export class CmsEventRuleEventPatternOutputReference extends cdktf.ComplexObject
 }
 export interface CmsEventRuleFcParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#fc_parameters_id CmsEventRule#fc_parameters_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#fc_parameters_id CmsEventRule#fc_parameters_id}
   */
   readonly fcParametersId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#function_name CmsEventRule#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#function_name CmsEventRule#function_name}
   */
   readonly functionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#region CmsEventRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#region CmsEventRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#service_name CmsEventRule#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#service_name CmsEventRule#service_name}
   */
   readonly serviceName?: string;
 }
@@ -700,19 +700,19 @@ export class CmsEventRuleFcParametersList extends cdktf.ComplexList {
 }
 export interface CmsEventRuleMnsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#mns_parameters_id CmsEventRule#mns_parameters_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#mns_parameters_id CmsEventRule#mns_parameters_id}
   */
   readonly mnsParametersId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#queue CmsEventRule#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#queue CmsEventRule#queue}
   */
   readonly queue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#region CmsEventRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#region CmsEventRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#topic CmsEventRule#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#topic CmsEventRule#topic}
   */
   readonly topic?: string;
 }
@@ -920,27 +920,27 @@ export class CmsEventRuleMnsParametersList extends cdktf.ComplexList {
 }
 export interface CmsEventRuleOpenApiParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#action CmsEventRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#action CmsEventRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#open_api_parameters_id CmsEventRule#open_api_parameters_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#open_api_parameters_id CmsEventRule#open_api_parameters_id}
   */
   readonly openApiParametersId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#product CmsEventRule#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#product CmsEventRule#product}
   */
   readonly product?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#region CmsEventRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#region CmsEventRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#role CmsEventRule#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#role CmsEventRule#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#version CmsEventRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#version CmsEventRule#version}
   */
   readonly version?: string;
 }
@@ -1206,19 +1206,19 @@ export class CmsEventRuleOpenApiParametersList extends cdktf.ComplexList {
 }
 export interface CmsEventRuleSlsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#log_store CmsEventRule#log_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#log_store CmsEventRule#log_store}
   */
   readonly logStore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#project CmsEventRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#project CmsEventRule#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#region CmsEventRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#region CmsEventRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#sls_parameters_id CmsEventRule#sls_parameters_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#sls_parameters_id CmsEventRule#sls_parameters_id}
   */
   readonly slsParametersId?: string;
 }
@@ -1426,15 +1426,15 @@ export class CmsEventRuleSlsParametersList extends cdktf.ComplexList {
 }
 export interface CmsEventRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#create CmsEventRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#create CmsEventRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#delete CmsEventRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#delete CmsEventRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#update CmsEventRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#update CmsEventRule#update}
   */
   readonly update?: string;
 }
@@ -1586,19 +1586,19 @@ export class CmsEventRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface CmsEventRuleWebhookParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#method CmsEventRule#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#method CmsEventRule#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#protocol CmsEventRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#protocol CmsEventRule#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#url CmsEventRule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#url CmsEventRule#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#webhook_parameters_id CmsEventRule#webhook_parameters_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#webhook_parameters_id CmsEventRule#webhook_parameters_id}
   */
   readonly webhookParametersId?: string;
 }
@@ -1801,7 +1801,7 @@ export class CmsEventRuleWebhookParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule alicloud_cms_event_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule alicloud_cms_event_rule}
 */
 export class CmsEventRule extends cdktf.TerraformResource {
 
@@ -1817,7 +1817,7 @@ export class CmsEventRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsEventRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsEventRule to import
-  * @param importFromId The id of the existing CmsEventRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsEventRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsEventRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1829,7 +1829,7 @@ export class CmsEventRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_event_rule alicloud_cms_event_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_event_rule alicloud_cms_event_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1840,8 +1840,8 @@ export class CmsEventRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_event_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

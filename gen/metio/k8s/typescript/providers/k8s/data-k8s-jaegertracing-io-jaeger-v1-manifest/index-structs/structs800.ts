@@ -17,27 +17,27 @@ dataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityNodeAffinityToHclTerr
 DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityNodeAffinityOutputReference } from './structs400'
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -295,11 +295,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -422,15 +422,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -598,11 +598,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -725,15 +725,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -901,11 +901,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1028,27 +1028,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -1284,11 +1284,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity_term DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity_term DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1427,15 +1427,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1603,11 +1603,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1730,15 +1730,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1906,11 +1906,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2033,27 +2033,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2311,11 +2311,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -2438,15 +2438,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_affinity DataK8SJaegertracingIoJaegerV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_affinity DataK8SJaegertracingIoJaegerV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_anti_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_anti_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityPodAntiAffinity;
 }
@@ -2598,11 +2598,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinityOutputRe
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#add DataK8SJaegertracingIoJaegerV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#add DataK8SJaegertracingIoJaegerV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#drop DataK8SJaegertracingIoJaegerV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#drop DataK8SJaegertracingIoJaegerV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -2725,19 +2725,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurit
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#level DataK8SJaegertracingIoJaegerV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#level DataK8SJaegertracingIoJaegerV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#role DataK8SJaegertracingIoJaegerV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#role DataK8SJaegertracingIoJaegerV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -2918,11 +2918,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurit
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#localhost_profile DataK8SJaegertracingIoJaegerV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#localhost_profile DataK8SJaegertracingIoJaegerV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -3042,19 +3042,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurit
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec_name DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec_name DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_process DataK8SJaegertracingIoJaegerV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_process DataK8SJaegertracingIoJaegerV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user_name DataK8SJaegertracingIoJaegerV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user_name DataK8SJaegertracingIoJaegerV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -3235,47 +3235,47 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurit
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#allow_privilege_escalation DataK8SJaegertracingIoJaegerV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#allow_privilege_escalation DataK8SJaegertracingIoJaegerV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#capabilities DataK8SJaegertracingIoJaegerV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#capabilities DataK8SJaegertracingIoJaegerV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#privileged DataK8SJaegertracingIoJaegerV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#privileged DataK8SJaegertracingIoJaegerV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#proc_mount DataK8SJaegertracingIoJaegerV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#proc_mount DataK8SJaegertracingIoJaegerV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only_root_filesystem DataK8SJaegertracingIoJaegerV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only_root_filesystem DataK8SJaegertracingIoJaegerV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_group DataK8SJaegertracingIoJaegerV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_group DataK8SJaegertracingIoJaegerV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_non_root DataK8SJaegertracingIoJaegerV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_non_root DataK8SJaegertracingIoJaegerV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user DataK8SJaegertracingIoJaegerV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user DataK8SJaegertracingIoJaegerV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#se_linux_options DataK8SJaegertracingIoJaegerV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#se_linux_options DataK8SJaegertracingIoJaegerV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seccomp_profile DataK8SJaegertracingIoJaegerV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seccomp_profile DataK8SJaegertracingIoJaegerV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#windows_options DataK8SJaegertracingIoJaegerV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#windows_options DataK8SJaegertracingIoJaegerV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContextWindowsOptions;
 }
@@ -3659,7 +3659,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurit
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3775,7 +3775,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorImagePullSecrets
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#command DataK8SJaegertracingIoJaegerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#command DataK8SJaegertracingIoJaegerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3869,11 +3869,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostSta
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -4012,23 +4012,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostSta
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_headers DataK8SJaegertracingIoJaegerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_headers DataK8SJaegertracingIoJaegerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scheme DataK8SJaegertracingIoJaegerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scheme DataK8SJaegertracingIoJaegerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4235,7 +4235,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostSta
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seconds DataK8SJaegertracingIoJaegerV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seconds DataK8SJaegertracingIoJaegerV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -4326,11 +4326,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostSta
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -4450,19 +4450,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostSta
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#exec DataK8SJaegertracingIoJaegerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#exec DataK8SJaegertracingIoJaegerV1Manifest#exec}
   */
   readonly exec?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_get DataK8SJaegertracingIoJaegerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_get DataK8SJaegertracingIoJaegerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sleep DataK8SJaegertracingIoJaegerV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sleep DataK8SJaegertracingIoJaegerV1Manifest#sleep}
   */
   readonly sleep?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tcp_socket DataK8SJaegertracingIoJaegerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tcp_socket DataK8SJaegertracingIoJaegerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStartTcpSocket;
 }
@@ -4643,7 +4643,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostSta
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#command DataK8SJaegertracingIoJaegerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#command DataK8SJaegertracingIoJaegerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4737,11 +4737,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -4880,23 +4880,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_headers DataK8SJaegertracingIoJaegerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_headers DataK8SJaegertracingIoJaegerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scheme DataK8SJaegertracingIoJaegerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scheme DataK8SJaegertracingIoJaegerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5103,7 +5103,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seconds DataK8SJaegertracingIoJaegerV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seconds DataK8SJaegertracingIoJaegerV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -5194,11 +5194,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -5318,19 +5318,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#exec DataK8SJaegertracingIoJaegerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#exec DataK8SJaegertracingIoJaegerV1Manifest#exec}
   */
   readonly exec?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_get DataK8SJaegertracingIoJaegerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_get DataK8SJaegertracingIoJaegerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sleep DataK8SJaegertracingIoJaegerV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sleep DataK8SJaegertracingIoJaegerV1Manifest#sleep}
   */
   readonly sleep?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tcp_socket DataK8SJaegertracingIoJaegerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tcp_socket DataK8SJaegertracingIoJaegerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStopTcpSocket;
 }
@@ -5511,11 +5511,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#post_start DataK8SJaegertracingIoJaegerV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#post_start DataK8SJaegertracingIoJaegerV1Manifest#post_start}
   */
   readonly postStart?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pre_stop DataK8SJaegertracingIoJaegerV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pre_stop DataK8SJaegertracingIoJaegerV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecyclePreStop;
 }
@@ -5638,7 +5638,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecycleOutputR
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#command DataK8SJaegertracingIoJaegerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#command DataK8SJaegertracingIoJaegerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -5732,11 +5732,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeExe
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service DataK8SJaegertracingIoJaegerV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service DataK8SJaegertracingIoJaegerV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -5856,11 +5856,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeGrp
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -5999,23 +5999,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeHtt
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_headers DataK8SJaegertracingIoJaegerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_headers DataK8SJaegertracingIoJaegerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scheme DataK8SJaegertracingIoJaegerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scheme DataK8SJaegertracingIoJaegerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -6222,11 +6222,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeHtt
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host DataK8SJaegertracingIoJaegerV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#port DataK8SJaegertracingIoJaegerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -6346,43 +6346,43 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeTcp
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#exec DataK8SJaegertracingIoJaegerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#exec DataK8SJaegertracingIoJaegerV1Manifest#exec}
   */
   readonly exec?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#failure_threshold DataK8SJaegertracingIoJaegerV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#failure_threshold DataK8SJaegertracingIoJaegerV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#grpc DataK8SJaegertracingIoJaegerV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#grpc DataK8SJaegertracingIoJaegerV1Manifest#grpc}
   */
   readonly grpc?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_get DataK8SJaegertracingIoJaegerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#http_get DataK8SJaegertracingIoJaegerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#initial_delay_seconds DataK8SJaegertracingIoJaegerV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#initial_delay_seconds DataK8SJaegertracingIoJaegerV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#period_seconds DataK8SJaegertracingIoJaegerV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#period_seconds DataK8SJaegertracingIoJaegerV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#success_threshold DataK8SJaegertracingIoJaegerV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#success_threshold DataK8SJaegertracingIoJaegerV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tcp_socket DataK8SJaegertracingIoJaegerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tcp_socket DataK8SJaegertracingIoJaegerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#termination_grace_period_seconds DataK8SJaegertracingIoJaegerV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#termination_grace_period_seconds DataK8SJaegertracingIoJaegerV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#timeout_seconds DataK8SJaegertracingIoJaegerV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#timeout_seconds DataK8SJaegertracingIoJaegerV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6737,7 +6737,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbeOut
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -6850,15 +6850,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorResourcesClaimsL
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#claims DataK8SJaegertracingIoJaegerV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#claims DataK8SJaegertracingIoJaegerV1Manifest#claims}
   */
   readonly claims?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#limits DataK8SJaegertracingIoJaegerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#limits DataK8SJaegertracingIoJaegerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#requests DataK8SJaegertracingIoJaegerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#requests DataK8SJaegertracingIoJaegerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7010,19 +7010,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorResourcesOutputR
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#level DataK8SJaegertracingIoJaegerV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#level DataK8SJaegertracingIoJaegerV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#role DataK8SJaegertracingIoJaegerV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#role DataK8SJaegertracingIoJaegerV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -7203,11 +7203,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextS
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#localhost_profile DataK8SJaegertracingIoJaegerV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#localhost_profile DataK8SJaegertracingIoJaegerV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -7327,11 +7327,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextS
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -7470,19 +7470,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextS
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec_name DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec_name DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_process DataK8SJaegertracingIoJaegerV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_process DataK8SJaegertracingIoJaegerV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user_name DataK8SJaegertracingIoJaegerV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user_name DataK8SJaegertracingIoJaegerV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -7663,43 +7663,43 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextW
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_group DataK8SJaegertracingIoJaegerV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_group DataK8SJaegertracingIoJaegerV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_group_change_policy DataK8SJaegertracingIoJaegerV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_group_change_policy DataK8SJaegertracingIoJaegerV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_group DataK8SJaegertracingIoJaegerV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_group DataK8SJaegertracingIoJaegerV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_non_root DataK8SJaegertracingIoJaegerV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_non_root DataK8SJaegertracingIoJaegerV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user DataK8SJaegertracingIoJaegerV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user DataK8SJaegertracingIoJaegerV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#se_linux_options DataK8SJaegertracingIoJaegerV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#se_linux_options DataK8SJaegertracingIoJaegerV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seccomp_profile DataK8SJaegertracingIoJaegerV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seccomp_profile DataK8SJaegertracingIoJaegerV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#supplemental_groups DataK8SJaegertracingIoJaegerV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#supplemental_groups DataK8SJaegertracingIoJaegerV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sysctls DataK8SJaegertracingIoJaegerV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sysctls DataK8SJaegertracingIoJaegerV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#windows_options DataK8SJaegertracingIoJaegerV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#windows_options DataK8SJaegertracingIoJaegerV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextWindowsOptions;
 }
@@ -8054,11 +8054,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContextO
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorStrategyRollingUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#max_surge DataK8SJaegertracingIoJaegerV1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#max_surge DataK8SJaegertracingIoJaegerV1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#max_unavailable DataK8SJaegertracingIoJaegerV1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#max_unavailable DataK8SJaegertracingIoJaegerV1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -8181,11 +8181,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorStrategyRollingU
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#rolling_update DataK8SJaegertracingIoJaegerV1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#rolling_update DataK8SJaegertracingIoJaegerV1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorStrategyRollingUpdate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8308,23 +8308,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorStrategyOutputRe
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#effect DataK8SJaegertracingIoJaegerV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#effect DataK8SJaegertracingIoJaegerV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#toleration_seconds DataK8SJaegertracingIoJaegerV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#toleration_seconds DataK8SJaegertracingIoJaegerV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#value DataK8SJaegertracingIoJaegerV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8556,27 +8556,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorTolerationsList 
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mount_path DataK8SJaegertracingIoJaegerV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mount_path DataK8SJaegertracingIoJaegerV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mount_propagation DataK8SJaegertracingIoJaegerV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mount_propagation DataK8SJaegertracingIoJaegerV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sub_path DataK8SJaegertracingIoJaegerV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sub_path DataK8SJaegertracingIoJaegerV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sub_path_expr DataK8SJaegertracingIoJaegerV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sub_path_expr DataK8SJaegertracingIoJaegerV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -8831,19 +8831,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumeMountsList
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#partition DataK8SJaegertracingIoJaegerV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#partition DataK8SJaegertracingIoJaegerV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_id DataK8SJaegertracingIoJaegerV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_id DataK8SJaegertracingIoJaegerV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -9021,27 +9021,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAwsElasti
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#caching_mode DataK8SJaegertracingIoJaegerV1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#caching_mode DataK8SJaegertracingIoJaegerV1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#disk_name DataK8SJaegertracingIoJaegerV1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#disk_name DataK8SJaegertracingIoJaegerV1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#disk_uri DataK8SJaegertracingIoJaegerV1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#disk_uri DataK8SJaegertracingIoJaegerV1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kind DataK8SJaegertracingIoJaegerV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kind DataK8SJaegertracingIoJaegerV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9274,15 +9274,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAzureDisk
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_name DataK8SJaegertracingIoJaegerV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_name DataK8SJaegertracingIoJaegerV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#share_name DataK8SJaegertracingIoJaegerV1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#share_name DataK8SJaegertracingIoJaegerV1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -9428,7 +9428,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAzureFile
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9522,27 +9522,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCephfsSec
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#monitors DataK8SJaegertracingIoJaegerV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#monitors DataK8SJaegertracingIoJaegerV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_file DataK8SJaegertracingIoJaegerV1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_file DataK8SJaegertracingIoJaegerV1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -9778,7 +9778,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCephfsOut
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9872,19 +9872,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCinderSec
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_id DataK8SJaegertracingIoJaegerV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_id DataK8SJaegertracingIoJaegerV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -10062,15 +10062,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCinderOut
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -10238,19 +10238,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesConfigMap
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
   */
   readonly items?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10431,7 +10431,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesConfigMap
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10525,23 +10525,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCsiNodePu
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#driver DataK8SJaegertracingIoJaegerV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#driver DataK8SJaegertracingIoJaegerV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_publish_secret_ref DataK8SJaegertracingIoJaegerV1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_publish_secret_ref DataK8SJaegertracingIoJaegerV1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_attributes DataK8SJaegertracingIoJaegerV1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_attributes DataK8SJaegertracingIoJaegerV1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -10748,11 +10748,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCsiOutput
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_version DataK8SJaegertracingIoJaegerV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_version DataK8SJaegertracingIoJaegerV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_path DataK8SJaegertracingIoJaegerV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_path DataK8SJaegertracingIoJaegerV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -10872,15 +10872,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#container_name DataK8SJaegertracingIoJaegerV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#container_name DataK8SJaegertracingIoJaegerV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#divisor DataK8SJaegertracingIoJaegerV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#divisor DataK8SJaegertracingIoJaegerV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource DataK8SJaegertracingIoJaegerV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource DataK8SJaegertracingIoJaegerV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -11029,19 +11029,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_ref DataK8SJaegertracingIoJaegerV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_ref DataK8SJaegertracingIoJaegerV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource_field_ref DataK8SJaegertracingIoJaegerV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource_field_ref DataK8SJaegertracingIoJaegerV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -11241,11 +11241,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
   */
   readonly items?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -11368,11 +11368,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardA
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#medium DataK8SJaegertracingIoJaegerV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#medium DataK8SJaegertracingIoJaegerV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#size_limit DataK8SJaegertracingIoJaegerV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#size_limit DataK8SJaegertracingIoJaegerV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -11495,23 +11495,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEmptyDirO
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#annotations DataK8SJaegertracingIoJaegerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#annotations DataK8SJaegertracingIoJaegerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#finalizers DataK8SJaegertracingIoJaegerV1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#finalizers DataK8SJaegertracingIoJaegerV1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#labels DataK8SJaegertracingIoJaegerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#labels DataK8SJaegertracingIoJaegerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace DataK8SJaegertracingIoJaegerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace DataK8SJaegertracingIoJaegerV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11721,15 +11721,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_group DataK8SJaegertracingIoJaegerV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_group DataK8SJaegertracingIoJaegerV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kind DataK8SJaegertracingIoJaegerV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kind DataK8SJaegertracingIoJaegerV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -11875,19 +11875,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_group DataK8SJaegertracingIoJaegerV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_group DataK8SJaegertracingIoJaegerV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kind DataK8SJaegertracingIoJaegerV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kind DataK8SJaegertracingIoJaegerV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace DataK8SJaegertracingIoJaegerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace DataK8SJaegertracingIoJaegerV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12062,11 +12062,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#limits DataK8SJaegertracingIoJaegerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#limits DataK8SJaegertracingIoJaegerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#requests DataK8SJaegertracingIoJaegerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#requests DataK8SJaegertracingIoJaegerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12189,15 +12189,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12365,11 +12365,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12492,39 +12492,39 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#access_modes DataK8SJaegertracingIoJaegerV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#access_modes DataK8SJaegertracingIoJaegerV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#data_source DataK8SJaegertracingIoJaegerV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#data_source DataK8SJaegertracingIoJaegerV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#data_source_ref DataK8SJaegertracingIoJaegerV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#data_source_ref DataK8SJaegertracingIoJaegerV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resources DataK8SJaegertracingIoJaegerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resources DataK8SJaegertracingIoJaegerV1Manifest#resources}
   */
   readonly resources?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#selector DataK8SJaegertracingIoJaegerV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#selector DataK8SJaegertracingIoJaegerV1Manifest#selector}
   */
   readonly selector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_class_name DataK8SJaegertracingIoJaegerV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_class_name DataK8SJaegertracingIoJaegerV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_attributes_class_name DataK8SJaegertracingIoJaegerV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_attributes_class_name DataK8SJaegertracingIoJaegerV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_mode DataK8SJaegertracingIoJaegerV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_mode DataK8SJaegertracingIoJaegerV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_name DataK8SJaegertracingIoJaegerV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_name DataK8SJaegertracingIoJaegerV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -12850,11 +12850,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#metadata DataK8SJaegertracingIoJaegerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#metadata DataK8SJaegertracingIoJaegerV1Manifest#metadata}
   */
   readonly metadata?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#spec DataK8SJaegertracingIoJaegerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#spec DataK8SJaegertracingIoJaegerV1Manifest#spec}
   */
   readonly spec: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -12974,7 +12974,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_claim_template DataK8SJaegertracingIoJaegerV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_claim_template DataK8SJaegertracingIoJaegerV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeralVolumeClaimTemplate;
 }
@@ -13068,23 +13068,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#lun DataK8SJaegertracingIoJaegerV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#lun DataK8SJaegertracingIoJaegerV1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#target_ww_ns DataK8SJaegertracingIoJaegerV1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#target_ww_ns DataK8SJaegertracingIoJaegerV1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#wwids DataK8SJaegertracingIoJaegerV1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#wwids DataK8SJaegertracingIoJaegerV1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -13294,7 +13294,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFcOutputR
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13388,23 +13388,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlexVolum
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#driver DataK8SJaegertracingIoJaegerV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#driver DataK8SJaegertracingIoJaegerV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#options DataK8SJaegertracingIoJaegerV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#options DataK8SJaegertracingIoJaegerV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlexVolumeSecretRef;
 }
@@ -13611,11 +13611,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlexVolum
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#dataset_name DataK8SJaegertracingIoJaegerV1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#dataset_name DataK8SJaegertracingIoJaegerV1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#dataset_uuid DataK8SJaegertracingIoJaegerV1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#dataset_uuid DataK8SJaegertracingIoJaegerV1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -13738,19 +13738,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlockerOu
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#partition DataK8SJaegertracingIoJaegerV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#partition DataK8SJaegertracingIoJaegerV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pd_name DataK8SJaegertracingIoJaegerV1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pd_name DataK8SJaegertracingIoJaegerV1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -13928,15 +13928,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGcePersis
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#directory DataK8SJaegertracingIoJaegerV1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#directory DataK8SJaegertracingIoJaegerV1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#repository DataK8SJaegertracingIoJaegerV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#repository DataK8SJaegertracingIoJaegerV1Manifest#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#revision DataK8SJaegertracingIoJaegerV1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#revision DataK8SJaegertracingIoJaegerV1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -14085,15 +14085,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGitRepoOu
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#endpoints DataK8SJaegertracingIoJaegerV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#endpoints DataK8SJaegertracingIoJaegerV1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -14239,11 +14239,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGlusterfs
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14363,7 +14363,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesHostPathO
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14457,47 +14457,47 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesIscsiSecr
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#chap_auth_discovery DataK8SJaegertracingIoJaegerV1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#chap_auth_discovery DataK8SJaegertracingIoJaegerV1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#chap_auth_session DataK8SJaegertracingIoJaegerV1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#chap_auth_session DataK8SJaegertracingIoJaegerV1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#initiator_name DataK8SJaegertracingIoJaegerV1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#initiator_name DataK8SJaegertracingIoJaegerV1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#iqn DataK8SJaegertracingIoJaegerV1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#iqn DataK8SJaegertracingIoJaegerV1Manifest#iqn}
   */
   readonly iqn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#iscsi_interface DataK8SJaegertracingIoJaegerV1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#iscsi_interface DataK8SJaegertracingIoJaegerV1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#lun DataK8SJaegertracingIoJaegerV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#lun DataK8SJaegertracingIoJaegerV1Manifest#lun}
   */
   readonly lun: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#portals DataK8SJaegertracingIoJaegerV1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#portals DataK8SJaegertracingIoJaegerV1Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#target_portal DataK8SJaegertracingIoJaegerV1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#target_portal DataK8SJaegertracingIoJaegerV1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -14872,15 +14872,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesIscsiOutp
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#server DataK8SJaegertracingIoJaegerV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#server DataK8SJaegertracingIoJaegerV1Manifest#server}
   */
   readonly server: string;
 }
@@ -15026,11 +15026,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesNfsOutput
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#claim_name DataK8SJaegertracingIoJaegerV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#claim_name DataK8SJaegertracingIoJaegerV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -15150,11 +15150,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPersisten
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pd_id DataK8SJaegertracingIoJaegerV1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pd_id DataK8SJaegertracingIoJaegerV1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -15274,15 +15274,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPhotonPer
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_id DataK8SJaegertracingIoJaegerV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_id DataK8SJaegertracingIoJaegerV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -15431,15 +15431,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPortworxV
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15607,11 +15607,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15734,23 +15734,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#signer_name DataK8SJaegertracingIoJaegerV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#signer_name DataK8SJaegertracingIoJaegerV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -15957,15 +15957,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -16133,15 +16133,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
   */
   readonly items?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16293,11 +16293,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_version DataK8SJaegertracingIoJaegerV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#api_version DataK8SJaegertracingIoJaegerV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_path DataK8SJaegertracingIoJaegerV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_path DataK8SJaegertracingIoJaegerV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -16417,15 +16417,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#container_name DataK8SJaegertracingIoJaegerV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#container_name DataK8SJaegertracingIoJaegerV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#divisor DataK8SJaegertracingIoJaegerV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#divisor DataK8SJaegertracingIoJaegerV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource DataK8SJaegertracingIoJaegerV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource DataK8SJaegertracingIoJaegerV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -16574,19 +16574,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_ref DataK8SJaegertracingIoJaegerV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#field_ref DataK8SJaegertracingIoJaegerV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource_field_ref DataK8SJaegertracingIoJaegerV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resource_field_ref DataK8SJaegertracingIoJaegerV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -16786,7 +16786,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
   */
   readonly items?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -16880,15 +16880,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -17056,15 +17056,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
   */
   readonly items?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17216,15 +17216,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#audience DataK8SJaegertracingIoJaegerV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#audience DataK8SJaegertracingIoJaegerV1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#expiration_seconds DataK8SJaegertracingIoJaegerV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#expiration_seconds DataK8SJaegertracingIoJaegerV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -17373,23 +17373,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#cluster_trust_bundle DataK8SJaegertracingIoJaegerV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#cluster_trust_bundle DataK8SJaegertracingIoJaegerV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#config_map DataK8SJaegertracingIoJaegerV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#config_map DataK8SJaegertracingIoJaegerV1Manifest#config_map}
   */
   readonly configMap?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#downward_api DataK8SJaegertracingIoJaegerV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#downward_api DataK8SJaegertracingIoJaegerV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret DataK8SJaegertracingIoJaegerV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret DataK8SJaegertracingIoJaegerV1Manifest#secret}
   */
   readonly secret?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service_account_token DataK8SJaegertracingIoJaegerV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service_account_token DataK8SJaegertracingIoJaegerV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSourcesServiceAccountToken;
 }
@@ -17621,11 +17621,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sources DataK8SJaegertracingIoJaegerV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#sources DataK8SJaegertracingIoJaegerV1Manifest#sources}
   */
   readonly sources?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -17748,27 +17748,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesQuobyte {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#group DataK8SJaegertracingIoJaegerV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#group DataK8SJaegertracingIoJaegerV1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#registry DataK8SJaegertracingIoJaegerV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#registry DataK8SJaegertracingIoJaegerV1Manifest#registry}
   */
   readonly registry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tenant DataK8SJaegertracingIoJaegerV1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tenant DataK8SJaegertracingIoJaegerV1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume DataK8SJaegertracingIoJaegerV1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume DataK8SJaegertracingIoJaegerV1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -18001,7 +18001,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesQuobyteOu
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesRbdSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18095,35 +18095,35 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesRbdSecret
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesRbd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image DataK8SJaegertracingIoJaegerV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image DataK8SJaegertracingIoJaegerV1Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#keyring DataK8SJaegertracingIoJaegerV1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#keyring DataK8SJaegertracingIoJaegerV1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#monitors DataK8SJaegertracingIoJaegerV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#monitors DataK8SJaegertracingIoJaegerV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pool DataK8SJaegertracingIoJaegerV1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pool DataK8SJaegertracingIoJaegerV1Manifest#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesRbdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -18414,7 +18414,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesRbdOutput
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesScaleIoSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18508,43 +18508,43 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesScaleIoSe
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesScaleIo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gateway DataK8SJaegertracingIoJaegerV1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gateway DataK8SJaegertracingIoJaegerV1Manifest#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#protection_domain DataK8SJaegertracingIoJaegerV1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#protection_domain DataK8SJaegertracingIoJaegerV1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesScaleIoSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#ssl_enabled DataK8SJaegertracingIoJaegerV1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#ssl_enabled DataK8SJaegertracingIoJaegerV1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_mode DataK8SJaegertracingIoJaegerV1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_mode DataK8SJaegertracingIoJaegerV1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_pool DataK8SJaegertracingIoJaegerV1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_pool DataK8SJaegertracingIoJaegerV1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#system DataK8SJaegertracingIoJaegerV1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#system DataK8SJaegertracingIoJaegerV1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_name DataK8SJaegertracingIoJaegerV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_name DataK8SJaegertracingIoJaegerV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -18890,15 +18890,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesScaleIoOu
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mode DataK8SJaegertracingIoJaegerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#path DataK8SJaegertracingIoJaegerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -19066,19 +19066,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesSecretIte
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#default_mode DataK8SJaegertracingIoJaegerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#items DataK8SJaegertracingIoJaegerV1Manifest#items}
   */
   readonly items?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#optional DataK8SJaegertracingIoJaegerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_name DataK8SJaegertracingIoJaegerV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_name DataK8SJaegertracingIoJaegerV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -19259,7 +19259,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesSecretOut
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -19353,23 +19353,23 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesStorageos
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only DataK8SJaegertracingIoJaegerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret_ref DataK8SJaegertracingIoJaegerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_name DataK8SJaegertracingIoJaegerV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_name DataK8SJaegertracingIoJaegerV1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_namespace DataK8SJaegertracingIoJaegerV1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_namespace DataK8SJaegertracingIoJaegerV1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -19579,19 +19579,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesStorageos
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fs_type DataK8SJaegertracingIoJaegerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_policy_id DataK8SJaegertracingIoJaegerV1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_policy_id DataK8SJaegertracingIoJaegerV1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_policy_name DataK8SJaegertracingIoJaegerV1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storage_policy_name DataK8SJaegertracingIoJaegerV1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_path DataK8SJaegertracingIoJaegerV1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_path DataK8SJaegertracingIoJaegerV1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -19769,123 +19769,123 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesVsphereVo
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#aws_elastic_block_store DataK8SJaegertracingIoJaegerV1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#aws_elastic_block_store DataK8SJaegertracingIoJaegerV1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#azure_disk DataK8SJaegertracingIoJaegerV1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#azure_disk DataK8SJaegertracingIoJaegerV1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#azure_file DataK8SJaegertracingIoJaegerV1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#azure_file DataK8SJaegertracingIoJaegerV1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#cephfs DataK8SJaegertracingIoJaegerV1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#cephfs DataK8SJaegertracingIoJaegerV1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#cinder DataK8SJaegertracingIoJaegerV1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#cinder DataK8SJaegertracingIoJaegerV1Manifest#cinder}
   */
   readonly cinder?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#config_map DataK8SJaegertracingIoJaegerV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#config_map DataK8SJaegertracingIoJaegerV1Manifest#config_map}
   */
   readonly configMap?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#csi DataK8SJaegertracingIoJaegerV1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#csi DataK8SJaegertracingIoJaegerV1Manifest#csi}
   */
   readonly csi?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#downward_api DataK8SJaegertracingIoJaegerV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#downward_api DataK8SJaegertracingIoJaegerV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#empty_dir DataK8SJaegertracingIoJaegerV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#empty_dir DataK8SJaegertracingIoJaegerV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#ephemeral DataK8SJaegertracingIoJaegerV1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#ephemeral DataK8SJaegertracingIoJaegerV1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fc DataK8SJaegertracingIoJaegerV1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#fc DataK8SJaegertracingIoJaegerV1Manifest#fc}
   */
   readonly fc?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#flex_volume DataK8SJaegertracingIoJaegerV1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#flex_volume DataK8SJaegertracingIoJaegerV1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#flocker DataK8SJaegertracingIoJaegerV1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#flocker DataK8SJaegertracingIoJaegerV1Manifest#flocker}
   */
   readonly flocker?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gce_persistent_disk DataK8SJaegertracingIoJaegerV1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gce_persistent_disk DataK8SJaegertracingIoJaegerV1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#git_repo DataK8SJaegertracingIoJaegerV1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#git_repo DataK8SJaegertracingIoJaegerV1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#glusterfs DataK8SJaegertracingIoJaegerV1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#glusterfs DataK8SJaegertracingIoJaegerV1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_path DataK8SJaegertracingIoJaegerV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_path DataK8SJaegertracingIoJaegerV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#iscsi DataK8SJaegertracingIoJaegerV1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#iscsi DataK8SJaegertracingIoJaegerV1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#nfs DataK8SJaegertracingIoJaegerV1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#nfs DataK8SJaegertracingIoJaegerV1Manifest#nfs}
   */
   readonly nfs?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#persistent_volume_claim DataK8SJaegertracingIoJaegerV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#persistent_volume_claim DataK8SJaegertracingIoJaegerV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#photon_persistent_disk DataK8SJaegertracingIoJaegerV1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#photon_persistent_disk DataK8SJaegertracingIoJaegerV1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#portworx_volume DataK8SJaegertracingIoJaegerV1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#portworx_volume DataK8SJaegertracingIoJaegerV1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesPortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#projected DataK8SJaegertracingIoJaegerV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#projected DataK8SJaegertracingIoJaegerV1Manifest#projected}
   */
   readonly projected?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#quobyte DataK8SJaegertracingIoJaegerV1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#quobyte DataK8SJaegertracingIoJaegerV1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#rbd DataK8SJaegertracingIoJaegerV1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#rbd DataK8SJaegertracingIoJaegerV1Manifest#rbd}
   */
   readonly rbd?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scale_io DataK8SJaegertracingIoJaegerV1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#scale_io DataK8SJaegertracingIoJaegerV1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret DataK8SJaegertracingIoJaegerV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#secret DataK8SJaegertracingIoJaegerV1Manifest#secret}
   */
   readonly secret?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storageos DataK8SJaegertracingIoJaegerV1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#storageos DataK8SJaegertracingIoJaegerV1Manifest#storageos}
   */
   readonly storageos?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#vsphere_volume DataK8SJaegertracingIoJaegerV1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#vsphere_volume DataK8SJaegertracingIoJaegerV1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesVsphereVolume;
 }
@@ -20839,111 +20839,111 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumesList exte
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#affinity DataK8SJaegertracingIoJaegerV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#affinity DataK8SJaegertracingIoJaegerV1Manifest#affinity}
   */
   readonly affinity?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#annotations DataK8SJaegertracingIoJaegerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#annotations DataK8SJaegertracingIoJaegerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#autoscale DataK8SJaegertracingIoJaegerV1Manifest#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#autoscale DataK8SJaegertracingIoJaegerV1Manifest#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#config DataK8SJaegertracingIoJaegerV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#config DataK8SJaegertracingIoJaegerV1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#container_security_context DataK8SJaegertracingIoJaegerV1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#container_security_context DataK8SJaegertracingIoJaegerV1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorContainerSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image DataK8SJaegertracingIoJaegerV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image DataK8SJaegertracingIoJaegerV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image_pull_policy DataK8SJaegertracingIoJaegerV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image_pull_policy DataK8SJaegertracingIoJaegerV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image_pull_secrets DataK8SJaegertracingIoJaegerV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#image_pull_secrets DataK8SJaegertracingIoJaegerV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kafka_secret_name DataK8SJaegertracingIoJaegerV1Manifest#kafka_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#kafka_secret_name DataK8SJaegertracingIoJaegerV1Manifest#kafka_secret_name}
   */
   readonly kafkaSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#labels DataK8SJaegertracingIoJaegerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#labels DataK8SJaegertracingIoJaegerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#lifecycle DataK8SJaegertracingIoJaegerV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#lifecycle DataK8SJaegertracingIoJaegerV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#liveness_probe DataK8SJaegertracingIoJaegerV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#liveness_probe DataK8SJaegertracingIoJaegerV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#max_replicas DataK8SJaegertracingIoJaegerV1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#max_replicas DataK8SJaegertracingIoJaegerV1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#min_replicas DataK8SJaegertracingIoJaegerV1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#min_replicas DataK8SJaegertracingIoJaegerV1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_selector DataK8SJaegertracingIoJaegerV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_selector DataK8SJaegertracingIoJaegerV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#options DataK8SJaegertracingIoJaegerV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#options DataK8SJaegertracingIoJaegerV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#priority_class_name DataK8SJaegertracingIoJaegerV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#priority_class_name DataK8SJaegertracingIoJaegerV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#replicas DataK8SJaegertracingIoJaegerV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#replicas DataK8SJaegertracingIoJaegerV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resources DataK8SJaegertracingIoJaegerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#resources DataK8SJaegertracingIoJaegerV1Manifest#resources}
   */
   readonly resources?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#security_context DataK8SJaegertracingIoJaegerV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#security_context DataK8SJaegertracingIoJaegerV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service_account DataK8SJaegertracingIoJaegerV1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service_account DataK8SJaegertracingIoJaegerV1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service_type DataK8SJaegertracingIoJaegerV1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#service_type DataK8SJaegertracingIoJaegerV1Manifest#service_type}
   */
   readonly serviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#strategy DataK8SJaegertracingIoJaegerV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#strategy DataK8SJaegertracingIoJaegerV1Manifest#strategy}
   */
   readonly strategy?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#termination_grace_period_seconds DataK8SJaegertracingIoJaegerV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#termination_grace_period_seconds DataK8SJaegertracingIoJaegerV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tolerations DataK8SJaegertracingIoJaegerV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#tolerations DataK8SJaegertracingIoJaegerV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_mounts DataK8SJaegertracingIoJaegerV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volume_mounts DataK8SJaegertracingIoJaegerV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volumes DataK8SJaegertracingIoJaegerV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#volumes DataK8SJaegertracingIoJaegerV1Manifest#volumes}
   */
   readonly volumes?: DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorVolumes[] | cdktf.IResolvable;
 }
@@ -21791,11 +21791,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecCollectorOutputReference 
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#add DataK8SJaegertracingIoJaegerV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#add DataK8SJaegertracingIoJaegerV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#drop DataK8SJaegertracingIoJaegerV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#drop DataK8SJaegertracingIoJaegerV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -21918,19 +21918,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextC
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#level DataK8SJaegertracingIoJaegerV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#level DataK8SJaegertracingIoJaegerV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#role DataK8SJaegertracingIoJaegerV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#role DataK8SJaegertracingIoJaegerV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#user DataK8SJaegertracingIoJaegerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -22111,11 +22111,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextS
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#localhost_profile DataK8SJaegertracingIoJaegerV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#localhost_profile DataK8SJaegertracingIoJaegerV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#type DataK8SJaegertracingIoJaegerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -22235,19 +22235,19 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextS
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec_name DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#gmsa_credential_spec_name DataK8SJaegertracingIoJaegerV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_process DataK8SJaegertracingIoJaegerV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#host_process DataK8SJaegertracingIoJaegerV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user_name DataK8SJaegertracingIoJaegerV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user_name DataK8SJaegertracingIoJaegerV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -22428,47 +22428,47 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextW
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#allow_privilege_escalation DataK8SJaegertracingIoJaegerV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#allow_privilege_escalation DataK8SJaegertracingIoJaegerV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#capabilities DataK8SJaegertracingIoJaegerV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#capabilities DataK8SJaegertracingIoJaegerV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#privileged DataK8SJaegertracingIoJaegerV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#privileged DataK8SJaegertracingIoJaegerV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#proc_mount DataK8SJaegertracingIoJaegerV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#proc_mount DataK8SJaegertracingIoJaegerV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only_root_filesystem DataK8SJaegertracingIoJaegerV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#read_only_root_filesystem DataK8SJaegertracingIoJaegerV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_group DataK8SJaegertracingIoJaegerV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_group DataK8SJaegertracingIoJaegerV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_non_root DataK8SJaegertracingIoJaegerV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_non_root DataK8SJaegertracingIoJaegerV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user DataK8SJaegertracingIoJaegerV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#run_as_user DataK8SJaegertracingIoJaegerV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#se_linux_options DataK8SJaegertracingIoJaegerV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#se_linux_options DataK8SJaegertracingIoJaegerV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seccomp_profile DataK8SJaegertracingIoJaegerV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#seccomp_profile DataK8SJaegertracingIoJaegerV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#windows_options DataK8SJaegertracingIoJaegerV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#windows_options DataK8SJaegertracingIoJaegerV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextWindowsOptions;
 }
@@ -22852,7 +22852,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecContainerSecurityContextO
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#name DataK8SJaegertracingIoJaegerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22968,15 +22968,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecImagePullSecretsList exte
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23144,15 +23144,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23320,11 +23320,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_fields DataK8SJaegertracingIoJaegerV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_fields DataK8SJaegertracingIoJaegerV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -23447,11 +23447,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preference DataK8SJaegertracingIoJaegerV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preference DataK8SJaegertracingIoJaegerV1Manifest#preference}
   */
   readonly preference: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -23590,15 +23590,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23766,15 +23766,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23942,11 +23942,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_fields DataK8SJaegertracingIoJaegerV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_fields DataK8SJaegertracingIoJaegerV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -24091,7 +24091,7 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_selector_terms DataK8SJaegertracingIoJaegerV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_selector_terms DataK8SJaegertracingIoJaegerV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -24182,11 +24182,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -24309,15 +24309,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffin
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24485,11 +24485,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24612,15 +24612,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24788,11 +24788,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24915,27 +24915,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -25171,11 +25171,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity_term DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity_term DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -25314,15 +25314,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25490,11 +25490,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25617,15 +25617,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25793,11 +25793,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25920,27 +25920,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -26198,11 +26198,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -26325,15 +26325,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffini
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26501,11 +26501,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26628,15 +26628,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26804,11 +26804,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26931,27 +26931,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -27187,11 +27187,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity_term DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity_term DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#weight DataK8SJaegertracingIoJaegerV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -27330,15 +27330,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27506,11 +27506,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27633,15 +27633,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#key DataK8SJaegertracingIoJaegerV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#operator DataK8SJaegertracingIoJaegerV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#values DataK8SJaegertracingIoJaegerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27809,11 +27809,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_expressions DataK8SJaegertracingIoJaegerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_labels DataK8SJaegertracingIoJaegerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27936,27 +27936,27 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#label_selector DataK8SJaegertracingIoJaegerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#match_label_keys DataK8SJaegertracingIoJaegerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#mismatch_label_keys DataK8SJaegertracingIoJaegerV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespace_selector DataK8SJaegertracingIoJaegerV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#namespaces DataK8SJaegertracingIoJaegerV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#topology_key DataK8SJaegertracingIoJaegerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -28214,11 +28214,11 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SJaegertracingIoJaegerV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -28341,15 +28341,15 @@ export class DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAf
 }
 export interface DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_affinity DataK8SJaegertracingIoJaegerV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#node_affinity DataK8SJaegertracingIoJaegerV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_anti_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/jaegertracing_io_jaeger_v1_manifest#pod_anti_affinity DataK8SJaegertracingIoJaegerV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SJaegertracingIoJaegerV1ManifestSpecIngesterAffinityPodAntiAffinity;
 }

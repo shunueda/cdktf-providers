@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#metadata DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#metadata DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#spec DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#spec DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#annotations DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#annotations DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,13 +185,13 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSp
   /**
   * Specifies the target ResourceVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * Specifies the target UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -316,43 +316,43 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSp
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#dry_run DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#dry_run DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#dry_run}
   */
   readonly dryRun?: string[];
   /**
   * The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#grace_period_seconds DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#grace_period_seconds DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#grace_period_seconds}
   */
   readonly gracePeriodSeconds?: number;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the 'orphan' finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#orphan_dependents DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#orphan_dependents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#orphan_dependents DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#orphan_dependents}
   */
   readonly orphanDependents?: boolean | cdktf.IResolvable;
   /**
   * Must be fulfilled before a deletion is carried out. If not possible, a 409 Conflict status will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#preconditions DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#preconditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#preconditions DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#preconditions}
   */
   readonly preconditions?: DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSpecDeleteOptionsPreconditions;
   /**
   * Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#propagation_policy DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#propagation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#propagation_policy DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#propagation_policy}
   */
   readonly propagationPolicy?: string;
 }
@@ -622,43 +622,43 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSp
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#field_path DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#field_path DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -928,43 +928,43 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSp
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#field_path DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#field_path DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1234,19 +1234,19 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSp
   /**
   * PreemptionOption decides whether to preempt other Pods. The preemption is safe and reserves resources for preempted Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#preemption_options DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#preemption_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#preemption_options DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#preemption_options}
   */
   readonly preemptionOptions?: { [key: string]: string };
   /**
   * ReservationRef if specified, PodMigrationJob will check if the status of Reservation is available. ReservationRef if not specified, PodMigrationJob controller will create Reservation by Template, and update the ReservationRef to reference the Reservation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#reservation_ref DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#reservation_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#reservation_ref DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#reservation_ref}
   */
   readonly reservationRef?: DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSpecReservationOptionsReservationRef;
   /**
   * Template is the object that describes the Reservation that will be created if not specified ReservationRef
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#template DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#template DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#template}
   */
   readonly template?: { [key: string]: string };
 }
@@ -1400,37 +1400,37 @@ export interface DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSp
   /**
   * DeleteOptions defines the deleting options for the migrated Pod and preempted Pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#delete_options DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#delete_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#delete_options DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#delete_options}
   */
   readonly deleteOptions?: DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSpecDeleteOptions;
   /**
   * Mode represents the operating mode of the Job Default is PodMigrationJobModeReservationFirst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#mode DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#mode DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Paused indicates whether the PodMigrationJob should to work or not. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#paused DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#paused DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * PodRef represents the Pod that be migrated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#pod_ref DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#pod_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#pod_ref DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#pod_ref}
   */
   readonly podRef: DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSpecPodRef;
   /**
   * ReservationOptions defines the Reservation options for migrated Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#reservation_options DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#reservation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#reservation_options DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#reservation_options}
   */
   readonly reservationOptions?: DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSpecReservationOptions;
   /**
   * TTL controls the PodMigrationJob timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#ttl DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#ttl DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -1666,7 +1666,7 @@ export class DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest k8s_scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest k8s_scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest}
 */
 export class DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1682,7 +1682,7 @@ export class DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1694,7 +1694,7 @@ export class DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest k8s_scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest k8s_scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1705,8 +1705,8 @@ export class DataK8SSchedulingKoordinatorShPodMigrationJobV1Alpha1Manifest exten
       terraformResourceType: 'k8s_scheduling_koordinator_sh_pod_migration_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

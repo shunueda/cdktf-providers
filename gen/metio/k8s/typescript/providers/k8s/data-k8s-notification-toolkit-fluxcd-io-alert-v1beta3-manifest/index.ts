@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#metadata DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#metadata DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#metadata}
   */
   readonly metadata: DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestMetadata;
   /**
   * AlertSpec defines an alerting rule for events involving a list of objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#spec DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#spec DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#spec}
   */
   readonly spec?: DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#annotations DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#annotations DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#labels DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#labels DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#name DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#name DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#namespace DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#namespace DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestSpecEvent
   /**
   * API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#api_version DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#api_version DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#kind DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#kind DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#kind}
   */
   readonly kind: string;
   /**
   * MatchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed. MatchLabels requires the name to be set to '*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#match_labels DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#match_labels DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * Name of the referent If multiple resources are targeted '*' may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#name DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#name DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#namespace DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#namespace DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -471,7 +471,7 @@ export interface DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestSpecProvi
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#name DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#name DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#name}
   */
   readonly name: string;
 }
@@ -564,49 +564,49 @@ export interface DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestSpec {
   /**
   * EventMetadata is an optional field for adding metadata to events dispatched by the controller. This can be used for enhancing the context of the event. If a field would override one already present on the original event as generated by the emitter, then the override doesn't happen, i.e. the original value is preserved, and an info log is printed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#event_metadata DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#event_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#event_metadata DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#event_metadata}
   */
   readonly eventMetadata?: { [key: string]: string };
   /**
   * EventSeverity specifies how to filter events based on severity. If set to 'info' no events will be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#event_severity DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#event_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#event_severity DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#event_severity}
   */
   readonly eventSeverity?: string;
   /**
   * EventSources specifies how to filter events based on the involved object kind, name and namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#event_sources DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#event_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#event_sources DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#event_sources}
   */
   readonly eventSources: DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestSpecEventSources[] | cdktf.IResolvable;
   /**
   * ExclusionList specifies a list of Golang regular expressions to be used for excluding messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#exclusion_list DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#exclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#exclusion_list DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#exclusion_list}
   */
   readonly exclusionList?: string[];
   /**
   * InclusionList specifies a list of Golang regular expressions to be used for including messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#inclusion_list DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#inclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#inclusion_list DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#inclusion_list}
   */
   readonly inclusionList?: string[];
   /**
   * ProviderRef specifies which Provider this Alert should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#provider_ref DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#provider_ref DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#provider_ref}
   */
   readonly providerRef: DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestSpecProviderRef;
   /**
   * Summary holds a short description of the impact and affected cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#summary DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#summary DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#summary}
   */
   readonly summary?: string;
   /**
   * Suspend tells the controller to suspend subsequent events handling for this Alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#suspend DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#suspend DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
 }
@@ -897,7 +897,7 @@ export class DataK8SNotificationToolkitFluxcdIoAlertV1Beta3ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest k8s_notification_toolkit_fluxcd_io_alert_v1beta3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest k8s_notification_toolkit_fluxcd_io_alert_v1beta3_manifest}
 */
 export class DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest extends cdktf.TerraformDataSource {
 
@@ -913,7 +913,7 @@ export class DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest to import
-  * @param importFromId The id of the existing DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -925,7 +925,7 @@ export class DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest k8s_notification_toolkit_fluxcd_io_alert_v1beta3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/notification_toolkit_fluxcd_io_alert_v1beta3_manifest k8s_notification_toolkit_fluxcd_io_alert_v1beta3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -936,8 +936,8 @@ export class DataK8SNotificationToolkitFluxcdIoAlertV1Beta3Manifest extends cdkt
       terraformResourceType: 'k8s_notification_toolkit_fluxcd_io_alert_v1beta3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

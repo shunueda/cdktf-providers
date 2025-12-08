@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment
+// https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,51 @@ import * as cdktf from 'cdktf';
 
 export interface L2SegmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#id L2Segment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#id L2Segment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#labels L2Segment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#labels L2Segment#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#location_group L2Segment#location_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#location_group L2Segment#location_group}
   */
   readonly locationGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#name L2Segment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#name L2Segment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#type L2Segment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#type L2Segment#type}
   */
   readonly type: string;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#member L2Segment#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#member L2Segment#member}
   */
   readonly member: L2SegmentMember[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#timeouts L2Segment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#timeouts L2Segment#timeouts}
   */
   readonly timeouts?: L2SegmentTimeouts;
 }
 export interface L2SegmentMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#id L2Segment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#id L2Segment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#mode L2Segment#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#mode L2Segment#mode}
   */
   readonly mode: string;
 }
@@ -211,15 +211,15 @@ export class L2SegmentMemberList extends cdktf.ComplexList {
 }
 export interface L2SegmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#create L2Segment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#create L2Segment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#delete L2Segment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#delete L2Segment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#update L2Segment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#update L2Segment#update}
   */
   readonly update?: string;
 }
@@ -371,7 +371,7 @@ export class L2SegmentTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment serverscom_l2_segment}
+* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment serverscom_l2_segment}
 */
 export class L2Segment extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class L2Segment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a L2Segment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the L2Segment to import
-  * @param importFromId The id of the existing L2Segment that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing L2Segment that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the L2Segment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class L2Segment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/l2_segment serverscom_l2_segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/l2_segment serverscom_l2_segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class L2Segment extends cdktf.TerraformResource {
       terraformResourceType: 'serverscom_l2_segment',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestMetadata;
   /**
   * DatabaseSpec defines the desired state of Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecAdminPa
   /**
   * ProjectId identifies the project where the secret resource is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#project_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#project_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#project_id}
   */
   readonly projectId?: string;
   /**
   * SecretId identifies the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#secret_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#secret_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#secret_id}
   */
   readonly secretId?: string;
   /**
   * Version is the version of the secret. If 'latest' is specified, underlying the latest SecretId is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -385,19 +385,19 @@ export interface DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecUsersGs
   /**
   * ProjectId identifies the project where the secret resource is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#project_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#project_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#project_id}
   */
   readonly projectId?: string;
   /**
   * SecretId identifies the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#secret_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#secret_id DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#secret_id}
   */
   readonly secretId?: string;
   /**
   * Version is the version of the secret. If 'latest' is specified, underlying the latest SecretId is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -551,13 +551,13 @@ export interface DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecUsersSe
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -682,31 +682,31 @@ export interface DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecUsers {
   /**
   * A reference to a GSM secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#gsm_secret_ref DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#gsm_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#gsm_secret_ref DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#gsm_secret_ref}
   */
   readonly gsmSecretRef?: DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecUsersGsmSecretRef;
   /**
   * Name of the User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Plaintext password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#password DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#password DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Privileges specifies an optional list of privileges to grant to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#privileges DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#privileges DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#privileges}
   */
   readonly privileges?: string[];
   /**
   * A reference to a k8s secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#secret_ref DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#secret_ref DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecUsersSecretRef;
 }
@@ -940,31 +940,31 @@ export interface DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpec {
   /**
   * AdminPassword is the password for the sys admin of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#admin_password DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#admin_password DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * AdminPasswordGsmSecretRef is a reference to the secret object containing sensitive information to pass to config agent. This field is optional, and may be empty if plaintext password is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#admin_password_gsm_secret_ref DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#admin_password_gsm_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#admin_password_gsm_secret_ref DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#admin_password_gsm_secret_ref}
   */
   readonly adminPasswordGsmSecretRef?: DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecAdminPasswordGsmSecretRef;
   /**
   * Name of the instance that the database belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#instance DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#instance DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#instance}
   */
   readonly instance?: string;
   /**
   * Name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Users specifies an optional list of users to be created in this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#users DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#users DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest#users}
   */
   readonly users?: DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecUsers[] | cdktf.IResolvable;
 }
@@ -1174,7 +1174,7 @@ export class DataK8SOracleDbAnthosapisComDatabaseV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest k8s_oracle_db_anthosapis_com_database_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest k8s_oracle_db_anthosapis_com_database_v1alpha1_manifest}
 */
 export class DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1190,7 +1190,7 @@ export class DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1202,7 +1202,7 @@ export class DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest k8s_oracle_db_anthosapis_com_database_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_database_v1alpha1_manifest k8s_oracle_db_anthosapis_com_database_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1213,8 +1213,8 @@ export class DataK8SOracleDbAnthosapisComDatabaseV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_oracle_db_anthosapis_com_database_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionAntiBruteForceRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#anti_brute_force_rule_name ThreatDetectionAntiBruteForceRule#anti_brute_force_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#anti_brute_force_rule_name ThreatDetectionAntiBruteForceRule#anti_brute_force_rule_name}
   */
   readonly antiBruteForceRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#default_rule ThreatDetectionAntiBruteForceRule#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#default_rule ThreatDetectionAntiBruteForceRule#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#fail_count ThreatDetectionAntiBruteForceRule#fail_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#fail_count ThreatDetectionAntiBruteForceRule#fail_count}
   */
   readonly failCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#forbidden_time ThreatDetectionAntiBruteForceRule#forbidden_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#forbidden_time ThreatDetectionAntiBruteForceRule#forbidden_time}
   */
   readonly forbiddenTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#id ThreatDetectionAntiBruteForceRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#id ThreatDetectionAntiBruteForceRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#span ThreatDetectionAntiBruteForceRule#span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#span ThreatDetectionAntiBruteForceRule#span}
   */
   readonly span: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#uuid_list ThreatDetectionAntiBruteForceRule#uuid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#uuid_list ThreatDetectionAntiBruteForceRule#uuid_list}
   */
   readonly uuidList: string[];
   /**
   * protocol_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#protocol_type ThreatDetectionAntiBruteForceRule#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#protocol_type ThreatDetectionAntiBruteForceRule#protocol_type}
   */
   readonly protocolType?: ThreatDetectionAntiBruteForceRuleProtocolType;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#timeouts ThreatDetectionAntiBruteForceRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#timeouts ThreatDetectionAntiBruteForceRule#timeouts}
   */
   readonly timeouts?: ThreatDetectionAntiBruteForceRuleTimeouts;
 }
 export interface ThreatDetectionAntiBruteForceRuleProtocolType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#rdp ThreatDetectionAntiBruteForceRule#rdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#rdp ThreatDetectionAntiBruteForceRule#rdp}
   */
   readonly rdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#sql_server ThreatDetectionAntiBruteForceRule#sql_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#sql_server ThreatDetectionAntiBruteForceRule#sql_server}
   */
   readonly sqlServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#ssh ThreatDetectionAntiBruteForceRule#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#ssh ThreatDetectionAntiBruteForceRule#ssh}
   */
   readonly ssh?: string;
 }
@@ -203,15 +203,15 @@ export class ThreatDetectionAntiBruteForceRuleProtocolTypeOutputReference extend
 }
 export interface ThreatDetectionAntiBruteForceRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#create ThreatDetectionAntiBruteForceRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#create ThreatDetectionAntiBruteForceRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#delete ThreatDetectionAntiBruteForceRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#delete ThreatDetectionAntiBruteForceRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#update ThreatDetectionAntiBruteForceRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#update ThreatDetectionAntiBruteForceRule#update}
   */
   readonly update?: string;
 }
@@ -363,7 +363,7 @@ export class ThreatDetectionAntiBruteForceRuleTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule alicloud_threat_detection_anti_brute_force_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule alicloud_threat_detection_anti_brute_force_rule}
 */
 export class ThreatDetectionAntiBruteForceRule extends cdktf.TerraformResource {
 
@@ -379,7 +379,7 @@ export class ThreatDetectionAntiBruteForceRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionAntiBruteForceRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionAntiBruteForceRule to import
-  * @param importFromId The id of the existing ThreatDetectionAntiBruteForceRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionAntiBruteForceRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionAntiBruteForceRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class ThreatDetectionAntiBruteForceRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_anti_brute_force_rule alicloud_threat_detection_anti_brute_force_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_anti_brute_force_rule alicloud_threat_detection_anti_brute_force_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,8 +402,8 @@ export class ThreatDetectionAntiBruteForceRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_anti_brute_force_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

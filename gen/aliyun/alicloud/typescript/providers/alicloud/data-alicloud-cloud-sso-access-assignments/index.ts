@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCloudSsoAccessAssignmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#access_configuration_id DataAlicloudCloudSsoAccessAssignments#access_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#access_configuration_id DataAlicloudCloudSsoAccessAssignments#access_configuration_id}
   */
   readonly accessConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#directory_id DataAlicloudCloudSsoAccessAssignments#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#directory_id DataAlicloudCloudSsoAccessAssignments#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#id DataAlicloudCloudSsoAccessAssignments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#id DataAlicloudCloudSsoAccessAssignments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#ids DataAlicloudCloudSsoAccessAssignments#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#ids DataAlicloudCloudSsoAccessAssignments#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#output_file DataAlicloudCloudSsoAccessAssignments#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#output_file DataAlicloudCloudSsoAccessAssignments#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#principal_type DataAlicloudCloudSsoAccessAssignments#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#principal_type DataAlicloudCloudSsoAccessAssignments#principal_type}
   */
   readonly principalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#target_id DataAlicloudCloudSsoAccessAssignments#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#target_id DataAlicloudCloudSsoAccessAssignments#target_id}
   */
   readonly targetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#target_type DataAlicloudCloudSsoAccessAssignments#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#target_type DataAlicloudCloudSsoAccessAssignments#target_type}
   */
   readonly targetType?: string;
 }
@@ -170,7 +170,7 @@ export class DataAlicloudCloudSsoAccessAssignmentsAssignmentsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments alicloud_cloud_sso_access_assignments}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments alicloud_cloud_sso_access_assignments}
 */
 export class DataAlicloudCloudSsoAccessAssignments extends cdktf.TerraformDataSource {
 
@@ -186,7 +186,7 @@ export class DataAlicloudCloudSsoAccessAssignments extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAlicloudCloudSsoAccessAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCloudSsoAccessAssignments to import
-  * @param importFromId The id of the existing DataAlicloudCloudSsoAccessAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCloudSsoAccessAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCloudSsoAccessAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class DataAlicloudCloudSsoAccessAssignments extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_assignments alicloud_cloud_sso_access_assignments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_sso_access_assignments alicloud_cloud_sso_access_assignments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class DataAlicloudCloudSsoAccessAssignments extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_cloud_sso_access_assignments',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

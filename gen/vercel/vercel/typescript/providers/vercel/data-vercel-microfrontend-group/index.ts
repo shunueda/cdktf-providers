@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/microfrontend_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVercelMicrofrontendGroupConfig extends cdktf.TerraformMetaA
   /**
   * A unique identifier for the group of microfrontends. Example: mfe_12HKQaOmR5t5Uy6vdcQsNIiZgHGB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group#id DataVercelMicrofrontendGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/microfrontend_group#id DataVercelMicrofrontendGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataVercelMicrofrontendGroupConfig extends cdktf.TerraformMetaA
   /**
   * The team ID to add the project to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group#team_id DataVercelMicrofrontendGroup#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/microfrontend_group#team_id DataVercelMicrofrontendGroup#team_id}
   */
   readonly teamId?: string;
 }
@@ -84,7 +84,7 @@ export class DataVercelMicrofrontendGroupDefaultAppOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group vercel_microfrontend_group}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/microfrontend_group vercel_microfrontend_group}
 */
 export class DataVercelMicrofrontendGroup extends cdktf.TerraformDataSource {
 
@@ -100,7 +100,7 @@ export class DataVercelMicrofrontendGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelMicrofrontendGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelMicrofrontendGroup to import
-  * @param importFromId The id of the existing DataVercelMicrofrontendGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelMicrofrontendGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/microfrontend_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelMicrofrontendGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -112,7 +112,7 @@ export class DataVercelMicrofrontendGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group vercel_microfrontend_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/microfrontend_group vercel_microfrontend_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -123,8 +123,8 @@ export class DataVercelMicrofrontendGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_microfrontend_group',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

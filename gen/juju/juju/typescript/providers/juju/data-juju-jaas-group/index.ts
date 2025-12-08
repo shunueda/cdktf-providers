@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/data-sources/jaas_group
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/jaas_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataJujuJaasGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/data-sources/jaas_group#name DataJujuJaasGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/jaas_group#name DataJujuJaasGroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/data-sources/jaas_group juju_jaas_group}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/jaas_group juju_jaas_group}
 */
 export class DataJujuJaasGroup extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataJujuJaasGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataJujuJaasGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJujuJaasGroup to import
-  * @param importFromId The id of the existing DataJujuJaasGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/data-sources/jaas_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJujuJaasGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/jaas_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJujuJaasGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataJujuJaasGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/data-sources/jaas_group juju_jaas_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/jaas_group juju_jaas_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataJujuJaasGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'juju_jaas_group',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,132 +10,132 @@ export interface ServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * If the server should be auto-started in case of a failure (default=true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#auto_recovery Server#auto_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#auto_recovery Server#auto_recovery}
   */
   readonly autoRecovery?: boolean | cdktf.IResolvable;
   /**
   * Defines which Availability-Zone the Server is placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#availability_zone Server#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#availability_zone Server#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The number of server cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#cores Server#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#cores Server#cores}
   */
   readonly cores: number;
   /**
   * Specifies the hardware settings for the virtual machine. Note: hardware_profile and hardware_profile_config parameters can't be used at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#hardware_profile Server#hardware_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#hardware_profile Server#hardware_profile}
   */
   readonly hardwareProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#id Server#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#id Server#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#ipv4 Server#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#ipv4 Server#ipv4}
   */
   readonly ipv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#ipv6 Server#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#ipv6 Server#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#isoimage Server#isoimage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#isoimage Server#isoimage}
   */
   readonly isoimage?: string;
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#labels Server#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#labels Server#labels}
   */
   readonly labels?: string[];
   /**
   * The amount of server memory in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#memory Server#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#memory Server#memory}
   */
   readonly memory: number;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#name Server#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#name Server#name}
   */
   readonly name: string;
   /**
   * The number of server cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#power Server#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#power Server#power}
   */
   readonly power?: boolean | cdktf.IResolvable;
   /**
   * For system configuration on first boot. May contain cloud-config data or shell scripting, encoded as base64 string. Supported tools are cloud-init, Cloudbase-init, and Ignition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#user_data_base64 Server#user_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#user_data_base64 Server#user_data_base64}
   */
   readonly userDataBase64?: string;
   /**
   * hardware_profile_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#hardware_profile_config Server#hardware_profile_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#hardware_profile_config Server#hardware_profile_config}
   */
   readonly hardwareProfileConfig?: ServerHardwareProfileConfig[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#network Server#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#network Server#network}
   */
   readonly network?: ServerNetwork[] | cdktf.IResolvable;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#storage Server#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#storage Server#storage}
   */
   readonly storage?: ServerStorage[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#timeouts Server#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#timeouts Server#timeouts}
   */
   readonly timeouts?: ServerTimeouts;
 }
 export interface ServerHardwareProfileConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#hyperv_extensions Server#hyperv_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#hyperv_extensions Server#hyperv_extensions}
   */
   readonly hypervExtensions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#machinetype Server#machinetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#machinetype Server#machinetype}
   */
   readonly machinetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#nested_virtualization Server#nested_virtualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#nested_virtualization Server#nested_virtualization}
   */
   readonly nestedVirtualization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#network_model Server#network_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#network_model Server#network_model}
   */
   readonly networkModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#serial_interface Server#serial_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#serial_interface Server#serial_interface}
   */
   readonly serialInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#server_renice Server#server_renice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#server_renice Server#server_renice}
   */
   readonly serverRenice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#storage_device Server#storage_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#storage_device Server#storage_device}
   */
   readonly storageDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#usb_controller Server#usb_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#usb_controller Server#usb_controller}
   */
   readonly usbController?: string;
 }
@@ -456,25 +456,25 @@ export interface ServerNetworkRulesV4In {
   /**
   * This defines what the firewall will do. Either accept or drop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#action Server#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#action Server#action}
   */
   readonly action: string;
   /**
   * Comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#comment Server#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#comment Server#comment}
   */
   readonly comment?: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then all IPs have access to this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_cidr Server#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_cidr Server#dst_cidr}
   */
   readonly dstCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_port Server#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_port Server#dst_port}
   */
   readonly dstPort?: string;
   /**
@@ -483,25 +483,25 @@ export interface ServerNetworkRulesV4In {
   * and it won't be matched against any other rules. However, if it does no match the rule,
   * then it will proceed onto rule 2. Packets that do not match any rules are blocked by default (Only for inbound).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#order Server#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#order Server#order}
   */
   readonly order: number;
   /**
   * Either 'udp' or 'tcp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#protocol Server#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#protocol Server#protocol}
   */
   readonly protocol: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then this service has access to all IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_cidr Server#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_cidr Server#src_cidr}
   */
   readonly srcCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_port Server#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_port Server#src_port}
   */
   readonly srcPort?: string;
 }
@@ -813,25 +813,25 @@ export interface ServerNetworkRulesV4Out {
   /**
   * This defines what the firewall will do. Either accept or drop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#action Server#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#action Server#action}
   */
   readonly action: string;
   /**
   * Comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#comment Server#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#comment Server#comment}
   */
   readonly comment?: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then all IPs have access to this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_cidr Server#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_cidr Server#dst_cidr}
   */
   readonly dstCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_port Server#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_port Server#dst_port}
   */
   readonly dstPort?: string;
   /**
@@ -840,25 +840,25 @@ export interface ServerNetworkRulesV4Out {
   * and it won't be matched against any other rules. However, if it does no match the rule,
   * then it will proceed onto rule 2. Packets that do not match any rules are blocked by default (Only for inbound).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#order Server#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#order Server#order}
   */
   readonly order: number;
   /**
   * Either 'udp' or 'tcp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#protocol Server#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#protocol Server#protocol}
   */
   readonly protocol: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then this service has access to all IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_cidr Server#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_cidr Server#src_cidr}
   */
   readonly srcCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_port Server#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_port Server#src_port}
   */
   readonly srcPort?: string;
 }
@@ -1170,25 +1170,25 @@ export interface ServerNetworkRulesV6In {
   /**
   * This defines what the firewall will do. Either accept or drop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#action Server#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#action Server#action}
   */
   readonly action: string;
   /**
   * Comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#comment Server#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#comment Server#comment}
   */
   readonly comment?: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then all IPs have access to this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_cidr Server#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_cidr Server#dst_cidr}
   */
   readonly dstCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_port Server#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_port Server#dst_port}
   */
   readonly dstPort?: string;
   /**
@@ -1197,25 +1197,25 @@ export interface ServerNetworkRulesV6In {
   * and it won't be matched against any other rules. However, if it does no match the rule,
   * then it will proceed onto rule 2. Packets that do not match any rules are blocked by default (Only for inbound).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#order Server#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#order Server#order}
   */
   readonly order: number;
   /**
   * Either 'udp' or 'tcp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#protocol Server#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#protocol Server#protocol}
   */
   readonly protocol: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then this service has access to all IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_cidr Server#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_cidr Server#src_cidr}
   */
   readonly srcCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_port Server#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_port Server#src_port}
   */
   readonly srcPort?: string;
 }
@@ -1527,25 +1527,25 @@ export interface ServerNetworkRulesV6Out {
   /**
   * This defines what the firewall will do. Either accept or drop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#action Server#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#action Server#action}
   */
   readonly action: string;
   /**
   * Comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#comment Server#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#comment Server#comment}
   */
   readonly comment?: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then all IPs have access to this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_cidr Server#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_cidr Server#dst_cidr}
   */
   readonly dstCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#dst_port Server#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#dst_port Server#dst_port}
   */
   readonly dstPort?: string;
   /**
@@ -1554,25 +1554,25 @@ export interface ServerNetworkRulesV6Out {
   * and it won't be matched against any other rules. However, if it does no match the rule,
   * then it will proceed onto rule 2. Packets that do not match any rules are blocked by default (Only for inbound).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#order Server#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#order Server#order}
   */
   readonly order: number;
   /**
   * Either 'udp' or 'tcp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#protocol Server#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#protocol Server#protocol}
   */
   readonly protocol: string;
   /**
   * Either an IPv4/6 address or and IP Network in CIDR format. If this field is empty then this service has access to all IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_cidr Server#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_cidr Server#src_cidr}
   */
   readonly srcCidr?: string;
   /**
   * A Number between 1 and 65535, port ranges are seperated by a colon for FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#src_port Server#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#src_port Server#src_port}
   */
   readonly srcPort?: string;
 }
@@ -1882,49 +1882,49 @@ export class ServerNetworkRulesV6OutList extends cdktf.ComplexList {
 }
 export interface ServerNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#bootdevice Server#bootdevice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#bootdevice Server#bootdevice}
   */
   readonly bootdevice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#firewall_template_uuid Server#firewall_template_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#firewall_template_uuid Server#firewall_template_uuid}
   */
   readonly firewallTemplateUuid?: string;
   /**
   * Manually assign DHCP IP to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#ip Server#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#ip Server#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#object_uuid Server#object_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#object_uuid Server#object_uuid}
   */
   readonly objectUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#ordering Server#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#ordering Server#ordering}
   */
   readonly ordering?: number;
   /**
   * rules_v4_in block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#rules_v4_in Server#rules_v4_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#rules_v4_in Server#rules_v4_in}
   */
   readonly rulesV4In?: ServerNetworkRulesV4In[] | cdktf.IResolvable;
   /**
   * rules_v4_out block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#rules_v4_out Server#rules_v4_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#rules_v4_out Server#rules_v4_out}
   */
   readonly rulesV4Out?: ServerNetworkRulesV4Out[] | cdktf.IResolvable;
   /**
   * rules_v6_in block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#rules_v6_in Server#rules_v6_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#rules_v6_in Server#rules_v6_in}
   */
   readonly rulesV6In?: ServerNetworkRulesV6In[] | cdktf.IResolvable;
   /**
   * rules_v6_out block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#rules_v6_out Server#rules_v6_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#rules_v6_out Server#rules_v6_out}
   */
   readonly rulesV6Out?: ServerNetworkRulesV6Out[] | cdktf.IResolvable;
 }
@@ -2294,7 +2294,7 @@ export class ServerNetworkList extends cdktf.ComplexList {
 }
 export interface ServerStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#object_uuid Server#object_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#object_uuid Server#object_uuid}
   */
   readonly objectUuid: string;
 }
@@ -2462,15 +2462,15 @@ export class ServerStorageList extends cdktf.ComplexList {
 }
 export interface ServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#create Server#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#create Server#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#delete Server#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#delete Server#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#update Server#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#update Server#update}
   */
   readonly update?: string;
 }
@@ -2622,7 +2622,7 @@ export class ServerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server gridscale_server}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server gridscale_server}
 */
 export class Server extends cdktf.TerraformResource {
 
@@ -2638,7 +2638,7 @@ export class Server extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Server resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Server to import
-  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Server to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2650,7 +2650,7 @@ export class Server extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/server gridscale_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/server gridscale_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2661,8 +2661,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_server',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

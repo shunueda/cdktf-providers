@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface InterfaceEthernetSwitchCrsVlanConfig extends cdktf.TerraformMet
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#___path___ InterfaceEthernetSwitchCrsVlan#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#___path___ InterfaceEthernetSwitchCrsVlan#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#comment InterfaceEthernetSwitchCrsVlan#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#comment InterfaceEthernetSwitchCrsVlan#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#disabled InterfaceEthernetSwitchCrsVlan#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#disabled InterfaceEthernetSwitchCrsVlan#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables forced VLAN flooding per VLAN. If the feature is enabled, the result of the destination MAC lookup in the UFDB or MFDB is ignored,and the packet is forced to flood in the VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#flood InterfaceEthernetSwitchCrsVlan#flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#flood InterfaceEthernetSwitchCrsVlan#flood}
   */
   readonly flood?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#id InterfaceEthernetSwitchCrsVlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#id InterfaceEthernetSwitchCrsVlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,25 +37,25 @@ export interface InterfaceEthernetSwitchCrsVlanConfig extends cdktf.TerraformMet
   /**
   * Enable the ingress mirror per VLAN to support the VLAN-based mirror function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#ingress_mirror InterfaceEthernetSwitchCrsVlan#ingress_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#ingress_mirror InterfaceEthernetSwitchCrsVlan#ingress_mirror}
   */
   readonly ingressMirror?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables source MAC learning for VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#learn InterfaceEthernetSwitchCrsVlan#learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#learn InterfaceEthernetSwitchCrsVlan#learn}
   */
   readonly learn?: boolean | cdktf.IResolvable;
   /**
   * Member ports of the VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#ports InterfaceEthernetSwitchCrsVlan#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#ports InterfaceEthernetSwitchCrsVlan#ports}
   */
   readonly ports?: string;
   /**
   * Defined QoS group from QoS group menu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#qos_group InterfaceEthernetSwitchCrsVlan#qos_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#qos_group InterfaceEthernetSwitchCrsVlan#qos_group}
   */
   readonly qosGroup?: string;
   /**
@@ -63,19 +63,19 @@ export interface InterfaceEthernetSwitchCrsVlanConfig extends cdktf.TerraformMet
   *     -  Shared VLAN Learning (svl) - learning/lookup is based on MAC addresses - not on VLAN IDs.
   *     -  Independent VLAN Learning (ivl) - learning/lookup is based on both MAC addresses and VLAN IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#svl InterfaceEthernetSwitchCrsVlan#svl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#svl InterfaceEthernetSwitchCrsVlan#svl}
   */
   readonly svl?: boolean | cdktf.IResolvable;
   /**
   * VLAN ID of the VLAN member entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#vlan_id InterfaceEthernetSwitchCrsVlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#vlan_id InterfaceEthernetSwitchCrsVlan#vlan_id}
   */
   readonly vlanId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan routeros_interface_ethernet_switch_crs_vlan}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan routeros_interface_ethernet_switch_crs_vlan}
 */
 export class InterfaceEthernetSwitchCrsVlan extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class InterfaceEthernetSwitchCrsVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetSwitchCrsVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitchCrsVlan to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitchCrsVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitchCrsVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitchCrsVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class InterfaceEthernetSwitchCrsVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_crs_vlan routeros_interface_ethernet_switch_crs_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/interface_ethernet_switch_crs_vlan routeros_interface_ethernet_switch_crs_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class InterfaceEthernetSwitchCrsVlan extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ethernet_switch_crs_vlan',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

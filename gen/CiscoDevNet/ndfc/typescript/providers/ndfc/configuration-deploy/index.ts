@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ConfigurationDeployConfig extends cdktf.TerraformMetaArguments 
   /**
   * Save the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy#config_save ConfigurationDeploy#config_save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy#config_save ConfigurationDeploy#config_save}
   */
   readonly configSave?: boolean | cdktf.IResolvable;
   /**
   * The name of the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy#fabric_name ConfigurationDeploy#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy#fabric_name ConfigurationDeploy#fabric_name}
   */
   readonly fabricName: string;
   /**
   * Value 'ALL' if all switches in the fabric are to be deployed, or a list of serial numbers of the switches to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy#serial_numbers ConfigurationDeploy#serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy#serial_numbers ConfigurationDeploy#serial_numbers}
   */
   readonly serialNumbers?: string[];
   /**
   * Default set to false, config deploy will be only triggered on create of resource. If set to true in resource update, the configurations are deployed to the switches and the flag will be toggled back to false after the deployment is completed, when terraform refresh is performed. Terraform plan will always show in-place update for this field when set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy#trigger_deploy_on_update ConfigurationDeploy#trigger_deploy_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy#trigger_deploy_on_update ConfigurationDeploy#trigger_deploy_on_update}
   */
   readonly triggerDeployOnUpdate?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy ndfc_configuration_deploy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy ndfc_configuration_deploy}
 */
 export class ConfigurationDeploy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ConfigurationDeploy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigurationDeploy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigurationDeploy to import
-  * @param importFromId The id of the existing ConfigurationDeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigurationDeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigurationDeploy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ConfigurationDeploy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/configuration_deploy ndfc_configuration_deploy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/configuration_deploy ndfc_configuration_deploy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ConfigurationDeploy extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_configuration_deploy',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

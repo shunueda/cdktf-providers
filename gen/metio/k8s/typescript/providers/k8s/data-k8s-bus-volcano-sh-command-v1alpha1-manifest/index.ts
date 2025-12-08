@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataK8SBusVolcanoShCommandV1Alpha1ManifestConfig extends cdktf.
   /**
   * Action defines the action that will be took to the target object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#action DataK8SBusVolcanoShCommandV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#action DataK8SBusVolcanoShCommandV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
   * Human-readable message indicating details of this command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#message DataK8SBusVolcanoShCommandV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#message DataK8SBusVolcanoShCommandV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#metadata DataK8SBusVolcanoShCommandV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#metadata DataK8SBusVolcanoShCommandV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SBusVolcanoShCommandV1Alpha1ManifestMetadata;
   /**
   * Unique, one-word, CamelCase reason for this command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#reason DataK8SBusVolcanoShCommandV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#reason DataK8SBusVolcanoShCommandV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
   * TargetObject defines the target object of this command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#target DataK8SBusVolcanoShCommandV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#target DataK8SBusVolcanoShCommandV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SBusVolcanoShCommandV1Alpha1ManifestTarget;
 }
@@ -42,25 +42,25 @@ export interface DataK8SBusVolcanoShCommandV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#annotations DataK8SBusVolcanoShCommandV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#annotations DataK8SBusVolcanoShCommandV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#labels DataK8SBusVolcanoShCommandV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#labels DataK8SBusVolcanoShCommandV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#name DataK8SBusVolcanoShCommandV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#name DataK8SBusVolcanoShCommandV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#namespace DataK8SBusVolcanoShCommandV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#namespace DataK8SBusVolcanoShCommandV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -237,37 +237,37 @@ export interface DataK8SBusVolcanoShCommandV1Alpha1ManifestTarget {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#api_version DataK8SBusVolcanoShCommandV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#api_version DataK8SBusVolcanoShCommandV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * If true, AND if the owner has the 'foregroundDeletion' finalizer, then the owner cannot be deleted from the key-value store until this reference is removed. See https://kubernetes.io/docs/concepts/architecture/garbage-collection/#foreground-deletion for how the garbage collector interacts with this field and enforces the foreground deletion. Defaults to false. To set this field, a user needs 'delete' permission of the owner, otherwise 422 (Unprocessable Entity) will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#block_owner_deletion DataK8SBusVolcanoShCommandV1Alpha1Manifest#block_owner_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#block_owner_deletion DataK8SBusVolcanoShCommandV1Alpha1Manifest#block_owner_deletion}
   */
   readonly blockOwnerDeletion?: boolean | cdktf.IResolvable;
   /**
   * If true, this reference points to the managing controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#controller DataK8SBusVolcanoShCommandV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#controller DataK8SBusVolcanoShCommandV1Alpha1Manifest#controller}
   */
   readonly controller?: boolean | cdktf.IResolvable;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#kind DataK8SBusVolcanoShCommandV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#kind DataK8SBusVolcanoShCommandV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#name DataK8SBusVolcanoShCommandV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#name DataK8SBusVolcanoShCommandV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#uid DataK8SBusVolcanoShCommandV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#uid DataK8SBusVolcanoShCommandV1Alpha1Manifest#uid}
   */
   readonly uid: string;
 }
@@ -494,7 +494,7 @@ export class DataK8SBusVolcanoShCommandV1Alpha1ManifestTargetOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest k8s_bus_volcano_sh_command_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest k8s_bus_volcano_sh_command_v1alpha1_manifest}
 */
 export class DataK8SBusVolcanoShCommandV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -510,7 +510,7 @@ export class DataK8SBusVolcanoShCommandV1Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SBusVolcanoShCommandV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SBusVolcanoShCommandV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SBusVolcanoShCommandV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SBusVolcanoShCommandV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SBusVolcanoShCommandV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -522,7 +522,7 @@ export class DataK8SBusVolcanoShCommandV1Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest k8s_bus_volcano_sh_command_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/bus_volcano_sh_command_v1alpha1_manifest k8s_bus_volcano_sh_command_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,8 +533,8 @@ export class DataK8SBusVolcanoShCommandV1Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_bus_volcano_sh_command_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

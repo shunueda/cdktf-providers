@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ObjectStorageBucketConfig extends cdktf.TerraformMetaArguments 
   /**
   * The object storage secret_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#access_key ObjectStorageBucket#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#access_key ObjectStorageBucket#access_key}
   */
   readonly accessKey: string;
   /**
   * The name of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#bucket_name ObjectStorageBucket#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#bucket_name ObjectStorageBucket#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,54 +29,54 @@ export interface ObjectStorageBucketConfig extends cdktf.TerraformMetaArguments 
   /**
   * The S3 host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#s3_host ObjectStorageBucket#s3_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#s3_host ObjectStorageBucket#s3_host}
   */
   readonly s3Host?: string;
   /**
   * The object storage access_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#secret_key ObjectStorageBucket#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#secret_key ObjectStorageBucket#secret_key}
   */
   readonly secretKey: string;
   /**
   * lifecycle_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#lifecycle_rule ObjectStorageBucket#lifecycle_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#lifecycle_rule ObjectStorageBucket#lifecycle_rule}
   */
   readonly lifecycleRule?: ObjectStorageBucketLifecycleRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#timeouts ObjectStorageBucket#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#timeouts ObjectStorageBucket#timeouts}
   */
   readonly timeouts?: ObjectStorageBucketTimeouts;
 }
 export interface ObjectStorageBucketLifecycleRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#enabled ObjectStorageBucket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#enabled ObjectStorageBucket#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#expiration_days ObjectStorageBucket#expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#expiration_days ObjectStorageBucket#expiration_days}
   */
   readonly expirationDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#incomplete_upload_expiration_days ObjectStorageBucket#incomplete_upload_expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#incomplete_upload_expiration_days ObjectStorageBucket#incomplete_upload_expiration_days}
   */
   readonly incompleteUploadExpirationDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#noncurrent_version_expiration_days ObjectStorageBucket#noncurrent_version_expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#noncurrent_version_expiration_days ObjectStorageBucket#noncurrent_version_expiration_days}
   */
   readonly noncurrentVersionExpirationDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#prefix ObjectStorageBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#prefix ObjectStorageBucket#prefix}
   */
   readonly prefix?: string;
 }
@@ -331,15 +331,15 @@ export class ObjectStorageBucketLifecycleRuleList extends cdktf.ComplexList {
 }
 export interface ObjectStorageBucketTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#create ObjectStorageBucket#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#create ObjectStorageBucket#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#delete ObjectStorageBucket#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#delete ObjectStorageBucket#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#update ObjectStorageBucket#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#update ObjectStorageBucket#update}
   */
   readonly update?: string;
 }
@@ -491,7 +491,7 @@ export class ObjectStorageBucketTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket gridscale_object_storage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket gridscale_object_storage_bucket}
 */
 export class ObjectStorageBucket extends cdktf.TerraformResource {
 
@@ -507,7 +507,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageBucket to import
-  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -519,7 +519,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/object_storage_bucket gridscale_object_storage_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/object_storage_bucket gridscale_object_storage_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -530,8 +530,8 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_object_storage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

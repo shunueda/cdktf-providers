@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STraefikIoServersTransportTcpV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#metadata DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#metadata DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STraefikIoServersTransportTcpV1Alpha1ManifestMetadata;
   /**
   * ServersTransportTCPSpec defines the desired state of a ServersTransportTCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#spec DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#spec DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STraefikIoServersTransportTcpV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STraefikIoServersTransportTcpV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#annotations DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#annotations DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#labels DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#labels DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#name DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#name DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#namespace DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#namespace DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STraefikIoServersTransportTcpV1Alpha1ManifestSpecTlsSpiff
   /**
   * IDs defines the allowed SPIFFE IDs (takes precedence over the SPIFFE TrustDomain).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#ids DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#ids DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#ids}
   */
   readonly ids?: string[];
   /**
   * TrustDomain defines the allowed SPIFFE trust domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#trust_domain DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#trust_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#trust_domain DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#trust_domain}
   */
   readonly trustDomain?: string;
 }
@@ -350,37 +350,37 @@ export interface DataK8STraefikIoServersTransportTcpV1Alpha1ManifestSpecTls {
   /**
   * CertificatesSecrets defines a list of secret storing client certificates for mTLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#certificates_secrets DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#certificates_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#certificates_secrets DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#certificates_secrets}
   */
   readonly certificatesSecrets?: string[];
   /**
   * InsecureSkipVerify disables TLS certificate verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#insecure_skip_verify DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#insecure_skip_verify DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * MaxIdleConnsPerHost controls the maximum idle (keep-alive) to keep per-host. PeerCertURI defines the peer cert URI used to match against SAN URI during the peer certificate verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#peer_cert_uri DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#peer_cert_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#peer_cert_uri DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#peer_cert_uri}
   */
   readonly peerCertUri?: string;
   /**
   * RootCAsSecrets defines a list of CA secret used to validate self-signed certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#root_c_as_secrets DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#root_c_as_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#root_c_as_secrets DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#root_c_as_secrets}
   */
   readonly rootCAsSecrets?: string[];
   /**
   * ServerName defines the server name used to contact the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#server_name DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#server_name DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
   /**
   * Spiffe defines the SPIFFE configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#spiffe DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#spiffe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#spiffe DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#spiffe}
   */
   readonly spiffe?: DataK8STraefikIoServersTransportTcpV1Alpha1ManifestSpecTlsSpiffe;
 }
@@ -621,25 +621,25 @@ export interface DataK8STraefikIoServersTransportTcpV1Alpha1ManifestSpec {
   /**
   * DialKeepAlive is the interval between keep-alive probes for an active network connection. If zero, keep-alive probes are sent with a default value (currently 15 seconds), if supported by the protocol and operating system. Network protocols or operating systems that do not support keep-alives ignore this field. If negative, keep-alive probes are disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#dial_keep_alive DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#dial_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#dial_keep_alive DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#dial_keep_alive}
   */
   readonly dialKeepAlive?: string;
   /**
   * DialTimeout is the amount of time to wait until a connection to a backend server can be established.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#dial_timeout DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#dial_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#dial_timeout DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#dial_timeout}
   */
   readonly dialTimeout?: string;
   /**
   * TerminationDelay defines the delay to wait before fully terminating the connection, after one connected peer has closed its writing capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#termination_delay DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#termination_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#termination_delay DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#termination_delay}
   */
   readonly terminationDelay?: string;
   /**
   * TLS defines the TLS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#tls DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#tls DataK8STraefikIoServersTransportTcpV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STraefikIoServersTransportTcpV1Alpha1ManifestSpecTls;
 }
@@ -820,7 +820,7 @@ export class DataK8STraefikIoServersTransportTcpV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest k8s_traefik_io_servers_transport_tcp_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest k8s_traefik_io_servers_transport_tcp_v1alpha1_manifest}
 */
 export class DataK8STraefikIoServersTransportTcpV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -836,7 +836,7 @@ export class DataK8STraefikIoServersTransportTcpV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8STraefikIoServersTransportTcpV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STraefikIoServersTransportTcpV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STraefikIoServersTransportTcpV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STraefikIoServersTransportTcpV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STraefikIoServersTransportTcpV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -848,7 +848,7 @@ export class DataK8STraefikIoServersTransportTcpV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest k8s_traefik_io_servers_transport_tcp_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_servers_transport_tcp_v1alpha1_manifest k8s_traefik_io_servers_transport_tcp_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -859,8 +859,8 @@ export class DataK8STraefikIoServersTransportTcpV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_traefik_io_servers_transport_tcp_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

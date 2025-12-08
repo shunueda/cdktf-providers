@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeNestServiceInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#enable_instance_ops ComputeNestServiceInstance#enable_instance_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#enable_instance_ops ComputeNestServiceInstance#enable_instance_ops}
   */
   readonly enableInstanceOps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#enable_user_prometheus ComputeNestServiceInstance#enable_user_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#enable_user_prometheus ComputeNestServiceInstance#enable_user_prometheus}
   */
   readonly enableUserPrometheus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#id ComputeNestServiceInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#id ComputeNestServiceInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#parameters ComputeNestServiceInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#parameters ComputeNestServiceInstance#parameters}
   */
   readonly parameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#payment_type ComputeNestServiceInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#payment_type ComputeNestServiceInstance#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#resource_group_id ComputeNestServiceInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#resource_group_id ComputeNestServiceInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#service_id ComputeNestServiceInstance#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#service_id ComputeNestServiceInstance#service_id}
   */
   readonly serviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#service_instance_name ComputeNestServiceInstance#service_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#service_instance_name ComputeNestServiceInstance#service_instance_name}
   */
   readonly serviceInstanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#service_version ComputeNestServiceInstance#service_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#service_version ComputeNestServiceInstance#service_version}
   */
   readonly serviceVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#specification_name ComputeNestServiceInstance#specification_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#specification_name ComputeNestServiceInstance#specification_name}
   */
   readonly specificationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#tags ComputeNestServiceInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#tags ComputeNestServiceInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#template_name ComputeNestServiceInstance#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#template_name ComputeNestServiceInstance#template_name}
   */
   readonly templateName?: string;
   /**
   * commodity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#commodity ComputeNestServiceInstance#commodity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#commodity ComputeNestServiceInstance#commodity}
   */
   readonly commodity?: ComputeNestServiceInstanceCommodity;
   /**
   * operation_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#operation_metadata ComputeNestServiceInstance#operation_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#operation_metadata ComputeNestServiceInstance#operation_metadata}
   */
   readonly operationMetadata?: ComputeNestServiceInstanceOperationMetadata;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#timeouts ComputeNestServiceInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#timeouts ComputeNestServiceInstance#timeouts}
   */
   readonly timeouts?: ComputeNestServiceInstanceTimeouts;
 }
 export interface ComputeNestServiceInstanceCommodity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#pay_period ComputeNestServiceInstance#pay_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#pay_period ComputeNestServiceInstance#pay_period}
   */
   readonly payPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#pay_period_unit ComputeNestServiceInstance#pay_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#pay_period_unit ComputeNestServiceInstance#pay_period_unit}
   */
   readonly payPeriodUnit?: string;
 }
@@ -196,19 +196,19 @@ export class ComputeNestServiceInstanceCommodityOutputReference extends cdktf.Co
 }
 export interface ComputeNestServiceInstanceOperationMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#operated_service_instance_id ComputeNestServiceInstance#operated_service_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#operated_service_instance_id ComputeNestServiceInstance#operated_service_instance_id}
   */
   readonly operatedServiceInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#operation_end_time ComputeNestServiceInstance#operation_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#operation_end_time ComputeNestServiceInstance#operation_end_time}
   */
   readonly operationEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#operation_start_time ComputeNestServiceInstance#operation_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#operation_start_time ComputeNestServiceInstance#operation_start_time}
   */
   readonly operationStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#resources ComputeNestServiceInstance#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#resources ComputeNestServiceInstance#resources}
   */
   readonly resources?: string;
 }
@@ -379,15 +379,15 @@ export class ComputeNestServiceInstanceOperationMetadataOutputReference extends 
 }
 export interface ComputeNestServiceInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#create ComputeNestServiceInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#create ComputeNestServiceInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#delete ComputeNestServiceInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#delete ComputeNestServiceInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#update ComputeNestServiceInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#update ComputeNestServiceInstance#update}
   */
   readonly update?: string;
 }
@@ -539,7 +539,7 @@ export class ComputeNestServiceInstanceTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance alicloud_compute_nest_service_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance alicloud_compute_nest_service_instance}
 */
 export class ComputeNestServiceInstance extends cdktf.TerraformResource {
 
@@ -555,7 +555,7 @@ export class ComputeNestServiceInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeNestServiceInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeNestServiceInstance to import
-  * @param importFromId The id of the existing ComputeNestServiceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeNestServiceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeNestServiceInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -567,7 +567,7 @@ export class ComputeNestServiceInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/compute_nest_service_instance alicloud_compute_nest_service_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/compute_nest_service_instance alicloud_compute_nest_service_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -578,8 +578,8 @@ export class ComputeNestServiceInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_compute_nest_service_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

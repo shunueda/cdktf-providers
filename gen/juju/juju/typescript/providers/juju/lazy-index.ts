@@ -19,7 +19,6 @@ Object.defineProperty(exports, 'model', { get: function () { return require('./m
 Object.defineProperty(exports, 'offer', { get: function () { return require('./offer'); } });
 Object.defineProperty(exports, 'secret', { get: function () { return require('./secret'); } });
 Object.defineProperty(exports, 'sshKey', { get: function () { return require('./ssh-key'); } });
-Object.defineProperty(exports, 'storagePool', { get: function () { return require('./storage-pool'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
 Object.defineProperty(exports, 'dataJujuApplication', { get: function () { return require('./data-juju-application'); } });
 Object.defineProperty(exports, 'dataJujuJaasGroup', { get: function () { return require('./data-juju-jaas-group'); } });
@@ -28,6 +27,5 @@ Object.defineProperty(exports, 'dataJujuMachine', { get: function () { return re
 Object.defineProperty(exports, 'dataJujuModel', { get: function () { return require('./data-juju-model'); } });
 Object.defineProperty(exports, 'dataJujuOffer', { get: function () { return require('./data-juju-offer'); } });
 Object.defineProperty(exports, 'dataJujuSecret', { get: function () { return require('./data-juju-secret'); } });
-Object.defineProperty(exports, 'dataJujuStoragePool', { get: function () { return require('./data-juju-storage-pool'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

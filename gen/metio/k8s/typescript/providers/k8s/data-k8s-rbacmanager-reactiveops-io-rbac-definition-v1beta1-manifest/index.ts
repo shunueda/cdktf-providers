@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#metadata DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#metadata DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#rbac_bindings DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#rbac_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#rbac_bindings DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#rbac_bindings}
   */
   readonly rbacBindings: DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindings[] | cdktf.IResolvable;
 }
@@ -22,19 +22,19 @@ export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#annotations DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#annotations DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#labels DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#labels DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#name DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#name DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -183,7 +183,7 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestMetadat
 }
 export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsClusterRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#cluster_role DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#cluster_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#cluster_role DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#cluster_role}
   */
   readonly clusterRole: string;
 }
@@ -296,15 +296,15 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBin
 }
 export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsRoleBindingsNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#key DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#key DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#operator DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#operator DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#values DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#values DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -472,11 +472,11 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBin
 }
 export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsRoleBindingsNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#match_expressions DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#match_expressions DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsRoleBindingsNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#match_labels DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#match_labels DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -599,19 +599,19 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBin
 }
 export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#cluster_role DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#cluster_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#cluster_role DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#cluster_role}
   */
   readonly clusterRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#namespace DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#namespace DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#namespace_selector DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#namespace_selector DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsRoleBindingsNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#role DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#role DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#role}
   */
   readonly role?: string;
 }
@@ -814,23 +814,23 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBin
 }
 export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsSubjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#automount_service_account_token DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#automount_service_account_token DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#image_pull_secrets DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#image_pull_secrets DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#kind DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#kind DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#name DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#name DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#namespace DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#namespace DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1056,19 +1056,19 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBin
 }
 export interface DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#cluster_role_bindings DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#cluster_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#cluster_role_bindings DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#cluster_role_bindings}
   */
   readonly clusterRoleBindings?: DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsClusterRoleBindings[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#name DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#name DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#role_bindings DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#role_bindings DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#role_bindings}
   */
   readonly roleBindings?: DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsRoleBindings[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#subjects DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#subjects DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest#subjects}
   */
   readonly subjects: DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBindingsSubjects[] | cdktf.IResolvable;
 }
@@ -1265,7 +1265,7 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1ManifestRbacBin
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest k8s_rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest k8s_rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest}
 */
 export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1281,7 +1281,7 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest extend
   * Generates CDKTF code for importing a DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1293,7 +1293,7 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest k8s_rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest k8s_rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1304,8 +1304,8 @@ export class DataK8SRbacmanagerReactiveopsIoRbacDefinitionV1Beta1Manifest extend
       terraformResourceType: 'k8s_rbacmanager_reactiveops_io_rbac_definition_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

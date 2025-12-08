@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface EsaOriginRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#dns_record EsaOriginRule#dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#dns_record EsaOriginRule#dns_record}
   */
   readonly dnsRecord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#follow302_enable EsaOriginRule#follow302_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#follow302_enable EsaOriginRule#follow302_enable}
   */
   readonly follow302Enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#follow302_max_tries EsaOriginRule#follow302_max_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#follow302_max_tries EsaOriginRule#follow302_max_tries}
   */
   readonly follow302MaxTries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#follow302_retain_args EsaOriginRule#follow302_retain_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#follow302_retain_args EsaOriginRule#follow302_retain_args}
   */
   readonly follow302RetainArgs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#follow302_retain_header EsaOriginRule#follow302_retain_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#follow302_retain_header EsaOriginRule#follow302_retain_header}
   */
   readonly follow302RetainHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#follow302_target_host EsaOriginRule#follow302_target_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#follow302_target_host EsaOriginRule#follow302_target_host}
   */
   readonly follow302TargetHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#id EsaOriginRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#id EsaOriginRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_host EsaOriginRule#origin_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_host EsaOriginRule#origin_host}
   */
   readonly originHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_http_port EsaOriginRule#origin_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_http_port EsaOriginRule#origin_http_port}
   */
   readonly originHttpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_https_port EsaOriginRule#origin_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_https_port EsaOriginRule#origin_https_port}
   */
   readonly originHttpsPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_mtls EsaOriginRule#origin_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_mtls EsaOriginRule#origin_mtls}
   */
   readonly originMtls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_read_timeout EsaOriginRule#origin_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_read_timeout EsaOriginRule#origin_read_timeout}
   */
   readonly originReadTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_scheme EsaOriginRule#origin_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_scheme EsaOriginRule#origin_scheme}
   */
   readonly originScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_sni EsaOriginRule#origin_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_sni EsaOriginRule#origin_sni}
   */
   readonly originSni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#origin_verify EsaOriginRule#origin_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#origin_verify EsaOriginRule#origin_verify}
   */
   readonly originVerify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#range EsaOriginRule#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#range EsaOriginRule#range}
   */
   readonly range?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#range_chunk_size EsaOriginRule#range_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#range_chunk_size EsaOriginRule#range_chunk_size}
   */
   readonly rangeChunkSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#rule EsaOriginRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#rule EsaOriginRule#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#rule_enable EsaOriginRule#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#rule_enable EsaOriginRule#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#rule_name EsaOriginRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#rule_name EsaOriginRule#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#sequence EsaOriginRule#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#sequence EsaOriginRule#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#site_id EsaOriginRule#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#site_id EsaOriginRule#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#site_version EsaOriginRule#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#site_version EsaOriginRule#site_version}
   */
   readonly siteVersion?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#timeouts EsaOriginRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#timeouts EsaOriginRule#timeouts}
   */
   readonly timeouts?: EsaOriginRuleTimeouts;
 }
 export interface EsaOriginRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#create EsaOriginRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#create EsaOriginRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#delete EsaOriginRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#delete EsaOriginRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#update EsaOriginRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#update EsaOriginRule#update}
   */
   readonly update?: string;
 }
@@ -271,7 +271,7 @@ export class EsaOriginRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule alicloud_esa_origin_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule alicloud_esa_origin_rule}
 */
 export class EsaOriginRule extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class EsaOriginRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaOriginRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaOriginRule to import
-  * @param importFromId The id of the existing EsaOriginRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaOriginRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaOriginRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class EsaOriginRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_rule alicloud_esa_origin_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_origin_rule alicloud_esa_origin_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class EsaOriginRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_origin_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -693,11 +693,11 @@ export class EsaOriginRule extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -764,7 +764,7 @@ export class EsaOriginRule extends cdktf.TerraformResource {
       rule_enable: cdktf.stringToTerraform(this._ruleEnable),
       rule_name: cdktf.stringToTerraform(this._ruleName),
       sequence: cdktf.numberToTerraform(this._sequence),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       site_version: cdktf.numberToTerraform(this._siteVersion),
       timeouts: esaOriginRuleTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -899,10 +899,10 @@ export class EsaOriginRule extends cdktf.TerraformResource {
         storageClassType: "number",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       site_version: {
         value: cdktf.numberToHclTerraform(this._siteVersion),

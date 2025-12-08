@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestMetadata;
   /**
   * Spec defines the behavior of a physical machine chaos experiment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecCloc
   /**
   * the identifier of the particular clock on which to act. More clock description in linux kernel can be found in man page of clock_getres, clock_gettime, clock_settime. Muti clock ids should be split with ','
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#clock_ids_slice DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#clock_ids_slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#clock_ids_slice DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#clock_ids_slice}
   */
   readonly clockIdsSlice?: string;
   /**
   * the pid of target program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * specifies the length of time offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#time_offset}
   */
   readonly timeOffset?: string;
 }
@@ -385,19 +385,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecDisk
   /**
   * fill disk by fallocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#fill_by_fallocate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#fill_by_fallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#fill_by_fallocate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#fill_by_fallocate}
   */
   readonly fillByFallocate?: boolean | cdktf.IResolvable;
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -551,19 +551,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecDisk
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies the number of process work on writing, default 1, only 1-255 is valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#payload_process_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#payload_process_num}
   */
   readonly payloadProcessNum?: number;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -717,19 +717,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecDisk
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies the number of process work on writing, default 1, only 1-255 is valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#payload_process_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#payload_process_num}
   */
   readonly payloadProcessNum?: number;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -883,19 +883,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFile
   /**
   * Count is the number of times to append the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#count DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#count DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * Data is the data for append.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#data DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#data DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#data}
   */
   readonly data?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -1049,13 +1049,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFile
   /**
   * DirName is the directory name to create or delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dir_name}
   */
   readonly dirName?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -1180,13 +1180,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFile
   /**
   * DirName is the directory name to create or delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dir_name}
   */
   readonly dirName?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -1311,13 +1311,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFile
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
   * Privilege is the file privilege to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#privilege DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#privilege DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#privilege}
   */
   readonly privilege?: number;
 }
@@ -1442,13 +1442,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFile
   /**
   * DestFile is the name to be renamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dest_file DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dest_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dest_file DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dest_file}
   */
   readonly destFile?: string;
   /**
   * SourceFile is the name need to be renamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_file DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_file DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_file}
   */
   readonly sourceFile?: string;
 }
@@ -1573,25 +1573,25 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFile
   /**
   * DestStr is the destination string of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dest_string DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dest_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dest_string DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dest_string}
   */
   readonly destString?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
   * Line is the line number of the file to be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#line DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#line DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#line}
   */
   readonly line?: number;
   /**
   * OriginStr is the origin string of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#origin_string DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#origin_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#origin_string DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#origin_string}
   */
   readonly originString?: string;
 }
@@ -1774,37 +1774,37 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttp
   /**
   * Code is a rule to select target by http status code in response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#code}
   */
   readonly code?: string;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Match path of Uri with wildcard matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The TCP port that the target service listens on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Composed with one of the port of HTTP connection, we will only attack HTTP connection with port inside proxy_ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#proxy_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#proxy_ports}
   */
   readonly proxyPorts: string[];
   /**
   * HTTP target: Request or Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#target DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#target DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -2039,7 +2039,7 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttp
   /**
   * The config file path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_path}
   */
   readonly filePath?: string;
 }
@@ -2135,43 +2135,43 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttp
   /**
   * Code is a rule to select target by http status code in response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#code}
   */
   readonly code?: string;
   /**
   * Delay represents the delay of the target request/response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#delay DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#delay DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#delay}
   */
   readonly delay: string;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Match path of Uri with wildcard matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The TCP port that the target service listens on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Composed with one of the port of HTTP connection, we will only attack HTTP connection with port inside proxy_ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#proxy_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#proxy_ports}
   */
   readonly proxyPorts: string[];
   /**
   * HTTP target: Request or Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#target DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#target DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -2432,19 +2432,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttp
   /**
   * The number of requests to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#count DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#count DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * Enable connection pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#enable_conn_pool DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#enable_conn_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#enable_conn_pool DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#enable_conn_pool}
   */
   readonly enableConnPool?: boolean | cdktf.IResolvable;
   /**
   * Request to send'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#url DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#url DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -2598,31 +2598,31 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmE
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * the exception which needs to throw for action 'exception'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#exception DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#exception DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#exception}
   */
   readonly exception?: string;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -2834,13 +2834,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmG
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -2965,31 +2965,31 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmL
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * the latency duration for action 'latency', unit ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -3201,49 +3201,49 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmM
   /**
   * the match database default value is '', means match all database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#database DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#database DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * The exception which needs to throw for action 'exception' or the exception message needs to throw in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#exception DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#exception DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#exception}
   */
   readonly exception?: string;
   /**
   * The latency duration for action 'latency' or the latency duration in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * the version of mysql-connector-java, only support 5.X.X(set to '5') and 8.X.X(set to '8') now
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#mysql_connector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#mysql_connector_version}
   */
   readonly mysqlConnectorVersion?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * the match sql type default value is '', means match all SQL type. The value can be 'select', 'insert', 'update', 'delete', 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#sql_type}
   */
   readonly sqlType?: string;
   /**
   * the match table default value is '', means match all table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#table DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#table DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#table}
   */
   readonly table?: string;
 }
@@ -3542,31 +3542,31 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmR
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * the return value for action 'return'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3778,19 +3778,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmR
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RuleData used to save the rule file's data, will use it when recover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#rule_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#rule_data}
   */
   readonly ruleData?: string;
 }
@@ -3944,25 +3944,25 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmS
   /**
   * the CPU core number need to use, only set it when action is stress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * the memory type need to locate, only set it when action is stress, the value can be 'stack' or 'heap'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#mem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#mem_type}
   */
   readonly memType?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#pid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -4145,49 +4145,49 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecKafk
   /**
   * The host of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#host DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#host DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The max bytes to fill
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#max_bytes DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#max_bytes DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * The size of each message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#message_size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#message_size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#message_size}
   */
   readonly messageSize?: number;
   /**
   * The password of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The port of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * The command to reload kafka config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#reload_command DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#reload_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#reload_command DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#reload_command}
   */
   readonly reloadCommand?: string;
   /**
   * The topic to attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#topic DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#topic DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#topic}
   */
   readonly topic?: string;
   /**
   * The username of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#username DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#username DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -4486,43 +4486,43 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecKafk
   /**
   * The host of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#host DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#host DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The size of each message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#message_size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#message_size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#message_size}
   */
   readonly messageSize?: number;
   /**
   * The password of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The port of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * The number of worker threads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#threads DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#threads DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#threads}
   */
   readonly threads?: number;
   /**
   * The topic to attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#topic DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#topic DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#topic}
   */
   readonly topic?: string;
   /**
   * The username of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#username DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#username DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -4792,25 +4792,25 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecKafk
   /**
   * The path of server config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#config_file DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#config_file DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#config_file}
   */
   readonly configFile?: string;
   /**
   * Make kafka cluster non-readable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#non_readable DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#non_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#non_readable DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#non_readable}
   */
   readonly nonReadable?: boolean | cdktf.IResolvable;
   /**
   * Make kafka cluster non-writable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#non_writable DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#non_writable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#non_writable DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#non_writable}
   */
   readonly nonWritable?: boolean | cdktf.IResolvable;
   /**
   * The topic to attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#topic DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#topic DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#topic}
   */
   readonly topic?: string;
 }
@@ -4991,35 +4991,35 @@ export class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecKafkaIoO
 }
 export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#buffer DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#buffer DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#buffer}
   */
   readonly buffer: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#limit DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#limit DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#limit}
   */
   readonly limit: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#minburst DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#minburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#minburst DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#minburst}
   */
   readonly minburst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#peakrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#peakrate}
   */
   readonly peakrate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#rate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#rate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -5309,49 +5309,49 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * percentage of packets to corrupt (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -5650,61 +5650,61 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * only the packet which match the tcp flag can be accepted, others will be dropped. only set when the IPProtocol is tcp, used for partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#accept_tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#accept_tcp_flags}
   */
   readonly acceptTcpFlags?: string;
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * jitter time, time units: ns, us (or µs), ms, s, m, h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jitter DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jitter DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jitter}
   */
   readonly jitter?: string;
   /**
   * delay egress time, time units: ns, us (or µs), ms, s, m, h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#latency}
   */
   readonly latency?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -6061,19 +6061,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * map this host to specified IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dns_domain_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dns_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dns_domain_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dns_domain_name}
   */
   readonly dnsDomainName?: string;
   /**
   * map specified host to this IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dns_ip DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dns_ip DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dns_ip}
   */
   readonly dnsIp?: string;
   /**
   * update the DNS server in /etc/resolv.conf with this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dns_server DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#dns_server DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#dns_server}
   */
   readonly dnsServer?: string;
 }
@@ -6227,13 +6227,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * The network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * NIC down time, time units: ns, us (or µs), ms, s, m, h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
 }
@@ -6358,49 +6358,49 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * percentage of packets to duplicate (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -6699,31 +6699,31 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * The number of seconds to run the iperf test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#duration}
   */
   readonly duration: string;
   /**
   * Generate traffic to this IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The number of iperf parallel client threads to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#parallel DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#parallel DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#parallel}
   */
   readonly parallel?: number;
   /**
   * Generate traffic to this port on the IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * The speed of network traffic, allows bps, kbps, mbps, gbps, tbps unit. bps means bytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#rate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#rate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -6929,49 +6929,49 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#correlation DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * percentage of packets to loss (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#source_port DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -7270,37 +7270,37 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetw
   /**
   * only the packet which match the tcp flag can be accepted, others will be dropped. only set when the IPProtocol is tcp, used for partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#accept_tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#accept_tcp_flags}
   */
   readonly acceptTcpFlags?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#device DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * specifies the partition direction, values can be 'from', 'to'. 'from' means packets coming from the 'IPAddress' or 'Hostname' and going to your server, 'to' means packets originating from your server and going to the 'IPAddress' or 'Hostname'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#direction DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#direction DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#direction}
   */
   readonly direction?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#hostname DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
 }
@@ -7541,19 +7541,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecProc
   /**
   * the process name or the process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#process DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#process DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#process}
   */
   readonly process?: string;
   /**
   * the command to be run when recovering experiment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#recover_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#recover_cmd}
   */
   readonly recoverCmd?: string;
   /**
   * the signal number to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#signal DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#signal DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#signal}
   */
   readonly signal?: number;
 }
@@ -7707,25 +7707,25 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedi
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The size of 'maxmemory'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#cache_size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#cache_size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#cache_size}
   */
   readonly cacheSize?: string;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Specifies maxmemory as a percentage of the original value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#percent DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
 }
@@ -7908,31 +7908,31 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedi
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The expiration of the keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#expiration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#expiration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#expiration}
   */
   readonly expiration?: string;
   /**
   * The keys to be expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#key DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#key DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Additional options for 'expiration'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#option DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#option DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#option}
   */
   readonly option?: string;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
   */
   readonly password?: string;
 }
@@ -8144,19 +8144,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedi
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The number of requests to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#request_num DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#request_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#request_num DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#request_num}
   */
   readonly requestNum?: number;
 }
@@ -8310,31 +8310,31 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedi
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The path of Sentinel conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#conf DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#conf DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#conf}
   */
   readonly conf?: string;
   /**
   * The control flag determines whether to flush config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#flush_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#flush_config}
   */
   readonly flushConfig?: boolean | cdktf.IResolvable;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The path of 'redis-server' command-line tool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_path}
   */
   readonly redisPath?: boolean | cdktf.IResolvable;
 }
@@ -8546,31 +8546,31 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedi
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#addr DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The path of Sentinel conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#conf DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#conf DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#conf}
   */
   readonly conf?: string;
   /**
   * The control flag determines whether to flush config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#flush_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#flush_config}
   */
   readonly flushConfig?: boolean | cdktf.IResolvable;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#password DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The path of 'redis-server' command-line tool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_path}
   */
   readonly redisPath?: boolean | cdktf.IResolvable;
 }
@@ -8782,19 +8782,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecSele
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#key DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#key DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#operator DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#operator DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#values DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#values DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8964,37 +8964,37 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecSele
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * PhysicalMachines is a map of string keys and a set values that used to select physical machines. The key defines the namespace which physical machine belong, and each value is a set of physical machine names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#physical_machines DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#physical_machines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#physical_machines DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#physical_machines}
   */
   readonly physicalMachines?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -9235,19 +9235,19 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecStre
   /**
   * specifies P percent loading per CPU worker. 0 is effectively a sleep (no load) and 100 is full loading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#load DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#load DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#load}
   */
   readonly load?: number;
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#options DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#options DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * specifies N workers to apply the stressor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#workers DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#workers DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#workers}
   */
   readonly workers?: number;
 }
@@ -9401,13 +9401,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecStre
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#options DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#options DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * specifies N bytes consumed per vm worker, default is the total available memory. One can specify the size as % of total available memory or in units of B, KB/KiB, MB/MiB, GB/GiB, TB/TiB..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#size DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -9532,13 +9532,13 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecUser
   /**
   * The command to be executed when attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#attack_cmd DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#attack_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#attack_cmd DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#attack_cmd}
   */
   readonly attackCmd?: string;
   /**
   * The command to be executed when recover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#recover_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#recover_cmd}
   */
   readonly recoverCmd?: string;
 }
@@ -9663,7 +9663,7 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecVm {
   /**
   * The name of the VM to be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#vm_name}
   */
   readonly vmName?: string;
 }
@@ -9759,223 +9759,223 @@ export interface DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpec {
   /**
   * the subAction, generate automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#action DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#action DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * DEPRECATED: Use Selector instead. Only one of Address and Selector could be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#address DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#address}
   */
   readonly address?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#clock DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#clock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#clock DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#clock}
   */
   readonly clock?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecClock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#disk_fill DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#disk_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#disk_fill DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#disk_fill}
   */
   readonly diskFill?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecDiskFill;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#disk_read_payload DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#disk_read_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#disk_read_payload DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#disk_read_payload}
   */
   readonly diskReadPayload?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecDiskReadPayload;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#disk_write_payload DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#disk_write_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#disk_write_payload DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#disk_write_payload}
   */
   readonly diskWritePayload?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecDiskWritePayload;
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_append DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_append DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_append}
   */
   readonly fileAppend?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFileAppend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_create DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_create DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_create}
   */
   readonly fileCreate?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFileCreate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_delete DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_delete DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_delete}
   */
   readonly fileDelete?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFileDelete;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_modify DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_modify DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_modify}
   */
   readonly fileModify?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFileModify;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_rename DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_rename DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_rename}
   */
   readonly fileRename?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFileRename;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_replace DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#file_replace DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#file_replace}
   */
   readonly fileReplace?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecFileReplace;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_abort DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_abort DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_abort}
   */
   readonly httpAbort?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttpAbort;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_config DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_config DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_delay DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_delay DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_delay}
   */
   readonly httpDelay?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttpDelay;
   /**
   * used for HTTP request, now only support GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_request DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#http_request DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#http_request}
   */
   readonly httpRequest?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecHttpRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_exception DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_exception DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_exception}
   */
   readonly jvmException?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmException;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_gc DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_gc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_gc DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_gc}
   */
   readonly jvmGc?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmGc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_latency DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_latency}
   */
   readonly jvmLatency?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmLatency;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_mysql DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_mysql DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_mysql}
   */
   readonly jvmMysql?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmMysql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_return DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_return DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_return}
   */
   readonly jvmReturn?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmReturn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_rule_data DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_rule_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_rule_data DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_rule_data}
   */
   readonly jvmRuleData?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmRuleData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_stress DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_stress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#jvm_stress DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#jvm_stress}
   */
   readonly jvmStress?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecJvmStress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#kafka_fill DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#kafka_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#kafka_fill DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#kafka_fill}
   */
   readonly kafkaFill?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecKafkaFill;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#kafka_flood DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#kafka_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#kafka_flood DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#kafka_flood}
   */
   readonly kafkaFlood?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecKafkaFlood;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#kafka_io DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#kafka_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#kafka_io DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#kafka_io}
   */
   readonly kafkaIo?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecKafkaIo;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#mode DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#mode DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_bandwidth DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_bandwidth DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_bandwidth}
   */
   readonly networkBandwidth?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkBandwidth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_corrupt DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_corrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_corrupt DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_corrupt}
   */
   readonly networkCorrupt?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkCorrupt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_delay DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_delay DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_delay}
   */
   readonly networkDelay?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkDelay;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_dns DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_dns DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_dns}
   */
   readonly networkDns?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkDns;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_down DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_down DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_down}
   */
   readonly networkDown?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkDown;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_duplicate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_duplicate DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_duplicate}
   */
   readonly networkDuplicate?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkDuplicate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_flood DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_flood DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_flood}
   */
   readonly networkFlood?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkFlood;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_loss DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_loss DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_loss}
   */
   readonly networkLoss?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkLoss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_partition DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#network_partition DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#network_partition}
   */
   readonly networkPartition?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecNetworkPartition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#process DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#process DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#process}
   */
   readonly process?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecProcess;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_cache_limit DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_cache_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_cache_limit DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_cache_limit}
   */
   readonly redisCacheLimit?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedisCacheLimit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_expiration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_expiration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_expiration}
   */
   readonly redisExpiration?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedisExpiration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_penetration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_penetration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_penetration DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_penetration}
   */
   readonly redisPenetration?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedisPenetration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_restart DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_restart DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_restart}
   */
   readonly redisRestart?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedisRestart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_stop DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#redis_stop DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#redis_stop}
   */
   readonly redisStop?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecRedisStop;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select physical machines that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#selector DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#selector DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#stress_cpu DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#stress_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#stress_cpu DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#stress_cpu}
   */
   readonly stressCpu?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecStressCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#stress_mem DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#stress_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#stress_mem DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#stress_mem}
   */
   readonly stressMem?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecStressMem;
   /**
   * the experiment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#uid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#uid DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#user_defined DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#user_defined DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#user_defined}
   */
   readonly userDefined?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecUserDefined;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of physical machines to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of physical machines the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#vm DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#vm DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest#vm}
   */
   readonly vm?: DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecVm;
 }
@@ -11513,7 +11513,7 @@ export class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest k8s_chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest k8s_chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest}
 */
 export class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -11529,7 +11529,7 @@ export class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11541,7 +11541,7 @@ export class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest k8s_chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest k8s_chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11552,8 +11552,8 @@ export class DataK8SChaosMeshOrgPhysicalMachineChaosV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_chaos_mesh_org_physical_machine_chaos_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApiKubemodIoModRuleV1Beta1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#metadata DataK8SApiKubemodIoModRuleV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#metadata DataK8SApiKubemodIoModRuleV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SApiKubemodIoModRuleV1Beta1ManifestMetadata;
   /**
   * ModRuleSpec defines the desired state of ModRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#spec DataK8SApiKubemodIoModRuleV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#spec DataK8SApiKubemodIoModRuleV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SApiKubemodIoModRuleV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SApiKubemodIoModRuleV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#annotations DataK8SApiKubemodIoModRuleV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#annotations DataK8SApiKubemodIoModRuleV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#labels DataK8SApiKubemodIoModRuleV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#labels DataK8SApiKubemodIoModRuleV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#name DataK8SApiKubemodIoModRuleV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#name DataK8SApiKubemodIoModRuleV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#namespace DataK8SApiKubemodIoModRuleV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#namespace DataK8SApiKubemodIoModRuleV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8SApiKubemodIoModRuleV1Beta1ManifestSpecMatch {
   /**
   * MatchFor instructs how to match the results against the match... requirements. Valid values are: - 'Any' - the match is considered positive if any of the results of select have a match. - 'All' - the match is considered positive only if all of the results of select have a match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_for DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_for DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_for}
   */
   readonly matchFor?: string;
   /**
   * MatchRegex specifies the regular expression to compare the result of Select by. The match is considered positive if at least one of the results of evaluating the select query yields a match when compared to value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_regex DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_regex DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_regex}
   */
   readonly matchRegex?: string;
   /**
   * MatchValue specifies the exact value to match the result of Select by. The match is considered positive if at least one of the results of evaluating the select query yields a match when compared to matchValue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_value DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_value DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_value}
   */
   readonly matchValue?: string;
   /**
   * MatchValues specifies a list of values to match the result of Select by. The match is considered positive if at least one of the results of evaluating the select query yields a match when compared to any of the values in the array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_values DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match_values DataK8SApiKubemodIoModRuleV1Beta1Manifest#match_values}
   */
   readonly matchValues?: string[];
   /**
   * Negate indicates whether the match result should be to inverted. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#negate DataK8SApiKubemodIoModRuleV1Beta1Manifest#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#negate DataK8SApiKubemodIoModRuleV1Beta1Manifest#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Select is a JSONPath query expression: https://goessner.net/articles/JsonPath/ which yields zero or more values. If no match value or regex is specified, if the query yields a non-empty result, the match is considered positive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#select DataK8SApiKubemodIoModRuleV1Beta1Manifest#select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#select DataK8SApiKubemodIoModRuleV1Beta1Manifest#select}
   */
   readonly select: string;
 }
@@ -509,25 +509,25 @@ export interface DataK8SApiKubemodIoModRuleV1Beta1ManifestSpecPatch {
   /**
   * Operation is the type of JSON Path operation to perform against the target element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#op DataK8SApiKubemodIoModRuleV1Beta1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#op DataK8SApiKubemodIoModRuleV1Beta1Manifest#op}
   */
   readonly op: string;
   /**
   * Path is the JSON path to the target element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#path DataK8SApiKubemodIoModRuleV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#path DataK8SApiKubemodIoModRuleV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Optional JSONPath query expression: https://goessner.net/articles/JsonPath/ used to construct path. A patch operation is created for each result of the query. A placeholder is created for each wildcard and filter in the expression. These placeholders can be used when constructing 'path'. For example, if select is '$.spec.containers[*].ports[?@.containerPort == 80]' placeholder #0 will point to the index of 'containers' and #1 will point to the index of 'ports'. This allows us to define paths such as '/spec/template/spec/containers/#0/securityContext'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#select DataK8SApiKubemodIoModRuleV1Beta1Manifest#select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#select DataK8SApiKubemodIoModRuleV1Beta1Manifest#select}
   */
   readonly select?: string;
   /**
   * Value is the JSON representation of the modification. The value is a golang template which is evaluated against the context of the target resource. KubeMod performs some analysis of the result of the template evaluation in order to infer its JSON type: - If the value matches the format of a JavaScript number, it is considered to be a number. - If the value matches a boolean literal (true/false), it is considered to be a boolean literal. - If the value matches 'null', it is considered to be null. - If the value is surrounded by double-quotes, it is considered to be a string. - If the value is surrounded by brackets, it is considered to be a JSON array. - If the value is surrounded by curly braces, it is considered to be a JSON object. - If none of the above is true, the value is considered to be a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#value DataK8SApiKubemodIoModRuleV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#value DataK8SApiKubemodIoModRuleV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -726,43 +726,43 @@ export interface DataK8SApiKubemodIoModRuleV1Beta1ManifestSpec {
   /**
   * AdmissionOperations specifies which admission hook operations this ModRule applies to. Valid values are: - 'CREATE' - the rule applies to all matching resources as they are created. - 'UPDATE' - the rule applies to all matching resources as they are updated. - 'DELETE' - the rule applies to all matching resources as they are deleted. By default, a ModRule applies to all admission operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#admission_operations DataK8SApiKubemodIoModRuleV1Beta1Manifest#admission_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#admission_operations DataK8SApiKubemodIoModRuleV1Beta1Manifest#admission_operations}
   */
   readonly admissionOperations?: string[];
   /**
   * ExecutionTier is a value between -32767 and 32766. ExecutionTier controls when this ModRule will be executed as it relates to the other ModRules loaded in the system. ModRules are matched and executed in tiers, starting with the lowest tier. The results of executing all ModRules in a tier are passed as input to the ModRules in the next tier. This cascading execution continues until the highest tier of ModRules has been executed. ModRules in the same tier are executed in indeterminate order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#execution_tier DataK8SApiKubemodIoModRuleV1Beta1Manifest#execution_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#execution_tier DataK8SApiKubemodIoModRuleV1Beta1Manifest#execution_tier}
   */
   readonly executionTier?: number;
   /**
   * Match is a list of match items which consist of select queries and expected match values or regular expressions. When all match items for an object are positive, the rule is in effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match DataK8SApiKubemodIoModRuleV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#match DataK8SApiKubemodIoModRuleV1Beta1Manifest#match}
   */
   readonly match: DataK8SApiKubemodIoModRuleV1Beta1ManifestSpecMatch[] | cdktf.IResolvable;
   /**
   * Patch is a list of patch operations to perform on the matching resources at the time of creation. The value part of a patch operation can be a golang template which accepts the resource as its context. This field must be provided for ModRules of type 'patch'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#patch DataK8SApiKubemodIoModRuleV1Beta1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#patch DataK8SApiKubemodIoModRuleV1Beta1Manifest#patch}
   */
   readonly patch?: DataK8SApiKubemodIoModRuleV1Beta1ManifestSpecPatch[] | cdktf.IResolvable;
   /**
   * RejectMessage is an optional message displayed when a resource is rejected by a Reject ModRule. The field is a Golang template evaluated in the context of the object being rejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#reject_message DataK8SApiKubemodIoModRuleV1Beta1Manifest#reject_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#reject_message DataK8SApiKubemodIoModRuleV1Beta1Manifest#reject_message}
   */
   readonly rejectMessage?: string;
   /**
   * TargetNamespaceRegex is optional and only applies to ModRules in 'kubemod-system' namespace. Its usage enables cluster-wide matching of namespaced resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#target_namespace_regex DataK8SApiKubemodIoModRuleV1Beta1Manifest#target_namespace_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#target_namespace_regex DataK8SApiKubemodIoModRuleV1Beta1Manifest#target_namespace_regex}
   */
   readonly targetNamespaceRegex?: string;
   /**
   * Type describes the type of a ModRule. Valid values are: - 'Patch' - the rule performs modifications on all the matching resources as they are created. - 'Reject' - the rule rejects the creation of all matching resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#type DataK8SApiKubemodIoModRuleV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#type DataK8SApiKubemodIoModRuleV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -1024,7 +1024,7 @@ export class DataK8SApiKubemodIoModRuleV1Beta1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest k8s_api_kubemod_io_mod_rule_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest k8s_api_kubemod_io_mod_rule_v1beta1_manifest}
 */
 export class DataK8SApiKubemodIoModRuleV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1040,7 +1040,7 @@ export class DataK8SApiKubemodIoModRuleV1Beta1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SApiKubemodIoModRuleV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApiKubemodIoModRuleV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SApiKubemodIoModRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApiKubemodIoModRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApiKubemodIoModRuleV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1052,7 +1052,7 @@ export class DataK8SApiKubemodIoModRuleV1Beta1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest k8s_api_kubemod_io_mod_rule_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_kubemod_io_mod_rule_v1beta1_manifest k8s_api_kubemod_io_mod_rule_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1063,8 +1063,8 @@ export class DataK8SApiKubemodIoModRuleV1Beta1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_api_kubemod_io_mod_rule_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

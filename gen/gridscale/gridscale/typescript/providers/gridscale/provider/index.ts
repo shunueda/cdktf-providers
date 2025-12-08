@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface GridscaleProviderConfig {
   /**
   * the url for the gridscale API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#api_url GridscaleProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#api_url GridscaleProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Custom HTTP headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#http_headers GridscaleProvider#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#http_headers GridscaleProvider#http_headers}
   */
   readonly httpHeaders?: string;
   /**
   * Custom maximum number of retries. The retryable requests can be retried up to max_n_retries. If max_n_retries is reached and the request is not successful, the last error is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#max_n_retries GridscaleProvider#max_n_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#max_n_retries GridscaleProvider#max_n_retries}
   */
   readonly maxNRetries?: number;
   /**
   * Custom request delay interval in ms. This time interval is used to delay the synchronous request checks, or delay retryable requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#request_delay_interval GridscaleProvider#request_delay_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#request_delay_interval GridscaleProvider#request_delay_interval}
   */
   readonly requestDelayInterval?: number;
   /**
   * API-token for the gridscale API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#token GridscaleProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#token GridscaleProvider#token}
   */
   readonly token?: string;
   /**
   * User-UUID for the gridscale API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#uuid GridscaleProvider#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#uuid GridscaleProvider#uuid}
   */
   readonly uuid?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#alias GridscaleProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#alias GridscaleProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs gridscale}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs gridscale}
 */
 export class GridscaleProvider extends cdktf.TerraformProvider {
 
@@ -68,7 +68,7 @@ export class GridscaleProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a GridscaleProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GridscaleProvider to import
-  * @param importFromId The id of the existing GridscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GridscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GridscaleProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class GridscaleProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs gridscale} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs gridscale} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class GridscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'gridscale',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       terraformProviderSource: 'gridscale/gridscale'
     });

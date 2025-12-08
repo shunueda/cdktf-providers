@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ProjectDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Custom Environment to link to the Project Domain. Deployments from this custom environment will be assigned the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#custom_environment_id ProjectDomain#custom_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#custom_environment_id ProjectDomain#custom_environment_id}
   */
   readonly customEnvironmentId?: string;
   /**
   * The domain name to associate with the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#domain ProjectDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#domain ProjectDomain#domain}
   */
   readonly domain: string;
   /**
   * Git branch to link to the project domain. Deployments from this git branch will be assigned the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#git_branch ProjectDomain#git_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#git_branch ProjectDomain#git_branch}
   */
   readonly gitBranch?: string;
   /**
   * The project ID to add the deployment to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#project_id ProjectDomain#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#project_id ProjectDomain#project_id}
   */
   readonly projectId: string;
   /**
   * The domain name that serves as a target destination for redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#redirect ProjectDomain#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#redirect ProjectDomain#redirect}
   */
   readonly redirect?: string;
   /**
   * The HTTP status code to use when serving as a redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#redirect_status_code ProjectDomain#redirect_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#redirect_status_code ProjectDomain#redirect_status_code}
   */
   readonly redirectStatusCode?: number;
   /**
   * The ID of the team the project exists under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#team_id ProjectDomain#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#team_id ProjectDomain#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain vercel_project_domain}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain vercel_project_domain}
 */
 export class ProjectDomain extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ProjectDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectDomain to import
-  * @param importFromId The id of the existing ProjectDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ProjectDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_domain vercel_project_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_domain vercel_project_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ProjectDomain extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_project_domain',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

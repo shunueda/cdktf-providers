@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RouterosProviderConfig {
   /**
   * Path to MikroTik's certificate authority file (env: ROS_CA_CERTIFICATE | MIKROTIK_CA_CERTIFICATE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#ca_certificate RouterosProvider#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#ca_certificate RouterosProvider#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
@@ -28,37 +28,37 @@ export interface RouterosProviderConfig {
   * 	export ROS_HOSTURL=router.local or export MIKROTIK_HOST=router.local
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#hosturl RouterosProvider#hosturl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#hosturl RouterosProvider#hosturl}
   */
   readonly hosturl: string;
   /**
   * Whether to verify the SSL certificate or not (env: ROS_INSECURE | MIKROTIK_INSECURE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#insecure RouterosProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#insecure RouterosProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password for the MikroTik user (env: ROS_PASSWORD | MIKROTIK_PASSWORD).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#password RouterosProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#password RouterosProvider#password}
   */
   readonly password?: string;
   /**
   * HTTP Client Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#rest_timeout RouterosProvider#rest_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#rest_timeout RouterosProvider#rest_timeout}
   */
   readonly restTimeout?: number;
   /**
   * RouterOS version for which resource schemes will be adapted. The version obtained from MikroTik will be used if not specified (env: ROS_VERSION).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#routeros_version RouterosProvider#routeros_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#routeros_version RouterosProvider#routeros_version}
   */
   readonly routerosVersion?: string;
   /**
   * Suppress the system object deletion warning (env: ROS_SUPPRESS_SYSO_DEL_WARN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#suppress_syso_del_warn RouterosProvider#suppress_syso_del_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#suppress_syso_del_warn RouterosProvider#suppress_syso_del_warn}
   */
   readonly suppressSysoDelWarn?: boolean | cdktf.IResolvable;
   /**
@@ -68,19 +68,19 @@ export interface RouterosProviderConfig {
   * 	export ROS_USERNAME=admin or export MIKROTIK_USER=admin
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#username RouterosProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#username RouterosProvider#username}
   */
   readonly username: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#alias RouterosProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#alias RouterosProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs routeros}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs routeros}
 */
 export class RouterosProvider extends cdktf.TerraformProvider {
 
@@ -96,7 +96,7 @@ export class RouterosProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a RouterosProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterosProvider to import
-  * @param importFromId The id of the existing RouterosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterosProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +108,7 @@ export class RouterosProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs routeros} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs routeros} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,8 +119,8 @@ export class RouterosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'routeros',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       terraformProviderSource: 'terraform-routeros/routeros'
     });

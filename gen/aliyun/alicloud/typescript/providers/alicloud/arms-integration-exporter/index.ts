@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsIntegrationExporterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#cluster_id ArmsIntegrationExporter#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#cluster_id ArmsIntegrationExporter#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#id ArmsIntegrationExporter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#id ArmsIntegrationExporter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#integration_type ArmsIntegrationExporter#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#integration_type ArmsIntegrationExporter#integration_type}
   */
   readonly integrationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#param ArmsIntegrationExporter#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#param ArmsIntegrationExporter#param}
   */
   readonly param: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#timeouts ArmsIntegrationExporter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#timeouts ArmsIntegrationExporter#timeouts}
   */
   readonly timeouts?: ArmsIntegrationExporterTimeouts;
 }
 export interface ArmsIntegrationExporterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#create ArmsIntegrationExporter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#create ArmsIntegrationExporter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#delete ArmsIntegrationExporter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#delete ArmsIntegrationExporter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#update ArmsIntegrationExporter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#update ArmsIntegrationExporter#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ArmsIntegrationExporterTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter alicloud_arms_integration_exporter}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter alicloud_arms_integration_exporter}
 */
 export class ArmsIntegrationExporter extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ArmsIntegrationExporter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsIntegrationExporter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsIntegrationExporter to import
-  * @param importFromId The id of the existing ArmsIntegrationExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsIntegrationExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsIntegrationExporter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ArmsIntegrationExporter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_integration_exporter alicloud_arms_integration_exporter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_integration_exporter alicloud_arms_integration_exporter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ArmsIntegrationExporter extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_integration_exporter',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

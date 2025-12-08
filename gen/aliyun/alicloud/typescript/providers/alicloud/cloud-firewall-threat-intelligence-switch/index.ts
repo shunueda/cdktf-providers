@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface CloudFirewallThreatIntelligenceSwitchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#action CloudFirewallThreatIntelligenceSwitch#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#action CloudFirewallThreatIntelligenceSwitch#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#category_id CloudFirewallThreatIntelligenceSwitch#category_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#category_id CloudFirewallThreatIntelligenceSwitch#category_id}
   */
   readonly categoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#enable_status CloudFirewallThreatIntelligenceSwitch#enable_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#enable_status CloudFirewallThreatIntelligenceSwitch#enable_status}
   */
   readonly enableStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#id CloudFirewallThreatIntelligenceSwitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#id CloudFirewallThreatIntelligenceSwitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,21 +29,21 @@ export interface CloudFirewallThreatIntelligenceSwitchConfig extends cdktf.Terra
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#timeouts CloudFirewallThreatIntelligenceSwitch#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#timeouts CloudFirewallThreatIntelligenceSwitch#timeouts}
   */
   readonly timeouts?: CloudFirewallThreatIntelligenceSwitchTimeouts;
 }
 export interface CloudFirewallThreatIntelligenceSwitchTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#create CloudFirewallThreatIntelligenceSwitch#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#create CloudFirewallThreatIntelligenceSwitch#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#delete CloudFirewallThreatIntelligenceSwitch#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#delete CloudFirewallThreatIntelligenceSwitch#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#update CloudFirewallThreatIntelligenceSwitch#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#update CloudFirewallThreatIntelligenceSwitch#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class CloudFirewallThreatIntelligenceSwitchTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch alicloud_cloud_firewall_threat_intelligence_switch}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch alicloud_cloud_firewall_threat_intelligence_switch}
 */
 export class CloudFirewallThreatIntelligenceSwitch extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class CloudFirewallThreatIntelligenceSwitch extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CloudFirewallThreatIntelligenceSwitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudFirewallThreatIntelligenceSwitch to import
-  * @param importFromId The id of the existing CloudFirewallThreatIntelligenceSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudFirewallThreatIntelligenceSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudFirewallThreatIntelligenceSwitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class CloudFirewallThreatIntelligenceSwitch extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_firewall_threat_intelligence_switch alicloud_cloud_firewall_threat_intelligence_switch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_threat_intelligence_switch alicloud_cloud_firewall_threat_intelligence_switch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class CloudFirewallThreatIntelligenceSwitch extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_cloud_firewall_threat_intelligence_switch',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

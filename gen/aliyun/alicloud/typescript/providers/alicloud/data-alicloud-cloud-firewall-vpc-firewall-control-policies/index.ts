@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCloudFirewallVpcFirewallControlPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#acl_action DataAlicloudCloudFirewallVpcFirewallControlPolicies#acl_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#acl_action DataAlicloudCloudFirewallVpcFirewallControlPolicies#acl_action}
   */
   readonly aclAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#acl_uuid DataAlicloudCloudFirewallVpcFirewallControlPolicies#acl_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#acl_uuid DataAlicloudCloudFirewallVpcFirewallControlPolicies#acl_uuid}
   */
   readonly aclUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#description DataAlicloudCloudFirewallVpcFirewallControlPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#description DataAlicloudCloudFirewallVpcFirewallControlPolicies#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#destination DataAlicloudCloudFirewallVpcFirewallControlPolicies#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#destination DataAlicloudCloudFirewallVpcFirewallControlPolicies#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#id DataAlicloudCloudFirewallVpcFirewallControlPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#id DataAlicloudCloudFirewallVpcFirewallControlPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#ids DataAlicloudCloudFirewallVpcFirewallControlPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#ids DataAlicloudCloudFirewallVpcFirewallControlPolicies#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#lang DataAlicloudCloudFirewallVpcFirewallControlPolicies#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#lang DataAlicloudCloudFirewallVpcFirewallControlPolicies#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#member_uid DataAlicloudCloudFirewallVpcFirewallControlPolicies#member_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#member_uid DataAlicloudCloudFirewallVpcFirewallControlPolicies#member_uid}
   */
   readonly memberUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#output_file DataAlicloudCloudFirewallVpcFirewallControlPolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#output_file DataAlicloudCloudFirewallVpcFirewallControlPolicies#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#page_number DataAlicloudCloudFirewallVpcFirewallControlPolicies#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#page_number DataAlicloudCloudFirewallVpcFirewallControlPolicies#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#page_size DataAlicloudCloudFirewallVpcFirewallControlPolicies#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#page_size DataAlicloudCloudFirewallVpcFirewallControlPolicies#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#proto DataAlicloudCloudFirewallVpcFirewallControlPolicies#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#proto DataAlicloudCloudFirewallVpcFirewallControlPolicies#proto}
   */
   readonly proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#release DataAlicloudCloudFirewallVpcFirewallControlPolicies#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#release DataAlicloudCloudFirewallVpcFirewallControlPolicies#release}
   */
   readonly release?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#source DataAlicloudCloudFirewallVpcFirewallControlPolicies#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#source DataAlicloudCloudFirewallVpcFirewallControlPolicies#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#vpc_firewall_id DataAlicloudCloudFirewallVpcFirewallControlPolicies#vpc_firewall_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#vpc_firewall_id DataAlicloudCloudFirewallVpcFirewallControlPolicies#vpc_firewall_id}
   */
   readonly vpcFirewallId: string;
 }
@@ -263,7 +263,7 @@ export class DataAlicloudCloudFirewallVpcFirewallControlPoliciesPoliciesList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies alicloud_cloud_firewall_vpc_firewall_control_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies alicloud_cloud_firewall_vpc_firewall_control_policies}
 */
 export class DataAlicloudCloudFirewallVpcFirewallControlPolicies extends cdktf.TerraformDataSource {
 
@@ -279,7 +279,7 @@ export class DataAlicloudCloudFirewallVpcFirewallControlPolicies extends cdktf.T
   * Generates CDKTF code for importing a DataAlicloudCloudFirewallVpcFirewallControlPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCloudFirewallVpcFirewallControlPolicies to import
-  * @param importFromId The id of the existing DataAlicloudCloudFirewallVpcFirewallControlPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCloudFirewallVpcFirewallControlPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCloudFirewallVpcFirewallControlPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +291,7 @@ export class DataAlicloudCloudFirewallVpcFirewallControlPolicies extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies alicloud_cloud_firewall_vpc_firewall_control_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_vpc_firewall_control_policies alicloud_cloud_firewall_vpc_firewall_control_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,8 +302,8 @@ export class DataAlicloudCloudFirewallVpcFirewallControlPolicies extends cdktf.T
       terraformResourceType: 'alicloud_cloud_firewall_vpc_firewall_control_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

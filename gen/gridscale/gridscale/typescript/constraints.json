@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "gridscale": "2.2.3"
+    "gridscale": "2.3.0"
   }
 }

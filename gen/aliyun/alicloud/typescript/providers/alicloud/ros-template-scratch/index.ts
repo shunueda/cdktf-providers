@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface RosTemplateScratchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#description RosTemplateScratch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#description RosTemplateScratch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#execution_mode RosTemplateScratch#execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#execution_mode RosTemplateScratch#execution_mode}
   */
   readonly executionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#id RosTemplateScratch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#id RosTemplateScratch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#logical_id_strategy RosTemplateScratch#logical_id_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#logical_id_strategy RosTemplateScratch#logical_id_strategy}
   */
   readonly logicalIdStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#template_scratch_type RosTemplateScratch#template_scratch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#template_scratch_type RosTemplateScratch#template_scratch_type}
   */
   readonly templateScratchType: string;
   /**
   * preference_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#preference_parameters RosTemplateScratch#preference_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#preference_parameters RosTemplateScratch#preference_parameters}
   */
   readonly preferenceParameters?: RosTemplateScratchPreferenceParameters[] | cdktf.IResolvable;
   /**
   * source_resource_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#source_resource_group RosTemplateScratch#source_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#source_resource_group RosTemplateScratch#source_resource_group}
   */
   readonly sourceResourceGroup?: RosTemplateScratchSourceResourceGroup;
   /**
   * source_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#source_resources RosTemplateScratch#source_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#source_resources RosTemplateScratch#source_resources}
   */
   readonly sourceResources?: RosTemplateScratchSourceResources[] | cdktf.IResolvable;
   /**
   * source_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#source_tag RosTemplateScratch#source_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#source_tag RosTemplateScratch#source_tag}
   */
   readonly sourceTag?: RosTemplateScratchSourceTag;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#timeouts RosTemplateScratch#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#timeouts RosTemplateScratch#timeouts}
   */
   readonly timeouts?: RosTemplateScratchTimeouts;
 }
 export interface RosTemplateScratchPreferenceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#parameter_key RosTemplateScratch#parameter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#parameter_key RosTemplateScratch#parameter_key}
   */
   readonly parameterKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#parameter_value RosTemplateScratch#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#parameter_value RosTemplateScratch#parameter_value}
   */
   readonly parameterValue: string;
 }
@@ -206,11 +206,11 @@ export class RosTemplateScratchPreferenceParametersList extends cdktf.ComplexLis
 }
 export interface RosTemplateScratchSourceResourceGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#resource_group_id RosTemplateScratch#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#resource_group_id RosTemplateScratch#resource_group_id}
   */
   readonly resourceGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#resource_type_filter RosTemplateScratch#resource_type_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#resource_type_filter RosTemplateScratch#resource_type_filter}
   */
   readonly resourceTypeFilter?: string[];
 }
@@ -320,11 +320,11 @@ export class RosTemplateScratchSourceResourceGroupOutputReference extends cdktf.
 }
 export interface RosTemplateScratchSourceResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#resource_id RosTemplateScratch#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#resource_id RosTemplateScratch#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#resource_type RosTemplateScratch#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#resource_type RosTemplateScratch#resource_type}
   */
   readonly resourceType: string;
 }
@@ -463,11 +463,11 @@ export class RosTemplateScratchSourceResourcesList extends cdktf.ComplexList {
 }
 export interface RosTemplateScratchSourceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#resource_tags RosTemplateScratch#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#resource_tags RosTemplateScratch#resource_tags}
   */
   readonly resourceTags: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#resource_type_filter RosTemplateScratch#resource_type_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#resource_type_filter RosTemplateScratch#resource_type_filter}
   */
   readonly resourceTypeFilter?: string[];
 }
@@ -577,15 +577,15 @@ export class RosTemplateScratchSourceTagOutputReference extends cdktf.ComplexObj
 }
 export interface RosTemplateScratchTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#create RosTemplateScratch#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#create RosTemplateScratch#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#delete RosTemplateScratch#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#delete RosTemplateScratch#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#update RosTemplateScratch#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#update RosTemplateScratch#update}
   */
   readonly update?: string;
 }
@@ -737,7 +737,7 @@ export class RosTemplateScratchTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch alicloud_ros_template_scratch}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch alicloud_ros_template_scratch}
 */
 export class RosTemplateScratch extends cdktf.TerraformResource {
 
@@ -753,7 +753,7 @@ export class RosTemplateScratch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RosTemplateScratch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RosTemplateScratch to import
-  * @param importFromId The id of the existing RosTemplateScratch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RosTemplateScratch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RosTemplateScratch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -765,7 +765,7 @@ export class RosTemplateScratch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ros_template_scratch alicloud_ros_template_scratch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ros_template_scratch alicloud_ros_template_scratch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -776,8 +776,8 @@ export class RosTemplateScratch extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ros_template_scratch',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

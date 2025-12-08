@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface InterfaceVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deploy the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#deploy InterfaceVlan#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#deploy InterfaceVlan#deploy}
   */
   readonly deploy?: boolean | cdktf.IResolvable;
   /**
   * interfaces to configure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#interfaces InterfaceVlan#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#interfaces InterfaceVlan#interfaces}
   */
   readonly interfaces: { [key: string]: InterfaceVlanInterfaces } | cdktf.IResolvable;
   /**
   * Name of the policy. Examples: `int_vlan`, `int_freeform`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#policy InterfaceVlan#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#policy InterfaceVlan#policy}
   */
   readonly policy?: string;
   /**
   * Serial number of switch to configure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#serial_number InterfaceVlan#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#serial_number InterfaceVlan#serial_number}
   */
   readonly serialNumber?: string;
 }
@@ -36,169 +36,169 @@ export interface InterfaceVlanInterfaces {
   /**
   * Enable or disable the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#admin_state InterfaceVlan#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#admin_state InterfaceVlan#admin_state}
   */
   readonly adminState?: boolean | cdktf.IResolvable;
   /**
   * Advertise subnet in underlay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#advertise_subnet_in_underlay InterfaceVlan#advertise_subnet_in_underlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#advertise_subnet_in_underlay InterfaceVlan#advertise_subnet_in_underlay}
   */
   readonly advertiseSubnetInUnderlay?: boolean | cdktf.IResolvable;
   /**
   * DHCP server address 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#dhcp_server_addr1 InterfaceVlan#dhcp_server_addr1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#dhcp_server_addr1 InterfaceVlan#dhcp_server_addr1}
   */
   readonly dhcpServerAddr1?: string;
   /**
   * DHCP server address 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#dhcp_server_addr2 InterfaceVlan#dhcp_server_addr2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#dhcp_server_addr2 InterfaceVlan#dhcp_server_addr2}
   */
   readonly dhcpServerAddr2?: string;
   /**
   * DHCP server address 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#dhcp_server_addr3 InterfaceVlan#dhcp_server_addr3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#dhcp_server_addr3 InterfaceVlan#dhcp_server_addr3}
   */
   readonly dhcpServerAddr3?: string;
   /**
   * Disable IP redirects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#disable_ip_redirects InterfaceVlan#disable_ip_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#disable_ip_redirects InterfaceVlan#disable_ip_redirects}
   */
   readonly disableIpRedirects?: boolean | cdktf.IResolvable;
   /**
   * Enable HSRP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#enable_hsrp InterfaceVlan#enable_hsrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#enable_hsrp InterfaceVlan#enable_hsrp}
   */
   readonly enableHsrp?: boolean | cdktf.IResolvable;
   /**
   * Additional CLI for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#freeform_config InterfaceVlan#freeform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#freeform_config InterfaceVlan#freeform_config}
   */
   readonly freeformConfig?: string;
   /**
   * HSRP group number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#hsrp_group InterfaceVlan#hsrp_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#hsrp_group InterfaceVlan#hsrp_group}
   */
   readonly hsrpGroup?: number;
   /**
   * HSRP priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#hsrp_priority InterfaceVlan#hsrp_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#hsrp_priority InterfaceVlan#hsrp_priority}
   */
   readonly hsrpPriority?: number;
   /**
   * HSRP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#hsrp_version InterfaceVlan#hsrp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#hsrp_version InterfaceVlan#hsrp_version}
   */
   readonly hsrpVersion?: string;
   /**
   * HSRP virtual IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#hsrp_vip InterfaceVlan#hsrp_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#hsrp_vip InterfaceVlan#hsrp_vip}
   */
   readonly hsrpVip?: string;
   /**
   * Interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#interface_description InterfaceVlan#interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#interface_description InterfaceVlan#interface_description}
   */
   readonly interfaceDescription?: string;
   /**
   * Name of the Interface. Example: `Vlan1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#interface_name InterfaceVlan#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#interface_name InterfaceVlan#interface_name}
   */
   readonly interfaceName: string;
   /**
   * IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#ipv4_address InterfaceVlan#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#ipv4_address InterfaceVlan#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Prefix length for the IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#ipv4_prefix_length InterfaceVlan#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#ipv4_prefix_length InterfaceVlan#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: string;
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#mac InterfaceVlan#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#mac InterfaceVlan#mac}
   */
   readonly mac?: string;
   /**
   * MTU for the interface - range 68-9216
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#mtu InterfaceVlan#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#mtu InterfaceVlan#mtu}
   */
   readonly mtu?: string;
   /**
   * Netflow is supported only if it is enabled on fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#netflow InterfaceVlan#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#netflow InterfaceVlan#netflow}
   */
   readonly netflow?: boolean | cdktf.IResolvable;
   /**
   * Provide the Layer 2 Monitor Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#netflow_monitor InterfaceVlan#netflow_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#netflow_monitor InterfaceVlan#netflow_monitor}
   */
   readonly netflowMonitor?: string;
   /**
   * Netflow sampler name, applicable to N7K only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#netflow_sampler InterfaceVlan#netflow_sampler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#netflow_sampler InterfaceVlan#netflow_sampler}
   */
   readonly netflowSampler?: string;
   /**
   * Enable HSRP preempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#preempt InterfaceVlan#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#preempt InterfaceVlan#preempt}
   */
   readonly preempt?: boolean | cdktf.IResolvable;
   /**
   * Routing tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#routing_tag InterfaceVlan#routing_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#routing_tag InterfaceVlan#routing_tag}
   */
   readonly routingTag?: string;
   /**
   * Serial number of switch to configure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#serial_number InterfaceVlan#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#serial_number InterfaceVlan#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * VRF name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#vrf InterfaceVlan#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#vrf InterfaceVlan#vrf}
   */
   readonly vrf?: string;
   /**
   * VRF for DHCP server 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#vrf_dhcp1 InterfaceVlan#vrf_dhcp1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#vrf_dhcp1 InterfaceVlan#vrf_dhcp1}
   */
   readonly vrfDhcp1?: string;
   /**
   * VRF for DHCP server 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#vrf_dhcp2 InterfaceVlan#vrf_dhcp2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#vrf_dhcp2 InterfaceVlan#vrf_dhcp2}
   */
   readonly vrfDhcp2?: string;
   /**
   * VRF for DHCP server 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#vrf_dhcp3 InterfaceVlan#vrf_dhcp3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#vrf_dhcp3 InterfaceVlan#vrf_dhcp3}
   */
   readonly vrfDhcp3?: string;
 }
@@ -1097,7 +1097,7 @@ export class InterfaceVlanInterfacesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan ndfc_interface_vlan}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan ndfc_interface_vlan}
 */
 export class InterfaceVlan extends cdktf.TerraformResource {
 
@@ -1113,7 +1113,7 @@ export class InterfaceVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceVlan to import
-  * @param importFromId The id of the existing InterfaceVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1125,7 +1125,7 @@ export class InterfaceVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/interface_vlan ndfc_interface_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/interface_vlan ndfc_interface_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1136,8 +1136,8 @@ export class InterfaceVlan extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_interface_vlan',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface AlikafkaInstanceAllowedIpAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#allowed_ip AlikafkaInstanceAllowedIpAttachment#allowed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#allowed_ip AlikafkaInstanceAllowedIpAttachment#allowed_ip}
   */
   readonly allowedIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#allowed_type AlikafkaInstanceAllowedIpAttachment#allowed_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#allowed_type AlikafkaInstanceAllowedIpAttachment#allowed_type}
   */
   readonly allowedType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#id AlikafkaInstanceAllowedIpAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#id AlikafkaInstanceAllowedIpAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#instance_id AlikafkaInstanceAllowedIpAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#instance_id AlikafkaInstanceAllowedIpAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#port_range AlikafkaInstanceAllowedIpAttachment#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#port_range AlikafkaInstanceAllowedIpAttachment#port_range}
   */
   readonly portRange: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#timeouts AlikafkaInstanceAllowedIpAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#timeouts AlikafkaInstanceAllowedIpAttachment#timeouts}
   */
   readonly timeouts?: AlikafkaInstanceAllowedIpAttachmentTimeouts;
 }
 export interface AlikafkaInstanceAllowedIpAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#create AlikafkaInstanceAllowedIpAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#create AlikafkaInstanceAllowedIpAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#delete AlikafkaInstanceAllowedIpAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#delete AlikafkaInstanceAllowedIpAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class AlikafkaInstanceAllowedIpAttachmentTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment alicloud_alikafka_instance_allowed_ip_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment alicloud_alikafka_instance_allowed_ip_attachment}
 */
 export class AlikafkaInstanceAllowedIpAttachment extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class AlikafkaInstanceAllowedIpAttachment extends cdktf.TerraformResource
   * Generates CDKTF code for importing a AlikafkaInstanceAllowedIpAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlikafkaInstanceAllowedIpAttachment to import
-  * @param importFromId The id of the existing AlikafkaInstanceAllowedIpAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlikafkaInstanceAllowedIpAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlikafkaInstanceAllowedIpAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class AlikafkaInstanceAllowedIpAttachment extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alikafka_instance_allowed_ip_attachment alicloud_alikafka_instance_allowed_ip_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance_allowed_ip_attachment alicloud_alikafka_instance_allowed_ip_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class AlikafkaInstanceAllowedIpAttachment extends cdktf.TerraformResource
       terraformResourceType: 'alicloud_alikafka_instance_allowed_ip_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#metadata DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#metadata DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestMetadat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -391,15 +391,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -567,11 +567,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -694,11 +694,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preference DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preference DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -837,15 +837,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1013,15 +1013,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1189,11 +1189,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1338,7 +1338,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_selector_terms DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_selector_terms DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1429,11 +1429,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1556,15 +1556,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1732,11 +1732,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1859,15 +1859,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2035,11 +2035,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2162,27 +2162,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2418,11 +2418,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2561,15 +2561,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2737,11 +2737,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2864,15 +2864,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3040,11 +3040,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3167,27 +3167,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3445,11 +3445,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3572,15 +3572,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3748,11 +3748,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3875,15 +3875,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4051,11 +4051,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4178,27 +4178,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4434,11 +4434,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4577,15 +4577,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4753,11 +4753,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4880,15 +4880,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5056,11 +5056,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5183,27 +5183,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5461,11 +5461,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5588,15 +5588,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_anti_affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_anti_affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinityPodAntiAffinity;
 }
@@ -5748,23 +5748,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAzure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#container_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#container_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#credentials_secret DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#credentials_secret DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#endpoint_url DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#endpoint_url DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -5968,11 +5968,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6092,11 +6092,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#add DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#add DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#drop DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#drop DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6219,19 +6219,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6412,11 +6412,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6536,19 +6536,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6729,51 +6729,51 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#allow_privilege_escalation DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#allow_privilege_escalation DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#capabilities DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#capabilities DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#privileged DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#privileged DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#proc_mount DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#proc_mount DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#read_only_root_filesystem DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#read_only_root_filesystem DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContextWindowsOptions;
 }
@@ -7186,23 +7186,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageGcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#bucket DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#bucket DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#credentials_secret DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#credentials_secret DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#endpoint_url DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#endpoint_url DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -7406,11 +7406,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -7530,19 +7530,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -7723,11 +7723,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -7847,11 +7847,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7990,19 +7990,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8183,51 +8183,51 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#fs_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#fs_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#fs_group_change_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#fs_group_change_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#supplemental_groups DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#supplemental_groups DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#supplemental_groups_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#supplemental_groups_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#sysctls DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#sysctls DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContextWindowsOptions;
 }
@@ -8640,11 +8640,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#request DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#request DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -8786,15 +8786,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#claims DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#claims DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8946,27 +8946,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#bucket DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#bucket DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#credentials_secret DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#credentials_secret DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#endpoint_url DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#endpoint_url DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#region DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#region DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -9199,23 +9199,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#effect DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#effect DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#toleration_seconds DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#toleration_seconds DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9447,15 +9447,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9623,11 +9623,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9750,35 +9750,35 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#max_skew DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#max_skew DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#min_domains DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#min_domains DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_affinity_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_affinity_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_taints_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_taints_policy DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#when_unsatisfiable DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#when_unsatisfiable DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -10088,11 +10088,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#medium DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#medium DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#size_limit DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#size_limit DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -10215,11 +10215,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -10339,15 +10339,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -10493,19 +10493,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#namespace DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10680,11 +10680,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10807,15 +10807,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10983,11 +10983,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11110,39 +11110,39 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#access_modes DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#access_modes DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#data_source DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#data_source DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#data_source_ref DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#data_source_ref DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaimSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_attributes_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_attributes_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_mode DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_mode DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -11468,15 +11468,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#empty_dir DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#empty_dir DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#host_path DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#host_path DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#persistent_volume_claim DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#persistent_volume_claim DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpecPersistentVolumeClaim;
 }
@@ -11628,75 +11628,75 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#affinity DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#azure DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#azure DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#azure}
   */
   readonly azure?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#container_security_context DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#container_security_context DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageContainerSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gcs DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#gcs DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#gcs}
   */
   readonly gcs?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageGcs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#node_selector DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_security_context DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#pod_security_context DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStoragePodSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#priority_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#priority_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#runtime_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#runtime_class_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#s3 DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#s3 DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#scheduler_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#scheduler_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#tolerations DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#tolerations DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_spread_constraints DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#topology_spread_constraints DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#verify_tls DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#verify_tls DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#volume_spec DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#volume_spec}
   */
   readonly volumeSpec?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorageVolumeSpec;
 }
@@ -12280,27 +12280,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#completed DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#completed DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#completed}
   */
   readonly completed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#destination DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#destination DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#state DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#state DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#state_description DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#state_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#state_description DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#state_description}
   */
   readonly stateDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#storage DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSourceStorage;
 }
@@ -12539,15 +12539,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBac
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#backup_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#backup_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#backup_name}
   */
   readonly backupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#backup_source DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#backup_source DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#backup_source}
   */
   readonly backupSource?: DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecBackupSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#cluster_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#cluster_name DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName: string;
 }
@@ -12696,7 +12696,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest k8s_ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest k8s_ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest}
 */
 export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -12712,7 +12712,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12724,7 +12724,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest k8s_ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest k8s_ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12735,8 +12735,8 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest extend
       terraformResourceType: 'k8s_ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

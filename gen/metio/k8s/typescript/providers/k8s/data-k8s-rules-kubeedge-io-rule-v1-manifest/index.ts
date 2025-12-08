@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SRulesKubeedgeIoRuleV1ManifestConfig extends cdktf.Terraf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#metadata DataK8SRulesKubeedgeIoRuleV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#metadata DataK8SRulesKubeedgeIoRuleV1Manifest#metadata}
   */
   readonly metadata: DataK8SRulesKubeedgeIoRuleV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#spec DataK8SRulesKubeedgeIoRuleV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#spec DataK8SRulesKubeedgeIoRuleV1Manifest#spec}
   */
   readonly spec?: DataK8SRulesKubeedgeIoRuleV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SRulesKubeedgeIoRuleV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#annotations DataK8SRulesKubeedgeIoRuleV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#annotations DataK8SRulesKubeedgeIoRuleV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#labels DataK8SRulesKubeedgeIoRuleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#labels DataK8SRulesKubeedgeIoRuleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#name DataK8SRulesKubeedgeIoRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#name DataK8SRulesKubeedgeIoRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#namespace DataK8SRulesKubeedgeIoRuleV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#namespace DataK8SRulesKubeedgeIoRuleV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,25 +217,25 @@ export interface DataK8SRulesKubeedgeIoRuleV1ManifestSpec {
   /**
   * source is a string value representing where the messages come from. Its value is the same with ruleendpoint name. For example, my-rest or my-eventbus. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#source DataK8SRulesKubeedgeIoRuleV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#source DataK8SRulesKubeedgeIoRuleV1Manifest#source}
   */
   readonly source: string;
   /**
   * sourceResource is a map representing the resource info of source. For rest rule-endpoint type its value is {'path':'/test'}. For eventbus ruleendpoint type its value is {'topic':'<user define string>','node_name':'edge-node'} 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#source_resource DataK8SRulesKubeedgeIoRuleV1Manifest#source_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#source_resource DataK8SRulesKubeedgeIoRuleV1Manifest#source_resource}
   */
   readonly sourceResource: { [key: string]: string };
   /**
   * target is a string value representing where the messages go to. its value is the same with ruleendpoint name. For example, my-eventbus or my-rest or my-servicebus. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#target DataK8SRulesKubeedgeIoRuleV1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#target DataK8SRulesKubeedgeIoRuleV1Manifest#target}
   */
   readonly target: string;
   /**
   * targetResource is a map representing the resource info of target. For rest rule-endpoint type its value is {'resource':'http://a.com'}. For eventbus ruleendpoint type its value is {'topic':'/test'}. For servicebus rule-endpoint type its value is {'path':'/request_path'}. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#target_resource DataK8SRulesKubeedgeIoRuleV1Manifest#target_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#target_resource DataK8SRulesKubeedgeIoRuleV1Manifest#target_resource}
   */
   readonly targetResource: { [key: string]: string };
 }
@@ -404,7 +404,7 @@ export class DataK8SRulesKubeedgeIoRuleV1ManifestSpecOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest k8s_rules_kubeedge_io_rule_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest k8s_rules_kubeedge_io_rule_v1_manifest}
 */
 export class DataK8SRulesKubeedgeIoRuleV1Manifest extends cdktf.TerraformDataSource {
 
@@ -420,7 +420,7 @@ export class DataK8SRulesKubeedgeIoRuleV1Manifest extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataK8SRulesKubeedgeIoRuleV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRulesKubeedgeIoRuleV1Manifest to import
-  * @param importFromId The id of the existing DataK8SRulesKubeedgeIoRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRulesKubeedgeIoRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRulesKubeedgeIoRuleV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -432,7 +432,7 @@ export class DataK8SRulesKubeedgeIoRuleV1Manifest extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/rules_kubeedge_io_rule_v1_manifest k8s_rules_kubeedge_io_rule_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rules_kubeedge_io_rule_v1_manifest k8s_rules_kubeedge_io_rule_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,8 +443,8 @@ export class DataK8SRulesKubeedgeIoRuleV1Manifest extends cdktf.TerraformDataSou
       terraformResourceType: 'k8s_rules_kubeedge_io_rule_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionWebLockConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#defence_mode ThreatDetectionWebLockConfig#defence_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#defence_mode ThreatDetectionWebLockConfig#defence_mode}
   */
   readonly defenceMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#dir ThreatDetectionWebLockConfig#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#dir ThreatDetectionWebLockConfig#dir}
   */
   readonly dir: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#exclusive_dir ThreatDetectionWebLockConfig#exclusive_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#exclusive_dir ThreatDetectionWebLockConfig#exclusive_dir}
   */
   readonly exclusiveDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#exclusive_file ThreatDetectionWebLockConfig#exclusive_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#exclusive_file ThreatDetectionWebLockConfig#exclusive_file}
   */
   readonly exclusiveFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#exclusive_file_type ThreatDetectionWebLockConfig#exclusive_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#exclusive_file_type ThreatDetectionWebLockConfig#exclusive_file_type}
   */
   readonly exclusiveFileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#id ThreatDetectionWebLockConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#id ThreatDetectionWebLockConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#inclusive_file_type ThreatDetectionWebLockConfig#inclusive_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#inclusive_file_type ThreatDetectionWebLockConfig#inclusive_file_type}
   */
   readonly inclusiveFileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#local_backup_dir ThreatDetectionWebLockConfig#local_backup_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#local_backup_dir ThreatDetectionWebLockConfig#local_backup_dir}
   */
   readonly localBackupDir: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#mode ThreatDetectionWebLockConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#mode ThreatDetectionWebLockConfig#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#uuid ThreatDetectionWebLockConfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#uuid ThreatDetectionWebLockConfig#uuid}
   */
   readonly uuid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config alicloud_threat_detection_web_lock_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config alicloud_threat_detection_web_lock_config}
 */
 export class ThreatDetectionWebLockConfig extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ThreatDetectionWebLockConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionWebLockConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionWebLockConfig to import
-  * @param importFromId The id of the existing ThreatDetectionWebLockConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionWebLockConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionWebLockConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ThreatDetectionWebLockConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_web_lock_config alicloud_threat_detection_web_lock_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_web_lock_config alicloud_threat_detection_web_lock_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ThreatDetectionWebLockConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_web_lock_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

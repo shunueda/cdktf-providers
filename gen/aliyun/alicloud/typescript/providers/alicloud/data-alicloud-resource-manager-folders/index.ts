@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudResourceManagerFoldersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#enable_details DataAlicloudResourceManagerFolders#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#enable_details DataAlicloudResourceManagerFolders#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#id DataAlicloudResourceManagerFolders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#id DataAlicloudResourceManagerFolders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#ids DataAlicloudResourceManagerFolders#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#ids DataAlicloudResourceManagerFolders#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#name_regex DataAlicloudResourceManagerFolders#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#name_regex DataAlicloudResourceManagerFolders#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#output_file DataAlicloudResourceManagerFolders#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#output_file DataAlicloudResourceManagerFolders#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#parent_folder_id DataAlicloudResourceManagerFolders#parent_folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#parent_folder_id DataAlicloudResourceManagerFolders#parent_folder_id}
   */
   readonly parentFolderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#query_keyword DataAlicloudResourceManagerFolders#query_keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#query_keyword DataAlicloudResourceManagerFolders#query_keyword}
   */
   readonly queryKeyword?: string;
 }
@@ -131,7 +131,7 @@ export class DataAlicloudResourceManagerFoldersFoldersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders alicloud_resource_manager_folders}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders alicloud_resource_manager_folders}
 */
 export class DataAlicloudResourceManagerFolders extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataAlicloudResourceManagerFolders extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataAlicloudResourceManagerFolders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudResourceManagerFolders to import
-  * @param importFromId The id of the existing DataAlicloudResourceManagerFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudResourceManagerFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudResourceManagerFolders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataAlicloudResourceManagerFolders extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_folders alicloud_resource_manager_folders} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_folders alicloud_resource_manager_folders} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataAlicloudResourceManagerFolders extends cdktf.TerraformDataSourc
       terraformResourceType: 'alicloud_resource_manager_folders',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "serverscom": "0.5.2"
+    "serverscom": "0.5.3"
   }
 }

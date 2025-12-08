@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface JaasAccessModelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Level of access to grant. Changing this value will replace the Terraform resource. Valid access levels are described at https://canonical-jaas-documentation.readthedocs-hosted.com/latest/howto/manage-permissions/#add-a-permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model#access JaasAccessModel#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model#access JaasAccessModel#access}
   */
   readonly access: string;
   /**
   * List of groups to grant access. A valid group ID is the group's UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model#groups JaasAccessModel#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model#groups JaasAccessModel#groups}
   */
   readonly groups?: string[];
   /**
   * The uuid of the model for access management. If this is changed the resource will be deleted and a new resource will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model#model_uuid JaasAccessModel#model_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model#model_uuid JaasAccessModel#model_uuid}
   */
   readonly modelUuid: string;
   /**
   * List of roles UUIDs to grant access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model#roles JaasAccessModel#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model#roles JaasAccessModel#roles}
   */
   readonly roles?: string[];
   /**
   * List of service accounts to grant access. A valid service account is the service account's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model#service_accounts JaasAccessModel#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model#service_accounts JaasAccessModel#service_accounts}
   */
   readonly serviceAccounts?: string[];
   /**
   * List of users to grant access. A valid user is the user's name or email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model#users JaasAccessModel#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model#users JaasAccessModel#users}
   */
   readonly users?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model juju_jaas_access_model}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model juju_jaas_access_model}
 */
 export class JaasAccessModel extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class JaasAccessModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JaasAccessModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JaasAccessModel to import
-  * @param importFromId The id of the existing JaasAccessModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JaasAccessModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JaasAccessModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class JaasAccessModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/jaas_access_model juju_jaas_access_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_model juju_jaas_access_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class JaasAccessModel extends cdktf.TerraformResource {
       terraformResourceType: 'juju_jaas_access_model',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -7,13 +7,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -138,19 +138,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -301,19 +301,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -464,13 +464,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsBasicAuthUsername;
 }
@@ -595,19 +595,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -758,19 +758,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -921,13 +921,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2ClientIdSecret;
 }
@@ -1052,19 +1052,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1215,19 +1215,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1378,19 +1378,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1541,13 +1541,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfigCaSecret;
 }
@@ -1672,19 +1672,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1835,19 +1835,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1998,13 +1998,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfigCertSecret;
 }
@@ -2129,19 +2129,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2292,43 +2292,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -2598,61 +2598,61 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -3000,19 +3000,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3163,19 +3163,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3326,13 +3326,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfigCaSecret;
 }
@@ -3457,19 +3457,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3620,19 +3620,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3783,13 +3783,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfigCertSecret;
 }
@@ -3914,19 +3914,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4077,43 +4077,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -4383,73 +4383,73 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpS
   /**
   * Authorization header configuration to authenticate against the target HTTP endpoint. Cannot be set at the same time as 'oAuth2', or 'basicAuth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsAuthorization;
   /**
   * BasicAuth information to authenticate against the target HTTP endpoint. More info: https://prometheus.io/docs/operating/configuration/#endpoints Cannot be set at the same time as 'authorization', or 'oAuth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsBasicAuth;
   /**
   * Whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * Configure whether HTTP requests follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Optional OAuth 2.0 configuration to authenticate against the target HTTP endpoint. Cannot be set at the same time as 'authorization', or 'basicAuth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * RefreshInterval configures the refresh interval at which Prometheus will re-query the endpoint to update the target list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * TLS configuration applying to the target HTTP endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecHttpSdConfigsTlsConfig;
   /**
   * URL from which the targets are fetched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -4883,19 +4883,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5046,13 +5046,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5177,19 +5177,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5340,19 +5340,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5503,13 +5503,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfigCaSecret;
 }
@@ -5634,19 +5634,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5797,19 +5797,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5960,13 +5960,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfigCertSecret;
 }
@@ -6091,19 +6091,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6254,43 +6254,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -6560,67 +6560,67 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonos
   /**
   * Authorization' header configuration, required when using IONOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsAuthorization;
   /**
   * The unique ID of the IONOS data center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#datacenter_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#datacenter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#datacenter_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#datacenter_id}
   */
   readonly datacenterId: string;
   /**
   * Configure whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * Configure whether the HTTP requests should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Port to scrape the metrics from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#port DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#port DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Refresh interval to re-read the list of resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * TLS configuration to use when connecting to the IONOS API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecIonosSdConfigsTlsConfig;
 }
@@ -7022,7 +7022,7 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * Attaches node metadata to discovered targets. When set to true, Prometheus must have the 'get' permission on the 'Nodes' objects. Only valid for Pod, Endpoint and Endpointslice roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#node DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#node DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
 }
@@ -7118,19 +7118,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7281,13 +7281,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7412,19 +7412,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7575,19 +7575,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7738,13 +7738,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsBasicAuthUsername;
 }
@@ -7869,13 +7869,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * List of namespaces where to watch for resources. If empty and 'ownNamespace' isn't true, Prometheus watches for resources in all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#names DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#names DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#names}
   */
   readonly names?: string[];
   /**
   * Includes the namespace in which the Prometheus pod runs to the list of watched namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#own_namespace DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#own_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#own_namespace DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#own_namespace}
   */
   readonly ownNamespace?: boolean | cdktf.IResolvable;
 }
@@ -8000,19 +8000,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8163,19 +8163,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8326,13 +8326,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2ClientIdSecret;
 }
@@ -8457,19 +8457,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8620,19 +8620,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8783,19 +8783,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8946,13 +8946,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfigCaSecret;
 }
@@ -9077,19 +9077,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9240,19 +9240,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9403,13 +9403,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfigCertSecret;
 }
@@ -9534,19 +9534,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9697,43 +9697,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -10003,61 +10003,61 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -10405,19 +10405,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * An optional field selector to limit the service discovery to resources which have fields with specific values. e.g: 'metadata.name=foobar'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#field DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#field DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#field}
   */
   readonly field?: string;
   /**
   * An optional label selector to limit the service discovery to resources with specific labels and label values. e.g: 'node.kubernetes.io/instance-type=master'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#label DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#label DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#label}
   */
   readonly label?: string;
   /**
   * Role specifies the type of Kubernetes resource to limit the service discovery to. Accepted values are: Node, Pod, Endpoints, EndpointSlice, Service, Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#role DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#role DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#role}
   */
   readonly role: string;
 }
@@ -10590,19 +10590,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10753,19 +10753,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10916,13 +10916,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfigCaSecret;
 }
@@ -11047,19 +11047,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11210,19 +11210,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11373,13 +11373,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfigCertSecret;
 }
@@ -11504,19 +11504,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11667,43 +11667,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -11973,91 +11973,91 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKuber
   /**
   * The API server address consisting of a hostname or IP address followed by an optional port number. If left empty, Prometheus is assumed to run inside of the cluster. It will discover API servers automatically and use the pod's CA certificate and bearer token file at /var/run/secrets/kubernetes.io/serviceaccount/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#api_server DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#api_server DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#api_server}
   */
   readonly apiServer?: string;
   /**
   * Optional metadata to attach to discovered targets. It requires Prometheus >= v2.35.0 when using the 'Pod' role and Prometheus >= v2.37.0 for 'Endpoints' and 'Endpointslice' roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#attach_metadata DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#attach_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#attach_metadata DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#attach_metadata}
   */
   readonly attachMetadata?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsAttachMetadata;
   /**
   * Authorization header to use on every scrape request. Cannot be set at the same time as 'basicAuth', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsAuthorization;
   /**
   * BasicAuth information to use on every scrape request. Cannot be set at the same time as 'authorization', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsBasicAuth;
   /**
   * Whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * Configure whether HTTP requests follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Optional namespace discovery. If omitted, Prometheus discovers targets across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#namespaces DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#namespaces DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsNamespaces;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Optional OAuth 2.0 configuration. Cannot be set at the same time as 'authorization', or 'basicAuth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Role of the Kubernetes entities that should be discovered. Role 'Endpointslice' requires Prometheus >= v2.21.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#role DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#role DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#role}
   */
   readonly role: string;
   /**
   * Selector to select objects. It requires Prometheus >= v2.17.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#selectors DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#selectors DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsSelectors[] | cdktf.IResolvable;
   /**
   * TLS configuration to connect to the Kubernetes API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKubernetesSdConfigsTlsConfig;
 }
@@ -12578,19 +12578,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12741,13 +12741,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -12872,19 +12872,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13035,19 +13035,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13198,13 +13198,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsBasicAuthUsername;
 }
@@ -13329,19 +13329,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13492,19 +13492,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13655,13 +13655,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2ClientIdSecret;
 }
@@ -13786,19 +13786,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13949,19 +13949,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14112,19 +14112,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14275,13 +14275,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfigCaSecret;
 }
@@ -14406,19 +14406,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14569,19 +14569,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14732,13 +14732,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfigCertSecret;
 }
@@ -14863,19 +14863,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15026,43 +15026,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -15332,61 +15332,61 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -15734,19 +15734,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15897,19 +15897,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16060,13 +16060,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfigCaSecret;
 }
@@ -16191,19 +16191,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16354,19 +16354,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16517,13 +16517,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfigCertSecret;
 }
@@ -16648,19 +16648,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16811,43 +16811,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -17117,85 +17117,85 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaS
   /**
   * Authorization header to use on every scrape request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsAuthorization;
   /**
   * BasicAuth information to use on every scrape request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsBasicAuth;
   /**
   * Client id is used by Kuma Control Plane to compute Monitoring Assignment for specific Prometheus backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * Whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * The time after which the monitoring assignments are refreshed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#fetch_timeout DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#fetch_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#fetch_timeout DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#fetch_timeout}
   */
   readonly fetchTimeout?: string;
   /**
   * Configure whether HTTP requests follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Optional OAuth 2.0 configuration. Cannot be set at the same time as 'authorization', or 'basicAuth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * The time to wait between polling update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * Address of the Kuma Control Plane's MADS xDS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server}
   */
   readonly server: string;
   /**
   * TLS configuration to use on every scrape request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecKumaSdConfigsTlsConfig;
 }
@@ -17687,19 +17687,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17850,19 +17850,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18013,13 +18013,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -18144,19 +18144,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18307,19 +18307,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18470,13 +18470,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsBasicAuthUsername;
 }
@@ -18601,19 +18601,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18764,19 +18764,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18927,13 +18927,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2ClientIdSecret;
 }
@@ -19058,19 +19058,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19221,19 +19221,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19384,19 +19384,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19547,13 +19547,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfigCaSecret;
 }
@@ -19678,19 +19678,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19841,19 +19841,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20004,13 +20004,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfigCertSecret;
 }
@@ -20135,19 +20135,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20298,43 +20298,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -20604,61 +20604,61 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -21006,19 +21006,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21169,19 +21169,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21332,19 +21332,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21495,13 +21495,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfigCaSecret;
 }
@@ -21626,19 +21626,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21789,19 +21789,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21952,13 +21952,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfigCertSecret;
 }
@@ -22083,19 +22083,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22246,43 +22246,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -22552,103 +22552,103 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLight
   /**
   * AccessKey is the AWS API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#access_key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#access_key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#access_key}
   */
   readonly accessKey?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsAccessKey;
   /**
   * Optional 'authorization' HTTP header configuration. Cannot be set at the same time as 'basicAuth', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsAuthorization;
   /**
   * Optional HTTP basic authentication information. Cannot be set at the same time as 'authorization', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsBasicAuth;
   /**
   * Configure whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * Custom endpoint to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Configure whether the HTTP requests should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Optional OAuth2.0 configuration. Cannot be set at the same time as 'basicAuth', or 'authorization'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsOauth2;
   /**
   * Port to scrape the metrics from. If using the public IP address, this must instead be specified in the relabeling rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#port DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#port DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Refresh interval to re-read the list of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * The AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
   * AWS Role ARN, an alternative to using AWS API keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#role_arn DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#role_arn DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
   * SecretKey is the AWS API secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret_key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret_key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret_key}
   */
   readonly secretKey?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsSecretKey;
   /**
   * TLS configuration to connect to the Puppet DB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLightSailSdConfigsTlsConfig;
 }
@@ -23230,19 +23230,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23393,13 +23393,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -23524,19 +23524,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23687,19 +23687,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23850,13 +23850,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2ClientIdSecret;
 }
@@ -23981,19 +23981,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24144,19 +24144,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24307,19 +24307,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24470,13 +24470,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfigCaSecret;
 }
@@ -24601,19 +24601,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24764,19 +24764,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24927,13 +24927,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfigCertSecret;
 }
@@ -25058,19 +25058,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25221,43 +25221,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -25527,61 +25527,61 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -25929,19 +25929,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26092,19 +26092,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26255,13 +26255,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfigCaSecret;
 }
@@ -26386,19 +26386,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26549,19 +26549,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26712,13 +26712,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfigCertSecret;
 }
@@ -26843,19 +26843,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27006,43 +27006,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -27312,79 +27312,79 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinod
   /**
   * Authorization header configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsAuthorization;
   /**
   * Whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * Configure whether HTTP requests follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Optional OAuth 2.0 configuration. Cannot be used at the same time as 'authorization'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsOauth2;
   /**
   * Default port to scrape metrics from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#port DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#port DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Time after which the linode instances are refreshed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * Optional region to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
   * The string by which Linode Instance tags are joined into the tag label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tag_separator DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tag_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tag_separator DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tag_separator}
   */
   readonly tagSeparator?: string;
   /**
   * TLS configuration applying to the target HTTP endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecLinodeSdConfigsTlsConfig;
 }
@@ -27850,43 +27850,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecMetri
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#action DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#action DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#regex DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#regex DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#separator DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#separator DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -28178,19 +28178,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28341,13 +28341,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -28472,19 +28472,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28635,19 +28635,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28798,13 +28798,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsBasicAuthUsername;
 }
@@ -28929,19 +28929,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29092,19 +29092,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29255,13 +29255,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2ClientIdSecret;
 }
@@ -29386,19 +29386,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29549,19 +29549,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29712,19 +29712,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29875,13 +29875,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfigCaSecret;
 }
@@ -30006,19 +30006,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30169,19 +30169,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30332,13 +30332,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfigCertSecret;
 }
@@ -30463,19 +30463,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30626,43 +30626,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -30932,61 +30932,61 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -31334,19 +31334,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31497,19 +31497,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31660,13 +31660,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfigCaSecret;
 }
@@ -31791,19 +31791,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31954,19 +31954,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -32117,13 +32117,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfigCertSecret;
 }
@@ -32248,19 +32248,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -32411,43 +32411,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -32717,89 +32717,89 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomad
   /**
   * The information to access the Nomad API. It is to be defined as the Nomad documentation requires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#allow_stale DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#allow_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#allow_stale DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#allow_stale}
   */
   readonly allowStale?: boolean | cdktf.IResolvable;
   /**
   * Authorization header to use on every scrape request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsAuthorization;
   /**
   * BasicAuth information to use on every scrape request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsBasicAuth;
   /**
   * Whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * Configure whether HTTP requests follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Optional OAuth 2.0 configuration. Cannot be set at the same time as 'authorization' or 'basic_auth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Duration is a valid time duration that can be parsed by Prometheus model.ParseDuration() function. Supported units: y, w, d, h, m, s, ms Examples: '30s', '1m', '1h20m15s', '15d'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#refresh_interval DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tag_separator DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tag_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tag_separator DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tag_separator}
   */
   readonly tagSeparator?: string;
   /**
   * TLS configuration applying to the target HTTP endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecNomadSdConfigsTlsConfig;
 }
@@ -33349,19 +33349,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -33512,19 +33512,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -33675,13 +33675,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2ClientIdSecret;
 }
@@ -33806,19 +33806,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -33969,19 +33969,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -34132,19 +34132,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -34295,13 +34295,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfigCaSecret;
 }
@@ -34426,19 +34426,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -34589,19 +34589,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -34752,13 +34752,13 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfigCertSecret;
 }
@@ -34883,19 +34883,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -35046,43 +35046,43 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -35352,61 +35352,61 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -35754,19 +35754,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOpens
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -35917,19 +35917,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOpens
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -36080,19 +36080,19 @@ export interface DataK8SMonitoringCoreosComScrapeConfigV1Alpha1ManifestSpecOpens
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_scrape_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComScrapeConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }

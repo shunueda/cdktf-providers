@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,295 +10,301 @@ export interface FabricVxlanMsdConfig extends cdktf.TerraformMetaArguments {
   /**
   * Shared MAC address for all leafs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#anycast_gw_mac FabricVxlanMsd#anycast_gw_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#anycast_gw_mac FabricVxlanMsd#anycast_gw_mac}
   */
   readonly anycastGwMac?: string;
   /**
   * 1-4294967295 | 1-65535[.0-65535], e.g. 65000, 65001
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#bgp_rp_asn FabricVxlanMsd#bgp_rp_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#bgp_rp_asn FabricVxlanMsd#bgp_rp_asn}
   */
   readonly bgpRpAsn?: string;
   /**
   * Routing tag associated with IP address of loopback and DCI interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#bgw_routing_tag FabricVxlanMsd#bgw_routing_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#bgw_routing_tag FabricVxlanMsd#bgw_routing_tag}
   */
   readonly bgwRoutingTag?: number;
   /**
   * Manual, Auto Overlay EVPN Peering to Route Servers, Auto Overlay EVPN Direct Peering to Border Gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#border_gwy_connections FabricVxlanMsd#border_gwy_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#border_gwy_connections FabricVxlanMsd#border_gwy_connections}
   */
   readonly borderGwyConnections?: string;
   /**
+  * Add child fabrics to the MSD fabric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#child_fabrics FabricVxlanMsd#child_fabrics}
+  */
+  readonly childFabrics?: string[];
+  /**
   * CloudSec Cryptographic Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#cloudsec_algorithm FabricVxlanMsd#cloudsec_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#cloudsec_algorithm FabricVxlanMsd#cloudsec_algorithm}
   */
   readonly cloudsecAlgorithm?: string;
   /**
   * Auto Config CloudSec on Border Gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#cloudsec_autoconfig FabricVxlanMsd#cloudsec_autoconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#cloudsec_autoconfig FabricVxlanMsd#cloudsec_autoconfig}
   */
   readonly cloudsecAutoconfig?: boolean | cdktf.IResolvable;
   /**
   * If set to 'strict', data across site must be encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#cloudsec_enforcement FabricVxlanMsd#cloudsec_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#cloudsec_enforcement FabricVxlanMsd#cloudsec_enforcement}
   */
   readonly cloudsecEnforcement?: string;
   /**
   * Cisco Type 7 Encrypted Octet String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#cloudsec_key_string FabricVxlanMsd#cloudsec_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#cloudsec_key_string FabricVxlanMsd#cloudsec_key_string}
   */
   readonly cloudsecKeyString?: string;
   /**
   * CloudSec Operational Status periodic report timer in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#cloudsec_report_timer FabricVxlanMsd#cloudsec_report_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#cloudsec_report_timer FabricVxlanMsd#cloudsec_report_timer}
   */
   readonly cloudsecReportTimer?: number;
   /**
   * Address range to assign P2P DCI Links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#dci_subnet_range FabricVxlanMsd#dci_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#dci_subnet_range FabricVxlanMsd#dci_subnet_range}
   */
   readonly dciSubnetRange?: string;
   /**
   * Target Mask for Subnet Range (Min:8, Max:31)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#dci_subnet_target_mask FabricVxlanMsd#dci_subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#dci_subnet_target_mask FabricVxlanMsd#dci_subnet_target_mask}
   */
   readonly dciSubnetTargetMask?: number;
   /**
   * Default Overlay Network Template For Leafs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#default_network FabricVxlanMsd#default_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#default_network FabricVxlanMsd#default_network}
   */
   readonly defaultNetwork?: string;
   /**
   * Default PVLAN Secondary Network Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#default_pvlan_sec_network FabricVxlanMsd#default_pvlan_sec_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#default_pvlan_sec_network FabricVxlanMsd#default_pvlan_sec_network}
   */
   readonly defaultPvlanSecNetwork?: string;
   /**
   * Default Overlay VRF Template For Leafs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#default_vrf FabricVxlanMsd#default_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#default_vrf FabricVxlanMsd#default_vrf}
   */
   readonly defaultVrf?: string;
   /**
   * Multi-Site underlay and overlay control plane convergence time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#delay_restore FabricVxlanMsd#delay_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#delay_restore FabricVxlanMsd#delay_restore}
   */
   readonly delayRestore?: number;
   /**
   * This flag does configuration save and deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#deploy FabricVxlanMsd#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#deploy FabricVxlanMsd#deploy}
   */
   readonly deploy: boolean | cdktf.IResolvable;
   /**
   * BGP BFD on Multi-Site Underlay IFCs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_bgp_bfd FabricVxlanMsd#enable_bgp_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_bgp_bfd FabricVxlanMsd#enable_bgp_bfd}
   */
   readonly enableBgpBfd?: boolean | cdktf.IResolvable;
   /**
   * BGP log neighbor change on Multi-Site Underlay IFCs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_bgp_log_neighbor_change FabricVxlanMsd#enable_bgp_log_neighbor_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_bgp_log_neighbor_change FabricVxlanMsd#enable_bgp_log_neighbor_change}
   */
   readonly enableBgpLogNeighborChange?: boolean | cdktf.IResolvable;
   /**
   * BGP Send-community on Multi-Site Underlay IFCs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_bgp_send_comm FabricVxlanMsd#enable_bgp_send_comm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_bgp_send_comm FabricVxlanMsd#enable_bgp_send_comm}
   */
   readonly enableBgpSendComm?: boolean | cdktf.IResolvable;
   /**
   * Enable PVLAN on MSD and its child fabrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_pvlan FabricVxlanMsd#enable_pvlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_pvlan FabricVxlanMsd#enable_pvlan}
   */
   readonly enablePvlan?: boolean | cdktf.IResolvable;
   /**
   * For auto-created Multi-Site overlay IFCs in Route Servers. Applicable only when Multi-Site Overlay IFC Deployment Method is Centralized_To_Route_Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_rs_redist_direct FabricVxlanMsd#enable_rs_redist_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_rs_redist_direct FabricVxlanMsd#enable_rs_redist_direct}
   */
   readonly enableRsRedistDirect?: boolean | cdktf.IResolvable;
   /**
   * Backup at the specified time. Note: Fabric Backup/Restore functionality is being deprecated for MSD fabrics. Recommendation is to use NDFC Backup & Restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_scheduled_backup FabricVxlanMsd#enable_scheduled_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_scheduled_backup FabricVxlanMsd#enable_scheduled_backup}
   */
   readonly enableScheduledBackup?: boolean | cdktf.IResolvable;
   /**
   * Enable Security Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_sgt FabricVxlanMsd#enable_sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_sgt FabricVxlanMsd#enable_sgt}
   */
   readonly enableSgt?: string;
   /**
   * Enable IPv4 and/or IPv6 Tenant Routed Multicast across sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#enable_trm_trmv6 FabricVxlanMsd#enable_trm_trmv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#enable_trm_trmv6 FabricVxlanMsd#enable_trm_trmv6}
   */
   readonly enableTrmTrmv6?: boolean | cdktf.IResolvable;
   /**
   * External Fabric Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#ext_fabric_type FabricVxlanMsd#ext_fabric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#ext_fabric_type FabricVxlanMsd#ext_fabric_type}
   */
   readonly extFabricType?: string;
   /**
   * Fabric name to be created, updated or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#fabric_name FabricVxlanMsd#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#fabric_name FabricVxlanMsd#fabric_name}
   */
   readonly fabricName: string;
   /**
   * Template Family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#ff FabricVxlanMsd#ff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#ff FabricVxlanMsd#ff}
   */
   readonly ff?: string;
   /**
   * Overlay Network Identifier Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#l2_segment_id_range FabricVxlanMsd#l2_segment_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#l2_segment_id_range FabricVxlanMsd#l2_segment_id_range}
   */
   readonly l2SegmentIdRange?: string;
   /**
   * Overlay VRF Identifier Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#l3_partition_id_range FabricVxlanMsd#l3_partition_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#l3_partition_id_range FabricVxlanMsd#l3_partition_id_range}
   */
   readonly l3PartitionIdRange?: string;
   /**
   * Multi-Site VTEP VIP Loopback IP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#loopback100_ip_range FabricVxlanMsd#loopback100_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#loopback100_ip_range FabricVxlanMsd#loopback100_ip_range}
   */
   readonly loopback100IpRange?: string;
   /**
   * Multi-Site VTEP VIP Loopback IPv6 Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#loopback100_ipv6_range FabricVxlanMsd#loopback100_ipv6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#loopback100_ipv6_range FabricVxlanMsd#loopback100_ipv6_range}
   */
   readonly loopback100Ipv6Range?: string;
   /**
   * BGP Key Encryption Type: 3 - 3DES, 7 - Cisco
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#ms_ifc_bgp_auth_key_type FabricVxlanMsd#ms_ifc_bgp_auth_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#ms_ifc_bgp_auth_key_type FabricVxlanMsd#ms_ifc_bgp_auth_key_type}
   */
   readonly msIfcBgpAuthKeyType?: number;
   /**
   * Encrypted eBGP Password Hex String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#ms_ifc_bgp_password FabricVxlanMsd#ms_ifc_bgp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#ms_ifc_bgp_password FabricVxlanMsd#ms_ifc_bgp_password}
   */
   readonly msIfcBgpPassword?: string;
   /**
   * Enable Multi-Site eBGP Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#ms_ifc_bgp_password_enable FabricVxlanMsd#ms_ifc_bgp_password_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#ms_ifc_bgp_password_enable FabricVxlanMsd#ms_ifc_bgp_password_enable}
   */
   readonly msIfcBgpPasswordEnable?: boolean | cdktf.IResolvable;
   /**
   * Multi-Site VTEP VIP Loopback ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#ms_loopback_id FabricVxlanMsd#ms_loopback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#ms_loopback_id FabricVxlanMsd#ms_loopback_id}
   */
   readonly msLoopbackId?: number;
   /**
   * Multi-Site Underlay IFC Auto Deployment Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#ms_underlay_autoconfig FabricVxlanMsd#ms_underlay_autoconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#ms_underlay_autoconfig FabricVxlanMsd#ms_underlay_autoconfig}
   */
   readonly msUnderlayAutoconfig?: boolean | cdktf.IResolvable;
   /**
   * Default Overlay Network Template For Borders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#network_extension_template FabricVxlanMsd#network_extension_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#network_extension_template FabricVxlanMsd#network_extension_template}
   */
   readonly networkExtensionTemplate?: string;
   /**
   * Multi-Site Route-Server peer list (typically loopback IP address on Route-Server for Multi-Site EVPN peering with BGWs), e.g. 128.89.0.1, 128.89.0.2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#rp_server_ip FabricVxlanMsd#rp_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#rp_server_ip FabricVxlanMsd#rp_server_ip}
   */
   readonly rpServerIp?: string;
   /**
   * Routing tag associated with Route Server IP for redistribute direct. This is the IP used in eBGP EVPN peering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#rs_routing_tag FabricVxlanMsd#rs_routing_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#rs_routing_tag FabricVxlanMsd#rs_routing_tag}
   */
   readonly rsRoutingTag?: number;
   /**
   * Time (UTC) in 24hr format. (00:00 to 23:59)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#scheduled_time FabricVxlanMsd#scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#scheduled_time FabricVxlanMsd#scheduled_time}
   */
   readonly scheduledTime?: string;
   /**
   * Security Group Tag (SGT) ID Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#sgt_id_range FabricVxlanMsd#sgt_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#sgt_id_range FabricVxlanMsd#sgt_id_range}
   */
   readonly sgtIdRange?: string;
   /**
   * Prefix to be used when a new Security Group is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#sgt_name_prefix FabricVxlanMsd#sgt_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#sgt_name_prefix FabricVxlanMsd#sgt_name_prefix}
   */
   readonly sgtNamePrefix?: string;
   /**
   * Generate security groups configuration for non-enforced VRFs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#sgt_preprovision FabricVxlanMsd#sgt_preprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#sgt_preprovision FabricVxlanMsd#sgt_preprovision}
   */
   readonly sgtPreprovision?: boolean | cdktf.IResolvable;
   /**
   * Enables Overlay VLANs on uplink between ToRs and Leafs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#tor_auto_deploy FabricVxlanMsd#tor_auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#tor_auto_deploy FabricVxlanMsd#tor_auto_deploy}
   */
   readonly torAutoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Address range to assign P2P DCI Links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#v6_dci_subnet_range FabricVxlanMsd#v6_dci_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#v6_dci_subnet_range FabricVxlanMsd#v6_dci_subnet_range}
   */
   readonly v6DciSubnetRange?: string;
   /**
   * Target IPv6 Mask for Subnet Range (Min:120, Max:127)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#v6_dci_subnet_target_mask FabricVxlanMsd#v6_dci_subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#v6_dci_subnet_target_mask FabricVxlanMsd#v6_dci_subnet_target_mask}
   */
   readonly v6DciSubnetTargetMask?: number;
   /**
   * Default Overlay VRF Template For Borders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#vrf_extension_template FabricVxlanMsd#vrf_extension_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#vrf_extension_template FabricVxlanMsd#vrf_extension_template}
   */
   readonly vrfExtensionTemplate?: string;
   /**
   * If not enabled, IPv4 underlay is used in child VXLAN fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#vxlan_underlay_is_v6 FabricVxlanMsd#vxlan_underlay_is_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#vxlan_underlay_is_v6 FabricVxlanMsd#vxlan_underlay_is_v6}
   */
   readonly vxlanUnderlayIsV6?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd ndfc_fabric_vxlan_msd}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd ndfc_fabric_vxlan_msd}
 */
 export class FabricVxlanMsd extends cdktf.TerraformResource {
 
@@ -314,7 +320,7 @@ export class FabricVxlanMsd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricVxlanMsd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricVxlanMsd to import
-  * @param importFromId The id of the existing FabricVxlanMsd that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricVxlanMsd that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricVxlanMsd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +332,7 @@ export class FabricVxlanMsd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_msd ndfc_fabric_vxlan_msd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_msd ndfc_fabric_vxlan_msd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +343,8 @@ export class FabricVxlanMsd extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_fabric_vxlan_msd',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -352,6 +358,7 @@ export class FabricVxlanMsd extends cdktf.TerraformResource {
     this._bgpRpAsn = config.bgpRpAsn;
     this._bgwRoutingTag = config.bgwRoutingTag;
     this._borderGwyConnections = config.borderGwyConnections;
+    this._childFabrics = config.childFabrics;
     this._cloudsecAlgorithm = config.cloudsecAlgorithm;
     this._cloudsecAutoconfig = config.cloudsecAutoconfig;
     this._cloudsecEnforcement = config.cloudsecEnforcement;
@@ -469,6 +476,22 @@ export class FabricVxlanMsd extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get borderGwyConnectionsInput() {
     return this._borderGwyConnections;
+  }
+
+  // child_fabrics - computed: false, optional: true, required: false
+  private _childFabrics?: string[]; 
+  public get childFabrics() {
+    return cdktf.Fn.tolist(this.getListAttribute('child_fabrics'));
+  }
+  public set childFabrics(value: string[]) {
+    this._childFabrics = value;
+  }
+  public resetChildFabrics() {
+    this._childFabrics = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get childFabricsInput() {
+    return this._childFabrics;
   }
 
   // cloudsec_algorithm - computed: true, optional: true, required: false
@@ -1279,6 +1302,7 @@ export class FabricVxlanMsd extends cdktf.TerraformResource {
       bgp_rp_asn: cdktf.stringToTerraform(this._bgpRpAsn),
       bgw_routing_tag: cdktf.numberToTerraform(this._bgwRoutingTag),
       border_gwy_connections: cdktf.stringToTerraform(this._borderGwyConnections),
+      child_fabrics: cdktf.listMapper(cdktf.stringToTerraform, false)(this._childFabrics),
       cloudsec_algorithm: cdktf.stringToTerraform(this._cloudsecAlgorithm),
       cloudsec_autoconfig: cdktf.booleanToTerraform(this._cloudsecAutoconfig),
       cloudsec_enforcement: cdktf.stringToTerraform(this._cloudsecEnforcement),
@@ -1351,6 +1375,12 @@ export class FabricVxlanMsd extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      child_fabrics: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._childFabrics),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       cloudsec_algorithm: {
         value: cdktf.stringToHclTerraform(this._cloudsecAlgorithm),

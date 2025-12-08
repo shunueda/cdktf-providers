@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionHoneypotPresetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#honeypot_image_name ThreatDetectionHoneypotPreset#honeypot_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#honeypot_image_name ThreatDetectionHoneypotPreset#honeypot_image_name}
   */
   readonly honeypotImageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#id ThreatDetectionHoneypotPreset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#id ThreatDetectionHoneypotPreset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#node_id ThreatDetectionHoneypotPreset#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#node_id ThreatDetectionHoneypotPreset#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#preset_name ThreatDetectionHoneypotPreset#preset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#preset_name ThreatDetectionHoneypotPreset#preset_name}
   */
   readonly presetName: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#meta ThreatDetectionHoneypotPreset#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#meta ThreatDetectionHoneypotPreset#meta}
   */
   readonly meta: ThreatDetectionHoneypotPresetMeta;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#timeouts ThreatDetectionHoneypotPreset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#timeouts ThreatDetectionHoneypotPreset#timeouts}
   */
   readonly timeouts?: ThreatDetectionHoneypotPresetTimeouts;
 }
 export interface ThreatDetectionHoneypotPresetMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#burp ThreatDetectionHoneypotPreset#burp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#burp ThreatDetectionHoneypotPreset#burp}
   */
   readonly burp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#portrait_option ThreatDetectionHoneypotPreset#portrait_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#portrait_option ThreatDetectionHoneypotPreset#portrait_option}
   */
   readonly portraitOption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#trojan_git ThreatDetectionHoneypotPreset#trojan_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#trojan_git ThreatDetectionHoneypotPreset#trojan_git}
   */
   readonly trojanGit?: string;
 }
@@ -188,15 +188,15 @@ export class ThreatDetectionHoneypotPresetMetaOutputReference extends cdktf.Comp
 }
 export interface ThreatDetectionHoneypotPresetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#create ThreatDetectionHoneypotPreset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#create ThreatDetectionHoneypotPreset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#delete ThreatDetectionHoneypotPreset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#delete ThreatDetectionHoneypotPreset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#update ThreatDetectionHoneypotPreset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#update ThreatDetectionHoneypotPreset#update}
   */
   readonly update?: string;
 }
@@ -348,7 +348,7 @@ export class ThreatDetectionHoneypotPresetTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset alicloud_threat_detection_honeypot_preset}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset alicloud_threat_detection_honeypot_preset}
 */
 export class ThreatDetectionHoneypotPreset extends cdktf.TerraformResource {
 
@@ -364,7 +364,7 @@ export class ThreatDetectionHoneypotPreset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionHoneypotPreset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionHoneypotPreset to import
-  * @param importFromId The id of the existing ThreatDetectionHoneypotPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionHoneypotPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionHoneypotPreset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +376,7 @@ export class ThreatDetectionHoneypotPreset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_honeypot_preset alicloud_threat_detection_honeypot_preset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_honeypot_preset alicloud_threat_detection_honeypot_preset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +387,8 @@ export class ThreatDetectionHoneypotPreset extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_honeypot_preset',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

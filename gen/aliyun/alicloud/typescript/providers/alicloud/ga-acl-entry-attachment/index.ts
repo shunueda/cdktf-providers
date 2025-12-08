@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface GaAclEntryAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#acl_id GaAclEntryAttachment#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#acl_id GaAclEntryAttachment#acl_id}
   */
   readonly aclId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#entry GaAclEntryAttachment#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#entry GaAclEntryAttachment#entry}
   */
   readonly entry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#entry_description GaAclEntryAttachment#entry_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#entry_description GaAclEntryAttachment#entry_description}
   */
   readonly entryDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#id GaAclEntryAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#id GaAclEntryAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface GaAclEntryAttachmentConfig extends cdktf.TerraformMetaArguments
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#timeouts GaAclEntryAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#timeouts GaAclEntryAttachment#timeouts}
   */
   readonly timeouts?: GaAclEntryAttachmentTimeouts;
 }
 export interface GaAclEntryAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#create GaAclEntryAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#create GaAclEntryAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#delete GaAclEntryAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#delete GaAclEntryAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class GaAclEntryAttachmentTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment alicloud_ga_acl_entry_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment alicloud_ga_acl_entry_attachment}
 */
 export class GaAclEntryAttachment extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class GaAclEntryAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaAclEntryAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaAclEntryAttachment to import
-  * @param importFromId The id of the existing GaAclEntryAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaAclEntryAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaAclEntryAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class GaAclEntryAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_acl_entry_attachment alicloud_ga_acl_entry_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_acl_entry_attachment alicloud_ga_acl_entry_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class GaAclEntryAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_acl_entry_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

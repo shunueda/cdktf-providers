@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface CenBandwidthPackageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#bandwidth CenBandwidthPackage#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#bandwidth CenBandwidthPackage#bandwidth}
   */
   readonly bandwidth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#cen_bandwidth_package_name CenBandwidthPackage#cen_bandwidth_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#cen_bandwidth_package_name CenBandwidthPackage#cen_bandwidth_package_name}
   */
   readonly cenBandwidthPackageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#charge_type CenBandwidthPackage#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#charge_type CenBandwidthPackage#charge_type}
   */
   readonly chargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#description CenBandwidthPackage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#description CenBandwidthPackage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#geographic_region_a_id CenBandwidthPackage#geographic_region_a_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#geographic_region_a_id CenBandwidthPackage#geographic_region_a_id}
   */
   readonly geographicRegionAId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#geographic_region_b_id CenBandwidthPackage#geographic_region_b_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#geographic_region_b_id CenBandwidthPackage#geographic_region_b_id}
   */
   readonly geographicRegionBId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#geographic_region_ids CenBandwidthPackage#geographic_region_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#geographic_region_ids CenBandwidthPackage#geographic_region_ids}
   */
   readonly geographicRegionIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#id CenBandwidthPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#id CenBandwidthPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#name CenBandwidthPackage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#name CenBandwidthPackage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#payment_type CenBandwidthPackage#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#payment_type CenBandwidthPackage#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#period CenBandwidthPackage#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#period CenBandwidthPackage#period}
   */
   readonly period?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#timeouts CenBandwidthPackage#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#timeouts CenBandwidthPackage#timeouts}
   */
   readonly timeouts?: CenBandwidthPackageTimeouts;
 }
 export interface CenBandwidthPackageTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#create CenBandwidthPackage#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#create CenBandwidthPackage#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#delete CenBandwidthPackage#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#delete CenBandwidthPackage#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#update CenBandwidthPackage#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#update CenBandwidthPackage#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class CenBandwidthPackageTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package alicloud_cen_bandwidth_package}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package alicloud_cen_bandwidth_package}
 */
 export class CenBandwidthPackage extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class CenBandwidthPackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CenBandwidthPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenBandwidthPackage to import
-  * @param importFromId The id of the existing CenBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenBandwidthPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class CenBandwidthPackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_bandwidth_package alicloud_cen_bandwidth_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_bandwidth_package alicloud_cen_bandwidth_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class CenBandwidthPackage extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cen_bandwidth_package',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

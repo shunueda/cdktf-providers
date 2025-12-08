@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config
+// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface AppscopeConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#config AppscopeConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#config AppscopeConfig#config}
   */
   readonly config: AppscopeConfigConfigA;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#description AppscopeConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#description AppscopeConfig#description}
   */
   readonly description?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#group_id AppscopeConfig#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#group_id AppscopeConfig#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID for this Appscope config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#id AppscopeConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#id AppscopeConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,25 +33,25 @@ export interface AppscopeConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * must be one of ["cribl", "cribl-custom", "custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#lib AppscopeConfig#lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#lib AppscopeConfig#lib}
   */
   readonly lib?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tags AppscopeConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tags AppscopeConfig#tags}
   */
   readonly tags?: string;
 }
 export interface AppscopeConfigConfigCriblTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -205,27 +205,27 @@ export interface AppscopeConfigConfigCriblTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigCriblTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -464,19 +464,19 @@ export class AppscopeConfigConfigCriblTransportOutputReference extends cdktf.Com
 }
 export interface AppscopeConfigConfigCribl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#authtoken AppscopeConfig#authtoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#authtoken AppscopeConfig#authtoken}
   */
   readonly authtoken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigCriblTransport;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#use_scope_source_transport AppscopeConfig#use_scope_source_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#use_scope_source_transport AppscopeConfig#use_scope_source_transport}
   */
   readonly useScopeSourceTransport?: boolean | cdktf.IResolvable;
 }
@@ -657,15 +657,15 @@ export class AppscopeConfigConfigCriblOutputReference extends cdktf.ComplexObjec
 }
 export interface AppscopeConfigConfigCustomConfigCriblTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -819,27 +819,27 @@ export interface AppscopeConfigConfigCustomConfigCriblTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigCustomConfigCriblTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -1078,19 +1078,19 @@ export class AppscopeConfigConfigCustomConfigCriblTransportOutputReference exten
 }
 export interface AppscopeConfigConfigCustomConfigCribl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#authtoken AppscopeConfig#authtoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#authtoken AppscopeConfig#authtoken}
   */
   readonly authtoken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigCustomConfigCriblTransport;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#use_scope_source_transport AppscopeConfig#use_scope_source_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#use_scope_source_transport AppscopeConfig#use_scope_source_transport}
   */
   readonly useScopeSourceTransport?: boolean | cdktf.IResolvable;
 }
@@ -1273,13 +1273,13 @@ export interface AppscopeConfigConfigCustomConfigEventFormat {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enhancefs AppscopeConfig#enhancefs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enhancefs AppscopeConfig#enhancefs}
   */
   readonly enhancefs?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#maxeventpersec AppscopeConfig#maxeventpersec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#maxeventpersec AppscopeConfig#maxeventpersec}
   */
   readonly maxeventpersec?: number;
 }
@@ -1402,15 +1402,15 @@ export class AppscopeConfigConfigCustomConfigEventFormatOutputReference extends 
 }
 export interface AppscopeConfigConfigCustomConfigEventTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -1564,27 +1564,27 @@ export interface AppscopeConfigConfigCustomConfigEventTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigCustomConfigEventTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -1823,33 +1823,33 @@ export class AppscopeConfigConfigCustomConfigEventTransportOutputReference exten
 }
 export interface AppscopeConfigConfigCustomConfigEventWatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#allowbinary AppscopeConfig#allowbinary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#allowbinary AppscopeConfig#allowbinary}
   */
   readonly allowbinary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enabled AppscopeConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enabled AppscopeConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#field AppscopeConfig#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#field AppscopeConfig#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#headers AppscopeConfig#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#headers AppscopeConfig#headers}
   */
   readonly headers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#name AppscopeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#name AppscopeConfig#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#value AppscopeConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#value AppscopeConfig#value}
   */
   readonly value?: string;
 }
@@ -2141,31 +2141,31 @@ export interface AppscopeConfigConfigCustomConfigEvent {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#format AppscopeConfig#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#format AppscopeConfig#format}
   */
   readonly format?: AppscopeConfigConfigCustomConfigEventFormat;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigCustomConfigEventTransport;
   /**
   * Not Null; must be "ndjson"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#watch AppscopeConfig#watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#watch AppscopeConfig#watch}
   */
   readonly watch?: AppscopeConfigConfigCustomConfigEventWatch[] | cdktf.IResolvable;
 }
@@ -2375,15 +2375,15 @@ export class AppscopeConfigConfigCustomConfigEventOutputReference extends cdktf.
 }
 export interface AppscopeConfigConfigCustomConfigLibscopeLogTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -2537,27 +2537,27 @@ export interface AppscopeConfigConfigCustomConfigLibscopeLogTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigCustomConfigLibscopeLogTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -2798,11 +2798,11 @@ export interface AppscopeConfigConfigCustomConfigLibscopeLog {
   /**
   * must be one of ["error", "debug", "info", "warning", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#level AppscopeConfig#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#level AppscopeConfig#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigCustomConfigLibscopeLogTransport;
 }
@@ -2925,19 +2925,19 @@ export class AppscopeConfigConfigCustomConfigLibscopeLogOutputReference extends 
 }
 export interface AppscopeConfigConfigCustomConfigLibscope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#commanddir AppscopeConfig#commanddir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#commanddir AppscopeConfig#commanddir}
   */
   readonly commanddir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#configevent AppscopeConfig#configevent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#configevent AppscopeConfig#configevent}
   */
   readonly configevent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#log AppscopeConfig#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#log AppscopeConfig#log}
   */
   readonly log?: AppscopeConfigConfigCustomConfigLibscopeLog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#summaryperiod AppscopeConfig#summaryperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#summaryperiod AppscopeConfig#summaryperiod}
   */
   readonly summaryperiod?: number;
 }
@@ -3118,19 +3118,19 @@ export class AppscopeConfigConfigCustomConfigLibscopeOutputReference extends cdk
 }
 export interface AppscopeConfigConfigCustomConfigMetricFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#statsdmaxlen AppscopeConfig#statsdmaxlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#statsdmaxlen AppscopeConfig#statsdmaxlen}
   */
   readonly statsdmaxlen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#statsdprefix AppscopeConfig#statsdprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#statsdprefix AppscopeConfig#statsdprefix}
   */
   readonly statsdprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#verbosity AppscopeConfig#verbosity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#verbosity AppscopeConfig#verbosity}
   */
   readonly verbosity?: number;
 }
@@ -3311,15 +3311,15 @@ export class AppscopeConfigConfigCustomConfigMetricFormatOutputReference extends
 }
 export interface AppscopeConfigConfigCustomConfigMetricTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -3473,27 +3473,27 @@ export interface AppscopeConfigConfigCustomConfigMetricTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigCustomConfigMetricTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -3815,25 +3815,25 @@ export interface AppscopeConfigConfigCustomConfigMetric {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#format AppscopeConfig#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#format AppscopeConfig#format}
   */
   readonly format?: AppscopeConfigConfigCustomConfigMetricFormat;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigCustomConfigMetricTransport;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#watch AppscopeConfig#watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#watch AppscopeConfig#watch}
   */
   readonly watch?: AppscopeConfigConfigCustomConfigMetricWatch[] | cdktf.IResolvable;
 }
@@ -4016,13 +4016,13 @@ export interface AppscopeConfigConfigCustomConfigPayload {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#dir AppscopeConfig#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#dir AppscopeConfig#dir}
   */
   readonly dir?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -4147,37 +4147,37 @@ export interface AppscopeConfigConfigCustomConfigProtocol {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#binary AppscopeConfig#binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#binary AppscopeConfig#binary}
   */
   readonly binary?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#detect AppscopeConfig#detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#detect AppscopeConfig#detect}
   */
   readonly detect?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#len AppscopeConfig#len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#len AppscopeConfig#len}
   */
   readonly len?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#name AppscopeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#name AppscopeConfig#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#payload AppscopeConfig#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#payload AppscopeConfig#payload}
   */
   readonly payload?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#regex AppscopeConfig#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#regex AppscopeConfig#regex}
   */
   readonly regex?: string;
 }
@@ -4440,13 +4440,13 @@ export interface AppscopeConfigConfigCustomConfigTags {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#key AppscopeConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#key AppscopeConfig#key}
   */
   readonly key?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#value AppscopeConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#value AppscopeConfig#value}
   */
   readonly value?: string;
 }
@@ -4591,31 +4591,31 @@ export class AppscopeConfigConfigCustomConfigTagsList extends cdktf.ComplexList 
 }
 export interface AppscopeConfigConfigCustomConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cribl AppscopeConfig#cribl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cribl AppscopeConfig#cribl}
   */
   readonly cribl?: AppscopeConfigConfigCustomConfigCribl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#event AppscopeConfig#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#event AppscopeConfig#event}
   */
   readonly event?: AppscopeConfigConfigCustomConfigEvent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#libscope AppscopeConfig#libscope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#libscope AppscopeConfig#libscope}
   */
   readonly libscope?: AppscopeConfigConfigCustomConfigLibscope;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#metric AppscopeConfig#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#metric AppscopeConfig#metric}
   */
   readonly metric?: AppscopeConfigConfigCustomConfigMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#payload AppscopeConfig#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#payload AppscopeConfig#payload}
   */
   readonly payload?: AppscopeConfigConfigCustomConfigPayload;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#protocol AppscopeConfig#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#protocol AppscopeConfig#protocol}
   */
   readonly protocol?: AppscopeConfigConfigCustomConfigProtocol[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tags AppscopeConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tags AppscopeConfig#tags}
   */
   readonly tags?: AppscopeConfigConfigCustomConfigTags[] | cdktf.IResolvable;
 }
@@ -4883,33 +4883,33 @@ export class AppscopeConfigConfigCustomConfigOutputReference extends cdktf.Compl
 }
 export interface AppscopeConfigConfigCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#ancestor AppscopeConfig#ancestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#ancestor AppscopeConfig#ancestor}
   */
   readonly ancestor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#arg AppscopeConfig#arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#arg AppscopeConfig#arg}
   */
   readonly arg?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#config AppscopeConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#config AppscopeConfig#config}
   */
   readonly config?: AppscopeConfigConfigCustomConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#env AppscopeConfig#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#env AppscopeConfig#env}
   */
   readonly env?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#hostname AppscopeConfig#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#hostname AppscopeConfig#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#procname AppscopeConfig#procname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#procname AppscopeConfig#procname}
   */
   readonly procname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#username AppscopeConfig#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#username AppscopeConfig#username}
   */
   readonly username?: string;
 }
@@ -5201,13 +5201,13 @@ export interface AppscopeConfigConfigEventFormat {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enhancefs AppscopeConfig#enhancefs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enhancefs AppscopeConfig#enhancefs}
   */
   readonly enhancefs?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#maxeventpersec AppscopeConfig#maxeventpersec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#maxeventpersec AppscopeConfig#maxeventpersec}
   */
   readonly maxeventpersec?: number;
 }
@@ -5330,15 +5330,15 @@ export class AppscopeConfigConfigEventFormatOutputReference extends cdktf.Comple
 }
 export interface AppscopeConfigConfigEventTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -5492,27 +5492,27 @@ export interface AppscopeConfigConfigEventTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigEventTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -5751,33 +5751,33 @@ export class AppscopeConfigConfigEventTransportOutputReference extends cdktf.Com
 }
 export interface AppscopeConfigConfigEventWatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#allowbinary AppscopeConfig#allowbinary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#allowbinary AppscopeConfig#allowbinary}
   */
   readonly allowbinary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enabled AppscopeConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enabled AppscopeConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#field AppscopeConfig#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#field AppscopeConfig#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#headers AppscopeConfig#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#headers AppscopeConfig#headers}
   */
   readonly headers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#name AppscopeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#name AppscopeConfig#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#value AppscopeConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#value AppscopeConfig#value}
   */
   readonly value?: string;
 }
@@ -6069,31 +6069,31 @@ export interface AppscopeConfigConfigEvent {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#format AppscopeConfig#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#format AppscopeConfig#format}
   */
   readonly format?: AppscopeConfigConfigEventFormat;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigEventTransport;
   /**
   * Not Null; must be "ndjson"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#watch AppscopeConfig#watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#watch AppscopeConfig#watch}
   */
   readonly watch?: AppscopeConfigConfigEventWatch[] | cdktf.IResolvable;
 }
@@ -6303,15 +6303,15 @@ export class AppscopeConfigConfigEventOutputReference extends cdktf.ComplexObjec
 }
 export interface AppscopeConfigConfigLibscopeLogTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -6465,27 +6465,27 @@ export interface AppscopeConfigConfigLibscopeLogTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigLibscopeLogTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -6726,11 +6726,11 @@ export interface AppscopeConfigConfigLibscopeLog {
   /**
   * must be one of ["error", "debug", "info", "warning", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#level AppscopeConfig#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#level AppscopeConfig#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigLibscopeLogTransport;
 }
@@ -6853,19 +6853,19 @@ export class AppscopeConfigConfigLibscopeLogOutputReference extends cdktf.Comple
 }
 export interface AppscopeConfigConfigLibscope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#commanddir AppscopeConfig#commanddir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#commanddir AppscopeConfig#commanddir}
   */
   readonly commanddir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#configevent AppscopeConfig#configevent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#configevent AppscopeConfig#configevent}
   */
   readonly configevent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#log AppscopeConfig#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#log AppscopeConfig#log}
   */
   readonly log?: AppscopeConfigConfigLibscopeLog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#summaryperiod AppscopeConfig#summaryperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#summaryperiod AppscopeConfig#summaryperiod}
   */
   readonly summaryperiod?: number;
 }
@@ -7046,19 +7046,19 @@ export class AppscopeConfigConfigLibscopeOutputReference extends cdktf.ComplexOb
 }
 export interface AppscopeConfigConfigMetricFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#statsdmaxlen AppscopeConfig#statsdmaxlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#statsdmaxlen AppscopeConfig#statsdmaxlen}
   */
   readonly statsdmaxlen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#statsdprefix AppscopeConfig#statsdprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#statsdprefix AppscopeConfig#statsdprefix}
   */
   readonly statsdprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#verbosity AppscopeConfig#verbosity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#verbosity AppscopeConfig#verbosity}
   */
   readonly verbosity?: number;
 }
@@ -7239,15 +7239,15 @@ export class AppscopeConfigConfigMetricFormatOutputReference extends cdktf.Compl
 }
 export interface AppscopeConfigConfigMetricTransportTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cacertpath AppscopeConfig#cacertpath}
   */
   readonly cacertpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#validateserver AppscopeConfig#validateserver}
   */
   readonly validateserver?: boolean | cdktf.IResolvable;
 }
@@ -7401,27 +7401,27 @@ export interface AppscopeConfigConfigMetricTransport {
   /**
   * must be one of ["line", "full"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#buffer AppscopeConfig#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#host AppscopeConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#host AppscopeConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#path AppscopeConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#path AppscopeConfig#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#port AppscopeConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#port AppscopeConfig#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tls AppscopeConfig#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tls AppscopeConfig#tls}
   */
   readonly tls?: AppscopeConfigConfigMetricTransportTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#type AppscopeConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#type AppscopeConfig#type}
   */
   readonly type?: string;
 }
@@ -7743,25 +7743,25 @@ export interface AppscopeConfigConfigMetric {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#format AppscopeConfig#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#format AppscopeConfig#format}
   */
   readonly format?: AppscopeConfigConfigMetricFormat;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#transport AppscopeConfig#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#transport AppscopeConfig#transport}
   */
   readonly transport?: AppscopeConfigConfigMetricTransport;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#watch AppscopeConfig#watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#watch AppscopeConfig#watch}
   */
   readonly watch?: AppscopeConfigConfigMetricWatch[] | cdktf.IResolvable;
 }
@@ -7944,13 +7944,13 @@ export interface AppscopeConfigConfigPayload {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#dir AppscopeConfig#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#dir AppscopeConfig#dir}
   */
   readonly dir?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#enable AppscopeConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#enable AppscopeConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -8075,37 +8075,37 @@ export interface AppscopeConfigConfigProtocol {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#binary AppscopeConfig#binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#binary AppscopeConfig#binary}
   */
   readonly binary?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#detect AppscopeConfig#detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#detect AppscopeConfig#detect}
   */
   readonly detect?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#len AppscopeConfig#len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#len AppscopeConfig#len}
   */
   readonly len?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#name AppscopeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#name AppscopeConfig#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#payload AppscopeConfig#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#payload AppscopeConfig#payload}
   */
   readonly payload?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#regex AppscopeConfig#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#regex AppscopeConfig#regex}
   */
   readonly regex?: string;
 }
@@ -8368,13 +8368,13 @@ export interface AppscopeConfigConfigTags {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#key AppscopeConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#key AppscopeConfig#key}
   */
   readonly key?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#value AppscopeConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#value AppscopeConfig#value}
   */
   readonly value?: string;
 }
@@ -8519,35 +8519,35 @@ export class AppscopeConfigConfigTagsList extends cdktf.ComplexList {
 }
 export interface AppscopeConfigConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#cribl AppscopeConfig#cribl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#cribl AppscopeConfig#cribl}
   */
   readonly cribl?: AppscopeConfigConfigCribl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#custom AppscopeConfig#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#custom AppscopeConfig#custom}
   */
   readonly custom?: AppscopeConfigConfigCustom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#event AppscopeConfig#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#event AppscopeConfig#event}
   */
   readonly event?: AppscopeConfigConfigEvent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#libscope AppscopeConfig#libscope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#libscope AppscopeConfig#libscope}
   */
   readonly libscope?: AppscopeConfigConfigLibscope;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#metric AppscopeConfig#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#metric AppscopeConfig#metric}
   */
   readonly metric?: AppscopeConfigConfigMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#payload AppscopeConfig#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#payload AppscopeConfig#payload}
   */
   readonly payload?: AppscopeConfigConfigPayload;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#protocol AppscopeConfig#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#protocol AppscopeConfig#protocol}
   */
   readonly protocol?: AppscopeConfigConfigProtocol[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#tags AppscopeConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#tags AppscopeConfig#tags}
   */
   readonly tags?: AppscopeConfigConfigTags[] | cdktf.IResolvable;
 }
@@ -8844,7 +8844,7 @@ export class AppscopeConfigConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config criblio_appscope_config}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config criblio_appscope_config}
 */
 export class AppscopeConfig extends cdktf.TerraformResource {
 
@@ -8860,7 +8860,7 @@ export class AppscopeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppscopeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppscopeConfig to import
-  * @param importFromId The id of the existing AppscopeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppscopeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppscopeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8872,7 +8872,7 @@ export class AppscopeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/appscope_config criblio_appscope_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/appscope_config criblio_appscope_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8883,8 +8883,8 @@ export class AppscopeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_appscope_config',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.33',
-        providerVersionConstraint: '1.20.33'
+        providerVersion: '1.20.48',
+        providerVersionConstraint: '1.20.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

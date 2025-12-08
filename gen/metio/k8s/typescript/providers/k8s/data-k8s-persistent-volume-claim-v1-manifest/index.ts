@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPersistentVolumeClaimV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#metadata DataK8SPersistentVolumeClaimV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#metadata DataK8SPersistentVolumeClaimV1Manifest#metadata}
   */
   readonly metadata: DataK8SPersistentVolumeClaimV1ManifestMetadata;
   /**
   * PersistentVolumeClaimSpec describes the common attributes of storage devices and allows a Source for provider-specific attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#spec DataK8SPersistentVolumeClaimV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#spec DataK8SPersistentVolumeClaimV1Manifest#spec}
   */
   readonly spec?: DataK8SPersistentVolumeClaimV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPersistentVolumeClaimV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#annotations DataK8SPersistentVolumeClaimV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#annotations DataK8SPersistentVolumeClaimV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#labels DataK8SPersistentVolumeClaimV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#labels DataK8SPersistentVolumeClaimV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#name DataK8SPersistentVolumeClaimV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#name DataK8SPersistentVolumeClaimV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#namespace DataK8SPersistentVolumeClaimV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#namespace DataK8SPersistentVolumeClaimV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SPersistentVolumeClaimV1ManifestSpecDataSource {
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#api_group DataK8SPersistentVolumeClaimV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#api_group DataK8SPersistentVolumeClaimV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#kind DataK8SPersistentVolumeClaimV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#kind DataK8SPersistentVolumeClaimV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#name DataK8SPersistentVolumeClaimV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#name DataK8SPersistentVolumeClaimV1Manifest#name}
   */
   readonly name: string;
 }
@@ -379,25 +379,25 @@ export interface DataK8SPersistentVolumeClaimV1ManifestSpecDataSourceRef {
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#api_group DataK8SPersistentVolumeClaimV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#api_group DataK8SPersistentVolumeClaimV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#kind DataK8SPersistentVolumeClaimV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#kind DataK8SPersistentVolumeClaimV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#name DataK8SPersistentVolumeClaimV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#name DataK8SPersistentVolumeClaimV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#namespace DataK8SPersistentVolumeClaimV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#namespace DataK8SPersistentVolumeClaimV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -574,13 +574,13 @@ export interface DataK8SPersistentVolumeClaimV1ManifestSpecResources {
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#limits DataK8SPersistentVolumeClaimV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#limits DataK8SPersistentVolumeClaimV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#requests DataK8SPersistentVolumeClaimV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#requests DataK8SPersistentVolumeClaimV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -705,19 +705,19 @@ export interface DataK8SPersistentVolumeClaimV1ManifestSpecSelectorMatchExpressi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#key DataK8SPersistentVolumeClaimV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#key DataK8SPersistentVolumeClaimV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#operator DataK8SPersistentVolumeClaimV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#operator DataK8SPersistentVolumeClaimV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#values DataK8SPersistentVolumeClaimV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#values DataK8SPersistentVolumeClaimV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -887,13 +887,13 @@ export interface DataK8SPersistentVolumeClaimV1ManifestSpecSelector {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#match_expressions DataK8SPersistentVolumeClaimV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#match_expressions DataK8SPersistentVolumeClaimV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPersistentVolumeClaimV1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#match_labels DataK8SPersistentVolumeClaimV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#match_labels DataK8SPersistentVolumeClaimV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1018,53 +1018,53 @@ export interface DataK8SPersistentVolumeClaimV1ManifestSpec {
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#access_modes DataK8SPersistentVolumeClaimV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#access_modes DataK8SPersistentVolumeClaimV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#data_source DataK8SPersistentVolumeClaimV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#data_source DataK8SPersistentVolumeClaimV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPersistentVolumeClaimV1ManifestSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#data_source_ref DataK8SPersistentVolumeClaimV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#data_source_ref DataK8SPersistentVolumeClaimV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPersistentVolumeClaimV1ManifestSpecDataSourceRef;
   /**
   * VolumeResourceRequirements describes the storage resource requirements for a volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#resources DataK8SPersistentVolumeClaimV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#resources DataK8SPersistentVolumeClaimV1Manifest#resources}
   */
   readonly resources?: DataK8SPersistentVolumeClaimV1ManifestSpecResources;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#selector DataK8SPersistentVolumeClaimV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#selector DataK8SPersistentVolumeClaimV1Manifest#selector}
   */
   readonly selector?: DataK8SPersistentVolumeClaimV1ManifestSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#storage_class_name DataK8SPersistentVolumeClaimV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#storage_class_name DataK8SPersistentVolumeClaimV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#volume_attributes_class_name DataK8SPersistentVolumeClaimV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#volume_attributes_class_name DataK8SPersistentVolumeClaimV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#volume_mode DataK8SPersistentVolumeClaimV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#volume_mode DataK8SPersistentVolumeClaimV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#volume_name DataK8SPersistentVolumeClaimV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#volume_name DataK8SPersistentVolumeClaimV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -1390,7 +1390,7 @@ export class DataK8SPersistentVolumeClaimV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest k8s_persistent_volume_claim_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest k8s_persistent_volume_claim_v1_manifest}
 */
 export class DataK8SPersistentVolumeClaimV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1406,7 +1406,7 @@ export class DataK8SPersistentVolumeClaimV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SPersistentVolumeClaimV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPersistentVolumeClaimV1Manifest to import
-  * @param importFromId The id of the existing DataK8SPersistentVolumeClaimV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPersistentVolumeClaimV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPersistentVolumeClaimV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1418,7 +1418,7 @@ export class DataK8SPersistentVolumeClaimV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/persistent_volume_claim_v1_manifest k8s_persistent_volume_claim_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/persistent_volume_claim_v1_manifest k8s_persistent_volume_claim_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1429,8 +1429,8 @@ export class DataK8SPersistentVolumeClaimV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_persistent_volume_claim_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

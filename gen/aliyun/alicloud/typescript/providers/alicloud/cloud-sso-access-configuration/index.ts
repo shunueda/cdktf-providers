@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface CloudSsoAccessConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#access_configuration_name CloudSsoAccessConfiguration#access_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#access_configuration_name CloudSsoAccessConfiguration#access_configuration_name}
   */
   readonly accessConfigurationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#description CloudSsoAccessConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#description CloudSsoAccessConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#directory_id CloudSsoAccessConfiguration#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#directory_id CloudSsoAccessConfiguration#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#force_remove_permission_policies CloudSsoAccessConfiguration#force_remove_permission_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#force_remove_permission_policies CloudSsoAccessConfiguration#force_remove_permission_policies}
   */
   readonly forceRemovePermissionPolicies?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#id CloudSsoAccessConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#id CloudSsoAccessConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#relay_state CloudSsoAccessConfiguration#relay_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#relay_state CloudSsoAccessConfiguration#relay_state}
   */
   readonly relayState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#session_duration CloudSsoAccessConfiguration#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#session_duration CloudSsoAccessConfiguration#session_duration}
   */
   readonly sessionDuration?: number;
   /**
   * permission_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#permission_policies CloudSsoAccessConfiguration#permission_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#permission_policies CloudSsoAccessConfiguration#permission_policies}
   */
   readonly permissionPolicies?: CloudSsoAccessConfigurationPermissionPolicies[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#timeouts CloudSsoAccessConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#timeouts CloudSsoAccessConfiguration#timeouts}
   */
   readonly timeouts?: CloudSsoAccessConfigurationTimeouts;
 }
 export interface CloudSsoAccessConfigurationPermissionPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#permission_policy_document CloudSsoAccessConfiguration#permission_policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#permission_policy_document CloudSsoAccessConfiguration#permission_policy_document}
   */
   readonly permissionPolicyDocument?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#permission_policy_name CloudSsoAccessConfiguration#permission_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#permission_policy_name CloudSsoAccessConfiguration#permission_policy_name}
   */
   readonly permissionPolicyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#permission_policy_type CloudSsoAccessConfiguration#permission_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#permission_policy_type CloudSsoAccessConfiguration#permission_policy_type}
   */
   readonly permissionPolicyType: string;
 }
@@ -229,15 +229,15 @@ export class CloudSsoAccessConfigurationPermissionPoliciesList extends cdktf.Com
 }
 export interface CloudSsoAccessConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#create CloudSsoAccessConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#create CloudSsoAccessConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#delete CloudSsoAccessConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#delete CloudSsoAccessConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#update CloudSsoAccessConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#update CloudSsoAccessConfiguration#update}
   */
   readonly update?: string;
 }
@@ -389,7 +389,7 @@ export class CloudSsoAccessConfigurationTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration alicloud_cloud_sso_access_configuration}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration alicloud_cloud_sso_access_configuration}
 */
 export class CloudSsoAccessConfiguration extends cdktf.TerraformResource {
 
@@ -405,7 +405,7 @@ export class CloudSsoAccessConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudSsoAccessConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudSsoAccessConfiguration to import
-  * @param importFromId The id of the existing CloudSsoAccessConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudSsoAccessConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudSsoAccessConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class CloudSsoAccessConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_access_configuration alicloud_cloud_sso_access_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_configuration alicloud_cloud_sso_access_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class CloudSsoAccessConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_sso_access_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -133,15 +133,15 @@ dataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateMetadataToHclTerraform,
 DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateMetadataOutputReference } from './structs0'
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#audience DataK8SAppsEmqxIoEmqxV2Beta1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#audience DataK8SAppsEmqxIoEmqxV2Beta1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#expiration_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#expiration_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -290,23 +290,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_trust_bundle DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_trust_bundle DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#downward_api DataK8SAppsEmqxIoEmqxV2Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#downward_api DataK8SAppsEmqxIoEmqxV2Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret}
   */
   readonly secret?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service_account_token DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service_account_token DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSourcesServiceAccountToken;
 }
@@ -538,11 +538,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#default_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#default_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sources}
   */
   readonly sources?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -665,27 +665,27 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesQuobyte {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#registry DataK8SAppsEmqxIoEmqxV2Beta1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#registry DataK8SAppsEmqxIoEmqxV2Beta1Manifest#registry}
   */
   readonly registry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tenant DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tenant DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -918,7 +918,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesRbdSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1012,35 +1012,35 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesRbd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#image DataK8SAppsEmqxIoEmqxV2Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#image DataK8SAppsEmqxIoEmqxV2Beta1Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#keyring DataK8SAppsEmqxIoEmqxV2Beta1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#keyring DataK8SAppsEmqxIoEmqxV2Beta1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#monitors DataK8SAppsEmqxIoEmqxV2Beta1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#monitors DataK8SAppsEmqxIoEmqxV2Beta1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pool DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pool DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesRbdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -1331,7 +1331,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesScaleIoSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1425,43 +1425,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesScaleIo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gateway DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gateway DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protection_domain DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protection_domain DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesScaleIoSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ssl_enabled DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ssl_enabled DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_pool DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_pool DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#system DataK8SAppsEmqxIoEmqxV2Beta1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#system DataK8SAppsEmqxIoEmqxV2Beta1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -1807,15 +1807,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -1983,19 +1983,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#default_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#default_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#items DataK8SAppsEmqxIoEmqxV2Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#items DataK8SAppsEmqxIoEmqxV2Beta1Manifest#items}
   */
   readonly items?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -2176,7 +2176,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2270,23 +2270,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -2496,19 +2496,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_policy_id DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_policy_id DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_policy_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_policy_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -2686,123 +2686,123 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#aws_elastic_block_store DataK8SAppsEmqxIoEmqxV2Beta1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#aws_elastic_block_store DataK8SAppsEmqxIoEmqxV2Beta1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#azure_disk DataK8SAppsEmqxIoEmqxV2Beta1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#azure_disk DataK8SAppsEmqxIoEmqxV2Beta1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#azure_file DataK8SAppsEmqxIoEmqxV2Beta1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#azure_file DataK8SAppsEmqxIoEmqxV2Beta1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cephfs DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cephfs DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cinder DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cinder DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cinder}
   */
   readonly cinder?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#csi DataK8SAppsEmqxIoEmqxV2Beta1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#csi DataK8SAppsEmqxIoEmqxV2Beta1Manifest#csi}
   */
   readonly csi?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#downward_api DataK8SAppsEmqxIoEmqxV2Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#downward_api DataK8SAppsEmqxIoEmqxV2Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#empty_dir DataK8SAppsEmqxIoEmqxV2Beta1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#empty_dir DataK8SAppsEmqxIoEmqxV2Beta1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ephemeral DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ephemeral DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fc}
   */
   readonly fc?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#flex_volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#flex_volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#flocker DataK8SAppsEmqxIoEmqxV2Beta1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#flocker DataK8SAppsEmqxIoEmqxV2Beta1Manifest#flocker}
   */
   readonly flocker?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gce_persistent_disk DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gce_persistent_disk DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#git_repo DataK8SAppsEmqxIoEmqxV2Beta1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#git_repo DataK8SAppsEmqxIoEmqxV2Beta1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#glusterfs DataK8SAppsEmqxIoEmqxV2Beta1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#glusterfs DataK8SAppsEmqxIoEmqxV2Beta1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_path}
   */
   readonly hostPath?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#iscsi DataK8SAppsEmqxIoEmqxV2Beta1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#iscsi DataK8SAppsEmqxIoEmqxV2Beta1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#nfs DataK8SAppsEmqxIoEmqxV2Beta1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#nfs DataK8SAppsEmqxIoEmqxV2Beta1Manifest#nfs}
   */
   readonly nfs?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#persistent_volume_claim DataK8SAppsEmqxIoEmqxV2Beta1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#persistent_volume_claim DataK8SAppsEmqxIoEmqxV2Beta1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#photon_persistent_disk DataK8SAppsEmqxIoEmqxV2Beta1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#photon_persistent_disk DataK8SAppsEmqxIoEmqxV2Beta1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesPhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#portworx_volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#portworx_volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesPortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#projected DataK8SAppsEmqxIoEmqxV2Beta1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#projected DataK8SAppsEmqxIoEmqxV2Beta1Manifest#projected}
   */
   readonly projected?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#quobyte DataK8SAppsEmqxIoEmqxV2Beta1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#quobyte DataK8SAppsEmqxIoEmqxV2Beta1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#rbd DataK8SAppsEmqxIoEmqxV2Beta1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#rbd DataK8SAppsEmqxIoEmqxV2Beta1Manifest#rbd}
   */
   readonly rbd?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scale_io DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scale_io DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret}
   */
   readonly secret?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storageos DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storageos DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storageos}
   */
   readonly storageos?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#vsphere_volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#vsphere_volume DataK8SAppsEmqxIoEmqxV2Beta1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumesVsphereVolume;
 }
@@ -3756,15 +3756,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolume
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3913,11 +3913,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#api_version DataK8SAppsEmqxIoEmqxV2Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#api_version DataK8SAppsEmqxIoEmqxV2Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#field_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#field_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4037,15 +4037,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#divisor DataK8SAppsEmqxIoEmqxV2Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#divisor DataK8SAppsEmqxIoEmqxV2Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resource DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resource DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -4194,15 +4194,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4351,19 +4351,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map_key_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map_key_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#field_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#field_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resource_field_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resource_field_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_key_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_key_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -4544,15 +4544,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value_from DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value_from DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvValueFrom;
 }
@@ -4723,11 +4723,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4850,11 +4850,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#optional DataK8SAppsEmqxIoEmqxV2Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4977,15 +4977,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#config_map_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#prefix DataK8SAppsEmqxIoEmqxV2Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#prefix DataK8SAppsEmqxIoEmqxV2Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#secret_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -5159,7 +5159,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -5253,11 +5253,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -5396,23 +5396,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5619,7 +5619,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -5710,11 +5710,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -5834,19 +5834,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -6027,7 +6027,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -6121,11 +6121,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -6264,23 +6264,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -6487,7 +6487,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -6578,11 +6578,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -6702,19 +6702,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -6895,11 +6895,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#post_start DataK8SAppsEmqxIoEmqxV2Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#post_start DataK8SAppsEmqxIoEmqxV2Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pre_stop DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pre_stop DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecyclePreStop;
 }
@@ -7022,7 +7022,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7116,11 +7116,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7240,11 +7240,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -7383,23 +7383,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7606,11 +7606,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -7730,43 +7730,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8121,23 +8121,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -8366,7 +8366,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8460,11 +8460,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -8584,11 +8584,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -8727,23 +8727,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8950,11 +8950,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -9074,43 +9074,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9465,11 +9465,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resource_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resource_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#restart_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#restart_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -9608,7 +9608,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -9721,15 +9721,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#claims DataK8SAppsEmqxIoEmqxV2Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#claims DataK8SAppsEmqxIoEmqxV2Beta1Manifest#claims}
   */
   readonly claims?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#limits DataK8SAppsEmqxIoEmqxV2Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#limits DataK8SAppsEmqxIoEmqxV2Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#requests DataK8SAppsEmqxIoEmqxV2Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#requests DataK8SAppsEmqxIoEmqxV2Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9881,11 +9881,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#add DataK8SAppsEmqxIoEmqxV2Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#add DataK8SAppsEmqxIoEmqxV2Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#drop DataK8SAppsEmqxIoEmqxV2Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#drop DataK8SAppsEmqxIoEmqxV2Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -10008,19 +10008,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#level DataK8SAppsEmqxIoEmqxV2Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#level DataK8SAppsEmqxIoEmqxV2Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#role DataK8SAppsEmqxIoEmqxV2Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#role DataK8SAppsEmqxIoEmqxV2Beta1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -10201,11 +10201,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#localhost_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#localhost_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -10325,19 +10325,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_process DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_process DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -10518,47 +10518,47 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#allow_privilege_escalation DataK8SAppsEmqxIoEmqxV2Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#allow_privilege_escalation DataK8SAppsEmqxIoEmqxV2Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#capabilities DataK8SAppsEmqxIoEmqxV2Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#capabilities DataK8SAppsEmqxIoEmqxV2Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#privileged DataK8SAppsEmqxIoEmqxV2Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#privileged DataK8SAppsEmqxIoEmqxV2Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#proc_mount DataK8SAppsEmqxIoEmqxV2Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#proc_mount DataK8SAppsEmqxIoEmqxV2Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only_root_filesystem DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only_root_filesystem DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_non_root DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_non_root DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#se_linux_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#se_linux_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seccomp_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seccomp_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#windows_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#windows_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -10942,7 +10942,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11036,11 +11036,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -11160,11 +11160,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -11303,23 +11303,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11526,11 +11526,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -11650,43 +11650,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12041,11 +12041,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#device_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#device_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -12184,27 +12184,27 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mount_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mount_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mount_propagation DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mount_propagation DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#read_only DataK8SAppsEmqxIoEmqxV2Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sub_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sub_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sub_path_expr DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sub_path_expr DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -12459,99 +12459,99 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#args DataK8SAppsEmqxIoEmqxV2Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#args DataK8SAppsEmqxIoEmqxV2Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env}
   */
   readonly env?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env_from DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env_from DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#image DataK8SAppsEmqxIoEmqxV2Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#image DataK8SAppsEmqxIoEmqxV2Beta1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#image_pull_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#image_pull_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#lifecycle DataK8SAppsEmqxIoEmqxV2Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#lifecycle DataK8SAppsEmqxIoEmqxV2Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#liveness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#liveness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
   */
   readonly ports?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#readiness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#readiness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resize_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resize_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resources}
   */
   readonly resources?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#restart_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#restart_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#security_context DataK8SAppsEmqxIoEmqxV2Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#security_context DataK8SAppsEmqxIoEmqxV2Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#startup_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#startup_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#stdin DataK8SAppsEmqxIoEmqxV2Beta1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#stdin DataK8SAppsEmqxIoEmqxV2Beta1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#stdin_once DataK8SAppsEmqxIoEmqxV2Beta1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#stdin_once DataK8SAppsEmqxIoEmqxV2Beta1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_message_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_message_path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_message_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_message_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tty DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tty DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_devices DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_devices DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_mounts DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_mounts DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#working_dir DataK8SAppsEmqxIoEmqxV2Beta1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#working_dir DataK8SAppsEmqxIoEmqxV2Beta1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -13331,7 +13331,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContain
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13425,11 +13425,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePo
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -13568,23 +13568,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePo
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13791,7 +13791,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePo
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -13882,11 +13882,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePo
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -14006,19 +14006,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePo
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStartTcpSocket;
 }
@@ -14199,7 +14199,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePo
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14293,11 +14293,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -14436,23 +14436,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14659,7 +14659,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -14750,11 +14750,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -14874,19 +14874,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sleep DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStopTcpSocket;
 }
@@ -15067,11 +15067,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#post_start DataK8SAppsEmqxIoEmqxV2Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#post_start DataK8SAppsEmqxIoEmqxV2Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pre_stop DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pre_stop DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecyclePreStop;
 }
@@ -15194,7 +15194,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecycleOu
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -15288,11 +15288,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessPro
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -15412,11 +15412,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessPro
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -15555,23 +15555,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessPro
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -15778,11 +15778,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessPro
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -15902,43 +15902,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessPro
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -16293,19 +16293,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessPro
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#level DataK8SAppsEmqxIoEmqxV2Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#level DataK8SAppsEmqxIoEmqxV2Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#role DataK8SAppsEmqxIoEmqxV2Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#role DataK8SAppsEmqxIoEmqxV2Beta1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16486,11 +16486,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurity
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#localhost_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#localhost_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -16610,11 +16610,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurity
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -16753,19 +16753,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurity
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#gmsa_credential_spec_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_process DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_process DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16946,43 +16946,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurity
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_group_change_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#fs_group_change_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_non_root DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_non_root DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#run_as_user DataK8SAppsEmqxIoEmqxV2Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#se_linux_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#se_linux_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seccomp_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#seccomp_profile DataK8SAppsEmqxIoEmqxV2Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#supplemental_groups DataK8SAppsEmqxIoEmqxV2Beta1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#supplemental_groups DataK8SAppsEmqxIoEmqxV2Beta1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sysctls DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#sysctls DataK8SAppsEmqxIoEmqxV2Beta1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#windows_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#windows_options DataK8SAppsEmqxIoEmqxV2Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContextWindowsOptions;
 }
@@ -17337,23 +17337,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurity
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -17582,7 +17582,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPortsList e
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17676,11 +17676,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessPr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -17800,11 +17800,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessPr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -17943,23 +17943,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessPr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -18166,11 +18166,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessPr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -18290,43 +18290,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessPr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -18681,7 +18681,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessPr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -18794,15 +18794,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecResourcesCl
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#claims DataK8SAppsEmqxIoEmqxV2Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#claims DataK8SAppsEmqxIoEmqxV2Beta1Manifest#claims}
   */
   readonly claims?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#limits DataK8SAppsEmqxIoEmqxV2Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#limits DataK8SAppsEmqxIoEmqxV2Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#requests DataK8SAppsEmqxIoEmqxV2Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#requests DataK8SAppsEmqxIoEmqxV2Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -18954,7 +18954,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecResourcesOu
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19048,11 +19048,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProb
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#service DataK8SAppsEmqxIoEmqxV2Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -19172,11 +19172,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProb
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -19315,23 +19315,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProb
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_headers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#path DataK8SAppsEmqxIoEmqxV2Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#scheme DataK8SAppsEmqxIoEmqxV2Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19538,11 +19538,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProb
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#host DataK8SAppsEmqxIoEmqxV2Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -19662,43 +19662,43 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProb
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#exec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#exec}
   */
   readonly exec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#failure_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#grpc DataK8SAppsEmqxIoEmqxV2Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#http_get DataK8SAppsEmqxIoEmqxV2Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#initial_delay_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#success_threshold DataK8SAppsEmqxIoEmqxV2Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tcp_socket DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#termination_grace_period_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -20053,23 +20053,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProb
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecToleRations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#effect DataK8SAppsEmqxIoEmqxV2Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#effect DataK8SAppsEmqxIoEmqxV2Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#toleration_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#toleration_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -20301,23 +20301,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecToleRations
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#effect DataK8SAppsEmqxIoEmqxV2Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#effect DataK8SAppsEmqxIoEmqxV2Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#toleration_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#toleration_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#value DataK8SAppsEmqxIoEmqxV2Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -20549,15 +20549,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTolerations
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20725,11 +20725,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20852,35 +20852,35 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#label_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#label_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#max_skew DataK8SAppsEmqxIoEmqxV2Beta1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#max_skew DataK8SAppsEmqxIoEmqxV2Beta1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#min_domains DataK8SAppsEmqxIoEmqxV2Beta1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#min_domains DataK8SAppsEmqxIoEmqxV2Beta1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_affinity_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_affinity_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_taints_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_taints_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#when_unsatisfiable DataK8SAppsEmqxIoEmqxV2Beta1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#when_unsatisfiable DataK8SAppsEmqxIoEmqxV2Beta1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -21190,15 +21190,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpr
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#api_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#api_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#kind DataK8SAppsEmqxIoEmqxV2Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#kind DataK8SAppsEmqxIoEmqxV2Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -21344,19 +21344,19 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaim
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#api_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#api_group DataK8SAppsEmqxIoEmqxV2Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#kind DataK8SAppsEmqxIoEmqxV2Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#kind DataK8SAppsEmqxIoEmqxV2Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -21531,11 +21531,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaim
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#limits DataK8SAppsEmqxIoEmqxV2Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#limits DataK8SAppsEmqxIoEmqxV2Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#requests DataK8SAppsEmqxIoEmqxV2Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#requests DataK8SAppsEmqxIoEmqxV2Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -21658,15 +21658,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaim
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21834,11 +21834,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaim
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21961,39 +21961,39 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaim
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#access_modes DataK8SAppsEmqxIoEmqxV2Beta1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#access_modes DataK8SAppsEmqxIoEmqxV2Beta1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#data_source DataK8SAppsEmqxIoEmqxV2Beta1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#data_source DataK8SAppsEmqxIoEmqxV2Beta1Manifest#data_source}
   */
   readonly dataSource?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#data_source_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#data_source_ref DataK8SAppsEmqxIoEmqxV2Beta1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resources}
   */
   readonly resources?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#selector}
   */
   readonly selector?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplatesSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_class_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#storage_class_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_attributes_class_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_attributes_class_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_mode DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -22319,99 +22319,99 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaim
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#affinity DataK8SAppsEmqxIoEmqxV2Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#affinity DataK8SAppsEmqxIoEmqxV2Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#args DataK8SAppsEmqxIoEmqxV2Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#args DataK8SAppsEmqxIoEmqxV2Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#command DataK8SAppsEmqxIoEmqxV2Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_security_context DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#container_security_context DataK8SAppsEmqxIoEmqxV2Beta1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecContainerSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env}
   */
   readonly env?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env_from DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#env_from DataK8SAppsEmqxIoEmqxV2Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#extra_containers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#extra_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#extra_containers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#extra_containers}
   */
   readonly extraContainers?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#extra_volume_mounts DataK8SAppsEmqxIoEmqxV2Beta1Manifest#extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#extra_volume_mounts DataK8SAppsEmqxIoEmqxV2Beta1Manifest#extra_volume_mounts}
   */
   readonly extraVolumeMounts?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#extra_volumes DataK8SAppsEmqxIoEmqxV2Beta1Manifest#extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#extra_volumes DataK8SAppsEmqxIoEmqxV2Beta1Manifest#extra_volumes}
   */
   readonly extraVolumes?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecExtraVolumes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#init_containers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#init_containers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecInitContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#lifecycle DataK8SAppsEmqxIoEmqxV2Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#lifecycle DataK8SAppsEmqxIoEmqxV2Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#liveness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#liveness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pod_security_context DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pod_security_context DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPodSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
   */
   readonly ports?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#readiness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#readiness_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#replicas DataK8SAppsEmqxIoEmqxV2Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#replicas DataK8SAppsEmqxIoEmqxV2Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#resources DataK8SAppsEmqxIoEmqxV2Beta1Manifest#resources}
   */
   readonly resources?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#startup_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#startup_probe DataK8SAppsEmqxIoEmqxV2Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tole_rations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tole_rations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tole_rations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tole_rations}
   */
   readonly toleRations?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecToleRations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tolerations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#tolerations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_spread_constraints DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_spread_constraints DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_claim_templates DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#volume_claim_templates DataK8SAppsEmqxIoEmqxV2Beta1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecVolumeClaimTemplates;
 }
@@ -23172,11 +23172,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpecOutputRefer
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#metadata DataK8SAppsEmqxIoEmqxV2Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#metadata DataK8SAppsEmqxIoEmqxV2Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateSpec;
 }
@@ -23299,23 +23299,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecCoreTemplateOutputReference
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#annotations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#annotations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#finalizers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#finalizers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -23525,27 +23525,27 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateMet
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpecPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#app_protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#app_protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#target_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#target_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -23803,7 +23803,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpecSessionAffinityConfigClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -23897,7 +23897,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpecSessionAffinityConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#client_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#client_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpecSessionAffinityConfigClientIp;
 }
@@ -23991,79 +23991,79 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#allocate_load_balancer_node_ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#allocate_load_balancer_node_ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#health_check_node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#health_check_node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#internal_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#internal_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_families DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_families DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_family_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_family_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_class DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_class DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_source_ranges DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_source_ranges DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
   */
   readonly ports?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpecPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#publish_not_ready_addresses DataK8SAppsEmqxIoEmqxV2Beta1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#publish_not_ready_addresses DataK8SAppsEmqxIoEmqxV2Beta1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity_config DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity_config DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpecSessionAffinityConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -24679,15 +24679,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#enabled DataK8SAppsEmqxIoEmqxV2Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#enabled DataK8SAppsEmqxIoEmqxV2Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#metadata DataK8SAppsEmqxIoEmqxV2Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#metadata DataK8SAppsEmqxIoEmqxV2Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateSpec;
 }
@@ -24839,7 +24839,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecDashboardServiceTemplateOut
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -24955,23 +24955,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecImagePullSecretsList extend
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#annotations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#annotations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#finalizers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#finalizers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -25181,27 +25181,27 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateMet
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpecPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#app_protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#app_protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#protocol DataK8SAppsEmqxIoEmqxV2Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#target_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#target_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -25459,7 +25459,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpecSessionAffinityConfigClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#timeout_seconds DataK8SAppsEmqxIoEmqxV2Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -25553,7 +25553,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpecSessionAffinityConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#client_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#client_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpecSessionAffinityConfigClientIp;
 }
@@ -25647,79 +25647,79 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#allocate_load_balancer_node_ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#allocate_load_balancer_node_ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#cluster_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_i_ps DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#external_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#health_check_node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#health_check_node_port DataK8SAppsEmqxIoEmqxV2Beta1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#internal_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#internal_traffic_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_families DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_families DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_family_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ip_family_policy DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_class DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_class DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_ip DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_source_ranges DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#load_balancer_source_ranges DataK8SAppsEmqxIoEmqxV2Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#ports DataK8SAppsEmqxIoEmqxV2Beta1Manifest#ports}
   */
   readonly ports?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpecPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#publish_not_ready_addresses DataK8SAppsEmqxIoEmqxV2Beta1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#publish_not_ready_addresses DataK8SAppsEmqxIoEmqxV2Beta1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity_config DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#session_affinity_config DataK8SAppsEmqxIoEmqxV2Beta1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpecSessionAffinityConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#type DataK8SAppsEmqxIoEmqxV2Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -26335,15 +26335,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpe
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#enabled DataK8SAppsEmqxIoEmqxV2Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#enabled DataK8SAppsEmqxIoEmqxV2Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#metadata DataK8SAppsEmqxIoEmqxV2Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#metadata DataK8SAppsEmqxIoEmqxV2Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#spec DataK8SAppsEmqxIoEmqxV2Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateSpec;
 }
@@ -26495,23 +26495,23 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecListenersServiceTemplateOut
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#annotations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#annotations DataK8SAppsEmqxIoEmqxV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#finalizers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#finalizers DataK8SAppsEmqxIoEmqxV2Beta1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#name DataK8SAppsEmqxIoEmqxV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -26721,15 +26721,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateMetadataOu
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26897,15 +26897,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27073,11 +27073,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_fields DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_fields DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -27200,11 +27200,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#preference DataK8SAppsEmqxIoEmqxV2Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#preference DataK8SAppsEmqxIoEmqxV2Beta1Manifest#preference}
   */
   readonly preference: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#weight DataK8SAppsEmqxIoEmqxV2Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#weight DataK8SAppsEmqxIoEmqxV2Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -27343,15 +27343,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27519,15 +27519,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27695,11 +27695,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_fields DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_fields DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -27844,7 +27844,7 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_selector_terms DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#node_selector_terms DataK8SAppsEmqxIoEmqxV2Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -27935,11 +27935,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -28062,15 +28062,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -28238,11 +28238,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -28365,15 +28365,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -28541,11 +28541,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -28668,27 +28668,27 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#label_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#label_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mismatch_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mismatch_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespaces DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespaces DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -28924,11 +28924,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pod_affinity_term DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#pod_affinity_term DataK8SAppsEmqxIoEmqxV2Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#weight DataK8SAppsEmqxIoEmqxV2Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#weight DataK8SAppsEmqxIoEmqxV2Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -29067,15 +29067,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -29243,11 +29243,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -29370,15 +29370,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -29546,11 +29546,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -29673,27 +29673,27 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#label_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#label_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mismatch_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#mismatch_label_keys DataK8SAppsEmqxIoEmqxV2Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespace_selector DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespaces DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#namespaces DataK8SAppsEmqxIoEmqxV2Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#topology_key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -29951,11 +29951,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsEmqxIoEmqxV2Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -30078,15 +30078,15 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#key DataK8SAppsEmqxIoEmqxV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#operator DataK8SAppsEmqxIoEmqxV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#values DataK8SAppsEmqxIoEmqxV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -30254,11 +30254,11 @@ export class DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffini
 }
 export interface DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_expressions DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsEmqxIoEmqxV2Beta1ManifestSpecReplicantTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_emqx_io_emqx_v2beta1_manifest#match_labels DataK8SAppsEmqxIoEmqxV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }

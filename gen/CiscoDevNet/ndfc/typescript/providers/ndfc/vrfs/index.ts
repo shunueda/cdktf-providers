@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VrfsConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to `true`, does a deployment of all attachments in this resource after any operation. This parameter cannot be set to `true` if  `deploy_attachments` in the vrf is set or `deploy_this_attachment` in the  `attach-list` is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#deploy_all_attachments Vrfs#deploy_all_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#deploy_all_attachments Vrfs#deploy_all_attachments}
   */
   readonly deployAllAttachments?: boolean | cdktf.IResolvable;
   /**
   * The name of the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#fabric_name Vrfs#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#fabric_name Vrfs#fabric_name}
   */
   readonly fabricName: string;
   /**
   * List of vrfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vrfs Vrfs#vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vrfs Vrfs#vrfs}
   */
   readonly vrfs: { [key: string]: VrfsVrfs } | cdktf.IResolvable;
 }
@@ -30,37 +30,43 @@ export interface VrfsVrfsAttachListStruct {
   /**
   * If set to `true`, does a deployment of the attachment. This parameter cannot be set to `true` if  `deploy_all_attachments` in the resource is set or `deploy_attachment` in the corresponding `vrf` is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#deploy_this_attachment Vrfs#deploy_this_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#deploy_this_attachment Vrfs#deploy_this_attachment}
   */
   readonly deployThisAttachment?: boolean | cdktf.IResolvable;
   /**
+  * The name of the fabric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#fabric Vrfs#fabric}
+  */
+  readonly fabric?: string;
+  /**
   * This field covers any configuration not included in overlay templates which is needed as part of this VRF attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#freeform_config Vrfs#freeform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#freeform_config Vrfs#freeform_config}
   */
   readonly freeformConfig?: string;
   /**
   * Override loopback ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#loopback_id Vrfs#loopback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#loopback_id Vrfs#loopback_id}
   */
   readonly loopbackId?: number;
   /**
   * Override loopback IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#loopback_ipv4 Vrfs#loopback_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#loopback_ipv4 Vrfs#loopback_ipv4}
   */
   readonly loopbackIpv4?: string;
   /**
   * Override loopback IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#loopback_ipv6 Vrfs#loopback_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#loopback_ipv6 Vrfs#loopback_ipv6}
   */
   readonly loopbackIpv6?: string;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vlan Vrfs#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vlan Vrfs#vlan}
   */
   readonly vlan?: number;
 }
@@ -72,6 +78,7 @@ export function vrfsVrfsAttachListStructToTerraform(struct?: VrfsVrfsAttachListS
   }
   return {
     deploy_this_attachment: cdktf.booleanToTerraform(struct!.deployThisAttachment),
+    fabric: cdktf.stringToTerraform(struct!.fabric),
     freeform_config: cdktf.stringToTerraform(struct!.freeformConfig),
     loopback_id: cdktf.numberToTerraform(struct!.loopbackId),
     loopback_ipv4: cdktf.stringToTerraform(struct!.loopbackIpv4),
@@ -92,6 +99,12 @@ export function vrfsVrfsAttachListStructToHclTerraform(struct?: VrfsVrfsAttachLi
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    fabric: {
+      value: cdktf.stringToHclTerraform(struct!.fabric),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     freeform_config: {
       value: cdktf.stringToHclTerraform(struct!.freeformConfig),
@@ -152,6 +165,10 @@ export class VrfsVrfsAttachListStructOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.deployThisAttachment = this._deployThisAttachment;
     }
+    if (this._fabric !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fabric = this._fabric;
+    }
     if (this._freeformConfig !== undefined) {
       hasAnyValues = true;
       internalValueResult.freeformConfig = this._freeformConfig;
@@ -180,6 +197,7 @@ export class VrfsVrfsAttachListStructOutputReference extends cdktf.ComplexObject
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._deployThisAttachment = undefined;
+      this._fabric = undefined;
       this._freeformConfig = undefined;
       this._loopbackId = undefined;
       this._loopbackIpv4 = undefined;
@@ -194,6 +212,7 @@ export class VrfsVrfsAttachListStructOutputReference extends cdktf.ComplexObject
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._deployThisAttachment = value.deployThisAttachment;
+      this._fabric = value.fabric;
       this._freeformConfig = value.freeformConfig;
       this._loopbackId = value.loopbackId;
       this._loopbackIpv4 = value.loopbackIpv4;
@@ -226,6 +245,22 @@ export class VrfsVrfsAttachListStructOutputReference extends cdktf.ComplexObject
   // Temporarily expose input value. Use with caution.
   public get deployThisAttachmentInput() {
     return this._deployThisAttachment;
+  }
+
+  // fabric - computed: true, optional: true, required: false
+  private _fabric?: string; 
+  public get fabric() {
+    return this.getStringAttribute('fabric');
+  }
+  public set fabric(value: string) {
+    this._fabric = value;
+  }
+  public resetFabric() {
+    this._fabric = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fabricInput() {
+    return this._fabric;
   }
 
   // freeform_config - computed: false, optional: true, required: false
@@ -336,241 +371,241 @@ export interface VrfsVrfs {
   /**
   * Flag to Control Advertisement of Default Route Internally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#advertise_default_route Vrfs#advertise_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#advertise_default_route Vrfs#advertise_default_route}
   */
   readonly advertiseDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Flag to Control Advertisement of /32 and /128 Routes to Edge Routers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#advertise_host_routes Vrfs#advertise_host_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#advertise_host_routes Vrfs#advertise_host_routes}
   */
   readonly advertiseHostRoutes?: boolean | cdktf.IResolvable;
   /**
   * List of switches attached to the VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#attach_list Vrfs#attach_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#attach_list Vrfs#attach_list}
   */
   readonly attachList?: { [key: string]: VrfsVrfsAttachListStruct } | cdktf.IResolvable;
   /**
   * VRF Lite BGP neighbor password (Hex String)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#bgp_password Vrfs#bgp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#bgp_password Vrfs#bgp_password}
   */
   readonly bgpPassword?: string;
   /**
   * VRF Lite BGP Key Encryption Type: 3 - 3DES, 7 - Cisco
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#bgp_password_type Vrfs#bgp_password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#bgp_password_type Vrfs#bgp_password_type}
   */
   readonly bgpPasswordType?: string;
   /**
   * Flag to Control Static Default Route Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#configure_static_default_route Vrfs#configure_static_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#configure_static_default_route Vrfs#configure_static_default_route}
   */
   readonly configureStaticDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * If set to `true`, does a deployment of all attachments in this `vrf`. This parameter cannot be set to `true` if  `deploy_all_attachments` in the resource is set or `deploy_this_attachment` in the  `attach-list` is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#deploy_attachments Vrfs#deploy_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#deploy_attachments Vrfs#deploy_attachments}
   */
   readonly deployAttachments?: boolean | cdktf.IResolvable;
   /**
   * Applicable to IPv4, IPv6 VPN/EVPN/MVPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#disable_rt_auto Vrfs#disable_rt_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#disable_rt_auto Vrfs#disable_rt_auto}
   */
   readonly disableRtAuto?: boolean | cdktf.IResolvable;
   /**
   * Interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#interface_description Vrfs#interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#interface_description Vrfs#interface_description}
   */
   readonly interfaceDescription?: string;
   /**
   * Enables IPv6 link-local Option under VRF SVI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#ipv6_link_local Vrfs#ipv6_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#ipv6_link_local Vrfs#ipv6_link_local}
   */
   readonly ipv6LinkLocal?: boolean | cdktf.IResolvable;
   /**
   * Loopback routing tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#loopback_routing_tag Vrfs#loopback_routing_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#loopback_routing_tag Vrfs#loopback_routing_tag}
   */
   readonly loopbackRoutingTag?: number;
   /**
   * Maximum BGP paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#max_bgp_paths Vrfs#max_bgp_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#max_bgp_paths Vrfs#max_bgp_paths}
   */
   readonly maxBgpPaths?: number;
   /**
   * Maximum iBGP paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#max_ibgp_paths Vrfs#max_ibgp_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#max_ibgp_paths Vrfs#max_ibgp_paths}
   */
   readonly maxIbgpPaths?: number;
   /**
   * Interface MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#mtu Vrfs#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#mtu Vrfs#mtu}
   */
   readonly mtu?: number;
   /**
   * Use the inter-as keyword for the MVPN address family routes to cross the BGP autonomous system (AS) boundaries, applicable when TRM is enabled. IOS XE Specific
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#mvpn_inter_as Vrfs#mvpn_inter_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#mvpn_inter_as Vrfs#mvpn_inter_as}
   */
   readonly mvpnInterAs?: boolean | cdktf.IResolvable;
   /**
   * For netflow on VRF-LITE Sub-interface. Supported only if netflow is enabled on fabric. For NX-OS only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#netflow Vrfs#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#netflow Vrfs#netflow}
   */
   readonly netflow?: boolean | cdktf.IResolvable;
   /**
   * Netflow monitor. For NX-OS only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#netflow_monitor Vrfs#netflow_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#netflow_monitor Vrfs#netflow_monitor}
   */
   readonly netflowMonitor?: string;
   /**
   * There is no RP as only SSM is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#no_rp Vrfs#no_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#no_rp Vrfs#no_rp}
   */
   readonly noRp?: boolean | cdktf.IResolvable;
   /**
   * Overlay multicast groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#overlay_multicast_groups Vrfs#overlay_multicast_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#overlay_multicast_groups Vrfs#overlay_multicast_groups}
   */
   readonly overlayMulticastGroups?: string;
   /**
   * Redistribute direct route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#redistribute_direct_route_map Vrfs#redistribute_direct_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#redistribute_direct_route_map Vrfs#redistribute_direct_route_map}
   */
   readonly redistributeDirectRouteMap?: string;
   /**
   * For VPN Routes Export, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_export Vrfs#route_target_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_export Vrfs#route_target_export}
   */
   readonly routeTargetExport?: string;
   /**
   * For Cloud EVPN Routes Export, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_export_cloud_evpn Vrfs#route_target_export_cloud_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_export_cloud_evpn Vrfs#route_target_export_cloud_evpn}
   */
   readonly routeTargetExportCloudEvpn?: string;
   /**
   * For EVPN Routes Export, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_export_evpn Vrfs#route_target_export_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_export_evpn Vrfs#route_target_export_evpn}
   */
   readonly routeTargetExportEvpn?: string;
   /**
   * For MVPN Routes Export, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_export_mvpn Vrfs#route_target_export_mvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_export_mvpn Vrfs#route_target_export_mvpn}
   */
   readonly routeTargetExportMvpn?: string;
   /**
   * For VPN Routes Import, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_import Vrfs#route_target_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_import Vrfs#route_target_import}
   */
   readonly routeTargetImport?: string;
   /**
   * For Cloud EVPN Routes Import, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_import_cloud_evpn Vrfs#route_target_import_cloud_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_import_cloud_evpn Vrfs#route_target_import_cloud_evpn}
   */
   readonly routeTargetImportCloudEvpn?: string;
   /**
   * For EVPN Routes Import, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_import_evpn Vrfs#route_target_import_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_import_evpn Vrfs#route_target_import_evpn}
   */
   readonly routeTargetImportEvpn?: string;
   /**
   * For MVPN Routes Import, One or a Comma Separated List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#route_target_import_mvpn Vrfs#route_target_import_mvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#route_target_import_mvpn Vrfs#route_target_import_mvpn}
   */
   readonly routeTargetImportMvpn?: string;
   /**
   * IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#rp_address Vrfs#rp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#rp_address Vrfs#rp_address}
   */
   readonly rpAddress?: string;
   /**
   * Is RP external to the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#rp_external Vrfs#rp_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#rp_external Vrfs#rp_external}
   */
   readonly rpExternal?: boolean | cdktf.IResolvable;
   /**
   * RP loopback ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#rp_loopback_id Vrfs#rp_loopback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#rp_loopback_id Vrfs#rp_loopback_id}
   */
   readonly rpLoopbackId?: number;
   /**
   * Enable Tenant Routed Multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#trm Vrfs#trm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#trm Vrfs#trm}
   */
   readonly trm?: boolean | cdktf.IResolvable;
   /**
   * Enable TRM on Border Gateway Multisite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#trm_bgw_msite Vrfs#trm_bgw_msite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#trm_bgw_msite Vrfs#trm_bgw_msite}
   */
   readonly trmBgwMsite?: boolean | cdktf.IResolvable;
   /**
   * IPv4 Multicast Address. Applicable only when TRM is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#underlay_multicast_address Vrfs#underlay_multicast_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#underlay_multicast_address Vrfs#underlay_multicast_address}
   */
   readonly underlayMulticastAddress?: string;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vlan_id Vrfs#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vlan_id Vrfs#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * VLAN name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vlan_name Vrfs#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vlan_name Vrfs#vlan_name}
   */
   readonly vlanName?: string;
   /**
   * VRF description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vrf_description Vrfs#vrf_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vrf_description Vrfs#vrf_description}
   */
   readonly vrfDescription?: string;
   /**
   * The name of the VRF extension template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vrf_extension_template Vrfs#vrf_extension_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vrf_extension_template Vrfs#vrf_extension_template}
   */
   readonly vrfExtensionTemplate?: string;
   /**
   * VNI ID of VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vrf_id Vrfs#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vrf_id Vrfs#vrf_id}
   */
   readonly vrfId?: number;
   /**
   * The name of the VRF template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#vrf_template Vrfs#vrf_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#vrf_template Vrfs#vrf_template}
   */
   readonly vrfTemplate?: string;
 }
@@ -1820,7 +1855,7 @@ export class VrfsVrfsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs ndfc_vrfs}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs ndfc_vrfs}
 */
 export class Vrfs extends cdktf.TerraformResource {
 
@@ -1836,7 +1871,7 @@ export class Vrfs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vrfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vrfs to import
-  * @param importFromId The id of the existing Vrfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vrfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vrfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1848,7 +1883,7 @@ export class Vrfs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/vrfs ndfc_vrfs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/vrfs ndfc_vrfs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1859,8 +1894,8 @@ export class Vrfs extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_vrfs',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

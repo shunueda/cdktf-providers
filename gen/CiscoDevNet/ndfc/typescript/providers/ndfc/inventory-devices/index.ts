@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface InventoryDevicesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication protocol to use for the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#auth_protocol InventoryDevices#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#auth_protocol InventoryDevices#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
   * Default set to true. NDFC recommends deploying the device configuration during "add devices" to avoid "out-of-sync" issues when deploying in other resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#deploy InventoryDevices#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#deploy InventoryDevices#deploy}
   */
   readonly deploy?: boolean | cdktf.IResolvable;
   /**
   * The devices to manage in the inventory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#devices InventoryDevices#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#devices InventoryDevices#devices}
   */
   readonly devices: { [key: string]: InventoryDevicesDevices } | cdktf.IResolvable;
   /**
   * The name of the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#fabric_name InventoryDevices#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#fabric_name InventoryDevices#fabric_name}
   */
   readonly fabricName: string;
   /**
   * The maximum number of hops to use during the discovery of devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#max_hops InventoryDevices#max_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#max_hops InventoryDevices#max_hops}
   */
   readonly maxHops?: number;
   /**
   * The password to use for the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#password InventoryDevices#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#password InventoryDevices#password}
   */
   readonly password: string;
   /**
   * Preserve the configuration of the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#preserve_config InventoryDevices#preserve_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#preserve_config InventoryDevices#preserve_config}
   */
   readonly preserveConfig?: boolean | cdktf.IResolvable;
   /**
   * The number of retries to use validate fabric status before execution of requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#retries InventoryDevices#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#retries InventoryDevices#retries}
   */
   readonly retries?: number;
   /**
   * The time to wait between retries to validate fabric status before execution of requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#retry_wait_timeout InventoryDevices#retry_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#retry_wait_timeout InventoryDevices#retry_wait_timeout}
   */
   readonly retryWaitTimeout?: number;
   /**
   * Default set to true. NDFC recommends saving the device configuration during "add devices" to avoid "out-of-sync" issues when deploying in other resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#save InventoryDevices#save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#save InventoryDevices#save}
   */
   readonly save?: boolean | cdktf.IResolvable;
   /**
   * The seed IP address to use for the discovery devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#seed_ip InventoryDevices#seed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#seed_ip InventoryDevices#seed_ip}
   */
   readonly seedIp?: string;
   /**
   * Set and use discovery credentials for LAN devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#set_as_individual_device_write_credential InventoryDevices#set_as_individual_device_write_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#set_as_individual_device_write_credential InventoryDevices#set_as_individual_device_write_credential}
   */
   readonly setAsIndividualDeviceWriteCredential?: boolean | cdktf.IResolvable;
   /**
   * The username to use for the devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#username InventoryDevices#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#username InventoryDevices#username}
   */
   readonly username: string;
 }
@@ -90,85 +90,85 @@ export interface InventoryDevicesDevices {
   /**
   * The breakout command provided to teh device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#breakout InventoryDevices#breakout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#breakout InventoryDevices#breakout}
   */
   readonly breakout?: string;
   /**
   * The discovery authentication protocol to use for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#discovery_auth_protocol InventoryDevices#discovery_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#discovery_auth_protocol InventoryDevices#discovery_auth_protocol}
   */
   readonly discoveryAuthProtocol?: string;
   /**
   * The discovery password to use for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#discovery_password InventoryDevices#discovery_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#discovery_password InventoryDevices#discovery_password}
   */
   readonly discoveryPassword?: string;
   /**
   * The discovery type of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#discovery_type InventoryDevices#discovery_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#discovery_type InventoryDevices#discovery_type}
   */
   readonly discoveryType?: string;
   /**
   * The discovery username to use for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#discovery_username InventoryDevices#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#discovery_username InventoryDevices#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * The gateway to use for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#gateway InventoryDevices#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#gateway InventoryDevices#gateway}
   */
   readonly gateway?: string;
   /**
   * The hostname of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#hostname InventoryDevices#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#hostname InventoryDevices#hostname}
   */
   readonly hostname?: string;
   /**
   * The image policy to use for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#image_policy InventoryDevices#image_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#image_policy InventoryDevices#image_policy}
   */
   readonly imagePolicy?: string;
   /**
   * The model of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#model InventoryDevices#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#model InventoryDevices#model}
   */
   readonly model?: string;
   /**
   * The switch modules model information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#modules_model InventoryDevices#modules_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#modules_model InventoryDevices#modules_model}
   */
   readonly modulesModel?: string[];
   /**
   * The port mode of the breakout interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#port_mode InventoryDevices#port_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#port_mode InventoryDevices#port_mode}
   */
   readonly portMode?: string;
   /**
   * The role of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#role InventoryDevices#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#role InventoryDevices#role}
   */
   readonly role?: string;
   /**
   * The serial number of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#serial_number InventoryDevices#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#serial_number InventoryDevices#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * The software version of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#version InventoryDevices#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#version InventoryDevices#version}
   */
   readonly version?: string;
 }
@@ -709,7 +709,7 @@ export class InventoryDevicesDevicesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices ndfc_inventory_devices}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices ndfc_inventory_devices}
 */
 export class InventoryDevices extends cdktf.TerraformResource {
 
@@ -725,7 +725,7 @@ export class InventoryDevices extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InventoryDevices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InventoryDevices to import
-  * @param importFromId The id of the existing InventoryDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InventoryDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InventoryDevices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -737,7 +737,7 @@ export class InventoryDevices extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/inventory_devices ndfc_inventory_devices} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/inventory_devices ndfc_inventory_devices} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -748,8 +748,8 @@ export class InventoryDevices extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_inventory_devices',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

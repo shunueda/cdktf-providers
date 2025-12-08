@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SApisixApacheOrgApisixRouteV2ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#metadata DataK8SApisixApacheOrgApisixRouteV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#metadata DataK8SApisixApacheOrgApisixRouteV2Manifest#metadata}
   */
   readonly metadata: DataK8SApisixApacheOrgApisixRouteV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#spec DataK8SApisixApacheOrgApisixRouteV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#spec DataK8SApisixApacheOrgApisixRouteV2Manifest#spec}
   */
   readonly spec?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SApisixApacheOrgApisixRouteV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#annotations DataK8SApisixApacheOrgApisixRouteV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#annotations DataK8SApisixApacheOrgApisixRouteV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#labels DataK8SApisixApacheOrgApisixRouteV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#labels DataK8SApisixApacheOrgApisixRouteV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#namespace DataK8SApisixApacheOrgApisixRouteV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#namespace DataK8SApisixApacheOrgApisixRouteV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestMetadataOutputReference 
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationJwtAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#cookie DataK8SApisixApacheOrgApisixRouteV2Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#cookie DataK8SApisixApacheOrgApisixRouteV2Manifest#cookie}
   */
   readonly cookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#header DataK8SApisixApacheOrgApisixRouteV2Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#header DataK8SApisixApacheOrgApisixRouteV2Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#query DataK8SApisixApacheOrgApisixRouteV2Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#query DataK8SApisixApacheOrgApisixRouteV2Manifest#query}
   */
   readonly query?: string;
 }
@@ -375,7 +375,7 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationJw
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationKeyAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#header DataK8SApisixApacheOrgApisixRouteV2Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#header DataK8SApisixApacheOrgApisixRouteV2Manifest#header}
   */
   readonly header?: string;
 }
@@ -469,19 +469,19 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationKe
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationLdapAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#base_dn DataK8SApisixApacheOrgApisixRouteV2Manifest#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#base_dn DataK8SApisixApacheOrgApisixRouteV2Manifest#base_dn}
   */
   readonly baseDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ldap_uri DataK8SApisixApacheOrgApisixRouteV2Manifest#ldap_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ldap_uri DataK8SApisixApacheOrgApisixRouteV2Manifest#ldap_uri}
   */
   readonly ldapUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#uid DataK8SApisixApacheOrgApisixRouteV2Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#uid DataK8SApisixApacheOrgApisixRouteV2Manifest#uid}
   */
   readonly uid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#use_tls DataK8SApisixApacheOrgApisixRouteV2Manifest#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#use_tls DataK8SApisixApacheOrgApisixRouteV2Manifest#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
 }
@@ -662,23 +662,23 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationLd
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#enable DataK8SApisixApacheOrgApisixRouteV2Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#enable DataK8SApisixApacheOrgApisixRouteV2Manifest#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#jwt_auth DataK8SApisixApacheOrgApisixRouteV2Manifest#jwt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#jwt_auth DataK8SApisixApacheOrgApisixRouteV2Manifest#jwt_auth}
   */
   readonly jwtAuth?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationJwtAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#key_auth DataK8SApisixApacheOrgApisixRouteV2Manifest#key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#key_auth DataK8SApisixApacheOrgApisixRouteV2Manifest#key_auth}
   */
   readonly keyAuth?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationKeyAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ldap_auth DataK8SApisixApacheOrgApisixRouteV2Manifest#ldap_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ldap_auth DataK8SApisixApacheOrgApisixRouteV2Manifest#ldap_auth}
   */
   readonly ldapAuth?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationLdapAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#type DataK8SApisixApacheOrgApisixRouteV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#type DataK8SApisixApacheOrgApisixRouteV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -885,23 +885,23 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthenticationOu
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpBackends {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#resolve_granularity DataK8SApisixApacheOrgApisixRouteV2Manifest#resolve_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#resolve_granularity DataK8SApisixApacheOrgApisixRouteV2Manifest#resolve_granularity}
   */
   readonly resolveGranularity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_name DataK8SApisixApacheOrgApisixRouteV2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_name DataK8SApisixApacheOrgApisixRouteV2Manifest#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_port DataK8SApisixApacheOrgApisixRouteV2Manifest#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_port DataK8SApisixApacheOrgApisixRouteV2Manifest#service_port}
   */
   readonly servicePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#subset DataK8SApisixApacheOrgApisixRouteV2Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#subset DataK8SApisixApacheOrgApisixRouteV2Manifest#subset}
   */
   readonly subset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#weight DataK8SApisixApacheOrgApisixRouteV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#weight DataK8SApisixApacheOrgApisixRouteV2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -1133,11 +1133,11 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpBackendsList ext
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatchExprsSubject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#scope DataK8SApisixApacheOrgApisixRouteV2Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#scope DataK8SApisixApacheOrgApisixRouteV2Manifest#scope}
   */
   readonly scope: string;
 }
@@ -1257,19 +1257,19 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatchExprsSubjec
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatchExprs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#op DataK8SApisixApacheOrgApisixRouteV2Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#op DataK8SApisixApacheOrgApisixRouteV2Manifest#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#set DataK8SApisixApacheOrgApisixRouteV2Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#set DataK8SApisixApacheOrgApisixRouteV2Manifest#set}
   */
   readonly set?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#subject DataK8SApisixApacheOrgApisixRouteV2Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#subject DataK8SApisixApacheOrgApisixRouteV2Manifest#subject}
   */
   readonly subject?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatchExprsSubject;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#value DataK8SApisixApacheOrgApisixRouteV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#value DataK8SApisixApacheOrgApisixRouteV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -1472,27 +1472,27 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatchExprsList e
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#exprs DataK8SApisixApacheOrgApisixRouteV2Manifest#exprs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#exprs DataK8SApisixApacheOrgApisixRouteV2Manifest#exprs}
   */
   readonly exprs?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatchExprs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#filter_func DataK8SApisixApacheOrgApisixRouteV2Manifest#filter_func}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#filter_func DataK8SApisixApacheOrgApisixRouteV2Manifest#filter_func}
   */
   readonly filterFunc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#hosts DataK8SApisixApacheOrgApisixRouteV2Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#hosts DataK8SApisixApacheOrgApisixRouteV2Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#methods DataK8SApisixApacheOrgApisixRouteV2Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#methods DataK8SApisixApacheOrgApisixRouteV2Manifest#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#paths DataK8SApisixApacheOrgApisixRouteV2Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#paths DataK8SApisixApacheOrgApisixRouteV2Manifest#paths}
   */
   readonly paths: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#remote_addrs DataK8SApisixApacheOrgApisixRouteV2Manifest#remote_addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#remote_addrs DataK8SApisixApacheOrgApisixRouteV2Manifest#remote_addrs}
   */
   readonly remoteAddrs?: string[];
 }
@@ -1728,19 +1728,19 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatchOutputRefer
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpPlugins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#config DataK8SApisixApacheOrgApisixRouteV2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#config DataK8SApisixApacheOrgApisixRouteV2Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#enable DataK8SApisixApacheOrgApisixRouteV2Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#enable DataK8SApisixApacheOrgApisixRouteV2Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixRouteV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixRouteV2Manifest#secret_ref}
   */
   readonly secretRef?: string;
 }
@@ -1943,15 +1943,15 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpPluginsList exte
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#connect DataK8SApisixApacheOrgApisixRouteV2Manifest#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#connect DataK8SApisixApacheOrgApisixRouteV2Manifest#connect}
   */
   readonly connect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#read DataK8SApisixApacheOrgApisixRouteV2Manifest#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#read DataK8SApisixApacheOrgApisixRouteV2Manifest#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#send DataK8SApisixApacheOrgApisixRouteV2Manifest#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#send DataK8SApisixApacheOrgApisixRouteV2Manifest#send}
   */
   readonly send?: string;
 }
@@ -2103,11 +2103,11 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpTimeoutOutputRef
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpUpstreams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#weight DataK8SApisixApacheOrgApisixRouteV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#weight DataK8SApisixApacheOrgApisixRouteV2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -2252,49 +2252,49 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpUpstreamsList ex
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#authentication DataK8SApisixApacheOrgApisixRouteV2Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#authentication DataK8SApisixApacheOrgApisixRouteV2Manifest#authentication}
   */
   readonly authentication?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#backends DataK8SApisixApacheOrgApisixRouteV2Manifest#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#backends DataK8SApisixApacheOrgApisixRouteV2Manifest#backends}
   */
   readonly backends?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpBackends[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#match DataK8SApisixApacheOrgApisixRouteV2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#match DataK8SApisixApacheOrgApisixRouteV2Manifest#match}
   */
   readonly match?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugin_config_name DataK8SApisixApacheOrgApisixRouteV2Manifest#plugin_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugin_config_name DataK8SApisixApacheOrgApisixRouteV2Manifest#plugin_config_name}
   */
   readonly pluginConfigName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugin_config_namespace DataK8SApisixApacheOrgApisixRouteV2Manifest#plugin_config_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugin_config_namespace DataK8SApisixApacheOrgApisixRouteV2Manifest#plugin_config_namespace}
   */
   readonly pluginConfigNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugins DataK8SApisixApacheOrgApisixRouteV2Manifest#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugins DataK8SApisixApacheOrgApisixRouteV2Manifest#plugins}
   */
   readonly plugins?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpPlugins[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#priority DataK8SApisixApacheOrgApisixRouteV2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#priority DataK8SApisixApacheOrgApisixRouteV2Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#timeout DataK8SApisixApacheOrgApisixRouteV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#timeout DataK8SApisixApacheOrgApisixRouteV2Manifest#timeout}
   */
   readonly timeout?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpTimeout;
   /**
   * Upstreams refer to ApisixUpstream CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#upstreams DataK8SApisixApacheOrgApisixRouteV2Manifest#upstreams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#upstreams DataK8SApisixApacheOrgApisixRouteV2Manifest#upstreams}
   */
   readonly upstreams?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpUpstreams[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#websocket DataK8SApisixApacheOrgApisixRouteV2Manifest#websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#websocket DataK8SApisixApacheOrgApisixRouteV2Manifest#websocket}
   */
   readonly websocket?: boolean | cdktf.IResolvable;
 }
@@ -2700,19 +2700,19 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttpList extends cdk
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#resolve_granularity DataK8SApisixApacheOrgApisixRouteV2Manifest#resolve_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#resolve_granularity DataK8SApisixApacheOrgApisixRouteV2Manifest#resolve_granularity}
   */
   readonly resolveGranularity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_name DataK8SApisixApacheOrgApisixRouteV2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_name DataK8SApisixApacheOrgApisixRouteV2Manifest#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_port DataK8SApisixApacheOrgApisixRouteV2Manifest#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#service_port DataK8SApisixApacheOrgApisixRouteV2Manifest#service_port}
   */
   readonly servicePort: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#subset DataK8SApisixApacheOrgApisixRouteV2Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#subset DataK8SApisixApacheOrgApisixRouteV2Manifest#subset}
   */
   readonly subset?: string;
 }
@@ -2887,11 +2887,11 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamBackendOutputR
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#host DataK8SApisixApacheOrgApisixRouteV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#host DataK8SApisixApacheOrgApisixRouteV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ingress_port DataK8SApisixApacheOrgApisixRouteV2Manifest#ingress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ingress_port DataK8SApisixApacheOrgApisixRouteV2Manifest#ingress_port}
   */
   readonly ingressPort: number;
 }
@@ -3011,19 +3011,19 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamMatchOutputRef
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamPlugins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#config DataK8SApisixApacheOrgApisixRouteV2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#config DataK8SApisixApacheOrgApisixRouteV2Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#enable DataK8SApisixApacheOrgApisixRouteV2Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#enable DataK8SApisixApacheOrgApisixRouteV2Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixRouteV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixRouteV2Manifest#secret_ref}
   */
   readonly secretRef?: string;
 }
@@ -3226,23 +3226,23 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamPluginsList ex
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStream {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#backend DataK8SApisixApacheOrgApisixRouteV2Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#backend DataK8SApisixApacheOrgApisixRouteV2Manifest#backend}
   */
   readonly backend: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamBackend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#match DataK8SApisixApacheOrgApisixRouteV2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#match DataK8SApisixApacheOrgApisixRouteV2Manifest#match}
   */
   readonly match: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#name DataK8SApisixApacheOrgApisixRouteV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugins DataK8SApisixApacheOrgApisixRouteV2Manifest#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#plugins DataK8SApisixApacheOrgApisixRouteV2Manifest#plugins}
   */
   readonly plugins?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamPlugins[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#protocol DataK8SApisixApacheOrgApisixRouteV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#protocol DataK8SApisixApacheOrgApisixRouteV2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -3462,15 +3462,15 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStreamList extends c
 }
 export interface DataK8SApisixApacheOrgApisixRouteV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#http DataK8SApisixApacheOrgApisixRouteV2Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#http DataK8SApisixApacheOrgApisixRouteV2Manifest#http}
   */
   readonly http?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecHttp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixRouteV2Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixRouteV2Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#stream DataK8SApisixApacheOrgApisixRouteV2Manifest#stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#stream DataK8SApisixApacheOrgApisixRouteV2Manifest#stream}
   */
   readonly stream?: DataK8SApisixApacheOrgApisixRouteV2ManifestSpecStream[] | cdktf.IResolvable;
 }
@@ -3622,7 +3622,7 @@ export class DataK8SApisixApacheOrgApisixRouteV2ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest k8s_apisix_apache_org_apisix_route_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest k8s_apisix_apache_org_apisix_route_v2_manifest}
 */
 export class DataK8SApisixApacheOrgApisixRouteV2Manifest extends cdktf.TerraformDataSource {
 
@@ -3638,7 +3638,7 @@ export class DataK8SApisixApacheOrgApisixRouteV2Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SApisixApacheOrgApisixRouteV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApisixApacheOrgApisixRouteV2Manifest to import
-  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixRouteV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixRouteV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApisixApacheOrgApisixRouteV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3650,7 +3650,7 @@ export class DataK8SApisixApacheOrgApisixRouteV2Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest k8s_apisix_apache_org_apisix_route_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_route_v2_manifest k8s_apisix_apache_org_apisix_route_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3661,8 +3661,8 @@ export class DataK8SApisixApacheOrgApisixRouteV2Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_apisix_apache_org_apisix_route_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

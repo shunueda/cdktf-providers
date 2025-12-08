@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudGaAdditionalCertificatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates#accelerator_id DataAlicloudGaAdditionalCertificates#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates#accelerator_id DataAlicloudGaAdditionalCertificates#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates#id DataAlicloudGaAdditionalCertificates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates#id DataAlicloudGaAdditionalCertificates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates#ids DataAlicloudGaAdditionalCertificates#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates#ids DataAlicloudGaAdditionalCertificates#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates#listener_id DataAlicloudGaAdditionalCertificates#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates#listener_id DataAlicloudGaAdditionalCertificates#listener_id}
   */
   readonly listenerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates#output_file DataAlicloudGaAdditionalCertificates#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates#output_file DataAlicloudGaAdditionalCertificates#output_file}
   */
   readonly outputFile?: string;
 }
@@ -128,7 +128,7 @@ export class DataAlicloudGaAdditionalCertificatesCertificatesList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates alicloud_ga_additional_certificates}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates alicloud_ga_additional_certificates}
 */
 export class DataAlicloudGaAdditionalCertificates extends cdktf.TerraformDataSource {
 
@@ -144,7 +144,7 @@ export class DataAlicloudGaAdditionalCertificates extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAlicloudGaAdditionalCertificates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudGaAdditionalCertificates to import
-  * @param importFromId The id of the existing DataAlicloudGaAdditionalCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudGaAdditionalCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudGaAdditionalCertificates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -156,7 +156,7 @@ export class DataAlicloudGaAdditionalCertificates extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_additional_certificates alicloud_ga_additional_certificates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_additional_certificates alicloud_ga_additional_certificates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,8 +167,8 @@ export class DataAlicloudGaAdditionalCertificates extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_ga_additional_certificates',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

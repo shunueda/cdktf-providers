@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/operating_system_order_options
+// https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/operating_system_order_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataServerscomOperatingSystemOrderOptionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/operating_system_order_options#id DataServerscomOperatingSystemOrderOptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/operating_system_order_options#id DataServerscomOperatingSystemOrderOptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/operating_system_order_options#location_id DataServerscomOperatingSystemOrderOptions#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/operating_system_order_options#location_id DataServerscomOperatingSystemOrderOptions#location_id}
   */
   readonly locationId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/operating_system_order_options#server_model_id DataServerscomOperatingSystemOrderOptions#server_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/operating_system_order_options#server_model_id DataServerscomOperatingSystemOrderOptions#server_model_id}
   */
   readonly serverModelId: number;
 }
@@ -125,7 +125,7 @@ export class DataServerscomOperatingSystemOrderOptionsOperatingSystemsList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/operating_system_order_options serverscom_operating_system_order_options}
+* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/operating_system_order_options serverscom_operating_system_order_options}
 */
 export class DataServerscomOperatingSystemOrderOptions extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataServerscomOperatingSystemOrderOptions extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataServerscomOperatingSystemOrderOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataServerscomOperatingSystemOrderOptions to import
-  * @param importFromId The id of the existing DataServerscomOperatingSystemOrderOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/operating_system_order_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataServerscomOperatingSystemOrderOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/operating_system_order_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataServerscomOperatingSystemOrderOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataServerscomOperatingSystemOrderOptions extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/data-sources/operating_system_order_options serverscom_operating_system_order_options} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/data-sources/operating_system_order_options serverscom_operating_system_order_options} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataServerscomOperatingSystemOrderOptions extends cdktf.TerraformDa
       terraformResourceType: 'serverscom_operating_system_order_options',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

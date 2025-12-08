@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Credential attributes accordingly to the cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#attributes Credential#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#attributes Credential#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Credential authorization type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#auth_type Credential#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#auth_type Credential#auth_type}
   */
   readonly authType: string;
   /**
   * Add credentials to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#client_credential Credential#client_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#client_credential Credential#client_credential}
   */
   readonly clientCredential?: boolean | cdktf.IResolvable;
   /**
   * Add credentials to the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#controller_credential Credential#controller_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#controller_credential Credential#controller_credential}
   */
   readonly controllerCredential?: boolean | cdktf.IResolvable;
   /**
   * The name to be assigned to the credential. Changing this value will cause the credential to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#name Credential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#name Credential#name}
   */
   readonly name: string;
   /**
   * cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#cloud Credential#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#cloud Credential#cloud}
   */
   readonly cloud?: CredentialCloud[] | cdktf.IResolvable;
 }
@@ -48,7 +48,7 @@ export interface CredentialCloud {
   /**
   * The name of the cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#name Credential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#name Credential#name}
   */
   readonly name: string;
 }
@@ -161,7 +161,7 @@ export class CredentialCloudList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential juju_credential}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential juju_credential}
 */
 export class Credential extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class Credential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Credential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Credential to import
-  * @param importFromId The id of the existing Credential that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Credential that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Credential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class Credential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/credential juju_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/credential juju_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class Credential extends cdktf.TerraformResource {
       terraformResourceType: 'juju_credential',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

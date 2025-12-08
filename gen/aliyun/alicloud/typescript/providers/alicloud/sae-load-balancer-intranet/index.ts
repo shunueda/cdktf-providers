@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface SaeLoadBalancerIntranetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#app_id SaeLoadBalancerIntranet#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#app_id SaeLoadBalancerIntranet#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#id SaeLoadBalancerIntranet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#id SaeLoadBalancerIntranet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#intranet_slb_id SaeLoadBalancerIntranet#intranet_slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#intranet_slb_id SaeLoadBalancerIntranet#intranet_slb_id}
   */
   readonly intranetSlbId?: string;
   /**
   * intranet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#intranet SaeLoadBalancerIntranet#intranet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#intranet SaeLoadBalancerIntranet#intranet}
   */
   readonly intranet: SaeLoadBalancerIntranetIntranet[] | cdktf.IResolvable;
 }
 export interface SaeLoadBalancerIntranetIntranet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#https_cert_id SaeLoadBalancerIntranet#https_cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#https_cert_id SaeLoadBalancerIntranet#https_cert_id}
   */
   readonly httpsCertId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#port SaeLoadBalancerIntranet#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#port SaeLoadBalancerIntranet#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#protocol SaeLoadBalancerIntranet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#protocol SaeLoadBalancerIntranet#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#target_port SaeLoadBalancerIntranet#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#target_port SaeLoadBalancerIntranet#target_port}
   */
   readonly targetPort?: number;
 }
@@ -246,7 +246,7 @@ export class SaeLoadBalancerIntranetIntranetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet alicloud_sae_load_balancer_intranet}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet alicloud_sae_load_balancer_intranet}
 */
 export class SaeLoadBalancerIntranet extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class SaeLoadBalancerIntranet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SaeLoadBalancerIntranet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SaeLoadBalancerIntranet to import
-  * @param importFromId The id of the existing SaeLoadBalancerIntranet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SaeLoadBalancerIntranet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SaeLoadBalancerIntranet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class SaeLoadBalancerIntranet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_intranet alicloud_sae_load_balancer_intranet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_load_balancer_intranet alicloud_sae_load_balancer_intranet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class SaeLoadBalancerIntranet extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sae_load_balancer_intranet',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

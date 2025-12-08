@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_directory
+// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project_directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVercelProjectDirectoryConfig extends cdktf.TerraformMetaArg
   /**
   * The path to the directory on your filesystem. Note that the path is relative to the root of the terraform files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_directory#path DataVercelProjectDirectory#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project_directory#path DataVercelProjectDirectory#path}
   */
   readonly path: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_directory vercel_project_directory}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project_directory vercel_project_directory}
 */
 export class DataVercelProjectDirectory extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataVercelProjectDirectory extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelProjectDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelProjectDirectory to import
-  * @param importFromId The id of the existing DataVercelProjectDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelProjectDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project_directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelProjectDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataVercelProjectDirectory extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_directory vercel_project_directory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project_directory vercel_project_directory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataVercelProjectDirectory extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_project_directory',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.1',
-        providerVersionConstraint: '4.0.1'
+        providerVersion: '4.0.2',
+        providerVersionConstraint: '4.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

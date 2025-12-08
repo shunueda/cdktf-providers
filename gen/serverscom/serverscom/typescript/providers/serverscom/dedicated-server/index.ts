@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server
+// https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface DedicatedServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#bandwidth DedicatedServer#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#bandwidth DedicatedServer#bandwidth}
   */
   readonly bandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#hostname DedicatedServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#hostname DedicatedServer#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#id DedicatedServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#id DedicatedServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#ipv6 DedicatedServer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#ipv6 DedicatedServer#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#labels DedicatedServer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#labels DedicatedServer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#location DedicatedServer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#location DedicatedServer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#operating_system DedicatedServer#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#operating_system DedicatedServer#operating_system}
   */
   readonly operatingSystem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#private_ipv4_address DedicatedServer#private_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#private_ipv4_address DedicatedServer#private_ipv4_address}
   */
   readonly privateIpv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#private_ipv4_network_id DedicatedServer#private_ipv4_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#private_ipv4_network_id DedicatedServer#private_ipv4_network_id}
   */
   readonly privateIpv4NetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#private_uplink DedicatedServer#private_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#private_uplink DedicatedServer#private_uplink}
   */
   readonly privateUplink: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#public_ipv4_address DedicatedServer#public_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#public_ipv4_address DedicatedServer#public_ipv4_address}
   */
   readonly publicIpv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#public_ipv4_network_id DedicatedServer#public_ipv4_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#public_ipv4_network_id DedicatedServer#public_ipv4_network_id}
   */
   readonly publicIpv4NetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#public_uplink DedicatedServer#public_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#public_uplink DedicatedServer#public_uplink}
   */
   readonly publicUplink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#ram_size DedicatedServer#ram_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#ram_size DedicatedServer#ram_size}
   */
   readonly ramSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#server_model DedicatedServer#server_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#server_model DedicatedServer#server_model}
   */
   readonly serverModel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#ssh_key_fingerprints DedicatedServer#ssh_key_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#ssh_key_fingerprints DedicatedServer#ssh_key_fingerprints}
   */
   readonly sshKeyFingerprints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#user_data DedicatedServer#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#user_data DedicatedServer#user_data}
   */
   readonly userData?: string;
   /**
   * layout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#layout DedicatedServer#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#layout DedicatedServer#layout}
   */
   readonly layout?: DedicatedServerLayout[] | cdktf.IResolvable;
   /**
   * slot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#slot DedicatedServer#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#slot DedicatedServer#slot}
   */
   readonly slot?: DedicatedServerSlot[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#timeouts DedicatedServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#timeouts DedicatedServer#timeouts}
   */
   readonly timeouts?: DedicatedServerTimeouts;
 }
 export interface DedicatedServerLayoutPartition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#fill DedicatedServer#fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#fill DedicatedServer#fill}
   */
   readonly fill?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#fs DedicatedServer#fs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#fs DedicatedServer#fs}
   */
   readonly fs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#size DedicatedServer#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#size DedicatedServer#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#target DedicatedServer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#target DedicatedServer#target}
   */
   readonly target: string;
 }
@@ -308,17 +308,17 @@ export class DedicatedServerLayoutPartitionList extends cdktf.ComplexList {
 }
 export interface DedicatedServerLayout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#raid DedicatedServer#raid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#raid DedicatedServer#raid}
   */
   readonly raid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#slot_positions DedicatedServer#slot_positions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#slot_positions DedicatedServer#slot_positions}
   */
   readonly slotPositions: number[];
   /**
   * partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#partition DedicatedServer#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#partition DedicatedServer#partition}
   */
   readonly partition?: DedicatedServerLayoutPartition[] | cdktf.IResolvable;
 }
@@ -489,11 +489,11 @@ export class DedicatedServerLayoutList extends cdktf.ComplexList {
 }
 export interface DedicatedServerSlot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#drive_model DedicatedServer#drive_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#drive_model DedicatedServer#drive_model}
   */
   readonly driveModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#position DedicatedServer#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#position DedicatedServer#position}
   */
   readonly position: number;
 }
@@ -635,11 +635,11 @@ export class DedicatedServerSlotList extends cdktf.ComplexList {
 }
 export interface DedicatedServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#create DedicatedServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#create DedicatedServer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#delete DedicatedServer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#delete DedicatedServer#delete}
   */
   readonly delete?: string;
 }
@@ -762,7 +762,7 @@ export class DedicatedServerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server serverscom_dedicated_server}
+* Represents a {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server serverscom_dedicated_server}
 */
 export class DedicatedServer extends cdktf.TerraformResource {
 
@@ -778,7 +778,7 @@ export class DedicatedServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedServer to import
-  * @param importFromId The id of the existing DedicatedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -790,7 +790,7 @@ export class DedicatedServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.2/docs/resources/dedicated_server serverscom_dedicated_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/serverscom/serverscom/0.5.3/docs/resources/dedicated_server serverscom_dedicated_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -801,8 +801,8 @@ export class DedicatedServer extends cdktf.TerraformResource {
       terraformResourceType: 'serverscom_dedicated_server',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

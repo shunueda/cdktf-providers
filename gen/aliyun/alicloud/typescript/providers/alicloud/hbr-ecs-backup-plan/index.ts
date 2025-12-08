@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface HbrEcsBackupPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#backup_type HbrEcsBackupPlan#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#backup_type HbrEcsBackupPlan#backup_type}
   */
   readonly backupType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#cross_account_role_name HbrEcsBackupPlan#cross_account_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#cross_account_role_name HbrEcsBackupPlan#cross_account_role_name}
   */
   readonly crossAccountRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#cross_account_type HbrEcsBackupPlan#cross_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#cross_account_type HbrEcsBackupPlan#cross_account_type}
   */
   readonly crossAccountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#cross_account_user_id HbrEcsBackupPlan#cross_account_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#cross_account_user_id HbrEcsBackupPlan#cross_account_user_id}
   */
   readonly crossAccountUserId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#detail HbrEcsBackupPlan#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#detail HbrEcsBackupPlan#detail}
   */
   readonly detail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#disabled HbrEcsBackupPlan#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#disabled HbrEcsBackupPlan#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#ecs_backup_plan_name HbrEcsBackupPlan#ecs_backup_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#ecs_backup_plan_name HbrEcsBackupPlan#ecs_backup_plan_name}
   */
   readonly ecsBackupPlanName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#exclude HbrEcsBackupPlan#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#exclude HbrEcsBackupPlan#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#id HbrEcsBackupPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#id HbrEcsBackupPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#include HbrEcsBackupPlan#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#include HbrEcsBackupPlan#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#instance_id HbrEcsBackupPlan#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#instance_id HbrEcsBackupPlan#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#options HbrEcsBackupPlan#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#options HbrEcsBackupPlan#options}
   */
   readonly options?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#path HbrEcsBackupPlan#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#path HbrEcsBackupPlan#path}
   */
   readonly path?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#retention HbrEcsBackupPlan#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#retention HbrEcsBackupPlan#retention}
   */
   readonly retention: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#schedule HbrEcsBackupPlan#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#schedule HbrEcsBackupPlan#schedule}
   */
   readonly schedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#speed_limit HbrEcsBackupPlan#speed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#speed_limit HbrEcsBackupPlan#speed_limit}
   */
   readonly speedLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#update_paths HbrEcsBackupPlan#update_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#update_paths HbrEcsBackupPlan#update_paths}
   */
   readonly updatePaths?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#vault_id HbrEcsBackupPlan#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#vault_id HbrEcsBackupPlan#vault_id}
   */
   readonly vaultId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan alicloud_hbr_ecs_backup_plan}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan alicloud_hbr_ecs_backup_plan}
 */
 export class HbrEcsBackupPlan extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class HbrEcsBackupPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbrEcsBackupPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbrEcsBackupPlan to import
-  * @param importFromId The id of the existing HbrEcsBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbrEcsBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbrEcsBackupPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class HbrEcsBackupPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_plan alicloud_hbr_ecs_backup_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_ecs_backup_plan alicloud_hbr_ecs_backup_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class HbrEcsBackupPlan extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_hbr_ecs_backup_plan',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

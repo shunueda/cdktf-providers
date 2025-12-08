@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#id Mysql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#id Mysql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,110 +17,110 @@ export interface MysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#labels Mysql#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#labels Mysql#labels}
   */
   readonly labels?: string[];
   /**
   * Maximum CPU core count. The MySQL instance's CPU core count will be autoscaled based on the workload. The number of cores stays between 1 and `max_core_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#max_core_count Mysql#max_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#max_core_count Mysql#max_core_count}
   */
   readonly maxCoreCount?: number;
   /**
   * Binary Logging Format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_binlog_format Mysql#mysql_binlog_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_binlog_format Mysql#mysql_binlog_format}
   */
   readonly mysqlBinlogFormat?: string;
   /**
   * Server Timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_default_time_zone Mysql#mysql_default_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_default_time_zone Mysql#mysql_default_time_zone}
   */
   readonly mysqlDefaultTimeZone?: string;
   /**
   * Binary Logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_log_bin Mysql#mysql_log_bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_log_bin Mysql#mysql_log_bin}
   */
   readonly mysqlLogBin?: boolean | cdktf.IResolvable;
   /**
   * Max Allowed Packet Size. Format: xM (where x is an integer, M stands for unit: k(kB), M(MB), G(GB)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_max_allowed_packet Mysql#mysql_max_allowed_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_max_allowed_packet Mysql#mysql_max_allowed_packet}
   */
   readonly mysqlMaxAllowedPacket?: string;
   /**
   * Max Connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_max_connections Mysql#mysql_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_max_connections Mysql#mysql_max_connections}
   */
   readonly mysqlMaxConnections?: number;
   /**
   * Enable query cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_query_cache Mysql#mysql_query_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_query_cache Mysql#mysql_query_cache}
   */
   readonly mysqlQueryCache?: boolean | cdktf.IResolvable;
   /**
   * Query Cache Limit. Format: xM (where x is an integer, M stands for unit: k(kB), M(MB), G(GB)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_query_cache_limit Mysql#mysql_query_cache_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_query_cache_limit Mysql#mysql_query_cache_limit}
   */
   readonly mysqlQueryCacheLimit?: string;
   /**
   * Query Cache Size. Format: xM (where x is an integer, M stands for unit: k(kB), M(MB), G(GB)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_query_cache_size Mysql#mysql_query_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_query_cache_size Mysql#mysql_query_cache_size}
   */
   readonly mysqlQueryCacheSize?: string;
   /**
   * Server Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_server_id Mysql#mysql_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_server_id Mysql#mysql_server_id}
   */
   readonly mysqlServerId?: number;
   /**
   * SQL Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#mysql_sql_mode Mysql#mysql_sql_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#mysql_sql_mode Mysql#mysql_sql_mode}
   */
   readonly mysqlSqlMode?: string;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#name Mysql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#name Mysql#name}
   */
   readonly name: string;
   /**
   * The UUID of the network that the service is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#network_uuid Mysql#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#network_uuid Mysql#network_uuid}
   */
   readonly networkUuid?: string;
   /**
   * Performance class of MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#performance_class Mysql#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#performance_class Mysql#performance_class}
   */
   readonly performanceClass: string;
   /**
   * The MySQL release of this instance.\n
   * 				For convenience, please use gscloud https://github.com/gridscale/gscloud to get the list of available MySQL service releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#release Mysql#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#release Mysql#release}
   */
   readonly release: string;
   /**
   * Security zone UUID linked to MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#security_zone_uuid Mysql#security_zone_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#security_zone_uuid Mysql#security_zone_uuid}
   */
   readonly securityZoneUuid?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#timeouts Mysql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#timeouts Mysql#timeouts}
   */
   readonly timeouts?: MysqlTimeouts;
 }
@@ -211,15 +211,15 @@ export class MysqlListenPortList extends cdktf.ComplexList {
 }
 export interface MysqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#create Mysql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#create Mysql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#delete Mysql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#delete Mysql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#update Mysql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#update Mysql#update}
   */
   readonly update?: string;
 }
@@ -371,7 +371,7 @@ export class MysqlTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql gridscale_mysql}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql gridscale_mysql}
 */
 export class Mysql extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class Mysql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mysql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mysql to import
-  * @param importFromId The id of the existing Mysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mysql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class Mysql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/mysql gridscale_mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/mysql gridscale_mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class Mysql extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_mysql',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

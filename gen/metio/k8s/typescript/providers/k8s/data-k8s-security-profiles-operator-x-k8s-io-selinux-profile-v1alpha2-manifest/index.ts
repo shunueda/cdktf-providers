@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Mani
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#metadata DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#metadata DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2ManifestMetadata;
   /**
   * SelinuxProfileSpec defines the desired state of SelinuxProfile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#spec DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#spec DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Mani
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#annotations DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#annotations DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#labels DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#labels DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#name DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#name DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#namespace DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#namespace DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Mani
   /**
   * The Kind of the policy that this inherits from. Can be a SelinuxProfile object Or 'System' if an already installed policy will be used. The allowed 'System' policies are available in the SecurityProfilesOperatorDaemon instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#kind DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#kind DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * The name of the policy that this inherits from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#name DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#name DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -369,25 +369,25 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Mani
   /**
   * Defines the allow policy for the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#allow DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#allow DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#allow}
   */
   readonly allow?: { [key: string]: { [key: string]: string[] } | cdktf.IResolvable } | cdktf.IResolvable;
   /**
   * Whether the profile is disabled and should be skipped during reconciliation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#disabled DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#disabled DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * A SELinuxProfile or set of profiles that this inherits from. Note that they need to be in the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#inherit DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#inherit DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#inherit}
   */
   readonly inherit?: DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2ManifestSpecInherit[] | cdktf.IResolvable;
   /**
   * Permissive, when true will cause the SELinux profile to only log violations instead of enforcing them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#permissive DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#permissive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#permissive DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest#permissive}
   */
   readonly permissive?: boolean | cdktf.IResolvable;
 }
@@ -568,7 +568,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest k8s_security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest k8s_security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest}
 */
 export class DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -584,7 +584,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest
   * Generates CDKTF code for importing a DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -596,7 +596,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest k8s_security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest k8s_security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -607,8 +607,8 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest
       terraformResourceType: 'k8s_security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

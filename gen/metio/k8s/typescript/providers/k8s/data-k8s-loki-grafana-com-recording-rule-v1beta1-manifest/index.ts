@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#metadata DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#metadata DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestMetadata;
   /**
   * RecordingRuleSpec defines the desired state of RecordingRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#spec DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#spec DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#annotations DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#annotations DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#labels DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#labels DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#name DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#name DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#namespace DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#namespace DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestSpecGroupsRule
   /**
   * The LogQL expression to evaluate. Every evaluation cycle this is evaluated at the current time, and all resultant time series become pending/firing alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#expr DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#expr DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#expr}
   */
   readonly expr: string;
   /**
   * The name of the time series to output to. Must be a valid metric name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#record DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#record DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#record}
   */
   readonly record?: string;
 }
@@ -369,25 +369,25 @@ export interface DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestSpecGroups {
   /**
   * Interval defines the time interval between evaluation of the given recoding rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#interval DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#interval DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Limit defines the number of series a recording rule can produce. 0 is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#limit DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#limit DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#limit}
   */
   readonly limit?: number;
   /**
   * Name of the recording rule group. Must be unique within all recording rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#name DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#name DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Rules defines a list of recording rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#rules DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#rules DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#rules}
   */
   readonly rules: DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestSpecGroupsRules[] | cdktf.IResolvable;
 }
@@ -586,13 +586,13 @@ export interface DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestSpec {
   /**
   * List of groups for recording rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#groups DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#groups DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#groups}
   */
   readonly groups?: DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestSpecGroups[] | cdktf.IResolvable;
   /**
   * TenantID of tenant where the recording rules are evaluated in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#tenant_id DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#tenant_id DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -712,7 +712,7 @@ export class DataK8SLokiGrafanaComRecordingRuleV1Beta1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest k8s_loki_grafana_com_recording_rule_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest k8s_loki_grafana_com_recording_rule_v1beta1_manifest}
 */
 export class DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -728,7 +728,7 @@ export class DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -740,7 +740,7 @@ export class DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest k8s_loki_grafana_com_recording_rule_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_recording_rule_v1beta1_manifest k8s_loki_grafana_com_recording_rule_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -751,8 +751,8 @@ export class DataK8SLokiGrafanaComRecordingRuleV1Beta1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_loki_grafana_com_recording_rule_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,451 +10,451 @@ export interface FabricIpfmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable only, when IP Authorization is enabled in the AAA \ Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#aaa_remote_ip_enabled FabricIpfm#aaa_remote_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#aaa_remote_ip_enabled FabricIpfm#aaa_remote_ip_enabled}
   */
   readonly aaaRemoteIpEnabled?: boolean | cdktf.IResolvable;
   /**
   * AAA Configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#aaa_server_conf FabricIpfm#aaa_server_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#aaa_server_conf FabricIpfm#aaa_server_conf}
   */
   readonly aaaServerConf?: string;
   /**
   * Active Migration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#active_migration FabricIpfm#active_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#active_migration FabricIpfm#active_migration}
   */
   readonly activeMigration?: boolean | cdktf.IResolvable;
   /**
   * Interface to connect to Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#agent_intf FabricIpfm#agent_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#agent_intf FabricIpfm#agent_intf}
   */
   readonly agentIntf?: string;
   /**
   * ASM group ranges with prefixes (len:4-32) example: 239.1.1.0/25, max 20 ranges. Enabling SPT-Threshold Infinity to prevent switchover to source-tree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#asm_group_ranges FabricIpfm#asm_group_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#asm_group_ranges FabricIpfm#asm_group_ranges}
   */
   readonly asmGroupRanges?: string;
   /**
   * Additional CLIs required during device bootup/login e.g. AAA/Radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#bootstrap_conf FabricIpfm#bootstrap_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#bootstrap_conf FabricIpfm#bootstrap_conf}
   */
   readonly bootstrapConf?: string;
   /**
   * Automatic IP Assignment For POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#bootstrap_enable FabricIpfm#bootstrap_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#bootstrap_enable FabricIpfm#bootstrap_enable}
   */
   readonly bootstrapEnable?: boolean | cdktf.IResolvable;
   /**
   * DHCPv4 Multi Subnet Scope - lines with # prefix are ignored here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#bootstrap_multisubnet FabricIpfm#bootstrap_multisubnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#bootstrap_multisubnet FabricIpfm#bootstrap_multisubnet}
   */
   readonly bootstrapMultisubnet?: string;
   /**
   * Only for brf debugging purpose !!!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#brfield_debug_flag FabricIpfm#brfield_debug_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#brfield_debug_flag FabricIpfm#brfield_debug_flag}
   */
   readonly brfieldDebugFlag?: string;
   /**
   * Enable CDP on management interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#cdp_enable FabricIpfm#cdp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#cdp_enable FabricIpfm#cdp_enable}
   */
   readonly cdpEnable?: boolean | cdktf.IResolvable;
   /**
   * This flag does configuration save and deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#deploy FabricIpfm#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#deploy FabricIpfm#deploy}
   */
   readonly deploy: boolean | cdktf.IResolvable;
   /**
   * Disable all deployments in this fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#deployment_freeze FabricIpfm#deployment_freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#deployment_freeze FabricIpfm#deployment_freeze}
   */
   readonly deploymentFreeze?: boolean | cdktf.IResolvable;
   /**
   * Automatic IP Assignment For POAP From Local DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#dhcp_enable FabricIpfm#dhcp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#dhcp_enable FabricIpfm#dhcp_enable}
   */
   readonly dhcpEnable?: boolean | cdktf.IResolvable;
   /**
   * End Address For Switch Out-of-Band POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#dhcp_end FabricIpfm#dhcp_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#dhcp_end FabricIpfm#dhcp_end}
   */
   readonly dhcpEnd?: string;
   /**
   * No description available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#dhcp_ipv6_enable FabricIpfm#dhcp_ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#dhcp_ipv6_enable FabricIpfm#dhcp_ipv6_enable}
   */
   readonly dhcpIpv6Enable?: string;
   /**
   * Start Address For Switch Out-of-Band POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#dhcp_start FabricIpfm#dhcp_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#dhcp_start FabricIpfm#dhcp_start}
   */
   readonly dhcpStart?: string;
   /**
   * Comma separated list of IP Addresses (v4/v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#dns_server_ip_list FabricIpfm#dns_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#dns_server_ip_list FabricIpfm#dns_server_ip_list}
   */
   readonly dnsServerIpList?: string;
   /**
   * One VRF for all DNS servers or a comma separated list of VRFs, one per DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#dns_server_vrf FabricIpfm#dns_server_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#dns_server_vrf FabricIpfm#dns_server_vrf}
   */
   readonly dnsServerVrf?: string;
   /**
   * Include AAA configs from Manageability tab during device bootup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#enable_aaa FabricIpfm#enable_aaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#enable_aaa FabricIpfm#enable_aaa}
   */
   readonly enableAaa?: boolean | cdktf.IResolvable;
   /**
   * Enable Agent (development purpose only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#enable_agent FabricIpfm#enable_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#enable_agent FabricIpfm#enable_agent}
   */
   readonly enableAgent?: boolean | cdktf.IResolvable;
   /**
   * Enable groups with receivers sending (*,G) joins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#enable_asm FabricIpfm#enable_asm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#enable_asm FabricIpfm#enable_asm}
   */
   readonly enableAsm?: boolean | cdktf.IResolvable;
   /**
   * Enable NBM mode to pim-passive for default VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#enable_nbm_passive FabricIpfm#enable_nbm_passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#enable_nbm_passive FabricIpfm#enable_nbm_passive}
   */
   readonly enableNbmPassive?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTPS NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#enable_nxapi FabricIpfm#enable_nxapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#enable_nxapi FabricIpfm#enable_nxapi}
   */
   readonly enableNxapi?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTP NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#enable_nxapi_http FabricIpfm#enable_nxapi_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#enable_nxapi_http FabricIpfm#enable_nxapi_http}
   */
   readonly enableNxapiHttp?: boolean | cdktf.IResolvable;
   /**
   * Valid for NX-OS only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#enable_rt_intf_stats FabricIpfm#enable_rt_intf_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#enable_rt_intf_stats FabricIpfm#enable_rt_intf_stats}
   */
   readonly enableRtIntfStats?: boolean | cdktf.IResolvable;
   /**
   * External Fabric Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ext_fabric_type FabricIpfm#ext_fabric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ext_fabric_type FabricIpfm#ext_fabric_type}
   */
   readonly extFabricType?: string;
   /**
   * Additional CLIs For All Intra-Fabric Links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#extra_conf_intra_links FabricIpfm#extra_conf_intra_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#extra_conf_intra_links FabricIpfm#extra_conf_intra_links}
   */
   readonly extraConfIntraLinks?: string;
   /**
   * Additional CLIs For All Leafs and Tier2 Leafs As Captured From Show Running Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#extra_conf_leaf FabricIpfm#extra_conf_leaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#extra_conf_leaf FabricIpfm#extra_conf_leaf}
   */
   readonly extraConfLeaf?: string;
   /**
   * Additional CLIs For All Spines As Captured From Show Running Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#extra_conf_spine FabricIpfm#extra_conf_spine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#extra_conf_spine FabricIpfm#extra_conf_spine}
   */
   readonly extraConfSpine?: string;
   /**
   * Must be an even number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#fabric_mtu FabricIpfm#fabric_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#fabric_mtu FabricIpfm#fabric_mtu}
   */
   readonly fabricMtu?: number;
   /**
   * Fabric name to be created, updated or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#fabric_name FabricIpfm#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#fabric_name FabricIpfm#fabric_name}
   */
   readonly fabricName: string;
   /**
   * Enable Precision Time Protocol (PTP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#feature_ptp FabricIpfm#feature_ptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#feature_ptp FabricIpfm#feature_ptp}
   */
   readonly featurePtp?: boolean | cdktf.IResolvable;
   /**
   * Template Family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ff FabricIpfm#ff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ff FabricIpfm#ff}
   */
   readonly ff?: string;
   /**
   * Enable to clean switch configuration without reload when PreserveConfig=no
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#grfield_debug_flag FabricIpfm#grfield_debug_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#grfield_debug_flag FabricIpfm#grfield_debug_flag}
   */
   readonly grfieldDebugFlag?: string;
   /**
   * Time in seconds (Min:5, Max:300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#intf_stat_load_interval FabricIpfm#intf_stat_load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#intf_stat_load_interval FabricIpfm#intf_stat_load_interval}
   */
   readonly intfStatLoadInterval?: number;
   /**
   * Enable IS-IS Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#isis_auth_enable FabricIpfm#isis_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#isis_auth_enable FabricIpfm#isis_auth_enable}
   */
   readonly isisAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * Cisco Type 7 Encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#isis_auth_key FabricIpfm#isis_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#isis_auth_key FabricIpfm#isis_auth_key}
   */
   readonly isisAuthKey?: string;
   /**
   * IS-IS Authentication Key ID (Min:0, Max:65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#isis_auth_keychain_key_id FabricIpfm#isis_auth_keychain_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#isis_auth_keychain_key_id FabricIpfm#isis_auth_keychain_key_id}
   */
   readonly isisAuthKeychainKeyId?: number;
   /**
   * IS-IS Authentication Keychain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#isis_auth_keychain_name FabricIpfm#isis_auth_keychain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#isis_auth_keychain_name FabricIpfm#isis_auth_keychain_name}
   */
   readonly isisAuthKeychainName?: string;
   /**
   * Supported IS types: level-1, level-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#isis_level FabricIpfm#isis_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#isis_level FabricIpfm#isis_level}
   */
   readonly isisLevel?: string;
   /**
   * This will enable network point-to-point on fabric interfaces which are numbered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#isis_p2p_enable FabricIpfm#isis_p2p_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#isis_p2p_enable FabricIpfm#isis_p2p_enable}
   */
   readonly isisP2PEnable?: boolean | cdktf.IResolvable;
   /**
   * Must be an even number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#l2_host_intf_mtu FabricIpfm#l2_host_intf_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#l2_host_intf_mtu FabricIpfm#l2_host_intf_mtu}
   */
   readonly l2HostIntfMtu?: number;
   /**
   * Used for Spine-Leaf Connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#link_state_routing FabricIpfm#link_state_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#link_state_routing FabricIpfm#link_state_routing}
   */
   readonly linkStateRouting?: string;
   /**
   * Routing process tag for the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#link_state_routing_tag FabricIpfm#link_state_routing_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#link_state_routing_tag FabricIpfm#link_state_routing_tag}
   */
   readonly linkStateRoutingTag?: string;
   /**
   * Routing Loopback IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#loopback0_ip_range FabricIpfm#loopback0_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#loopback0_ip_range FabricIpfm#loopback0_ip_range}
   */
   readonly loopback0IpRange?: string;
   /**
   * Default Gateway For Management VRF On The Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#mgmt_gw FabricIpfm#mgmt_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#mgmt_gw FabricIpfm#mgmt_gw}
   */
   readonly mgmtGw?: string;
   /**
   * Switch Mgmt IP Subnet Prefix (Min:8, Max:30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#mgmt_prefix FabricIpfm#mgmt_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#mgmt_prefix FabricIpfm#mgmt_prefix}
   */
   readonly mgmtPrefix?: number;
   /**
   * Comma separated list of IP Addresses (v4/v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ntp_server_ip_list FabricIpfm#ntp_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ntp_server_ip_list FabricIpfm#ntp_server_ip_list}
   */
   readonly ntpServerIpList?: string;
   /**
   * One VRF for all NTP servers or a comma separated list of VRFs, one per NTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ntp_server_vrf FabricIpfm#ntp_server_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ntp_server_vrf FabricIpfm#ntp_server_vrf}
   */
   readonly ntpServerVrf?: string;
   /**
   * NX-API HTTP Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#nxapi_http_port FabricIpfm#nxapi_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#nxapi_http_port FabricIpfm#nxapi_http_port}
   */
   readonly nxapiHttpPort?: number;
   /**
   * NX-API HTTPS Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#nxapi_https_port FabricIpfm#nxapi_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#nxapi_https_port FabricIpfm#nxapi_https_port}
   */
   readonly nxapiHttpsPort?: number;
   /**
   * VRF used for NX-API communication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#nxapi_vrf FabricIpfm#nxapi_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#nxapi_vrf FabricIpfm#nxapi_vrf}
   */
   readonly nxapiVrf?: string;
   /**
   * OSPF Area Id in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ospf_area_id FabricIpfm#ospf_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ospf_area_id FabricIpfm#ospf_area_id}
   */
   readonly ospfAreaId?: string;
   /**
   * Enable OSPF Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ospf_auth_enable FabricIpfm#ospf_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ospf_auth_enable FabricIpfm#ospf_auth_enable}
   */
   readonly ospfAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * 3DES Encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ospf_auth_key FabricIpfm#ospf_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ospf_auth_key FabricIpfm#ospf_auth_key}
   */
   readonly ospfAuthKey?: string;
   /**
   * No description available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ospf_auth_key_id FabricIpfm#ospf_auth_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ospf_auth_key_id FabricIpfm#ospf_auth_key_id}
   */
   readonly ospfAuthKeyId?: number;
   /**
   * Enable PIM Hello Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#pim_hello_auth_enable FabricIpfm#pim_hello_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#pim_hello_auth_enable FabricIpfm#pim_hello_auth_enable}
   */
   readonly pimHelloAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * 3DES Encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#pim_hello_auth_key FabricIpfm#pim_hello_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#pim_hello_auth_key FabricIpfm#pim_hello_auth_key}
   */
   readonly pimHelloAuthKey?: string;
   /**
   * Enable Performance Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#pm_enable FabricIpfm#pm_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#pm_enable FabricIpfm#pm_enable}
   */
   readonly pmEnable?: boolean | cdktf.IResolvable;
   /**
   * Default power supply mode for the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#power_redundancy_mode FabricIpfm#power_redundancy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#power_redundancy_mode FabricIpfm#power_redundancy_mode}
   */
   readonly powerRedundancyMode?: string;
   /**
   * Multiple Independent PTP Clocking Subdomains on a Single Network (Min:0, Max:127)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ptp_domain_id FabricIpfm#ptp_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ptp_domain_id FabricIpfm#ptp_domain_id}
   */
   readonly ptpDomainId?: number;
   /**
   * No description available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ptp_lb_id FabricIpfm#ptp_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ptp_lb_id FabricIpfm#ptp_lb_id}
   */
   readonly ptpLbId?: number;
   /**
   * Enabled on ISL links only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#ptp_profile FabricIpfm#ptp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#ptp_profile FabricIpfm#ptp_profile}
   */
   readonly ptpProfile?: string;
   /**
   * Replication Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#replication_mode FabricIpfm#replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#replication_mode FabricIpfm#replication_mode}
   */
   readonly replicationMode?: string;
   /**
   * No description available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#routing_lb_id FabricIpfm#routing_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#routing_lb_id FabricIpfm#routing_lb_id}
   */
   readonly routingLbId?: number;
   /**
   * RP Loopback IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#rp_ip_range FabricIpfm#rp_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#rp_ip_range FabricIpfm#rp_ip_range}
   */
   readonly rpIpRange?: string;
   /**
   * No description available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#rp_lb_id FabricIpfm#rp_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#rp_lb_id FabricIpfm#rp_lb_id}
   */
   readonly rpLbId?: number;
   /**
   * Configure NDFC as a receiver for SNMP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#snmp_server_host_trap FabricIpfm#snmp_server_host_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#snmp_server_host_trap FabricIpfm#snmp_server_host_trap}
   */
   readonly snmpServerHostTrap?: boolean | cdktf.IResolvable;
   /**
   * Checking this will disable Dynamic Fabric IP Address Allocations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#static_underlay_ip_alloc FabricIpfm#static_underlay_ip_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#static_underlay_ip_alloc FabricIpfm#static_underlay_ip_alloc}
   */
   readonly staticUnderlayIpAlloc?: boolean | cdktf.IResolvable;
   /**
   * Address range to assign Numbered IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#subnet_range FabricIpfm#subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#subnet_range FabricIpfm#subnet_range}
   */
   readonly subnetRange?: string;
   /**
   * Mask for Fabric Subnet IP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#subnet_target_mask FabricIpfm#subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#subnet_target_mask FabricIpfm#subnet_target_mask}
   */
   readonly subnetTargetMask?: number;
   /**
   * Comma separated list of IP Addresses (v4/v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#syslog_server_ip_list FabricIpfm#syslog_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#syslog_server_ip_list FabricIpfm#syslog_server_ip_list}
   */
   readonly syslogServerIpList?: string;
   /**
   * One VRF for all Syslog servers or a comma separated list of VRFs, one per Syslog server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#syslog_server_vrf FabricIpfm#syslog_server_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#syslog_server_vrf FabricIpfm#syslog_server_vrf}
   */
   readonly syslogServerVrf?: string;
   /**
   * Comma separated list of Syslog severity values, one per Syslog server (Min:0, Max:7)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#syslog_sev FabricIpfm#syslog_sev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#syslog_sev FabricIpfm#syslog_sev}
   */
   readonly syslogSev?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm ndfc_fabric_ipfm}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm ndfc_fabric_ipfm}
 */
 export class FabricIpfm extends cdktf.TerraformResource {
 
@@ -470,7 +470,7 @@ export class FabricIpfm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricIpfm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricIpfm to import
-  * @param importFromId The id of the existing FabricIpfm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricIpfm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricIpfm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -482,7 +482,7 @@ export class FabricIpfm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_ipfm ndfc_fabric_ipfm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_ipfm ndfc_fabric_ipfm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -493,8 +493,8 @@ export class FabricIpfm extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_fabric_ipfm',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

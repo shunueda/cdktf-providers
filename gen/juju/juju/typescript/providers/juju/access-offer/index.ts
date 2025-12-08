@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer
+// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AccessOfferConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of users to grant admin access. "admin" user is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer#admin AccessOffer#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer#admin AccessOffer#admin}
   */
   readonly admin?: string[];
   /**
   * List of users to grant consume access. "admin" user is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer#consume AccessOffer#consume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer#consume AccessOffer#consume}
   */
   readonly consume?: string[];
   /**
   * The url of the offer for access management. If this is changed the resource will be deleted and a new resource will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer#offer_url AccessOffer#offer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer#offer_url AccessOffer#offer_url}
   */
   readonly offerUrl: string;
   /**
   * List of users to grant read access. "admin" user is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer#read AccessOffer#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer#read AccessOffer#read}
   */
   readonly read?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer juju_access_offer}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer juju_access_offer}
 */
 export class AccessOffer extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AccessOffer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessOffer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessOffer to import
-  * @param importFromId The id of the existing AccessOffer that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessOffer that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessOffer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AccessOffer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.0.0/docs/resources/access_offer juju_access_offer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer juju_access_offer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AccessOffer extends cdktf.TerraformResource {
       terraformResourceType: 'juju_access_offer',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '0.23.2',
+        providerVersionConstraint: '0.23.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

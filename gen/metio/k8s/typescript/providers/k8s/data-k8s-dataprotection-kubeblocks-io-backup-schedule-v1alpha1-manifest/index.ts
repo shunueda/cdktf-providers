@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#metadata DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#metadata DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1ManifestMetadata;
   /**
   * BackupScheduleSpec defines the desired state of BackupSchedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#spec DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#spec DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#annotations DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#annotations DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#labels DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#labels DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#namespace DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#namespace DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest
   /**
   * Specifies the backup method name that is defined in backupPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#backup_method DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#backup_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#backup_method DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#backup_method}
   */
   readonly backupMethod: string;
   /**
   * Specifies the cron expression for the schedule. The timezone is in UTC. see https://en.wikipedia.org/wiki/Cron.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#cron_expression DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#cron_expression DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#cron_expression}
   */
   readonly cronExpression: string;
   /**
   * Specifies whether the backup schedule is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#enabled DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#enabled DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Determines the duration for which the backup should be kept. KubeBlocks will remove all backups that are older than the RetentionPeriod. For example, RetentionPeriod of '30d' will keep only the backups of last 30 days. Sample duration format: - years: 2y - months: 6mo - days: 30d - hours: 12h - minutes: 30m You can also combine the above durations. For example: 30d12h30m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#retention_period DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#retention_period DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#retention_period}
   */
   readonly retentionPeriod?: string;
 }
@@ -436,19 +436,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest
   /**
   * Specifies the backupPolicy to be applied for the 'schedules'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#backup_policy_name DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#backup_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#backup_policy_name DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#backup_policy_name}
   */
   readonly backupPolicyName: string;
   /**
   * Defines the list of backup schedules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#schedules DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#schedules DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#schedules}
   */
   readonly schedules: DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1ManifestSpecSchedules[] | cdktf.IResolvable;
   /**
   * Defines the deadline in minutes for starting the backup workload if it misses its scheduled time for any reason.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#starting_deadline_minutes DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#starting_deadline_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#starting_deadline_minutes DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest#starting_deadline_minutes}
   */
   readonly startingDeadlineMinutes?: number;
 }
@@ -594,7 +594,7 @@ export class DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1ManifestSpec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest}
 */
 export class DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -610,7 +610,7 @@ export class DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest ext
   * Generates CDKTF code for importing a DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -622,7 +622,7 @@ export class DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -633,8 +633,8 @@ export class DataK8SDataprotectionKubeblocksIoBackupScheduleV1Alpha1Manifest ext
       terraformResourceType: 'k8s_dataprotection_kubeblocks_io_backup_schedule_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

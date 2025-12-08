@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface EfloNodeGroupAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#cluster_id EfloNodeGroupAttachment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#cluster_id EfloNodeGroupAttachment#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#hostname EfloNodeGroupAttachment#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#hostname EfloNodeGroupAttachment#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#id EfloNodeGroupAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#id EfloNodeGroupAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#login_password EfloNodeGroupAttachment#login_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#login_password EfloNodeGroupAttachment#login_password}
   */
   readonly loginPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#node_group_id EfloNodeGroupAttachment#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#node_group_id EfloNodeGroupAttachment#node_group_id}
   */
   readonly nodeGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#node_id EfloNodeGroupAttachment#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#node_id EfloNodeGroupAttachment#node_id}
   */
   readonly nodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#user_data EfloNodeGroupAttachment#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#user_data EfloNodeGroupAttachment#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#vpc_id EfloNodeGroupAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#vpc_id EfloNodeGroupAttachment#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#vswitch_id EfloNodeGroupAttachment#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#vswitch_id EfloNodeGroupAttachment#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#data_disk EfloNodeGroupAttachment#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#data_disk EfloNodeGroupAttachment#data_disk}
   */
   readonly dataDisk?: EfloNodeGroupAttachmentDataDisk[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#timeouts EfloNodeGroupAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#timeouts EfloNodeGroupAttachment#timeouts}
   */
   readonly timeouts?: EfloNodeGroupAttachmentTimeouts;
 }
 export interface EfloNodeGroupAttachmentDataDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#category EfloNodeGroupAttachment#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#category EfloNodeGroupAttachment#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#delete_with_node EfloNodeGroupAttachment#delete_with_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#delete_with_node EfloNodeGroupAttachment#delete_with_node}
   */
   readonly deleteWithNode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#performance_level EfloNodeGroupAttachment#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#performance_level EfloNodeGroupAttachment#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#size EfloNodeGroupAttachment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#size EfloNodeGroupAttachment#size}
   */
   readonly size?: number;
 }
@@ -276,15 +276,15 @@ export class EfloNodeGroupAttachmentDataDiskList extends cdktf.ComplexList {
 }
 export interface EfloNodeGroupAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#create EfloNodeGroupAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#create EfloNodeGroupAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#delete EfloNodeGroupAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#delete EfloNodeGroupAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#update EfloNodeGroupAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#update EfloNodeGroupAttachment#update}
   */
   readonly update?: string;
 }
@@ -436,7 +436,7 @@ export class EfloNodeGroupAttachmentTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment alicloud_eflo_node_group_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment alicloud_eflo_node_group_attachment}
 */
 export class EfloNodeGroupAttachment extends cdktf.TerraformResource {
 
@@ -452,7 +452,7 @@ export class EfloNodeGroupAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EfloNodeGroupAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EfloNodeGroupAttachment to import
-  * @param importFromId The id of the existing EfloNodeGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EfloNodeGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EfloNodeGroupAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class EfloNodeGroupAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_node_group_attachment alicloud_eflo_node_group_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eflo_node_group_attachment alicloud_eflo_node_group_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class EfloNodeGroupAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_eflo_node_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

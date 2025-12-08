@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "vercel": "4.0.1"
+    "vercel": "4.0.2"
   }
 }

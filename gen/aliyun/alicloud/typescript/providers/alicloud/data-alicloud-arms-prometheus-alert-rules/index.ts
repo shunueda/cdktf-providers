@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudArmsPrometheusAlertRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#cluster_id DataAlicloudArmsPrometheusAlertRules#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#cluster_id DataAlicloudArmsPrometheusAlertRules#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#id DataAlicloudArmsPrometheusAlertRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#id DataAlicloudArmsPrometheusAlertRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#ids DataAlicloudArmsPrometheusAlertRules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#ids DataAlicloudArmsPrometheusAlertRules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#match_expressions DataAlicloudArmsPrometheusAlertRules#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#match_expressions DataAlicloudArmsPrometheusAlertRules#match_expressions}
   */
   readonly matchExpressions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#name_regex DataAlicloudArmsPrometheusAlertRules#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#name_regex DataAlicloudArmsPrometheusAlertRules#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#output_file DataAlicloudArmsPrometheusAlertRules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#output_file DataAlicloudArmsPrometheusAlertRules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#status DataAlicloudArmsPrometheusAlertRules#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#status DataAlicloudArmsPrometheusAlertRules#status}
   */
   readonly status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#type DataAlicloudArmsPrometheusAlertRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#type DataAlicloudArmsPrometheusAlertRules#type}
   */
   readonly type?: string;
 }
@@ -342,7 +342,7 @@ export class DataAlicloudArmsPrometheusAlertRulesRulesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules alicloud_arms_prometheus_alert_rules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules alicloud_arms_prometheus_alert_rules}
 */
 export class DataAlicloudArmsPrometheusAlertRules extends cdktf.TerraformDataSource {
 
@@ -358,7 +358,7 @@ export class DataAlicloudArmsPrometheusAlertRules extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAlicloudArmsPrometheusAlertRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudArmsPrometheusAlertRules to import
-  * @param importFromId The id of the existing DataAlicloudArmsPrometheusAlertRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudArmsPrometheusAlertRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudArmsPrometheusAlertRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -370,7 +370,7 @@ export class DataAlicloudArmsPrometheusAlertRules extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/arms_prometheus_alert_rules alicloud_arms_prometheus_alert_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/arms_prometheus_alert_rules alicloud_arms_prometheus_alert_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,8 +381,8 @@ export class DataAlicloudArmsPrometheusAlertRules extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_arms_prometheus_alert_rules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

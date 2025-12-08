@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface SaeApplicationScalingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#app_id SaeApplicationScalingRule#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#app_id SaeApplicationScalingRule#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#id SaeApplicationScalingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#id SaeApplicationScalingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#min_ready_instance_ratio SaeApplicationScalingRule#min_ready_instance_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#min_ready_instance_ratio SaeApplicationScalingRule#min_ready_instance_ratio}
   */
   readonly minReadyInstanceRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#min_ready_instances SaeApplicationScalingRule#min_ready_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#min_ready_instances SaeApplicationScalingRule#min_ready_instances}
   */
   readonly minReadyInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#scaling_rule_enable SaeApplicationScalingRule#scaling_rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#scaling_rule_enable SaeApplicationScalingRule#scaling_rule_enable}
   */
   readonly scalingRuleEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#scaling_rule_name SaeApplicationScalingRule#scaling_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#scaling_rule_name SaeApplicationScalingRule#scaling_rule_name}
   */
   readonly scalingRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#scaling_rule_type SaeApplicationScalingRule#scaling_rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#scaling_rule_type SaeApplicationScalingRule#scaling_rule_type}
   */
   readonly scalingRuleType: string;
   /**
   * scaling_rule_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#scaling_rule_metric SaeApplicationScalingRule#scaling_rule_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#scaling_rule_metric SaeApplicationScalingRule#scaling_rule_metric}
   */
   readonly scalingRuleMetric?: SaeApplicationScalingRuleScalingRuleMetric;
   /**
   * scaling_rule_timer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#scaling_rule_timer SaeApplicationScalingRule#scaling_rule_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#scaling_rule_timer SaeApplicationScalingRule#scaling_rule_timer}
   */
   readonly scalingRuleTimer?: SaeApplicationScalingRuleScalingRuleTimer;
 }
 export interface SaeApplicationScalingRuleScalingRuleMetricMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#metric_target_average_utilization SaeApplicationScalingRule#metric_target_average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#metric_target_average_utilization SaeApplicationScalingRule#metric_target_average_utilization}
   */
   readonly metricTargetAverageUtilization?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#metric_type SaeApplicationScalingRule#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#metric_type SaeApplicationScalingRule#metric_type}
   */
   readonly metricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#slb_id SaeApplicationScalingRule#slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#slb_id SaeApplicationScalingRule#slb_id}
   */
   readonly slbId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#slb_log_store SaeApplicationScalingRule#slb_log_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#slb_log_store SaeApplicationScalingRule#slb_log_store}
   */
   readonly slbLogStore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#slb_project SaeApplicationScalingRule#slb_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#slb_project SaeApplicationScalingRule#slb_project}
   */
   readonly slbProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#vport SaeApplicationScalingRule#vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#vport SaeApplicationScalingRule#vport}
   */
   readonly vport?: string;
 }
@@ -334,15 +334,15 @@ export class SaeApplicationScalingRuleScalingRuleMetricMetricsList extends cdktf
 }
 export interface SaeApplicationScalingRuleScalingRuleMetricScaleDownRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#disabled SaeApplicationScalingRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#disabled SaeApplicationScalingRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#stabilization_window_seconds SaeApplicationScalingRule#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#stabilization_window_seconds SaeApplicationScalingRule#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#step SaeApplicationScalingRule#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#step SaeApplicationScalingRule#step}
   */
   readonly step?: number;
 }
@@ -484,15 +484,15 @@ export class SaeApplicationScalingRuleScalingRuleMetricScaleDownRulesOutputRefer
 }
 export interface SaeApplicationScalingRuleScalingRuleMetricScaleUpRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#disabled SaeApplicationScalingRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#disabled SaeApplicationScalingRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#stabilization_window_seconds SaeApplicationScalingRule#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#stabilization_window_seconds SaeApplicationScalingRule#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#step SaeApplicationScalingRule#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#step SaeApplicationScalingRule#step}
   */
   readonly step?: number;
 }
@@ -634,29 +634,29 @@ export class SaeApplicationScalingRuleScalingRuleMetricScaleUpRulesOutputReferen
 }
 export interface SaeApplicationScalingRuleScalingRuleMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#max_replicas SaeApplicationScalingRule#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#max_replicas SaeApplicationScalingRule#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#min_replicas SaeApplicationScalingRule#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#min_replicas SaeApplicationScalingRule#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#metrics SaeApplicationScalingRule#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#metrics SaeApplicationScalingRule#metrics}
   */
   readonly metrics?: SaeApplicationScalingRuleScalingRuleMetricMetrics[] | cdktf.IResolvable;
   /**
   * scale_down_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#scale_down_rules SaeApplicationScalingRule#scale_down_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#scale_down_rules SaeApplicationScalingRule#scale_down_rules}
   */
   readonly scaleDownRules?: SaeApplicationScalingRuleScalingRuleMetricScaleDownRules;
   /**
   * scale_up_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#scale_up_rules SaeApplicationScalingRule#scale_up_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#scale_up_rules SaeApplicationScalingRule#scale_up_rules}
   */
   readonly scaleUpRules?: SaeApplicationScalingRuleScalingRuleMetricScaleUpRules;
 }
@@ -856,19 +856,19 @@ export class SaeApplicationScalingRuleScalingRuleMetricOutputReference extends c
 }
 export interface SaeApplicationScalingRuleScalingRuleTimerSchedules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#at_time SaeApplicationScalingRule#at_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#at_time SaeApplicationScalingRule#at_time}
   */
   readonly atTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#max_replicas SaeApplicationScalingRule#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#max_replicas SaeApplicationScalingRule#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#min_replicas SaeApplicationScalingRule#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#min_replicas SaeApplicationScalingRule#min_replicas}
   */
   readonly minReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#target_replicas SaeApplicationScalingRule#target_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#target_replicas SaeApplicationScalingRule#target_replicas}
   */
   readonly targetReplicas?: number;
 }
@@ -1071,21 +1071,21 @@ export class SaeApplicationScalingRuleScalingRuleTimerSchedulesList extends cdkt
 }
 export interface SaeApplicationScalingRuleScalingRuleTimer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#begin_date SaeApplicationScalingRule#begin_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#begin_date SaeApplicationScalingRule#begin_date}
   */
   readonly beginDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#end_date SaeApplicationScalingRule#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#end_date SaeApplicationScalingRule#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#period SaeApplicationScalingRule#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#period SaeApplicationScalingRule#period}
   */
   readonly period?: string;
   /**
   * schedules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#schedules SaeApplicationScalingRule#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#schedules SaeApplicationScalingRule#schedules}
   */
   readonly schedules?: SaeApplicationScalingRuleScalingRuleTimerSchedules[] | cdktf.IResolvable;
 }
@@ -1256,7 +1256,7 @@ export class SaeApplicationScalingRuleScalingRuleTimerOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule alicloud_sae_application_scaling_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule alicloud_sae_application_scaling_rule}
 */
 export class SaeApplicationScalingRule extends cdktf.TerraformResource {
 
@@ -1272,7 +1272,7 @@ export class SaeApplicationScalingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SaeApplicationScalingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SaeApplicationScalingRule to import
-  * @param importFromId The id of the existing SaeApplicationScalingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SaeApplicationScalingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SaeApplicationScalingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1284,7 +1284,7 @@ export class SaeApplicationScalingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_application_scaling_rule alicloud_sae_application_scaling_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sae_application_scaling_rule alicloud_sae_application_scaling_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1295,8 +1295,8 @@ export class SaeApplicationScalingRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sae_application_scaling_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

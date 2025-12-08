@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#metadata DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#metadata DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestMetadata;
   /**
   * Extend the functionality provided by the Istio proxy through WebAssembly filters. See more details at: https://istio.io/docs/reference/config/proxy_extensions/wasm-plugin.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#spec DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#spec DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#annotations DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#annotations DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#labels DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#labels DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#namespace DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#namespace DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecMatchPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#number DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#number DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#number}
   */
   readonly number: number;
 }
@@ -332,13 +332,13 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecMatch {
   /**
   * Criteria for selecting traffic by their direction. Valid Options: CLIENT, SERVER, CLIENT_AND_SERVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#mode DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#mode DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Criteria for selecting traffic by their destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#ports DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#ports DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecMatchPorts[] | cdktf.IResolvable;
 }
@@ -485,7 +485,7 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecSelector 
   /**
   * One or more labels that indicate a specific set of pods/VMs on which a policy should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#match_labels DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#match_labels DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -581,25 +581,25 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecTargetRef
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#group DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#group DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#kind DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#kind DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#namespace DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#namespace DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -776,25 +776,25 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecTargetRef
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#group DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#group DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#kind DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#kind DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#namespace DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#namespace DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -993,19 +993,19 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecVmConfigE
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value for the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#value DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#value DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Valid Options: INLINE, HOST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#value_from DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#value_from DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -1178,7 +1178,7 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecVmConfig 
   /**
   * Specifies environment variables to be injected to this VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#env DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#env DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecVmConfigEnv[] | cdktf.IResolvable;
 }
@@ -1274,93 +1274,93 @@ export interface DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpec {
   /**
   * Specifies the failure behavior for the plugin due to fatal errors. Valid Options: FAIL_CLOSE, FAIL_OPEN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#fail_strategy DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#fail_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#fail_strategy DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#fail_strategy}
   */
   readonly failStrategy?: string;
   /**
   * The pull behaviour to be applied when fetching Wasm module by either OCI image or 'http/https'. Valid Options: IfNotPresent, Always
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#image_pull_policy DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#image_pull_policy DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Credentials to use for OCI image pulling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#image_pull_secret DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#image_pull_secret DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
   * Specifies the criteria to determine which traffic is passed to WasmPlugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#match DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#match DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#match}
   */
   readonly match?: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecMatch[] | cdktf.IResolvable;
   /**
   * Determines where in the filter chain this 'WasmPlugin' is to be injected. Valid Options: AUTHN, AUTHZ, STATS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#phase DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#phase DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
   /**
   * The configuration that will be passed on to the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#plugin_config DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#plugin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#plugin_config DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#plugin_config}
   */
   readonly pluginConfig?: { [key: string]: string };
   /**
   * The plugin name to be used in the Envoy configuration (used to be called 'rootID').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#plugin_name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#plugin_name DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#plugin_name}
   */
   readonly pluginName?: string;
   /**
   * Determines ordering of 'WasmPlugins' in the same 'phase'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#priority DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#priority DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * Criteria used to select the specific set of pods/VMs on which this plugin configuration should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#selector DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#selector DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecSelector;
   /**
   * SHA256 checksum that will be used to verify Wasm module or OCI container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#sha256 DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#sha256 DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#target_ref DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#target_ref DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecTargetRef;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#target_refs DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#target_refs DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#target_refs}
   */
   readonly targetRefs?: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecTargetRefs[] | cdktf.IResolvable;
   /**
   * Specifies the type of Wasm Extension to be used. Valid Options: HTTP, NETWORK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#type DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#type DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * URL of a Wasm module or OCI container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#url DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#url DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#verification_key DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#verification_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#verification_key DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#verification_key}
   */
   readonly verificationKey?: string;
   /**
   * Configuration for a Wasm VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#vm_config DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#vm_config DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest#vm_config}
   */
   readonly vmConfig?: DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecVmConfig;
 }
@@ -1886,7 +1886,7 @@ export class DataK8SExtensionsIstioIoWasmPluginV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest k8s_extensions_istio_io_wasm_plugin_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest k8s_extensions_istio_io_wasm_plugin_v1alpha1_manifest}
 */
 export class DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1902,7 +1902,7 @@ export class DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1914,7 +1914,7 @@ export class DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest k8s_extensions_istio_io_wasm_plugin_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/extensions_istio_io_wasm_plugin_v1alpha1_manifest k8s_extensions_istio_io_wasm_plugin_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1925,8 +1925,8 @@ export class DataK8SExtensionsIstioIoWasmPluginV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_extensions_istio_io_wasm_plugin_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

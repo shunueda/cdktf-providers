@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface DdoscooSchedulerRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#id DdoscooSchedulerRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#id DdoscooSchedulerRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#param DdoscooSchedulerRule#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#param DdoscooSchedulerRule#param}
   */
   readonly param?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#resource_group_id DdoscooSchedulerRule#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#resource_group_id DdoscooSchedulerRule#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#rule_name DdoscooSchedulerRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#rule_name DdoscooSchedulerRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#rule_type DdoscooSchedulerRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#rule_type DdoscooSchedulerRule#rule_type}
   */
   readonly ruleType: number;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#rules DdoscooSchedulerRule#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#rules DdoscooSchedulerRule#rules}
   */
   readonly rules: DdoscooSchedulerRuleRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#timeouts DdoscooSchedulerRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#timeouts DdoscooSchedulerRule#timeouts}
   */
   readonly timeouts?: DdoscooSchedulerRuleTimeouts;
 }
 export interface DdoscooSchedulerRuleRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#priority DdoscooSchedulerRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#priority DdoscooSchedulerRule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#region_id DdoscooSchedulerRule#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#region_id DdoscooSchedulerRule#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#type DdoscooSchedulerRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#type DdoscooSchedulerRule#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#value DdoscooSchedulerRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#value DdoscooSchedulerRule#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#value_type DdoscooSchedulerRule#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#value_type DdoscooSchedulerRule#value_type}
   */
   readonly valueType?: number;
 }
@@ -298,15 +298,15 @@ export class DdoscooSchedulerRuleRulesList extends cdktf.ComplexList {
 }
 export interface DdoscooSchedulerRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#create DdoscooSchedulerRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#create DdoscooSchedulerRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#delete DdoscooSchedulerRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#delete DdoscooSchedulerRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#update DdoscooSchedulerRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#update DdoscooSchedulerRule#update}
   */
   readonly update?: string;
 }
@@ -458,7 +458,7 @@ export class DdoscooSchedulerRuleTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule alicloud_ddoscoo_scheduler_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule alicloud_ddoscoo_scheduler_rule}
 */
 export class DdoscooSchedulerRule extends cdktf.TerraformResource {
 
@@ -474,7 +474,7 @@ export class DdoscooSchedulerRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdoscooSchedulerRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdoscooSchedulerRule to import
-  * @param importFromId The id of the existing DdoscooSchedulerRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdoscooSchedulerRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdoscooSchedulerRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -486,7 +486,7 @@ export class DdoscooSchedulerRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ddoscoo_scheduler_rule alicloud_ddoscoo_scheduler_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddoscoo_scheduler_rule alicloud_ddoscoo_scheduler_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -497,8 +497,8 @@ export class DdoscooSchedulerRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ddoscoo_scheduler_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

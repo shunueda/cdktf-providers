@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface VpcTrafficMirrorFilterIngressRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#action VpcTrafficMirrorFilterIngressRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#action VpcTrafficMirrorFilterIngressRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#destination_cidr_block VpcTrafficMirrorFilterIngressRule#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#destination_cidr_block VpcTrafficMirrorFilterIngressRule#destination_cidr_block}
   */
   readonly destinationCidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#destination_port_range VpcTrafficMirrorFilterIngressRule#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#destination_port_range VpcTrafficMirrorFilterIngressRule#destination_port_range}
   */
   readonly destinationPortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#dry_run VpcTrafficMirrorFilterIngressRule#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#dry_run VpcTrafficMirrorFilterIngressRule#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#id VpcTrafficMirrorFilterIngressRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#id VpcTrafficMirrorFilterIngressRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#priority VpcTrafficMirrorFilterIngressRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#priority VpcTrafficMirrorFilterIngressRule#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#protocol VpcTrafficMirrorFilterIngressRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#protocol VpcTrafficMirrorFilterIngressRule#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#rule_action VpcTrafficMirrorFilterIngressRule#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#rule_action VpcTrafficMirrorFilterIngressRule#rule_action}
   */
   readonly ruleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#source_cidr_block VpcTrafficMirrorFilterIngressRule#source_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#source_cidr_block VpcTrafficMirrorFilterIngressRule#source_cidr_block}
   */
   readonly sourceCidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#source_port_range VpcTrafficMirrorFilterIngressRule#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#source_port_range VpcTrafficMirrorFilterIngressRule#source_port_range}
   */
   readonly sourcePortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#traffic_mirror_filter_id VpcTrafficMirrorFilterIngressRule#traffic_mirror_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#traffic_mirror_filter_id VpcTrafficMirrorFilterIngressRule#traffic_mirror_filter_id}
   */
   readonly trafficMirrorFilterId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#timeouts VpcTrafficMirrorFilterIngressRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#timeouts VpcTrafficMirrorFilterIngressRule#timeouts}
   */
   readonly timeouts?: VpcTrafficMirrorFilterIngressRuleTimeouts;
 }
 export interface VpcTrafficMirrorFilterIngressRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#create VpcTrafficMirrorFilterIngressRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#create VpcTrafficMirrorFilterIngressRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#delete VpcTrafficMirrorFilterIngressRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#delete VpcTrafficMirrorFilterIngressRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#update VpcTrafficMirrorFilterIngressRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#update VpcTrafficMirrorFilterIngressRule#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class VpcTrafficMirrorFilterIngressRuleTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule alicloud_vpc_traffic_mirror_filter_ingress_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule alicloud_vpc_traffic_mirror_filter_ingress_rule}
 */
 export class VpcTrafficMirrorFilterIngressRule extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class VpcTrafficMirrorFilterIngressRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcTrafficMirrorFilterIngressRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcTrafficMirrorFilterIngressRule to import
-  * @param importFromId The id of the existing VpcTrafficMirrorFilterIngressRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcTrafficMirrorFilterIngressRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcTrafficMirrorFilterIngressRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class VpcTrafficMirrorFilterIngressRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule alicloud_vpc_traffic_mirror_filter_ingress_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_traffic_mirror_filter_ingress_rule alicloud_vpc_traffic_mirror_filter_ingress_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class VpcTrafficMirrorFilterIngressRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_traffic_mirror_filter_ingress_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

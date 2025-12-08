@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application
+// https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,110 +10,110 @@ export interface MarketplaceApplicationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Category of marketplace application. Accepted values: "CMS", "project management", "Adminpanel", "Collaboration", "Cloud Storage", "Archiving"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#category MarketplaceApplication#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#category MarketplaceApplication#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#id MarketplaceApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#id MarketplaceApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_advices MarketplaceApplication#meta_advices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_advices MarketplaceApplication#meta_advices}
   */
   readonly metaAdvices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_author MarketplaceApplication#meta_author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_author MarketplaceApplication#meta_author}
   */
   readonly metaAuthor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_components MarketplaceApplication#meta_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_components MarketplaceApplication#meta_components}
   */
   readonly metaComponents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_features MarketplaceApplication#meta_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_features MarketplaceApplication#meta_features}
   */
   readonly metaFeatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_hints MarketplaceApplication#meta_hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_hints MarketplaceApplication#meta_hints}
   */
   readonly metaHints?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_icon MarketplaceApplication#meta_icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_icon MarketplaceApplication#meta_icon}
   */
   readonly metaIcon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_license MarketplaceApplication#meta_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_license MarketplaceApplication#meta_license}
   */
   readonly metaLicense?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_os MarketplaceApplication#meta_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_os MarketplaceApplication#meta_os}
   */
   readonly metaOs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_overview MarketplaceApplication#meta_overview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_overview MarketplaceApplication#meta_overview}
   */
   readonly metaOverview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#meta_terms_of_use MarketplaceApplication#meta_terms_of_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#meta_terms_of_use MarketplaceApplication#meta_terms_of_use}
   */
   readonly metaTermsOfUse?: string;
   /**
   * The human-readable name of the object. It supports the full UTF-8 character set, with a maximum of 64 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#name MarketplaceApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#name MarketplaceApplication#name}
   */
   readonly name: string;
   /**
   * Path to the images for the application, must be in .gz format and started with s3//
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#object_storage_path MarketplaceApplication#object_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#object_storage_path MarketplaceApplication#object_storage_path}
   */
   readonly objectStoragePath: string;
   /**
   * Whether you want to publish your application or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#publish MarketplaceApplication#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#publish MarketplaceApplication#publish}
   */
   readonly publish?: boolean | cdktf.IResolvable;
   /**
   * Number of server's cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#setup_cores MarketplaceApplication#setup_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#setup_cores MarketplaceApplication#setup_cores}
   */
   readonly setupCores: number;
   /**
   * The capacity of server's memory in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#setup_memory MarketplaceApplication#setup_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#setup_memory MarketplaceApplication#setup_memory}
   */
   readonly setupMemory: number;
   /**
   * The capacity of server's storage in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#setup_storage_capacity MarketplaceApplication#setup_storage_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#setup_storage_capacity MarketplaceApplication#setup_storage_capacity}
   */
   readonly setupStorageCapacity: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#timeouts MarketplaceApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#timeouts MarketplaceApplication#timeouts}
   */
   readonly timeouts?: MarketplaceApplicationTimeouts;
 }
 export interface MarketplaceApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#create MarketplaceApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#create MarketplaceApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#delete MarketplaceApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#delete MarketplaceApplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#update MarketplaceApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#update MarketplaceApplication#update}
   */
   readonly update?: string;
 }
@@ -265,7 +265,7 @@ export class MarketplaceApplicationTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application gridscale_marketplace_application}
+* Represents a {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application gridscale_marketplace_application}
 */
 export class MarketplaceApplication extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class MarketplaceApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MarketplaceApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MarketplaceApplication to import
-  * @param importFromId The id of the existing MarketplaceApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MarketplaceApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MarketplaceApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class MarketplaceApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.2.3/docs/resources/marketplace_application gridscale_marketplace_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gridscale/gridscale/2.3.0/docs/resources/marketplace_application gridscale_marketplace_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class MarketplaceApplication extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_marketplace_application',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

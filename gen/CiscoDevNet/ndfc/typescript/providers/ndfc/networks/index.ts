@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,73 @@ import * as cdktf from 'cdktf';
 
 export interface NetworksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * If set to `true`, do a deployment of all attachments in this resource. This parameter cannot be `true` if either  `deploy_attachments` inside any `network` or `deploy_this_attachment` in any `attachments` is set to `true`
+  * If set to true, do a deployment of all attachments in this resource.      This parameter cannot be true if either  `deploy_attachments` inside any `network` or `deploy_this_attachment` in any `attachments` is set to true.         __Note: Changing value from `true` to `false`, to undo a deployment is not supported__     
+  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#deploy_all_attachments Networks#deploy_all_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#deploy_all_attachments Networks#deploy_all_attachments}
   */
   readonly deployAllAttachments?: boolean | cdktf.IResolvable;
   /**
   * The name of the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#fabric_name Networks#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#fabric_name Networks#fabric_name}
   */
   readonly fabricName: string;
   /**
   * List of networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#networks Networks#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#networks Networks#networks}
   */
   readonly networks: { [key: string]: NetworksNetworks } | cdktf.IResolvable;
 }
 export interface NetworksNetworksAttachments {
   /**
-  * If set to `true`, deploys this attachment. This cannot be set to `true` if `deploy_all_attachments` at resource level is set to `true` or `deploy_attachments` in the corresponding `network` is set to `true`
+  * If set to `true`, deploys this attachment.         This cannot be set to `true` if `deploy_all_attachments` at resource level is set to `true` or `deploy_attachments` in the corresponding `network` is set to `true`.         __Note: Changing value from `true` to `false`, to undo a deployment is not supported__      
+  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#deploy_this_attachment Networks#deploy_this_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#deploy_this_attachment Networks#deploy_this_attachment}
   */
   readonly deployThisAttachment?: boolean | cdktf.IResolvable;
   /**
   * The name of the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#display_name Networks#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#display_name Networks#display_name}
   */
   readonly displayName?: string;
   /**
+  * The name of the fabric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#fabric Networks#fabric}
+  */
+  readonly fabric?: string;
+  /**
   * This field covers any configuration not included in overlay templates which is needed as part of this VRF attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#freeform_config Networks#freeform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#freeform_config Networks#freeform_config}
   */
   readonly freeformConfig?: string;
   /**
   * Instance values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#instance_values Networks#instance_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#instance_values Networks#instance_values}
   */
   readonly instanceValues?: string;
   /**
   * List of switch ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#switch_ports Networks#switch_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#switch_ports Networks#switch_ports}
   */
   readonly switchPorts?: string[];
   /**
   * List of TOR ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#tor_ports Networks#tor_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#tor_ports Networks#tor_ports}
   */
   readonly torPorts?: string[];
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#vlan Networks#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#vlan Networks#vlan}
   */
   readonly vlan?: number;
 }
@@ -79,6 +87,7 @@ export function networksNetworksAttachmentsToTerraform(struct?: NetworksNetworks
   return {
     deploy_this_attachment: cdktf.booleanToTerraform(struct!.deployThisAttachment),
     display_name: cdktf.stringToTerraform(struct!.displayName),
+    fabric: cdktf.stringToTerraform(struct!.fabric),
     freeform_config: cdktf.stringToTerraform(struct!.freeformConfig),
     instance_values: cdktf.stringToTerraform(struct!.instanceValues),
     switch_ports: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.switchPorts),
@@ -102,6 +111,12 @@ export function networksNetworksAttachmentsToHclTerraform(struct?: NetworksNetwo
     },
     display_name: {
       value: cdktf.stringToHclTerraform(struct!.displayName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fabric: {
+      value: cdktf.stringToHclTerraform(struct!.fabric),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -169,6 +184,10 @@ export class NetworksNetworksAttachmentsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.displayName = this._displayName;
     }
+    if (this._fabric !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fabric = this._fabric;
+    }
     if (this._freeformConfig !== undefined) {
       hasAnyValues = true;
       internalValueResult.freeformConfig = this._freeformConfig;
@@ -198,6 +217,7 @@ export class NetworksNetworksAttachmentsOutputReference extends cdktf.ComplexObj
       this.resolvableValue = undefined;
       this._deployThisAttachment = undefined;
       this._displayName = undefined;
+      this._fabric = undefined;
       this._freeformConfig = undefined;
       this._instanceValues = undefined;
       this._switchPorts = undefined;
@@ -213,6 +233,7 @@ export class NetworksNetworksAttachmentsOutputReference extends cdktf.ComplexObj
       this.resolvableValue = undefined;
       this._deployThisAttachment = value.deployThisAttachment;
       this._displayName = value.displayName;
+      this._fabric = value.fabric;
       this._freeformConfig = value.freeformConfig;
       this._instanceValues = value.instanceValues;
       this._switchPorts = value.switchPorts;
@@ -261,6 +282,22 @@ export class NetworksNetworksAttachmentsOutputReference extends cdktf.ComplexObj
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
     return this._displayName;
+  }
+
+  // fabric - computed: true, optional: true, required: false
+  private _fabric?: string; 
+  public get fabric() {
+    return this.getStringAttribute('fabric');
+  }
+  public set fabric(value: string) {
+    this._fabric = value;
+  }
+  public resetFabric() {
+    this._fabric = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fabricInput() {
+    return this._fabric;
   }
 
   // freeform_config - computed: false, optional: true, required: false
@@ -371,13 +408,13 @@ export interface NetworksNetworksDhcpRelayServers {
   /**
   * Server IP V4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#address Networks#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#address Networks#address}
   */
   readonly address?: string;
   /**
   * Server VRF. If management vrf, enter 'management'. If default/global vrf, enter 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#vrf Networks#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#vrf Networks#vrf}
   */
   readonly vrf?: string;
 }
@@ -524,199 +561,200 @@ export interface NetworksNetworks {
   /**
   * ARP suppression is only supported if SVI is present when Layer-2-Only is not enabled. NX-OS Specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#arp_suppression Networks#arp_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#arp_suppression Networks#arp_suppression}
   */
   readonly arpSuppression?: boolean | cdktf.IResolvable;
   /**
   * List of switches attached to the net
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#attachments Networks#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#attachments Networks#attachments}
   */
   readonly attachments?: { [key: string]: NetworksNetworksAttachments } | cdktf.IResolvable;
   /**
-  * If set to `true`, deploys all attachments in the network. This parameter cannot be `true` if `deploy_all_attachments` at resource level is set to `true` or `deploy_this_attachment` in any `attachments` is set to `true`
+  * If set to `true`, deploys all attachments in the network.      This parameter cannot be `true` if `deploy_all_attachments` at resource level is set to `true` or `deploy_this_attachment` in any `attachments` is set to `true`.      __Note: Changing value from `true` to `false`, to undo a deployment is not supported__
+  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#deploy_attachments Networks#deploy_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#deploy_attachments Networks#deploy_attachments}
   */
   readonly deployAttachments?: boolean | cdktf.IResolvable;
   /**
   * Loopback ID for DHCP Relay interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#dhcp_relay_loopback_id Networks#dhcp_relay_loopback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#dhcp_relay_loopback_id Networks#dhcp_relay_loopback_id}
   */
   readonly dhcpRelayLoopbackId?: number;
   /**
   * List of DHCP relay servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#dhcp_relay_servers Networks#dhcp_relay_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#dhcp_relay_servers Networks#dhcp_relay_servers}
   */
   readonly dhcpRelayServers?: NetworksNetworksDhcpRelayServers[] | cdktf.IResolvable;
   /**
   * Customized name of the network. By default, it will be same as the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#display_name Networks#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#display_name Networks#display_name}
   */
   readonly displayName?: string;
   /**
   * Gateway IPv4 address, for example `192.0.2.1/24`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#gateway_ipv4_address Networks#gateway_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#gateway_ipv4_address Networks#gateway_ipv4_address}
   */
   readonly gatewayIpv4Address?: string;
   /**
   * Gateway IPv6 addresses, for example `2001:db8::1/64,2001:db9::1/64`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#gateway_ipv6_address Networks#gateway_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#gateway_ipv6_address Networks#gateway_ipv6_address}
   */
   readonly gatewayIpv6Address?: string;
   /**
   * IGMP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#igmp_version Networks#igmp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#igmp_version Networks#igmp_version}
   */
   readonly igmpVersion?: string;
   /**
   * Ingress replication flag. Read-only per network, Fabric-wide setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#ingress_replication Networks#ingress_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#ingress_replication Networks#ingress_replication}
   */
   readonly ingressReplication?: boolean | cdktf.IResolvable;
   /**
   * Interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#interface_description Networks#interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#interface_description Networks#interface_description}
   */
   readonly interfaceDescription?: string;
   /**
   * Enable L3 Gateway on Border
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#l3_gatway_border Networks#l3_gatway_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#l3_gatway_border Networks#l3_gatway_border}
   */
   readonly l3GatwayBorder?: boolean | cdktf.IResolvable;
   /**
   * Layer-2 only flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#layer2_only Networks#layer2_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#layer2_only Networks#layer2_only}
   */
   readonly layer2Only?: boolean | cdktf.IResolvable;
   /**
   * MTU for L3 interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#mtu Networks#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#mtu Networks#mtu}
   */
   readonly mtu?: number;
   /**
   * Multicast group address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#multicast_group Networks#multicast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#multicast_group Networks#multicast_group}
   */
   readonly multicastGroup?: string;
   /**
   * Netflow enable flag. Netflow is supported only if it is enabled on fabric. For NX-OS only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#netflow Networks#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#netflow Networks#netflow}
   */
   readonly netflow?: boolean | cdktf.IResolvable;
   /**
   * The name of the network extension template. Applicable to Switch(es) with role Border
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#network_extension_template Networks#network_extension_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#network_extension_template Networks#network_extension_template}
   */
   readonly networkExtensionTemplate?: string;
   /**
   * VNI ID of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#network_id Networks#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#network_id Networks#network_id}
   */
   readonly networkId?: number;
   /**
   * The name of the network template. This is only applicable for leaf switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#network_template Networks#network_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#network_template Networks#network_template}
   */
   readonly networkTemplate?: string;
   /**
   * Network Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#network_type Networks#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#network_type Networks#network_type}
   */
   readonly networkType?: string;
   /**
   * Primary network VNI ID. This is applicable only when PVLAN is enabled in fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#primary_network_id Networks#primary_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#primary_network_id Networks#primary_network_id}
   */
   readonly primaryNetworkId?: number;
   /**
   * L2 VNI Route-Target Both Enable. NX-OS specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#route_target_both Networks#route_target_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#route_target_both Networks#route_target_both}
   */
   readonly routeTargetBoth?: boolean | cdktf.IResolvable;
   /**
   * Routing tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#routing_tag Networks#routing_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#routing_tag Networks#routing_tag}
   */
   readonly routingTag?: number;
   /**
   * IPv4 Secondary GW1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#secondary_gateway_1 Networks#secondary_gateway_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#secondary_gateway_1 Networks#secondary_gateway_1}
   */
   readonly secondaryGateway1?: string;
   /**
   * IPv4 Secondary GW2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#secondary_gateway_2 Networks#secondary_gateway_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#secondary_gateway_2 Networks#secondary_gateway_2}
   */
   readonly secondaryGateway2?: string;
   /**
   * IPv4 Secondary GW3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#secondary_gateway_3 Networks#secondary_gateway_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#secondary_gateway_3 Networks#secondary_gateway_3}
   */
   readonly secondaryGateway3?: string;
   /**
   * IPv4 Secondary GW4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#secondary_gateway_4 Networks#secondary_gateway_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#secondary_gateway_4 Networks#secondary_gateway_4}
   */
   readonly secondaryGateway4?: string;
   /**
   * Interface Vlan Netflow Monitor. Applicable only if 'Layer 2 Only' is not enabled. Provide monitor name defined in fabric setting for Layer 3 Record. For NX-OS only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#svi_netflow_monitor Networks#svi_netflow_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#svi_netflow_monitor Networks#svi_netflow_monitor}
   */
   readonly sviNetflowMonitor?: string;
   /**
   * Enable Tenant Routed Multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#trm Networks#trm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#trm Networks#trm}
   */
   readonly trm?: boolean | cdktf.IResolvable;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#vlan_id Networks#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#vlan_id Networks#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Vlan name. If > 32 chars, enable 'system vlan long-name' for NX-OS, disable VTPv1 and VTPv2 or switch to VTPv3 for IOS XE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#vlan_name Networks#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#vlan_name Networks#vlan_name}
   */
   readonly vlanName?: string;
   /**
   * Vlan Netflow Monitor. Provide monitor name defined in fabric setting for Layer 3 Record. For NX-OS only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#vlan_netflow_monitor Networks#vlan_netflow_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#vlan_netflow_monitor Networks#vlan_netflow_monitor}
   */
   readonly vlanNetflowMonitor?: string;
   /**
   * The name of the vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#vrf_name Networks#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#vrf_name Networks#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -1763,7 +1801,7 @@ export class NetworksNetworksMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks ndfc_networks}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks ndfc_networks}
 */
 export class Networks extends cdktf.TerraformResource {
 
@@ -1779,7 +1817,7 @@ export class Networks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Networks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Networks to import
-  * @param importFromId The id of the existing Networks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Networks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Networks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1791,7 +1829,7 @@ export class Networks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/networks ndfc_networks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/networks ndfc_networks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1802,8 +1840,8 @@ export class Networks extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_networks',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

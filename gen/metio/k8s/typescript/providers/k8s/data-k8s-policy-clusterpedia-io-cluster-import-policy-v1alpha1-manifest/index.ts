@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#metadata DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#metadata DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#spec DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#spec DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#annotations DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#annotations DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#labels DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#labels DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#name DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#name DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -183,27 +183,27 @@ export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestMetad
 }
 export interface DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpecReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#group DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#group DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#key DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#key DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#name_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#name_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#name_template}
   */
   readonly nameTemplate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#namespace_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#namespace_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#namespace_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#namespace_template}
   */
   readonly namespaceTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#resource DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#resource DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#versions DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#versions DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#versions}
   */
   readonly versions?: string[];
 }
@@ -452,19 +452,19 @@ export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpecR
 }
 export interface DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpecSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#group DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#group DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#resource DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#resource DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#selector_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#selector_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#selector_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#selector_template}
   */
   readonly selectorTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#versions DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#versions DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#versions}
   */
   readonly versions?: string[];
 }
@@ -639,23 +639,23 @@ export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpecS
 }
 export interface DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#creation_condition DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#creation_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#creation_condition DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#creation_condition}
   */
   readonly creationCondition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#name_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#name_template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#name_template}
   */
   readonly nameTemplate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#references DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#references DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#references}
   */
   readonly references?: DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpecReferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#source DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#source DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#source}
   */
   readonly source: DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpecSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#template DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest#template}
   */
   readonly template: string;
 }
@@ -853,7 +853,7 @@ export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest k8s_policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest k8s_policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest}
 */
 export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -869,7 +869,7 @@ export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -881,7 +881,7 @@ export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest k8s_policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest k8s_policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -892,8 +892,8 @@ export class DataK8SPolicyClusterpediaIoClusterImportPolicyV1Alpha1Manifest exte
       terraformResourceType: 'k8s_policy_clusterpedia_io_cluster_import_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

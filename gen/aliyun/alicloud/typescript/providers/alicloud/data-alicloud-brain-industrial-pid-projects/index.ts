@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudBrainIndustrialPidProjectsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects#id DataAlicloudBrainIndustrialPidProjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects#id DataAlicloudBrainIndustrialPidProjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects#ids DataAlicloudBrainIndustrialPidProjects#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects#ids DataAlicloudBrainIndustrialPidProjects#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects#name_regex DataAlicloudBrainIndustrialPidProjects#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects#name_regex DataAlicloudBrainIndustrialPidProjects#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects#output_file DataAlicloudBrainIndustrialPidProjects#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects#output_file DataAlicloudBrainIndustrialPidProjects#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects#pid_organization_id DataAlicloudBrainIndustrialPidProjects#pid_organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects#pid_organization_id DataAlicloudBrainIndustrialPidProjects#pid_organization_id}
   */
   readonly pidOrganizationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects#pid_project_name DataAlicloudBrainIndustrialPidProjects#pid_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects#pid_project_name DataAlicloudBrainIndustrialPidProjects#pid_project_name}
   */
   readonly pidProjectName?: string;
 }
@@ -132,7 +132,7 @@ export class DataAlicloudBrainIndustrialPidProjectsProjectsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects alicloud_brain_industrial_pid_projects}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects alicloud_brain_industrial_pid_projects}
 */
 export class DataAlicloudBrainIndustrialPidProjects extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataAlicloudBrainIndustrialPidProjects extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataAlicloudBrainIndustrialPidProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudBrainIndustrialPidProjects to import
-  * @param importFromId The id of the existing DataAlicloudBrainIndustrialPidProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudBrainIndustrialPidProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudBrainIndustrialPidProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataAlicloudBrainIndustrialPidProjects extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/brain_industrial_pid_projects alicloud_brain_industrial_pid_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/brain_industrial_pid_projects alicloud_brain_industrial_pid_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataAlicloudBrainIndustrialPidProjects extends cdktf.TerraformDataS
       terraformResourceType: 'alicloud_brain_industrial_pid_projects',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

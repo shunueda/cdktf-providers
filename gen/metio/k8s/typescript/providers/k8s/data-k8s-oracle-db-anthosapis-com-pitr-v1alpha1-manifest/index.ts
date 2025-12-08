@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestMetadata;
   /**
   * PITRSpec defines the desired state of PITR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestSpecInstanceRef
   /**
   * 'name' is the name of a database instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,25 +315,25 @@ export interface DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestSpec {
   /**
   * Schedule is a cron-style expression of the schedule on which Backup will be created for PITR. For allowed syntax, see en.wikipedia.org/wiki/Cron and godoc.org/github.com/robfig/cron. Default to backup every 4 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#backup_schedule DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#backup_schedule DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
   * Images defines PITR service agent images. This is a required map that allows a customer to specify GCR images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#images DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#images DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#images}
   */
   readonly images: { [key: string]: string };
   /**
   * InstanceRef references to the instance that the PITR applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#instance_ref DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#instance_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#instance_ref DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#instance_ref}
   */
   readonly instanceRef: DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestSpecInstanceRef;
   /**
   * StorageURI is the URI to store PITR backups and redo logs. Currently only gs:// (GCS) schemes are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#storage_uri DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#storage_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#storage_uri DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest#storage_uri}
   */
   readonly storageUri?: string;
 }
@@ -508,7 +508,7 @@ export class DataK8SOracleDbAnthosapisComPitrV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest k8s_oracle_db_anthosapis_com_pitr_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest k8s_oracle_db_anthosapis_com_pitr_v1alpha1_manifest}
 */
 export class DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -524,7 +524,7 @@ export class DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +536,7 @@ export class DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest k8s_oracle_db_anthosapis_com_pitr_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_pitr_v1alpha1_manifest k8s_oracle_db_anthosapis_com_pitr_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +547,8 @@ export class DataK8SOracleDbAnthosapisComPitrV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_oracle_db_anthosapis_com_pitr_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface MaxcomputeProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#comment MaxcomputeProject#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#comment MaxcomputeProject#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#default_quota MaxcomputeProject#default_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#default_quota MaxcomputeProject#default_quota}
   */
   readonly defaultQuota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#id MaxcomputeProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#id MaxcomputeProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#is_logical MaxcomputeProject#is_logical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#is_logical MaxcomputeProject#is_logical}
   */
   readonly isLogical?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#product_type MaxcomputeProject#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#product_type MaxcomputeProject#product_type}
   */
   readonly productType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#project_name MaxcomputeProject#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#project_name MaxcomputeProject#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#status MaxcomputeProject#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#status MaxcomputeProject#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#tags MaxcomputeProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#tags MaxcomputeProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#three_tier_model MaxcomputeProject#three_tier_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#three_tier_model MaxcomputeProject#three_tier_model}
   */
   readonly threeTierModel?: boolean | cdktf.IResolvable;
   /**
   * ip_white_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#ip_white_list MaxcomputeProject#ip_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#ip_white_list MaxcomputeProject#ip_white_list}
   */
   readonly ipWhiteList?: MaxcomputeProjectIpWhiteListStruct;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#properties MaxcomputeProject#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#properties MaxcomputeProject#properties}
   */
   readonly properties?: MaxcomputeProjectProperties;
   /**
   * security_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#security_properties MaxcomputeProject#security_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#security_properties MaxcomputeProject#security_properties}
   */
   readonly securityProperties?: MaxcomputeProjectSecurityProperties;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#timeouts MaxcomputeProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#timeouts MaxcomputeProject#timeouts}
   */
   readonly timeouts?: MaxcomputeProjectTimeouts;
 }
 export interface MaxcomputeProjectIpWhiteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#ip_list MaxcomputeProject#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#ip_list MaxcomputeProject#ip_list}
   */
   readonly ipList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#vpc_ip_list MaxcomputeProject#vpc_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#vpc_ip_list MaxcomputeProject#vpc_ip_list}
   */
   readonly vpcIpList?: string;
 }
@@ -190,15 +190,15 @@ export class MaxcomputeProjectIpWhiteListStructOutputReference extends cdktf.Com
 }
 export interface MaxcomputeProjectPropertiesEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#algorithm MaxcomputeProject#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#algorithm MaxcomputeProject#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#enable MaxcomputeProject#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#enable MaxcomputeProject#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#key MaxcomputeProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#key MaxcomputeProject#key}
   */
   readonly key?: string;
 }
@@ -340,11 +340,11 @@ export class MaxcomputeProjectPropertiesEncryptionOutputReference extends cdktf.
 }
 export interface MaxcomputeProjectPropertiesTableLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#type MaxcomputeProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#type MaxcomputeProject#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#value MaxcomputeProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#value MaxcomputeProject#value}
   */
   readonly value?: string;
 }
@@ -457,43 +457,43 @@ export class MaxcomputeProjectPropertiesTableLifecycleOutputReference extends cd
 }
 export interface MaxcomputeProjectProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#allow_full_scan MaxcomputeProject#allow_full_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#allow_full_scan MaxcomputeProject#allow_full_scan}
   */
   readonly allowFullScan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#enable_decimal2 MaxcomputeProject#enable_decimal2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#enable_decimal2 MaxcomputeProject#enable_decimal2}
   */
   readonly enableDecimal2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#enable_dr MaxcomputeProject#enable_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#enable_dr MaxcomputeProject#enable_dr}
   */
   readonly enableDr?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#retention_days MaxcomputeProject#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#retention_days MaxcomputeProject#retention_days}
   */
   readonly retentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#sql_metering_max MaxcomputeProject#sql_metering_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#sql_metering_max MaxcomputeProject#sql_metering_max}
   */
   readonly sqlMeteringMax?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#timezone MaxcomputeProject#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#timezone MaxcomputeProject#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#type_system MaxcomputeProject#type_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#type_system MaxcomputeProject#type_system}
   */
   readonly typeSystem?: string;
   /**
   * encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#encryption MaxcomputeProject#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#encryption MaxcomputeProject#encryption}
   */
   readonly encryption?: MaxcomputeProjectPropertiesEncryption;
   /**
   * table_lifecycle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#table_lifecycle MaxcomputeProject#table_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#table_lifecycle MaxcomputeProject#table_lifecycle}
   */
   readonly tableLifecycle?: MaxcomputeProjectPropertiesTableLifecycle;
 }
@@ -809,11 +809,11 @@ export class MaxcomputeProjectPropertiesOutputReference extends cdktf.ComplexObj
 }
 export interface MaxcomputeProjectSecurityPropertiesProjectProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#exception_policy MaxcomputeProject#exception_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#exception_policy MaxcomputeProject#exception_policy}
   */
   readonly exceptionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#protected MaxcomputeProject#protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#protected MaxcomputeProject#protected}
   */
   readonly protected?: boolean | cdktf.IResolvable;
 }
@@ -926,33 +926,33 @@ export class MaxcomputeProjectSecurityPropertiesProjectProtectionOutputReference
 }
 export interface MaxcomputeProjectSecurityProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#enable_download_privilege MaxcomputeProject#enable_download_privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#enable_download_privilege MaxcomputeProject#enable_download_privilege}
   */
   readonly enableDownloadPrivilege?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#label_security MaxcomputeProject#label_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#label_security MaxcomputeProject#label_security}
   */
   readonly labelSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#object_creator_has_access_permission MaxcomputeProject#object_creator_has_access_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#object_creator_has_access_permission MaxcomputeProject#object_creator_has_access_permission}
   */
   readonly objectCreatorHasAccessPermission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#object_creator_has_grant_permission MaxcomputeProject#object_creator_has_grant_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#object_creator_has_grant_permission MaxcomputeProject#object_creator_has_grant_permission}
   */
   readonly objectCreatorHasGrantPermission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#using_acl MaxcomputeProject#using_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#using_acl MaxcomputeProject#using_acl}
   */
   readonly usingAcl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#using_policy MaxcomputeProject#using_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#using_policy MaxcomputeProject#using_policy}
   */
   readonly usingPolicy?: boolean | cdktf.IResolvable;
   /**
   * project_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#project_protection MaxcomputeProject#project_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#project_protection MaxcomputeProject#project_protection}
   */
   readonly projectProtection?: MaxcomputeProjectSecurityPropertiesProjectProtection;
 }
@@ -1210,15 +1210,15 @@ export class MaxcomputeProjectSecurityPropertiesOutputReference extends cdktf.Co
 }
 export interface MaxcomputeProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#create MaxcomputeProject#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#create MaxcomputeProject#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#delete MaxcomputeProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#delete MaxcomputeProject#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#update MaxcomputeProject#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#update MaxcomputeProject#update}
   */
   readonly update?: string;
 }
@@ -1370,7 +1370,7 @@ export class MaxcomputeProjectTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project alicloud_maxcompute_project}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project alicloud_maxcompute_project}
 */
 export class MaxcomputeProject extends cdktf.TerraformResource {
 
@@ -1386,7 +1386,7 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaxcomputeProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaxcomputeProject to import
-  * @param importFromId The id of the existing MaxcomputeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaxcomputeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaxcomputeProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1398,7 +1398,7 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/maxcompute_project alicloud_maxcompute_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/maxcompute_project alicloud_maxcompute_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1409,8 +1409,8 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_maxcompute_project',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

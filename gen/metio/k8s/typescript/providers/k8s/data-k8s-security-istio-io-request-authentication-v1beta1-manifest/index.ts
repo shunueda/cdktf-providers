@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#metadata DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#metadata DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestMetadata;
   /**
   * Request authentication configuration for workloads. See more details at: https://istio.io/docs/reference/config/security/request_authentication.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#spec DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#spec DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#annotations DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#annotations DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#labels DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#labels DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecJ
   /**
   * The HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The prefix that should be stripped before decoding the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#prefix DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#prefix DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -369,13 +369,13 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecJ
   /**
   * The name of the claim to be copied from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#claim DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#claim DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#claim}
   */
   readonly claim: string;
   /**
   * The name of the header to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#header DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#header DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#header}
   */
   readonly header: string;
 }
@@ -516,67 +516,67 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecJ
   /**
   * The list of JWT [audiences](https://tools.ietf.org/html/rfc7519#section-4.1.3) that are allowed to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#audiences DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#audiences DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * If set to true, the original token will be kept for the upstream request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#forward_original_token DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#forward_original_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#forward_original_token DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#forward_original_token}
   */
   readonly forwardOriginalToken?: boolean | cdktf.IResolvable;
   /**
   * List of cookie names from which JWT is expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#from_cookies DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#from_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#from_cookies DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#from_cookies}
   */
   readonly fromCookies?: string[];
   /**
   * List of header locations from which JWT is expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#from_headers DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#from_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#from_headers DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#from_headers}
   */
   readonly fromHeaders?: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecJwtRulesFromHeaders[] | cdktf.IResolvable;
   /**
   * List of query parameters from which JWT is expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#from_params DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#from_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#from_params DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#from_params}
   */
   readonly fromParams?: string[];
   /**
   * Identifies the issuer that issued the JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#issuer DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#issuer DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#issuer}
   */
   readonly issuer: string;
   /**
   * JSON Web Key Set of public keys to validate signature of the JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#jwks DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#jwks DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#jwks}
   */
   readonly jwks?: string;
   /**
   * URL of the provider's public key set to validate signature of the JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#jwks_uri DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#jwks_uri DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
   * This field specifies a list of operations to copy the claim to HTTP headers on a successfully verified token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#output_claim_to_headers DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#output_claim_to_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#output_claim_to_headers DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#output_claim_to_headers}
   */
   readonly outputClaimToHeaders?: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecJwtRulesOutputClaimToHeaders[] | cdktf.IResolvable;
   /**
   * This field specifies the header name to output a successfully verified JWT payload to the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#output_payload_to_header DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#output_payload_to_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#output_payload_to_header DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#output_payload_to_header}
   */
   readonly outputPayloadToHeader?: string;
   /**
   * The maximum amount of time that the resolver, determined by the PILOT_JWT_ENABLE_REMOTE_JWKS environment variable, will spend waiting for the JWKS to be fetched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#timeout DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#timeout DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -981,7 +981,7 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecS
   /**
   * One or more labels that indicate a specific set of pods/VMs on which a policy should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#match_labels DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#match_labels DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1077,25 +1077,25 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecT
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#group DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#group DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#kind DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#kind DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1272,25 +1272,25 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecT
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#group DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#group DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#kind DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#kind DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1489,23 +1489,23 @@ export interface DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpec 
   /**
   * Define the list of JWTs that can be validated at the selected workloads' proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#jwt_rules DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#jwt_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#jwt_rules DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#jwt_rules}
   */
   readonly jwtRules?: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecJwtRules[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#selector DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#selector DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#target_ref DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#target_ref DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecTargetRef;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#target_refs DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#target_refs DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest#target_refs}
   */
   readonly targetRefs?: DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecTargetRefs[] | cdktf.IResolvable;
 }
@@ -1686,7 +1686,7 @@ export class DataK8SSecurityIstioIoRequestAuthenticationV1Beta1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest k8s_security_istio_io_request_authentication_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest k8s_security_istio_io_request_authentication_v1beta1_manifest}
 */
 export class DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1702,7 +1702,7 @@ export class DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest extends 
   * Generates CDKTF code for importing a DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1714,7 +1714,7 @@ export class DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest k8s_security_istio_io_request_authentication_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/security_istio_io_request_authentication_v1beta1_manifest k8s_security_istio_io_request_authentication_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1725,8 +1725,8 @@ export class DataK8SSecurityIstioIoRequestAuthenticationV1Beta1Manifest extends 
       terraformResourceType: 'k8s_security_istio_io_request_authentication_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

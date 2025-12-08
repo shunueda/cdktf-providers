@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketWebsiteAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#bucket OssBucketWebsiteA#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#bucket OssBucketWebsiteA#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#id OssBucketWebsiteA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#id OssBucketWebsiteA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,35 +21,35 @@ export interface OssBucketWebsiteAConfig extends cdktf.TerraformMetaArguments {
   /**
   * error_document block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#error_document OssBucketWebsiteA#error_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#error_document OssBucketWebsiteA#error_document}
   */
   readonly errorDocument?: OssBucketWebsiteErrorDocument;
   /**
   * index_document block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#index_document OssBucketWebsiteA#index_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#index_document OssBucketWebsiteA#index_document}
   */
   readonly indexDocument?: OssBucketWebsiteIndexDocument;
   /**
   * routing_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#routing_rules OssBucketWebsiteA#routing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#routing_rules OssBucketWebsiteA#routing_rules}
   */
   readonly routingRules?: OssBucketWebsiteRoutingRules;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#timeouts OssBucketWebsiteA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#timeouts OssBucketWebsiteA#timeouts}
   */
   readonly timeouts?: OssBucketWebsiteTimeouts;
 }
 export interface OssBucketWebsiteErrorDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#http_status OssBucketWebsiteA#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#http_status OssBucketWebsiteA#http_status}
   */
   readonly httpStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
   */
   readonly key?: string;
 }
@@ -162,15 +162,15 @@ export class OssBucketWebsiteErrorDocumentOutputReference extends cdktf.ComplexO
 }
 export interface OssBucketWebsiteIndexDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#suffix OssBucketWebsiteA#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#suffix OssBucketWebsiteA#suffix}
   */
   readonly suffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#support_sub_dir OssBucketWebsiteA#support_sub_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#support_sub_dir OssBucketWebsiteA#support_sub_dir}
   */
   readonly supportSubDir?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#type OssBucketWebsiteA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#type OssBucketWebsiteA#type}
   */
   readonly type?: string;
 }
@@ -312,19 +312,19 @@ export class OssBucketWebsiteIndexDocumentOutputReference extends cdktf.ComplexO
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleConditionIncludeHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#ends_with OssBucketWebsiteA#ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#ends_with OssBucketWebsiteA#ends_with}
   */
   readonly endsWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#equals OssBucketWebsiteA#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#equals OssBucketWebsiteA#equals}
   */
   readonly equalTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#starts_with OssBucketWebsiteA#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#starts_with OssBucketWebsiteA#starts_with}
   */
   readonly startsWith?: string;
 }
@@ -527,21 +527,21 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleConditionIncludeHeadersList 
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#http_error_code_returned_equals OssBucketWebsiteA#http_error_code_returned_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#http_error_code_returned_equals OssBucketWebsiteA#http_error_code_returned_equals}
   */
   readonly httpErrorCodeReturnedEquals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#key_prefix_equals OssBucketWebsiteA#key_prefix_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#key_prefix_equals OssBucketWebsiteA#key_prefix_equals}
   */
   readonly keyPrefixEquals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#key_suffix_equals OssBucketWebsiteA#key_suffix_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#key_suffix_equals OssBucketWebsiteA#key_suffix_equals}
   */
   readonly keySuffixEquals?: string;
   /**
   * include_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#include_headers OssBucketWebsiteA#include_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#include_headers OssBucketWebsiteA#include_headers}
   */
   readonly includeHeaders?: OssBucketWebsiteRoutingRulesRoutingRuleConditionIncludeHeaders[] | cdktf.IResolvable;
 }
@@ -712,7 +712,7 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleConditionOutputReference ext
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleLuaConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#script OssBucketWebsiteA#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#script OssBucketWebsiteA#script}
   */
   readonly script?: string;
 }
@@ -796,19 +796,19 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleLuaConfigOutputReference ext
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#access_key_id OssBucketWebsiteA#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#access_key_id OssBucketWebsiteA#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#access_key_secret OssBucketWebsiteA#access_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#access_key_secret OssBucketWebsiteA#access_key_secret}
   */
   readonly accessKeySecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#auth_type OssBucketWebsiteA#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#auth_type OssBucketWebsiteA#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#region OssBucketWebsiteA#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#region OssBucketWebsiteA#region}
   */
   readonly region?: string;
 }
@@ -979,11 +979,11 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorAuthOutputRefe
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorHeadersSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#value OssBucketWebsiteA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#value OssBucketWebsiteA#value}
   */
   readonly value?: string;
 }
@@ -1128,21 +1128,21 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorHeadersSetList
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#pass OssBucketWebsiteA#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#pass OssBucketWebsiteA#pass}
   */
   readonly pass?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#pass_all OssBucketWebsiteA#pass_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#pass_all OssBucketWebsiteA#pass_all}
   */
   readonly passAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#remove OssBucketWebsiteA#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#remove OssBucketWebsiteA#remove}
   */
   readonly remove?: string[];
   /**
   * set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#set OssBucketWebsiteA#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#set OssBucketWebsiteA#set}
   */
   readonly set?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorHeadersSet[] | cdktf.IResolvable;
 }
@@ -1313,19 +1313,19 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorHeadersOutputR
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorMultiAlternatesMirrorMultiAlternate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_multi_alternate_dst_region OssBucketWebsiteA#mirror_multi_alternate_dst_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_multi_alternate_dst_region OssBucketWebsiteA#mirror_multi_alternate_dst_region}
   */
   readonly mirrorMultiAlternateDstRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_multi_alternate_number OssBucketWebsiteA#mirror_multi_alternate_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_multi_alternate_number OssBucketWebsiteA#mirror_multi_alternate_number}
   */
   readonly mirrorMultiAlternateNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_multi_alternate_url OssBucketWebsiteA#mirror_multi_alternate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_multi_alternate_url OssBucketWebsiteA#mirror_multi_alternate_url}
   */
   readonly mirrorMultiAlternateUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_multi_alternate_vpc_id OssBucketWebsiteA#mirror_multi_alternate_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_multi_alternate_vpc_id OssBucketWebsiteA#mirror_multi_alternate_vpc_id}
   */
   readonly mirrorMultiAlternateVpcId?: string;
 }
@@ -1530,7 +1530,7 @@ export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorMultiAlter
   /**
   * mirror_multi_alternate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_multi_alternate OssBucketWebsiteA#mirror_multi_alternate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_multi_alternate OssBucketWebsiteA#mirror_multi_alternate}
   */
   readonly mirrorMultiAlternate?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorMultiAlternatesMirrorMultiAlternate[] | cdktf.IResolvable;
 }
@@ -1614,11 +1614,11 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorMultiAlternate
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorReturnHeadersReturnHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#value OssBucketWebsiteA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#value OssBucketWebsiteA#value}
   */
   readonly value?: string;
 }
@@ -1765,7 +1765,7 @@ export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorReturnHead
   /**
   * return_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#return_header OssBucketWebsiteA#return_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#return_header OssBucketWebsiteA#return_header}
   */
   readonly returnHeader?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorReturnHeadersReturnHeader[] | cdktf.IResolvable;
 }
@@ -1849,11 +1849,11 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorReturnHeadersO
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorTaggingsTaggings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#key OssBucketWebsiteA#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#value OssBucketWebsiteA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#value OssBucketWebsiteA#value}
   */
   readonly value?: string;
 }
@@ -2000,7 +2000,7 @@ export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorTaggings {
   /**
   * taggings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#taggings OssBucketWebsiteA#taggings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#taggings OssBucketWebsiteA#taggings}
   */
   readonly taggings?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorTaggingsTaggings[] | cdktf.IResolvable;
 }
@@ -2084,161 +2084,161 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorTaggingsOutput
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRuleRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#enable_replace_prefix OssBucketWebsiteA#enable_replace_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#enable_replace_prefix OssBucketWebsiteA#enable_replace_prefix}
   */
   readonly enableReplacePrefix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#host_name OssBucketWebsiteA#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#host_name OssBucketWebsiteA#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#http_redirect_code OssBucketWebsiteA#http_redirect_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#http_redirect_code OssBucketWebsiteA#http_redirect_code}
   */
   readonly httpRedirectCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_allow_get_image_info OssBucketWebsiteA#mirror_allow_get_image_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_allow_get_image_info OssBucketWebsiteA#mirror_allow_get_image_info}
   */
   readonly mirrorAllowGetImageInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_allow_head_object OssBucketWebsiteA#mirror_allow_head_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_allow_head_object OssBucketWebsiteA#mirror_allow_head_object}
   */
   readonly mirrorAllowHeadObject?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_allow_video_snapshot OssBucketWebsiteA#mirror_allow_video_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_allow_video_snapshot OssBucketWebsiteA#mirror_allow_video_snapshot}
   */
   readonly mirrorAllowVideoSnapshot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_async_status OssBucketWebsiteA#mirror_async_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_async_status OssBucketWebsiteA#mirror_async_status}
   */
   readonly mirrorAsyncStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_check_md5 OssBucketWebsiteA#mirror_check_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_check_md5 OssBucketWebsiteA#mirror_check_md5}
   */
   readonly mirrorCheckMd5?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_dst_region OssBucketWebsiteA#mirror_dst_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_dst_region OssBucketWebsiteA#mirror_dst_region}
   */
   readonly mirrorDstRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_dst_slave_vpc_id OssBucketWebsiteA#mirror_dst_slave_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_dst_slave_vpc_id OssBucketWebsiteA#mirror_dst_slave_vpc_id}
   */
   readonly mirrorDstSlaveVpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_dst_vpc_id OssBucketWebsiteA#mirror_dst_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_dst_vpc_id OssBucketWebsiteA#mirror_dst_vpc_id}
   */
   readonly mirrorDstVpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_follow_redirect OssBucketWebsiteA#mirror_follow_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_follow_redirect OssBucketWebsiteA#mirror_follow_redirect}
   */
   readonly mirrorFollowRedirect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_is_express_tunnel OssBucketWebsiteA#mirror_is_express_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_is_express_tunnel OssBucketWebsiteA#mirror_is_express_tunnel}
   */
   readonly mirrorIsExpressTunnel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_pass_original_slashes OssBucketWebsiteA#mirror_pass_original_slashes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_pass_original_slashes OssBucketWebsiteA#mirror_pass_original_slashes}
   */
   readonly mirrorPassOriginalSlashes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_pass_query_string OssBucketWebsiteA#mirror_pass_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_pass_query_string OssBucketWebsiteA#mirror_pass_query_string}
   */
   readonly mirrorPassQueryString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_proxy_pass OssBucketWebsiteA#mirror_proxy_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_proxy_pass OssBucketWebsiteA#mirror_proxy_pass}
   */
   readonly mirrorProxyPass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_role OssBucketWebsiteA#mirror_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_role OssBucketWebsiteA#mirror_role}
   */
   readonly mirrorRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_save_oss_meta OssBucketWebsiteA#mirror_save_oss_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_save_oss_meta OssBucketWebsiteA#mirror_save_oss_meta}
   */
   readonly mirrorSaveOssMeta?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_sni OssBucketWebsiteA#mirror_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_sni OssBucketWebsiteA#mirror_sni}
   */
   readonly mirrorSni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_switch_all_errors OssBucketWebsiteA#mirror_switch_all_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_switch_all_errors OssBucketWebsiteA#mirror_switch_all_errors}
   */
   readonly mirrorSwitchAllErrors?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_tunnel_id OssBucketWebsiteA#mirror_tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_tunnel_id OssBucketWebsiteA#mirror_tunnel_id}
   */
   readonly mirrorTunnelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_url OssBucketWebsiteA#mirror_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_url OssBucketWebsiteA#mirror_url}
   */
   readonly mirrorUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_url_probe OssBucketWebsiteA#mirror_url_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_url_probe OssBucketWebsiteA#mirror_url_probe}
   */
   readonly mirrorUrlProbe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_url_slave OssBucketWebsiteA#mirror_url_slave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_url_slave OssBucketWebsiteA#mirror_url_slave}
   */
   readonly mirrorUrlSlave?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_user_last_modified OssBucketWebsiteA#mirror_user_last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_user_last_modified OssBucketWebsiteA#mirror_user_last_modified}
   */
   readonly mirrorUserLastModified?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_using_role OssBucketWebsiteA#mirror_using_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_using_role OssBucketWebsiteA#mirror_using_role}
   */
   readonly mirrorUsingRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#pass_query_string OssBucketWebsiteA#pass_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#pass_query_string OssBucketWebsiteA#pass_query_string}
   */
   readonly passQueryString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#protocol OssBucketWebsiteA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#protocol OssBucketWebsiteA#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#redirect_type OssBucketWebsiteA#redirect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#redirect_type OssBucketWebsiteA#redirect_type}
   */
   readonly redirectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#replace_key_prefix_with OssBucketWebsiteA#replace_key_prefix_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#replace_key_prefix_with OssBucketWebsiteA#replace_key_prefix_with}
   */
   readonly replaceKeyPrefixWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#replace_key_with OssBucketWebsiteA#replace_key_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#replace_key_with OssBucketWebsiteA#replace_key_with}
   */
   readonly replaceKeyWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#transparent_mirror_response_codes OssBucketWebsiteA#transparent_mirror_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#transparent_mirror_response_codes OssBucketWebsiteA#transparent_mirror_response_codes}
   */
   readonly transparentMirrorResponseCodes?: string;
   /**
   * mirror_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_auth OssBucketWebsiteA#mirror_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_auth OssBucketWebsiteA#mirror_auth}
   */
   readonly mirrorAuth?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorAuth;
   /**
   * mirror_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_headers OssBucketWebsiteA#mirror_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_headers OssBucketWebsiteA#mirror_headers}
   */
   readonly mirrorHeaders?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorHeaders;
   /**
   * mirror_multi_alternates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_multi_alternates OssBucketWebsiteA#mirror_multi_alternates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_multi_alternates OssBucketWebsiteA#mirror_multi_alternates}
   */
   readonly mirrorMultiAlternates?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorMultiAlternates;
   /**
   * mirror_return_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_return_headers OssBucketWebsiteA#mirror_return_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_return_headers OssBucketWebsiteA#mirror_return_headers}
   */
   readonly mirrorReturnHeaders?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorReturnHeaders;
   /**
   * mirror_taggings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#mirror_taggings OssBucketWebsiteA#mirror_taggings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#mirror_taggings OssBucketWebsiteA#mirror_taggings}
   */
   readonly mirrorTaggings?: OssBucketWebsiteRoutingRulesRoutingRuleRedirectMirrorTaggings;
 }
@@ -3366,25 +3366,25 @@ export class OssBucketWebsiteRoutingRulesRoutingRuleRedirectOutputReference exte
 }
 export interface OssBucketWebsiteRoutingRulesRoutingRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#rule_number OssBucketWebsiteA#rule_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#rule_number OssBucketWebsiteA#rule_number}
   */
   readonly ruleNumber?: number;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#condition OssBucketWebsiteA#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#condition OssBucketWebsiteA#condition}
   */
   readonly condition?: OssBucketWebsiteRoutingRulesRoutingRuleCondition;
   /**
   * lua_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#lua_config OssBucketWebsiteA#lua_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#lua_config OssBucketWebsiteA#lua_config}
   */
   readonly luaConfig?: OssBucketWebsiteRoutingRulesRoutingRuleLuaConfig;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#redirect OssBucketWebsiteA#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#redirect OssBucketWebsiteA#redirect}
   */
   readonly redirect?: OssBucketWebsiteRoutingRulesRoutingRuleRedirect;
 }
@@ -3589,7 +3589,7 @@ export interface OssBucketWebsiteRoutingRules {
   /**
   * routing_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#routing_rule OssBucketWebsiteA#routing_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#routing_rule OssBucketWebsiteA#routing_rule}
   */
   readonly routingRule?: OssBucketWebsiteRoutingRulesRoutingRule[] | cdktf.IResolvable;
 }
@@ -3673,15 +3673,15 @@ export class OssBucketWebsiteRoutingRulesOutputReference extends cdktf.ComplexOb
 }
 export interface OssBucketWebsiteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#create OssBucketWebsiteA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#create OssBucketWebsiteA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#delete OssBucketWebsiteA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#delete OssBucketWebsiteA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#update OssBucketWebsiteA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#update OssBucketWebsiteA#update}
   */
   readonly update?: string;
 }
@@ -3833,7 +3833,7 @@ export class OssBucketWebsiteTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website alicloud_oss_bucket_website}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website alicloud_oss_bucket_website}
 */
 export class OssBucketWebsiteA extends cdktf.TerraformResource {
 
@@ -3849,7 +3849,7 @@ export class OssBucketWebsiteA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucketWebsiteA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucketWebsiteA to import
-  * @param importFromId The id of the existing OssBucketWebsiteA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucketWebsiteA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucketWebsiteA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3861,7 +3861,7 @@ export class OssBucketWebsiteA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_website alicloud_oss_bucket_website} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_website alicloud_oss_bucket_website} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3872,8 +3872,8 @@ export class OssBucketWebsiteA extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_website',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

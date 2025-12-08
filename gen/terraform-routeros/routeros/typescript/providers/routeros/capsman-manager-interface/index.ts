@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CapsmanManagerInterfaceConfig extends cdktf.TerraformMetaArgume
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface#___path___ CapsmanManagerInterface#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface#___path___ CapsmanManagerInterface#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface#comment CapsmanManagerInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface#comment CapsmanManagerInterface#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface#disabled CapsmanManagerInterface#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface#disabled CapsmanManagerInterface#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Disable interface listening.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface#forbid CapsmanManagerInterface#forbid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface#forbid CapsmanManagerInterface#forbid}
   */
   readonly forbid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface#id CapsmanManagerInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface#id CapsmanManagerInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,13 +37,13 @@ export interface CapsmanManagerInterfaceConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface#interface CapsmanManagerInterface#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface#interface CapsmanManagerInterface#interface}
   */
   readonly interface: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface routeros_capsman_manager_interface}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface routeros_capsman_manager_interface}
 */
 export class CapsmanManagerInterface extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class CapsmanManagerInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanManagerInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanManagerInterface to import
-  * @param importFromId The id of the existing CapsmanManagerInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanManagerInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanManagerInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class CapsmanManagerInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/capsman_manager_interface routeros_capsman_manager_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/capsman_manager_interface routeros_capsman_manager_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class CapsmanManagerInterface extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_manager_interface',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

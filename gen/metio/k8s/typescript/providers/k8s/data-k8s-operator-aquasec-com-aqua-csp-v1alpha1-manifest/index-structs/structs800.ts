@@ -123,49 +123,49 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#access_modes DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#access_modes DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. If the AnyVolumeDataSource feature gate is enabled, this field will always have the same contents as the DataSourceRef field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#data_source DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#data_source DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any local object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the DataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, both fields (DataSource and DataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. There are two important differences between DataSource and DataSourceRef: * While DataSource only allows two specific types of objects, DataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While DataSource ignores disallowed values (dropping them), DataSourceRef preserves all values, and generates an error if a disallowed value is specified. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#data_source_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#data_source_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resources DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resources DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#selector DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#selector DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_class_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_class_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -464,13 +464,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#metadata DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#metadata DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#spec DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#spec DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -592,7 +592,7 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_claim_template DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_claim_template DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEphemeralVolumeClaimTemplate;
 }
@@ -688,31 +688,31 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#lun DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#lun DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#target_ww_ns DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#target_ww_ns DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#wwids DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#wwids DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -924,7 +924,7 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1020,31 +1020,31 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#driver DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#driver DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#options DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#options DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesFlexVolumeSecretRef;
 }
@@ -1253,13 +1253,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#dataset_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#dataset_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#dataset_uuid DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#dataset_uuid DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -1384,25 +1384,25 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#partition DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#partition DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#pd_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#pd_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1582,19 +1582,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#directory DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#directory DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#repository DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#repository DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#revision DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#revision DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -1745,19 +1745,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#endpoints DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#endpoints DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1905,13 +1905,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2033,7 +2033,7 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2129,67 +2129,67 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#chap_auth_discovery DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#chap_auth_discovery DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#chap_auth_session DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#chap_auth_session DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#initiator_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#initiator_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#iqn DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#iqn DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#iscsi_interface DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#iscsi_interface DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#lun DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#lun DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#portals DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#portals DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#target_portal DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#target_portal DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -2566,19 +2566,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -2726,13 +2726,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#claim_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#claim_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -2854,13 +2854,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#pd_id DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#pd_id DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -2982,19 +2982,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_id DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_id DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -3145,19 +3145,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -3327,19 +3327,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3493,13 +3493,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#api_version DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#api_version DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -3621,19 +3621,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#container_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#container_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#divisor DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#divisor DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -3784,25 +3784,25 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource_field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource_field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -4004,7 +4004,7 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -4100,19 +4100,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -4282,19 +4282,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4448,19 +4448,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#audience DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#audience DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#expiration_seconds DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#expiration_seconds DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -4611,25 +4611,25 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#config_map DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#config_map DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#downward_api DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#downward_api DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#service_account_token DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#service_account_token DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSourcesServiceAccountToken;
 }
@@ -4834,13 +4834,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#default_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#default_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#sources DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#sources DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -4965,37 +4965,37 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#group DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#group DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#registry DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#registry DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#tenant DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#tenant DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#user DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#user DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -5230,7 +5230,7 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5326,49 +5326,49 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#image DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#image DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#keyring DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#keyring DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#monitors DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#monitors DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#pool DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#pool DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#user DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#user DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -5661,7 +5661,7 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5757,61 +5757,61 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gateway DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gateway DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#protection_domain DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#protection_domain DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#ssl_enabled DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#ssl_enabled DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_pool DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_pool DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#system DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#system DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -6159,19 +6159,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -6341,25 +6341,25 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#default_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#default_mode DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#items DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -6542,7 +6542,7 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6638,31 +6638,31 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#read_only DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_namespace DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_namespace DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -6874,25 +6874,25 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fs_type DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_policy_id DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_policy_id DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_policy_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storage_policy_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -7072,181 +7072,181 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolum
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#aws_elastic_block_store DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#aws_elastic_block_store DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#azure_disk DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#azure_disk DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#azure_file DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#azure_file DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#cephfs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#cephfs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#cinder DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#cinder DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#config_map DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#config_map DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#csi DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#csi DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#downward_api DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#downward_api DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#empty_dir DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#empty_dir DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#ephemeral DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#ephemeral DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fc DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#fc DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#flex_volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#flex_volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#flocker DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#flocker DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gce_persistent_disk DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gce_persistent_disk DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#git_repo DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#git_repo DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#glusterfs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#glusterfs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#host_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#host_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#iscsi DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#iscsi DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#nfs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#nfs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#persistent_volume_claim DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#persistent_volume_claim DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#photon_persistent_disk DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#photon_persistent_disk DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#portworx_volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#portworx_volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#projected DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#projected DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#quobyte DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#quobyte DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#rbd DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#rbd DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#scale_io DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#scale_io DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storageos DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#storageos DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#vsphere_volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#vsphere_volume DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumesVsphereVolume;
 }
@@ -8202,55 +8202,55 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServer {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#affinity DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#affinity DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#image DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#image DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerImage;
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#liveness_probe DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#liveness_probe DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#node_selector DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#node_selector DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#readiness_probe DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#readiness_probe DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerReadinessProbe;
   /**
   * Number of instances to deploy for a specific aqua deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#replicas DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#replicas DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#replicas}
   */
   readonly replicas: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resources DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resources DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#service DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#service DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#tolerations DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#tolerations DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_mounts DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volume_mounts DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volumes DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#volumes DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerVolumes[] | cdktf.IResolvable;
 }
@@ -8633,19 +8633,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsV
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8796,13 +8796,13 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsV
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#api_version DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#api_version DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_path DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8924,19 +8924,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsV
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#container_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#container_name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#divisor DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#divisor DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9087,19 +9087,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsV
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#key DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#optional DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9250,25 +9250,25 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsV
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#config_map_key_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#config_map_key_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource_field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#resource_field_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_key_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#secret_key_ref DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsValueFromSecretKeyRef;
 }
@@ -9451,19 +9451,19 @@ export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvs 
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#name DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#value DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#value DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#value_from DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#value_from DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsValueFrom;
 }
@@ -9634,85 +9634,85 @@ export class DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvsList 
 }
 export interface DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#admin_password DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#admin_password DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#audit_db DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#audit_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#audit_db DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#audit_db}
   */
   readonly auditDb?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecAuditDb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#common DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#common DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#common}
   */
   readonly common?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecCommon;
   /**
   * AquaService Struct for deployment spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#database DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#database DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#database}
   */
   readonly database?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#enforcer DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#enforcer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#enforcer DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#enforcer}
   */
   readonly enforcer?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecEnforcer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#external_db DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#external_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#external_db DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#external_db}
   */
   readonly externalDb?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecExternalDb;
   /**
   * AquaService Struct for deployment spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gateway DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gateway DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gateway}
   */
   readonly gateway: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecGateway;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gateway_envs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gateway_envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#gateway_envs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#gateway_envs}
   */
   readonly gatewayEnvs?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecGatewayEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#infra DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#infra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#infra DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#infra}
   */
   readonly infra?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecInfra;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#kube_enforcer DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#kube_enforcer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#kube_enforcer DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#kube_enforcer}
   */
   readonly kubeEnforcer?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecKubeEnforcer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#license_token DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#license_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#license_token DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#license_token}
   */
   readonly licenseToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mtls DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#mtls DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#mtls}
   */
   readonly mtls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#registry DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#registry DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#registry}
   */
   readonly registry?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecRegistry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#route DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#route DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#route}
   */
   readonly route?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#run_as_non_root DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#run_as_non_root DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * AquaService Struct for deployment spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server}
   */
   readonly server: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server_config_map_data DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server_config_map_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server_config_map_data DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server_config_map_data}
   */
   readonly serverConfigMapData?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server_envs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server_envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#server_envs DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#server_envs}
   */
   readonly serverEnvs?: DataK8SOperatorAquasecComAquaCspV1Alpha1ManifestSpecServerEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#update_enforcer DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#update_enforcer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_aquasec_com_aqua_csp_v1alpha1_manifest#update_enforcer DataK8SOperatorAquasecComAquaCspV1Alpha1Manifest#update_enforcer}
   */
   readonly updateEnforcer?: boolean | cdktf.IResolvable;
 }

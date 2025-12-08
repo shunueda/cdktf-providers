@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#metadata DataK8SApisixApacheOrgApisixUpstreamV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#metadata DataK8SApisixApacheOrgApisixUpstreamV2Manifest#metadata}
   */
   readonly metadata: DataK8SApisixApacheOrgApisixUpstreamV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#spec DataK8SApisixApacheOrgApisixUpstreamV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#spec DataK8SApisixApacheOrgApisixUpstreamV2Manifest#spec}
   */
   readonly spec?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#annotations DataK8SApisixApacheOrgApisixUpstreamV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#annotations DataK8SApisixApacheOrgApisixUpstreamV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#labels DataK8SApisixApacheOrgApisixUpstreamV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#labels DataK8SApisixApacheOrgApisixUpstreamV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#namespace DataK8SApisixApacheOrgApisixUpstreamV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#namespace DataK8SApisixApacheOrgApisixUpstreamV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestMetadataOutputReferen
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecDiscovery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#args DataK8SApisixApacheOrgApisixUpstreamV2Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#args DataK8SApisixApacheOrgApisixUpstreamV2Manifest#args}
   */
   readonly args?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#service_name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#service_name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -375,19 +375,19 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecDiscoveryOutputRe
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecExternalNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#weight DataK8SApisixApacheOrgApisixUpstreamV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#weight DataK8SApisixApacheOrgApisixUpstreamV2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -590,15 +590,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecExternalNodesList
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActiveHealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
   */
   readonly successes?: number;
 }
@@ -750,23 +750,23 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActive
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActiveUnhealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
   */
   readonly httpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
   */
   readonly tcpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeouts DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeouts DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeouts}
   */
   readonly timeouts?: number;
 }
@@ -976,43 +976,43 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActive
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#concurrency DataK8SApisixApacheOrgApisixUpstreamV2Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#concurrency DataK8SApisixApacheOrgApisixUpstreamV2Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
   */
   readonly healthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActiveHealthy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_path DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_path DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_path}
   */
   readonly httpPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#request_headers DataK8SApisixApacheOrgApisixUpstreamV2Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#request_headers DataK8SApisixApacheOrgApisixUpstreamV2Manifest#request_headers}
   */
   readonly requestHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#strict_tls DataK8SApisixApacheOrgApisixUpstreamV2Manifest#strict_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#strict_tls DataK8SApisixApacheOrgApisixUpstreamV2Manifest#strict_tls}
   */
   readonly strictTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
   */
   readonly unhealthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActiveUnhealthy;
 }
@@ -1367,11 +1367,11 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActive
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassiveHealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
   */
   readonly successes?: number;
 }
@@ -1494,19 +1494,19 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassiv
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassiveUnhealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
   */
   readonly httpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
   */
   readonly tcpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeouts DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeouts DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeouts}
   */
   readonly timeouts?: number;
 }
@@ -1687,15 +1687,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassiv
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
   */
   readonly healthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassiveHealthy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
   */
   readonly unhealthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassiveUnhealthy;
 }
@@ -1847,11 +1847,11 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassiv
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#active DataK8SApisixApacheOrgApisixUpstreamV2Manifest#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#active DataK8SApisixApacheOrgApisixUpstreamV2Manifest#active}
   */
   readonly active?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckActive;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#passive DataK8SApisixApacheOrgApisixUpstreamV2Manifest#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#passive DataK8SApisixApacheOrgApisixUpstreamV2Manifest#passive}
   */
   readonly passive?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckPassive;
 }
@@ -1974,15 +1974,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheckOutput
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecLoadbalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#hash_on DataK8SApisixApacheOrgApisixUpstreamV2Manifest#hash_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#hash_on DataK8SApisixApacheOrgApisixUpstreamV2Manifest#hash_on}
   */
   readonly hashOn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#key DataK8SApisixApacheOrgApisixUpstreamV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#key DataK8SApisixApacheOrgApisixUpstreamV2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type: string;
 }
@@ -2131,15 +2131,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecLoadbalancerOutpu
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckActiveHealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
   */
   readonly successes?: number;
 }
@@ -2291,23 +2291,23 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckActiveUnhealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
   */
   readonly httpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#interval DataK8SApisixApacheOrgApisixUpstreamV2Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
   */
   readonly tcpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2517,43 +2517,43 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckActive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#concurrency DataK8SApisixApacheOrgApisixUpstreamV2Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#concurrency DataK8SApisixApacheOrgApisixUpstreamV2Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
   */
   readonly healthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckActiveHealthy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_path DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_path DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_path}
   */
   readonly httpPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#request_headers DataK8SApisixApacheOrgApisixUpstreamV2Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#request_headers DataK8SApisixApacheOrgApisixUpstreamV2Manifest#request_headers}
   */
   readonly requestHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#strict_tls DataK8SApisixApacheOrgApisixUpstreamV2Manifest#strict_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#strict_tls DataK8SApisixApacheOrgApisixUpstreamV2Manifest#strict_tls}
   */
   readonly strictTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
   */
   readonly unhealthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckActiveUnhealthy;
 }
@@ -2908,11 +2908,11 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckPassiveHealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#successes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#successes}
   */
   readonly successes?: number;
 }
@@ -3035,19 +3035,19 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckPassiveUnhealthy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_codes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_codes}
   */
   readonly httpCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#http_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#http_failures}
   */
   readonly httpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tcp_failures DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tcp_failures}
   */
   readonly tcpFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -3228,15 +3228,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckPassive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#healthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#healthy}
   */
   readonly healthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckPassiveHealthy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#unhealthy DataK8SApisixApacheOrgApisixUpstreamV2Manifest#unhealthy}
   */
   readonly unhealthy?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckPassiveUnhealthy;
 }
@@ -3388,11 +3388,11 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#active DataK8SApisixApacheOrgApisixUpstreamV2Manifest#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#active DataK8SApisixApacheOrgApisixUpstreamV2Manifest#active}
   */
   readonly active?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckActive;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#passive DataK8SApisixApacheOrgApisixUpstreamV2Manifest#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#passive DataK8SApisixApacheOrgApisixUpstreamV2Manifest#passive}
   */
   readonly passive?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheckPassive;
 }
@@ -3515,15 +3515,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsLoadbalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#hash_on DataK8SApisixApacheOrgApisixUpstreamV2Manifest#hash_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#hash_on DataK8SApisixApacheOrgApisixUpstreamV2Manifest#hash_on}
   */
   readonly hashOn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#key DataK8SApisixApacheOrgApisixUpstreamV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#key DataK8SApisixApacheOrgApisixUpstreamV2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#type DataK8SApisixApacheOrgApisixUpstreamV2Manifest#type}
   */
   readonly type: string;
 }
@@ -3672,15 +3672,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#connect DataK8SApisixApacheOrgApisixUpstreamV2Manifest#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#connect DataK8SApisixApacheOrgApisixUpstreamV2Manifest#connect}
   */
   readonly connect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#read DataK8SApisixApacheOrgApisixUpstreamV2Manifest#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#read DataK8SApisixApacheOrgApisixUpstreamV2Manifest#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#send DataK8SApisixApacheOrgApisixUpstreamV2Manifest#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#send DataK8SApisixApacheOrgApisixUpstreamV2Manifest#send}
   */
   readonly send?: string;
 }
@@ -3832,27 +3832,27 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#health_check DataK8SApisixApacheOrgApisixUpstreamV2Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#health_check DataK8SApisixApacheOrgApisixUpstreamV2Manifest#health_check}
   */
   readonly healthCheck?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsHealthCheck;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#loadbalancer DataK8SApisixApacheOrgApisixUpstreamV2Manifest#loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#loadbalancer DataK8SApisixApacheOrgApisixUpstreamV2Manifest#loadbalancer}
   */
   readonly loadbalancer?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsLoadbalancer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#retries DataK8SApisixApacheOrgApisixUpstreamV2Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#retries DataK8SApisixApacheOrgApisixUpstreamV2Manifest#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#scheme DataK8SApisixApacheOrgApisixUpstreamV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#scheme DataK8SApisixApacheOrgApisixUpstreamV2Manifest#scheme}
   */
   readonly scheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
   */
   readonly timeout?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettingsTimeout;
 }
@@ -4113,11 +4113,11 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecSubsets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#labels DataK8SApisixApacheOrgApisixUpstreamV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#labels DataK8SApisixApacheOrgApisixUpstreamV2Manifest#labels}
   */
   readonly labels: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
   */
   readonly name: string;
 }
@@ -4256,15 +4256,15 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecSubsetsList exten
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#connect DataK8SApisixApacheOrgApisixUpstreamV2Manifest#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#connect DataK8SApisixApacheOrgApisixUpstreamV2Manifest#connect}
   */
   readonly connect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#read DataK8SApisixApacheOrgApisixUpstreamV2Manifest#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#read DataK8SApisixApacheOrgApisixUpstreamV2Manifest#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#send DataK8SApisixApacheOrgApisixUpstreamV2Manifest#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#send DataK8SApisixApacheOrgApisixUpstreamV2Manifest#send}
   */
   readonly send?: string;
 }
@@ -4416,11 +4416,11 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecTimeoutOutputRefe
 }
 export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecTlsSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#namespace DataK8SApisixApacheOrgApisixUpstreamV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#namespace DataK8SApisixApacheOrgApisixUpstreamV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -4539,59 +4539,59 @@ export interface DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpec {
   /**
   * Discovery is used to configure service discovery for upstream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#discovery DataK8SApisixApacheOrgApisixUpstreamV2Manifest#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#discovery DataK8SApisixApacheOrgApisixUpstreamV2Manifest#discovery}
   */
   readonly discovery?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecDiscovery;
   /**
   * ExternalNodes contains external nodes the Upstream should use If this field is set, the upstream will use these nodes directly without any further resolves
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#external_nodes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#external_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#external_nodes DataK8SApisixApacheOrgApisixUpstreamV2Manifest#external_nodes}
   */
   readonly externalNodes?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecExternalNodes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#health_check DataK8SApisixApacheOrgApisixUpstreamV2Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#health_check DataK8SApisixApacheOrgApisixUpstreamV2Manifest#health_check}
   */
   readonly healthCheck?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecHealthCheck;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixUpstreamV2Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#loadbalancer DataK8SApisixApacheOrgApisixUpstreamV2Manifest#loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#loadbalancer DataK8SApisixApacheOrgApisixUpstreamV2Manifest#loadbalancer}
   */
   readonly loadbalancer?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecLoadbalancer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#pass_host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#pass_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#pass_host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#pass_host}
   */
   readonly passHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port_level_settings DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port_level_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#port_level_settings DataK8SApisixApacheOrgApisixUpstreamV2Manifest#port_level_settings}
   */
   readonly portLevelSettings?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecPortLevelSettings[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#retries DataK8SApisixApacheOrgApisixUpstreamV2Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#retries DataK8SApisixApacheOrgApisixUpstreamV2Manifest#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#scheme DataK8SApisixApacheOrgApisixUpstreamV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#scheme DataK8SApisixApacheOrgApisixUpstreamV2Manifest#scheme}
   */
   readonly scheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#subsets DataK8SApisixApacheOrgApisixUpstreamV2Manifest#subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#subsets DataK8SApisixApacheOrgApisixUpstreamV2Manifest#subsets}
   */
   readonly subsets?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecSubsets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#timeout DataK8SApisixApacheOrgApisixUpstreamV2Manifest#timeout}
   */
   readonly timeout?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecTimeout;
   /**
   * ApisixSecret describes the Kubernetes Secret name and namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tls_secret DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#tls_secret DataK8SApisixApacheOrgApisixUpstreamV2Manifest#tls_secret}
   */
   readonly tlsSecret?: DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecTlsSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#upstream_host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#upstream_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#upstream_host DataK8SApisixApacheOrgApisixUpstreamV2Manifest#upstream_host}
   */
   readonly upstreamHost?: string;
 }
@@ -5033,7 +5033,7 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest k8s_apisix_apache_org_apisix_upstream_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest k8s_apisix_apache_org_apisix_upstream_v2_manifest}
 */
 export class DataK8SApisixApacheOrgApisixUpstreamV2Manifest extends cdktf.TerraformDataSource {
 
@@ -5049,7 +5049,7 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SApisixApacheOrgApisixUpstreamV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApisixApacheOrgApisixUpstreamV2Manifest to import
-  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixUpstreamV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixUpstreamV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApisixApacheOrgApisixUpstreamV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5061,7 +5061,7 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest k8s_apisix_apache_org_apisix_upstream_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_upstream_v2_manifest k8s_apisix_apache_org_apisix_upstream_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5072,8 +5072,8 @@ export class DataK8SApisixApacheOrgApisixUpstreamV2Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_apisix_apache_org_apisix_upstream_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

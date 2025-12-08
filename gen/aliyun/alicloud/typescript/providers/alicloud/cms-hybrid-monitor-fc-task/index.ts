@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface CmsHybridMonitorFcTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#id CmsHybridMonitorFcTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#id CmsHybridMonitorFcTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#namespace CmsHybridMonitorFcTask#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#namespace CmsHybridMonitorFcTask#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#target_user_id CmsHybridMonitorFcTask#target_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#target_user_id CmsHybridMonitorFcTask#target_user_id}
   */
   readonly targetUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#yarm_config CmsHybridMonitorFcTask#yarm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#yarm_config CmsHybridMonitorFcTask#yarm_config}
   */
   readonly yarmConfig: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#timeouts CmsHybridMonitorFcTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#timeouts CmsHybridMonitorFcTask#timeouts}
   */
   readonly timeouts?: CmsHybridMonitorFcTaskTimeouts;
 }
 export interface CmsHybridMonitorFcTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#create CmsHybridMonitorFcTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#create CmsHybridMonitorFcTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#delete CmsHybridMonitorFcTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#delete CmsHybridMonitorFcTask#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#update CmsHybridMonitorFcTask#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#update CmsHybridMonitorFcTask#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class CmsHybridMonitorFcTaskTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task alicloud_cms_hybrid_monitor_fc_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task alicloud_cms_hybrid_monitor_fc_task}
 */
 export class CmsHybridMonitorFcTask extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class CmsHybridMonitorFcTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsHybridMonitorFcTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsHybridMonitorFcTask to import
-  * @param importFromId The id of the existing CmsHybridMonitorFcTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsHybridMonitorFcTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsHybridMonitorFcTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class CmsHybridMonitorFcTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_hybrid_monitor_fc_task alicloud_cms_hybrid_monitor_fc_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_fc_task alicloud_cms_hybrid_monitor_fc_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class CmsHybridMonitorFcTask extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_hybrid_monitor_fc_task',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

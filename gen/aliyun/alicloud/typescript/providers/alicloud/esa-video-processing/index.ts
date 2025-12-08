@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface EsaVideoProcessingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#flv_seek_end EsaVideoProcessing#flv_seek_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#flv_seek_end EsaVideoProcessing#flv_seek_end}
   */
   readonly flvSeekEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#flv_seek_start EsaVideoProcessing#flv_seek_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#flv_seek_start EsaVideoProcessing#flv_seek_start}
   */
   readonly flvSeekStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#flv_video_seek_mode EsaVideoProcessing#flv_video_seek_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#flv_video_seek_mode EsaVideoProcessing#flv_video_seek_mode}
   */
   readonly flvVideoSeekMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#id EsaVideoProcessing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#id EsaVideoProcessing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#mp4_seek_end EsaVideoProcessing#mp4_seek_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#mp4_seek_end EsaVideoProcessing#mp4_seek_end}
   */
   readonly mp4SeekEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#mp4_seek_start EsaVideoProcessing#mp4_seek_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#mp4_seek_start EsaVideoProcessing#mp4_seek_start}
   */
   readonly mp4SeekStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#rule EsaVideoProcessing#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#rule EsaVideoProcessing#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#rule_enable EsaVideoProcessing#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#rule_enable EsaVideoProcessing#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#rule_name EsaVideoProcessing#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#rule_name EsaVideoProcessing#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#sequence EsaVideoProcessing#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#sequence EsaVideoProcessing#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#site_id EsaVideoProcessing#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#site_id EsaVideoProcessing#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#site_version EsaVideoProcessing#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#site_version EsaVideoProcessing#site_version}
   */
   readonly siteVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#video_seek_enable EsaVideoProcessing#video_seek_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#video_seek_enable EsaVideoProcessing#video_seek_enable}
   */
   readonly videoSeekEnable?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#timeouts EsaVideoProcessing#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#timeouts EsaVideoProcessing#timeouts}
   */
   readonly timeouts?: EsaVideoProcessingTimeouts;
 }
 export interface EsaVideoProcessingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#create EsaVideoProcessing#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#create EsaVideoProcessing#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#delete EsaVideoProcessing#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#delete EsaVideoProcessing#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#update EsaVideoProcessing#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#update EsaVideoProcessing#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class EsaVideoProcessingTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing alicloud_esa_video_processing}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing alicloud_esa_video_processing}
 */
 export class EsaVideoProcessing extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class EsaVideoProcessing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaVideoProcessing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaVideoProcessing to import
-  * @param importFromId The id of the existing EsaVideoProcessing that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaVideoProcessing that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaVideoProcessing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class EsaVideoProcessing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_video_processing alicloud_esa_video_processing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_video_processing alicloud_esa_video_processing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class EsaVideoProcessing extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_video_processing',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -467,11 +467,11 @@ export class EsaVideoProcessing extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -543,7 +543,7 @@ export class EsaVideoProcessing extends cdktf.TerraformResource {
       rule_enable: cdktf.stringToTerraform(this._ruleEnable),
       rule_name: cdktf.stringToTerraform(this._ruleName),
       sequence: cdktf.numberToTerraform(this._sequence),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       site_version: cdktf.numberToTerraform(this._siteVersion),
       video_seek_enable: cdktf.stringToTerraform(this._videoSeekEnable),
       timeouts: esaVideoProcessingTimeoutsToTerraform(this._timeouts.internalValue),
@@ -613,10 +613,10 @@ export class EsaVideoProcessing extends cdktf.TerraformResource {
         storageClassType: "number",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       site_version: {
         value: cdktf.numberToHclTerraform(this._siteVersion),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#metadata DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#metadata DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestMetadata;
   /**
   * AccessPointSpec defines the desired state of AccessPoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#spec DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#spec DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#annotations DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#annotations DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#labels DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#labels DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestMetadataOutputRe
 }
 export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecFileSystemRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecFileSyst
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#from DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#from DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecFileSystemRefFrom;
 }
@@ -440,15 +440,15 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecFileSystemRe
 }
 export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecPosixUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#gid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#gid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#secondary_gi_ds DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#secondary_gi_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#secondary_gi_ds DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#secondary_gi_ds}
   */
   readonly secondaryGiDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#uid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#uid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#uid}
   */
   readonly uid?: number;
 }
@@ -600,15 +600,15 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecPosixUserOut
 }
 export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecRootDirectoryCreationInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#owner_gid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#owner_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#owner_gid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#owner_gid}
   */
   readonly ownerGid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#owner_uid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#owner_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#owner_uid DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#owner_uid}
   */
   readonly ownerUid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#permissions DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#permissions DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#permissions}
   */
   readonly permissions?: string;
 }
@@ -762,11 +762,11 @@ export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecRootDire
   /**
   * Required if the RootDirectory > Path specified does not exist. Specifies the POSIX IDs and permissions to apply to the access point's RootDirectory > Path. If the access point root directory does not exist, EFS creates it with these settings when a client connects to the access point. When specifying CreationInfo, you must include values for all properties. Amazon EFS creates a root directory only if you have provided the CreationInfo: OwnUid, OwnGID, and permissions for the directory. If you do not provide this information, Amazon EFS does not create the root directory. If the root directory does not exist, attempts to mount using the access point will fail. If you do not provide CreationInfo and the specified RootDirectory does not exist, attempts to mount the file system using the access point will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#creation_info DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#creation_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#creation_info DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#creation_info}
   */
   readonly creationInfo?: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecRootDirectoryCreationInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#path DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#path DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -889,11 +889,11 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecRootDirector
 }
 export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#key DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#key DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#value DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#value DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1040,31 +1040,31 @@ export interface DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpec {
   /**
   * The ID of the EFS file system that the access point provides access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#file_system_id DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#file_system_id DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#file_system_ref DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#file_system_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#file_system_ref DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#file_system_ref}
   */
   readonly fileSystemRef?: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecFileSystemRef;
   /**
   * The operating system user and group applied to all file system requests made using the access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#posix_user DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#posix_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#posix_user DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#posix_user}
   */
   readonly posixUser?: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecPosixUser;
   /**
   * Specifies the directory on the EFS file system that the access point exposes as the root directory of your file system to NFS clients using the access point. The clients using the access point can only access the root directory and below. If the RootDirectory > Path specified does not exist, Amazon EFS creates it and applies the CreationInfo settings when a client connects to an access point. When specifying a RootDirectory, you must provide the Path, and the CreationInfo. Amazon EFS creates a root directory only if you have provided the CreationInfo: OwnUid, OwnGID, and permissions for the directory. If you do not provide this information, Amazon EFS does not create the root directory. If the root directory does not exist, attempts to mount using the access point will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#root_directory DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#root_directory DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#root_directory}
   */
   readonly rootDirectory?: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecRootDirectory;
   /**
   * Creates tags associated with the access point. Each tag is a key-value pair, each key must be unique. For more information, see Tagging Amazon Web Services resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html) in the Amazon Web Services General Reference Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#tags DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#tags DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -1274,7 +1274,7 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest k8s_efs_services_k8s_aws_access_point_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest k8s_efs_services_k8s_aws_access_point_v1alpha1_manifest}
 */
 export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1290,7 +1290,7 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1302,7 +1302,7 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest k8s_efs_services_k8s_aws_access_point_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/efs_services_k8s_aws_access_point_v1alpha1_manifest k8s_efs_services_k8s_aws_access_point_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1313,8 +1313,8 @@ export class DataK8SEfsServicesK8SAwsAccessPointV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_efs_services_k8s_aws_access_point_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

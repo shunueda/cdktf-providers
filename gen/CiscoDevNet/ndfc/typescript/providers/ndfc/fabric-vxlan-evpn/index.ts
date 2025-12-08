@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn
+// https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,1413 +10,1413 @@ export interface FabricVxlanEvpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable only, when IP Authorization is enabled in the AAA Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#aaa_remote_ip_enabled FabricVxlanEvpn#aaa_remote_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#aaa_remote_ip_enabled FabricVxlanEvpn#aaa_remote_ip_enabled}
   */
   readonly aaaRemoteIpEnabled?: boolean | cdktf.IResolvable;
   /**
   * AAA Configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#aaa_server_conf FabricVxlanEvpn#aaa_server_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#aaa_server_conf FabricVxlanEvpn#aaa_server_conf}
   */
   readonly aaaServerConf?: string;
   /**
   * Active Migration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#active_migration FabricVxlanEvpn#active_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#active_migration FabricVxlanEvpn#active_migration}
   */
   readonly activeMigration?: boolean | cdktf.IResolvable;
   /**
   * For Primary VTEP IP Advertisement As Next-Hop Of Prefix Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#advertise_pip_bgp FabricVxlanEvpn#advertise_pip_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#advertise_pip_bgp FabricVxlanEvpn#advertise_pip_bgp}
   */
   readonly advertisePipBgp?: boolean | cdktf.IResolvable;
   /**
   * Enable advertise-pip on vPC borders and border gateways only. Applicable only when vPC advertise-pip is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#advertise_pip_on_border FabricVxlanEvpn#advertise_pip_on_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#advertise_pip_on_border FabricVxlanEvpn#advertise_pip_on_border}
   */
   readonly advertisePipOnBorder?: boolean | cdktf.IResolvable;
   /**
   * Interface to connect to Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#agent_intf FabricVxlanEvpn#agent_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#agent_intf FabricVxlanEvpn#agent_intf}
   */
   readonly agentIntf?: string;
   /**
   * Specify one vPC/Port-Channel ID range, this range is used for auto-allocating vPC/Port-Channel IDs for leaf-tor pairings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#agg_acc_vpc_po_id_range FabricVxlanEvpn#agg_acc_vpc_po_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#agg_acc_vpc_po_id_range FabricVxlanEvpn#agg_acc_vpc_po_id_range}
   */
   readonly aggAccVpcPoIdRange?: string;
   /**
   * Queuing Policy based on predominant fabric link speed: 400G / 100G / 25G
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ai_ml_qos_policy FabricVxlanEvpn#ai_ml_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ai_ml_qos_policy FabricVxlanEvpn#ai_ml_qos_policy}
   */
   readonly aiMlQosPolicy?: string;
   /**
   * Whether allows L3 VNI configuration without VLAN configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#allow_l3vni_no_vlan FabricVxlanEvpn#allow_l3vni_no_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#allow_l3vni_no_vlan FabricVxlanEvpn#allow_l3vni_no_vlan}
   */
   readonly allowL3VniNoVlan?: boolean | cdktf.IResolvable;
   /**
   * Allow onboarding of this fabric to Nexus Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#allow_nxc FabricVxlanEvpn#allow_nxc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#allow_nxc FabricVxlanEvpn#allow_nxc}
   */
   readonly allowNxc?: boolean | cdktf.IResolvable;
   /**
   * To advertise Anycast Border Gateway PIP as VTEP. Effective on MSD fabric 'Recalculate Config'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#anycast_bgw_advertise_pip FabricVxlanEvpn#anycast_bgw_advertise_pip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#anycast_bgw_advertise_pip FabricVxlanEvpn#anycast_bgw_advertise_pip}
   */
   readonly anycastBgwAdvertisePip?: boolean | cdktf.IResolvable;
   /**
   * Shared MAC address for all leafs (xxxx.xxxx.xxxx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#anycast_gw_mac FabricVxlanEvpn#anycast_gw_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#anycast_gw_mac FabricVxlanEvpn#anycast_gw_mac}
   */
   readonly anycastGwMac?: string;
   /**
   * Underlay Anycast Loopback Id - Used for vPC Peering in VXLANv6 Fabrics (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#anycast_lb_id FabricVxlanEvpn#anycast_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#anycast_lb_id FabricVxlanEvpn#anycast_lb_id}
   */
   readonly anycastLbId?: number;
   /**
   * Anycast or Phantom RP IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#anycast_rp_ip_range FabricVxlanEvpn#anycast_rp_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#anycast_rp_ip_range FabricVxlanEvpn#anycast_rp_ip_range}
   */
   readonly anycastRpIpRange?: string;
   /**
   * Whether to auto generate Default VRF interface and BGP peering configuration on managed neighbor devices. If set, auto created VRF Lite IFC links will have 'Auto Deploy Default VRF for Peer' enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#auto_symmetric_default_vrf FabricVxlanEvpn#auto_symmetric_default_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#auto_symmetric_default_vrf FabricVxlanEvpn#auto_symmetric_default_vrf}
   */
   readonly autoSymmetricDefaultVrf?: boolean | cdktf.IResolvable;
   /**
   * Whether to auto generate VRF LITE sub-interface and BGP peering configuration on managed neighbor devices. If set, auto created VRF Lite IFC links will have 'Auto Deploy for Peer' enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#auto_symmetric_vrf_lite FabricVxlanEvpn#auto_symmetric_vrf_lite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#auto_symmetric_vrf_lite FabricVxlanEvpn#auto_symmetric_vrf_lite}
   */
   readonly autoSymmetricVrfLite?: boolean | cdktf.IResolvable;
   /**
   * When enabled, IP prefix allocated to the VRF LITE IFC is not reused on VRF extension over VRF LITE IFC. Instead, unique IP Subnet is allocated for each VRF extension over VRF LITE IFC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#auto_unique_vrf_lite_ip_prefix FabricVxlanEvpn#auto_unique_vrf_lite_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#auto_unique_vrf_lite_ip_prefix FabricVxlanEvpn#auto_unique_vrf_lite_ip_prefix}
   */
   readonly autoUniqueVrfLiteIpPrefix?: boolean | cdktf.IResolvable;
   /**
   * For IPv4 underlay, whether to auto generate BGP peering in Default VRF for VRF Lite IFC auto deployment option. If set, will auto create VRF Lite Inter-Fabric links with 'Auto Deploy Default VRF' knob enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#auto_vrflite_ifc_default_vrf FabricVxlanEvpn#auto_vrflite_ifc_default_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#auto_vrflite_ifc_default_vrf FabricVxlanEvpn#auto_vrflite_ifc_default_vrf}
   */
   readonly autoVrfliteIfcDefaultVrf?: boolean | cdktf.IResolvable;
   /**
   * Message of the Day (motd) banner. Delimiter char (very first char is delimiter char) followed by message ending with delimiter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#banner FabricVxlanEvpn#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#banner FabricVxlanEvpn#banner}
   */
   readonly banner?: string;
   /**
   * Enable BFD Authentication - Valid for P2P Interfaces only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_auth_enable FabricVxlanEvpn#bfd_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_auth_enable FabricVxlanEvpn#bfd_auth_enable}
   */
   readonly bfdAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * BFD Authentication Key - Encrypted SHA1 secret value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_auth_key FabricVxlanEvpn#bfd_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_auth_key FabricVxlanEvpn#bfd_auth_key}
   */
   readonly bfdAuthKey?: string;
   /**
   * BFD Authentication Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_auth_key_id FabricVxlanEvpn#bfd_auth_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_auth_key_id FabricVxlanEvpn#bfd_auth_key_id}
   */
   readonly bfdAuthKeyId?: number;
   /**
   * Enable BFD - Valid for IPv4 Underlay only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_enable FabricVxlanEvpn#bfd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_enable FabricVxlanEvpn#bfd_enable}
   */
   readonly bfdEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD For iBGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_ibgp_enable FabricVxlanEvpn#bfd_ibgp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_ibgp_enable FabricVxlanEvpn#bfd_ibgp_enable}
   */
   readonly bfdIbgpEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD For ISIS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_isis_enable FabricVxlanEvpn#bfd_isis_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_isis_enable FabricVxlanEvpn#bfd_isis_enable}
   */
   readonly bfdIsisEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD For OSPF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_ospf_enable FabricVxlanEvpn#bfd_ospf_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_ospf_enable FabricVxlanEvpn#bfd_ospf_enable}
   */
   readonly bfdOspfEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD For PIM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bfd_pim_enable FabricVxlanEvpn#bfd_pim_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bfd_pim_enable FabricVxlanEvpn#bfd_pim_enable}
   */
   readonly bfdPimEnable?: boolean | cdktf.IResolvable;
   /**
   * 1-4294967295 | 1-65535[.0-65535] It is a good practice to have a unique ASN for each Fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bgp_as FabricVxlanEvpn#bgp_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bgp_as FabricVxlanEvpn#bgp_as}
   */
   readonly bgpAs: string;
   /**
   * Enable BGP Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bgp_auth_enable FabricVxlanEvpn#bgp_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bgp_auth_enable FabricVxlanEvpn#bgp_auth_enable}
   */
   readonly bgpAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * BGP Authentication Key - Encrypted BGP Authentication Key based on type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bgp_auth_key FabricVxlanEvpn#bgp_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bgp_auth_key FabricVxlanEvpn#bgp_auth_key}
   */
   readonly bgpAuthKey?: string;
   /**
   * BGP Authentication Key Encryption Type: 3 - 3DES, 7 - Cisco
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bgp_auth_key_type FabricVxlanEvpn#bgp_auth_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bgp_auth_key_type FabricVxlanEvpn#bgp_auth_key_type}
   */
   readonly bgpAuthKeyType?: number;
   /**
   * Underlay Routing Loopback Id (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bgp_lb_id FabricVxlanEvpn#bgp_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bgp_lb_id FabricVxlanEvpn#bgp_lb_id}
   */
   readonly bgpLbId?: number;
   /**
   * Additional CLIs required during device bootup/login e.g. AAA/Radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bootstrap_conf FabricVxlanEvpn#bootstrap_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bootstrap_conf FabricVxlanEvpn#bootstrap_conf}
   */
   readonly bootstrapConf?: string;
   /**
   * Automatic IP Assignment For POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bootstrap_enable FabricVxlanEvpn#bootstrap_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bootstrap_enable FabricVxlanEvpn#bootstrap_enable}
   */
   readonly bootstrapEnable?: boolean | cdktf.IResolvable;
   /**
   * DHCPv4 Multi Subnet Scope - lines with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#bootstrap_multisubnet FabricVxlanEvpn#bootstrap_multisubnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#bootstrap_multisubnet FabricVxlanEvpn#bootstrap_multisubnet}
   */
   readonly bootstrapMultisubnet?: string;
   /**
   * Only for brf debugging purpose !!!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#brfield_debug_flag FabricVxlanEvpn#brfield_debug_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#brfield_debug_flag FabricVxlanEvpn#brfield_debug_flag}
   */
   readonly brfieldDebugFlag?: string;
   /**
   * Brownfield Overlay Network Name Format - Generated network name should be < 64 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#brownfield_network_name_format FabricVxlanEvpn#brownfield_network_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#brownfield_network_name_format FabricVxlanEvpn#brownfield_network_name_format}
   */
   readonly brownfieldNetworkNameFormat?: string;
   /**
   * Enable to skip overlay network interface attachments for Brownfield and Host Port Resync cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#brownfield_skip_overlay_network_attachments FabricVxlanEvpn#brownfield_skip_overlay_network_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#brownfield_skip_overlay_network_attachments FabricVxlanEvpn#brownfield_skip_overlay_network_attachments}
   */
   readonly brownfieldSkipOverlayNetworkAttachments?: boolean | cdktf.IResolvable;
   /**
   * Enable CDP for Bootstrapped Switch - Enable CDP on management interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#cdp_enable FabricVxlanEvpn#cdp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#cdp_enable FabricVxlanEvpn#cdp_enable}
   */
   readonly cdpEnable?: boolean | cdktf.IResolvable;
   /**
   * Fabric Wide CoPP Policy. Customized CoPP policy should be provided when 'manual' is selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#copp_policy FabricVxlanEvpn#copp_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#copp_policy FabricVxlanEvpn#copp_policy}
   */
   readonly coppPolicy?: string;
   /**
   * AES_128_CMAC or AES_256_CMAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dci_macsec_algorithm FabricVxlanEvpn#dci_macsec_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dci_macsec_algorithm FabricVxlanEvpn#dci_macsec_algorithm}
   */
   readonly dciMacsecAlgorithm?: string;
   /**
   * Configure Cipher Suite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dci_macsec_cipher_suite FabricVxlanEvpn#dci_macsec_cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dci_macsec_cipher_suite FabricVxlanEvpn#dci_macsec_cipher_suite}
   */
   readonly dciMacsecCipherSuite?: string;
   /**
   * AES_128_CMAC or AES_256_CMAC. This parameter is used when DCI link has QKD disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dci_macsec_fallback_algorithm FabricVxlanEvpn#dci_macsec_fallback_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dci_macsec_fallback_algorithm FabricVxlanEvpn#dci_macsec_fallback_algorithm}
   */
   readonly dciMacsecFallbackAlgorithm?: string;
   /**
   * Cisco Type 7 Encrypted Octet String. This parameter is used when DCI link has QKD disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dci_macsec_fallback_key_string FabricVxlanEvpn#dci_macsec_fallback_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dci_macsec_fallback_key_string FabricVxlanEvpn#dci_macsec_fallback_key_string}
   */
   readonly dciMacsecFallbackKeyString?: string;
   /**
   * Cisco Type 7 Encrypted Octet String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dci_macsec_key_string FabricVxlanEvpn#dci_macsec_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dci_macsec_key_string FabricVxlanEvpn#dci_macsec_key_string}
   */
   readonly dciMacsecKeyString?: string;
   /**
   * Address range to assign P2P Interfabric Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dci_subnet_range FabricVxlanEvpn#dci_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dci_subnet_range FabricVxlanEvpn#dci_subnet_range}
   */
   readonly dciSubnetRange?: string;
   /**
   * VRF Lite Subnet Mask (Min:8, Max:31)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dci_subnet_target_mask FabricVxlanEvpn#dci_subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dci_subnet_target_mask FabricVxlanEvpn#dci_subnet_target_mask}
   */
   readonly dciSubnetTargetMask?: number;
   /**
   * Default Overlay Network Template For Leafs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#default_network FabricVxlanEvpn#default_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#default_network FabricVxlanEvpn#default_network}
   */
   readonly defaultNetwork?: string;
   /**
   * Default PVLAN Secondary Network Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#default_pvlan_sec_network FabricVxlanEvpn#default_pvlan_sec_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#default_pvlan_sec_network FabricVxlanEvpn#default_pvlan_sec_network}
   */
   readonly defaultPvlanSecNetwork?: string;
   /**
   * Queuing Policy for all 92xx, -EX, -FX, -FX2, -FX3, -GX series switches in the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#default_queuing_policy_cloudscale FabricVxlanEvpn#default_queuing_policy_cloudscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#default_queuing_policy_cloudscale FabricVxlanEvpn#default_queuing_policy_cloudscale}
   */
   readonly defaultQueuingPolicyCloudscale?: string;
   /**
   * Queuing Policy for all other switches in the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#default_queuing_policy_other FabricVxlanEvpn#default_queuing_policy_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#default_queuing_policy_other FabricVxlanEvpn#default_queuing_policy_other}
   */
   readonly defaultQueuingPolicyOther?: string;
   /**
   * Queuing Policy for all R-Series switches in the fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#default_queuing_policy_r_series FabricVxlanEvpn#default_queuing_policy_r_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#default_queuing_policy_r_series FabricVxlanEvpn#default_queuing_policy_r_series}
   */
   readonly defaultQueuingPolicyRSeries?: string;
   /**
   * Default Overlay VRF Template For Leafs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#default_vrf FabricVxlanEvpn#default_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#default_vrf FabricVxlanEvpn#default_vrf}
   */
   readonly defaultVrf?: string;
   /**
   * Route Map used to redistribute BGP routes to IGP in default vrf in auto created VRF Lite IFC links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#default_vrf_redis_bgp_rmap FabricVxlanEvpn#default_vrf_redis_bgp_rmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#default_vrf_redis_bgp_rmap FabricVxlanEvpn#default_vrf_redis_bgp_rmap}
   */
   readonly defaultVrfRedisBgpRmap?: string;
   /**
   * This flag does configuration save and deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#deploy FabricVxlanEvpn#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#deploy FabricVxlanEvpn#deploy}
   */
   readonly deploy: boolean | cdktf.IResolvable;
   /**
   * Disable all deployments in this fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#deployment_freeze FabricVxlanEvpn#deployment_freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#deployment_freeze FabricVxlanEvpn#deployment_freeze}
   */
   readonly deploymentFreeze?: boolean | cdktf.IResolvable;
   /**
   * Automatic IP Assignment For POAP From Local DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dhcp_enable FabricVxlanEvpn#dhcp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dhcp_enable FabricVxlanEvpn#dhcp_enable}
   */
   readonly dhcpEnable?: boolean | cdktf.IResolvable;
   /**
   * End Address For Switch POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dhcp_end FabricVxlanEvpn#dhcp_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dhcp_end FabricVxlanEvpn#dhcp_end}
   */
   readonly dhcpEnd?: string;
   /**
   * DHCP Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dhcp_ipv6_enable FabricVxlanEvpn#dhcp_ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dhcp_ipv6_enable FabricVxlanEvpn#dhcp_ipv6_enable}
   */
   readonly dhcpIpv6Enable?: string;
   /**
   * Start Address For Switch POAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dhcp_start FabricVxlanEvpn#dhcp_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dhcp_start FabricVxlanEvpn#dhcp_start}
   */
   readonly dhcpStart?: string;
   /**
   * Comma separated list of IP Addresses (v4/v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dns_server_ip_list FabricVxlanEvpn#dns_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dns_server_ip_list FabricVxlanEvpn#dns_server_ip_list}
   */
   readonly dnsServerIpList?: string;
   /**
   * One VRF for all DNS servers or a comma separated list of VRFs, one per DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#dns_server_vrf FabricVxlanEvpn#dns_server_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#dns_server_vrf FabricVxlanEvpn#dns_server_vrf}
   */
   readonly dnsServerVrf?: string;
   /**
   * Include AAA configs from Manageability tab during device bootup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_aaa FabricVxlanEvpn#enable_aaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_aaa FabricVxlanEvpn#enable_aaa}
   */
   readonly enableAaa?: boolean | cdktf.IResolvable;
   /**
   * Enable Agnet (development purpose only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_agent FabricVxlanEvpn#enable_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_agent FabricVxlanEvpn#enable_agent}
   */
   readonly enableAgent?: boolean | cdktf.IResolvable;
   /**
   * Use specific vPC/Port-channel ID range for leaf-tor pairings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_agg_acc_id_range FabricVxlanEvpn#enable_agg_acc_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_agg_acc_id_range FabricVxlanEvpn#enable_agg_acc_id_range}
   */
   readonly enableAggAccIdRange?: boolean | cdktf.IResolvable;
   /**
   * Configures QoS and Queuing Policies specific to N9K Cloud Scale switch fabric for AI/ML network loads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_ai_ml_qos_policy FabricVxlanEvpn#enable_ai_ml_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_ai_ml_qos_policy FabricVxlanEvpn#enable_ai_ml_qos_policy}
   */
   readonly enableAiMlQosPolicy?: boolean | cdktf.IResolvable;
   /**
   * Enable DCI MACsec - Enable MACsec on DCI links. DCI MACsec fabric parameters are used for configuring MACsec on a DCI link if 'Use Link MACsec Setting' is disabled on the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_dci_macsec FabricVxlanEvpn#enable_dci_macsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_dci_macsec FabricVxlanEvpn#enable_dci_macsec}
   */
   readonly enableDciMacsec?: boolean | cdktf.IResolvable;
   /**
   * Enable Default Queuing Policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_default_queuing_policy FabricVxlanEvpn#enable_default_queuing_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_default_queuing_policy FabricVxlanEvpn#enable_default_queuing_policy}
   */
   readonly enableDefaultQueuingPolicy?: boolean | cdktf.IResolvable;
   /**
   * Enable the same vPC Domain Id for all vPC Pairs (Not Recommended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_fabric_vpc_domain_id FabricVxlanEvpn#enable_fabric_vpc_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_fabric_vpc_domain_id FabricVxlanEvpn#enable_fabric_vpc_domain_id}
   */
   readonly enableFabricVpcDomainId?: boolean | cdktf.IResolvable;
   /**
   * L3 VNI configuration without VLAN configuration. This value is propagated on vrf creation as the default value of 'Enable L3VNI w/o VLAN' in vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_l3vni_no_vlan FabricVxlanEvpn#enable_l3vni_no_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_l3vni_no_vlan FabricVxlanEvpn#enable_l3vni_no_vlan}
   */
   readonly enableL3VniNoVlan?: boolean | cdktf.IResolvable;
   /**
   * Enable MACsec - Enable MACsec in the fabric. MACsec fabric parameters are used for configuring MACsec on a fabric link if MACsec is enabled on the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_macsec FabricVxlanEvpn#enable_macsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_macsec FabricVxlanEvpn#enable_macsec}
   */
   readonly enableMacsec?: boolean | cdktf.IResolvable;
   /**
   * Enable Netflow on VTEPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_netflow FabricVxlanEvpn#enable_netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_netflow FabricVxlanEvpn#enable_netflow}
   */
   readonly enableNetflow?: boolean | cdktf.IResolvable;
   /**
   * Enable VXLAN OAM - Enable the Next Generation (NG) OAM feature for all switches in the fabric to aid in trouble-shooting VXLAN EVPN fabrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_ngoam FabricVxlanEvpn#enable_ngoam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_ngoam FabricVxlanEvpn#enable_ngoam}
   */
   readonly enableNgoam?: boolean | cdktf.IResolvable;
   /**
   * Enable NX-API - Enable HTTPS NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_nxapi FabricVxlanEvpn#enable_nxapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_nxapi FabricVxlanEvpn#enable_nxapi}
   */
   readonly enableNxapi?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTP NX-API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_nxapi_http FabricVxlanEvpn#enable_nxapi_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_nxapi_http FabricVxlanEvpn#enable_nxapi_http}
   */
   readonly enableNxapiHttp?: boolean | cdktf.IResolvable;
   /**
   * Enable feature pbr, sla sender, epbr, or enable feature pbr, based on the L4-L7 Services use case
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_pbr FabricVxlanEvpn#enable_pbr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_pbr FabricVxlanEvpn#enable_pbr}
   */
   readonly enablePbr?: boolean | cdktf.IResolvable;
   /**
   * Enable Private VLAN (PVLAN) - Enable PVLAN on switches except spines and super spines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_pvlan FabricVxlanEvpn#enable_pvlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_pvlan FabricVxlanEvpn#enable_pvlan}
   */
   readonly enablePvlan?: boolean | cdktf.IResolvable;
   /**
   * Enable QKD - Enable DCI MACsec with QKD config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_qkd FabricVxlanEvpn#enable_qkd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_qkd FabricVxlanEvpn#enable_qkd}
   */
   readonly enableQkd?: boolean | cdktf.IResolvable;
   /**
   * Backup hourly only if there is any config deployment since last backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_real_time_backup FabricVxlanEvpn#enable_real_time_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_real_time_backup FabricVxlanEvpn#enable_real_time_backup}
   */
   readonly enableRealTimeBackup?: boolean | cdktf.IResolvable;
   /**
   * Enable Real Time Interface Statistics Collection - Valid for NX-OS only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_rt_intf_stats FabricVxlanEvpn#enable_rt_intf_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_rt_intf_stats FabricVxlanEvpn#enable_rt_intf_stats}
   */
   readonly enableRtIntfStats?: boolean | cdktf.IResolvable;
   /**
   * Backup at the specified time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_scheduled_backup FabricVxlanEvpn#enable_scheduled_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_scheduled_backup FabricVxlanEvpn#enable_scheduled_backup}
   */
   readonly enableScheduledBackup?: boolean | cdktf.IResolvable;
   /**
   * Enable Security Groups - Security group can be enabled only with V4 underlay and CLI overlay mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_sgt FabricVxlanEvpn#enable_sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_sgt FabricVxlanEvpn#enable_sgt}
   */
   readonly enableSgt?: boolean | cdktf.IResolvable;
   /**
   * Enable Tenant DHCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_tenant_dhcp FabricVxlanEvpn#enable_tenant_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_tenant_dhcp FabricVxlanEvpn#enable_tenant_dhcp}
   */
   readonly enableTenantDhcp?: boolean | cdktf.IResolvable;
   /**
   * For Overlay IPv4 Multicast Support In VXLAN Fabrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_trm FabricVxlanEvpn#enable_trm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_trm FabricVxlanEvpn#enable_trm}
   */
   readonly enableTrm?: boolean | cdktf.IResolvable;
   /**
   * For Overlay IPv6 Multicast Support In VXLAN Fabrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_trmv6 FabricVxlanEvpn#enable_trmv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_trmv6 FabricVxlanEvpn#enable_trmv6}
   */
   readonly enableTrmv6?: boolean | cdktf.IResolvable;
   /**
   * Make vPC Peer Link VLAN as Native VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_vpc_peer_link_native_vlan FabricVxlanEvpn#enable_vpc_peer_link_native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_vpc_peer_link_native_vlan FabricVxlanEvpn#enable_vpc_peer_link_native_vlan}
   */
   readonly enableVpcPeerLinkNativeVlan?: boolean | cdktf.IResolvable;
   /**
   * One time VRI ID re-allocation based on 'MVPN VRI ID Range'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#enable_vri_id_realloc FabricVxlanEvpn#enable_vri_id_realloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#enable_vri_id_realloc FabricVxlanEvpn#enable_vri_id_realloc}
   */
   readonly enableVriIdRealloc?: boolean | cdktf.IResolvable;
   /**
   * Policy-Based Routing (PBR) or Enhanced PBR (ePBR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#esr_option FabricVxlanEvpn#esr_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#esr_option FabricVxlanEvpn#esr_option}
   */
   readonly esrOption?: string;
   /**
   * External Fabric Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ext_fabric_type FabricVxlanEvpn#ext_fabric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ext_fabric_type FabricVxlanEvpn#ext_fabric_type}
   */
   readonly extFabricType?: string;
   /**
   * Additional CLIs For All Intra-Fabric Links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#extra_conf_intra_links FabricVxlanEvpn#extra_conf_intra_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#extra_conf_intra_links FabricVxlanEvpn#extra_conf_intra_links}
   */
   readonly extraConfIntraLinks?: string;
   /**
   * Additional CLIs For All Leafs As Captured From Show Running Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#extra_conf_leaf FabricVxlanEvpn#extra_conf_leaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#extra_conf_leaf FabricVxlanEvpn#extra_conf_leaf}
   */
   readonly extraConfLeaf?: string;
   /**
   * Additional CLIs For All Spines As Captured From Show Running Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#extra_conf_spine FabricVxlanEvpn#extra_conf_spine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#extra_conf_spine FabricVxlanEvpn#extra_conf_spine}
   */
   readonly extraConfSpine?: string;
   /**
   * Additional CLIs For All ToRs As Captured From Show Running Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#extra_conf_tor FabricVxlanEvpn#extra_conf_tor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#extra_conf_tor FabricVxlanEvpn#extra_conf_tor}
   */
   readonly extraConfTor?: string;
   /**
   * Fabric Interface Numbering - Numbered(Point-to-Point) or Unnumbered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#fabric_interface_type FabricVxlanEvpn#fabric_interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#fabric_interface_type FabricVxlanEvpn#fabric_interface_type}
   */
   readonly fabricInterfaceType?: string;
   /**
   * Intra Fabric Interface MTU (Min:576, Max:9216). Must be an even number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#fabric_mtu FabricVxlanEvpn#fabric_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#fabric_mtu FabricVxlanEvpn#fabric_mtu}
   */
   readonly fabricMtu?: number;
   /**
   * Fabric name to be created, updated or deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#fabric_name FabricVxlanEvpn#fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#fabric_name FabricVxlanEvpn#fabric_name}
   */
   readonly fabricName: string;
   /**
   * vPC Domain Id to be used on all vPC pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#fabric_vpc_domain_id FabricVxlanEvpn#fabric_vpc_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#fabric_vpc_domain_id FabricVxlanEvpn#fabric_vpc_domain_id}
   */
   readonly fabricVpcDomainId?: number;
   /**
   * Qos on spines for guaranteed delivery of vPC Fabric Peering communication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#fabric_vpc_qos FabricVxlanEvpn#fabric_vpc_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#fabric_vpc_qos FabricVxlanEvpn#fabric_vpc_qos}
   */
   readonly fabricVpcQos?: boolean | cdktf.IResolvable;
   /**
   * Qos Policy name should be same on all spines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#fabric_vpc_qos_policy_name FabricVxlanEvpn#fabric_vpc_qos_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#fabric_vpc_qos_policy_name FabricVxlanEvpn#fabric_vpc_qos_policy_name}
   */
   readonly fabricVpcQosPolicyName?: string;
   /**
   * Enable Precision Time Protocol (PTP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#feature_ptp FabricVxlanEvpn#feature_ptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#feature_ptp FabricVxlanEvpn#feature_ptp}
   */
   readonly featurePtp?: boolean | cdktf.IResolvable;
   /**
   * Template Family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ff FabricVxlanEvpn#ff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ff FabricVxlanEvpn#ff}
   */
   readonly ff?: string;
   /**
   * Greenfield Cleanup Option - Enable to clean switch configuration without reload when PreserveConfig=no
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#grfield_debug_flag FabricVxlanEvpn#grfield_debug_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#grfield_debug_flag FabricVxlanEvpn#grfield_debug_flag}
   */
   readonly grfieldDebugFlag?: string;
   /**
   * NVE Source Interface HoldDown Time (Min:1, Max:1500) in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#hd_time FabricVxlanEvpn#hd_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#hd_time FabricVxlanEvpn#hd_time}
   */
   readonly hdTime?: number;
   /**
   * Unshut Host Interfaces by Default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#host_intf_admin_state FabricVxlanEvpn#host_intf_admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#host_intf_admin_state FabricVxlanEvpn#host_intf_admin_state}
   */
   readonly hostIntfAdminState?: boolean | cdktf.IResolvable;
   /**
   * iBGP Peer-Template Config - Specifies the iBGP Peer-Template config used for RR and spines with border role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ibgp_peer_template FabricVxlanEvpn#ibgp_peer_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ibgp_peer_template FabricVxlanEvpn#ibgp_peer_template}
   */
   readonly ibgpPeerTemplate?: string;
   /**
   * Leaf/Border/Border Gateway iBGP Peer-Template Config - Specifies the config used for leaf, border or border gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ibgp_peer_template_leaf FabricVxlanEvpn#ibgp_peer_template_leaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ibgp_peer_template_leaf FabricVxlanEvpn#ibgp_peer_template_leaf}
   */
   readonly ibgpPeerTemplateLeaf?: string;
   /**
   * Skip verification of incoming certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ignore_cert FabricVxlanEvpn#ignore_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ignore_cert FabricVxlanEvpn#ignore_cert}
   */
   readonly ignoreCert?: boolean | cdktf.IResolvable;
   /**
   * Comma separated list of IPv4 Addresses (Max 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#inband_dhcp_servers FabricVxlanEvpn#inband_dhcp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#inband_dhcp_servers FabricVxlanEvpn#inband_dhcp_servers}
   */
   readonly inbandDhcpServers?: string;
   /**
   * Manage switches with only Inband connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#inband_mgmt FabricVxlanEvpn#inband_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#inband_mgmt FabricVxlanEvpn#inband_mgmt}
   */
   readonly inbandMgmt?: boolean | cdktf.IResolvable;
   /**
   * Interface Statistics Load Interval - Time in seconds (Min:5, Max:300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#intf_stat_load_interval FabricVxlanEvpn#intf_stat_load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#intf_stat_load_interval FabricVxlanEvpn#intf_stat_load_interval}
   */
   readonly intfStatLoadInterval?: number;
   /**
   * Anycast RP IPv6 Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ipv6_anycast_rp_ip_range FabricVxlanEvpn#ipv6_anycast_rp_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ipv6_anycast_rp_ip_range FabricVxlanEvpn#ipv6_anycast_rp_ip_range}
   */
   readonly ipv6AnycastRpIpRange?: string;
   /**
   * IPv6 Multicast Group Subnet - IPv6 Multicast address with prefix 112 to 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ipv6_multicast_group_subnet FabricVxlanEvpn#ipv6_multicast_group_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ipv6_multicast_group_subnet FabricVxlanEvpn#ipv6_multicast_group_subnet}
   */
   readonly ipv6MulticastGroupSubnet?: string;
   /**
   * IS-IS NET Area Number - NET in form of XX.<4-hex-digit Custom Area Number>.XXXX.XXXX.XXXX.00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_area_num FabricVxlanEvpn#isis_area_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_area_num FabricVxlanEvpn#isis_area_num}
   */
   readonly isisAreaNum?: string;
   /**
   * Enable IS-IS Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_auth_enable FabricVxlanEvpn#isis_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_auth_enable FabricVxlanEvpn#isis_auth_enable}
   */
   readonly isisAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * IS-IS Authentication Key - Cisco Type 7 Encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_auth_key FabricVxlanEvpn#isis_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_auth_key FabricVxlanEvpn#isis_auth_key}
   */
   readonly isisAuthKey?: string;
   /**
   * IS-IS Authentication Key ID (Min:0, Max:*****)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_auth_keychain_key_id FabricVxlanEvpn#isis_auth_keychain_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_auth_keychain_key_id FabricVxlanEvpn#isis_auth_keychain_key_id}
   */
   readonly isisAuthKeychainKeyId?: number;
   /**
   * IS-IS Authentication Keychain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_auth_keychain_name FabricVxlanEvpn#isis_auth_keychain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_auth_keychain_name FabricVxlanEvpn#isis_auth_keychain_name}
   */
   readonly isisAuthKeychainName?: string;
   /**
   * IS-IS Level - Supported IS types: level-1, level-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_level FabricVxlanEvpn#isis_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_level FabricVxlanEvpn#isis_level}
   */
   readonly isisLevel?: string;
   /**
   * IS-IS Overload Bit Elapsed Time - Clear the overload bit after an elapsed time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_overload_elapse_time FabricVxlanEvpn#isis_overload_elapse_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_overload_elapse_time FabricVxlanEvpn#isis_overload_elapse_time}
   */
   readonly isisOverloadElapseTime?: number;
   /**
   * Set IS-IS Overload Bit - When enabled, set the overload bit for an elapsed time after a reload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_overload_enable FabricVxlanEvpn#isis_overload_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_overload_enable FabricVxlanEvpn#isis_overload_enable}
   */
   readonly isisOverloadEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable IS-IS Network Point-to-Point - This will enable network point-to-point on fabric interfaces which are numbered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#isis_p2p_enable FabricVxlanEvpn#isis_p2p_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#isis_p2p_enable FabricVxlanEvpn#isis_p2p_enable}
   */
   readonly isisP2PEnable?: boolean | cdktf.IResolvable;
   /**
   * Key Management Entity server IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#kme_server_ip FabricVxlanEvpn#kme_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#kme_server_ip FabricVxlanEvpn#kme_server_ip}
   */
   readonly kmeServerIp?: string;
   /**
   * Key Management Entity server port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#kme_server_port FabricVxlanEvpn#kme_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#kme_server_port FabricVxlanEvpn#kme_server_port}
   */
   readonly kmeServerPort?: number;
   /**
   * Layer 2 Host Interface MTU (Min:1500, Max:9216). Must be an even number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#l2_host_intf_mtu FabricVxlanEvpn#l2_host_intf_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#l2_host_intf_mtu FabricVxlanEvpn#l2_host_intf_mtu}
   */
   readonly l2HostIntfMtu?: number;
   /**
   * Overlay Network Identifier Range (Min:1, Max:16777214)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#l2_segment_id_range FabricVxlanEvpn#l2_segment_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#l2_segment_id_range FabricVxlanEvpn#l2_segment_id_range}
   */
   readonly l2SegmentIdRange?: string;
   /**
   * Overlay VRF Identifier Range (Min:1, Max:16777214)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#l3_partition_id_range FabricVxlanEvpn#l3_partition_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#l3_partition_id_range FabricVxlanEvpn#l3_partition_id_range}
   */
   readonly l3PartitionIdRange?: string;
   /**
   * Default MDT IPv6 Address for TRM VRFs - Default Underlay Multicast group IP6 address assigned for every overlay VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#l3vni_ipv6_mcast_group FabricVxlanEvpn#l3vni_ipv6_mcast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#l3vni_ipv6_mcast_group FabricVxlanEvpn#l3vni_ipv6_mcast_group}
   */
   readonly l3VniIpv6McastGroup?: string;
   /**
   * Default MDT IPv4 Address for TRM VRFs - Default Underlay Multicast group IPv4 address assigned for every overlay VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#l3vni_mcast_group FabricVxlanEvpn#l3vni_mcast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#l3vni_mcast_group FabricVxlanEvpn#l3vni_mcast_group}
   */
   readonly l3VniMcastGroup?: string;
   /**
   * Underlay Routing Protocol - Used for Spine-Leaf Connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#link_state_routing FabricVxlanEvpn#link_state_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#link_state_routing FabricVxlanEvpn#link_state_routing}
   */
   readonly linkStateRouting?: string;
   /**
   * Underlay Routing Protocol Tag - Underlay Routing Process Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#link_state_routing_tag FabricVxlanEvpn#link_state_routing_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#link_state_routing_tag FabricVxlanEvpn#link_state_routing_tag}
   */
   readonly linkStateRoutingTag?: string;
   /**
   * Typically Loopback0 IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#loopback0_ip_range FabricVxlanEvpn#loopback0_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#loopback0_ip_range FabricVxlanEvpn#loopback0_ip_range}
   */
   readonly loopback0IpRange?: string;
   /**
   * Typically Loopback0 IPv6 Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#loopback0_ipv6_range FabricVxlanEvpn#loopback0_ipv6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#loopback0_ipv6_range FabricVxlanEvpn#loopback0_ipv6_range}
   */
   readonly loopback0Ipv6Range?: string;
   /**
   * Typically Loopback1 IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#loopback1_ip_range FabricVxlanEvpn#loopback1_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#loopback1_ip_range FabricVxlanEvpn#loopback1_ip_range}
   */
   readonly loopback1IpRange?: string;
   /**
   * Typically Loopback1 and Anycast Loopback IPv6 Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#loopback1_ipv6_range FabricVxlanEvpn#loopback1_ipv6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#loopback1_ipv6_range FabricVxlanEvpn#loopback1_ipv6_range}
   */
   readonly loopback1Ipv6Range?: string;
   /**
   * MACsec Primary Cryptographic Algorithm - AES_128_CMAC or AES_256_CMAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#macsec_algorithm FabricVxlanEvpn#macsec_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#macsec_algorithm FabricVxlanEvpn#macsec_algorithm}
   */
   readonly macsecAlgorithm?: string;
   /**
   * MACsec Cipher Suite - Configure Cipher Suite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#macsec_cipher_suite FabricVxlanEvpn#macsec_cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#macsec_cipher_suite FabricVxlanEvpn#macsec_cipher_suite}
   */
   readonly macsecCipherSuite?: string;
   /**
   * MACsec Fallback Cryptographic Algorithm - AES_128_CMAC or AES_256_CMAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#macsec_fallback_algorithm FabricVxlanEvpn#macsec_fallback_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#macsec_fallback_algorithm FabricVxlanEvpn#macsec_fallback_algorithm}
   */
   readonly macsecFallbackAlgorithm?: string;
   /**
   * MACsec Fallback Key String - Cisco Type 7 Encrypted Octet String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#macsec_fallback_key_string FabricVxlanEvpn#macsec_fallback_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#macsec_fallback_key_string FabricVxlanEvpn#macsec_fallback_key_string}
   */
   readonly macsecFallbackKeyString?: string;
   /**
   * MACsec Primary Key String - Cisco Type 7 Encrypted Octet String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#macsec_key_string FabricVxlanEvpn#macsec_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#macsec_key_string FabricVxlanEvpn#macsec_key_string}
   */
   readonly macsecKeyString?: string;
   /**
   * MACsec Status Report Timer - MACsec Operational Status periodic report timer in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#macsec_report_timer FabricVxlanEvpn#macsec_report_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#macsec_report_timer FabricVxlanEvpn#macsec_report_timer}
   */
   readonly macsecReportTimer?: number;
   /**
   * Default Gateway For Management VRF On The Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mgmt_gw FabricVxlanEvpn#mgmt_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mgmt_gw FabricVxlanEvpn#mgmt_gw}
   */
   readonly mgmtGw?: string;
   /**
   * Switch Mgmt IP Subnet Prefix (Min:8, Max:30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mgmt_prefix FabricVxlanEvpn#mgmt_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mgmt_prefix FabricVxlanEvpn#mgmt_prefix}
   */
   readonly mgmtPrefix?: number;
   /**
   * Switch Mgmt IPv6 Subnet Prefix (Min:64, Max:126)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mgmt_v6prefix FabricVxlanEvpn#mgmt_v6prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mgmt_v6prefix FabricVxlanEvpn#mgmt_v6prefix}
   */
   readonly mgmtV6Prefix?: number;
   /**
   * Enable MPLS Handoff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mpls_handoff FabricVxlanEvpn#mpls_handoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mpls_handoff FabricVxlanEvpn#mpls_handoff}
   */
   readonly mplsHandoff?: boolean | cdktf.IResolvable;
   /**
   * IS-IS NET Area Number for MPLS Handoff - NET in form of XX.<4-hex-digit Custom Area Number>.XXXX.XXXX.XXXX.00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mpls_isis_area_num FabricVxlanEvpn#mpls_isis_area_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mpls_isis_area_num FabricVxlanEvpn#mpls_isis_area_num}
   */
   readonly mplsIsisAreaNum?: string;
   /**
   * Underlay MPLS Loopback Id - Used for VXLAN to MPLS SR/LDP Handoff (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mpls_lb_id FabricVxlanEvpn#mpls_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mpls_lb_id FabricVxlanEvpn#mpls_lb_id}
   */
   readonly mplsLbId?: number;
   /**
   * Used for VXLAN to MPLS SR/LDP Handoff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mpls_loopback_ip_range FabricVxlanEvpn#mpls_loopback_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mpls_loopback_ip_range FabricVxlanEvpn#mpls_loopback_ip_range}
   */
   readonly mplsLoopbackIpRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mst_instance_range FabricVxlanEvpn#mst_instance_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mst_instance_range FabricVxlanEvpn#mst_instance_range}
   */
   readonly mstInstanceRange?: string;
   /**
   * Multicast Group Subnet - Multicast pool prefix between 8 to 30. A multicast group IP from this pool is used for BUM traffic for each overlay network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#multicast_group_subnet FabricVxlanEvpn#multicast_group_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#multicast_group_subnet FabricVxlanEvpn#multicast_group_subnet}
   */
   readonly multicastGroupSubnet?: string;
   /**
   * MVPN VRI ID for vPC, applicable when TRM is enabled with IPv6 underlay, or TRM is enabled with IPv4 underlay while fabric allows L3VNI without VLAN option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#mvpn_vri_id_range FabricVxlanEvpn#mvpn_vri_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#mvpn_vri_id_range FabricVxlanEvpn#mvpn_vri_id_range}
   */
   readonly mvpnVriIdRange?: string;
   /**
   * One or Multiple Netflow Exporters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#netflow_exporter_list FabricVxlanEvpn#netflow_exporter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#netflow_exporter_list FabricVxlanEvpn#netflow_exporter_list}
   */
   readonly netflowExporterList?: string;
   /**
   * One or Multiple Netflow Monitors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#netflow_monitor_list FabricVxlanEvpn#netflow_monitor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#netflow_monitor_list FabricVxlanEvpn#netflow_monitor_list}
   */
   readonly netflowMonitorList?: string;
   /**
   * One or Multiple Netflow Records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#netflow_record_list FabricVxlanEvpn#netflow_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#netflow_record_list FabricVxlanEvpn#netflow_record_list}
   */
   readonly netflowRecordList?: string;
   /**
   * Default Overlay Network Template For Borders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#network_extension_template FabricVxlanEvpn#network_extension_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#network_extension_template FabricVxlanEvpn#network_extension_template}
   */
   readonly networkExtensionTemplate?: string;
   /**
   * Per Switch Overlay Network VLAN Range (Min:2, Max:4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#network_vlan_range FabricVxlanEvpn#network_vlan_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#network_vlan_range FabricVxlanEvpn#network_vlan_range}
   */
   readonly networkVlanRange?: string;
   /**
   * Comma separated list of IP Addresses (v4/v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ntp_server_ip_list FabricVxlanEvpn#ntp_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ntp_server_ip_list FabricVxlanEvpn#ntp_server_ip_list}
   */
   readonly ntpServerIpList?: string;
   /**
   * One VRF for all NTP servers or a comma separated list of VRFs, one per NTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ntp_server_vrf FabricVxlanEvpn#ntp_server_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ntp_server_vrf FabricVxlanEvpn#ntp_server_vrf}
   */
   readonly ntpServerVrf?: string;
   /**
   * Underlay VTEP Loopback Id (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#nve_lb_id FabricVxlanEvpn#nve_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#nve_lb_id FabricVxlanEvpn#nve_lb_id}
   */
   readonly nveLbId?: number;
   /**
   * NX-API HTTP Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#nxapi_http_port FabricVxlanEvpn#nxapi_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#nxapi_http_port FabricVxlanEvpn#nxapi_http_port}
   */
   readonly nxapiHttpPort?: number;
   /**
   * NX-API HTTPS Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#nxapi_https_port FabricVxlanEvpn#nxapi_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#nxapi_https_port FabricVxlanEvpn#nxapi_https_port}
   */
   readonly nxapiHttpsPort?: number;
   /**
   * VRF to be used to reach Nexus Cloud, enter 'management' for management VRF and 'default' for default VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#nxc_dest_vrf FabricVxlanEvpn#nxc_dest_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#nxc_dest_vrf FabricVxlanEvpn#nxc_dest_vrf}
   */
   readonly nxcDestVrf?: string;
   /**
   * Proxy port number, default is 8080
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#nxc_proxy_port FabricVxlanEvpn#nxc_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#nxc_proxy_port FabricVxlanEvpn#nxc_proxy_port}
   */
   readonly nxcProxyPort?: number;
   /**
   * IPv4 or IPv6 address, or DNS name of the proxy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#nxc_proxy_server FabricVxlanEvpn#nxc_proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#nxc_proxy_server FabricVxlanEvpn#nxc_proxy_server}
   */
   readonly nxcProxyServer?: string;
   /**
   * Source interface for communication to Nexus Cloud, mandatory if Destination VRF is not management, supported interfaces: loopback, port-channel, vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#nxc_src_intf FabricVxlanEvpn#nxc_src_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#nxc_src_intf FabricVxlanEvpn#nxc_src_intf}
   */
   readonly nxcSrcIntf?: string;
   /**
   * Tracked Object ID Range - Per switch tracked object ID Range (Min:1, Max:512)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#object_tracking_number_range FabricVxlanEvpn#object_tracking_number_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#object_tracking_number_range FabricVxlanEvpn#object_tracking_number_range}
   */
   readonly objectTrackingNumberRange?: string;
   /**
   * OSPF Area Id in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ospf_area_id FabricVxlanEvpn#ospf_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ospf_area_id FabricVxlanEvpn#ospf_area_id}
   */
   readonly ospfAreaId?: string;
   /**
   * Enable OSPF Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ospf_auth_enable FabricVxlanEvpn#ospf_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ospf_auth_enable FabricVxlanEvpn#ospf_auth_enable}
   */
   readonly ospfAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * OSPF Authentication Key - 3DES Encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ospf_auth_key FabricVxlanEvpn#ospf_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ospf_auth_key FabricVxlanEvpn#ospf_auth_key}
   */
   readonly ospfAuthKey?: string;
   /**
   * OSPF Authentication Key ID (Min:0, Max:255)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ospf_auth_key_id FabricVxlanEvpn#ospf_auth_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ospf_auth_key_id FabricVxlanEvpn#ospf_auth_key_id}
   */
   readonly ospfAuthKeyId?: number;
   /**
   * Overlay Mode - VRF/Network configuration using config-profile or CLI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#overlay_mode FabricVxlanEvpn#overlay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#overlay_mode FabricVxlanEvpn#overlay_mode}
   */
   readonly overlayMode?: string;
   /**
   * If enabled, Fabric NxCloud Settings will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#overwrite_global_nxc FabricVxlanEvpn#overwrite_global_nxc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#overwrite_global_nxc FabricVxlanEvpn#overwrite_global_nxc}
   */
   readonly overwriteGlobalNxc?: boolean | cdktf.IResolvable;
   /**
   * Per VRF Per VTEP Loopback IPv4 Auto-Provisioning - Auto provision a loopback IPv4 on a VTEP on VRF attachment. Note: Enabling this option auto-provisions loopback on existing VRF attachments also when Edit, QuickAttach, or Multiattach actions are performed. Provisioned loopbacks cannot be deleted until VRFs are unattached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_auto_provision FabricVxlanEvpn#per_vrf_loopback_auto_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_auto_provision FabricVxlanEvpn#per_vrf_loopback_auto_provision}
   */
   readonly perVrfLoopbackAutoProvision?: boolean | cdktf.IResolvable;
   /**
   * Auto provision a loopback IPv6 on a VTEP on VRF attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_auto_provision_v6 FabricVxlanEvpn#per_vrf_loopback_auto_provision_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_auto_provision_v6 FabricVxlanEvpn#per_vrf_loopback_auto_provision_v6}
   */
   readonly perVrfLoopbackAutoProvisionV6?: boolean | cdktf.IResolvable;
   /**
   * Prefix pool to assign IPv4 addresses to loopbacks on VTEPs on a per VRF basis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_ip_range FabricVxlanEvpn#per_vrf_loopback_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_ip_range FabricVxlanEvpn#per_vrf_loopback_ip_range}
   */
   readonly perVrfLoopbackIpRange?: string;
   /**
   * Prefix pool to assign IPv6 addresses to loopbacks on VTEPs on a per VRF basis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_ip_range_v6 FabricVxlanEvpn#per_vrf_loopback_ip_range_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#per_vrf_loopback_ip_range_v6 FabricVxlanEvpn#per_vrf_loopback_ip_range_v6}
   */
   readonly perVrfLoopbackIpRangeV6?: string;
   /**
   * Priority flow control watch-dog interval - Acceptable values from 101 to 1000 (milliseconds). Leave blank for system default (100ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#pfc_watch_int FabricVxlanEvpn#pfc_watch_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#pfc_watch_int FabricVxlanEvpn#pfc_watch_int}
   */
   readonly pfcWatchInt?: number;
   /**
   * Underlay Primary RP Loopback Id - Used for Bidir-PIM Phantom RP (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id1 FabricVxlanEvpn#phantom_rp_lb_id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id1 FabricVxlanEvpn#phantom_rp_lb_id1}
   */
   readonly phantomRpLbId1?: number;
   /**
   * Underlay Backup RP Loopback Id - Used for Fallback Bidir-PIM Phantom RP (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id2 FabricVxlanEvpn#phantom_rp_lb_id2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id2 FabricVxlanEvpn#phantom_rp_lb_id2}
   */
   readonly phantomRpLbId2?: number;
   /**
   * Underlay Second Backup RP Loopback Id - Used for second Fallback Bidir-PIM Phantom RP (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id3 FabricVxlanEvpn#phantom_rp_lb_id3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id3 FabricVxlanEvpn#phantom_rp_lb_id3}
   */
   readonly phantomRpLbId3?: number;
   /**
   * Underlay Third Backup RP Loopback Id - Used for third Fallback Bidir-PIM Phantom RP (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id4 FabricVxlanEvpn#phantom_rp_lb_id4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#phantom_rp_lb_id4 FabricVxlanEvpn#phantom_rp_lb_id4}
   */
   readonly phantomRpLbId4?: number;
   /**
   * Enable PIM Hello Authentication - Valid for IPv4 Underlay only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#pim_hello_auth_enable FabricVxlanEvpn#pim_hello_auth_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#pim_hello_auth_enable FabricVxlanEvpn#pim_hello_auth_enable}
   */
   readonly pimHelloAuthEnable?: boolean | cdktf.IResolvable;
   /**
   * PIM Hello Authentication Key - 3DES Encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#pim_hello_auth_key FabricVxlanEvpn#pim_hello_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#pim_hello_auth_key FabricVxlanEvpn#pim_hello_auth_key}
   */
   readonly pimHelloAuthKey?: string;
   /**
   * Enable Performance Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#pm_enable FabricVxlanEvpn#pm_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#pm_enable FabricVxlanEvpn#pm_enable}
   */
   readonly pmEnable?: boolean | cdktf.IResolvable;
   /**
   * Default Power Supply Mode For The Fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#power_redundancy_mode FabricVxlanEvpn#power_redundancy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#power_redundancy_mode FabricVxlanEvpn#power_redundancy_mode}
   */
   readonly powerRedundancyMode?: string;
   /**
   * PTP Domain Id - Multiple Independent PTP Clocking Subdomains on a Single Network (Min:0, Max:127)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ptp_domain_id FabricVxlanEvpn#ptp_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ptp_domain_id FabricVxlanEvpn#ptp_domain_id}
   */
   readonly ptpDomainId?: number;
   /**
   * PTP Source Loopback Id (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ptp_lb_id FabricVxlanEvpn#ptp_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ptp_lb_id FabricVxlanEvpn#ptp_lb_id}
   */
   readonly ptpLbId?: number;
   /**
   * (Min:2, Max:3967) SVI used for PTP source on ToRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#ptp_vlan_id FabricVxlanEvpn#ptp_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#ptp_vlan_id FabricVxlanEvpn#ptp_vlan_id}
   */
   readonly ptpVlanId?: number;
   /**
   * Name of crypto profile (Max Size 63)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#qkd_profile_name FabricVxlanEvpn#qkd_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#qkd_profile_name FabricVxlanEvpn#qkd_profile_name}
   */
   readonly qkdProfileName?: string;
   /**
   * Replication Mode for BUM Traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#replication_mode FabricVxlanEvpn#replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#replication_mode FabricVxlanEvpn#replication_mode}
   */
   readonly replicationMode?: string;
   /**
   * Route Map Sequence Number Range (Min:1, Max:65534)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#route_map_sequence_number_range FabricVxlanEvpn#route_map_sequence_number_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#route_map_sequence_number_range FabricVxlanEvpn#route_map_sequence_number_range}
   */
   readonly routeMapSequenceNumberRange?: string;
   /**
   * BGP Router ID Range for IPv6 Underlay - IPv4 Address Range for BGP Router Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#router_id_range FabricVxlanEvpn#router_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#router_id_range FabricVxlanEvpn#router_id_range}
   */
   readonly routerIdRange?: string;
   /**
   * Number of spines acting as Rendezvous-Point (RP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#rp_count FabricVxlanEvpn#rp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#rp_count FabricVxlanEvpn#rp_count}
   */
   readonly rpCount?: number;
   /**
   * Underlay RP Loopback Id (Min:0, Max:1023)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#rp_lb_id FabricVxlanEvpn#rp_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#rp_lb_id FabricVxlanEvpn#rp_lb_id}
   */
   readonly rpLbId?: number;
   /**
   * Multicast RP Mode. For IPv6 underlay, please use asm only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#rp_mode FabricVxlanEvpn#rp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#rp_mode FabricVxlanEvpn#rp_mode}
   */
   readonly rpMode?: string;
   /**
   * Number of spines acting as Route-Reflectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#rr_count FabricVxlanEvpn#rr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#rr_count FabricVxlanEvpn#rr_count}
   */
   readonly rrCount?: number;
   /**
   * Time (UTC) in 24hr format. (00:00 to 23:59)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#scheduled_time FabricVxlanEvpn#scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#scheduled_time FabricVxlanEvpn#scheduled_time}
   */
   readonly scheduledTime?: string;
   /**
   * Core-facing Interface list on Seed Switch (e.g. e1/1-30,e1/32)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#seed_switch_core_interfaces FabricVxlanEvpn#seed_switch_core_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#seed_switch_core_interfaces FabricVxlanEvpn#seed_switch_core_interfaces}
   */
   readonly seedSwitchCoreInterfaces?: string;
   /**
   * Per Switch Overlay Service Network VLAN Range (Min:2, Max:4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#service_network_vlan_range FabricVxlanEvpn#service_network_vlan_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#service_network_vlan_range FabricVxlanEvpn#service_network_vlan_range}
   */
   readonly serviceNetworkVlanRange?: string;
   /**
   * Security Group Tag (SGT) ID Range - Min:16, Max:65535. Reserved Range: 0-15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#sgt_id_range FabricVxlanEvpn#sgt_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#sgt_id_range FabricVxlanEvpn#sgt_id_range}
   */
   readonly sgtIdRange?: string;
   /**
   * Security Group Name Prefix - Prefix to be used when a new Security Group is created (Min:1, Max:10 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#sgt_name_prefix FabricVxlanEvpn#sgt_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#sgt_name_prefix FabricVxlanEvpn#sgt_name_prefix}
   */
   readonly sgtNamePrefix?: string;
   /**
   * Security Groups Pre-provision - Generate security groups configuration for non-enforced VRFs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#sgt_preprovision FabricVxlanEvpn#sgt_preprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#sgt_preprovision FabricVxlanEvpn#sgt_preprovision}
   */
   readonly sgtPreprovision?: boolean | cdktf.IResolvable;
   /**
   * For EVPN Multi-Site Support (Min:1, Max:281474976710655). Defaults to Fabric ASN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#site_id FabricVxlanEvpn#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#site_id FabricVxlanEvpn#site_id}
   */
   readonly siteId?: string;
   /**
   * Service Level Agreement (SLA) ID Range - Per switch SLA ID Range (Min:1, Max:2147483647)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#sla_id_range FabricVxlanEvpn#sla_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#sla_id_range FabricVxlanEvpn#sla_id_range}
   */
   readonly slaIdRange?: string;
   /**
   * Configure NDFC as a receiver for SNMP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#snmp_server_host_trap FabricVxlanEvpn#snmp_server_host_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#snmp_server_host_trap FabricVxlanEvpn#snmp_server_host_trap}
   */
   readonly snmpServerHostTrap?: boolean | cdktf.IResolvable;
   /**
   * Core-facing Interface list on all Spines (e.g. e1/1-30,e1/32)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#spine_switch_core_interfaces FabricVxlanEvpn#spine_switch_core_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#spine_switch_core_interfaces FabricVxlanEvpn#spine_switch_core_interfaces}
   */
   readonly spineSwitchCoreInterfaces?: string;
   /**
   * Allow First Super Spine Add or Last Super Spine Delete From Topology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#sspine_add_del_debug_flag FabricVxlanEvpn#sspine_add_del_debug_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#sspine_add_del_debug_flag FabricVxlanEvpn#sspine_add_del_debug_flag}
   */
   readonly sspineAddDelDebugFlag?: string;
   /**
   * Manual Underlay IP Address Allocation - Checking this will disable Dynamic Underlay IP Address Allocations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#static_underlay_ip_alloc FabricVxlanEvpn#static_underlay_ip_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#static_underlay_ip_alloc FabricVxlanEvpn#static_underlay_ip_alloc}
   */
   readonly staticUnderlayIpAlloc?: boolean | cdktf.IResolvable;
   /**
   * Spanning Tree Bridge Priority - Bridge priority for the spanning tree in increments of 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#stp_bridge_priority FabricVxlanEvpn#stp_bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#stp_bridge_priority FabricVxlanEvpn#stp_bridge_priority}
   */
   readonly stpBridgePriority?: number;
   /**
   * Which protocol to use for configuring root bridge? rpvst+: Rapid Per-VLAN Spanning Tree, mst: Multiple Spanning Tree, unmanaged (default): STP Root not managed by NDFC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#stp_root_option FabricVxlanEvpn#stp_root_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#stp_root_option FabricVxlanEvpn#stp_root_option}
   */
   readonly stpRootOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#stp_vlan_range FabricVxlanEvpn#stp_vlan_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#stp_vlan_range FabricVxlanEvpn#stp_vlan_range}
   */
   readonly stpVlanRange?: string;
   /**
   * Enable bi-directional compliance checks to flag additional configs in the running config that are not in the intent/expected config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#strict_cc_mode FabricVxlanEvpn#strict_cc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#strict_cc_mode FabricVxlanEvpn#strict_cc_mode}
   */
   readonly strictCcMode?: boolean | cdktf.IResolvable;
   /**
   * Per Border Dot1q Range For VRF Lite Connectivity (Min:2, Max:4093)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#subinterface_range FabricVxlanEvpn#subinterface_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#subinterface_range FabricVxlanEvpn#subinterface_range}
   */
   readonly subinterfaceRange?: string;
   /**
   * Address range to assign Numbered and Peer Link SVI IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#subnet_range FabricVxlanEvpn#subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#subnet_range FabricVxlanEvpn#subnet_range}
   */
   readonly subnetRange?: string;
   /**
   * Underlay Subnet IP Mask - Mask for Underlay Subnet IP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#subnet_target_mask FabricVxlanEvpn#subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#subnet_target_mask FabricVxlanEvpn#subnet_target_mask}
   */
   readonly subnetTargetMask?: number;
   /**
   * Comma separated list of IP Addresses (v4/v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#syslog_server_ip_list FabricVxlanEvpn#syslog_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#syslog_server_ip_list FabricVxlanEvpn#syslog_server_ip_list}
   */
   readonly syslogServerIpList?: string;
   /**
   * One VRF for all Syslog servers or a comma separated list of VRFs, one per Syslog server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#syslog_server_vrf FabricVxlanEvpn#syslog_server_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#syslog_server_vrf FabricVxlanEvpn#syslog_server_vrf}
   */
   readonly syslogServerVrf?: string;
   /**
   * Comma separated list of Syslog severity values, one per Syslog server (Min:0, Max:7)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#syslog_sev FabricVxlanEvpn#syslog_sev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#syslog_sev FabricVxlanEvpn#syslog_sev}
   */
   readonly syslogSev?: string;
   /**
   * Enable TCAM Allocation - TCAM commands are automatically generated for VxLAN and vPC Fabric Peering when Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#tcam_allocation FabricVxlanEvpn#tcam_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#tcam_allocation FabricVxlanEvpn#tcam_allocation}
   */
   readonly tcamAllocation?: boolean | cdktf.IResolvable;
   /**
   * Tls authentication type trustpoint label (Max Size 64)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#trustpoint_label FabricVxlanEvpn#trustpoint_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#trustpoint_label FabricVxlanEvpn#trustpoint_label}
   */
   readonly trustpointLabel?: string;
   /**
   * Enable IPv6 Underlay - If not enabled, IPv4 underlay is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#underlay_is_v6 FabricVxlanEvpn#underlay_is_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#underlay_is_v6 FabricVxlanEvpn#underlay_is_v6}
   */
   readonly underlayIsV6?: boolean | cdktf.IResolvable;
   /**
   * Bootstrap Seed Switch Loopback Interface ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#unnum_bootstrap_lb_id FabricVxlanEvpn#unnum_bootstrap_lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#unnum_bootstrap_lb_id FabricVxlanEvpn#unnum_bootstrap_lb_id}
   */
   readonly unnumBootstrapLbId?: number;
   /**
   * Enable IPv6 Link-Local Address - If not enabled, Spine-Leaf interfaces will use global IPv6 addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#use_link_local FabricVxlanEvpn#use_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#use_link_local FabricVxlanEvpn#use_link_local}
   */
   readonly useLinkLocal?: boolean | cdktf.IResolvable;
   /**
   * IPv6 Address range to assign Numbered and Peer Link SVI IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#v6_subnet_range FabricVxlanEvpn#v6_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#v6_subnet_range FabricVxlanEvpn#v6_subnet_range}
   */
   readonly v6SubnetRange?: string;
   /**
   * Underlay Subnet IPv6 Mask - Mask for Underlay Subnet IPv6 Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#v6_subnet_target_mask FabricVxlanEvpn#v6_subnet_target_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#v6_subnet_target_mask FabricVxlanEvpn#v6_subnet_target_mask}
   */
   readonly v6SubnetTargetMask?: number;
   /**
   * vPC Auto Recovery Time (In Seconds) (Min:240, Max:3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_auto_recovery_time FabricVxlanEvpn#vpc_auto_recovery_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_auto_recovery_time FabricVxlanEvpn#vpc_auto_recovery_time}
   */
   readonly vpcAutoRecoveryTime?: number;
   /**
   * vPC Delay Restore Time (In Seconds) (Min:1, Max:3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_delay_restore FabricVxlanEvpn#vpc_delay_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_delay_restore FabricVxlanEvpn#vpc_delay_restore}
   */
   readonly vpcDelayRestore?: number;
   /**
   * vPC Delay Restore Time For vPC links in seconds (Min:1, Max:3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_delay_restore_time FabricVxlanEvpn#vpc_delay_restore_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_delay_restore_time FabricVxlanEvpn#vpc_delay_restore_time}
   */
   readonly vpcDelayRestoreTime?: number;
   /**
   * vPC Domain id range to use for new pairings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_domain_id_range FabricVxlanEvpn#vpc_domain_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_domain_id_range FabricVxlanEvpn#vpc_domain_id_range}
   */
   readonly vpcDomainIdRange?: string;
   /**
   * Enable IPv6 ND synchronization between vPC peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_enable_ipv6_nd_sync FabricVxlanEvpn#vpc_enable_ipv6_nd_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_enable_ipv6_nd_sync FabricVxlanEvpn#vpc_enable_ipv6_nd_sync}
   */
   readonly vpcEnableIpv6NdSync?: boolean | cdktf.IResolvable;
   /**
   * Use vPC Peer Keep Alive with Loopback or Management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_peer_keep_alive_option FabricVxlanEvpn#vpc_peer_keep_alive_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_peer_keep_alive_option FabricVxlanEvpn#vpc_peer_keep_alive_option}
   */
   readonly vpcPeerKeepAliveOption?: string;
   /**
   * vPC Peer Link Port Channel ID (Min:1, Max:4096)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_peer_link_po FabricVxlanEvpn#vpc_peer_link_po}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_peer_link_po FabricVxlanEvpn#vpc_peer_link_po}
   */
   readonly vpcPeerLinkPo?: number;
   /**
   * VLAN range for vPC Peer Link SVI (Min:2, Max:4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vpc_peer_link_vlan FabricVxlanEvpn#vpc_peer_link_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vpc_peer_link_vlan FabricVxlanEvpn#vpc_peer_link_vlan}
   */
   readonly vpcPeerLinkVlan?: number;
   /**
   * Default Overlay VRF Template For Borders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vrf_extension_template FabricVxlanEvpn#vrf_extension_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vrf_extension_template FabricVxlanEvpn#vrf_extension_template}
   */
   readonly vrfExtensionTemplate?: string;
   /**
   * VRF Lite Inter-Fabric Connection Deployment Options. If 'Back2Back&ToExternal' is selected, VRF Lite IFCs are auto created between border devices of two Easy Fabrics, and between border devices in Easy Fabric and edge routers in External Fabric. The IP address is taken from the 'VRF Lite Subnet IP Range' pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vrf_lite_autoconfig FabricVxlanEvpn#vrf_lite_autoconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vrf_lite_autoconfig FabricVxlanEvpn#vrf_lite_autoconfig}
   */
   readonly vrfLiteAutoconfig?: string;
   /**
   * Per Switch Overlay VRF VLAN Range (Min:2, Max:4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#vrf_vlan_range FabricVxlanEvpn#vrf_vlan_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#vrf_vlan_range FabricVxlanEvpn#vrf_vlan_range}
   */
   readonly vrfVlanRange?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn ndfc_fabric_vxlan_evpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn ndfc_fabric_vxlan_evpn}
 */
 export class FabricVxlanEvpn extends cdktf.TerraformResource {
 
@@ -1432,7 +1432,7 @@ export class FabricVxlanEvpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricVxlanEvpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricVxlanEvpn to import
-  * @param importFromId The id of the existing FabricVxlanEvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricVxlanEvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricVxlanEvpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1444,7 +1444,7 @@ export class FabricVxlanEvpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.0/docs/resources/fabric_vxlan_evpn ndfc_fabric_vxlan_evpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ndfc/0.2.1/docs/resources/fabric_vxlan_evpn ndfc_fabric_vxlan_evpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1455,8 +1455,8 @@ export class FabricVxlanEvpn extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_fabric_vxlan_evpn',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

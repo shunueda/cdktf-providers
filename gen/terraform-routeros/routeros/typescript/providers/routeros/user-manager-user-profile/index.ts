@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UserManagerUserProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile#___path___ UserManagerUserProfile#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile#___path___ UserManagerUserProfile#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile#___skip___ UserManagerUserProfile#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile#___skip___ UserManagerUserProfile#___skip___}
   */
   readonly skip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile#id UserManagerUserProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile#id UserManagerUserProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface UserManagerUserProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name of the profile to assign to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile#profile UserManagerUserProfile#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile#profile UserManagerUserProfile#profile}
   */
   readonly profile: string;
   /**
   * Name of the user to use the specified profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile#user UserManagerUserProfile#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile#user UserManagerUserProfile#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile routeros_user_manager_user_profile}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile routeros_user_manager_user_profile}
 */
 export class UserManagerUserProfile extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class UserManagerUserProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagerUserProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagerUserProfile to import
-  * @param importFromId The id of the existing UserManagerUserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagerUserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagerUserProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class UserManagerUserProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/user_manager_user_profile routeros_user_manager_user_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.98.0/docs/resources/user_manager_user_profile routeros_user_manager_user_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class UserManagerUserProfile extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_user_manager_user_profile',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

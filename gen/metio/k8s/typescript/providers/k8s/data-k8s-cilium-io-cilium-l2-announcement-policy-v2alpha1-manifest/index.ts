@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestMetadata;
   /**
   * Spec is a human readable description of a L2 announcement policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#spec DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#spec DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#labels DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#labels DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#name DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#name DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecNo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecNo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,19 +500,19 @@ export interface DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -682,13 +682,13 @@ export interface DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecServiceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -813,31 +813,31 @@ export interface DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpec {
   /**
   * If true, the external IPs of the services are announced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#external_i_ps DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#external_i_ps DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#external_i_ps}
   */
   readonly externalIPs?: boolean | cdktf.IResolvable;
   /**
   * A list of regular expressions that express which network interface(s) should be used to announce the services over. If nil, all network interfaces are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#interfaces DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#interfaces DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * If true, the loadbalancer IPs of the services are announced If nil this policy applies to all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#load_balancer_i_ps DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#load_balancer_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#load_balancer_i_ps DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#load_balancer_i_ps}
   */
   readonly loadBalancerIPs?: boolean | cdktf.IResolvable;
   /**
   * NodeSelector selects a group of nodes which will announce the IPs for the services selected by the service selector. If nil this policy applies to all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#node_selector DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#node_selector DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecNodeSelector;
   /**
   * ServiceSelector selects a set of services which will be announced over L2 networks. The loadBalancerClass for a service must be nil or specify a supported class, e.g. 'io.cilium/l2-announcer'. Refer to the following document for additional details regarding load balancer classes: https://kubernetes.io/docs/concepts/services-networking/service/#load-balancer-class If nil this policy applies to all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#service_selector DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#service_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#service_selector DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest#service_selector}
   */
   readonly serviceSelector?: DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecServiceSelector;
 }
@@ -1047,7 +1047,7 @@ export class DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest k8s_cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest k8s_cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest}
 */
 export class DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1063,7 +1063,7 @@ export class DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1075,7 +1075,7 @@ export class DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest k8s_cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest k8s_cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1086,8 +1086,8 @@ export class DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest extends c
       terraformResourceType: 'k8s_cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

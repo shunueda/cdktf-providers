@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface CmsDynamicTagGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#contact_group_list CmsDynamicTagGroup#contact_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#contact_group_list CmsDynamicTagGroup#contact_group_list}
   */
   readonly contactGroupList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#id CmsDynamicTagGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#id CmsDynamicTagGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#match_express_filter_relation CmsDynamicTagGroup#match_express_filter_relation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#match_express_filter_relation CmsDynamicTagGroup#match_express_filter_relation}
   */
   readonly matchExpressFilterRelation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#tag_key CmsDynamicTagGroup#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#tag_key CmsDynamicTagGroup#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#template_id_list CmsDynamicTagGroup#template_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#template_id_list CmsDynamicTagGroup#template_id_list}
   */
   readonly templateIdList?: string[];
   /**
   * match_express block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#match_express CmsDynamicTagGroup#match_express}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#match_express CmsDynamicTagGroup#match_express}
   */
   readonly matchExpress: CmsDynamicTagGroupMatchExpress[] | cdktf.IResolvable;
 }
 export interface CmsDynamicTagGroupMatchExpress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#tag_value CmsDynamicTagGroup#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#tag_value CmsDynamicTagGroup#tag_value}
   */
   readonly tagValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#tag_value_match_function CmsDynamicTagGroup#tag_value_match_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#tag_value_match_function CmsDynamicTagGroup#tag_value_match_function}
   */
   readonly tagValueMatchFunction: string;
 }
@@ -182,7 +182,7 @@ export class CmsDynamicTagGroupMatchExpressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group alicloud_cms_dynamic_tag_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group alicloud_cms_dynamic_tag_group}
 */
 export class CmsDynamicTagGroup extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class CmsDynamicTagGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsDynamicTagGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsDynamicTagGroup to import
-  * @param importFromId The id of the existing CmsDynamicTagGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsDynamicTagGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsDynamicTagGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class CmsDynamicTagGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_dynamic_tag_group alicloud_cms_dynamic_tag_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_dynamic_tag_group alicloud_cms_dynamic_tag_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class CmsDynamicTagGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_dynamic_tag_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

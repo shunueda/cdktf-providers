@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcIpamIpamPoolsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#id DataAlicloudVpcIpamIpamPools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#id DataAlicloudVpcIpamIpamPools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#ids DataAlicloudVpcIpamIpamPools#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#ids DataAlicloudVpcIpamIpamPools#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#ipam_pool_id DataAlicloudVpcIpamIpamPools#ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#ipam_pool_id DataAlicloudVpcIpamIpamPools#ipam_pool_id}
   */
   readonly ipamPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#ipam_pool_name DataAlicloudVpcIpamIpamPools#ipam_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#ipam_pool_name DataAlicloudVpcIpamIpamPools#ipam_pool_name}
   */
   readonly ipamPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#ipam_scope_id DataAlicloudVpcIpamIpamPools#ipam_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#ipam_scope_id DataAlicloudVpcIpamIpamPools#ipam_scope_id}
   */
   readonly ipamScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#name_regex DataAlicloudVpcIpamIpamPools#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#name_regex DataAlicloudVpcIpamIpamPools#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#output_file DataAlicloudVpcIpamIpamPools#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#output_file DataAlicloudVpcIpamIpamPools#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#pool_region_id DataAlicloudVpcIpamIpamPools#pool_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#pool_region_id DataAlicloudVpcIpamIpamPools#pool_region_id}
   */
   readonly poolRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#resource_group_id DataAlicloudVpcIpamIpamPools#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#resource_group_id DataAlicloudVpcIpamIpamPools#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#source_ipam_pool_id DataAlicloudVpcIpamIpamPools#source_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#source_ipam_pool_id DataAlicloudVpcIpamIpamPools#source_ipam_pool_id}
   */
   readonly sourceIpamPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#tags DataAlicloudVpcIpamIpamPools#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#tags DataAlicloudVpcIpamIpamPools#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -228,7 +228,7 @@ export class DataAlicloudVpcIpamIpamPoolsPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools alicloud_vpc_ipam_ipam_pools}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools alicloud_vpc_ipam_ipam_pools}
 */
 export class DataAlicloudVpcIpamIpamPools extends cdktf.TerraformDataSource {
 
@@ -244,7 +244,7 @@ export class DataAlicloudVpcIpamIpamPools extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudVpcIpamIpamPools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcIpamIpamPools to import
-  * @param importFromId The id of the existing DataAlicloudVpcIpamIpamPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcIpamIpamPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcIpamIpamPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class DataAlicloudVpcIpamIpamPools extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipam_ipam_pools alicloud_vpc_ipam_ipam_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_ipam_ipam_pools alicloud_vpc_ipam_ipam_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class DataAlicloudVpcIpamIpamPools extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_ipam_ipam_pools',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

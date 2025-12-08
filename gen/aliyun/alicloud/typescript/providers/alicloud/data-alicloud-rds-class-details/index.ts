@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudRdsClassDetailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details#class_code DataAlicloudRdsClassDetails#class_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details#class_code DataAlicloudRdsClassDetails#class_code}
   */
   readonly classCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details#commodity_code DataAlicloudRdsClassDetails#commodity_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details#commodity_code DataAlicloudRdsClassDetails#commodity_code}
   */
   readonly commodityCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details#engine DataAlicloudRdsClassDetails#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details#engine DataAlicloudRdsClassDetails#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details#engine_version DataAlicloudRdsClassDetails#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details#engine_version DataAlicloudRdsClassDetails#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details#id DataAlicloudRdsClassDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details#id DataAlicloudRdsClassDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface DataAlicloudRdsClassDetailsConfig extends cdktf.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details alicloud_rds_class_details}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details alicloud_rds_class_details}
 */
 export class DataAlicloudRdsClassDetails extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataAlicloudRdsClassDetails extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudRdsClassDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudRdsClassDetails to import
-  * @param importFromId The id of the existing DataAlicloudRdsClassDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudRdsClassDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudRdsClassDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataAlicloudRdsClassDetails extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_class_details alicloud_rds_class_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/rds_class_details alicloud_rds_class_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataAlicloudRdsClassDetails extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_rds_class_details',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

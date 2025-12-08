@@ -147,19 +147,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The number of requests to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_num}
   */
   readonly requestNum?: number;
 }
@@ -313,31 +313,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The path of Sentinel conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
   */
   readonly conf?: string;
   /**
   * The control flag determines whether to flush config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
   */
   readonly flushConfig?: boolean | cdktf.IResolvable;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The path of 'redis-server' command-line tool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
   */
   readonly redisPath?: boolean | cdktf.IResolvable;
 }
@@ -549,31 +549,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The path of Sentinel conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
   */
   readonly conf?: string;
   /**
   * The control flag determines whether to flush config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
   */
   readonly flushConfig?: boolean | cdktf.IResolvable;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The path of 'redis-server' command-line tool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
   */
   readonly redisPath?: boolean | cdktf.IResolvable;
 }
@@ -785,19 +785,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -967,37 +967,37 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * PhysicalMachines is a map of string keys and a set values that used to select physical machines. The key defines the namespace which physical machine belong, and each value is a set of physical machine names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#physical_machines DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#physical_machines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#physical_machines DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#physical_machines}
   */
   readonly physicalMachines?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -1238,19 +1238,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * specifies P percent loading per CPU worker. 0 is effectively a sleep (no load) and 100 is full loading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#load DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#load DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#load}
   */
   readonly load?: number;
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * specifies N workers to apply the stressor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
   */
   readonly workers?: number;
 }
@@ -1404,13 +1404,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * specifies N bytes consumed per vm worker, default is the total available memory. One can specify the size as % of total available memory or in units of B, KB/KiB, MB/MiB, GB/GiB, TB/TiB..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -1535,13 +1535,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * The command to be executed when attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attack_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attack_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attack_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attack_cmd}
   */
   readonly attackCmd?: string;
   /**
   * The command to be executed when recover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#recover_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#recover_cmd}
   */
   readonly recoverCmd?: string;
 }
@@ -1666,7 +1666,7 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * The name of the VM to be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
   */
   readonly vmName?: string;
 }
@@ -1762,223 +1762,223 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhys
   /**
   * the subAction, generate automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * DEPRECATED: Use Selector instead. Only one of Address and Selector could be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#address}
   */
   readonly address?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock}
   */
   readonly clock?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosClock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_fill}
   */
   readonly diskFill?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosDiskFill;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_read_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_read_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_read_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_read_payload}
   */
   readonly diskReadPayload?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosDiskReadPayload;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_write_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_write_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_write_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_write_payload}
   */
   readonly diskWritePayload?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosDiskWritePayload;
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_append DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_append DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_append}
   */
   readonly fileAppend?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosFileAppend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_create DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_create DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_create}
   */
   readonly fileCreate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosFileCreate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_delete DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_delete DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_delete}
   */
   readonly fileDelete?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosFileDelete;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_modify DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_modify DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_modify}
   */
   readonly fileModify?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosFileModify;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_rename DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_rename DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_rename}
   */
   readonly fileRename?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosFileRename;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_replace}
   */
   readonly fileReplace?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosFileReplace;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_abort}
   */
   readonly httpAbort?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosHttpAbort;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosHttpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_delay}
   */
   readonly httpDelay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosHttpDelay;
   /**
   * used for HTTP request, now only support GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_request}
   */
   readonly httpRequest?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosHttpRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_exception}
   */
   readonly jvmException?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosJvmException;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_gc DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_gc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_gc DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_gc}
   */
   readonly jvmGc?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosJvmGc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_latency}
   */
   readonly jvmLatency?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosJvmLatency;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_mysql DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_mysql DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_mysql}
   */
   readonly jvmMysql?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosJvmMysql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_return DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_return DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_return}
   */
   readonly jvmReturn?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosJvmReturn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_rule_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_rule_data}
   */
   readonly jvmRuleData?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosJvmRuleData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_stress DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_stress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_stress DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_stress}
   */
   readonly jvmStress?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosJvmStress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_fill}
   */
   readonly kafkaFill?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosKafkaFill;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_flood}
   */
   readonly kafkaFlood?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosKafkaFlood;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_io DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_io DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_io}
   */
   readonly kafkaIo?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosKafkaIo;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_bandwidth}
   */
   readonly networkBandwidth?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkBandwidth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_corrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_corrupt}
   */
   readonly networkCorrupt?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkCorrupt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_delay}
   */
   readonly networkDelay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkDelay;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_dns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_dns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_dns}
   */
   readonly networkDns?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkDns;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_down DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_down DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_down}
   */
   readonly networkDown?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkDown;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_duplicate}
   */
   readonly networkDuplicate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkDuplicate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_flood}
   */
   readonly networkFlood?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkFlood;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_loss}
   */
   readonly networkLoss?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkLoss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_partition DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_partition DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_partition}
   */
   readonly networkPartition?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosNetworkPartition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#process DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#process DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#process}
   */
   readonly process?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosProcess;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_cache_limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_cache_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_cache_limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_cache_limit}
   */
   readonly redisCacheLimit?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosRedisCacheLimit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_expiration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_expiration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_expiration}
   */
   readonly redisExpiration?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosRedisExpiration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_penetration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_penetration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_penetration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_penetration}
   */
   readonly redisPenetration?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosRedisPenetration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_restart DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_restart DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_restart}
   */
   readonly redisRestart?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosRedisRestart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_stop DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_stop DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_stop}
   */
   readonly redisStop?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosRedisStop;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select physical machines that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_cpu DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_cpu DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_cpu}
   */
   readonly stressCpu?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosStressCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_mem DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_mem DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_mem}
   */
   readonly stressMem?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosStressMem;
   /**
   * the experiment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#user_defined DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#user_defined DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#user_defined}
   */
   readonly userDefined?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosUserDefined;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of physical machines to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of physical machines the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm}
   */
   readonly vm?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePhysicalmachineChaosVm;
 }
@@ -3518,19 +3518,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePodC
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3700,55 +3700,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePodC
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePodChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -4076,49 +4076,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePodC
   /**
   * Action defines the specific pod chaos action. Supported action: pod-kill / pod-failure / container-kill Default action: pod-kill
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action. It is required when the action is 'PodFailureAction'. A duration string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '-1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * GracePeriod is used in pod-kill action. It represents the duration in seconds before the pod should be deleted. Value must be non-negative integer. The default value is zero that indicates delete immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#grace_period DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#grace_period DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecSchedulePodChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4408,19 +4408,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4590,55 +4590,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStre
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStressChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -4966,19 +4966,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStre
   /**
   * Load specifies P percent loading per CPU worker. 0 is effectively a sleep (no load) and 100 is full loading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#load DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#load DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#load}
   */
   readonly load?: number;
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * Workers specifies N workers to apply the stressor. Maximum 8192 workers can run by stress-ng
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
   */
   readonly workers: number;
 }
@@ -5129,25 +5129,25 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStre
   /**
   * OOMScoreAdj sets the oom_score_adj of the stress process. See 'man 5 proc' to know more about this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#oom_score_adj DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#oom_score_adj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#oom_score_adj DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#oom_score_adj}
   */
   readonly oomScoreAdj?: number;
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * Size specifies N bytes consumed per vm worker, default is the total available memory. One can specify the size as % of total available memory or in units of B, KB/KiB, MB/MiB, GB/GiB, TB/TiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
   /**
   * Workers specifies N workers to apply the stressor. Maximum 8192 workers can run by stress-ng
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
   */
   readonly workers: number;
 }
@@ -5327,13 +5327,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStre
   /**
   * CPUStressor stresses CPU out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStressChaosStressorsCpu;
   /**
   * MemoryStressor stresses virtual memory out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#memory DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#memory DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStressChaosStressorsMemory;
 }
@@ -5458,49 +5458,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStre
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStressChaosSelector;
   /**
   * StressngStressors defines plenty of stressors just like 'Stressors' except that it's an experimental feature and more powerful. You can define stressors in 'stress-ng' (see also 'man stress-ng') dialect, however not all of the supported stressors are well tested. It maybe retired in later releases. You should always use 'Stressors' to define the stressors and use this only when you want more stressors unsupported by 'Stressors'. When both 'StressngStressors' and 'Stressors' are defined, 'StressngStressors' wins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stressng_stressors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stressng_stressors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stressng_stressors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stressng_stressors}
   */
   readonly stressngStressors?: string;
   /**
   * Stressors defines plenty of stressors supported to stress system components out. You can use one or more of them to make up various kinds of stresses. At least one of the stressors should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stressors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stressors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stressors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stressors}
   */
   readonly stressors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleStressChaosStressors;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5793,19 +5793,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleTime
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5975,55 +5975,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleTime
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleTimeChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -6351,49 +6351,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleTime
   /**
   * ClockIds defines all affected clock id All available options are ['CLOCK_REALTIME','CLOCK_MONOTONIC','CLOCK_PROCESS_CPUTIME_ID','CLOCK_THREAD_CPUTIME_ID', 'CLOCK_MONOTONIC_RAW','CLOCK_REALTIME_COARSE','CLOCK_MONOTONIC_COARSE','CLOCK_BOOTTIME','CLOCK_REALTIME_ALARM', 'CLOCK_BOOTTIME_ALARM'] Default value is ['CLOCK_REALTIME']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock_ids DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock_ids DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock_ids}
   */
   readonly clockIds?: string[];
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleTimeChaosSelector;
   /**
   * TimeOffset defines the delta time of injected program. It's a possibly signed sequence of decimal numbers, such as '300ms', '-1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#time_offset}
   */
   readonly timeOffset: string;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6683,55 +6683,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific aws chaos action. Supported action: ec2-stop / ec2-restart / detach-volume Default action: ec2-stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * AWSRegion defines the region of aws.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#aws_region DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#aws_region DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#aws_region}
   */
   readonly awsRegion: string;
   /**
   * DeviceName indicates the name of the device. Needed in detach-volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Ec2Instance indicates the ID of the ec2 instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ec2_instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ec2_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ec2_instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ec2_instance}
   */
   readonly ec2Instance: string;
   /**
   * Endpoint indicates the endpoint of the aws server. Just used it in test now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#endpoint DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#endpoint DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * SecretName defines the name of kubernetes secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * EbsVolume indicates the ID of the EBS volume. Needed in detach-volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -7050,55 +7050,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific azure chaos action. Supported action: vm-stop / vm-restart / disk-detach Default action: vm-stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * DiskName indicates the name of the disk. Needed in disk-detach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_name}
   */
   readonly diskName?: string;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * LUN indicates the Logical Unit Number of the data disk. Needed in disk-detach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#lun DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#lun DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * ResourceGroupName defines the name of ResourceGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#resource_group_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#resource_group_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * SecretName defines the name of kubernetes secret. It is used for Azure credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * SubscriptionID defines the id of Azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#subscription_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#subscription_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * VMName defines the name of Virtual Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
   */
   readonly vmName: string;
 }
@@ -7412,17 +7412,17 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesBlockChaosDelay {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
   */
   readonly jitter?: string;
   /**
   * Latency defines the latency of every io request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency?: string;
 }
@@ -7576,19 +7576,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7758,55 +7758,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesBlockChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -8134,53 +8134,53 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific block chaos action. Supported action: delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Delay defines the delay distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesBlockChaosDelay;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesBlockChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName: string;
 }
@@ -8496,13 +8496,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Expression is the expression for this conditional branch, expected type of result is boolean. If expression is empty, this branch will always be selected/the template will be spawned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
   /**
   * Target is the name of other template, if expression is evaluated as true, this template will be spawned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -8646,19 +8646,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8828,55 +8828,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesDnsChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -9204,49 +9204,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific DNS chaos action. Supported action: error, random Default action: error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Choose which domain names to take effect, support the placeholder ? and wildcard *, or the Specified domain name. Note: 1. The wildcard * must be at the end of the string. For example, chaos-*.org is invalid. 2. if the patterns is empty, will take effect on all the domain names. For example: The value is ['google.com', 'github.*', 'chaos-mes?.org'], will take effect on 'google.com', 'github.com' and 'chaos-mesh.org'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patterns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patterns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patterns}
   */
   readonly patterns?: string[];
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesDnsChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9536,49 +9536,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific gcp chaos action. Supported action: node-stop / node-reset / disk-loss Default action: node-stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * The device name of disks to detach. Needed in disk-loss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_names}
   */
   readonly deviceNames?: string[];
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Instance defines the name of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#instance}
   */
   readonly instance: string;
   /**
   * Project defines the ID of gcp project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#project DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#project DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#project}
   */
   readonly project: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * SecretName defines the name of kubernetes secret. It is used for GCP credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * Zone defines the zone of gcp project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#zone DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#zone DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#zone}
   */
   readonly zone: string;
 }
@@ -9865,13 +9865,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Type represents the patch type, only support 'JSON' as [merge patch json](https://tools.ietf.org/html/rfc7396) currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Value is the patch contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9990,19 +9990,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Body is a rule to patch message body of target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
   */
   readonly body?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesHttpChaosPatchBody;
   /**
   * Headers is a rule to append http headers of target. For example: '[['Set-Cookie', '<one cookie>'], ['Set-Cookie', '<another cookie>']]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Queries is a rule to append uri queries of target(Request only). For example: '[['foo', 'bar'], ['foo', 'unknown']]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
   */
   readonly queries?: string[];
 }
@@ -10156,37 +10156,37 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Body is a rule to replace http message body in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
   */
   readonly body?: string;
   /**
   * Code is a rule to replace http status code in response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
   */
   readonly code?: number;
   /**
   * Headers is a rule to replace http headers of target. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Method is a rule to replace http method in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Path is rule to to replace uri path in http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Queries is a rule to replace uri queries in http request. For example, with value '{ 'foo': 'unknown' }', the '/?foo=bar' will be altered to '/?foo=unknown',
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
   */
   readonly queries?: { [key: string]: string };
 }
@@ -10427,19 +10427,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10609,55 +10609,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesHttpChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -10985,31 +10985,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * CAName represents the data name of ca file in secret, 'ca.crt' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ca_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ca_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * CertName represents the data name of cert file in secret, 'tls.crt' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cert_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cert_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cert_name}
   */
   readonly certName: string;
   /**
   * KeyName represents the data name of key file in secret, 'tls.key' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key_name}
   */
   readonly keyName: string;
   /**
   * SecretName represents the name of required secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * SecretNamespace represents the namespace of required secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_namespace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_namespace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_namespace}
   */
   readonly secretNamespace: string;
 }
@@ -11209,103 +11209,103 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Abort is a rule to abort a http session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#abort}
   */
   readonly abort?: boolean | cdktf.IResolvable;
   /**
   * Code is a rule to select target by http status code in response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
   */
   readonly code?: number;
   /**
   * Delay represents the delay of the target request/response. A duration string is a possibly unsigned sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: string;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Method is a rule to select target by http method in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Patch is a rule to patch some contents in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patch DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patch DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patch}
   */
   readonly patch?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesHttpChaosPatch;
   /**
   * Path is a rule to select target by uri path in http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port represents the target port to be proxy of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Replace is a rule to replace some contents in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#replace}
   */
   readonly replace?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesHttpChaosReplace;
   /**
   * RequestHeaders is a rule to select target by http headers in request. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
   * ResponseHeaders is a rule to select target by http headers in response. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#response_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#response_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#response_headers}
   */
   readonly responseHeaders?: { [key: string]: string };
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesHttpChaosSelector;
   /**
   * Target is the object to be selected and injected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target: string;
   /**
   * TLS is the tls config, will override PodHttpChaos if there are multiple HTTPChaos experiments are applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#tls DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#tls DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesHttpChaosTls;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11854,11 +11854,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosAttrAtime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
   */
   readonly nsec: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
   */
   readonly sec: number;
 }
@@ -11975,11 +11975,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosAttrCtime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
   */
   readonly nsec: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
   */
   readonly sec: number;
 }
@@ -12096,11 +12096,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosAttrMtime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
   */
   readonly nsec: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
   */
   readonly sec: number;
 }
@@ -12219,57 +12219,57 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Timespec represents a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#atime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#atime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#atime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#atime}
   */
   readonly atime?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosAttrAtime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#blocks DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#blocks DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#blocks}
   */
   readonly blocks?: number;
   /**
   * Timespec represents a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ctime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ctime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ctime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ctime}
   */
   readonly ctime?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosAttrCtime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ino DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ino}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ino DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ino}
   */
   readonly ino?: number;
   /**
   * FileType represents type of file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kind DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kind DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Timespec represents a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mtime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mtime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mtime}
   */
   readonly mtime?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosAttrMtime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nlink DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nlink DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nlink}
   */
   readonly nlink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#perm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#perm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#perm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#perm}
   */
   readonly perm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rdev DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rdev DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rdev}
   */
   readonly rdev?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
   */
   readonly uid?: number;
 }
@@ -12684,19 +12684,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Filling determines what is filled in the mistake data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#filling DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#filling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#filling DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#filling}
   */
   readonly filling?: string;
   /**
   * Max length of each wrong data segment in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_length DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_length DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_length}
   */
   readonly maxLength?: number;
   /**
   * There will be [1, MaxOccurrences] segments of wrong data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_occurrences DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_occurrences DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_occurrences}
   */
   readonly maxOccurrences?: number;
 }
@@ -12850,19 +12850,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13032,55 +13032,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -13408,91 +13408,91 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific pod chaos action. Supported action: latency / fault / attrOverride / mistake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Attr defines the overrided attribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attr}
   */
   readonly attr?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosAttr;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Delay defines the value of I/O chaos action delay. A delay string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: string;
   /**
   * Duration represents the duration of the chaos action. It is required when the action is 'PodFailureAction'. A duration string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '-1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Errno defines the error code that returned by I/O action. refer to: https://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/Errors/unix_system_errors.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#errno DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#errno}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#errno DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#errno}
   */
   readonly errno?: number;
   /**
   * Methods defines the I/O methods for injecting I/O chaos action. default: all I/O methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#methods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#methods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#methods}
   */
   readonly methods?: string[];
   /**
   * Mistake defines what types of incorrectness are injected to IO operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mistake DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mistake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mistake DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mistake}
   */
   readonly mistake?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosMistake;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Path defines the path of files for injecting I/O chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Percent defines the percentage of injection errors and provides a number from 0-100. default: 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
   */
   readonly percent?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesIoChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * VolumePath represents the mount path of injected volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -13982,19 +13982,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14164,55 +14164,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesJvmChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -14540,127 +14540,127 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific jvm chaos action. Supported action: latency;return;exception;stress;gc;ruleData
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * the CPU core number needs to use, only set it when action is stress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * the match database default value is '', means match all database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#database DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#database DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * the exception which needs to throw for action 'exception' or the exception message needs to throw in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
   */
   readonly exception?: string;
   /**
   * the latency duration for action 'latency', unit ms or the latency duration in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * the memory type needs to locate, only set it when action is stress, the value can be 'stack' or 'heap'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mem_type}
   */
   readonly memType?: string;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * the version of mysql-connector-java, only support 5.X.X(set to '5') and 8.X.X(set to '8') now
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mysql_connector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mysql_connector_version}
   */
   readonly mysqlConnectorVersion?: string;
   /**
   * byteman rule name, should be unique, and will generate one if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * the byteman rule's data for action 'ruleData'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rule_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rule_data}
   */
   readonly ruleData?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesJvmChaosSelector;
   /**
   * the match sql type default value is '', means match all SQL type. The value can be 'select', 'insert', 'update', 'delete', 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sql_type}
   */
   readonly sqlType?: string;
   /**
   * the match table default value is '', means match all table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#table DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#table DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#table}
   */
   readonly table?: string;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15327,19 +15327,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Funcname can be find from kernel source or '/proc/kallsyms', such as 'ext4_mount'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#funcname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#funcname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#funcname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#funcname}
   */
   readonly funcname?: string;
   /**
   * Parameters is used with predicate, for example, if you want to inject slab error in 'd_alloc_parallel(struct dentry *parent, const struct qstr *name)' with a special name 'bananas', you need to set it to 'struct dentry *parent, const struct qstr *name' otherwise omit it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#parameters DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#parameters DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#parameters}
   */
   readonly parameters?: string;
   /**
   * Predicate will access the arguments of this Frame, example with Parameters's, you can set it to 'STRNCMP(name->name, 'bananas', 8)' to make inject only with it, or omit it to inject for all d_alloc_parallel call chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#predicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#predicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#predicate}
   */
   readonly predicate?: string;
 }
@@ -15515,31 +15515,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Callchain indicate a special call chain, such as: ext4_mount -> mount_subtree -> ... -> should_failslab With an optional set of predicates and an optional set of parameters, which used with predicates. You can read call chan and predicate examples from https://github.com/chaos-mesh/bpfki/tree/develop/examples to learn more. If no special call chain, just keep Callchain empty, which means it will fail at any call chain with slab alloc (eg: kmalloc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#callchain DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#callchain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#callchain DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#callchain}
   */
   readonly callchain?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesKernelChaosFailKernRequestCallchain[] | cdktf.IResolvable;
   /**
   * FailType indicates what to fail, can be set to '0' / '1' / '2' If '0', indicates slab to fail (should_failslab) If '1', indicates alloc_page to fail (should_fail_alloc_page) If '2', indicates bio to fail (should_fail_bio) You can read: 1. https://www.kernel.org/doc/html/latest/fault-injection/fault-injection.html 2. http://github.com/iovisor/bcc/blob/master/tools/inject_example.txt to learn more
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#failtype DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#failtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#failtype DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#failtype}
   */
   readonly failtype: number;
   /**
   * Headers indicates the appropriate kernel headers you need. Eg: 'linux/mmzone.h', 'linux/blkdev.h' and so on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Probability indicates the fails with probability. If you want 1%, please set this field with 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#probability DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#probability DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#probability}
   */
   readonly probability?: number;
   /**
   * Times indicates the max times of fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#times DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#times DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#times}
   */
   readonly times?: number;
 }
@@ -15748,19 +15748,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15930,55 +15930,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesKernelChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -16306,43 +16306,43 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * FailKernRequest defines the request of kernel injection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fail_kern_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fail_kern_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fail_kern_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fail_kern_request}
   */
   readonly failKernRequest: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesKernelChaosFailKernRequest;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesKernelChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16603,31 +16603,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Buffer is the maximum amount of bytes that tokens can be available for instantaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#buffer DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#buffer DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#buffer}
   */
   readonly buffer: number;
   /**
   * Limit is the number of bytes that can be queued waiting for tokens to become available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#limit}
   */
   readonly limit: number;
   /**
   * Minburst specifies the size of the peakrate bucket. For perfect accuracy, should be set to the MTU of the interface. If a peakrate is needed, but some burstiness is acceptable, this size can be raised. A 3000 byte minburst allows around 3mbit/s of peakrate, given 1000 byte packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#minburst DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#minburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#minburst DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#minburst}
   */
   readonly minburst?: number;
   /**
   * Peakrate is the maximum depletion rate of the bucket. The peakrate does not need to be set, it is only necessary if perfect millisecond timescale shaping is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#peakrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#peakrate}
   */
   readonly peakrate?: number;
   /**
   * Rate is the speed knob. Allows bit, kbit, mbit, gbit, tbit, bps, kbps, mbps, gbps, tbps unit. bps means bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -16828,11 +16828,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosCorrupt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
   */
   readonly corrupt: string;
 }
@@ -16952,15 +16952,15 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosDelayReorder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gap DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gap DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gap}
   */
   readonly gap: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
   */
   readonly reorder: string;
 }
@@ -17106,21 +17106,21 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosDelay {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
   */
   readonly jitter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency: string;
   /**
   * ReorderSpec defines details of packet reorder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
   */
   readonly reorder?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosDelayReorder;
 }
@@ -17298,11 +17298,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosDuplicate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
   */
   readonly duplicate: string;
 }
@@ -17422,11 +17422,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosLoss {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
   */
   readonly loss: string;
 }
@@ -17548,7 +17548,7 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Rate is the speed knob. Allows bit, kbit, mbit, gbit, tbit, bps, kbps, mbps, gbps, tbps unit. bps means bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -17641,19 +17641,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17823,55 +17823,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -18199,19 +18199,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18381,55 +18381,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosTargetSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -18757,19 +18757,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosTargetSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -18917,103 +18917,103 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific network chaos action. Supported action: partition, netem, delay, loss, duplicate, corrupt Default action: delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Bandwidth represents the detail about bandwidth control action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#bandwidth}
   */
   readonly bandwidth?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosBandwidth;
   /**
   * Corrupt represents the detail about corrupt action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
   */
   readonly corrupt?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosCorrupt;
   /**
   * Delay represents the detail about delay action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosDelay;
   /**
   * Device represents the network device to be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * Direction represents the direction, this applies on netem and network partition action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#direction DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#direction DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#direction}
   */
   readonly direction?: string;
   /**
   * DuplicateSpec represents the detail about loss action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
   */
   readonly duplicate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosDuplicate;
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * ExternalTargets represents network targets outside k8s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#external_targets DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#external_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#external_targets DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#external_targets}
   */
   readonly externalTargets?: string[];
   /**
   * Loss represents the detail about loss action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
   */
   readonly loss?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosLoss;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Rate represents the detail about rate control action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosRate;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosSelector;
   /**
   * Target represents network target, this applies on netem and network partition action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesNetworkChaosTarget;
   /**
   * TargetDevice represents the network device to be affected in target scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target_device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target_device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target_device}
   */
   readonly targetDevice?: string;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -19564,19 +19564,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the identifier of the particular clock on which to act. More clock description in linux kernel can be found in man page of clock_getres, clock_gettime, clock_settime. Muti clock ids should be split with ','
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock_ids_slice DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock_ids_slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock_ids_slice DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock_ids_slice}
   */
   readonly clockIdsSlice?: string;
   /**
   * the pid of target program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * specifies the length of time offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#time_offset}
   */
   readonly timeOffset?: string;
 }
@@ -19730,19 +19730,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * fill disk by fallocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fill_by_fallocate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fill_by_fallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fill_by_fallocate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fill_by_fallocate}
   */
   readonly fillByFallocate?: boolean | cdktf.IResolvable;
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -19896,19 +19896,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies the number of process work on writing, default 1, only 1-255 is valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
   */
   readonly payloadProcessNum?: number;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -20062,19 +20062,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies the number of process work on writing, default 1, only 1-255 is valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
   */
   readonly payloadProcessNum?: number;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -20228,19 +20228,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Count is the number of times to append the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * Data is the data for append.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#data}
   */
   readonly data?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -20394,13 +20394,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DirName is the directory name to create or delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
   */
   readonly dirName?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -20525,13 +20525,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DirName is the directory name to create or delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
   */
   readonly dirName?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -20656,13 +20656,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
   * Privilege is the file privilege to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#privilege DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#privilege DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#privilege}
   */
   readonly privilege?: number;
 }
@@ -20787,13 +20787,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DestFile is the name to be renamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_file}
   */
   readonly destFile?: string;
   /**
   * SourceFile is the name need to be renamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_file}
   */
   readonly sourceFile?: string;
 }
@@ -20918,25 +20918,25 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DestStr is the destination string of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_string}
   */
   readonly destString?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
   * Line is the line number of the file to be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#line DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#line DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#line}
   */
   readonly line?: number;
   /**
   * OriginStr is the origin string of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#origin_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#origin_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#origin_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#origin_string}
   */
   readonly originString?: string;
 }
@@ -21119,37 +21119,37 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Code is a rule to select target by http status code in response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
   */
   readonly code?: string;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Match path of Uri with wildcard matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The TCP port that the target service listens on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Composed with one of the port of HTTP connection, we will only attack HTTP connection with port inside proxy_ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#proxy_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#proxy_ports}
   */
   readonly proxyPorts: string[];
   /**
   * HTTP target: Request or Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -21384,7 +21384,7 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The config file path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_path}
   */
   readonly filePath?: string;
 }
@@ -21480,43 +21480,43 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Code is a rule to select target by http status code in response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
   */
   readonly code?: string;
   /**
   * Delay represents the delay of the target request/response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay: string;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Match path of Uri with wildcard matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The TCP port that the target service listens on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Composed with one of the port of HTTP connection, we will only attack HTTP connection with port inside proxy_ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#proxy_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#proxy_ports}
   */
   readonly proxyPorts: string[];
   /**
   * HTTP target: Request or Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -21777,19 +21777,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The number of requests to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * Enable connection pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#enable_conn_pool DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#enable_conn_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#enable_conn_pool DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#enable_conn_pool}
   */
   readonly enableConnPool?: boolean | cdktf.IResolvable;
   /**
   * Request to send'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#url DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#url DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -21943,31 +21943,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * the exception which needs to throw for action 'exception'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
   */
   readonly exception?: string;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -22179,13 +22179,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -22310,31 +22310,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * the latency duration for action 'latency', unit ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -22546,49 +22546,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the match database default value is '', means match all database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#database DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#database DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * The exception which needs to throw for action 'exception' or the exception message needs to throw in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
   */
   readonly exception?: string;
   /**
   * The latency duration for action 'latency' or the latency duration in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * the version of mysql-connector-java, only support 5.X.X(set to '5') and 8.X.X(set to '8') now
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mysql_connector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mysql_connector_version}
   */
   readonly mysqlConnectorVersion?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * the match sql type default value is '', means match all SQL type. The value can be 'select', 'insert', 'update', 'delete', 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sql_type}
   */
   readonly sqlType?: string;
   /**
   * the match table default value is '', means match all table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#table DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#table DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#table}
   */
   readonly table?: string;
 }
@@ -22887,31 +22887,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * the return value for action 'return'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -23123,19 +23123,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RuleData used to save the rule file's data, will use it when recover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rule_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rule_data}
   */
   readonly ruleData?: string;
 }
@@ -23289,25 +23289,25 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the CPU core number need to use, only set it when action is stress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * the memory type need to locate, only set it when action is stress, the value can be 'stack' or 'heap'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mem_type}
   */
   readonly memType?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -23490,49 +23490,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The host of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#host DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#host DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The max bytes to fill
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_bytes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_bytes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * The size of each message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#message_size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#message_size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#message_size}
   */
   readonly messageSize?: number;
   /**
   * The password of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The port of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * The command to reload kafka config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reload_command DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reload_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reload_command DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reload_command}
   */
   readonly reloadCommand?: string;
   /**
   * The topic to attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#topic DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#topic DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#topic}
   */
   readonly topic?: string;
   /**
   * The username of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#username DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#username DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -23831,43 +23831,43 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The host of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#host DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#host DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The size of each message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#message_size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#message_size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#message_size}
   */
   readonly messageSize?: number;
   /**
   * The password of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The port of kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * The number of worker threads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#threads DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#threads DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#threads}
   */
   readonly threads?: number;
   /**
   * The topic to attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#topic DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#topic DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#topic}
   */
   readonly topic?: string;
   /**
   * The username of kafka client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#username DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#username DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -24137,25 +24137,25 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The path of server config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#config_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#config_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#config_file}
   */
   readonly configFile?: string;
   /**
   * Make kafka cluster non-readable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#non_readable DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#non_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#non_readable DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#non_readable}
   */
   readonly nonReadable?: boolean | cdktf.IResolvable;
   /**
   * Make kafka cluster non-writable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#non_writable DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#non_writable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#non_writable DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#non_writable}
   */
   readonly nonWritable?: boolean | cdktf.IResolvable;
   /**
   * The topic to attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#topic DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#topic DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#topic}
   */
   readonly topic?: string;
 }
@@ -24336,35 +24336,35 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#buffer DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#buffer DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#buffer}
   */
   readonly buffer: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#limit}
   */
   readonly limit: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#minburst DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#minburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#minburst DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#minburst}
   */
   readonly minburst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#peakrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#peakrate}
   */
   readonly peakrate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -24654,49 +24654,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * percentage of packets to corrupt (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -24995,61 +24995,61 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * only the packet which match the tcp flag can be accepted, others will be dropped. only set when the IPProtocol is tcp, used for partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#accept_tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#accept_tcp_flags}
   */
   readonly acceptTcpFlags?: string;
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * jitter time, time units: ns, us (or µs), ms, s, m, h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
   */
   readonly jitter?: string;
   /**
   * delay egress time, time units: ns, us (or µs), ms, s, m, h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -25406,19 +25406,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * map this host to specified IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dns_domain_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dns_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dns_domain_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dns_domain_name}
   */
   readonly dnsDomainName?: string;
   /**
   * map specified host to this IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dns_ip DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dns_ip DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dns_ip}
   */
   readonly dnsIp?: string;
   /**
   * update the DNS server in /etc/resolv.conf with this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dns_server DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dns_server DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dns_server}
   */
   readonly dnsServer?: string;
 }
@@ -25572,13 +25572,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * NIC down time, time units: ns, us (or µs), ms, s, m, h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
 }
@@ -25703,49 +25703,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * percentage of packets to duplicate (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -26044,31 +26044,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The number of seconds to run the iperf test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration: string;
   /**
   * Generate traffic to this IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The number of iperf parallel client threads to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#parallel DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#parallel DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#parallel}
   */
   readonly parallel?: number;
   /**
   * Generate traffic to this port on the IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * The speed of network traffic, allows bps, kbps, mbps, gbps, tbps unit. bps means bytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -26274,49 +26274,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * correlation is percentage (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * only impact egress traffic to these destination ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#egress_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#egress_port}
   */
   readonly egressPort?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact traffic using this IP protocol, supported: tcp, udp, icmp, all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * percentage of packets to loss (10 is 10%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
   /**
   * only impact egress traffic from these source ports, use a ',' to separate or to indicate the range, such as 80, 8001:8010. it can only be used in conjunction with -p tcp or -p udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -26615,37 +26615,37 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * only the packet which match the tcp flag can be accepted, others will be dropped. only set when the IPProtocol is tcp, used for partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#accept_tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#accept_tcp_flags DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#accept_tcp_flags}
   */
   readonly acceptTcpFlags?: string;
   /**
   * the network interface to impact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * specifies the partition direction, values can be 'from', 'to'. 'from' means packets coming from the 'IPAddress' or 'Hostname' and going to your server, 'to' means packets originating from your server and going to the 'IPAddress' or 'Hostname'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#direction DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#direction DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#direction}
   */
   readonly direction?: string;
   /**
   * only impact traffic to these hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#hostname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * only impact egress traffic to these IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ip_protocol DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
 }
@@ -26886,19 +26886,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the process name or the process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#process DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#process DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#process}
   */
   readonly process?: string;
   /**
   * the command to be run when recovering experiment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#recover_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#recover_cmd}
   */
   readonly recoverCmd?: string;
   /**
   * the signal number to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#signal DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#signal DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#signal}
   */
   readonly signal?: number;
 }
@@ -27052,25 +27052,25 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The size of 'maxmemory'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cache_size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cache_size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cache_size}
   */
   readonly cacheSize?: string;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Specifies maxmemory as a percentage of the original value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
   */
   readonly percent?: string;
 }
@@ -27253,31 +27253,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The expiration of the keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expiration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expiration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expiration}
   */
   readonly expiration?: string;
   /**
   * The keys to be expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Additional options for 'expiration'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#option DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#option DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#option}
   */
   readonly option?: string;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
 }
@@ -27489,19 +27489,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The number of requests to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_num}
   */
   readonly requestNum?: number;
 }
@@ -27655,31 +27655,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The path of Sentinel conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
   */
   readonly conf?: string;
   /**
   * The control flag determines whether to flush config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
   */
   readonly flushConfig?: boolean | cdktf.IResolvable;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The path of 'redis-server' command-line tool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
   */
   readonly redisPath?: boolean | cdktf.IResolvable;
 }
@@ -27891,31 +27891,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The adress of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#addr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * The path of Sentinel conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#conf DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#conf}
   */
   readonly conf?: string;
   /**
   * The control flag determines whether to flush config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#flush_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#flush_config}
   */
   readonly flushConfig?: boolean | cdktf.IResolvable;
   /**
   * The password of Redis server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#password DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * The path of 'redis-server' command-line tool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_path}
   */
   readonly redisPath?: boolean | cdktf.IResolvable;
 }
@@ -28127,19 +28127,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -28309,37 +28309,37 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * PhysicalMachines is a map of string keys and a set values that used to select physical machines. The key defines the namespace which physical machine belong, and each value is a set of physical machine names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#physical_machines DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#physical_machines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#physical_machines DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#physical_machines}
   */
   readonly physicalMachines?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -28580,19 +28580,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * specifies P percent loading per CPU worker. 0 is effectively a sleep (no load) and 100 is full loading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#load DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#load DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#load}
   */
   readonly load?: number;
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * specifies N workers to apply the stressor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#workers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#workers}
   */
   readonly workers?: number;
 }
@@ -28746,13 +28746,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * extend stress-ng options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#options DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#options}
   */
   readonly options?: string[];
   /**
   * specifies N bytes consumed per vm worker, default is the total available memory. One can specify the size as % of total available memory or in units of B, KB/KiB, MB/MiB, GB/GiB, TB/TiB..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -28877,13 +28877,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The command to be executed when attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attack_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attack_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attack_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attack_cmd}
   */
   readonly attackCmd?: string;
   /**
   * The command to be executed when recover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#recover_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#recover_cmd DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#recover_cmd}
   */
   readonly recoverCmd?: string;
 }
@@ -29008,7 +29008,7 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * The name of the VM to be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
   */
   readonly vmName?: string;
 }
@@ -29104,223 +29104,223 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the subAction, generate automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * DEPRECATED: Use Selector instead. Only one of Address and Selector could be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#address DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#address}
   */
   readonly address?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock}
   */
   readonly clock?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosClock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_fill}
   */
   readonly diskFill?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosDiskFill;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_read_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_read_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_read_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_read_payload}
   */
   readonly diskReadPayload?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosDiskReadPayload;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_write_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_write_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_write_payload DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_write_payload}
   */
   readonly diskWritePayload?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosDiskWritePayload;
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_append DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_append DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_append}
   */
   readonly fileAppend?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosFileAppend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_create DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_create DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_create}
   */
   readonly fileCreate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosFileCreate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_delete DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_delete DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_delete}
   */
   readonly fileDelete?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosFileDelete;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_modify DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_modify DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_modify}
   */
   readonly fileModify?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosFileModify;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_rename DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_rename DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_rename}
   */
   readonly fileRename?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosFileRename;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_replace}
   */
   readonly fileReplace?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosFileReplace;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_abort}
   */
   readonly httpAbort?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosHttpAbort;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_config DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosHttpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_delay}
   */
   readonly httpDelay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosHttpDelay;
   /**
   * used for HTTP request, now only support GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#http_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#http_request}
   */
   readonly httpRequest?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosHttpRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_exception}
   */
   readonly jvmException?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosJvmException;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_gc DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_gc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_gc DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_gc}
   */
   readonly jvmGc?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosJvmGc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_latency}
   */
   readonly jvmLatency?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosJvmLatency;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_mysql DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_mysql DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_mysql}
   */
   readonly jvmMysql?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosJvmMysql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_return DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_return DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_return}
   */
   readonly jvmReturn?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosJvmReturn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_rule_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_rule_data}
   */
   readonly jvmRuleData?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosJvmRuleData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_stress DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_stress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jvm_stress DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jvm_stress}
   */
   readonly jvmStress?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosJvmStress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_fill DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_fill}
   */
   readonly kafkaFill?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosKafkaFill;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_flood}
   */
   readonly kafkaFlood?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosKafkaFlood;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_io DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kafka_io DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kafka_io}
   */
   readonly kafkaIo?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosKafkaIo;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_bandwidth}
   */
   readonly networkBandwidth?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkBandwidth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_corrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_corrupt}
   */
   readonly networkCorrupt?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkCorrupt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_delay}
   */
   readonly networkDelay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkDelay;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_dns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_dns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_dns}
   */
   readonly networkDns?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkDns;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_down DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_down DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_down}
   */
   readonly networkDown?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkDown;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_duplicate}
   */
   readonly networkDuplicate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkDuplicate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_flood DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_flood}
   */
   readonly networkFlood?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkFlood;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_loss}
   */
   readonly networkLoss?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkLoss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_partition DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#network_partition DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#network_partition}
   */
   readonly networkPartition?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosNetworkPartition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#process DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#process DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#process}
   */
   readonly process?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosProcess;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_cache_limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_cache_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_cache_limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_cache_limit}
   */
   readonly redisCacheLimit?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosRedisCacheLimit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_expiration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_expiration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_expiration}
   */
   readonly redisExpiration?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosRedisExpiration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_penetration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_penetration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_penetration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_penetration}
   */
   readonly redisPenetration?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosRedisPenetration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_restart DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_restart DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_restart}
   */
   readonly redisRestart?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosRedisRestart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_stop DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#redis_stop DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#redis_stop}
   */
   readonly redisStop?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosRedisStop;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select physical machines that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_cpu DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_cpu DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_cpu}
   */
   readonly stressCpu?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosStressCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_mem DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#stress_mem DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#stress_mem}
   */
   readonly stressMem?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosStressMem;
   /**
   * the experiment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#user_defined DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#user_defined DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#user_defined}
   */
   readonly userDefined?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosUserDefined;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of physical machines to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of physical machines the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm}
   */
   readonly vm?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPhysicalmachineChaosVm;
 }
@@ -30860,19 +30860,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -31042,55 +31042,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPodChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -31418,49 +31418,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific pod chaos action. Supported action: pod-kill / pod-failure / container-kill Default action: pod-kill
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action. It is required when the action is 'PodFailureAction'. A duration string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '-1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * GracePeriod is used in pod-kill action. It represents the duration in seconds before the pod should be deleted. Value must be non-negative integer. The default value is zero that indicates delete immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#grace_period DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#grace_period DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesPodChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -31750,55 +31750,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific aws chaos action. Supported action: ec2-stop / ec2-restart / detach-volume Default action: ec2-stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * AWSRegion defines the region of aws.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#aws_region DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#aws_region DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#aws_region}
   */
   readonly awsRegion: string;
   /**
   * DeviceName indicates the name of the device. Needed in detach-volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Ec2Instance indicates the ID of the ec2 instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ec2_instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ec2_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ec2_instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ec2_instance}
   */
   readonly ec2Instance: string;
   /**
   * Endpoint indicates the endpoint of the aws server. Just used it in test now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#endpoint DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#endpoint DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * SecretName defines the name of kubernetes secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * EbsVolume indicates the ID of the EBS volume. Needed in detach-volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -32117,55 +32117,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific azure chaos action. Supported action: vm-stop / vm-restart / disk-detach Default action: vm-stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * DiskName indicates the name of the disk. Needed in disk-detach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#disk_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#disk_name}
   */
   readonly diskName?: string;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * LUN indicates the Logical Unit Number of the data disk. Needed in disk-detach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#lun DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#lun DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * ResourceGroupName defines the name of ResourceGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#resource_group_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#resource_group_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * SecretName defines the name of kubernetes secret. It is used for Azure credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * SubscriptionID defines the id of Azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#subscription_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#subscription_id DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * VMName defines the name of Virtual Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#vm_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#vm_name}
   */
   readonly vmName: string;
 }
@@ -32479,17 +32479,17 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleBlockChaosDelay {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
   */
   readonly jitter?: string;
   /**
   * Latency defines the latency of every io request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency?: string;
 }
@@ -32643,19 +32643,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -32825,55 +32825,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleBlockChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -33201,53 +33201,53 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific block chaos action. Supported action: delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Delay defines the delay distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleBlockChaosDelay;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleBlockChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName: string;
 }
@@ -33563,19 +33563,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -33745,55 +33745,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleDnsChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -34121,49 +34121,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific DNS chaos action. Supported action: error, random Default action: error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Choose which domain names to take effect, support the placeholder ? and wildcard *, or the Specified domain name. Note: 1. The wildcard * must be at the end of the string. For example, chaos-*.org is invalid. 2. if the patterns is empty, will take effect on all the domain names. For example: The value is ['google.com', 'github.*', 'chaos-mes?.org'], will take effect on 'google.com', 'github.com' and 'chaos-mesh.org'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patterns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patterns DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patterns}
   */
   readonly patterns?: string[];
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleDnsChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -34453,49 +34453,49 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific gcp chaos action. Supported action: node-stop / node-reset / disk-loss Default action: node-stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * The device name of disks to detach. Needed in disk-loss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device_names}
   */
   readonly deviceNames?: string[];
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Instance defines the name of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#instance DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#instance}
   */
   readonly instance: string;
   /**
   * Project defines the ID of gcp project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#project DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#project DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#project}
   */
   readonly project: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * SecretName defines the name of kubernetes secret. It is used for GCP credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * Zone defines the zone of gcp project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#zone DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#zone DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#zone}
   */
   readonly zone: string;
 }
@@ -34782,13 +34782,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Type represents the patch type, only support 'JSON' as [merge patch json](https://tools.ietf.org/html/rfc7396) currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Value is the patch contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -34907,19 +34907,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Body is a rule to patch message body of target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
   */
   readonly body?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleHttpChaosPatchBody;
   /**
   * Headers is a rule to append http headers of target. For example: '[['Set-Cookie', '<one cookie>'], ['Set-Cookie', '<another cookie>']]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Queries is a rule to append uri queries of target(Request only). For example: '[['foo', 'bar'], ['foo', 'unknown']]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
   */
   readonly queries?: string[];
 }
@@ -35073,37 +35073,37 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Body is a rule to replace http message body in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#body DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#body}
   */
   readonly body?: string;
   /**
   * Code is a rule to replace http status code in response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
   */
   readonly code?: number;
   /**
   * Headers is a rule to replace http headers of target. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Method is a rule to replace http method in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Path is rule to to replace uri path in http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Queries is a rule to replace uri queries in http request. For example, with value '{ 'foo': 'unknown' }', the '/?foo=bar' will be altered to '/?foo=unknown',
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#queries DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#queries}
   */
   readonly queries?: { [key: string]: string };
 }
@@ -35344,19 +35344,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -35526,55 +35526,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleHttpChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -35902,31 +35902,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * CAName represents the data name of ca file in secret, 'ca.crt' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ca_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ca_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * CertName represents the data name of cert file in secret, 'tls.crt' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cert_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cert_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cert_name}
   */
   readonly certName: string;
   /**
   * KeyName represents the data name of key file in secret, 'tls.key' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key_name}
   */
   readonly keyName: string;
   /**
   * SecretName represents the name of required secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * SecretNamespace represents the namespace of required secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_namespace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#secret_namespace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#secret_namespace}
   */
   readonly secretNamespace: string;
 }
@@ -36126,103 +36126,103 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Abort is a rule to abort a http session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#abort DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#abort}
   */
   readonly abort?: boolean | cdktf.IResolvable;
   /**
   * Code is a rule to select target by http status code in response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
   */
   readonly code?: number;
   /**
   * Delay represents the delay of the target request/response. A duration string is a possibly unsigned sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: string;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Method is a rule to select target by http method in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Patch is a rule to patch some contents in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patch DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#patch DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#patch}
   */
   readonly patch?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleHttpChaosPatch;
   /**
   * Path is a rule to select target by uri path in http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port represents the target port to be proxy of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Replace is a rule to replace some contents in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#replace DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#replace}
   */
   readonly replace?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleHttpChaosReplace;
   /**
   * RequestHeaders is a rule to select target by http headers in request. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#request_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
   * ResponseHeaders is a rule to select target by http headers in response. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#response_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#response_headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#response_headers}
   */
   readonly responseHeaders?: { [key: string]: string };
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleHttpChaosSelector;
   /**
   * Target is the object to be selected and injected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target: string;
   /**
   * TLS is the tls config, will override PodHttpChaos if there are multiple HTTPChaos experiments are applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#tls DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#tls DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleHttpChaosTls;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -36771,11 +36771,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosAttrAtime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
   */
   readonly nsec: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
   */
   readonly sec: number;
 }
@@ -36892,11 +36892,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosAttrCtime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
   */
   readonly nsec: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
   */
   readonly sec: number;
 }
@@ -37013,11 +37013,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosAttrMtime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nsec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nsec}
   */
   readonly nsec: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sec DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sec}
   */
   readonly sec: number;
 }
@@ -37136,57 +37136,57 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Timespec represents a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#atime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#atime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#atime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#atime}
   */
   readonly atime?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosAttrAtime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#blocks DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#blocks DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#blocks}
   */
   readonly blocks?: number;
   /**
   * Timespec represents a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ctime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ctime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ctime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ctime}
   */
   readonly ctime?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosAttrCtime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ino DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ino}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#ino DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#ino}
   */
   readonly ino?: number;
   /**
   * FileType represents type of file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kind DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#kind DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Timespec represents a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mtime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mtime DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mtime}
   */
   readonly mtime?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosAttrMtime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nlink DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nlink DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nlink}
   */
   readonly nlink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#perm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#perm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#perm DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#perm}
   */
   readonly perm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rdev DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rdev DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rdev}
   */
   readonly rdev?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#uid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#uid}
   */
   readonly uid?: number;
 }
@@ -37601,19 +37601,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Filling determines what is filled in the mistake data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#filling DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#filling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#filling DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#filling}
   */
   readonly filling?: string;
   /**
   * Max length of each wrong data segment in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_length DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_length DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_length}
   */
   readonly maxLength?: number;
   /**
   * There will be [1, MaxOccurrences] segments of wrong data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_occurrences DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#max_occurrences DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#max_occurrences}
   */
   readonly maxOccurrences?: number;
 }
@@ -37767,19 +37767,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -37949,55 +37949,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -38325,91 +38325,91 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific pod chaos action. Supported action: latency / fault / attrOverride / mistake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Attr defines the overrided attribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#attr DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#attr}
   */
   readonly attr?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosAttr;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Delay defines the value of I/O chaos action delay. A delay string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: string;
   /**
   * Duration represents the duration of the chaos action. It is required when the action is 'PodFailureAction'. A duration string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '-1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Errno defines the error code that returned by I/O action. refer to: https://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/Errors/unix_system_errors.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#errno DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#errno}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#errno DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#errno}
   */
   readonly errno?: number;
   /**
   * Methods defines the I/O methods for injecting I/O chaos action. default: all I/O methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#methods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#methods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#methods}
   */
   readonly methods?: string[];
   /**
   * Mistake defines what types of incorrectness are injected to IO operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mistake DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mistake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mistake DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mistake}
   */
   readonly mistake?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosMistake;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Path defines the path of files for injecting I/O chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Percent defines the percentage of injection errors and provides a number from 0-100. default: 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#percent DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#percent}
   */
   readonly percent?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleIoChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * VolumePath represents the mount path of injected volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#volume_path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -38899,19 +38899,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -39081,55 +39081,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleJvmChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -39457,127 +39457,127 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific jvm chaos action. Supported action: latency;return;exception;stress;gc;ruleData
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#class}
   */
   readonly class?: string;
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * the CPU core number needs to use, only set it when action is stress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#cpu_count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * the match database default value is '', means match all database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#database DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#database DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * the exception which needs to throw for action 'exception' or the exception message needs to throw in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#exception DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#exception}
   */
   readonly exception?: string;
   /**
   * the latency duration for action 'latency', unit ms or the latency duration in action 'mysql'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * the memory type needs to locate, only set it when action is stress, the value can be 'stack' or 'heap'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mem_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mem_type}
   */
   readonly memType?: string;
   /**
   * the method in Java class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * the version of mysql-connector-java, only support 5.X.X(set to '5') and 8.X.X(set to '8') now
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mysql_connector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mysql_connector_version DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mysql_connector_version}
   */
   readonly mysqlConnectorVersion?: string;
   /**
   * byteman rule name, should be unique, and will generate one if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * the pid of Java process which needs to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * the port of agent server, default 9277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * the byteman rule's data for action 'ruleData'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rule_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rule_data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rule_data}
   */
   readonly ruleData?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleJvmChaosSelector;
   /**
   * the match sql type default value is '', means match all SQL type. The value can be 'select', 'insert', 'update', 'delete', 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#sql_type DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#sql_type}
   */
   readonly sqlType?: string;
   /**
   * the match table default value is '', means match all table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#table DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#table DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#table}
   */
   readonly table?: string;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -40244,19 +40244,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Funcname can be find from kernel source or '/proc/kallsyms', such as 'ext4_mount'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#funcname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#funcname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#funcname DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#funcname}
   */
   readonly funcname?: string;
   /**
   * Parameters is used with predicate, for example, if you want to inject slab error in 'd_alloc_parallel(struct dentry *parent, const struct qstr *name)' with a special name 'bananas', you need to set it to 'struct dentry *parent, const struct qstr *name' otherwise omit it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#parameters DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#parameters DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#parameters}
   */
   readonly parameters?: string;
   /**
   * Predicate will access the arguments of this Frame, example with Parameters's, you can set it to 'STRNCMP(name->name, 'bananas', 8)' to make inject only with it, or omit it to inject for all d_alloc_parallel call chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#predicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#predicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#predicate}
   */
   readonly predicate?: string;
 }
@@ -40432,31 +40432,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Callchain indicate a special call chain, such as: ext4_mount -> mount_subtree -> ... -> should_failslab With an optional set of predicates and an optional set of parameters, which used with predicates. You can read call chan and predicate examples from https://github.com/chaos-mesh/bpfki/tree/develop/examples to learn more. If no special call chain, just keep Callchain empty, which means it will fail at any call chain with slab alloc (eg: kmalloc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#callchain DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#callchain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#callchain DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#callchain}
   */
   readonly callchain?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleKernelChaosFailKernRequestCallchain[] | cdktf.IResolvable;
   /**
   * FailType indicates what to fail, can be set to '0' / '1' / '2' If '0', indicates slab to fail (should_failslab) If '1', indicates alloc_page to fail (should_fail_alloc_page) If '2', indicates bio to fail (should_fail_bio) You can read: 1. https://www.kernel.org/doc/html/latest/fault-injection/fault-injection.html 2. http://github.com/iovisor/bcc/blob/master/tools/inject_example.txt to learn more
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#failtype DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#failtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#failtype DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#failtype}
   */
   readonly failtype: number;
   /**
   * Headers indicates the appropriate kernel headers you need. Eg: 'linux/mmzone.h', 'linux/blkdev.h' and so on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#headers DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Probability indicates the fails with probability. If you want 1%, please set this field with 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#probability DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#probability DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#probability}
   */
   readonly probability?: number;
   /**
   * Times indicates the max times of fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#times DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#times DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#times}
   */
   readonly times?: number;
 }
@@ -40665,19 +40665,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -40847,55 +40847,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleKernelChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -41223,43 +41223,43 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#container_names DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * FailKernRequest defines the request of kernel injection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fail_kern_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fail_kern_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fail_kern_request DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fail_kern_request}
   */
   readonly failKernRequest: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleKernelChaosFailKernRequest;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleKernelChaosSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -41520,31 +41520,31 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Buffer is the maximum amount of bytes that tokens can be available for instantaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#buffer DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#buffer DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#buffer}
   */
   readonly buffer: number;
   /**
   * Limit is the number of bytes that can be queued waiting for tokens to become available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#limit DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#limit}
   */
   readonly limit: number;
   /**
   * Minburst specifies the size of the peakrate bucket. For perfect accuracy, should be set to the MTU of the interface. If a peakrate is needed, but some burstiness is acceptable, this size can be raised. A 3000 byte minburst allows around 3mbit/s of peakrate, given 1000 byte packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#minburst DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#minburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#minburst DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#minburst}
   */
   readonly minburst?: number;
   /**
   * Peakrate is the maximum depletion rate of the bucket. The peakrate does not need to be set, it is only necessary if perfect millisecond timescale shaping is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#peakrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#peakrate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#peakrate}
   */
   readonly peakrate?: number;
   /**
   * Rate is the speed knob. Allows bit, kbit, mbit, gbit, tbit, bps, kbps, mbps, gbps, tbps unit. bps means bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -41745,11 +41745,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosCorrupt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
   */
   readonly corrupt: string;
 }
@@ -41869,15 +41869,15 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosDelayReorder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gap DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#gap DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#gap}
   */
   readonly gap: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
   */
   readonly reorder: string;
 }
@@ -42023,21 +42023,21 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosDelay {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#jitter DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#jitter}
   */
   readonly jitter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#latency DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#latency}
   */
   readonly latency: string;
   /**
   * ReorderSpec defines details of packet reorder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#reorder DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#reorder}
   */
   readonly reorder?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosDelayReorder;
 }
@@ -42215,11 +42215,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosDuplicate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
   */
   readonly duplicate: string;
 }
@@ -42339,11 +42339,11 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflow
 }
 export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosLoss {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#correlation DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
   */
   readonly loss: string;
 }
@@ -42465,7 +42465,7 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Rate is the speed knob. Allows bit, kbit, mbit, gbit, tbit, bps, kbps, mbps, gbps, tbps unit. bps means bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate: string;
 }
@@ -42558,19 +42558,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -42740,55 +42740,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -43116,19 +43116,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#key DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#operator DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#values DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -43298,55 +43298,55 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosTargetSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#nodes DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pods DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -43674,19 +43674,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosTargetSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -43834,103 +43834,103 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Action defines the specific network chaos action. Supported action: partition, netem, delay, loss, duplicate, corrupt Default action: delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#action DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Bandwidth represents the detail about bandwidth control action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#bandwidth DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#bandwidth}
   */
   readonly bandwidth?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosBandwidth;
   /**
   * Corrupt represents the detail about corrupt action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#corrupt DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#corrupt}
   */
   readonly corrupt?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosCorrupt;
   /**
   * Delay represents the detail about delay action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#delay DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#delay}
   */
   readonly delay?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosDelay;
   /**
   * Device represents the network device to be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * Direction represents the direction, this applies on netem and network partition action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#direction DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#direction DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#direction}
   */
   readonly direction?: string;
   /**
   * DuplicateSpec represents the detail about loss action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duplicate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duplicate}
   */
   readonly duplicate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosDuplicate;
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#duration DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * ExternalTargets represents network targets outside k8s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#external_targets DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#external_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#external_targets DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#external_targets}
   */
   readonly externalTargets?: string[];
   /**
   * Loss represents the detail about loss action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#loss DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#loss}
   */
   readonly loss?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosLoss;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#mode DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Rate represents the detail about rate control action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#rate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#rate}
   */
   readonly rate?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosRate;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#selector DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosSelector;
   /**
   * Target represents network target, this applies on netem and network partition action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWorkflowTemplatesScheduleNetworkChaosTarget;
   /**
   * TargetDevice represents the network device to be affected in target scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target_device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target_device DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target_device}
   */
   readonly targetDevice?: string;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#value DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -44481,19 +44481,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * the identifier of the particular clock on which to act. More clock description in linux kernel can be found in man page of clock_getres, clock_gettime, clock_settime. Muti clock ids should be split with ','
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock_ids_slice DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock_ids_slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#clock_ids_slice DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#clock_ids_slice}
   */
   readonly clockIdsSlice?: string;
   /**
   * the pid of target program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#pid DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * specifies the length of time offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#time_offset DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#time_offset}
   */
   readonly timeOffset?: string;
 }
@@ -44647,19 +44647,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * fill disk by fallocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fill_by_fallocate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fill_by_fallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#fill_by_fallocate DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#fill_by_fallocate}
   */
   readonly fillByFallocate?: boolean | cdktf.IResolvable;
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -44813,19 +44813,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies the number of process work on writing, default 1, only 1-255 is valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
   */
   readonly payloadProcessNum?: number;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -44979,19 +44979,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * specifies the location to fill data in. if path not provided, payload will read/write from/into a temp file, temp file will be deleted after writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * specifies the number of process work on writing, default 1, only 1-255 is valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#payload_process_num DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#payload_process_num}
   */
   readonly payloadProcessNum?: number;
   /**
   * specifies how many units of data will write into the file path. support unit: c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, GB=1000*1000*1000, G=1024*1024*1024 BYTES. example : 1M | 512kB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#size DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -45145,19 +45145,19 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Count is the number of times to append the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#count DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * Data is the data for append.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#data DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#data}
   */
   readonly data?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -45311,13 +45311,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DirName is the directory name to create or delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
   */
   readonly dirName?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -45442,13 +45442,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DirName is the directory name to create or delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dir_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dir_name}
   */
   readonly dirName?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
 }
@@ -45573,13 +45573,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
   * Privilege is the file privilege to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#privilege DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#privilege DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#privilege}
   */
   readonly privilege?: number;
 }
@@ -45704,13 +45704,13 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DestFile is the name to be renamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_file}
   */
   readonly destFile?: string;
   /**
   * SourceFile is the name need to be renamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#source_file DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#source_file}
   */
   readonly sourceFile?: string;
 }
@@ -45835,25 +45835,25 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * DestStr is the destination string of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#dest_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#dest_string}
   */
   readonly destString?: string;
   /**
   * FileName is the name of the file to be created, modified, deleted, renamed, or appended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#file_name DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
   * Line is the line number of the file to be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#line DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#line DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#line}
   */
   readonly line?: number;
   /**
   * OriginStr is the origin string of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#origin_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#origin_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#origin_string DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#origin_string}
   */
   readonly originString?: string;
 }
@@ -46036,37 +46036,37 @@ export interface DataK8SChaosMeshOrgWorkflowNodeV1Alpha1ManifestSpecScheduleWork
   /**
   * Code is a rule to select target by http status code in response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#code DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#code}
   */
   readonly code?: string;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#method DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Match path of Uri with wildcard matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#path DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The TCP port that the target service listens on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#port DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Composed with one of the port of HTTP connection, we will only attack HTTP connection with port inside proxy_ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#proxy_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#proxy_ports DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#proxy_ports}
   */
   readonly proxyPorts: string[];
   /**
   * HTTP target: Request or Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_workflow_node_v1alpha1_manifest#target DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest#target}
   */
   readonly target: string;
 }

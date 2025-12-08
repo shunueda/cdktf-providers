@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STheketchIoJobV1Beta1ManifestConfig extends cdktf.Terrafo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#metadata DataK8STheketchIoJobV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#metadata DataK8STheketchIoJobV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8STheketchIoJobV1Beta1ManifestMetadata;
   /**
   * JobSpec defines the desired state of Job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#spec DataK8STheketchIoJobV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#spec DataK8STheketchIoJobV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STheketchIoJobV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STheketchIoJobV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#annotations DataK8STheketchIoJobV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#annotations DataK8STheketchIoJobV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#labels DataK8STheketchIoJobV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#labels DataK8STheketchIoJobV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#name DataK8STheketchIoJobV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#name DataK8STheketchIoJobV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#namespace DataK8STheketchIoJobV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#namespace DataK8STheketchIoJobV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8STheketchIoJobV1Beta1ManifestMetadataOutputReference extends 
 }
 export interface DataK8STheketchIoJobV1Beta1ManifestSpecContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#command DataK8STheketchIoJobV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#command DataK8STheketchIoJobV1Beta1Manifest#command}
   */
   readonly command: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#image DataK8STheketchIoJobV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#image DataK8STheketchIoJobV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#name DataK8STheketchIoJobV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#name DataK8STheketchIoJobV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -392,13 +392,13 @@ export interface DataK8STheketchIoJobV1Beta1ManifestSpecPolicy {
   /**
   * CronJob-specific
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#concurrency_policy DataK8STheketchIoJobV1Beta1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#concurrency_policy DataK8STheketchIoJobV1Beta1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
   * RestartPolicy describes how the container should be restarted. Only one of the following restart policies may be specified. If none of the following policies is specified, the default one is RestartPolicyAlways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#restart_policy DataK8STheketchIoJobV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#restart_policy DataK8STheketchIoJobV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
 }
@@ -521,67 +521,67 @@ export class DataK8STheketchIoJobV1Beta1ManifestSpecPolicyOutputReference extend
 }
 export interface DataK8STheketchIoJobV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#backoff_limit DataK8STheketchIoJobV1Beta1Manifest#backoff_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#backoff_limit DataK8STheketchIoJobV1Beta1Manifest#backoff_limit}
   */
   readonly backoffLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#completions DataK8STheketchIoJobV1Beta1Manifest#completions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#completions DataK8STheketchIoJobV1Beta1Manifest#completions}
   */
   readonly completions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#containers DataK8STheketchIoJobV1Beta1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#containers DataK8STheketchIoJobV1Beta1Manifest#containers}
   */
   readonly containers?: DataK8STheketchIoJobV1Beta1ManifestSpecContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#description DataK8STheketchIoJobV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#description DataK8STheketchIoJobV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#failed_jobs_history_limit DataK8STheketchIoJobV1Beta1Manifest#failed_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#failed_jobs_history_limit DataK8STheketchIoJobV1Beta1Manifest#failed_jobs_history_limit}
   */
   readonly failedJobsHistoryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#name DataK8STheketchIoJobV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#name DataK8STheketchIoJobV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#namespace DataK8STheketchIoJobV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#namespace DataK8STheketchIoJobV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#parallelism DataK8STheketchIoJobV1Beta1Manifest#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#parallelism DataK8STheketchIoJobV1Beta1Manifest#parallelism}
   */
   readonly parallelism?: number;
   /**
   * Policy represents the policy types a job can have
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#policy DataK8STheketchIoJobV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#policy DataK8STheketchIoJobV1Beta1Manifest#policy}
   */
   readonly policy?: DataK8STheketchIoJobV1Beta1ManifestSpecPolicy;
   /**
   * CronJob-specific
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#schedule DataK8STheketchIoJobV1Beta1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#schedule DataK8STheketchIoJobV1Beta1Manifest#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#starting_deadline_seconds DataK8STheketchIoJobV1Beta1Manifest#starting_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#starting_deadline_seconds DataK8STheketchIoJobV1Beta1Manifest#starting_deadline_seconds}
   */
   readonly startingDeadlineSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#successful_jobs_history_limit DataK8STheketchIoJobV1Beta1Manifest#successful_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#successful_jobs_history_limit DataK8STheketchIoJobV1Beta1Manifest#successful_jobs_history_limit}
   */
   readonly successfulJobsHistoryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#suspend DataK8STheketchIoJobV1Beta1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#suspend DataK8STheketchIoJobV1Beta1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#type DataK8STheketchIoJobV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#type DataK8STheketchIoJobV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#version DataK8STheketchIoJobV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#version DataK8STheketchIoJobV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1072,7 +1072,7 @@ export class DataK8STheketchIoJobV1Beta1ManifestSpecOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest k8s_theketch_io_job_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest k8s_theketch_io_job_v1beta1_manifest}
 */
 export class DataK8STheketchIoJobV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1088,7 +1088,7 @@ export class DataK8STheketchIoJobV1Beta1Manifest extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataK8STheketchIoJobV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STheketchIoJobV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8STheketchIoJobV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STheketchIoJobV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STheketchIoJobV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1100,7 +1100,7 @@ export class DataK8STheketchIoJobV1Beta1Manifest extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/theketch_io_job_v1beta1_manifest k8s_theketch_io_job_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/theketch_io_job_v1beta1_manifest k8s_theketch_io_job_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1111,8 +1111,8 @@ export class DataK8STheketchIoJobV1Beta1Manifest extends cdktf.TerraformDataSour
       terraformResourceType: 'k8s_theketch_io_job_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

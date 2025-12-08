@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface AmqpVirtualHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host#id AmqpVirtualHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host#id AmqpVirtualHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host#instance_id AmqpVirtualHost#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host#instance_id AmqpVirtualHost#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host#virtual_host_name AmqpVirtualHost#virtual_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host#virtual_host_name AmqpVirtualHost#virtual_host_name}
   */
   readonly virtualHostName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host#timeouts AmqpVirtualHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host#timeouts AmqpVirtualHost#timeouts}
   */
   readonly timeouts?: AmqpVirtualHostTimeouts;
 }
 export interface AmqpVirtualHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host#create AmqpVirtualHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host#create AmqpVirtualHost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host#delete AmqpVirtualHost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host#delete AmqpVirtualHost#delete}
   */
   readonly delete?: string;
 }
@@ -158,7 +158,7 @@ export class AmqpVirtualHostTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host alicloud_amqp_virtual_host}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host alicloud_amqp_virtual_host}
 */
 export class AmqpVirtualHost extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class AmqpVirtualHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AmqpVirtualHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmqpVirtualHost to import
-  * @param importFromId The id of the existing AmqpVirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmqpVirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmqpVirtualHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class AmqpVirtualHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_virtual_host alicloud_amqp_virtual_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_virtual_host alicloud_amqp_virtual_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class AmqpVirtualHost extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_amqp_virtual_host',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

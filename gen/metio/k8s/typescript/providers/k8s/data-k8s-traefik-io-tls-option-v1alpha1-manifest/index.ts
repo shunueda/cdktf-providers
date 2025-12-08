@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STraefikIoTlsOptionV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#metadata DataK8STraefikIoTlsOptionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#metadata DataK8STraefikIoTlsOptionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STraefikIoTlsOptionV1Alpha1ManifestMetadata;
   /**
   * TLSOptionSpec defines the desired state of a TLSOption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#spec DataK8STraefikIoTlsOptionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#spec DataK8STraefikIoTlsOptionV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STraefikIoTlsOptionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STraefikIoTlsOptionV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#annotations DataK8STraefikIoTlsOptionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#annotations DataK8STraefikIoTlsOptionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#labels DataK8STraefikIoTlsOptionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#labels DataK8STraefikIoTlsOptionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#name DataK8STraefikIoTlsOptionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#name DataK8STraefikIoTlsOptionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#namespace DataK8STraefikIoTlsOptionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#namespace DataK8STraefikIoTlsOptionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STraefikIoTlsOptionV1Alpha1ManifestSpecClientAuth {
   /**
   * ClientAuthType defines the client authentication type to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#client_auth_type DataK8STraefikIoTlsOptionV1Alpha1Manifest#client_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#client_auth_type DataK8STraefikIoTlsOptionV1Alpha1Manifest#client_auth_type}
   */
   readonly clientAuthType?: string;
   /**
   * SecretNames defines the names of the referenced Kubernetes Secret storing certificate details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#secret_names DataK8STraefikIoTlsOptionV1Alpha1Manifest#secret_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#secret_names DataK8STraefikIoTlsOptionV1Alpha1Manifest#secret_names}
   */
   readonly secretNames?: string[];
 }
@@ -350,49 +350,49 @@ export interface DataK8STraefikIoTlsOptionV1Alpha1ManifestSpec {
   /**
   * ALPNProtocols defines the list of supported application level protocols for the TLS handshake, in order of preference. More info: https://doc.traefik.io/traefik/v3.2/https/tls/#alpn-protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#alpn_protocols DataK8STraefikIoTlsOptionV1Alpha1Manifest#alpn_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#alpn_protocols DataK8STraefikIoTlsOptionV1Alpha1Manifest#alpn_protocols}
   */
   readonly alpnProtocols?: string[];
   /**
   * CipherSuites defines the list of supported cipher suites for TLS versions up to TLS 1.2. More info: https://doc.traefik.io/traefik/v3.2/https/tls/#cipher-suites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#cipher_suites DataK8STraefikIoTlsOptionV1Alpha1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#cipher_suites DataK8STraefikIoTlsOptionV1Alpha1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * ClientAuth defines the server's policy for TLS Client Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#client_auth DataK8STraefikIoTlsOptionV1Alpha1Manifest#client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#client_auth DataK8STraefikIoTlsOptionV1Alpha1Manifest#client_auth}
   */
   readonly clientAuth?: DataK8STraefikIoTlsOptionV1Alpha1ManifestSpecClientAuth;
   /**
   * CurvePreferences defines the preferred elliptic curves in a specific order. More info: https://doc.traefik.io/traefik/v3.2/https/tls/#curve-preferences
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#curve_preferences DataK8STraefikIoTlsOptionV1Alpha1Manifest#curve_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#curve_preferences DataK8STraefikIoTlsOptionV1Alpha1Manifest#curve_preferences}
   */
   readonly curvePreferences?: string[];
   /**
   * MaxVersion defines the maximum TLS version that Traefik will accept. Possible values: VersionTLS10, VersionTLS11, VersionTLS12, VersionTLS13. Default: None.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#max_version DataK8STraefikIoTlsOptionV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#max_version DataK8STraefikIoTlsOptionV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * MinVersion defines the minimum TLS version that Traefik will accept. Possible values: VersionTLS10, VersionTLS11, VersionTLS12, VersionTLS13. Default: VersionTLS10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#min_version DataK8STraefikIoTlsOptionV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#min_version DataK8STraefikIoTlsOptionV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * PreferServerCipherSuites defines whether the server chooses a cipher suite among his own instead of among the client's. It is enabled automatically when minVersion or maxVersion is set. Deprecated: https://github.com/golang/go/issues/45430
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#prefer_server_cipher_suites DataK8STraefikIoTlsOptionV1Alpha1Manifest#prefer_server_cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#prefer_server_cipher_suites DataK8STraefikIoTlsOptionV1Alpha1Manifest#prefer_server_cipher_suites}
   */
   readonly preferServerCipherSuites?: boolean | cdktf.IResolvable;
   /**
   * SniStrict defines whether Traefik allows connections from clients connections that do not specify a server_name extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#sni_strict DataK8STraefikIoTlsOptionV1Alpha1Manifest#sni_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#sni_strict DataK8STraefikIoTlsOptionV1Alpha1Manifest#sni_strict}
   */
   readonly sniStrict?: boolean | cdktf.IResolvable;
 }
@@ -689,7 +689,7 @@ export class DataK8STraefikIoTlsOptionV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest k8s_traefik_io_tls_option_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest k8s_traefik_io_tls_option_v1alpha1_manifest}
 */
 export class DataK8STraefikIoTlsOptionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -705,7 +705,7 @@ export class DataK8STraefikIoTlsOptionV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8STraefikIoTlsOptionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STraefikIoTlsOptionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STraefikIoTlsOptionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STraefikIoTlsOptionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STraefikIoTlsOptionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -717,7 +717,7 @@ export class DataK8STraefikIoTlsOptionV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest k8s_traefik_io_tls_option_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/traefik_io_tls_option_v1alpha1_manifest k8s_traefik_io_tls_option_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -728,8 +728,8 @@ export class DataK8STraefikIoTlsOptionV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_traefik_io_tls_option_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

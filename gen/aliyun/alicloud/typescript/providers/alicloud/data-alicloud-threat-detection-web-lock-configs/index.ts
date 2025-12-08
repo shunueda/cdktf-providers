@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudThreatDetectionWebLockConfigsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#id DataAlicloudThreatDetectionWebLockConfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#id DataAlicloudThreatDetectionWebLockConfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#ids DataAlicloudThreatDetectionWebLockConfigs#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#ids DataAlicloudThreatDetectionWebLockConfigs#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#lang DataAlicloudThreatDetectionWebLockConfigs#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#lang DataAlicloudThreatDetectionWebLockConfigs#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#output_file DataAlicloudThreatDetectionWebLockConfigs#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#output_file DataAlicloudThreatDetectionWebLockConfigs#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#page_number DataAlicloudThreatDetectionWebLockConfigs#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#page_number DataAlicloudThreatDetectionWebLockConfigs#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#page_size DataAlicloudThreatDetectionWebLockConfigs#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#page_size DataAlicloudThreatDetectionWebLockConfigs#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#remark DataAlicloudThreatDetectionWebLockConfigs#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#remark DataAlicloudThreatDetectionWebLockConfigs#remark}
   */
   readonly remark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#source_ip DataAlicloudThreatDetectionWebLockConfigs#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#source_ip DataAlicloudThreatDetectionWebLockConfigs#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#status DataAlicloudThreatDetectionWebLockConfigs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#status DataAlicloudThreatDetectionWebLockConfigs#status}
   */
   readonly status?: string;
 }
@@ -169,7 +169,7 @@ export class DataAlicloudThreatDetectionWebLockConfigsConfigsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs alicloud_threat_detection_web_lock_configs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs alicloud_threat_detection_web_lock_configs}
 */
 export class DataAlicloudThreatDetectionWebLockConfigs extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataAlicloudThreatDetectionWebLockConfigs extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlicloudThreatDetectionWebLockConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudThreatDetectionWebLockConfigs to import
-  * @param importFromId The id of the existing DataAlicloudThreatDetectionWebLockConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudThreatDetectionWebLockConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudThreatDetectionWebLockConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataAlicloudThreatDetectionWebLockConfigs extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/threat_detection_web_lock_configs alicloud_threat_detection_web_lock_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_web_lock_configs alicloud_threat_detection_web_lock_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataAlicloudThreatDetectionWebLockConfigs extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_threat_detection_web_lock_configs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

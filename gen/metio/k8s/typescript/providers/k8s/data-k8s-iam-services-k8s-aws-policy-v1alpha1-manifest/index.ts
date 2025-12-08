@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#metadata DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#metadata DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestMetadata;
   /**
   * PolicySpec defines the desired state of Policy. Contains information about a managed policy. This data type is used as a response element in the CreatePolicy, GetPolicy, and ListPolicies operations. For more information about managed policies, refer to Managed policies and inline policies (https://docs.aws.amazon.com/IAM/latest/UserGuide/policies-managed-vs-inline.html) in the IAM User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#spec DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#spec DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#annotations DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#annotations DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#labels DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#labels DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#name DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#name DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#namespace DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#namespace DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestMetadataOutputReferen
 }
 export interface DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#key DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#key DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#value DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#value DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,31 +368,31 @@ export interface DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestSpec {
   /**
   * A friendly description of the policy. Typically used to store information about the permissions defined in the policy. For example, 'Grants access to production DynamoDB tables.' The policy description is immutable. After a value is assigned, it cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#description DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#description DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The friendly name of the policy. IAM user, group, role, and policy names must be unique within the account. Names are not distinguished by case. For example, you cannot create resources named both 'MyResource' and 'myresource'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#name DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#name DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The path for the policy. For more information about paths, see IAM identifiers (https://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html) in the IAM User Guide. This parameter is optional. If it is not included, it defaults to a slash (/). This parameter allows (through its regex pattern (http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (u0021) through the DEL character (u007F), including most punctuation characters, digits, and upper and lowercased letters. You cannot use an asterisk (*) in the path name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#path DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#path DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The JSON policy document that you want to use as the content for the new policy. You must provide policies in JSON format in IAM. However, for CloudFormation templates formatted in YAML, you can provide the policy in JSON or YAML format. CloudFormation always converts a YAML policy to JSON format before submitting it to IAM. The maximum length of the policy document that you can pass in this operation, including whitespace, is listed below. To view the maximum character counts of a managed policy with no whitespaces, see IAM and STS character quotas (https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html#reference_iam-quotas-entity-length). To learn more about JSON policy grammar, see Grammar of the IAM JSON policy language (https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_grammar.html) in the IAM User Guide. The regex pattern (http://wikipedia.org/wiki/regex) used to validate this parameter is a string of characters consisting of the following: * Any printable ASCII character ranging from the space character (u0020) through the end of the ASCII character range * The printable characters in the Basic Latin and Latin-1 Supplement character set (through u00FF) * The special characters tab (u0009), line feed (u000A), and carriage return (u000D)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#policy_document DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#policy_document DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#policy_document}
   */
   readonly policyDocument: string;
   /**
   * A list of tags that you want to attach to the new IAM customer managed policy. Each tag consists of a key name and an associated value. For more information about tagging, see Tagging IAM resources (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html) in the IAM User Guide. If any one of the tags is invalid or if you exceed the allowed maximum number of tags, then the entire request fails and the resource is not created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#tags DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#tags DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -596,7 +596,7 @@ export class DataK8SIamServicesK8SAwsPolicyV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest k8s_iam_services_k8s_aws_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest k8s_iam_services_k8s_aws_policy_v1alpha1_manifest}
 */
 export class DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -612,7 +612,7 @@ export class DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -624,7 +624,7 @@ export class DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest k8s_iam_services_k8s_aws_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/iam_services_k8s_aws_policy_v1alpha1_manifest k8s_iam_services_k8s_aws_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,8 +635,8 @@ export class DataK8SIamServicesK8SAwsPolicyV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_iam_services_k8s_aws_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.1',
-        providerVersionConstraint: '2025.12.1'
+        providerVersion: '2025.12.8',
+        providerVersionConstraint: '2025.12.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

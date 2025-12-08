@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface CddcDedicatedHostGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#allocation_policy CddcDedicatedHostGroup#allocation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#allocation_policy CddcDedicatedHostGroup#allocation_policy}
   */
   readonly allocationPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#cpu_allocation_ratio CddcDedicatedHostGroup#cpu_allocation_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#cpu_allocation_ratio CddcDedicatedHostGroup#cpu_allocation_ratio}
   */
   readonly cpuAllocationRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#dedicated_host_group_desc CddcDedicatedHostGroup#dedicated_host_group_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#dedicated_host_group_desc CddcDedicatedHostGroup#dedicated_host_group_desc}
   */
   readonly dedicatedHostGroupDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#disk_allocation_ratio CddcDedicatedHostGroup#disk_allocation_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#disk_allocation_ratio CddcDedicatedHostGroup#disk_allocation_ratio}
   */
   readonly diskAllocationRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#engine CddcDedicatedHostGroup#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#engine CddcDedicatedHostGroup#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#host_replace_policy CddcDedicatedHostGroup#host_replace_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#host_replace_policy CddcDedicatedHostGroup#host_replace_policy}
   */
   readonly hostReplacePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#id CddcDedicatedHostGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#id CddcDedicatedHostGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#mem_allocation_ratio CddcDedicatedHostGroup#mem_allocation_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#mem_allocation_ratio CddcDedicatedHostGroup#mem_allocation_ratio}
   */
   readonly memAllocationRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#open_permission CddcDedicatedHostGroup#open_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#open_permission CddcDedicatedHostGroup#open_permission}
   */
   readonly openPermission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#vpc_id CddcDedicatedHostGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#vpc_id CddcDedicatedHostGroup#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group alicloud_cddc_dedicated_host_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group alicloud_cddc_dedicated_host_group}
 */
 export class CddcDedicatedHostGroup extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class CddcDedicatedHostGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CddcDedicatedHostGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CddcDedicatedHostGroup to import
-  * @param importFromId The id of the existing CddcDedicatedHostGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CddcDedicatedHostGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CddcDedicatedHostGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class CddcDedicatedHostGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cddc_dedicated_host_group alicloud_cddc_dedicated_host_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_host_group alicloud_cddc_dedicated_host_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class CddcDedicatedHostGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cddc_dedicated_host_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

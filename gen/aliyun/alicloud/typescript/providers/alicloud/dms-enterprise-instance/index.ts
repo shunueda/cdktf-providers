@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface DmsEnterpriseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#data_link_name DmsEnterpriseInstance#data_link_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#data_link_name DmsEnterpriseInstance#data_link_name}
   */
   readonly dataLinkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#database_password DmsEnterpriseInstance#database_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#database_password DmsEnterpriseInstance#database_password}
   */
   readonly databasePassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#database_user DmsEnterpriseInstance#database_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#database_user DmsEnterpriseInstance#database_user}
   */
   readonly databaseUser: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#dba_id DmsEnterpriseInstance#dba_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#dba_id DmsEnterpriseInstance#dba_id}
   */
   readonly dbaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#dba_uid DmsEnterpriseInstance#dba_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#dba_uid DmsEnterpriseInstance#dba_uid}
   */
   readonly dbaUid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#ddl_online DmsEnterpriseInstance#ddl_online}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#ddl_online DmsEnterpriseInstance#ddl_online}
   */
   readonly ddlOnline?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#ecs_instance_id DmsEnterpriseInstance#ecs_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#ecs_instance_id DmsEnterpriseInstance#ecs_instance_id}
   */
   readonly ecsInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#ecs_region DmsEnterpriseInstance#ecs_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#ecs_region DmsEnterpriseInstance#ecs_region}
   */
   readonly ecsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#env_type DmsEnterpriseInstance#env_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#env_type DmsEnterpriseInstance#env_type}
   */
   readonly envType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#export_timeout DmsEnterpriseInstance#export_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#export_timeout DmsEnterpriseInstance#export_timeout}
   */
   readonly exportTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#host DmsEnterpriseInstance#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#host DmsEnterpriseInstance#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#id DmsEnterpriseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#id DmsEnterpriseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#instance_alias DmsEnterpriseInstance#instance_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#instance_alias DmsEnterpriseInstance#instance_alias}
   */
   readonly instanceAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#instance_id DmsEnterpriseInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#instance_id DmsEnterpriseInstance#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#instance_name DmsEnterpriseInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#instance_name DmsEnterpriseInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#instance_source DmsEnterpriseInstance#instance_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#instance_source DmsEnterpriseInstance#instance_source}
   */
   readonly instanceSource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#instance_type DmsEnterpriseInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#instance_type DmsEnterpriseInstance#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#network_type DmsEnterpriseInstance#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#network_type DmsEnterpriseInstance#network_type}
   */
   readonly networkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#port DmsEnterpriseInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#port DmsEnterpriseInstance#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#query_timeout DmsEnterpriseInstance#query_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#query_timeout DmsEnterpriseInstance#query_timeout}
   */
   readonly queryTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#safe_rule DmsEnterpriseInstance#safe_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#safe_rule DmsEnterpriseInstance#safe_rule}
   */
   readonly safeRule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#safe_rule_id DmsEnterpriseInstance#safe_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#safe_rule_id DmsEnterpriseInstance#safe_rule_id}
   */
   readonly safeRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#sid DmsEnterpriseInstance#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#sid DmsEnterpriseInstance#sid}
   */
   readonly sid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#skip_test DmsEnterpriseInstance#skip_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#skip_test DmsEnterpriseInstance#skip_test}
   */
   readonly skipTest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#tid DmsEnterpriseInstance#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#tid DmsEnterpriseInstance#tid}
   */
   readonly tid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#use_dsql DmsEnterpriseInstance#use_dsql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#use_dsql DmsEnterpriseInstance#use_dsql}
   */
   readonly useDsql?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#vpc_id DmsEnterpriseInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#vpc_id DmsEnterpriseInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#timeouts DmsEnterpriseInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#timeouts DmsEnterpriseInstance#timeouts}
   */
   readonly timeouts?: DmsEnterpriseInstanceTimeouts;
 }
 export interface DmsEnterpriseInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#create DmsEnterpriseInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#create DmsEnterpriseInstance#create}
   */
   readonly create?: string;
 }
@@ -221,7 +221,7 @@ export class DmsEnterpriseInstanceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance alicloud_dms_enterprise_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance alicloud_dms_enterprise_instance}
 */
 export class DmsEnterpriseInstance extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class DmsEnterpriseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsEnterpriseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsEnterpriseInstance to import
-  * @param importFromId The id of the existing DmsEnterpriseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsEnterpriseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsEnterpriseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class DmsEnterpriseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_instance alicloud_dms_enterprise_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dms_enterprise_instance alicloud_dms_enterprise_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class DmsEnterpriseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dms_enterprise_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.264.0',
-        providerVersionConstraint: '1.264.0'
+        providerVersion: '1.265.0',
+        providerVersionConstraint: '1.265.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
